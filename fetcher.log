@@ -885,3 +885,42 @@ EOFError: EOF read where object expected
 [2023-06-10 01:17:21] INFO root fetch - processPackages [degirum]: Remove: archive file [/home/abi/fetcher/tmp/degirum-0.8.1-cp39-cp39-win_amd64.whl.zip]
 [2023-06-10 01:17:21] INFO root fetch - main [MainThread]: End processing [degirum]: success
 [2023-06-10 01:17:21] INFO root fetch - main [MainThread]: Store serial: [18446120]
+[2023-06-10 01:22:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18446120]
+[2023-06-10 01:22:29] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-10 01:22:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: archs4py
+[2023-06-10 01:22:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: benchling-api-client
+[2023-06-10 01:22:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PlanaPY
+[2023-06-10 01:22:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: winloop
+[2023-06-10 01:22:29] INFO root fetch - processPackages [archs4py]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-06-10 01:22:29] INFO root fetch - processPackages [PlanaPY]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-10 01:22:29] INFO root fetch - processPackages [winloop]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-10 01:22:29] INFO root fetch - processPackages [benchling-api-client]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-10 01:22:29] INFO root fetch - processPackages [archs4py]: Downloading https://files.pythonhosted.org/packages/89/d3/867108f23f744d17927dda31214f0601d09a434d7abf5403ed78d6a0ce58/archs4py-0.2.3.tar.gz
+[2023-06-10 01:22:30] INFO root fetch - processPackages [winloop]: Downloading https://files.pythonhosted.org/packages/19/ff/4ac401efbf5fc8d166052262918c9e55d29d5a7598c2f61f72241ec42fe3/winloop-0.0.1.tar.gz
+[2023-06-10 01:22:30] INFO root fetch - processPackages [PlanaPY]: Downloading https://files.pythonhosted.org/packages/8e/77/5e4f2d0d43c79cf2d43869b0acbc0a44a481354e97e4ac030622d741ac9c/PlanaPY-0.2.2.tar.gz
+[2023-06-10 01:22:30] INFO root fetch - processPackages [benchling-api-client]: Downloading https://files.pythonhosted.org/packages/ce/1d/9c3669396c4c52924ccf39a48a438a2c8167c4fb512eca865bd64066d33e/benchling_api_client-2.0.98.tar.gz
+[2023-06-10 01:22:30] INFO root fetch - processPackages [archs4py]: Downloading https://files.pythonhosted.org/packages/f7/27/3d68aa728219a8d0dfca2cb19f573b1aa895b6a0099acab4584fed9d56d9/archs4py-0.2.4.tar.gz
+[2023-06-10 01:22:30] INFO root fetch - processPackages [PlanaPY]: Downloading https://files.pythonhosted.org/packages/1a/48/ecb14ed4e1dad8a89379709beacb8a8258695c708fa4bf9f7b5b0391664e/PlanaPY-0.2.3.tar.gz
+[2023-06-10 01:22:30] INFO root fetch - processPackages [winloop]: Downloading https://files.pythonhosted.org/packages/14/68/86b59d9a3cb975f1418c51c99c7e4225caea52c8eb73c648265cc7747bdd/winloop-0.0.2-cp39-cp39-win_amd64.whl
+[2023-06-10 01:22:30] INFO root fetch - processPackages [archs4py]: executing diffoscope
+[2023-06-10 01:22:30] INFO root fetch - processPackages [archs4py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/archs4py-0.2.3.tar.gz tmp/archs4py-0.2.4.tar.gz --markdown 20230610/a/archs4py/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-06-10 01:22:30] INFO root fetch - processPackages [PlanaPY]: executing diffoscope
+[2023-06-10 01:22:30] INFO root fetch - processPackages [PlanaPY]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PlanaPY-0.2.2.tar.gz tmp/PlanaPY-0.2.3.tar.gz --markdown 20230610/P/PlanaPY/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-10 01:22:30] INFO root fetch - processPackages [benchling-api-client]: Downloading https://files.pythonhosted.org/packages/f9/23/649c2147d11c171b4b3d27c6a52dab32d22dc24ec1c248cf5d1dd8a4451d/benchling_api_client-2.0.99.tar.gz
+[2023-06-10 01:22:30] INFO root fetch - processPackages [winloop]: executing diffoscope
+[2023-06-10 01:22:30] INFO root fetch - processPackages [winloop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/winloop-0.0.1.tar.gz tmp/winloop-0.0.2-cp39-cp39-win_amd64.whl.zip --markdown 20230610/w/winloop/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-10 01:22:30] INFO root fetch - processPackages [benchling-api-client]: executing diffoscope
+[2023-06-10 01:22:30] INFO root fetch - processPackages [benchling-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benchling_api_client-2.0.98.tar.gz tmp/benchling_api_client-2.0.99.tar.gz --markdown 20230610/b/benchling-api-client/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-10 01:22:31] INFO root fetch - processPackages [PlanaPY]: Remove: archive file [/home/abi/fetcher/tmp/PlanaPY-0.2.2.tar.gz]
+[2023-06-10 01:22:31] INFO root fetch - processPackages [PlanaPY]: Remove: archive file [/home/abi/fetcher/tmp/PlanaPY-0.2.3.tar.gz]
+[2023-06-10 01:22:31] INFO root fetch - main [MainThread]: End processing [PlanaPY]: success
+[2023-06-10 01:22:31] INFO root fetch - processPackages [winloop]: Remove: archive file [/home/abi/fetcher/tmp/winloop-0.0.1.tar.gz]
+[2023-06-10 01:22:31] INFO root fetch - processPackages [winloop]: Remove: archive file [/home/abi/fetcher/tmp/winloop-0.0.2-cp39-cp39-win_amd64.whl.zip]
+[2023-06-10 01:22:31] INFO root fetch - main [MainThread]: End processing [winloop]: success
+[2023-06-10 01:22:31] INFO root fetch - processPackages [archs4py]: Remove: archive file [/home/abi/fetcher/tmp/archs4py-0.2.3.tar.gz]
+[2023-06-10 01:22:31] INFO root fetch - processPackages [archs4py]: Remove: archive file [/home/abi/fetcher/tmp/archs4py-0.2.4.tar.gz]
+[2023-06-10 01:22:31] INFO root fetch - main [MainThread]: End processing [archs4py]: success
+[2023-06-10 01:24:20] INFO root fetch - processPackages [benchling-api-client]: Remove: archive file [/home/abi/fetcher/tmp/benchling_api_client-2.0.98.tar.gz]
+[2023-06-10 01:24:20] INFO root fetch - processPackages [benchling-api-client]: Remove: archive file [/home/abi/fetcher/tmp/benchling_api_client-2.0.99.tar.gz]
+[2023-06-10 01:24:20] INFO root fetch - main [MainThread]: End processing [benchling-api-client]: success
+[2023-06-10 01:24:20] INFO root fetch - main [MainThread]: Store serial: [18446131]
