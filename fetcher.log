@@ -837,3 +837,51 @@ EOFError: EOF read where object expected
 [2023-06-10 01:12:08] INFO root fetch - processPackages [viser]: Remove: archive file [/home/abi/fetcher/tmp/viser-0.0.9.tar.gz]
 [2023-06-10 01:12:08] INFO root fetch - main [MainThread]: End processing [viser]: success
 [2023-06-10 01:12:08] INFO root fetch - main [MainThread]: Store serial: [18446095]
+[2023-06-10 01:17:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18446095]
+[2023-06-10 01:17:17] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-10 01:17:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-06-10 01:17:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bindata
+[2023-06-10 01:17:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: archs4py
+[2023-06-10 01:17:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: degirum
+[2023-06-10 01:17:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: neon-gui
+[2023-06-10 01:17:17] INFO root fetch - processPackages [degirum]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-06-10 01:17:17] INFO root fetch - processPackages [bindata]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-06-10 01:17:17] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.357] Old Version: [0.3.356]
+[2023-06-10 01:17:17] INFO root fetch - processPackages [archs4py]: New version: [0.2.3] Old Version: [0.2.1]
+[2023-06-10 01:17:17] INFO root fetch - processPackages [neon-gui]: New version: [1.1.3a6] Old Version: [1.1.3a5]
+[2023-06-10 01:17:17] INFO root fetch - processPackages [archs4py]: Downloading https://files.pythonhosted.org/packages/6d/61/c8c87062ddc6698b7e73efcdf7eb54bba3329626153c44f2302ac4afade8/archs4py-0.2.1.tar.gz
+[2023-06-10 01:17:17] INFO root fetch - processPackages [bindata]: Downloading https://files.pythonhosted.org/packages/fc/2d/52410eff70e659f2cff0594b2224467c76ae7784361b7527c27f7f336d87/bindata-0.9.4.tar.gz
+[2023-06-10 01:17:17] INFO root fetch - processPackages [neon-gui]: Downloading https://files.pythonhosted.org/packages/a7/d7/9d8be8876c39d103713e2a46a8c68c01e669afb8e9fa5dfa48b31c483c27/neon_gui-1.1.3a5-py3-none-any.whl
+[2023-06-10 01:17:17] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/af/39/1b46300ba7fb16c1428241ce2dbbfaa755b056a34cb0a14384baca47d783/pepperize.cdk-ses-smtp-credentials-0.3.356.tar.gz
+[2023-06-10 01:17:17] INFO root fetch - processPackages [degirum]: Downloading https://files.pythonhosted.org/packages/4f/7c/b5dbc793cd0050b53ca6ea36317ef8a3b1904cce89853121dc3e40a480c3/degirum-0.8.0-cp39-cp39-win_amd64.whl
+[2023-06-10 01:17:17] INFO root fetch - processPackages [bindata]: Downloading https://files.pythonhosted.org/packages/6c/bd/ff2abaca655a6921d8379969bbdb3671618f8af381bbd317ef23cc8f50c3/bindata-0.9.5.tar.gz
+[2023-06-10 01:17:17] INFO root fetch - processPackages [archs4py]: Downloading https://files.pythonhosted.org/packages/89/d3/867108f23f744d17927dda31214f0601d09a434d7abf5403ed78d6a0ce58/archs4py-0.2.3.tar.gz
+[2023-06-10 01:17:17] INFO root fetch - processPackages [archs4py]: executing diffoscope
+[2023-06-10 01:17:17] INFO root fetch - processPackages [archs4py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/archs4py-0.2.1.tar.gz tmp/archs4py-0.2.3.tar.gz --markdown 20230610/a/archs4py/0.2.1-0.2.3/diff.md --exclude *.pyd
+[2023-06-10 01:17:17] INFO root fetch - processPackages [bindata]: executing diffoscope
+[2023-06-10 01:17:17] INFO root fetch - processPackages [bindata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bindata-0.9.4.tar.gz tmp/bindata-0.9.5.tar.gz --markdown 20230610/b/bindata/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-06-10 01:17:17] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/f9/56/17c0cf892ea0d3212b259fcabd94067f0c4e0c063d98d9ce17bcef29f94c/pepperize.cdk-ses-smtp-credentials-0.3.357.tar.gz
+[2023-06-10 01:17:17] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-06-10 01:17:17] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.356.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.357.tar.gz --markdown 20230610/p/pepperize.cdk-ses-smtp-credentials/0.3.356-0.3.357/diff.md --exclude *.pyd
+[2023-06-10 01:17:17] INFO root fetch - processPackages [neon-gui]: Downloading https://files.pythonhosted.org/packages/c4/47/31d1d3e28bd45705077adac2630b0e0f499d3f0cca89496a551ac6656840/neon_gui-1.1.3a6-py3-none-any.whl
+[2023-06-10 01:17:18] INFO root fetch - processPackages [neon-gui]: executing diffoscope
+[2023-06-10 01:17:18] INFO root fetch - processPackages [neon-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_gui-1.1.3a5-py3-none-any.whl.zip tmp/neon_gui-1.1.3a6-py3-none-any.whl.zip --markdown 20230610/n/neon-gui/1.1.3a5-1.1.3a6/diff.md --exclude *.pyd
+[2023-06-10 01:17:18] INFO root fetch - processPackages [degirum]: Downloading https://files.pythonhosted.org/packages/e3/13/4289780d467c0506af31af1fc49d6fcb958f908402d651206c774c5027ed/degirum-0.8.1-cp39-cp39-win_amd64.whl
+[2023-06-10 01:17:18] INFO root fetch - processPackages [archs4py]: Remove: archive file [/home/abi/fetcher/tmp/archs4py-0.2.1.tar.gz]
+[2023-06-10 01:17:18] INFO root fetch - processPackages [archs4py]: Remove: archive file [/home/abi/fetcher/tmp/archs4py-0.2.3.tar.gz]
+[2023-06-10 01:17:18] INFO root fetch - main [MainThread]: End processing [archs4py]: success
+[2023-06-10 01:17:18] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.356.tar.gz]
+[2023-06-10 01:17:18] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.357.tar.gz]
+[2023-06-10 01:17:18] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-06-10 01:17:18] INFO root fetch - processPackages [degirum]: executing diffoscope
+[2023-06-10 01:17:18] INFO root fetch - processPackages [degirum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/degirum-0.8.0-cp39-cp39-win_amd64.whl.zip tmp/degirum-0.8.1-cp39-cp39-win_amd64.whl.zip --markdown 20230610/d/degirum/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-06-10 01:17:19] INFO root fetch - processPackages [neon-gui]: Remove: archive file [/home/abi/fetcher/tmp/neon_gui-1.1.3a5-py3-none-any.whl.zip]
+[2023-06-10 01:17:19] INFO root fetch - processPackages [neon-gui]: Remove: archive file [/home/abi/fetcher/tmp/neon_gui-1.1.3a6-py3-none-any.whl.zip]
+[2023-06-10 01:17:19] INFO root fetch - main [MainThread]: End processing [neon-gui]: success
+[2023-06-10 01:17:19] INFO root fetch - processPackages [bindata]: Remove: archive file [/home/abi/fetcher/tmp/bindata-0.9.4.tar.gz]
+[2023-06-10 01:17:19] INFO root fetch - processPackages [bindata]: Remove: archive file [/home/abi/fetcher/tmp/bindata-0.9.5.tar.gz]
+[2023-06-10 01:17:19] INFO root fetch - main [MainThread]: End processing [bindata]: success
+[2023-06-10 01:17:21] INFO root fetch - processPackages [degirum]: Remove: archive file [/home/abi/fetcher/tmp/degirum-0.8.0-cp39-cp39-win_amd64.whl.zip]
+[2023-06-10 01:17:21] INFO root fetch - processPackages [degirum]: Remove: archive file [/home/abi/fetcher/tmp/degirum-0.8.1-cp39-cp39-win_amd64.whl.zip]
+[2023-06-10 01:17:21] INFO root fetch - main [MainThread]: End processing [degirum]: success
+[2023-06-10 01:17:21] INFO root fetch - main [MainThread]: Store serial: [18446120]
