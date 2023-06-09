@@ -355,3 +355,92 @@ EOFError: EOF read where object expected
 
 [2023-06-10 00:26:35] INFO root fetch - main [MainThread]: End processing [amplitude-experiment] error
 [2023-06-10 00:26:35] INFO root fetch - main [MainThread]: Store serial: [18445840]
+[2023-06-10 00:31:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18445840]
+[2023-06-10 00:31:45] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-10 00:31:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fusion-engine-client
+[2023-06-10 00:31:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tapipy
+[2023-06-10 00:31:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sidetrek
+[2023-06-10 00:31:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yatracker-linker
+[2023-06-10 00:31:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: restbl
+[2023-06-10 00:31:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: EnergyCapSdk
+[2023-06-10 00:31:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: officetools
+[2023-06-10 00:31:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fastestimator-nightly
+[2023-06-10 00:31:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: velesresearch
+[2023-06-10 00:31:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: custom-diffusion
+[2023-06-10 00:31:45] INFO root fetch - processPackages [restbl]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-10 00:31:45] INFO root fetch - processPackages [yatracker-linker]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-06-10 00:31:45] INFO root fetch - processPackages [officetools]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-10 00:31:45] INFO root fetch - processPackages [sidetrek]: New version: [0.0.97] Old Version: [0.0.96]
+[2023-06-10 00:31:45] INFO root fetch - processPackages [velesresearch]: New version: [0.0.post4] Old Version: [0.0.4]
+[2023-06-10 00:31:45] INFO root fetch - processPackages [fusion-engine-client]: New version: [1.20.0rc2] Old Version: [1.20.0rc1]
+[2023-06-10 00:31:45] INFO root fetch - processPackages [tapipy]: New version: [1.4.0a6] Old Version: [1.4.0a5]
+[2023-06-10 00:31:45] INFO root fetch - processPackages [custom-diffusion]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-10 00:31:45] INFO root fetch - processPackages [EnergyCapSdk]: New version: [8.2304.4591] Old Version: [8.2304.4590]
+[2023-06-10 00:31:45] INFO root fetch - processPackages [custom-diffusion]: Downloading https://files.pythonhosted.org/packages/d6/e3/db67a230f0bd4b8590362285da2d528450b2fac26f1c34dee43b8c8ba0d0/custom_diffusion-0.0.6.tar.gz
+[2023-06-10 00:31:45] INFO root fetch - processPackages [EnergyCapSdk]: Downloading https://files.pythonhosted.org/packages/a7/d0/4fc96c0015e8fa50bd29eff85dce67a89ee542cffa586772dbd60297e0fc/EnergyCapSdk-8.2304.4590.tar.gz
+[2023-06-10 00:31:45] INFO root fetch - processPackages [fastestimator-nightly]: New version: [1.6.0.dev202306092229] Old Version: [1.6.0.dev202306071349]
+[2023-06-10 00:31:45] INFO root fetch - processPackages [yatracker-linker]: Downloading https://files.pythonhosted.org/packages/ba/b1/e3f8b9f8876ffcb0c99c6e71affad333d5692cbd7fccb0ccb21c99796bbe/yatracker_linker-0.3.6.tar.gz
+[2023-06-10 00:31:45] INFO root fetch - processPackages [fusion-engine-client]: Downloading https://files.pythonhosted.org/packages/c0/bd/ed4dfc2ba868b904164b90dc0ded0647a2570a37ac773115dcb17818dc5d/fusion-engine-client-1.20.0rc1.tar.gz
+[2023-06-10 00:31:45] INFO root fetch - processPackages [restbl]: Downloading https://files.pythonhosted.org/packages/b9/7b/bf372c2a5c4b7771ab539930e2f0ddd8c4eb4d892f8ea3cd057a23175f40/restbl-0.1.0.tar.gz
+[2023-06-10 00:31:45] INFO root fetch - processPackages [officetools]: Downloading https://files.pythonhosted.org/packages/ba/18/b1a8b369829644808ca1108d57f99db59ab77d98735783770ead314c5f8a/officetools-0.0.1.tar.gz
+[2023-06-10 00:31:45] INFO root fetch - processPackages [sidetrek]: Downloading https://files.pythonhosted.org/packages/d4/66/b68c5f25012349d7f174afa8a693497d3b3c4a27bb6d0abfa573b6ba85bf/sidetrek-0.0.96.tar.gz
+[2023-06-10 00:31:45] INFO root fetch - processPackages [velesresearch]: Downloading https://files.pythonhosted.org/packages/06/c6/2c00ab7dbb9a81cbd125494b694fea3b79b968741d8952ca52bdbf9ef3d1/velesresearch-0.0.4.tar.gz
+[2023-06-10 00:31:45] INFO root fetch - processPackages [tapipy]: Downloading https://files.pythonhosted.org/packages/39/8d/2c36f4f49dfb5437f0477f27d7c7802a877d19ccf6d11c3c7152115dd145/tapipy-1.4.0a5.tar.gz
+[2023-06-10 00:31:45] INFO root fetch - processPackages [fastestimator-nightly]: Downloading https://files.pythonhosted.org/packages/d0/ea/10d13d12014209c048b3641c973b0afb5c8ddc573dd64ad7c2f77bcd0b4b/fastestimator-nightly-1.6.0.dev202306071349.tar.gz
+[2023-06-10 00:31:45] INFO root fetch - processPackages [EnergyCapSdk]: Downloading https://files.pythonhosted.org/packages/a0/9f/1a9e0de56d88b522472bd3e0dedf2b64c1bd5beb3429f299d5c4308a836f/EnergyCapSdk-8.2304.4591.tar.gz
+[2023-06-10 00:31:45] INFO root fetch - processPackages [custom-diffusion]: Downloading https://files.pythonhosted.org/packages/8f/84/bd267944a47b303a48df7ab95b47eb71b7ec0f36c5a58f87f4e49b8c35bb/custom_diffusion-0.0.7.tar.gz
+[2023-06-10 00:31:45] INFO root fetch - processPackages [yatracker-linker]: Downloading https://files.pythonhosted.org/packages/a9/36/21ae5c2dd8d2ed2ac5d6a76b46a0b0ea60f915eafaebe084aefe8279d1b5/yatracker_linker-0.3.7.tar.gz
+[2023-06-10 00:31:45] ERROR root fetch - processPackages [velesresearch]: Unable to fetch info: No such project/version 'velesresearch' 0.0.post4
+[2023-06-10 00:31:45] INFO root fetch - main [MainThread]: End processing [velesresearch] error
+[2023-06-10 00:31:45] INFO root fetch - processPackages [officetools]: Downloading https://files.pythonhosted.org/packages/b2/06/4e2bae0b0965ffaaeb8dfdc589656de9023cea3529338813ab7dbecc356a/officetools-0.0.2.tar.gz
+[2023-06-10 00:31:45] INFO root fetch - processPackages [sidetrek]: Downloading https://files.pythonhosted.org/packages/0c/f7/5e9032200f2c23fc8fd488a73c91b03eff031cb9ccc88211176fb5ff8fa2/sidetrek-0.0.97.tar.gz
+[2023-06-10 00:31:46] INFO root fetch - processPackages [yatracker-linker]: executing diffoscope
+[2023-06-10 00:31:46] INFO root fetch - processPackages [yatracker-linker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yatracker_linker-0.3.6.tar.gz tmp/yatracker_linker-0.3.7.tar.gz --markdown 20230610/y/yatracker-linker/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-06-10 00:31:46] INFO root fetch - processPackages [EnergyCapSdk]: executing diffoscope
+[2023-06-10 00:31:46] INFO root fetch - processPackages [EnergyCapSdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EnergyCapSdk-8.2304.4590.tar.gz tmp/EnergyCapSdk-8.2304.4591.tar.gz --markdown 20230610/E/EnergyCapSdk/8.2304.4590-8.2304.4591/diff.md --exclude *.pyd
+[2023-06-10 00:31:46] INFO root fetch - processPackages [tapipy]: Downloading https://files.pythonhosted.org/packages/25/f5/93818109ef96f43da2a89c53c1a1326b9ca95de5315a280cba175feb94fb/tapipy-1.4.0a6.tar.gz
+[2023-06-10 00:31:46] INFO root fetch - processPackages [officetools]: executing diffoscope
+[2023-06-10 00:31:46] INFO root fetch - processPackages [officetools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/officetools-0.0.1.tar.gz tmp/officetools-0.0.2.tar.gz --markdown 20230610/o/officetools/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-10 00:31:46] INFO root fetch - processPackages [restbl]: Downloading https://files.pythonhosted.org/packages/8f/20/37431b2d9b8e8be4cf24f39ad615adb7d52b2f9170342e3fd28ca7b1ad0a/restbl-0.1.1.tar.gz
+[2023-06-10 00:31:46] INFO root fetch - processPackages [fastestimator-nightly]: Downloading https://files.pythonhosted.org/packages/b9/4b/bbf988bcc08295a3cace386a98d16ec7743bf890c198fc05344396084c24/fastestimator-nightly-1.6.0.dev202306092229.tar.gz
+[2023-06-10 00:31:46] INFO root fetch - processPackages [fusion-engine-client]: Downloading https://files.pythonhosted.org/packages/d2/02/7ef2b4f3bda4e64751922ae719787cfb7f594e890e9a64c806401732e8d4/fusion-engine-client-1.20.0rc2.tar.gz
+[2023-06-10 00:31:46] INFO root fetch - processPackages [sidetrek]: executing diffoscope
+[2023-06-10 00:31:46] INFO root fetch - processPackages [sidetrek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sidetrek-0.0.96.tar.gz tmp/sidetrek-0.0.97.tar.gz --markdown 20230610/s/sidetrek/0.0.96-0.0.97/diff.md --exclude *.pyd
+[2023-06-10 00:31:46] INFO root fetch - processPackages [custom-diffusion]: executing diffoscope
+[2023-06-10 00:31:46] INFO root fetch - processPackages [custom-diffusion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/custom_diffusion-0.0.6.tar.gz tmp/custom_diffusion-0.0.7.tar.gz --markdown 20230610/c/custom-diffusion/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-10 00:31:46] INFO root fetch - processPackages [tapipy]: executing diffoscope
+[2023-06-10 00:31:46] INFO root fetch - processPackages [tapipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tapipy-1.4.0a5.tar.gz tmp/tapipy-1.4.0a6.tar.gz --markdown 20230610/t/tapipy/1.4.0a5-1.4.0a6/diff.md --exclude *.pyd
+[2023-06-10 00:31:46] INFO root fetch - processPackages [fusion-engine-client]: executing diffoscope
+[2023-06-10 00:31:46] INFO root fetch - processPackages [fusion-engine-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fusion-engine-client-1.20.0rc1.tar.gz tmp/fusion-engine-client-1.20.0rc2.tar.gz --markdown 20230610/f/fusion-engine-client/1.20.0rc1-1.20.0rc2/diff.md --exclude *.pyd
+[2023-06-10 00:31:46] INFO root fetch - processPackages [restbl]: executing diffoscope
+[2023-06-10 00:31:46] INFO root fetch - processPackages [restbl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/restbl-0.1.0.tar.gz tmp/restbl-0.1.1.tar.gz --markdown 20230610/r/restbl/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-10 00:31:46] INFO root fetch - processPackages [fastestimator-nightly]: executing diffoscope
+[2023-06-10 00:31:46] INFO root fetch - processPackages [fastestimator-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastestimator-nightly-1.6.0.dev202306071349.tar.gz tmp/fastestimator-nightly-1.6.0.dev202306092229.tar.gz --markdown 20230610/f/fastestimator-nightly/1.6.0.dev202306071349-1.6.0.dev202306092229/diff.md --exclude *.pyd
+[2023-06-10 00:31:47] INFO root fetch - processPackages [officetools]: Remove: archive file [/home/abi/fetcher/tmp/officetools-0.0.1.tar.gz]
+[2023-06-10 00:31:47] INFO root fetch - processPackages [officetools]: Remove: archive file [/home/abi/fetcher/tmp/officetools-0.0.2.tar.gz]
+[2023-06-10 00:31:47] INFO root fetch - main [MainThread]: End processing [officetools]: success
+[2023-06-10 00:31:47] INFO root fetch - processPackages [yatracker-linker]: Remove: archive file [/home/abi/fetcher/tmp/yatracker_linker-0.3.6.tar.gz]
+[2023-06-10 00:31:47] INFO root fetch - processPackages [yatracker-linker]: Remove: archive file [/home/abi/fetcher/tmp/yatracker_linker-0.3.7.tar.gz]
+[2023-06-10 00:31:47] INFO root fetch - main [MainThread]: End processing [yatracker-linker]: success
+[2023-06-10 00:31:47] INFO root fetch - processPackages [sidetrek]: Remove: archive file [/home/abi/fetcher/tmp/sidetrek-0.0.96.tar.gz]
+[2023-06-10 00:31:47] INFO root fetch - processPackages [sidetrek]: Remove: archive file [/home/abi/fetcher/tmp/sidetrek-0.0.97.tar.gz]
+[2023-06-10 00:31:47] INFO root fetch - main [MainThread]: End processing [sidetrek]: success
+[2023-06-10 00:31:47] INFO root fetch - processPackages [tapipy]: Remove: archive file [/home/abi/fetcher/tmp/tapipy-1.4.0a5.tar.gz]
+[2023-06-10 00:31:47] INFO root fetch - processPackages [tapipy]: Remove: archive file [/home/abi/fetcher/tmp/tapipy-1.4.0a6.tar.gz]
+[2023-06-10 00:31:47] INFO root fetch - main [MainThread]: End processing [tapipy]: success
+[2023-06-10 00:31:47] INFO root fetch - processPackages [custom-diffusion]: Remove: archive file [/home/abi/fetcher/tmp/custom_diffusion-0.0.6.tar.gz]
+[2023-06-10 00:31:47] INFO root fetch - processPackages [custom-diffusion]: Remove: archive file [/home/abi/fetcher/tmp/custom_diffusion-0.0.7.tar.gz]
+[2023-06-10 00:31:47] INFO root fetch - main [MainThread]: End processing [custom-diffusion]: success
+[2023-06-10 00:31:49] INFO root fetch - processPackages [fusion-engine-client]: Remove: archive file [/home/abi/fetcher/tmp/fusion-engine-client-1.20.0rc1.tar.gz]
+[2023-06-10 00:31:49] INFO root fetch - processPackages [fusion-engine-client]: Remove: archive file [/home/abi/fetcher/tmp/fusion-engine-client-1.20.0rc2.tar.gz]
+[2023-06-10 00:31:49] INFO root fetch - main [MainThread]: End processing [fusion-engine-client]: success
+[2023-06-10 00:31:54] INFO root fetch - processPackages [restbl]: Remove: archive file [/home/abi/fetcher/tmp/restbl-0.1.0.tar.gz]
+[2023-06-10 00:31:54] INFO root fetch - processPackages [restbl]: Remove: archive file [/home/abi/fetcher/tmp/restbl-0.1.1.tar.gz]
+[2023-06-10 00:31:54] INFO root fetch - main [MainThread]: End processing [restbl]: success
+[2023-06-10 00:31:55] INFO root fetch - processPackages [fastestimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/fastestimator-nightly-1.6.0.dev202306071349.tar.gz]
+[2023-06-10 00:31:55] INFO root fetch - processPackages [fastestimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/fastestimator-nightly-1.6.0.dev202306092229.tar.gz]
+[2023-06-10 00:31:55] INFO root fetch - main [MainThread]: End processing [fastestimator-nightly]: success
+[2023-06-10 00:32:19] INFO root fetch - processPackages [EnergyCapSdk]: Remove: archive file [/home/abi/fetcher/tmp/EnergyCapSdk-8.2304.4590.tar.gz]
+[2023-06-10 00:32:19] INFO root fetch - processPackages [EnergyCapSdk]: Remove: archive file [/home/abi/fetcher/tmp/EnergyCapSdk-8.2304.4591.tar.gz]
+[2023-06-10 00:32:19] INFO root fetch - main [MainThread]: End processing [EnergyCapSdk]: success
+[2023-06-10 00:32:19] INFO root fetch - main [MainThread]: Store serial: [18445941]
