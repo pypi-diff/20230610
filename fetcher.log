@@ -444,3 +444,95 @@ EOFError: EOF read where object expected
 [2023-06-10 00:32:19] INFO root fetch - processPackages [EnergyCapSdk]: Remove: archive file [/home/abi/fetcher/tmp/EnergyCapSdk-8.2304.4591.tar.gz]
 [2023-06-10 00:32:19] INFO root fetch - main [MainThread]: End processing [EnergyCapSdk]: success
 [2023-06-10 00:32:19] INFO root fetch - main [MainThread]: Store serial: [18445941]
+[2023-06-10 00:37:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18445941]
+[2023-06-10 00:37:28] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-10 00:37:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lumaconf
+[2023-06-10 00:37:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: velesresearch
+[2023-06-10 00:37:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rotspectools
+[2023-06-10 00:37:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: netbox-cisco-maintenance
+[2023-06-10 00:37:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: circuitpython-ps2controller
+[2023-06-10 00:37:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: multitrackpro
+[2023-06-10 00:37:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyhalo
+[2023-06-10 00:37:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: se-lib
+[2023-06-10 00:37:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: moptipyapps
+[2023-06-10 00:37:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: momento
+[2023-06-10 00:37:29] INFO root fetch - processPackages [lumaconf]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-10 00:37:29] INFO root fetch - processPackages [rotspectools]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-10 00:37:29] INFO root fetch - processPackages [se-lib]: New version: [0.26.9] Old Version: [0.26.8]
+[2023-06-10 00:37:29] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-10 00:37:29] INFO root fetch - processPackages [velesresearch]: New version: [0.0.4.post1] Old Version: [0.0.4]
+[2023-06-10 00:37:29] INFO root fetch - processPackages [se-lib]: Downloading https://files.pythonhosted.org/packages/e9/95/2e52c1e7f6a6e93cd41ec87de9479dc832755597114c0a60f0dff27f722b/se_lib-0.26.8.tar.gz
+[2023-06-10 00:37:29] INFO root fetch - processPackages [circuitpython-ps2controller]: New version: [1.2.0] Old Version: [1.1.2]
+[2023-06-10 00:37:29] INFO root fetch - processPackages [pyhalo]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-06-10 00:37:29] INFO root fetch - processPackages [multitrackpro]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-10 00:37:29] INFO root fetch - processPackages [momento]: New version: [1.6.0] Old Version: [1.5.2]
+[2023-06-10 00:37:29] INFO root fetch - processPackages [moptipyapps]: New version: [0.8.4] Old Version: [0.8.3]
+[2023-06-10 00:37:29] INFO root fetch - processPackages [lumaconf]: Downloading https://files.pythonhosted.org/packages/f3/ca/21c8665fab7d280ca16b8b867636ef61ad50a88ca6048cad52b60826fe7d/lumaconf-0.0.1-py3-none-any.whl
+[2023-06-10 00:37:29] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/49/9b/a1c0c74911cdf52ff01e40ea24fa7dd8c615a41dbbdae40f076bf871e18c/netbox-cisco-maintenance-0.0.98.tar.gz
+[2023-06-10 00:37:29] INFO root fetch - processPackages [velesresearch]: Downloading https://files.pythonhosted.org/packages/9c/33/f20f4429f2ca27259bb3a4d21e7e43e12a27be5a753a409d9f56814ef05d/velesresearch-0.0.4.post1.tar.gz
+[2023-06-10 00:37:29] INFO root fetch - processPackages [rotspectools]: Downloading https://files.pythonhosted.org/packages/d9/e6/4d75678bb763cb916d0478dfc650a6710e7afbe52f7d5c5367a7f5874be1/rotspectools-0.1.0.tar.gz
+[2023-06-10 00:37:29] INFO root fetch - processPackages [se-lib]: Downloading https://files.pythonhosted.org/packages/ff/bd/5617874bf3d2bc0759da80fe7d267ae90303eb5e2a032d8566f5cae47e43/se_lib-0.26.9.tar.gz
+[2023-06-10 00:37:29] INFO root fetch - processPackages [velesresearch]: executing diffoscope
+[2023-06-10 00:37:29] INFO root fetch - processPackages [velesresearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/velesresearch-0.0.4.tar.gz tmp/velesresearch-0.0.4.post1.tar.gz --markdown 20230610/v/velesresearch/0.0.4-0.0.4.post1/diff.md --exclude *.pyd
+[2023-06-10 00:37:29] INFO root fetch - processPackages [pyhalo]: Downloading https://files.pythonhosted.org/packages/5c/8a/250c0d5f891da15e35e58411f8976300243406389ff20100dca88d7d0ac1/pyhalo-0.2.5.tar.gz
+[2023-06-10 00:37:29] INFO root fetch - processPackages [lumaconf]: Downloading https://files.pythonhosted.org/packages/a2/96/b4224547ffee32e9e2e36492d37d3006dda3b46ed01f5e5b6a5b48c8f3e7/lumaconf-0.0.2-py3-none-any.whl
+[2023-06-10 00:37:29] INFO root fetch - processPackages [circuitpython-ps2controller]: Downloading https://files.pythonhosted.org/packages/a4/2c/82b452f6d13f57ef8334a5f622263859784f6c1bacbad8233897729bc471/circuitpython-ps2controller-1.1.2.tar.gz
+[2023-06-10 00:37:29] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/36/61/db227025ce63809f803a3fe44062bf026321f24f9aa12a99bf348ae574ca/netbox-cisco-maintenance-0.0.99.tar.gz
+[2023-06-10 00:37:29] INFO root fetch - processPackages [se-lib]: executing diffoscope
+[2023-06-10 00:37:29] INFO root fetch - processPackages [se-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/se_lib-0.26.8.tar.gz tmp/se_lib-0.26.9.tar.gz --markdown 20230610/s/se-lib/0.26.8-0.26.9/diff.md --exclude *.pyd
+[2023-06-10 00:37:29] INFO root fetch - processPackages [momento]: Downloading https://files.pythonhosted.org/packages/0b/55/55f8b754fa394017ecfeb8274122e677a7f03bc49fc6722fe84cb09869cb/momento-1.5.2.tar.gz
+[2023-06-10 00:37:29] INFO root fetch - processPackages [moptipyapps]: Downloading https://files.pythonhosted.org/packages/c8/9e/185ca4b85801bb17f79744f4ff1461170cb2d01d3127ea6fd26f1cdd78bd/moptipyapps-0.8.3.tar.gz
+[2023-06-10 00:37:29] INFO root fetch - processPackages [multitrackpro]: Downloading https://files.pythonhosted.org/packages/3b/e1/21f88b5a117d1382ee258d0f53e7ed5aed09965a99990137c5d805d92107/multitrackpro-0.1.0.tar.gz
+[2023-06-10 00:37:29] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-06-10 00:37:29] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.98.tar.gz tmp/netbox-cisco-maintenance-0.0.99.tar.gz --markdown 20230610/n/netbox-cisco-maintenance/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-10 00:37:29] INFO root fetch - processPackages [lumaconf]: executing diffoscope
+[2023-06-10 00:37:29] INFO root fetch - processPackages [lumaconf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lumaconf-0.0.1-py3-none-any.whl.zip tmp/lumaconf-0.0.2-py3-none-any.whl.zip --markdown 20230610/l/lumaconf/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-10 00:37:29] INFO root fetch - processPackages [rotspectools]: Downloading https://files.pythonhosted.org/packages/ea/ca/6212e8d4e659e6af8e812fa1b6209f04c92d9cbf64a19778a70f1bc90c71/rotspectools-0.1.1.tar.gz
+[2023-06-10 00:37:29] INFO root fetch - processPackages [circuitpython-ps2controller]: Downloading https://files.pythonhosted.org/packages/c2/e7/6fe6fbb701f59a3fb68609fbe0d5fead468052305c918e7bcc64b2682582/circuitpython-ps2controller-1.2.0.tar.gz
+[2023-06-10 00:37:29] INFO root fetch - processPackages [rotspectools]: executing diffoscope
+[2023-06-10 00:37:29] INFO root fetch - processPackages [rotspectools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rotspectools-0.1.0.tar.gz tmp/rotspectools-0.1.1.tar.gz --markdown 20230610/r/rotspectools/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-10 00:37:29] INFO root fetch - processPackages [pyhalo]: Downloading https://files.pythonhosted.org/packages/2a/5b/e8aa697b164260448f43ad2945acb5f07cb9c8f84aff791465bb2b3fcfb7/pyhalo-0.2.6.tar.gz
+[2023-06-10 00:37:29] INFO root fetch - processPackages [circuitpython-ps2controller]: executing diffoscope
+[2023-06-10 00:37:29] INFO root fetch - processPackages [circuitpython-ps2controller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/circuitpython-ps2controller-1.1.2.tar.gz tmp/circuitpython-ps2controller-1.2.0.tar.gz --markdown 20230610/c/circuitpython-ps2controller/1.1.2-1.2.0/diff.md --exclude *.pyd
+[2023-06-10 00:37:29] INFO root fetch - processPackages [multitrackpro]: Downloading https://files.pythonhosted.org/packages/88/84/f0c3b70b31569fdbd0ed20a1f4cd9b2f36f78600e889b2185d06bea13c35/multitrackpro-0.1.1.tar.gz
+[2023-06-10 00:37:29] INFO root fetch - processPackages [momento]: Downloading https://files.pythonhosted.org/packages/d3/06/12ee7d277dd1ce45cfcd0f0a3b2b5d1c0ded6b52afaef04c8849e8baf78c/momento-1.6.0.tar.gz
+[2023-06-10 00:37:29] INFO root fetch - processPackages [pyhalo]: executing diffoscope
+[2023-06-10 00:37:29] INFO root fetch - processPackages [pyhalo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhalo-0.2.5.tar.gz tmp/pyhalo-0.2.6.tar.gz --markdown 20230610/p/pyhalo/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-06-10 00:37:29] INFO root fetch - processPackages [multitrackpro]: executing diffoscope
+[2023-06-10 00:37:29] INFO root fetch - processPackages [multitrackpro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multitrackpro-0.1.0.tar.gz tmp/multitrackpro-0.1.1.tar.gz --markdown 20230610/m/multitrackpro/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-10 00:37:29] INFO root fetch - processPackages [momento]: executing diffoscope
+[2023-06-10 00:37:29] INFO root fetch - processPackages [momento]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/momento-1.5.2.tar.gz tmp/momento-1.6.0.tar.gz --markdown 20230610/m/momento/1.5.2-1.6.0/diff.md --exclude *.pyd
+[2023-06-10 00:37:30] INFO root fetch - processPackages [moptipyapps]: Downloading https://files.pythonhosted.org/packages/34/72/9b4869adee6e3783be1570c124adef38a9fce5375eb2cd7b5ec6daed538c/moptipyapps-0.8.4.tar.gz
+[2023-06-10 00:37:30] INFO root fetch - processPackages [moptipyapps]: executing diffoscope
+[2023-06-10 00:37:30] INFO root fetch - processPackages [moptipyapps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moptipyapps-0.8.3.tar.gz tmp/moptipyapps-0.8.4.tar.gz --markdown 20230610/m/moptipyapps/0.8.3-0.8.4/diff.md --exclude *.pyd
+[2023-06-10 00:37:30] INFO root fetch - processPackages [lumaconf]: Remove: archive file [/home/abi/fetcher/tmp/lumaconf-0.0.1-py3-none-any.whl.zip]
+[2023-06-10 00:37:30] INFO root fetch - processPackages [lumaconf]: Remove: archive file [/home/abi/fetcher/tmp/lumaconf-0.0.2-py3-none-any.whl.zip]
+[2023-06-10 00:37:30] INFO root fetch - main [MainThread]: End processing [lumaconf]: success
+[2023-06-10 00:37:30] INFO root fetch - processPackages [rotspectools]: Remove: archive file [/home/abi/fetcher/tmp/rotspectools-0.1.0.tar.gz]
+[2023-06-10 00:37:30] INFO root fetch - processPackages [rotspectools]: Remove: archive file [/home/abi/fetcher/tmp/rotspectools-0.1.1.tar.gz]
+[2023-06-10 00:37:31] INFO root fetch - main [MainThread]: End processing [rotspectools]: success
+[2023-06-10 00:37:31] INFO root fetch - processPackages [velesresearch]: Remove: archive file [/home/abi/fetcher/tmp/velesresearch-0.0.4.tar.gz]
+[2023-06-10 00:37:31] INFO root fetch - processPackages [velesresearch]: Remove: archive file [/home/abi/fetcher/tmp/velesresearch-0.0.4.post1.tar.gz]
+[2023-06-10 00:37:31] INFO root fetch - main [MainThread]: End processing [velesresearch]: success
+[2023-06-10 00:37:31] INFO root fetch - processPackages [se-lib]: Remove: archive file [/home/abi/fetcher/tmp/se_lib-0.26.8.tar.gz]
+[2023-06-10 00:37:31] INFO root fetch - processPackages [se-lib]: Remove: archive file [/home/abi/fetcher/tmp/se_lib-0.26.9.tar.gz]
+[2023-06-10 00:37:31] INFO root fetch - main [MainThread]: End processing [se-lib]: success
+[2023-06-10 00:37:31] INFO root fetch - processPackages [multitrackpro]: Remove: archive file [/home/abi/fetcher/tmp/multitrackpro-0.1.0.tar.gz]
+[2023-06-10 00:37:31] INFO root fetch - processPackages [multitrackpro]: Remove: archive file [/home/abi/fetcher/tmp/multitrackpro-0.1.1.tar.gz]
+[2023-06-10 00:37:31] INFO root fetch - main [MainThread]: End processing [multitrackpro]: success
+[2023-06-10 00:37:31] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.98.tar.gz]
+[2023-06-10 00:37:31] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.99.tar.gz]
+[2023-06-10 00:37:31] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-06-10 00:37:31] INFO root fetch - processPackages [momento]: Remove: archive file [/home/abi/fetcher/tmp/momento-1.5.2.tar.gz]
+[2023-06-10 00:37:31] INFO root fetch - processPackages [momento]: Remove: archive file [/home/abi/fetcher/tmp/momento-1.6.0.tar.gz]
+[2023-06-10 00:37:31] INFO root fetch - main [MainThread]: End processing [momento]: success
+[2023-06-10 00:37:31] INFO root fetch - processPackages [circuitpython-ps2controller]: Remove: archive file [/home/abi/fetcher/tmp/circuitpython-ps2controller-1.1.2.tar.gz]
+[2023-06-10 00:37:31] INFO root fetch - processPackages [circuitpython-ps2controller]: Remove: archive file [/home/abi/fetcher/tmp/circuitpython-ps2controller-1.2.0.tar.gz]
+[2023-06-10 00:37:31] INFO root fetch - main [MainThread]: End processing [circuitpython-ps2controller]: success
+[2023-06-10 00:37:32] INFO root fetch - processPackages [pyhalo]: Remove: archive file [/home/abi/fetcher/tmp/pyhalo-0.2.5.tar.gz]
+[2023-06-10 00:37:32] INFO root fetch - processPackages [pyhalo]: Remove: archive file [/home/abi/fetcher/tmp/pyhalo-0.2.6.tar.gz]
+[2023-06-10 00:37:32] INFO root fetch - main [MainThread]: End processing [pyhalo]: success
+[2023-06-10 00:37:33] INFO root fetch - processPackages [moptipyapps]: Remove: archive file [/home/abi/fetcher/tmp/moptipyapps-0.8.3.tar.gz]
+[2023-06-10 00:37:33] INFO root fetch - processPackages [moptipyapps]: Remove: archive file [/home/abi/fetcher/tmp/moptipyapps-0.8.4.tar.gz]
+[2023-06-10 00:37:33] INFO root fetch - main [MainThread]: End processing [moptipyapps]: success
+[2023-06-10 00:37:33] INFO root fetch - main [MainThread]: Store serial: [18445970]
