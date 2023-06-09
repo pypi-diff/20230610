@@ -621,3 +621,39 @@ EOFError: EOF read where object expected
 [2023-06-10 00:47:56] INFO root fetch - processPackages [sentential]: Remove: archive file [/home/abi/fetcher/tmp/sentential-0.9.1.tar.gz]
 [2023-06-10 00:47:56] INFO root fetch - main [MainThread]: End processing [sentential]: success
 [2023-06-10 00:47:56] INFO root fetch - main [MainThread]: Store serial: [18446007]
+[2023-06-10 00:53:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18446007]
+[2023-06-10 00:53:04] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-10 00:53:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yatracker-linker
+[2023-06-10 00:53:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: selfbotclient
+[2023-06-10 00:53:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ovos-bus-client
+[2023-06-10 00:53:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: subaligner
+[2023-06-10 00:53:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: html-report-line-profiler
+[2023-06-10 00:53:05] INFO root fetch - processPackages [yatracker-linker]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-06-10 00:53:05] WARNING root fetch - processPackages [selfbotclient]: Skipping, unable to determine old version
+[2023-06-10 00:53:05] INFO root fetch - processPackages [ovos-bus-client]: New version: [0.0.4a9] Old Version: [0.0.4a8]
+[2023-06-10 00:53:05] INFO root fetch - main [MainThread]: End processing [selfbotclient] error
+[2023-06-10 00:53:05] INFO root fetch - processPackages [subaligner]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-06-10 00:53:05] INFO root fetch - processPackages [yatracker-linker]: Downloading https://files.pythonhosted.org/packages/a9/36/21ae5c2dd8d2ed2ac5d6a76b46a0b0ea60f915eafaebe084aefe8279d1b5/yatracker_linker-0.3.7.tar.gz
+[2023-06-10 00:53:05] WARNING root fetch - processPackages [html-report-line-profiler]: Skipping, unable to determine old version
+[2023-06-10 00:53:05] INFO root fetch - main [MainThread]: End processing [html-report-line-profiler] error
+[2023-06-10 00:53:05] INFO root fetch - processPackages [ovos-bus-client]: Downloading https://files.pythonhosted.org/packages/26/bd/a242ad146cd80ba404bb54755c51dddf68d8365a0898e0cd8859cf78830e/ovos-bus-client-0.0.4a8.tar.gz
+[2023-06-10 00:53:05] INFO root fetch - processPackages [subaligner]: Downloading https://files.pythonhosted.org/packages/2e/a5/cd2030e8319250b4eb3c3b84b2edcfb00dfb39fae54312f5ed43d0824135/subaligner-0.3.2.tar.gz
+[2023-06-10 00:53:05] INFO root fetch - processPackages [yatracker-linker]: Downloading https://files.pythonhosted.org/packages/0d/5e/2eefcd9852587c2a29ca3e7aed3034acc984d8d13933c0ef6c5eaa2aa0e6/yatracker_linker-0.3.8.tar.gz
+[2023-06-10 00:53:05] INFO root fetch - processPackages [yatracker-linker]: executing diffoscope
+[2023-06-10 00:53:05] INFO root fetch - processPackages [yatracker-linker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yatracker_linker-0.3.7.tar.gz tmp/yatracker_linker-0.3.8.tar.gz --markdown 20230610/y/yatracker-linker/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-06-10 00:53:05] INFO root fetch - processPackages [subaligner]: Downloading https://files.pythonhosted.org/packages/7a/bf/6f9c929fca85238670cc5ed98b98eb02ea85cb342c6b9dbbc9e9f4b0a286/subaligner-0.3.3.tar.gz
+[2023-06-10 00:53:05] INFO root fetch - processPackages [ovos-bus-client]: Downloading https://files.pythonhosted.org/packages/fe/2b/0056b831cf6af627eb711d0d69a974eb3943b5eeab777e7f2b7a7365486e/ovos-bus-client-0.0.4a9.tar.gz
+[2023-06-10 00:53:05] INFO root fetch - processPackages [subaligner]: executing diffoscope
+[2023-06-10 00:53:05] INFO root fetch - processPackages [subaligner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/subaligner-0.3.2.tar.gz tmp/subaligner-0.3.3.tar.gz --markdown 20230610/s/subaligner/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-06-10 00:53:05] INFO root fetch - processPackages [ovos-bus-client]: executing diffoscope
+[2023-06-10 00:53:05] INFO root fetch - processPackages [ovos-bus-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos-bus-client-0.0.4a8.tar.gz tmp/ovos-bus-client-0.0.4a9.tar.gz --markdown 20230610/o/ovos-bus-client/0.0.4a8-0.0.4a9/diff.md --exclude *.pyd
+[2023-06-10 00:53:06] INFO root fetch - processPackages [yatracker-linker]: Remove: archive file [/home/abi/fetcher/tmp/yatracker_linker-0.3.7.tar.gz]
+[2023-06-10 00:53:06] INFO root fetch - processPackages [yatracker-linker]: Remove: archive file [/home/abi/fetcher/tmp/yatracker_linker-0.3.8.tar.gz]
+[2023-06-10 00:53:06] INFO root fetch - main [MainThread]: End processing [yatracker-linker]: success
+[2023-06-10 00:53:06] INFO root fetch - processPackages [subaligner]: Remove: archive file [/home/abi/fetcher/tmp/subaligner-0.3.2.tar.gz]
+[2023-06-10 00:53:06] INFO root fetch - processPackages [subaligner]: Remove: archive file [/home/abi/fetcher/tmp/subaligner-0.3.3.tar.gz]
+[2023-06-10 00:53:06] INFO root fetch - main [MainThread]: End processing [subaligner]: success
+[2023-06-10 00:54:03] INFO root fetch - processPackages [ovos-bus-client]: Remove: archive file [/home/abi/fetcher/tmp/ovos-bus-client-0.0.4a8.tar.gz]
+[2023-06-10 00:54:03] INFO root fetch - processPackages [ovos-bus-client]: Remove: archive file [/home/abi/fetcher/tmp/ovos-bus-client-0.0.4a9.tar.gz]
+[2023-06-10 00:54:03] INFO root fetch - main [MainThread]: End processing [ovos-bus-client]: success
+[2023-06-10 00:54:03] INFO root fetch - main [MainThread]: Store serial: [18446027]
