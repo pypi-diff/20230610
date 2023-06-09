@@ -601,3 +601,23 @@ EOFError: EOF read where object expected
 [2023-06-10 00:42:45] INFO root fetch - processPackages [eolymp]: Remove: archive file [/home/abi/fetcher/tmp/eolymp-0.7.9.tar.gz]
 [2023-06-10 00:42:45] INFO root fetch - main [MainThread]: End processing [eolymp]: success
 [2023-06-10 00:42:45] INFO root fetch - main [MainThread]: Store serial: [18445997]
+[2023-06-10 00:47:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18445997]
+[2023-06-10 00:47:54] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-10 00:47:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: MnemoPwd
+[2023-06-10 00:47:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lollms
+[2023-06-10 00:47:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sentential
+[2023-06-10 00:47:54] INFO root fetch - processPackages [lollms]: New version: [1.1.9] Old Version: [1.1.7]
+[2023-06-10 00:47:54] WARNING root fetch - processPackages [MnemoPwd]: Skipping, unable to determine old version
+[2023-06-10 00:47:54] INFO root fetch - main [MainThread]: End processing [MnemoPwd] error
+[2023-06-10 00:47:54] INFO root fetch - processPackages [sentential]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-10 00:47:54] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/3d/63/5860743c06fbd44180fc9469d6a01bbc0644f8be5bc965843b7c2864a173/lollms-1.1.7.tar.gz
+[2023-06-10 00:47:54] INFO root fetch - processPackages [sentential]: Downloading https://files.pythonhosted.org/packages/79/c6/e663af6fc8bfe559fe5b9297d4252184bd7a0a91ebf9e8f25713dd88d3d5/sentential-0.9.0.tar.gz
+[2023-06-10 00:47:54] WARNING root fetch - processPackages [lollms]: Skipping package: exceeds size limit 17349845>=10485760
+[2023-06-10 00:47:54] INFO root fetch - main [MainThread]: End processing [lollms] error
+[2023-06-10 00:47:54] INFO root fetch - processPackages [sentential]: Downloading https://files.pythonhosted.org/packages/f9/28/ab7d3bd681223a210e72b1af4c9448c7e6806a1b78555919c0c9ec281945/sentential-0.9.1.tar.gz
+[2023-06-10 00:47:54] INFO root fetch - processPackages [sentential]: executing diffoscope
+[2023-06-10 00:47:54] INFO root fetch - processPackages [sentential]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentential-0.9.0.tar.gz tmp/sentential-0.9.1.tar.gz --markdown 20230610/s/sentential/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-10 00:47:56] INFO root fetch - processPackages [sentential]: Remove: archive file [/home/abi/fetcher/tmp/sentential-0.9.0.tar.gz]
+[2023-06-10 00:47:56] INFO root fetch - processPackages [sentential]: Remove: archive file [/home/abi/fetcher/tmp/sentential-0.9.1.tar.gz]
+[2023-06-10 00:47:56] INFO root fetch - main [MainThread]: End processing [sentential]: success
+[2023-06-10 00:47:56] INFO root fetch - main [MainThread]: Store serial: [18446007]
