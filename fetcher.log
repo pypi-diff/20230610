@@ -792,3 +792,48 @@ EOFError: EOF read where object expected
 [2023-06-10 01:04:39] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-3.1.9.tar.gz]
 [2023-06-10 01:04:39] INFO root fetch - main [MainThread]: End processing [ccxt]: success
 [2023-06-10 01:04:39] INFO root fetch - main [MainThread]: Store serial: [18446076]
+[2023-06-10 01:09:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18446076]
+[2023-06-10 01:09:49] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-10 01:09:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bnpm
+[2023-06-10 01:09:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Pytheas22
+[2023-06-10 01:09:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vector-vault
+[2023-06-10 01:09:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: viser
+[2023-06-10 01:09:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: contact-magic
+[2023-06-10 01:09:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: skytemple
+[2023-06-10 01:09:49] WARNING root fetch - processPackages [bnpm]: Skipping, unable to determine old version
+[2023-06-10 01:09:49] INFO root fetch - main [MainThread]: End processing [bnpm] error
+[2023-06-10 01:09:49] INFO root fetch - processPackages [viser]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-10 01:09:49] INFO root fetch - processPackages [vector-vault]: New version: [2.0.6] Old Version: [2.0.5]
+[2023-06-10 01:09:49] INFO root fetch - processPackages [Pytheas22]: New version: [0.0.2.1] Old Version: [0.0.2]
+[2023-06-10 01:09:49] INFO root fetch - processPackages [skytemple]: New version: [1.6.0a1] Old Version: [1.5.1]
+[2023-06-10 01:09:49] WARNING root fetch - processPackages [contact-magic]: Skipping, unable to determine old version
+[2023-06-10 01:09:49] INFO root fetch - main [MainThread]: End processing [contact-magic] error
+[2023-06-10 01:09:49] INFO root fetch - processPackages [vector-vault]: Downloading https://files.pythonhosted.org/packages/dd/12/ea4449bc88792a795beb892879b1f44a6e892733a980fe1680109571c5dc/vector_vault-2.0.5.tar.gz
+[2023-06-10 01:09:49] INFO root fetch - processPackages [Pytheas22]: Downloading https://files.pythonhosted.org/packages/0f/63/d72ab13b5aba2152ee812a7c8924e5bf0a91924e0b0637d0a463947a20af/Pytheas22-0.0.2.tar.gz
+[2023-06-10 01:09:49] INFO root fetch - processPackages [viser]: Downloading https://files.pythonhosted.org/packages/6e/fe/c353160b1cadb91f2eb1f35a3c0e853765a09f0b07a38f84fb158ed4da6c/viser-0.0.8.tar.gz
+[2023-06-10 01:09:49] INFO root fetch - processPackages [skytemple]: Downloading https://files.pythonhosted.org/packages/63/83/5315e362f82edafdfdd06b0a9ed7e8c963f2c978c1e380229b275a520c29/skytemple-1.5.1-py3-none-any.whl
+[2023-06-10 01:09:49] INFO root fetch - processPackages [vector-vault]: Downloading https://files.pythonhosted.org/packages/26/ab/ebf23ffb08946f3cd0b05f7940c9c780868aa7c71af8c1e8bbd718059301/vector_vault-2.0.6.tar.gz
+[2023-06-10 01:09:49] INFO root fetch - processPackages [vector-vault]: executing diffoscope
+[2023-06-10 01:09:49] INFO root fetch - processPackages [vector-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vector_vault-2.0.5.tar.gz tmp/vector_vault-2.0.6.tar.gz --markdown 20230610/v/vector-vault/2.0.5-2.0.6/diff.md --exclude *.pyd
+[2023-06-10 01:09:50] INFO root fetch - processPackages [Pytheas22]: Downloading https://files.pythonhosted.org/packages/c6/dc/9f833611b50c2887223978ec8bb0ee25e6bbd32dadd438195aef297d9db2/Pytheas22-0.0.2.1.tar.gz
+[2023-06-10 01:09:50] INFO root fetch - processPackages [viser]: Downloading https://files.pythonhosted.org/packages/cb/f5/f013f503f5b339d78ad453be61c50acb5961c960d8c771453d6f3817f03c/viser-0.0.9.tar.gz
+[2023-06-10 01:09:50] INFO root fetch - processPackages [skytemple]: Downloading https://files.pythonhosted.org/packages/04/48/dd8613115c04ef7b8a70ff1ba5ee6152d2b4461813ab81a397791aac764a/skytemple-1.6.0a1-py3-none-any.whl
+[2023-06-10 01:09:50] INFO root fetch - processPackages [viser]: executing diffoscope
+[2023-06-10 01:09:50] INFO root fetch - processPackages [viser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viser-0.0.8.tar.gz tmp/viser-0.0.9.tar.gz --markdown 20230610/v/viser/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-10 01:09:50] INFO root fetch - processPackages [Pytheas22]: executing diffoscope
+[2023-06-10 01:09:50] INFO root fetch - processPackages [Pytheas22]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pytheas22-0.0.2.tar.gz tmp/Pytheas22-0.0.2.1.tar.gz --markdown 20230610/P/Pytheas22/0.0.2-0.0.2.1/diff.md --exclude *.pyd
+[2023-06-10 01:09:50] INFO root fetch - processPackages [skytemple]: executing diffoscope
+[2023-06-10 01:09:50] INFO root fetch - processPackages [skytemple]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skytemple-1.5.1-py3-none-any.whl.zip tmp/skytemple-1.6.0a1-py3-none-any.whl.zip --markdown 20230610/s/skytemple/1.5.1-1.6.0a1/diff.md --exclude *.pyd
+[2023-06-10 01:09:56] INFO root fetch - processPackages [skytemple]: Remove: archive file [/home/abi/fetcher/tmp/skytemple-1.5.1-py3-none-any.whl.zip]
+[2023-06-10 01:09:56] INFO root fetch - processPackages [skytemple]: Remove: archive file [/home/abi/fetcher/tmp/skytemple-1.6.0a1-py3-none-any.whl.zip]
+[2023-06-10 01:09:56] INFO root fetch - main [MainThread]: End processing [skytemple]: success
+[2023-06-10 01:10:05] INFO root fetch - processPackages [Pytheas22]: Remove: archive file [/home/abi/fetcher/tmp/Pytheas22-0.0.2.tar.gz]
+[2023-06-10 01:10:05] INFO root fetch - processPackages [Pytheas22]: Remove: archive file [/home/abi/fetcher/tmp/Pytheas22-0.0.2.1.tar.gz]
+[2023-06-10 01:10:05] INFO root fetch - main [MainThread]: End processing [Pytheas22]: success
+[2023-06-10 01:10:36] INFO root fetch - processPackages [vector-vault]: Remove: archive file [/home/abi/fetcher/tmp/vector_vault-2.0.5.tar.gz]
+[2023-06-10 01:10:36] INFO root fetch - processPackages [vector-vault]: Remove: archive file [/home/abi/fetcher/tmp/vector_vault-2.0.6.tar.gz]
+[2023-06-10 01:10:36] INFO root fetch - main [MainThread]: End processing [vector-vault]: success
+[2023-06-10 01:12:08] INFO root fetch - processPackages [viser]: Remove: archive file [/home/abi/fetcher/tmp/viser-0.0.8.tar.gz]
+[2023-06-10 01:12:08] INFO root fetch - processPackages [viser]: Remove: archive file [/home/abi/fetcher/tmp/viser-0.0.9.tar.gz]
+[2023-06-10 01:12:08] INFO root fetch - main [MainThread]: End processing [viser]: success
+[2023-06-10 01:12:08] INFO root fetch - main [MainThread]: Store serial: [18446095]
