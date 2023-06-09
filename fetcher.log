@@ -536,3 +536,68 @@ EOFError: EOF read where object expected
 [2023-06-10 00:37:33] INFO root fetch - processPackages [moptipyapps]: Remove: archive file [/home/abi/fetcher/tmp/moptipyapps-0.8.4.tar.gz]
 [2023-06-10 00:37:33] INFO root fetch - main [MainThread]: End processing [moptipyapps]: success
 [2023-06-10 00:37:33] INFO root fetch - main [MainThread]: Store serial: [18445970]
+[2023-06-10 00:42:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18445970]
+[2023-06-10 00:42:41] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-10 00:42:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: clairvoyance-feature-selection
+[2023-06-10 00:42:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eolymp
+[2023-06-10 00:42:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: oglio
+[2023-06-10 00:42:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyfotmob
+[2023-06-10 00:42:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: oxenai
+[2023-06-10 00:42:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo12-addon-l10n-fr-department-oversea
+[2023-06-10 00:42:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo12-addon-l10n-fr-mis-reports
+[2023-06-10 00:42:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo12-addon-l10n-fr-siret
+[2023-06-10 00:42:41] INFO root fetch - processPackages [odoo12-addon-l10n-fr-mis-reports]: New version: [12.0.1.0.1] Old Version: [12.0.1.0.0.99.dev4]
+[2023-06-10 00:42:41] INFO root fetch - processPackages [eolymp]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-06-10 00:42:41] INFO root fetch - processPackages [clairvoyance-feature-selection]: New version: [2023.6.9] Old Version: [2023.2.17]
+[2023-06-10 00:42:41] INFO root fetch - processPackages [oxenai]: New version: [0.1.9] Old Version: [0.1.3]
+[2023-06-10 00:42:41] WARNING root fetch - processPackages [pyfotmob]: Skipping, unable to determine old version
+[2023-06-10 00:42:41] INFO root fetch - processPackages [odoo12-addon-l10n-fr-department-oversea]: New version: [12.0.1.0.1] Old Version: [12.0.1.0.0.99.dev4]
+[2023-06-10 00:42:41] INFO root fetch - processPackages [oglio]: New version: [0.7.7] Old Version: [0.7.6]
+[2023-06-10 00:42:41] INFO root fetch - main [MainThread]: End processing [pyfotmob] error
+[2023-06-10 00:42:41] INFO root fetch - processPackages [odoo12-addon-l10n-fr-siret]: New version: [12.0.1.0.3] Old Version: [12.0.1.0.2]
+[2023-06-10 00:42:41] INFO root fetch - processPackages [oxenai]: Downloading https://files.pythonhosted.org/packages/f9/07/9b84496c51d7eb0978a7122e0246eb47d8118ed65cba24367d0ffec0ae9e/oxenai-0.1.9-cp310-cp310-macosx_11_0_arm64.whl
+[2023-06-10 00:42:42] INFO root fetch - processPackages [eolymp]: Downloading https://files.pythonhosted.org/packages/a9/e8/7a53143301513a3d23b8ff6bd713240d10d9fa3e677972ff6099c2e3d6f5/eolymp-0.7.8.tar.gz
+[2023-06-10 00:42:42] INFO root fetch - processPackages [clairvoyance-feature-selection]: Downloading https://files.pythonhosted.org/packages/42/ab/d9348e133935c3841e24b8756615e5d9763011313f5dbe1138b1299410a3/clairvoyance_feature_selection-2023.2.17.tar.gz
+[2023-06-10 00:42:42] WARNING root fetch - processPackages [oxenai]: Skipping package: exceeds size limit 14827494>=10485760
+[2023-06-10 00:42:42] INFO root fetch - main [MainThread]: End processing [oxenai] error
+[2023-06-10 00:42:42] INFO root fetch - processPackages [odoo12-addon-l10n-fr-mis-reports]: Downloading https://files.pythonhosted.org/packages/0b/ce/f90c315ece65d13da8c4f07275c8db9f90ef3ea4d92102661add7223291c/odoo12_addon_l10n_fr_mis_reports-12.0.1.0.0.99.dev4-py3-none-any.whl
+[2023-06-10 00:42:42] INFO root fetch - processPackages [odoo12-addon-l10n-fr-siret]: Downloading https://files.pythonhosted.org/packages/b7/31/64f54f2fcc5554f1987af0a3a2dc9c3a9817be4e92e2a4fe3f27ccdfbb06/odoo12_addon_l10n_fr_siret-12.0.1.0.2-py3-none-any.whl
+[2023-06-10 00:42:42] INFO root fetch - processPackages [oglio]: Downloading https://files.pythonhosted.org/packages/d3/81/2acbe7a1d41e9d892f3573ba30ff749fb49388c3affddd6c8ec50a30f53e/oglio-0.7.6.tar.gz
+[2023-06-10 00:42:42] INFO root fetch - processPackages [odoo12-addon-l10n-fr-department-oversea]: Downloading https://files.pythonhosted.org/packages/22/03/193f583c643d993f5b04f4eb2f82d2c11153be9da1d3799201588cf47a4a/odoo12_addon_l10n_fr_department_oversea-12.0.1.0.0.99.dev4-py3-none-any.whl
+[2023-06-10 00:42:42] INFO root fetch - processPackages [clairvoyance-feature-selection]: Downloading https://files.pythonhosted.org/packages/fc/8f/852c0c13ffda26ff2c93ca4dd50ec0e9753918840b65d9143a4be21a8102/clairvoyance_feature_selection-2023.6.9.tar.gz
+[2023-06-10 00:42:42] INFO root fetch - processPackages [odoo12-addon-l10n-fr-siret]: Downloading https://files.pythonhosted.org/packages/97/67/d499907a1081b914ffcf8c3aee7fe4ef0dee18b3f4da6bf38c56d923681c/odoo12_addon_l10n_fr_siret-12.0.1.0.3-py3-none-any.whl
+[2023-06-10 00:42:42] INFO root fetch - processPackages [odoo12-addon-l10n-fr-department-oversea]: Downloading https://files.pythonhosted.org/packages/5a/d8/f82487317367f1f5f236950934b3dda7be67534e0bd4fd93e7e3de16ef7e/odoo12_addon_l10n_fr_department_oversea-12.0.1.0.1-py3-none-any.whl
+[2023-06-10 00:42:42] INFO root fetch - processPackages [eolymp]: Downloading https://files.pythonhosted.org/packages/d3/a6/47575613e7c452ec8f1d6563d0eec5350ca947c2574e3512eab1b3262678/eolymp-0.7.9.tar.gz
+[2023-06-10 00:42:42] INFO root fetch - processPackages [oglio]: Downloading https://files.pythonhosted.org/packages/c2/2c/a979134b2e86464cc9c53290ff01f9e445506b70904455422e1420120207/oglio-0.7.7.tar.gz
+[2023-06-10 00:42:42] INFO root fetch - processPackages [odoo12-addon-l10n-fr-siret]: executing diffoscope
+[2023-06-10 00:42:42] INFO root fetch - processPackages [odoo12-addon-l10n-fr-siret]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_l10n_fr_siret-12.0.1.0.2-py3-none-any.whl.zip tmp/odoo12_addon_l10n_fr_siret-12.0.1.0.3-py3-none-any.whl.zip --markdown 20230610/o/odoo12-addon-l10n-fr-siret/12.0.1.0.2-12.0.1.0.3/diff.md --exclude *.pyd
+[2023-06-10 00:42:42] INFO root fetch - processPackages [clairvoyance-feature-selection]: executing diffoscope
+[2023-06-10 00:42:42] INFO root fetch - processPackages [clairvoyance-feature-selection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clairvoyance_feature_selection-2023.2.17.tar.gz tmp/clairvoyance_feature_selection-2023.6.9.tar.gz --markdown 20230610/c/clairvoyance-feature-selection/2023.2.17-2023.6.9/diff.md --exclude *.pyd
+[2023-06-10 00:42:42] INFO root fetch - processPackages [odoo12-addon-l10n-fr-department-oversea]: executing diffoscope
+[2023-06-10 00:42:42] INFO root fetch - processPackages [odoo12-addon-l10n-fr-department-oversea]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_l10n_fr_department_oversea-12.0.1.0.0.99.dev4-py3-none-any.whl.zip tmp/odoo12_addon_l10n_fr_department_oversea-12.0.1.0.1-py3-none-any.whl.zip --markdown 20230610/o/odoo12-addon-l10n-fr-department-oversea/12.0.1.0.0.99.dev4-12.0.1.0.1/diff.md --exclude *.pyd
+[2023-06-10 00:42:42] INFO root fetch - processPackages [oglio]: executing diffoscope
+[2023-06-10 00:42:42] INFO root fetch - processPackages [oglio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oglio-0.7.6.tar.gz tmp/oglio-0.7.7.tar.gz --markdown 20230610/o/oglio/0.7.6-0.7.7/diff.md --exclude *.pyd
+[2023-06-10 00:42:42] INFO root fetch - processPackages [odoo12-addon-l10n-fr-mis-reports]: Downloading https://files.pythonhosted.org/packages/dd/86/2230749d72578e4365a0bfa1b4936537310c2157e8943d5866dd3663c907/odoo12_addon_l10n_fr_mis_reports-12.0.1.0.1-py3-none-any.whl
+[2023-06-10 00:42:42] INFO root fetch - processPackages [odoo12-addon-l10n-fr-mis-reports]: executing diffoscope
+[2023-06-10 00:42:42] INFO root fetch - processPackages [odoo12-addon-l10n-fr-mis-reports]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_l10n_fr_mis_reports-12.0.1.0.0.99.dev4-py3-none-any.whl.zip tmp/odoo12_addon_l10n_fr_mis_reports-12.0.1.0.1-py3-none-any.whl.zip --markdown 20230610/o/odoo12-addon-l10n-fr-mis-reports/12.0.1.0.0.99.dev4-12.0.1.0.1/diff.md --exclude *.pyd
+[2023-06-10 00:42:43] INFO root fetch - processPackages [eolymp]: executing diffoscope
+[2023-06-10 00:42:43] INFO root fetch - processPackages [eolymp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eolymp-0.7.8.tar.gz tmp/eolymp-0.7.9.tar.gz --markdown 20230610/e/eolymp/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-06-10 00:42:43] INFO root fetch - processPackages [clairvoyance-feature-selection]: Remove: archive file [/home/abi/fetcher/tmp/clairvoyance_feature_selection-2023.2.17.tar.gz]
+[2023-06-10 00:42:43] INFO root fetch - processPackages [clairvoyance-feature-selection]: Remove: archive file [/home/abi/fetcher/tmp/clairvoyance_feature_selection-2023.6.9.tar.gz]
+[2023-06-10 00:42:43] INFO root fetch - main [MainThread]: End processing [clairvoyance-feature-selection]: success
+[2023-06-10 00:42:43] INFO root fetch - processPackages [oglio]: Remove: archive file [/home/abi/fetcher/tmp/oglio-0.7.6.tar.gz]
+[2023-06-10 00:42:43] INFO root fetch - processPackages [oglio]: Remove: archive file [/home/abi/fetcher/tmp/oglio-0.7.7.tar.gz]
+[2023-06-10 00:42:43] INFO root fetch - main [MainThread]: End processing [oglio]: success
+[2023-06-10 00:42:43] INFO root fetch - processPackages [odoo12-addon-l10n-fr-siret]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_l10n_fr_siret-12.0.1.0.2-py3-none-any.whl.zip]
+[2023-06-10 00:42:43] INFO root fetch - processPackages [odoo12-addon-l10n-fr-siret]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_l10n_fr_siret-12.0.1.0.3-py3-none-any.whl.zip]
+[2023-06-10 00:42:43] INFO root fetch - main [MainThread]: End processing [odoo12-addon-l10n-fr-siret]: success
+[2023-06-10 00:42:43] INFO root fetch - processPackages [odoo12-addon-l10n-fr-mis-reports]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_l10n_fr_mis_reports-12.0.1.0.0.99.dev4-py3-none-any.whl.zip]
+[2023-06-10 00:42:43] INFO root fetch - processPackages [odoo12-addon-l10n-fr-mis-reports]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_l10n_fr_mis_reports-12.0.1.0.1-py3-none-any.whl.zip]
+[2023-06-10 00:42:43] INFO root fetch - main [MainThread]: End processing [odoo12-addon-l10n-fr-mis-reports]: success
+[2023-06-10 00:42:43] INFO root fetch - processPackages [odoo12-addon-l10n-fr-department-oversea]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_l10n_fr_department_oversea-12.0.1.0.0.99.dev4-py3-none-any.whl.zip]
+[2023-06-10 00:42:43] INFO root fetch - processPackages [odoo12-addon-l10n-fr-department-oversea]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_l10n_fr_department_oversea-12.0.1.0.1-py3-none-any.whl.zip]
+[2023-06-10 00:42:43] INFO root fetch - main [MainThread]: End processing [odoo12-addon-l10n-fr-department-oversea]: success
+[2023-06-10 00:42:45] INFO root fetch - processPackages [eolymp]: Remove: archive file [/home/abi/fetcher/tmp/eolymp-0.7.8.tar.gz]
+[2023-06-10 00:42:45] INFO root fetch - processPackages [eolymp]: Remove: archive file [/home/abi/fetcher/tmp/eolymp-0.7.9.tar.gz]
+[2023-06-10 00:42:45] INFO root fetch - main [MainThread]: End processing [eolymp]: success
+[2023-06-10 00:42:45] INFO root fetch - main [MainThread]: Store serial: [18445997]
