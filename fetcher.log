@@ -1274,3 +1274,33 @@ EOFError: EOF read where object expected
 [2023-06-10 01:50:36] INFO root fetch - processPackages [aioqui]: Remove: archive file [/home/abi/fetcher/tmp/aioqui-2.0.7.tar.gz]
 [2023-06-10 01:50:36] INFO root fetch - main [MainThread]: End processing [aioqui]: success
 [2023-06-10 01:50:36] INFO root fetch - main [MainThread]: Store serial: [18446266]
+[2023-06-10 01:55:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18446266]
+[2023-06-10 01:55:44] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-10 01:55:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mrpyconvert
+[2023-06-10 01:55:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dvc-data
+[2023-06-10 01:55:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: smart-dummy
+[2023-06-10 01:55:44] INFO root fetch - processPackages [mrpyconvert]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-10 01:55:44] INFO root fetch - processPackages [smart-dummy]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-10 01:55:44] INFO root fetch - processPackages [dvc-data]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-10 01:55:45] INFO root fetch - processPackages [smart-dummy]: Downloading https://files.pythonhosted.org/packages/18/d7/7923224c6cf910d26cd31eeccf3a18420e30287ca4a9593638b61d877cf6/smart_dummy-0.1.2.tar.gz
+[2023-06-10 01:55:45] INFO root fetch - processPackages [mrpyconvert]: Downloading https://files.pythonhosted.org/packages/54/3f/c9d339e5edae9c3006f1f918e46a21b8cdb45fc18bf28f5d3b37a82cd884/mrpyconvert-0.1.8.tar.gz
+[2023-06-10 01:55:45] INFO root fetch - processPackages [dvc-data]: Downloading https://files.pythonhosted.org/packages/6c/08/dc5014c28b174b970240f4258583f505c82ff0b84da3c638d0bde613799c/dvc-data-1.0.2.tar.gz
+[2023-06-10 01:55:45] INFO root fetch - processPackages [mrpyconvert]: Downloading https://files.pythonhosted.org/packages/16/6e/b026da03a13cd6075dafdff77f95cddaea5524d18d1aa084cc02f7598990/mrpyconvert-0.1.9.tar.gz
+[2023-06-10 01:55:45] INFO root fetch - processPackages [smart-dummy]: Downloading https://files.pythonhosted.org/packages/69/2c/bf4cc7e461148022b84f64c6e47bc703d850d3813d5b795062c0e01dffe9/smart_dummy-0.1.3.tar.gz
+[2023-06-10 01:55:45] INFO root fetch - processPackages [dvc-data]: Downloading https://files.pythonhosted.org/packages/b9/56/1dd93b5f5403dd8cfae2b5bdf55f7b83621475a1f63a54e24cfa84ad0ec9/dvc-data-1.0.3.tar.gz
+[2023-06-10 01:55:45] INFO root fetch - processPackages [mrpyconvert]: executing diffoscope
+[2023-06-10 01:55:45] INFO root fetch - processPackages [mrpyconvert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mrpyconvert-0.1.8.tar.gz tmp/mrpyconvert-0.1.9.tar.gz --markdown 20230610/m/mrpyconvert/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-10 01:55:45] INFO root fetch - processPackages [smart-dummy]: executing diffoscope
+[2023-06-10 01:55:45] INFO root fetch - processPackages [smart-dummy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smart_dummy-0.1.2.tar.gz tmp/smart_dummy-0.1.3.tar.gz --markdown 20230610/s/smart-dummy/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-10 01:55:45] INFO root fetch - processPackages [dvc-data]: executing diffoscope
+[2023-06-10 01:55:45] INFO root fetch - processPackages [dvc-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvc-data-1.0.2.tar.gz tmp/dvc-data-1.0.3.tar.gz --markdown 20230610/d/dvc-data/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-10 01:55:46] INFO root fetch - processPackages [smart-dummy]: Remove: archive file [/home/abi/fetcher/tmp/smart_dummy-0.1.2.tar.gz]
+[2023-06-10 01:55:46] INFO root fetch - processPackages [smart-dummy]: Remove: archive file [/home/abi/fetcher/tmp/smart_dummy-0.1.3.tar.gz]
+[2023-06-10 01:55:46] INFO root fetch - main [MainThread]: End processing [smart-dummy]: success
+[2023-06-10 01:55:46] INFO root fetch - processPackages [mrpyconvert]: Remove: archive file [/home/abi/fetcher/tmp/mrpyconvert-0.1.8.tar.gz]
+[2023-06-10 01:55:46] INFO root fetch - processPackages [mrpyconvert]: Remove: archive file [/home/abi/fetcher/tmp/mrpyconvert-0.1.9.tar.gz]
+[2023-06-10 01:55:46] INFO root fetch - main [MainThread]: End processing [mrpyconvert]: success
+[2023-06-10 01:55:46] INFO root fetch - processPackages [dvc-data]: Remove: archive file [/home/abi/fetcher/tmp/dvc-data-1.0.2.tar.gz]
+[2023-06-10 01:55:46] INFO root fetch - processPackages [dvc-data]: Remove: archive file [/home/abi/fetcher/tmp/dvc-data-1.0.3.tar.gz]
+[2023-06-10 01:55:46] INFO root fetch - main [MainThread]: End processing [dvc-data]: success
+[2023-06-10 01:55:46] INFO root fetch - main [MainThread]: Store serial: [18446274]
