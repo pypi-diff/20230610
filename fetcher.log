@@ -69,3 +69,72 @@
 [2023-06-10 00:05:37] INFO root fetch - processPackages [zensols.mimicsid]: Remove: archive file [/home/abi/fetcher/tmp/zensols.mimicsid-1.2.0-py3-none-any.whl.zip]
 [2023-06-10 00:05:37] INFO root fetch - main [MainThread]: End processing [zensols.mimicsid]: success
 [2023-06-10 00:05:37] INFO root fetch - main [MainThread]: Store serial: [18445755]
+[2023-06-10 00:10:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18445755]
+[2023-06-10 00:10:47] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-10 00:10:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: custom-diffusion
+[2023-06-10 00:10:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: velesresearch
+[2023-06-10 00:10:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: satori-ci
+[2023-06-10 00:10:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pipen
+[2023-06-10 00:10:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pepperize.cdk-serverless-cluster-from-snapshot
+[2023-06-10 00:10:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openlrc
+[2023-06-10 00:10:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: AI2PY
+[2023-06-10 00:10:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: AI2PY
+[2023-06-10 00:10:47] INFO root fetch - processPackages [custom-diffusion]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-10 00:10:47] INFO root fetch - processPackages [pipen]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-10 00:10:47] INFO root fetch - processPackages [velesresearch]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-10 00:10:47] INFO root fetch - processPackages [satori-ci]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-06-10 00:10:47] INFO root fetch - processPackages [openlrc]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-10 00:10:47] WARNING root fetch - processPackages [AI2PY]: Skipping, unable to determine old version
+[2023-06-10 00:10:47] INFO root fetch - main [MainThread]: End processing [AI2PY] error
+[2023-06-10 00:10:47] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-10 00:10:47] INFO root fetch - processPackages [openlrc]: Downloading https://files.pythonhosted.org/packages/89/aa/974980ccd88fd0d2d90c00b7a48ed738fbf21474e814ba65754cba3fda68/openlrc-0.0.3.tar.gz
+[2023-06-10 00:10:47] INFO root fetch - processPackages [pipen]: Downloading https://files.pythonhosted.org/packages/89/8d/9c6dc54d1785255af9c0f2b040483e2d6d4b2c0f75ac4eef36237b5ba735/pipen-0.9.8.tar.gz
+[2023-06-10 00:10:47] INFO root fetch - processPackages [AI2PY]: New version: [0.0.7] Old Version: [0.0.2]
+[2023-06-10 00:10:47] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Downloading https://files.pythonhosted.org/packages/41/ed/5efe219dc09a3767781b18e59998e46265479245ef5e56798033e654efe2/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz
+[2023-06-10 00:10:47] INFO root fetch - processPackages [custom-diffusion]: Downloading https://files.pythonhosted.org/packages/e3/5e/d779ba87422a58d3f78c65b6cffe527347044cb5a294aa69f6342196a326/custom_diffusion-0.0.5.tar.gz
+[2023-06-10 00:10:47] INFO root fetch - processPackages [velesresearch]: Downloading https://files.pythonhosted.org/packages/6d/41/34736198f6f6c0b557c6d1c1fd5871d08b65bb42b59e23593fb11def2403/VelesResearch-0.0.3.tar.gz
+[2023-06-10 00:10:47] INFO root fetch - processPackages [pipen]: Downloading https://files.pythonhosted.org/packages/45/94/66725f0ebe253ae8e488f0eba36085ecc25349bc326bfe14d38c76bb9482/pipen-0.9.9.tar.gz
+[2023-06-10 00:10:47] INFO root fetch - processPackages [satori-ci]: Downloading https://files.pythonhosted.org/packages/0f/e9/8730b0b247277bad0867ffd703c9de8cc8e32296273202190c6988be7d9e/satori_ci-1.2.8.tar.gz
+[2023-06-10 00:10:47] INFO root fetch - processPackages [AI2PY]: Downloading https://files.pythonhosted.org/packages/38/6c/d8f547a7cecab23089390998604be9833f4d8ab37d608fccbdde30b22eec/AI2PY-0.0.2.tar.gz
+[2023-06-10 00:10:47] INFO root fetch - processPackages [openlrc]: Downloading https://files.pythonhosted.org/packages/a3/0a/442f32c2d14850c1025d5874ba4556af11bf687506ea2fe7501f4e16ec82/openlrc-0.0.4.tar.gz
+[2023-06-10 00:10:48] INFO root fetch - processPackages [pipen]: executing diffoscope
+[2023-06-10 00:10:48] INFO root fetch - processPackages [pipen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipen-0.9.8.tar.gz tmp/pipen-0.9.9.tar.gz --markdown 20230610/p/pipen/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-10 00:10:48] INFO root fetch - processPackages [openlrc]: executing diffoscope
+[2023-06-10 00:10:48] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Downloading https://files.pythonhosted.org/packages/0a/e1/974dfac343666db334bd3dc6b819d5e46e3769ce75e9baccd0067702f4ad/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz
+[2023-06-10 00:10:48] INFO root fetch - processPackages [openlrc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openlrc-0.0.3.tar.gz tmp/openlrc-0.0.4.tar.gz --markdown 20230610/o/openlrc/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-10 00:10:48] INFO root fetch - processPackages [custom-diffusion]: Downloading https://files.pythonhosted.org/packages/d6/e3/db67a230f0bd4b8590362285da2d528450b2fac26f1c34dee43b8c8ba0d0/custom_diffusion-0.0.6.tar.gz
+[2023-06-10 00:10:48] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: executing diffoscope
+[2023-06-10 00:10:48] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz --markdown 20230610/p/pepperize.cdk-serverless-cluster-from-snapshot/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-10 00:10:48] INFO root fetch - processPackages [velesresearch]: Downloading https://files.pythonhosted.org/packages/06/c6/2c00ab7dbb9a81cbd125494b694fea3b79b968741d8952ca52bdbf9ef3d1/velesresearch-0.0.4.tar.gz
+[2023-06-10 00:10:48] INFO root fetch - processPackages [custom-diffusion]: executing diffoscope
+[2023-06-10 00:10:48] INFO root fetch - processPackages [custom-diffusion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/custom_diffusion-0.0.5.tar.gz tmp/custom_diffusion-0.0.6.tar.gz --markdown 20230610/c/custom-diffusion/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-10 00:10:48] INFO root fetch - processPackages [velesresearch]: executing diffoscope
+[2023-06-10 00:10:48] INFO root fetch - processPackages [velesresearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VelesResearch-0.0.3.tar.gz tmp/velesresearch-0.0.4.tar.gz --markdown 20230610/v/velesresearch/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-10 00:10:48] INFO root fetch - processPackages [satori-ci]: Downloading https://files.pythonhosted.org/packages/b7/0b/451eae7159f796f9dfb4eaee887b8acdd96fc946dedeb3da9cafe052e2aa/satori_ci-1.2.9.tar.gz
+[2023-06-10 00:10:48] INFO root fetch - processPackages [AI2PY]: Downloading https://files.pythonhosted.org/packages/5f/ac/6b7b2c2ff090f668e56f94983458a8affcc8facf2ffb8601c1582963940d/AI2PY-0.0.7.tar.gz
+[2023-06-10 00:10:48] INFO root fetch - processPackages [AI2PY]: executing diffoscope
+[2023-06-10 00:10:48] INFO root fetch - processPackages [AI2PY]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AI2PY-0.0.2.tar.gz tmp/AI2PY-0.0.7.tar.gz --markdown 20230610/A/AI2PY/0.0.2-0.0.7/diff.md --exclude *.pyd
+[2023-06-10 00:10:48] INFO root fetch - processPackages [satori-ci]: executing diffoscope
+[2023-06-10 00:10:48] INFO root fetch - processPackages [satori-ci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satori_ci-1.2.8.tar.gz tmp/satori_ci-1.2.9.tar.gz --markdown 20230610/s/satori-ci/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-06-10 00:10:49] INFO root fetch - processPackages [velesresearch]: Remove: archive file [/home/abi/fetcher/tmp/VelesResearch-0.0.3.tar.gz]
+[2023-06-10 00:10:49] INFO root fetch - processPackages [velesresearch]: Remove: archive file [/home/abi/fetcher/tmp/velesresearch-0.0.4.tar.gz]
+[2023-06-10 00:10:49] INFO root fetch - main [MainThread]: End processing [velesresearch]: success
+[2023-06-10 00:10:49] INFO root fetch - processPackages [custom-diffusion]: Remove: archive file [/home/abi/fetcher/tmp/custom_diffusion-0.0.5.tar.gz]
+[2023-06-10 00:10:49] INFO root fetch - processPackages [custom-diffusion]: Remove: archive file [/home/abi/fetcher/tmp/custom_diffusion-0.0.6.tar.gz]
+[2023-06-10 00:10:49] INFO root fetch - main [MainThread]: End processing [custom-diffusion]: success
+[2023-06-10 00:10:49] INFO root fetch - processPackages [openlrc]: Remove: archive file [/home/abi/fetcher/tmp/openlrc-0.0.3.tar.gz]
+[2023-06-10 00:10:49] INFO root fetch - processPackages [openlrc]: Remove: archive file [/home/abi/fetcher/tmp/openlrc-0.0.4.tar.gz]
+[2023-06-10 00:10:49] INFO root fetch - main [MainThread]: End processing [openlrc]: success
+[2023-06-10 00:10:49] INFO root fetch - processPackages [AI2PY]: Remove: archive file [/home/abi/fetcher/tmp/AI2PY-0.0.2.tar.gz]
+[2023-06-10 00:10:49] INFO root fetch - processPackages [AI2PY]: Remove: archive file [/home/abi/fetcher/tmp/AI2PY-0.0.7.tar.gz]
+[2023-06-10 00:10:49] INFO root fetch - main [MainThread]: End processing [AI2PY]: success
+[2023-06-10 00:10:49] INFO root fetch - processPackages [satori-ci]: Remove: archive file [/home/abi/fetcher/tmp/satori_ci-1.2.8.tar.gz]
+[2023-06-10 00:10:49] INFO root fetch - processPackages [satori-ci]: Remove: archive file [/home/abi/fetcher/tmp/satori_ci-1.2.9.tar.gz]
+[2023-06-10 00:10:49] INFO root fetch - main [MainThread]: End processing [satori-ci]: success
+[2023-06-10 00:10:49] INFO root fetch - processPackages [pipen]: Remove: archive file [/home/abi/fetcher/tmp/pipen-0.9.8.tar.gz]
+[2023-06-10 00:10:49] INFO root fetch - processPackages [pipen]: Remove: archive file [/home/abi/fetcher/tmp/pipen-0.9.9.tar.gz]
+[2023-06-10 00:10:49] INFO root fetch - main [MainThread]: End processing [pipen]: success
+[2023-06-10 00:10:49] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz]
+[2023-06-10 00:10:49] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz]
+[2023-06-10 00:10:49] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-serverless-cluster-from-snapshot]: success
+[2023-06-10 00:10:49] INFO root fetch - main [MainThread]: Store serial: [18445778]
