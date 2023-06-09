@@ -924,3 +924,57 @@ EOFError: EOF read where object expected
 [2023-06-10 01:24:20] INFO root fetch - processPackages [benchling-api-client]: Remove: archive file [/home/abi/fetcher/tmp/benchling_api_client-2.0.99.tar.gz]
 [2023-06-10 01:24:20] INFO root fetch - main [MainThread]: End processing [benchling-api-client]: success
 [2023-06-10 01:24:20] INFO root fetch - main [MainThread]: Store serial: [18446131]
+[2023-06-10 01:29:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18446131]
+[2023-06-10 01:29:29] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-10 01:29:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aioqui
+[2023-06-10 01:29:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: libmultilabel
+[2023-06-10 01:29:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: smart-dummy
+[2023-06-10 01:29:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pain001
+[2023-06-10 01:29:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: micropython-h3lis200dl
+[2023-06-10 01:29:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: keepercommander
+[2023-06-10 01:29:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: caikit
+[2023-06-10 01:29:29] WARNING root fetch - processPackages [smart-dummy]: Skipping, unable to determine old version
+[2023-06-10 01:29:29] INFO root fetch - main [MainThread]: End processing [smart-dummy] error
+[2023-06-10 01:29:29] INFO root fetch - processPackages [aioqui]: New version: [2.0.5] Old Version: [2.0.4]
+[2023-06-10 01:29:29] INFO root fetch - processPackages [libmultilabel]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-06-10 01:29:29] INFO root fetch - processPackages [keepercommander]: New version: [4.9] Old Version: [4.88]
+[2023-06-10 01:29:29] INFO root fetch - processPackages [pain001]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-10 01:29:29] INFO root fetch - processPackages [caikit]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-06-10 01:29:29] WARNING root fetch - processPackages [micropython-h3lis200dl]: Skipping, unable to determine old version
+[2023-06-10 01:29:29] INFO root fetch - main [MainThread]: End processing [micropython-h3lis200dl] error
+[2023-06-10 01:29:30] INFO root fetch - processPackages [libmultilabel]: Downloading https://files.pythonhosted.org/packages/fb/a3/526f58452bcf3a4f8cbcc38904786a8b1ce9fcd5548fe9f0ac0f501bdaa7/libmultilabel-0.2.1.tar.gz
+[2023-06-10 01:29:30] INFO root fetch - processPackages [aioqui]: Downloading https://files.pythonhosted.org/packages/f9/67/bbfe54dc7cc085e7a93bd85c0a6d07336b3e91e3fcd7568d752a0a2d978a/aioqui-2.0.4.tar.gz
+[2023-06-10 01:29:30] INFO root fetch - processPackages [pain001]: Downloading https://files.pythonhosted.org/packages/4a/3d/d7e0138fb8e4374dd250c07d0545376b3f547ff00c3971b4eec2d3eca3d7/pain001-0.0.8.tar.gz
+[2023-06-10 01:29:30] INFO root fetch - processPackages [caikit]: Downloading https://files.pythonhosted.org/packages/b4/7b/50303426a774176578e7e0fd36a92ad3aef5cc959de78a23e804e6322c1d/caikit-0.7.0.tar.gz
+[2023-06-10 01:29:30] INFO root fetch - processPackages [keepercommander]: Downloading https://files.pythonhosted.org/packages/16/91/5a24b372408888daef4a70bb214157f171e35ef268f1a3904fd190336343/keepercommander-4.88.tar.gz
+[2023-06-10 01:29:30] INFO root fetch - processPackages [aioqui]: Downloading https://files.pythonhosted.org/packages/77/5a/ac4382b67fc0ae5fb798870783aa224cc801f859c7b1bb80b42ea16b4476/aioqui-2.0.5.tar.gz
+[2023-06-10 01:29:30] INFO root fetch - processPackages [caikit]: Downloading https://files.pythonhosted.org/packages/20/7d/9ae66dfdca2d2703f51ae664c647ed119e6106f1c95eee913e00b52161e6/caikit-0.7.1.tar.gz
+[2023-06-10 01:29:30] INFO root fetch - processPackages [libmultilabel]: Downloading https://files.pythonhosted.org/packages/62/e3/d75386c3e872d0cc3f0c6549b85d2ec4fdab73639a8b2422855566820f9e/libmultilabel-0.3.0.tar.gz
+[2023-06-10 01:29:30] INFO root fetch - processPackages [pain001]: Downloading https://files.pythonhosted.org/packages/dd/25/3eca8b1274384435ffb54b9a70f098888e7946583f195e055315bc9f82f8/pain001-0.0.9.tar.gz
+[2023-06-10 01:29:30] INFO root fetch - processPackages [aioqui]: executing diffoscope
+[2023-06-10 01:29:30] INFO root fetch - processPackages [aioqui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioqui-2.0.4.tar.gz tmp/aioqui-2.0.5.tar.gz --markdown 20230610/a/aioqui/2.0.4-2.0.5/diff.md --exclude *.pyd
+[2023-06-10 01:29:30] INFO root fetch - processPackages [keepercommander]: Downloading https://files.pythonhosted.org/packages/81/36/49b1c4234938830448040dbce4a33041541130d80e9ff959c80a7863be75/keepercommander-4.9.tar.gz
+[2023-06-10 01:29:30] INFO root fetch - processPackages [libmultilabel]: executing diffoscope
+[2023-06-10 01:29:30] INFO root fetch - processPackages [libmultilabel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libmultilabel-0.2.1.tar.gz tmp/libmultilabel-0.3.0.tar.gz --markdown 20230610/l/libmultilabel/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-06-10 01:29:30] INFO root fetch - processPackages [caikit]: executing diffoscope
+[2023-06-10 01:29:30] INFO root fetch - processPackages [caikit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caikit-0.7.0.tar.gz tmp/caikit-0.7.1.tar.gz --markdown 20230610/c/caikit/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-06-10 01:29:30] INFO root fetch - processPackages [pain001]: executing diffoscope
+[2023-06-10 01:29:30] INFO root fetch - processPackages [pain001]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pain001-0.0.8.tar.gz tmp/pain001-0.0.9.tar.gz --markdown 20230610/p/pain001/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-10 01:29:30] INFO root fetch - processPackages [keepercommander]: executing diffoscope
+[2023-06-10 01:29:30] INFO root fetch - processPackages [keepercommander]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keepercommander-4.88.tar.gz tmp/keepercommander-4.9.tar.gz --markdown 20230610/k/keepercommander/4.88-4.9/diff.md --exclude *.pyd
+[2023-06-10 01:29:31] INFO root fetch - processPackages [pain001]: Remove: archive file [/home/abi/fetcher/tmp/pain001-0.0.8.tar.gz]
+[2023-06-10 01:29:31] INFO root fetch - processPackages [pain001]: Remove: archive file [/home/abi/fetcher/tmp/pain001-0.0.9.tar.gz]
+[2023-06-10 01:29:31] INFO root fetch - main [MainThread]: End processing [pain001]: success
+[2023-06-10 01:29:32] INFO root fetch - processPackages [libmultilabel]: Remove: archive file [/home/abi/fetcher/tmp/libmultilabel-0.2.1.tar.gz]
+[2023-06-10 01:29:32] INFO root fetch - processPackages [libmultilabel]: Remove: archive file [/home/abi/fetcher/tmp/libmultilabel-0.3.0.tar.gz]
+[2023-06-10 01:29:32] INFO root fetch - main [MainThread]: End processing [libmultilabel]: success
+[2023-06-10 01:29:32] INFO root fetch - processPackages [keepercommander]: Remove: archive file [/home/abi/fetcher/tmp/keepercommander-4.88.tar.gz]
+[2023-06-10 01:29:32] INFO root fetch - processPackages [keepercommander]: Remove: archive file [/home/abi/fetcher/tmp/keepercommander-4.9.tar.gz]
+[2023-06-10 01:29:32] INFO root fetch - main [MainThread]: End processing [keepercommander]: success
+[2023-06-10 01:29:32] INFO root fetch - processPackages [aioqui]: Remove: archive file [/home/abi/fetcher/tmp/aioqui-2.0.4.tar.gz]
+[2023-06-10 01:29:32] INFO root fetch - processPackages [aioqui]: Remove: archive file [/home/abi/fetcher/tmp/aioqui-2.0.5.tar.gz]
+[2023-06-10 01:29:32] INFO root fetch - main [MainThread]: End processing [aioqui]: success
+[2023-06-10 01:29:33] INFO root fetch - processPackages [caikit]: Remove: archive file [/home/abi/fetcher/tmp/caikit-0.7.0.tar.gz]
+[2023-06-10 01:29:33] INFO root fetch - processPackages [caikit]: Remove: archive file [/home/abi/fetcher/tmp/caikit-0.7.1.tar.gz]
+[2023-06-10 01:29:33] INFO root fetch - main [MainThread]: End processing [caikit]: success
+[2023-06-10 01:29:33] INFO root fetch - main [MainThread]: Store serial: [18446156]
