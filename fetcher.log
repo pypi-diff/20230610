@@ -732,3 +732,63 @@ EOFError: EOF read where object expected
 [2023-06-10 00:59:18] INFO root fetch - processPackages [enderchest]: Remove: archive file [/home/abi/fetcher/tmp/enderchest-0.1.1rc1.tar.gz]
 [2023-06-10 00:59:18] INFO root fetch - main [MainThread]: End processing [enderchest]: success
 [2023-06-10 00:59:18] INFO root fetch - main [MainThread]: Store serial: [18446054]
+[2023-06-10 01:04:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18446054]
+[2023-06-10 01:04:28] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-10 01:04:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ccxt
+[2023-06-10 01:04:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: GMEncryption
+[2023-06-10 01:04:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: borg-space
+[2023-06-10 01:04:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tmnt-cu101
+[2023-06-10 01:04:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: trame-server
+[2023-06-10 01:04:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tmnt
+[2023-06-10 01:04:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nmdc-schema
+[2023-06-10 01:04:28] WARNING root fetch - processPackages [GMEncryption]: Skipping, unable to determine old version
+[2023-06-10 01:04:28] INFO root fetch - main [MainThread]: End processing [GMEncryption] error
+[2023-06-10 01:04:28] INFO root fetch - processPackages [borg-space]: New version: [2.1] Old Version: [2.0]
+[2023-06-10 01:04:28] INFO root fetch - processPackages [trame-server]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-06-10 01:04:28] INFO root fetch - processPackages [nmdc-schema]: New version: [7.6.2] Old Version: [7.6.1]
+[2023-06-10 01:04:28] INFO root fetch - processPackages [ccxt]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-06-10 01:04:28] INFO root fetch - processPackages [tmnt-cu101]: New version: [0.7.0b20230609] Old Version: [0.7.0b20230608]
+[2023-06-10 01:04:28] INFO root fetch - processPackages [tmnt]: New version: [0.7.0b20230609] Old Version: [0.7.0b20230608]
+[2023-06-10 01:04:28] INFO root fetch - processPackages [trame-server]: Downloading https://files.pythonhosted.org/packages/ff/21/1f6fe85842c2868c759cc0fe6afd775c1cf48d14a7bde3c0d3fa846bcfb6/trame-server-2.9.0.tar.gz
+[2023-06-10 01:04:28] INFO root fetch - processPackages [nmdc-schema]: Downloading https://files.pythonhosted.org/packages/de/b0/7780bade08b719f36d1387bd8b7066a64e7150a1b8b8096df2827d05ca12/nmdc_schema-7.6.1.tar.gz
+[2023-06-10 01:04:28] INFO root fetch - processPackages [borg-space]: Downloading https://files.pythonhosted.org/packages/16/e9/97922bd3eac7d30a6d5e88323bc6c40c2bbd179b8a131e1319724f447a43/borg_space-2.0.tar.gz
+[2023-06-10 01:04:28] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/76/44/fc2d585ffbeec89a10532db084a2642b41cee8a7ad36b5546ecf85620a92/tmnt-0.7.0b20230608.tar.gz
+[2023-06-10 01:04:28] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/25/b1/adcb19bad35657df0c8285408bf80f58b9a5c7725f22bf6ddce021294aee/tmnt-cu101-0.7.0b20230608.tar.gz
+[2023-06-10 01:04:28] INFO root fetch - processPackages [trame-server]: Downloading https://files.pythonhosted.org/packages/26/e2/4a78771f17ab649d699d0f84fef5416b02ee3f59e5642211b013061adde0/trame-server-2.9.1.tar.gz
+[2023-06-10 01:04:28] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/c8/8c/0f6049cfe62c7345061ebc4bc204d5b43328f61a0dea4dba781a9cb6d23c/ccxt-3.1.8.tar.gz
+[2023-06-10 01:04:28] INFO root fetch - processPackages [trame-server]: executing diffoscope
+[2023-06-10 01:04:28] INFO root fetch - processPackages [trame-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trame-server-2.9.0.tar.gz tmp/trame-server-2.9.1.tar.gz --markdown 20230610/t/trame-server/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2023-06-10 01:04:28] INFO root fetch - processPackages [borg-space]: Downloading https://files.pythonhosted.org/packages/6d/b6/59778f67e7824f596555bedb3bcd56098a7337ad71cf0487c8c31a409db8/borg_space-2.1.tar.gz
+[2023-06-10 01:04:28] INFO root fetch - processPackages [nmdc-schema]: Downloading https://files.pythonhosted.org/packages/c8/b2/66c55843043d26349c1edca0b2d304d01adc87a143db81cf61210688398a/nmdc_schema-7.6.2.tar.gz
+[2023-06-10 01:04:29] INFO root fetch - processPackages [borg-space]: executing diffoscope
+[2023-06-10 01:04:29] INFO root fetch - processPackages [borg-space]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/borg_space-2.0.tar.gz tmp/borg_space-2.1.tar.gz --markdown 20230610/b/borg-space/2.0-2.1/diff.md --exclude *.pyd
+[2023-06-10 01:04:29] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/39/03/a0f9eb3a113c8a11e8f5dd6bb2b6a5a38b4c8cf1a3d8ac9bd5bc6c7e10ea/tmnt-cu101-0.7.0b20230609.tar.gz
+[2023-06-10 01:04:29] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/a4/a7/ba7be0e49c0067ac6baa2f111adf43afb8b52eb3db284a8f80e77b516c97/tmnt-0.7.0b20230609.tar.gz
+[2023-06-10 01:04:29] INFO root fetch - processPackages [nmdc-schema]: executing diffoscope
+[2023-06-10 01:04:29] INFO root fetch - processPackages [nmdc-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nmdc_schema-7.6.1.tar.gz tmp/nmdc_schema-7.6.2.tar.gz --markdown 20230610/n/nmdc-schema/7.6.1-7.6.2/diff.md --exclude *.pyd
+[2023-06-10 01:04:29] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2023-06-10 01:04:29] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.0b20230608.tar.gz tmp/tmnt-0.7.0b20230609.tar.gz --markdown 20230610/t/tmnt/0.7.0b20230608-0.7.0b20230609/diff.md --exclude *.pyd
+[2023-06-10 01:04:29] INFO root fetch - processPackages [tmnt-cu101]: executing diffoscope
+[2023-06-10 01:04:29] INFO root fetch - processPackages [tmnt-cu101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-cu101-0.7.0b20230608.tar.gz tmp/tmnt-cu101-0.7.0b20230609.tar.gz --markdown 20230610/t/tmnt-cu101/0.7.0b20230608-0.7.0b20230609/diff.md --exclude *.pyd
+[2023-06-10 01:04:29] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/da/20/697a7c246ccda48f1db7fabcef3d2ae5b059eb38ab11d028ed79393e0d46/ccxt-3.1.9.tar.gz
+[2023-06-10 01:04:30] INFO root fetch - processPackages [trame-server]: Remove: archive file [/home/abi/fetcher/tmp/trame-server-2.9.0.tar.gz]
+[2023-06-10 01:04:30] INFO root fetch - processPackages [trame-server]: Remove: archive file [/home/abi/fetcher/tmp/trame-server-2.9.1.tar.gz]
+[2023-06-10 01:04:30] INFO root fetch - main [MainThread]: End processing [trame-server]: success
+[2023-06-10 01:04:30] INFO root fetch - processPackages [ccxt]: executing diffoscope
+[2023-06-10 01:04:30] INFO root fetch - processPackages [ccxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-3.1.8.tar.gz tmp/ccxt-3.1.9.tar.gz --markdown 20230610/c/ccxt/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-06-10 01:04:30] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230608.tar.gz]
+[2023-06-10 01:04:30] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230609.tar.gz]
+[2023-06-10 01:04:30] INFO root fetch - main [MainThread]: End processing [tmnt-cu101]: success
+[2023-06-10 01:04:30] INFO root fetch - processPackages [borg-space]: Remove: archive file [/home/abi/fetcher/tmp/borg_space-2.0.tar.gz]
+[2023-06-10 01:04:30] INFO root fetch - processPackages [borg-space]: Remove: archive file [/home/abi/fetcher/tmp/borg_space-2.1.tar.gz]
+[2023-06-10 01:04:30] INFO root fetch - main [MainThread]: End processing [borg-space]: success
+[2023-06-10 01:04:30] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230608.tar.gz]
+[2023-06-10 01:04:30] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230609.tar.gz]
+[2023-06-10 01:04:30] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2023-06-10 01:04:31] INFO root fetch - processPackages [nmdc-schema]: Remove: archive file [/home/abi/fetcher/tmp/nmdc_schema-7.6.1.tar.gz]
+[2023-06-10 01:04:31] INFO root fetch - processPackages [nmdc-schema]: Remove: archive file [/home/abi/fetcher/tmp/nmdc_schema-7.6.2.tar.gz]
+[2023-06-10 01:04:31] INFO root fetch - main [MainThread]: End processing [nmdc-schema]: success
+[2023-06-10 01:04:39] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-3.1.8.tar.gz]
+[2023-06-10 01:04:39] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-3.1.9.tar.gz]
+[2023-06-10 01:04:39] INFO root fetch - main [MainThread]: End processing [ccxt]: success
+[2023-06-10 01:04:39] INFO root fetch - main [MainThread]: Store serial: [18446076]
