@@ -657,3 +657,78 @@ EOFError: EOF read where object expected
 [2023-06-10 00:54:03] INFO root fetch - processPackages [ovos-bus-client]: Remove: archive file [/home/abi/fetcher/tmp/ovos-bus-client-0.0.4a9.tar.gz]
 [2023-06-10 00:54:03] INFO root fetch - main [MainThread]: End processing [ovos-bus-client]: success
 [2023-06-10 00:54:03] INFO root fetch - main [MainThread]: Store serial: [18446027]
+[2023-06-10 00:59:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18446027]
+[2023-06-10 00:59:13] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-10 00:59:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: supervisely
+[2023-06-10 00:59:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: psense-common
+[2023-06-10 00:59:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: netbox-cisco-maintenance
+[2023-06-10 00:59:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: settngs
+[2023-06-10 00:59:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: selfbotclient
+[2023-06-10 00:59:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: enderchest
+[2023-06-10 00:59:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wslink
+[2023-06-10 00:59:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cofactr
+[2023-06-10 00:59:13] INFO root fetch - processPackages [settngs]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-06-10 00:59:13] INFO root fetch - processPackages [psense-common]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-06-10 00:59:13] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-10 00:59:13] INFO root fetch - processPackages [selfbotclient]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-10 00:59:13] INFO root fetch - processPackages [enderchest]: New version: [0.1.1rc1] Old Version: [0.1.0rc6]
+[2023-06-10 00:59:13] INFO root fetch - processPackages [supervisely]: New version: [6.9.2] Old Version: [6.9.1]
+[2023-06-10 00:59:13] INFO root fetch - processPackages [settngs]: Downloading https://files.pythonhosted.org/packages/bf/5f/b69155f1a82e24b248eb3e7e8bd904a73d23afeb40784ae47068426337ce/settngs-0.7.0.tar.gz
+[2023-06-10 00:59:13] INFO root fetch - processPackages [wslink]: New version: [1.9.3] Old Version: [1.9.2]
+[2023-06-10 00:59:13] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/49/9b/a1c0c74911cdf52ff01e40ea24fa7dd8c615a41dbbdae40f076bf871e18c/netbox-cisco-maintenance-0.0.98.tar.gz
+[2023-06-10 00:59:13] INFO root fetch - processPackages [cofactr]: New version: [5.9.0] Old Version: [5.8.0]
+[2023-06-10 00:59:13] INFO root fetch - processPackages [selfbotclient]: Downloading https://files.pythonhosted.org/packages/32/ce/8177115b01600bc5b57261f2f2639575f27c87ad2c78b999a7fc7d6b37aa/selfbotclient-1.0.0.tar.gz
+[2023-06-10 00:59:13] INFO root fetch - processPackages [psense-common]: Downloading https://files.pythonhosted.org/packages/75/ba/d534c171a504f7544fded40af79ccce0a4ee840ba04fb4320c3347d001dd/psense_common-0.4.8.tar.gz
+[2023-06-10 00:59:13] INFO root fetch - processPackages [enderchest]: Downloading https://files.pythonhosted.org/packages/66/b0/2bcc67b14b9f2a6a1b2cda0a754843afc0671edefc26367f69c9a86a5536/enderchest-0.1.0rc6.tar.gz
+[2023-06-10 00:59:13] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/36/61/db227025ce63809f803a3fe44062bf026321f24f9aa12a99bf348ae574ca/netbox-cisco-maintenance-0.0.99.tar.gz
+[2023-06-10 00:59:13] INFO root fetch - processPackages [supervisely]: Downloading https://files.pythonhosted.org/packages/bf/5a/d1c5e1830d747d899ac781f368bbd65eb9c02eaf0faf98d318a7dd8cce53/supervisely-6.9.1.tar.gz
+[2023-06-10 00:59:13] INFO root fetch - processPackages [wslink]: Downloading https://files.pythonhosted.org/packages/ee/c8/b9d4c578dbb47f72024bf5247ead7468e23fc46f2ae5bd249d68bfd7e6d7/wslink-1.9.2.tar.gz
+[2023-06-10 00:59:13] INFO root fetch - processPackages [cofactr]: Downloading https://files.pythonhosted.org/packages/dc/3b/2afde55d1a341be4b27b4e2ec5451ea85e672285fd17ae9e0449287b0bae/cofactr-5.8.0.tar.gz
+[2023-06-10 00:59:13] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-06-10 00:59:13] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.98.tar.gz tmp/netbox-cisco-maintenance-0.0.99.tar.gz --markdown 20230610/n/netbox-cisco-maintenance/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-10 00:59:13] INFO root fetch - processPackages [settngs]: Downloading https://files.pythonhosted.org/packages/fb/31/bea5d7fe9ab61f44b8136eefb15bef984052734ce732b02f4a36a25ef916/settngs-0.7.1.tar.gz
+[2023-06-10 00:59:13] INFO root fetch - processPackages [selfbotclient]: Downloading https://files.pythonhosted.org/packages/49/11/631f88cc86e95a09c7ca7bdbac0d5e07c8a30a7c85426c8bfe24f7cacc69/selfbotclient-1.0.1.tar.gz
+[2023-06-10 00:59:13] INFO root fetch - processPackages [settngs]: executing diffoscope
+[2023-06-10 00:59:13] INFO root fetch - processPackages [settngs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/settngs-0.7.0.tar.gz tmp/settngs-0.7.1.tar.gz --markdown 20230610/s/settngs/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-06-10 00:59:13] INFO root fetch - processPackages [psense-common]: Downloading https://files.pythonhosted.org/packages/df/07/bf70ebe2e08b6004f263b97ae1f0d5d0b26cbb0993cea92aad1fbd950091/psense_common-0.4.9.tar.gz
+[2023-06-10 00:59:13] INFO root fetch - processPackages [selfbotclient]: executing diffoscope
+[2023-06-10 00:59:13] INFO root fetch - processPackages [selfbotclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selfbotclient-1.0.0.tar.gz tmp/selfbotclient-1.0.1.tar.gz --markdown 20230610/s/selfbotclient/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-10 00:59:13] INFO root fetch - processPackages [psense-common]: executing diffoscope
+[2023-06-10 00:59:13] INFO root fetch - processPackages [psense-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psense_common-0.4.8.tar.gz tmp/psense_common-0.4.9.tar.gz --markdown 20230610/p/psense-common/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-06-10 00:59:13] INFO root fetch - processPackages [supervisely]: Downloading https://files.pythonhosted.org/packages/bf/56/78987e56220fcb935013105de97143fb9371ba9732a7dcdcb9451350a28f/supervisely-6.9.2.tar.gz
+[2023-06-10 00:59:13] INFO root fetch - processPackages [wslink]: Downloading https://files.pythonhosted.org/packages/1c/99/b50331a1b9b0b2ff8ba98439bbf0ee2d9b0ea8836d4ab373f50a6566f30d/wslink-1.9.3.tar.gz
+[2023-06-10 00:59:13] INFO root fetch - processPackages [cofactr]: Downloading https://files.pythonhosted.org/packages/25/02/2926025da66c02b46df9252be98413107471457127661102e934e13c4741/cofactr-5.9.0.tar.gz
+[2023-06-10 00:59:14] INFO root fetch - processPackages [wslink]: executing diffoscope
+[2023-06-10 00:59:14] INFO root fetch - processPackages [wslink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wslink-1.9.2.tar.gz tmp/wslink-1.9.3.tar.gz --markdown 20230610/w/wslink/1.9.2-1.9.3/diff.md --exclude *.pyd
+[2023-06-10 00:59:14] INFO root fetch - processPackages [supervisely]: executing diffoscope
+[2023-06-10 00:59:14] INFO root fetch - processPackages [supervisely]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supervisely-6.9.1.tar.gz tmp/supervisely-6.9.2.tar.gz --markdown 20230610/s/supervisely/6.9.1-6.9.2/diff.md --exclude *.pyd
+[2023-06-10 00:59:14] INFO root fetch - processPackages [cofactr]: executing diffoscope
+[2023-06-10 00:59:14] INFO root fetch - processPackages [cofactr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cofactr-5.8.0.tar.gz tmp/cofactr-5.9.0.tar.gz --markdown 20230610/c/cofactr/5.8.0-5.9.0/diff.md --exclude *.pyd
+[2023-06-10 00:59:14] INFO root fetch - processPackages [enderchest]: Downloading https://files.pythonhosted.org/packages/d1/1d/c34690d51ead01dbb77c3e88ea6830959fa444e14419b5813ad3cd7cb5d4/enderchest-0.1.1rc1.tar.gz
+[2023-06-10 00:59:14] INFO root fetch - processPackages [enderchest]: executing diffoscope
+[2023-06-10 00:59:14] INFO root fetch - processPackages [enderchest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enderchest-0.1.0rc6.tar.gz tmp/enderchest-0.1.1rc1.tar.gz --markdown 20230610/e/enderchest/0.1.0rc6-0.1.1rc1/diff.md --exclude *.pyd
+[2023-06-10 00:59:15] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.98.tar.gz]
+[2023-06-10 00:59:15] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.99.tar.gz]
+[2023-06-10 00:59:15] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-06-10 00:59:15] INFO root fetch - processPackages [psense-common]: Remove: archive file [/home/abi/fetcher/tmp/psense_common-0.4.8.tar.gz]
+[2023-06-10 00:59:15] INFO root fetch - processPackages [psense-common]: Remove: archive file [/home/abi/fetcher/tmp/psense_common-0.4.9.tar.gz]
+[2023-06-10 00:59:15] INFO root fetch - main [MainThread]: End processing [psense-common]: success
+[2023-06-10 00:59:15] INFO root fetch - processPackages [selfbotclient]: Remove: archive file [/home/abi/fetcher/tmp/selfbotclient-1.0.0.tar.gz]
+[2023-06-10 00:59:15] INFO root fetch - processPackages [selfbotclient]: Remove: archive file [/home/abi/fetcher/tmp/selfbotclient-1.0.1.tar.gz]
+[2023-06-10 00:59:15] INFO root fetch - main [MainThread]: End processing [selfbotclient]: success
+[2023-06-10 00:59:15] INFO root fetch - processPackages [cofactr]: Remove: archive file [/home/abi/fetcher/tmp/cofactr-5.8.0.tar.gz]
+[2023-06-10 00:59:15] INFO root fetch - processPackages [cofactr]: Remove: archive file [/home/abi/fetcher/tmp/cofactr-5.9.0.tar.gz]
+[2023-06-10 00:59:15] INFO root fetch - main [MainThread]: End processing [cofactr]: success
+[2023-06-10 00:59:15] INFO root fetch - processPackages [settngs]: Remove: archive file [/home/abi/fetcher/tmp/settngs-0.7.0.tar.gz]
+[2023-06-10 00:59:15] INFO root fetch - processPackages [settngs]: Remove: archive file [/home/abi/fetcher/tmp/settngs-0.7.1.tar.gz]
+[2023-06-10 00:59:15] INFO root fetch - main [MainThread]: End processing [settngs]: success
+[2023-06-10 00:59:15] INFO root fetch - processPackages [wslink]: Remove: archive file [/home/abi/fetcher/tmp/wslink-1.9.2.tar.gz]
+[2023-06-10 00:59:15] INFO root fetch - processPackages [wslink]: Remove: archive file [/home/abi/fetcher/tmp/wslink-1.9.3.tar.gz]
+[2023-06-10 00:59:15] INFO root fetch - main [MainThread]: End processing [wslink]: success
+[2023-06-10 00:59:16] INFO root fetch - processPackages [supervisely]: Remove: archive file [/home/abi/fetcher/tmp/supervisely-6.9.1.tar.gz]
+[2023-06-10 00:59:16] INFO root fetch - processPackages [supervisely]: Remove: archive file [/home/abi/fetcher/tmp/supervisely-6.9.2.tar.gz]
+[2023-06-10 00:59:16] INFO root fetch - main [MainThread]: End processing [supervisely]: success
+[2023-06-10 00:59:18] INFO root fetch - processPackages [enderchest]: Remove: archive file [/home/abi/fetcher/tmp/enderchest-0.1.0rc6.tar.gz]
+[2023-06-10 00:59:18] INFO root fetch - processPackages [enderchest]: Remove: archive file [/home/abi/fetcher/tmp/enderchest-0.1.1rc1.tar.gz]
+[2023-06-10 00:59:18] INFO root fetch - main [MainThread]: End processing [enderchest]: success
+[2023-06-10 00:59:18] INFO root fetch - main [MainThread]: Store serial: [18446054]
