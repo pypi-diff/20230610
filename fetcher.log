@@ -1,0 +1,71 @@
+[2023-06-10 00:05:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18445715]
+[2023-06-10 00:05:35] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-10 00:05:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: NESP-Lib
+[2023-06-10 00:05:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: neugs-utils
+[2023-06-10 00:05:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: oxenai
+[2023-06-10 00:05:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: AI2PY
+[2023-06-10 00:05:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cammello
+[2023-06-10 00:05:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: custom-diffusion
+[2023-06-10 00:05:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zensols.mimicsid
+[2023-06-10 00:05:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: untanglepyut
+[2023-06-10 00:05:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: botodto
+[2023-06-10 00:05:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: netbox-cisco-maintenance
+[2023-06-10 00:05:35] INFO root fetch - processPackages [neugs-utils]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-10 00:05:35] INFO root fetch - processPackages [NESP-Lib]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-10 00:05:35] WARNING root fetch - processPackages [AI2PY]: Skipping, unable to determine old version
+[2023-06-10 00:05:35] INFO root fetch - processPackages [custom-diffusion]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-10 00:05:35] INFO root fetch - main [MainThread]: End processing [AI2PY] error
+[2023-06-10 00:05:35] INFO root fetch - processPackages [oxenai]: New version: [0.1.9] Old Version: [0.1.3]
+[2023-06-10 00:05:35] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-10 00:05:35] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/49/9b/a1c0c74911cdf52ff01e40ea24fa7dd8c615a41dbbdae40f076bf871e18c/netbox-cisco-maintenance-0.0.98.tar.gz
+[2023-06-10 00:05:35] INFO root fetch - processPackages [zensols.mimicsid]: New version: [1.2.0] Old Version: [1.0.0]
+[2023-06-10 00:05:35] WARNING root fetch - processPackages [cammello]: Skipping, unable to determine old version
+[2023-06-10 00:05:35] INFO root fetch - main [MainThread]: End processing [cammello] error
+[2023-06-10 00:05:35] WARNING root fetch - processPackages [botodto]: Skipping, unable to determine old version
+[2023-06-10 00:05:35] INFO root fetch - main [MainThread]: End processing [botodto] error
+[2023-06-10 00:05:35] INFO root fetch - processPackages [oxenai]: Downloading https://files.pythonhosted.org/packages/f9/07/9b84496c51d7eb0978a7122e0246eb47d8118ed65cba24367d0ffec0ae9e/oxenai-0.1.9-cp310-cp310-macosx_11_0_arm64.whl
+[2023-06-10 00:05:35] INFO root fetch - processPackages [untanglepyut]: New version: [0.7.0] Old Version: [0.6.62]
+[2023-06-10 00:05:35] WARNING root fetch - processPackages [oxenai]: Skipping package: exceeds size limit 14827494>=10485760
+[2023-06-10 00:05:35] INFO root fetch - main [MainThread]: End processing [oxenai] error
+[2023-06-10 00:05:35] INFO root fetch - processPackages [neugs-utils]: Downloading https://files.pythonhosted.org/packages/36/26/83c0bbd8694b4c08c2ee50d06480d565ad38e8e64b7d51cf511d2bd4bd1e/neugs_utils-0.0.7.tar.gz
+[2023-06-10 00:05:35] INFO root fetch - processPackages [NESP-Lib]: Downloading https://files.pythonhosted.org/packages/8b/91/1dc415e092c3f891aed47859163a052b66f3d5033ea1742518b6881aeab5/NESP-Lib-1.0.0.tar.gz
+[2023-06-10 00:05:35] INFO root fetch - processPackages [custom-diffusion]: Downloading https://files.pythonhosted.org/packages/38/fe/d06cf932d099772af2b0a1da026593223db636005e0960f896e57cb90ac3/custom_diffusion-0.0.3.tar.gz
+[2023-06-10 00:05:35] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/36/61/db227025ce63809f803a3fe44062bf026321f24f9aa12a99bf348ae574ca/netbox-cisco-maintenance-0.0.99.tar.gz
+[2023-06-10 00:05:36] INFO root fetch - processPackages [zensols.mimicsid]: Downloading https://files.pythonhosted.org/packages/66/05/e6235c54fc2cea9733b76e079396926cf88b65aa69835dc4c854caa1701c/zensols.mimicsid-1.0.0-py3-none-any.whl
+[2023-06-10 00:05:36] INFO root fetch - processPackages [untanglepyut]: Downloading https://files.pythonhosted.org/packages/e9/05/72e4a973e59e022d26bba915e0c3910e2f9f40e387554683b633e4c6c785/untanglepyut-0.6.62.tar.gz
+[2023-06-10 00:05:36] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-06-10 00:05:36] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.98.tar.gz tmp/netbox-cisco-maintenance-0.0.99.tar.gz --markdown 20230610/n/netbox-cisco-maintenance/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-10 00:05:36] INFO root fetch - processPackages [NESP-Lib]: Downloading https://files.pythonhosted.org/packages/45/d8/742bf2729a02571fc06d177b63c9701e0af9d7ad4359986c52365f547e74/NESP-Lib-1.0.1.tar.gz
+[2023-06-10 00:05:36] INFO root fetch - processPackages [neugs-utils]: Downloading https://files.pythonhosted.org/packages/73/d8/340e23d5e02dac03df06168d0920b8c0e901de0aa32fa364fcfbd753ca54/neugs_utils-0.0.8.tar.gz
+[2023-06-10 00:05:36] INFO root fetch - processPackages [custom-diffusion]: Downloading https://files.pythonhosted.org/packages/26/d4/9ea9d1e21280a842ab9189420eb68dda7b6ec60e40bca5c6335e4339eda4/custom_diffusion-0.0.4.tar.gz
+[2023-06-10 00:05:36] INFO root fetch - processPackages [NESP-Lib]: executing diffoscope
+[2023-06-10 00:05:36] INFO root fetch - processPackages [NESP-Lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NESP-Lib-1.0.0.tar.gz tmp/NESP-Lib-1.0.1.tar.gz --markdown 20230610/N/NESP-Lib/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-10 00:05:36] INFO root fetch - processPackages [untanglepyut]: Downloading https://files.pythonhosted.org/packages/cb/9f/c63776cb003ea581d65ecc52b375574ee5f1bf55e674ec83036850f0dc76/untanglepyut-0.7.0.tar.gz
+[2023-06-10 00:05:36] INFO root fetch - processPackages [zensols.mimicsid]: Downloading https://files.pythonhosted.org/packages/26/d1/ecf3efc8915763995c6b1324351374890ec31eb0175851a17ae57fef4136/zensols.mimicsid-1.2.0-py3-none-any.whl
+[2023-06-10 00:05:36] INFO root fetch - processPackages [neugs-utils]: executing diffoscope
+[2023-06-10 00:05:36] INFO root fetch - processPackages [neugs-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neugs_utils-0.0.7.tar.gz tmp/neugs_utils-0.0.8.tar.gz --markdown 20230610/n/neugs-utils/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-10 00:05:36] INFO root fetch - processPackages [custom-diffusion]: executing diffoscope
+[2023-06-10 00:05:36] INFO root fetch - processPackages [custom-diffusion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/custom_diffusion-0.0.3.tar.gz tmp/custom_diffusion-0.0.4.tar.gz --markdown 20230610/c/custom-diffusion/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-10 00:05:36] INFO root fetch - processPackages [untanglepyut]: executing diffoscope
+[2023-06-10 00:05:36] INFO root fetch - processPackages [untanglepyut]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/untanglepyut-0.6.62.tar.gz tmp/untanglepyut-0.7.0.tar.gz --markdown 20230610/u/untanglepyut/0.6.62-0.7.0/diff.md --exclude *.pyd
+[2023-06-10 00:05:36] INFO root fetch - processPackages [zensols.mimicsid]: executing diffoscope
+[2023-06-10 00:05:36] INFO root fetch - processPackages [zensols.mimicsid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zensols.mimicsid-1.0.0-py3-none-any.whl.zip tmp/zensols.mimicsid-1.2.0-py3-none-any.whl.zip --markdown 20230610/z/zensols.mimicsid/1.0.0-1.2.0/diff.md --exclude *.pyd
+[2023-06-10 00:05:37] INFO root fetch - processPackages [neugs-utils]: Remove: archive file [/home/abi/fetcher/tmp/neugs_utils-0.0.7.tar.gz]
+[2023-06-10 00:05:37] INFO root fetch - processPackages [neugs-utils]: Remove: archive file [/home/abi/fetcher/tmp/neugs_utils-0.0.8.tar.gz]
+[2023-06-10 00:05:37] INFO root fetch - main [MainThread]: End processing [neugs-utils]: success
+[2023-06-10 00:05:37] INFO root fetch - processPackages [NESP-Lib]: Remove: archive file [/home/abi/fetcher/tmp/NESP-Lib-1.0.0.tar.gz]
+[2023-06-10 00:05:37] INFO root fetch - processPackages [NESP-Lib]: Remove: archive file [/home/abi/fetcher/tmp/NESP-Lib-1.0.1.tar.gz]
+[2023-06-10 00:05:37] INFO root fetch - main [MainThread]: End processing [NESP-Lib]: success
+[2023-06-10 00:05:37] INFO root fetch - processPackages [untanglepyut]: Remove: archive file [/home/abi/fetcher/tmp/untanglepyut-0.6.62.tar.gz]
+[2023-06-10 00:05:37] INFO root fetch - processPackages [untanglepyut]: Remove: archive file [/home/abi/fetcher/tmp/untanglepyut-0.7.0.tar.gz]
+[2023-06-10 00:05:37] INFO root fetch - main [MainThread]: End processing [untanglepyut]: success
+[2023-06-10 00:05:37] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.98.tar.gz]
+[2023-06-10 00:05:37] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.99.tar.gz]
+[2023-06-10 00:05:37] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-06-10 00:05:37] INFO root fetch - processPackages [custom-diffusion]: Remove: archive file [/home/abi/fetcher/tmp/custom_diffusion-0.0.3.tar.gz]
+[2023-06-10 00:05:37] INFO root fetch - processPackages [custom-diffusion]: Remove: archive file [/home/abi/fetcher/tmp/custom_diffusion-0.0.4.tar.gz]
+[2023-06-10 00:05:37] INFO root fetch - main [MainThread]: End processing [custom-diffusion]: success
+[2023-06-10 00:05:37] INFO root fetch - processPackages [zensols.mimicsid]: Remove: archive file [/home/abi/fetcher/tmp/zensols.mimicsid-1.0.0-py3-none-any.whl.zip]
+[2023-06-10 00:05:37] INFO root fetch - processPackages [zensols.mimicsid]: Remove: archive file [/home/abi/fetcher/tmp/zensols.mimicsid-1.2.0-py3-none-any.whl.zip]
+[2023-06-10 00:05:37] INFO root fetch - main [MainThread]: End processing [zensols.mimicsid]: success
+[2023-06-10 00:05:37] INFO root fetch - main [MainThread]: Store serial: [18445755]
