@@ -7949,3 +7949,96 @@ EOFError: EOF read where object expected
 [2023-06-10 07:10:33] ERROR root fetch - processPackages [multi-model-server]: Timeout during execution of pkgdiff
 [2023-06-10 07:10:33] INFO root fetch - main [MainThread]: End processing [multi-model-server] error
 [2023-06-10 07:10:33] INFO root fetch - main [MainThread]: Store serial: [18448731]
+[2023-06-10 07:15:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18448731]
+[2023-06-10 07:15:42] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-10 07:15:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-base-view-inheritance-extension
+[2023-06-10 07:15:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-base-name-search-improved
+[2023-06-10 07:15:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dask-cuda
+[2023-06-10 07:15:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-scheduler-error-mailer
+[2023-06-10 07:15:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-module-auto-update
+[2023-06-10 07:15:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: liteclashproman
+[2023-06-10 07:15:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rapid-pe
+[2023-06-10 07:15:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: henipipe
+[2023-06-10 07:15:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pycodata
+[2023-06-10 07:15:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: AoiPy
+[2023-06-10 07:15:42] INFO root fetch - processPackages [odoo-addon-base-view-inheritance-extension]: New version: [16.0.1.0.0.8] Old Version: [16.0.1.0.0.7]
+[2023-06-10 07:15:42] INFO root fetch - processPackages [odoo-addon-base-name-search-improved]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.3]
+[2023-06-10 07:15:42] INFO root fetch - processPackages [odoo-addon-module-auto-update]: New version: [16.0.1.0.0.6] Old Version: [16.0.1.0.0.5]
+[2023-06-10 07:15:42] INFO root fetch - processPackages [liteclashproman]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-10 07:15:42] INFO root fetch - processPackages [pycodata]: New version: [0.8.0] Old Version: [0.7.1]
+[2023-06-10 07:15:42] INFO root fetch - processPackages [odoo-addon-scheduler-error-mailer]: New version: [16.0.1.0.0.6] Old Version: [16.0.1.0.0.5]
+[2023-06-10 07:15:42] INFO root fetch - processPackages [henipipe]: New version: [2.4.9] Old Version: [2.4.8]
+[2023-06-10 07:15:42] INFO root fetch - processPackages [AoiPy]: New version: [0.9.18] Old Version: [0.9.17]
+[2023-06-10 07:15:42] INFO root fetch - processPackages [rapid-pe]: New version: [0.1.1.dev20230610] Old Version: [0.1.1.dev20230609]
+[2023-06-10 07:15:42] INFO root fetch - processPackages [odoo-addon-base-view-inheritance-extension]: Downloading https://files.pythonhosted.org/packages/c5/a6/92d295d6cfe069ead40b75b40e2811b78973becd81d35a956590955b9944/odoo_addon_base_view_inheritance_extension-16.0.1.0.0.7-py3-none-any.whl
+[2023-06-10 07:15:42] INFO root fetch - processPackages [dask-cuda]: New version: [23.8.0a230610] Old Version: [23.8.0a230609]
+[2023-06-10 07:15:43] INFO root fetch - processPackages [AoiPy]: Downloading https://files.pythonhosted.org/packages/19/32/af10b0bc2e821a9e92b4ee843886148150c9020cf0d270f59c0179deafe7/AoiPy-0.9.17-py3-none-any.whl
+[2023-06-10 07:15:43] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/72/8e/2253225374212524261d9e263949bbeee7eb044e7c4f413f41ff37c9935f/rapid_pe-0.1.1.dev20230609.tar.gz
+[2023-06-10 07:15:43] INFO root fetch - processPackages [henipipe]: Downloading https://files.pythonhosted.org/packages/1a/3c/a7772f6d85e24a88b6588662449af6e89f6e47cad7932500da296e608c92/henipipe-2.4.8.tar.gz
+[2023-06-10 07:15:43] INFO root fetch - processPackages [liteclashproman]: Downloading https://files.pythonhosted.org/packages/7c/01/4fb1d25cb2d0226b991fefc7ce15f6416134156e813fc8bc76cf7ffdb48b/liteclashproman-0.1.3.tar.gz
+[2023-06-10 07:15:43] INFO root fetch - processPackages [odoo-addon-base-name-search-improved]: Downloading https://files.pythonhosted.org/packages/ca/53/88d8b92ca2c7c90cc1967be20a27121c42e78325bc5fda00b2b461006e54/odoo_addon_base_name_search_improved-16.0.1.0.0.3-py3-none-any.whl
+[2023-06-10 07:15:43] INFO root fetch - processPackages [pycodata]: Downloading https://files.pythonhosted.org/packages/07/56/adf60525f015e6017c0c3a5406bd26ed6750f70504d2828665c535534c17/pycodata-0.7.1.tar.gz
+[2023-06-10 07:15:43] INFO root fetch - processPackages [odoo-addon-scheduler-error-mailer]: Downloading https://files.pythonhosted.org/packages/e2/6a/57b9df91fd7d6d6f07876af7878f513b7f51bc84913533a8e6f7e5ab00b1/odoo_addon_scheduler_error_mailer-16.0.1.0.0.5-py3-none-any.whl
+[2023-06-10 07:15:43] INFO root fetch - processPackages [odoo-addon-module-auto-update]: Downloading https://files.pythonhosted.org/packages/ee/b2/bc938fff044552b1c4b1509c2d7f5ba97a41d2e70a0e9226257d9b3e2ea7/odoo_addon_module_auto_update-16.0.1.0.0.5-py3-none-any.whl
+[2023-06-10 07:15:43] INFO root fetch - processPackages [odoo-addon-base-view-inheritance-extension]: Downloading https://files.pythonhosted.org/packages/be/40/b593eccef11563c45e219bc497248f1d09125fe039ba364e7cd733bfd933/odoo_addon_base_view_inheritance_extension-16.0.1.0.0.8-py3-none-any.whl
+[2023-06-10 07:15:43] INFO root fetch - processPackages [AoiPy]: Downloading https://files.pythonhosted.org/packages/f8/27/5da8a71f296f225c17b3ca84e877f963fdba228b95bff7e6c40ae3bd2a0a/AoiPy-0.9.18-py3-none-any.whl
+[2023-06-10 07:15:43] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/bc/81/338e87193c41d57a160d416912e2f7cdadba857c8d0b059e564b0638e83e/dask-cuda-23.8.0a230609.tar.gz
+[2023-06-10 07:15:43] INFO root fetch - processPackages [henipipe]: Downloading https://files.pythonhosted.org/packages/31/ce/52f83823b639987d43cd65ee88905a8aa6c034d3d30c6059f832a13e388a/henipipe-2.4.9.tar.gz
+[2023-06-10 07:15:43] INFO root fetch - processPackages [henipipe]: executing diffoscope
+[2023-06-10 07:15:43] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/db/a9/ae3ebd0afa5f716a538773431e576627c20963c082c038da3cb038fbdd3a/rapid_pe-0.1.1.dev20230610.tar.gz
+[2023-06-10 07:15:43] INFO root fetch - processPackages [henipipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/henipipe-2.4.8.tar.gz tmp/henipipe-2.4.9.tar.gz --markdown 20230610/h/henipipe/2.4.8-2.4.9/diff.md --exclude *.pyd
+[2023-06-10 07:15:43] INFO root fetch - processPackages [pycodata]: Downloading https://files.pythonhosted.org/packages/f5/ea/31a96a378b65e08cdb0aa8f3fea31ee6a5a98456f40d3b1fe86e7f37da51/pycodata-0.8.0.tar.gz
+[2023-06-10 07:15:43] INFO root fetch - processPackages [odoo-addon-base-view-inheritance-extension]: executing diffoscope
+[2023-06-10 07:15:43] INFO root fetch - processPackages [liteclashproman]: Downloading https://files.pythonhosted.org/packages/6d/02/0d039c1adcd47f98720335ecf699a5295a08f94f1ccce52a01ac013a7569/liteclashproman-0.1.4.tar.gz
+[2023-06-10 07:15:43] INFO root fetch - processPackages [odoo-addon-base-view-inheritance-extension]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_view_inheritance_extension-16.0.1.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_base_view_inheritance_extension-16.0.1.0.0.8-py3-none-any.whl.zip --markdown 20230610/o/odoo-addon-base-view-inheritance-extension/16.0.1.0.0.7-16.0.1.0.0.8/diff.md --exclude *.pyd
+[2023-06-10 07:15:43] INFO root fetch - processPackages [odoo-addon-base-name-search-improved]: Downloading https://files.pythonhosted.org/packages/89/6d/3b9b21c94af9a477bd5d32cf0e742d631e8be8da7613cc49a358a3b44666/odoo_addon_base_name_search_improved-16.0.1.0.0.4-py3-none-any.whl
+[2023-06-10 07:15:43] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/e1/07/28348ab4db1ff54cd4ab1c2e9f08940602f4f04ad0eba60c55170779cda6/dask-cuda-23.8.0a230610.tar.gz
+[2023-06-10 07:15:43] INFO root fetch - processPackages [odoo-addon-scheduler-error-mailer]: Downloading https://files.pythonhosted.org/packages/94/a4/ca30b27d5900d4a5922a956c77a55157ff3fb883c97fa2ade2a11f8f00ad/odoo_addon_scheduler_error_mailer-16.0.1.0.0.6-py3-none-any.whl
+[2023-06-10 07:15:43] INFO root fetch - processPackages [AoiPy]: executing diffoscope
+[2023-06-10 07:15:43] INFO root fetch - processPackages [AoiPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AoiPy-0.9.17-py3-none-any.whl.zip tmp/AoiPy-0.9.18-py3-none-any.whl.zip --markdown 20230610/A/AoiPy/0.9.17-0.9.18/diff.md --exclude *.pyd
+[2023-06-10 07:15:43] INFO root fetch - processPackages [pycodata]: executing diffoscope
+[2023-06-10 07:15:43] INFO root fetch - processPackages [pycodata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycodata-0.7.1.tar.gz tmp/pycodata-0.8.0.tar.gz --markdown 20230610/p/pycodata/0.7.1-0.8.0/diff.md --exclude *.pyd
+[2023-06-10 07:15:43] INFO root fetch - processPackages [liteclashproman]: executing diffoscope
+[2023-06-10 07:15:43] INFO root fetch - processPackages [liteclashproman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liteclashproman-0.1.3.tar.gz tmp/liteclashproman-0.1.4.tar.gz --markdown 20230610/l/liteclashproman/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-10 07:15:43] INFO root fetch - processPackages [odoo-addon-base-name-search-improved]: executing diffoscope
+[2023-06-10 07:15:43] INFO root fetch - processPackages [odoo-addon-base-name-search-improved]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_name_search_improved-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_base_name_search_improved-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20230610/o/odoo-addon-base-name-search-improved/16.0.1.0.0.3-16.0.1.0.0.4/diff.md --exclude *.pyd
+[2023-06-10 07:15:43] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2023-06-10 07:15:43] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.1.1.dev20230609.tar.gz tmp/rapid_pe-0.1.1.dev20230610.tar.gz --markdown 20230610/r/rapid-pe/0.1.1.dev20230609-0.1.1.dev20230610/diff.md --exclude *.pyd
+[2023-06-10 07:15:43] INFO root fetch - processPackages [odoo-addon-module-auto-update]: Downloading https://files.pythonhosted.org/packages/5c/1b/461c09d605715d4d4a8ad5cc929d0982e762963f80e246c06420711be74f/odoo_addon_module_auto_update-16.0.1.0.0.6-py3-none-any.whl
+[2023-06-10 07:15:43] INFO root fetch - processPackages [odoo-addon-scheduler-error-mailer]: executing diffoscope
+[2023-06-10 07:15:43] INFO root fetch - processPackages [odoo-addon-scheduler-error-mailer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_scheduler_error_mailer-16.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_scheduler_error_mailer-16.0.1.0.0.6-py3-none-any.whl.zip --markdown 20230610/o/odoo-addon-scheduler-error-mailer/16.0.1.0.0.5-16.0.1.0.0.6/diff.md --exclude *.pyd
+[2023-06-10 07:15:43] INFO root fetch - processPackages [dask-cuda]: executing diffoscope
+[2023-06-10 07:15:43] INFO root fetch - processPackages [dask-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-cuda-23.8.0a230609.tar.gz tmp/dask-cuda-23.8.0a230610.tar.gz --markdown 20230610/d/dask-cuda/23.8.0a230609-23.8.0a230610/diff.md --exclude *.pyd
+[2023-06-10 07:15:43] INFO root fetch - processPackages [odoo-addon-module-auto-update]: executing diffoscope
+[2023-06-10 07:15:43] INFO root fetch - processPackages [odoo-addon-module-auto-update]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_module_auto_update-16.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_module_auto_update-16.0.1.0.0.6-py3-none-any.whl.zip --markdown 20230610/o/odoo-addon-module-auto-update/16.0.1.0.0.5-16.0.1.0.0.6/diff.md --exclude *.pyd
+[2023-06-10 07:15:44] INFO root fetch - processPackages [AoiPy]: Remove: archive file [/home/abi/fetcher/tmp/AoiPy-0.9.17-py3-none-any.whl.zip]
+[2023-06-10 07:15:44] INFO root fetch - processPackages [AoiPy]: Remove: archive file [/home/abi/fetcher/tmp/AoiPy-0.9.18-py3-none-any.whl.zip]
+[2023-06-10 07:15:44] INFO root fetch - main [MainThread]: End processing [AoiPy]: success
+[2023-06-10 07:15:45] INFO root fetch - processPackages [odoo-addon-base-view-inheritance-extension]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_view_inheritance_extension-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2023-06-10 07:15:45] INFO root fetch - processPackages [odoo-addon-base-view-inheritance-extension]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_view_inheritance_extension-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2023-06-10 07:15:45] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-view-inheritance-extension]: success
+[2023-06-10 07:15:45] INFO root fetch - processPackages [pycodata]: Remove: archive file [/home/abi/fetcher/tmp/pycodata-0.7.1.tar.gz]
+[2023-06-10 07:15:45] INFO root fetch - processPackages [pycodata]: Remove: archive file [/home/abi/fetcher/tmp/pycodata-0.8.0.tar.gz]
+[2023-06-10 07:15:45] INFO root fetch - main [MainThread]: End processing [pycodata]: success
+[2023-06-10 07:15:45] INFO root fetch - processPackages [henipipe]: Remove: archive file [/home/abi/fetcher/tmp/henipipe-2.4.8.tar.gz]
+[2023-06-10 07:15:45] INFO root fetch - processPackages [henipipe]: Remove: archive file [/home/abi/fetcher/tmp/henipipe-2.4.9.tar.gz]
+[2023-06-10 07:15:45] INFO root fetch - main [MainThread]: End processing [henipipe]: success
+[2023-06-10 07:15:45] INFO root fetch - processPackages [odoo-addon-scheduler-error-mailer]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_scheduler_error_mailer-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-06-10 07:15:45] INFO root fetch - processPackages [odoo-addon-scheduler-error-mailer]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_scheduler_error_mailer-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2023-06-10 07:15:45] INFO root fetch - main [MainThread]: End processing [odoo-addon-scheduler-error-mailer]: success
+[2023-06-10 07:15:45] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230609.tar.gz]
+[2023-06-10 07:15:45] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230610.tar.gz]
+[2023-06-10 07:15:45] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2023-06-10 07:15:45] INFO root fetch - processPackages [odoo-addon-module-auto-update]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_module_auto_update-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-06-10 07:15:45] INFO root fetch - processPackages [odoo-addon-module-auto-update]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_module_auto_update-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2023-06-10 07:15:45] INFO root fetch - main [MainThread]: End processing [odoo-addon-module-auto-update]: success
+[2023-06-10 07:15:45] INFO root fetch - processPackages [odoo-addon-base-name-search-improved]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_name_search_improved-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-06-10 07:15:45] INFO root fetch - processPackages [odoo-addon-base-name-search-improved]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_name_search_improved-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-06-10 07:15:45] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-name-search-improved]: success
+[2023-06-10 07:15:45] INFO root fetch - processPackages [liteclashproman]: Remove: archive file [/home/abi/fetcher/tmp/liteclashproman-0.1.3.tar.gz]
+[2023-06-10 07:15:45] INFO root fetch - processPackages [liteclashproman]: Remove: archive file [/home/abi/fetcher/tmp/liteclashproman-0.1.4.tar.gz]
+[2023-06-10 07:15:45] INFO root fetch - main [MainThread]: End processing [liteclashproman]: success
+[2023-06-10 07:15:46] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230609.tar.gz]
+[2023-06-10 07:15:46] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230610.tar.gz]
+[2023-06-10 07:15:46] INFO root fetch - main [MainThread]: End processing [dask-cuda]: success
+[2023-06-10 07:15:46] INFO root fetch - main [MainThread]: Store serial: [18448758]
