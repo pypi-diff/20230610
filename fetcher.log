@@ -1304,3 +1304,66 @@ EOFError: EOF read where object expected
 [2023-06-10 01:55:46] INFO root fetch - processPackages [dvc-data]: Remove: archive file [/home/abi/fetcher/tmp/dvc-data-1.0.3.tar.gz]
 [2023-06-10 01:55:46] INFO root fetch - main [MainThread]: End processing [dvc-data]: success
 [2023-06-10 01:55:46] INFO root fetch - main [MainThread]: Store serial: [18446274]
+[2023-06-10 02:00:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18446274]
+[2023-06-10 02:00:55] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-10 02:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pydos2
+[2023-06-10 02:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gbpcli
+[2023-06-10 02:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mistune
+[2023-06-10 02:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: metaphor-connectors
+[2023-06-10 02:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: archs4py
+[2023-06-10 02:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: craft-parts
+[2023-06-10 02:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: slurm-tools
+[2023-06-10 02:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: landingai
+[2023-06-10 02:00:55] ERROR root fetch - processPackages [pydos2]: Unable to get metadata: No such project 'pydos2'
+[2023-06-10 02:00:55] INFO root fetch - main [MainThread]: End processing [pydos2] error
+[2023-06-10 02:00:55] WARNING root fetch - processPackages [slurm-tools]: Skipping, unable to determine old version
+[2023-06-10 02:00:55] INFO root fetch - main [MainThread]: End processing [slurm-tools] error
+[2023-06-10 02:00:55] INFO root fetch - processPackages [craft-parts]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-06-10 02:00:55] INFO root fetch - processPackages [landingai]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-10 02:00:55] INFO root fetch - processPackages [archs4py]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-06-10 02:00:55] INFO root fetch - processPackages [gbpcli]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-06-10 02:00:55] INFO root fetch - processPackages [mistune]: New version: [3.0.1] Old Version: [3.0.0rc5]
+[2023-06-10 02:00:55] INFO root fetch - processPackages [metaphor-connectors]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-10 02:00:55] INFO root fetch - processPackages [landingai]: Downloading https://files.pythonhosted.org/packages/24/85/41de202cb57658583318c807ea79fedd058c090462f950346d7677af0cfb/landingai-0.0.7.tar.gz
+[2023-06-10 02:00:55] INFO root fetch - processPackages [archs4py]: Downloading https://files.pythonhosted.org/packages/f7/27/3d68aa728219a8d0dfca2cb19f573b1aa895b6a0099acab4584fed9d56d9/archs4py-0.2.4.tar.gz
+[2023-06-10 02:00:55] INFO root fetch - processPackages [craft-parts]: Downloading https://files.pythonhosted.org/packages/a9/30/acf8d141cef6861894bdfdbfda10ea7293e1b2a90ee87f01f1ea8e8de4ff/craft-parts-1.8.1.tar.gz
+[2023-06-10 02:00:55] INFO root fetch - processPackages [metaphor-connectors]: Downloading https://files.pythonhosted.org/packages/92/c2/f775488949e85740917971e97fbd1e7187de61421ac7fbbc9d5485275473/metaphor-connectors-0.9.3.tar.gz
+[2023-06-10 02:00:55] INFO root fetch - processPackages [mistune]: Downloading https://files.pythonhosted.org/packages/5f/d7/1c4319fab01106f24fc0ea166f87033b487bab3155696e62e74505ba0325/mistune-3.0.0rc5.tar.gz
+[2023-06-10 02:00:55] INFO root fetch - processPackages [landingai]: Downloading https://files.pythonhosted.org/packages/fe/41/217b3e0de0fdb300f1bc686d8d5f39f3f600569ab95aa5302ab5c16adc30/landingai-0.0.8.tar.gz
+[2023-06-10 02:00:55] INFO root fetch - processPackages [gbpcli]: Downloading https://files.pythonhosted.org/packages/2a/ab/2084a895ba4f4776f6a15e5c4f89f2b7d13f6e0b44bc68389aa76b372fc7/gbpcli-1.5.0.tar.gz
+[2023-06-10 02:00:55] INFO root fetch - processPackages [archs4py]: Downloading https://files.pythonhosted.org/packages/b1/61/d1b165be18ffdb7583fa265e7855139e24a944f2c578a419b51bedc6b5fe/archs4py-0.2.5.tar.gz
+[2023-06-10 02:00:55] INFO root fetch - processPackages [landingai]: executing diffoscope
+[2023-06-10 02:00:55] INFO root fetch - processPackages [landingai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/landingai-0.0.7.tar.gz tmp/landingai-0.0.8.tar.gz --markdown 20230610/l/landingai/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-10 02:00:55] INFO root fetch - processPackages [archs4py]: executing diffoscope
+[2023-06-10 02:00:55] INFO root fetch - processPackages [archs4py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/archs4py-0.2.4.tar.gz tmp/archs4py-0.2.5.tar.gz --markdown 20230610/a/archs4py/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-06-10 02:00:55] INFO root fetch - processPackages [mistune]: Downloading https://files.pythonhosted.org/packages/0c/88/6862147c3203750cef135070fe9f841d82146c4206f55239592bcc27b0cd/mistune-3.0.1.tar.gz
+[2023-06-10 02:00:55] INFO root fetch - processPackages [craft-parts]: Downloading https://files.pythonhosted.org/packages/b3/85/446d9b8eb87bca455449628cf0d7e85338a6d6b4de255aeacd095d7565b2/craft-parts-1.9.0.tar.gz
+[2023-06-10 02:00:55] INFO root fetch - processPackages [gbpcli]: Downloading https://files.pythonhosted.org/packages/25/62/55eedbae906efaa7391f8fde5491c38849717de32ba0dd4c52e7a209ed80/gbpcli-1.5.1.tar.gz
+[2023-06-10 02:00:55] INFO root fetch - processPackages [metaphor-connectors]: Downloading https://files.pythonhosted.org/packages/7e/f3/fd51e0c2498f7340487d8eba1ee24a716e8056cce2a496a20f5da0cc11de/metaphor-connectors-0.9.4.tar.gz
+[2023-06-10 02:00:55] INFO root fetch - processPackages [mistune]: executing diffoscope
+[2023-06-10 02:00:55] INFO root fetch - processPackages [mistune]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mistune-3.0.0rc5.tar.gz tmp/mistune-3.0.1.tar.gz --markdown 20230610/m/mistune/3.0.0rc5-3.0.1/diff.md --exclude *.pyd
+[2023-06-10 02:00:55] INFO root fetch - processPackages [gbpcli]: executing diffoscope
+[2023-06-10 02:00:55] INFO root fetch - processPackages [gbpcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gbpcli-1.5.0.tar.gz tmp/gbpcli-1.5.1.tar.gz --markdown 20230610/g/gbpcli/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2023-06-10 02:00:56] INFO root fetch - processPackages [craft-parts]: executing diffoscope
+[2023-06-10 02:00:56] INFO root fetch - processPackages [craft-parts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/craft-parts-1.8.1.tar.gz tmp/craft-parts-1.9.0.tar.gz --markdown 20230610/c/craft-parts/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-06-10 02:00:56] INFO root fetch - processPackages [metaphor-connectors]: executing diffoscope
+[2023-06-10 02:00:56] INFO root fetch - processPackages [metaphor-connectors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metaphor-connectors-0.9.3.tar.gz tmp/metaphor-connectors-0.9.4.tar.gz --markdown 20230610/m/metaphor-connectors/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-10 02:00:56] INFO root fetch - processPackages [landingai]: Remove: archive file [/home/abi/fetcher/tmp/landingai-0.0.7.tar.gz]
+[2023-06-10 02:00:56] INFO root fetch - processPackages [landingai]: Remove: archive file [/home/abi/fetcher/tmp/landingai-0.0.8.tar.gz]
+[2023-06-10 02:00:56] INFO root fetch - main [MainThread]: End processing [landingai]: success
+[2023-06-10 02:00:56] INFO root fetch - processPackages [archs4py]: Remove: archive file [/home/abi/fetcher/tmp/archs4py-0.2.4.tar.gz]
+[2023-06-10 02:00:56] INFO root fetch - processPackages [archs4py]: Remove: archive file [/home/abi/fetcher/tmp/archs4py-0.2.5.tar.gz]
+[2023-06-10 02:00:56] INFO root fetch - main [MainThread]: End processing [archs4py]: success
+[2023-06-10 02:00:57] INFO root fetch - processPackages [mistune]: Remove: archive file [/home/abi/fetcher/tmp/mistune-3.0.0rc5.tar.gz]
+[2023-06-10 02:00:57] INFO root fetch - processPackages [mistune]: Remove: archive file [/home/abi/fetcher/tmp/mistune-3.0.1.tar.gz]
+[2023-06-10 02:00:57] INFO root fetch - main [MainThread]: End processing [mistune]: success
+[2023-06-10 02:00:57] INFO root fetch - processPackages [gbpcli]: Remove: archive file [/home/abi/fetcher/tmp/gbpcli-1.5.0.tar.gz]
+[2023-06-10 02:00:57] INFO root fetch - processPackages [gbpcli]: Remove: archive file [/home/abi/fetcher/tmp/gbpcli-1.5.1.tar.gz]
+[2023-06-10 02:00:57] INFO root fetch - main [MainThread]: End processing [gbpcli]: success
+[2023-06-10 02:00:57] INFO root fetch - processPackages [metaphor-connectors]: Remove: archive file [/home/abi/fetcher/tmp/metaphor-connectors-0.9.3.tar.gz]
+[2023-06-10 02:00:57] INFO root fetch - processPackages [metaphor-connectors]: Remove: archive file [/home/abi/fetcher/tmp/metaphor-connectors-0.9.4.tar.gz]
+[2023-06-10 02:00:57] INFO root fetch - main [MainThread]: End processing [metaphor-connectors]: success
+[2023-06-10 02:00:57] INFO root fetch - processPackages [craft-parts]: Remove: archive file [/home/abi/fetcher/tmp/craft-parts-1.8.1.tar.gz]
+[2023-06-10 02:00:57] INFO root fetch - processPackages [craft-parts]: Remove: archive file [/home/abi/fetcher/tmp/craft-parts-1.9.0.tar.gz]
+[2023-06-10 02:00:57] INFO root fetch - main [MainThread]: End processing [craft-parts]: success
+[2023-06-10 02:00:57] INFO root fetch - main [MainThread]: Store serial: [18446332]
