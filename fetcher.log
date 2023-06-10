@@ -2014,3 +2014,94 @@ EOFError: EOF read where object expected
 [2023-06-10 02:27:42] INFO root fetch - processPackages [cdk-docker-image-deployment]: Remove: archive file [/home/abi/fetcher/tmp/cdk-docker-image-deployment-0.0.99.tar.gz]
 [2023-06-10 02:27:42] INFO root fetch - main [MainThread]: End processing [cdk-docker-image-deployment]: success
 [2023-06-10 02:27:42] INFO root fetch - main [MainThread]: Store serial: [18446570]
+[2023-06-10 02:32:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18446570]
+[2023-06-10 02:32:50] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-10 02:32:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-ecs-service-extensions
+[2023-06-10 02:32:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: paper-qa
+[2023-06-10 02:32:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk8s-jenkins
+[2023-06-10 02:32:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-gitlab-runner
+[2023-06-10 02:32:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: numtoname
+[2023-06-10 02:32:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dcrx-api
+[2023-06-10 02:32:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdktf-proxmox
+[2023-06-10 02:32:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdktf-github-actions
+[2023-06-10 02:32:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk-aurora-globaldatabase
+[2023-06-10 02:32:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdk8s-redis
+[2023-06-10 02:32:50] INFO root fetch - processPackages [paper-qa]: New version: [3.0.0.dev0] Old Version: [2.1.1]
+[2023-06-10 02:32:50] INFO root fetch - processPackages [cdk8s-jenkins]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-10 02:32:50] INFO root fetch - processPackages [numtoname]: New version: [0.3.1] Old Version: [0.2.2]
+[2023-06-10 02:32:50] INFO root fetch - processPackages [cdktf-proxmox]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-10 02:32:50] INFO root fetch - processPackages [cdk-ecs-service-extensions]: New version: [2.0.1a9] Old Version: [2.0.1a8]
+[2023-06-10 02:32:50] INFO root fetch - processPackages [dcrx-api]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-10 02:32:50] INFO root fetch - processPackages [cdktf-github-actions]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-10 02:32:50] INFO root fetch - processPackages [cdk8s-redis]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-10 02:32:50] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-06-10 02:32:50] INFO root fetch - processPackages [cdk-gitlab-runner]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-06-10 02:32:51] INFO root fetch - processPackages [cdktf-proxmox]: Downloading https://files.pythonhosted.org/packages/d9/ee/7220413f67291e445284d014e3e51e97a33ce5125383f30b4756c598d8d8/cdktf-proxmox-0.0.98.tar.gz
+[2023-06-10 02:32:51] INFO root fetch - processPackages [cdk8s-redis]: Downloading https://files.pythonhosted.org/packages/5a/8c/825ae4195bc273e13b4fb93e9ef112419d75fcd2c5194121692b5cd9fd19/cdk8s-redis-0.1.98.tar.gz
+[2023-06-10 02:32:51] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Downloading https://files.pythonhosted.org/packages/72/7f/05a5c2095fb33d9da5ad8d5d54bc772359e48c1c78aadeee131727003d8d/cdk-ecs-service-extensions-2.0.1a8.tar.gz
+[2023-06-10 02:32:51] INFO root fetch - processPackages [cdktf-github-actions]: Downloading https://files.pythonhosted.org/packages/07/58/fd956de115e00f327e93ad8957b6bb967e67537256fcee54171d65d2a849/cdktf-github-actions-0.0.98.tar.gz
+[2023-06-10 02:32:51] INFO root fetch - processPackages [paper-qa]: Downloading https://files.pythonhosted.org/packages/aa/f7/24da0f0fc2fa096ce55bb724c4e7b2479c78559f11f234c6e95126d5c6b1/paper-qa-2.1.1.tar.gz
+[2023-06-10 02:32:51] INFO root fetch - processPackages [cdk8s-jenkins]: executing diffoscope
+[2023-06-10 02:32:51] INFO root fetch - processPackages [cdk8s-jenkins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-jenkins-0.0.98.tar.gz tmp/cdk8s-jenkins-0.0.99.tar.gz --markdown 20230610/c/cdk8s-jenkins/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-10 02:32:51] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/00/40/016cdb2fb9e28fe1b601ce7542603c38b93a78a9a0d77a0309e559d58a1c/cdk-gitlab-runner-2.1.98.tar.gz
+[2023-06-10 02:32:51] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/e4/39/e997b5acac972df8d777c4a4ad6dfd9f51e03e75fc8e23c973a7772267d5/cdk-aurora-globaldatabase-2.3.98.tar.gz
+[2023-06-10 02:32:51] INFO root fetch - processPackages [numtoname]: Downloading https://files.pythonhosted.org/packages/c3/d6/8f1422d6372477a658738d12995e99108caaea6201132c23d465bd7d8ee8/numtoname-0.2.2.tar.gz
+[2023-06-10 02:32:51] INFO root fetch - processPackages [dcrx-api]: Downloading https://files.pythonhosted.org/packages/32/16/ecd2274b8d964c885cdef9a54673e121a42b80b7c343aaea3705dffe3956/dcrx-api-0.1.0.tar.gz
+[2023-06-10 02:32:51] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/89/96/8e14acbbed72ce7cf16a2f829e722ff9189610a1fe440e7d52bb6185d401/cdk-gitlab-runner-2.1.99.tar.gz
+[2023-06-10 02:32:51] INFO root fetch - processPackages [cdktf-github-actions]: Downloading https://files.pythonhosted.org/packages/56/78/477ea020d063f38bdacf3f5681517318875ce9cbff389019b4934f6c8cf1/cdktf-github-actions-0.0.99.tar.gz
+[2023-06-10 02:32:51] INFO root fetch - processPackages [cdktf-proxmox]: Downloading https://files.pythonhosted.org/packages/ae/43/6d62460a5f0e800acb4dffd0cf8c675fbd2916d3287669415148cb96adfe/cdktf-proxmox-0.0.99.tar.gz
+[2023-06-10 02:32:51] INFO root fetch - processPackages [cdk8s-redis]: Downloading https://files.pythonhosted.org/packages/f2/71/df3da901bc2e5bd800b595302ae54fadb2f66a5789cfb0dd7e7d34eb2d91/cdk8s-redis-0.1.99.tar.gz
+[2023-06-10 02:32:51] INFO root fetch - processPackages [cdktf-github-actions]: executing diffoscope
+[2023-06-10 02:32:51] INFO root fetch - processPackages [cdktf-github-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-github-actions-0.0.98.tar.gz tmp/cdktf-github-actions-0.0.99.tar.gz --markdown 20230610/c/cdktf-github-actions/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-10 02:32:51] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/51/53/0158facaec2becec86707148eb931de78a7ad1c2b63f80b9911a53e4c17b/cdk-aurora-globaldatabase-2.3.99.tar.gz
+[2023-06-10 02:32:51] INFO root fetch - processPackages [cdk-gitlab-runner]: executing diffoscope
+[2023-06-10 02:32:51] INFO root fetch - processPackages [cdk-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-gitlab-runner-2.1.98.tar.gz tmp/cdk-gitlab-runner-2.1.99.tar.gz --markdown 20230610/c/cdk-gitlab-runner/2.1.98-2.1.99/diff.md --exclude *.pyd
+[2023-06-10 02:32:51] INFO root fetch - processPackages [paper-qa]: Downloading https://files.pythonhosted.org/packages/07/4d/55dcc099034f935b5773debc0bbaf38b867fddaed963a2d0c2b4250d92b5/paper-qa-3.0.0.dev0.tar.gz
+[2023-06-10 02:32:51] INFO root fetch - processPackages [cdktf-proxmox]: executing diffoscope
+[2023-06-10 02:32:51] INFO root fetch - processPackages [cdktf-proxmox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-proxmox-0.0.98.tar.gz tmp/cdktf-proxmox-0.0.99.tar.gz --markdown 20230610/c/cdktf-proxmox/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-10 02:32:51] INFO root fetch - processPackages [cdk8s-redis]: executing diffoscope
+[2023-06-10 02:32:51] INFO root fetch - processPackages [cdk8s-redis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-redis-0.1.98.tar.gz tmp/cdk8s-redis-0.1.99.tar.gz --markdown 20230610/c/cdk8s-redis/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-10 02:32:51] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: executing diffoscope
+[2023-06-10 02:32:51] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz --markdown 20230610/c/cdk-aurora-globaldatabase/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-06-10 02:32:51] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Downloading https://files.pythonhosted.org/packages/4f/8d/abb31a165af680e8b0a59581ca2aee94485b1ad1db12d9445bbc9c0ddc3e/cdk-ecs-service-extensions-2.0.1a9.tar.gz
+[2023-06-10 02:32:51] INFO root fetch - processPackages [dcrx-api]: Downloading https://files.pythonhosted.org/packages/ad/3c/c2a660e2782152b06f61afca85c03c48160d5558c832165dbe1dcf26436f/dcrx-api-0.1.1.tar.gz
+[2023-06-10 02:32:51] INFO root fetch - processPackages [numtoname]: Downloading https://files.pythonhosted.org/packages/b7/2f/2698ba4486d90ac70cdfd579c6d00eb4af408577f3c5c4c08cf17b5026e8/numtoname-0.3.1.tar.gz
+[2023-06-10 02:32:51] INFO root fetch - processPackages [numtoname]: executing diffoscope
+[2023-06-10 02:32:51] INFO root fetch - processPackages [numtoname]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numtoname-0.2.2.tar.gz tmp/numtoname-0.3.1.tar.gz --markdown 20230610/n/numtoname/0.2.2-0.3.1/diff.md --exclude *.pyd
+[2023-06-10 02:32:51] INFO root fetch - processPackages [paper-qa]: executing diffoscope
+[2023-06-10 02:32:51] INFO root fetch - processPackages [paper-qa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paper-qa-2.1.1.tar.gz tmp/paper-qa-3.0.0.dev0.tar.gz --markdown 20230610/p/paper-qa/2.1.1-3.0.0.dev0/diff.md --exclude *.pyd
+[2023-06-10 02:32:51] INFO root fetch - processPackages [cdk-ecs-service-extensions]: executing diffoscope
+[2023-06-10 02:32:51] INFO root fetch - processPackages [cdk-ecs-service-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-ecs-service-extensions-2.0.1a8.tar.gz tmp/cdk-ecs-service-extensions-2.0.1a9.tar.gz --markdown 20230610/c/cdk-ecs-service-extensions/2.0.1a8-2.0.1a9/diff.md --exclude *.pyd
+[2023-06-10 02:32:51] INFO root fetch - processPackages [dcrx-api]: executing diffoscope
+[2023-06-10 02:32:51] INFO root fetch - processPackages [dcrx-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcrx-api-0.1.0.tar.gz tmp/dcrx-api-0.1.1.tar.gz --markdown 20230610/d/dcrx-api/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-10 02:32:52] INFO root fetch - processPackages [cdk8s-redis]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-redis-0.1.98.tar.gz]
+[2023-06-10 02:32:52] INFO root fetch - processPackages [cdk8s-redis]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-redis-0.1.99.tar.gz]
+[2023-06-10 02:32:52] INFO root fetch - main [MainThread]: End processing [cdk8s-redis]: success
+[2023-06-10 02:32:52] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz]
+[2023-06-10 02:32:52] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz]
+[2023-06-10 02:32:52] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
+[2023-06-10 02:32:52] INFO root fetch - processPackages [numtoname]: Remove: archive file [/home/abi/fetcher/tmp/numtoname-0.2.2.tar.gz]
+[2023-06-10 02:32:52] INFO root fetch - processPackages [numtoname]: Remove: archive file [/home/abi/fetcher/tmp/numtoname-0.3.1.tar.gz]
+[2023-06-10 02:32:52] INFO root fetch - main [MainThread]: End processing [numtoname]: success
+[2023-06-10 02:32:52] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Remove: archive file [/home/abi/fetcher/tmp/cdk-ecs-service-extensions-2.0.1a8.tar.gz]
+[2023-06-10 02:32:52] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Remove: archive file [/home/abi/fetcher/tmp/cdk-ecs-service-extensions-2.0.1a9.tar.gz]
+[2023-06-10 02:32:52] INFO root fetch - main [MainThread]: End processing [cdk-ecs-service-extensions]: success
+[2023-06-10 02:32:53] INFO root fetch - processPackages [cdk8s-jenkins]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-jenkins-0.0.98.tar.gz]
+[2023-06-10 02:32:53] INFO root fetch - processPackages [cdk8s-jenkins]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-jenkins-0.0.99.tar.gz]
+[2023-06-10 02:32:53] INFO root fetch - main [MainThread]: End processing [cdk8s-jenkins]: success
+[2023-06-10 02:32:53] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.1.98.tar.gz]
+[2023-06-10 02:32:53] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.1.99.tar.gz]
+[2023-06-10 02:32:53] INFO root fetch - main [MainThread]: End processing [cdk-gitlab-runner]: success
+[2023-06-10 02:32:53] INFO root fetch - processPackages [cdktf-proxmox]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-proxmox-0.0.98.tar.gz]
+[2023-06-10 02:32:53] INFO root fetch - processPackages [cdktf-proxmox]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-proxmox-0.0.99.tar.gz]
+[2023-06-10 02:32:53] INFO root fetch - main [MainThread]: End processing [cdktf-proxmox]: success
+[2023-06-10 02:32:53] INFO root fetch - processPackages [paper-qa]: Remove: archive file [/home/abi/fetcher/tmp/paper-qa-2.1.1.tar.gz]
+[2023-06-10 02:32:53] INFO root fetch - processPackages [paper-qa]: Remove: archive file [/home/abi/fetcher/tmp/paper-qa-3.0.0.dev0.tar.gz]
+[2023-06-10 02:32:53] INFO root fetch - main [MainThread]: End processing [paper-qa]: success
+[2023-06-10 02:32:53] INFO root fetch - processPackages [dcrx-api]: Remove: archive file [/home/abi/fetcher/tmp/dcrx-api-0.1.0.tar.gz]
+[2023-06-10 02:32:53] INFO root fetch - processPackages [dcrx-api]: Remove: archive file [/home/abi/fetcher/tmp/dcrx-api-0.1.1.tar.gz]
+[2023-06-10 02:32:53] INFO root fetch - main [MainThread]: End processing [dcrx-api]: success
+[2023-06-10 02:32:54] INFO root fetch - processPackages [cdktf-github-actions]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-github-actions-0.0.98.tar.gz]
+[2023-06-10 02:32:54] INFO root fetch - processPackages [cdktf-github-actions]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-github-actions-0.0.99.tar.gz]
+[2023-06-10 02:32:54] INFO root fetch - main [MainThread]: End processing [cdktf-github-actions]: success
+[2023-06-10 02:32:54] INFO root fetch - main [MainThread]: Store serial: [18446600]
