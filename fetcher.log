@@ -18850,3 +18850,33 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-10 23:52:46] INFO root fetch - processPackages [unitsnet-py]: Remove: archive file [/home/abi/fetcher/tmp/unitsnet-py-0.1.39.tar.gz]
 [2023-06-10 23:52:46] INFO root fetch - main [MainThread]: End processing [unitsnet-py]: success
 [2023-06-10 23:52:46] INFO root fetch - main [MainThread]: Store serial: [18454161]
+[2023-06-10 23:57:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18454161]
+[2023-06-10 23:57:55] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-10 23:57:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flask-dba
+[2023-06-10 23:57:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: glotter2
+[2023-06-10 23:57:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastapi
+[2023-06-10 23:57:55] INFO root fetch - processPackages [glotter2]: New version: [0.7.0] Old Version: [0.6.1]
+[2023-06-10 23:57:55] INFO root fetch - processPackages [flask-dba]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-06-10 23:57:55] INFO root fetch - processPackages [fastapi]: New version: [0.96.1] Old Version: [0.96.0]
+[2023-06-10 23:57:55] INFO root fetch - processPackages [glotter2]: Downloading https://files.pythonhosted.org/packages/78/29/c50382c23f5e7a6fb2f45b6ec973ec78143aeff16ccc8deb63ccff8fe581/glotter2-0.6.1.tar.gz
+[2023-06-10 23:57:55] INFO root fetch - processPackages [flask-dba]: Downloading https://files.pythonhosted.org/packages/db/02/7dbba37346bc359d8f005558fbd21bdf5f0f01dba162cc6cf1e7a6ccde22/flask-dba-1.0.0.tar.gz
+[2023-06-10 23:57:55] INFO root fetch - processPackages [fastapi]: Downloading https://files.pythonhosted.org/packages/18/59/bc4b64f5bbb0b36497f8fe52794c4441bea06258b710c36cc597c04abaa3/fastapi-0.96.0.tar.gz
+[2023-06-10 23:57:56] INFO root fetch - processPackages [glotter2]: Downloading https://files.pythonhosted.org/packages/de/eb/d62ce2b1b0c617412d312da8fe4dd1d8a17247c68897600e6cd0a7d4815d/glotter2-0.7.0.tar.gz
+[2023-06-10 23:57:56] INFO root fetch - processPackages [flask-dba]: Downloading https://files.pythonhosted.org/packages/e9/c7/c410957085940af753cb101f37c49d76dfcefb7c155a5f998fed51fce7c2/flask-dba-1.1.0.tar.gz
+[2023-06-10 23:57:56] INFO root fetch - processPackages [glotter2]: executing diffoscope
+[2023-06-10 23:57:56] INFO root fetch - processPackages [glotter2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glotter2-0.6.1.tar.gz tmp/glotter2-0.7.0.tar.gz --markdown 20230610/g/glotter2/0.6.1-0.7.0/diff.md --exclude *.pyd
+[2023-06-10 23:57:56] INFO root fetch - processPackages [flask-dba]: executing diffoscope
+[2023-06-10 23:57:56] INFO root fetch - processPackages [flask-dba]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask-dba-1.0.0.tar.gz tmp/flask-dba-1.1.0.tar.gz --markdown 20230610/f/flask-dba/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-06-10 23:57:56] INFO root fetch - processPackages [fastapi]: Downloading https://files.pythonhosted.org/packages/4a/ae/72e8dfdf718ea12a8929a6ab92b716d23a7f9cde564cc8f6cf66c3378ba8/fastapi-0.96.1.tar.gz
+[2023-06-10 23:57:57] INFO root fetch - processPackages [glotter2]: Remove: archive file [/home/abi/fetcher/tmp/glotter2-0.6.1.tar.gz]
+[2023-06-10 23:57:57] INFO root fetch - processPackages [glotter2]: Remove: archive file [/home/abi/fetcher/tmp/glotter2-0.7.0.tar.gz]
+[2023-06-10 23:57:57] INFO root fetch - main [MainThread]: End processing [glotter2]: success
+[2023-06-10 23:57:57] INFO root fetch - processPackages [flask-dba]: Remove: archive file [/home/abi/fetcher/tmp/flask-dba-1.0.0.tar.gz]
+[2023-06-10 23:57:57] INFO root fetch - processPackages [flask-dba]: Remove: archive file [/home/abi/fetcher/tmp/flask-dba-1.1.0.tar.gz]
+[2023-06-10 23:57:57] INFO root fetch - main [MainThread]: End processing [flask-dba]: success
+[2023-06-10 23:57:57] INFO root fetch - processPackages [fastapi]: executing diffoscope
+[2023-06-10 23:57:57] INFO root fetch - processPackages [fastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-0.96.0.tar.gz tmp/fastapi-0.96.1.tar.gz --markdown 20230610/f/fastapi/0.96.0-0.96.1/diff.md --exclude *.pyd
+[2023-06-10 23:58:30] INFO root fetch - processPackages [fastapi]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-0.96.0.tar.gz]
+[2023-06-10 23:58:30] INFO root fetch - processPackages [fastapi]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-0.96.1.tar.gz]
+[2023-06-10 23:58:30] INFO root fetch - main [MainThread]: End processing [fastapi]: success
+[2023-06-10 23:58:30] INFO root fetch - main [MainThread]: Store serial: [18454170]
