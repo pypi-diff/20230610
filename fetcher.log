@@ -16916,3 +16916,60 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-10 21:27:17] INFO root fetch - processPackages [gamedetector]: Remove: archive file [/home/abi/fetcher/tmp/gamedetector-0.1.1.tar.gz]
 [2023-06-10 21:27:17] INFO root fetch - main [MainThread]: End processing [gamedetector]: success
 [2023-06-10 21:27:17] INFO root fetch - main [MainThread]: Store serial: [18453255]
+[2023-06-10 21:32:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18453255]
+[2023-06-10 21:32:26] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-10 21:32:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lamindb_setup
+[2023-06-10 21:32:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytest
+[2023-06-10 21:32:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: backgammon
+[2023-06-10 21:32:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rechtspraak-extractor
+[2023-06-10 21:32:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ik-solvers
+[2023-06-10 21:32:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dcrx-api
+[2023-06-10 21:32:26] INFO root fetch - processPackages [rechtspraak-extractor]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-10 21:32:26] INFO root fetch - processPackages [lamindb_setup]: New version: [0.47.2] Old Version: [0.47.1]
+[2023-06-10 21:32:26] INFO root fetch - processPackages [dcrx-api]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-10 21:32:26] INFO root fetch - processPackages [pytest]: New version: [7.3.1] Old Version: [7.3.0]
+[2023-06-10 21:32:26] INFO root fetch - processPackages [rechtspraak-extractor]: Downloading https://files.pythonhosted.org/packages/f2/7d/639d882983648342f99875b95e988060f826052398e74277537d166f07b2/rechtspraak_extractor-1.1.8.tar.gz
+[2023-06-10 21:32:26] INFO root fetch - processPackages [lamindb_setup]: Downloading https://files.pythonhosted.org/packages/a2/32/f7072641ea144381b30c8fb3e74b8312e603eb3c383ac4d8a215fc0b609e/lamindb_setup-0.47.1.tar.gz
+[2023-06-10 21:32:26] INFO root fetch - processPackages [ik-solvers]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-10 21:32:26] INFO root fetch - processPackages [backgammon]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-06-10 21:32:26] INFO root fetch - processPackages [dcrx-api]: Downloading https://files.pythonhosted.org/packages/5a/b9/dc8f6ee2e7e1e1d72db5446f7da05283be2083318c0705d089fe1fdc57df/dcrx-api-0.2.2.tar.gz
+[2023-06-10 21:32:26] INFO root fetch - processPackages [pytest]: Downloading https://files.pythonhosted.org/packages/2b/a6/22c1138c2a7b60c9eb9ddeac017d82a58dfd9661651c721e7466af648764/pytest-7.3.0.tar.gz
+[2023-06-10 21:32:26] INFO root fetch - processPackages [rechtspraak-extractor]: Downloading https://files.pythonhosted.org/packages/a2/7d/873b87acf1d3a1f1ac72438bc3b6cb1cc02189d47185383e7e938ce13486/rechtspraak_extractor-1.1.9.tar.gz
+[2023-06-10 21:32:26] INFO root fetch - processPackages [dcrx-api]: Downloading https://files.pythonhosted.org/packages/00/b8/dd922bbbd0fa2cd6369b4211078b7f282bab9f8bdd84429fc30dbcdef049/dcrx-api-0.2.3.tar.gz
+[2023-06-10 21:32:26] INFO root fetch - processPackages [ik-solvers]: Downloading https://files.pythonhosted.org/packages/d1/11/d4c02d6fbcf016658701e1f701411de4ef9e070844eb25e62561b677791a/ik_solvers-1.0.0.tar.gz
+[2023-06-10 21:32:26] INFO root fetch - processPackages [backgammon]: Downloading https://files.pythonhosted.org/packages/d5/ae/10bed8b0beaed0ef2722abf0a2e89d4072a38ce32ea78436c560e356da97/backgammon-1.0.0.tar.gz
+[2023-06-10 21:32:26] INFO root fetch - processPackages [rechtspraak-extractor]: executing diffoscope
+[2023-06-10 21:32:26] INFO root fetch - processPackages [rechtspraak-extractor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rechtspraak_extractor-1.1.8.tar.gz tmp/rechtspraak_extractor-1.1.9.tar.gz --markdown 20230610/r/rechtspraak-extractor/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-10 21:32:26] INFO root fetch - processPackages [lamindb_setup]: Downloading https://files.pythonhosted.org/packages/36/fc/28e4922f56c9c683593ac823e14a6d7d00cf860b1b4ed42541adb69429cd/lamindb_setup-0.47.2.tar.gz
+[2023-06-10 21:32:26] INFO root fetch - processPackages [dcrx-api]: executing diffoscope
+[2023-06-10 21:32:26] INFO root fetch - processPackages [dcrx-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcrx-api-0.2.2.tar.gz tmp/dcrx-api-0.2.3.tar.gz --markdown 20230610/d/dcrx-api/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-10 21:32:26] INFO root fetch - processPackages [pytest]: Downloading https://files.pythonhosted.org/packages/ec/d9/36b65598f3d19d0a14d13dc87ad5fa42869ae53bb7471f619a30eaabc4bf/pytest-7.3.1.tar.gz
+[2023-06-10 21:32:26] INFO root fetch - processPackages [lamindb_setup]: executing diffoscope
+[2023-06-10 21:32:26] INFO root fetch - processPackages [lamindb_setup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamindb_setup-0.47.1.tar.gz tmp/lamindb_setup-0.47.2.tar.gz --markdown 20230610/l/lamindb_setup/0.47.1-0.47.2/diff.md --exclude *.pyd
+[2023-06-10 21:32:26] INFO root fetch - processPackages [backgammon]: Downloading https://files.pythonhosted.org/packages/a7/99/2530e6a1d5d43adb9a0d9ffe288476c811d46cdd573c67dd7a7ac0de84d9/backgammon-1.1.0.tar.gz
+[2023-06-10 21:32:26] INFO root fetch - processPackages [pytest]: executing diffoscope
+[2023-06-10 21:32:26] INFO root fetch - processPackages [pytest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-7.3.0.tar.gz tmp/pytest-7.3.1.tar.gz --markdown 20230610/p/pytest/7.3.0-7.3.1/diff.md --exclude *.pyd
+[2023-06-10 21:32:26] INFO root fetch - processPackages [ik-solvers]: Downloading https://files.pythonhosted.org/packages/0f/e6/a999f6b680fc71c1f10498dea4b6dea2cffcf31f9bf18cce3850d4855301/ik_solvers-1.0.1.tar.gz
+[2023-06-10 21:32:26] INFO root fetch - processPackages [backgammon]: executing diffoscope
+[2023-06-10 21:32:26] INFO root fetch - processPackages [backgammon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backgammon-1.0.0.tar.gz tmp/backgammon-1.1.0.tar.gz --markdown 20230610/b/backgammon/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-06-10 21:32:26] INFO root fetch - processPackages [ik-solvers]: executing diffoscope
+[2023-06-10 21:32:26] INFO root fetch - processPackages [ik-solvers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ik_solvers-1.0.0.tar.gz tmp/ik_solvers-1.0.1.tar.gz --markdown 20230610/i/ik-solvers/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-10 21:32:27] INFO root fetch - processPackages [rechtspraak-extractor]: Remove: archive file [/home/abi/fetcher/tmp/rechtspraak_extractor-1.1.8.tar.gz]
+[2023-06-10 21:32:27] INFO root fetch - processPackages [rechtspraak-extractor]: Remove: archive file [/home/abi/fetcher/tmp/rechtspraak_extractor-1.1.9.tar.gz]
+[2023-06-10 21:32:27] INFO root fetch - main [MainThread]: End processing [rechtspraak-extractor]: success
+[2023-06-10 21:32:28] INFO root fetch - processPackages [dcrx-api]: Remove: archive file [/home/abi/fetcher/tmp/dcrx-api-0.2.2.tar.gz]
+[2023-06-10 21:32:28] INFO root fetch - processPackages [dcrx-api]: Remove: archive file [/home/abi/fetcher/tmp/dcrx-api-0.2.3.tar.gz]
+[2023-06-10 21:32:28] INFO root fetch - main [MainThread]: End processing [dcrx-api]: success
+[2023-06-10 21:32:28] INFO root fetch - processPackages [backgammon]: Remove: archive file [/home/abi/fetcher/tmp/backgammon-1.0.0.tar.gz]
+[2023-06-10 21:32:28] INFO root fetch - processPackages [backgammon]: Remove: archive file [/home/abi/fetcher/tmp/backgammon-1.1.0.tar.gz]
+[2023-06-10 21:32:28] INFO root fetch - main [MainThread]: End processing [backgammon]: success
+[2023-06-10 21:32:28] INFO root fetch - processPackages [lamindb_setup]: Remove: archive file [/home/abi/fetcher/tmp/lamindb_setup-0.47.1.tar.gz]
+[2023-06-10 21:32:28] INFO root fetch - processPackages [lamindb_setup]: Remove: archive file [/home/abi/fetcher/tmp/lamindb_setup-0.47.2.tar.gz]
+[2023-06-10 21:32:28] INFO root fetch - main [MainThread]: End processing [lamindb_setup]: success
+[2023-06-10 21:32:28] INFO root fetch - processPackages [ik-solvers]: Remove: archive file [/home/abi/fetcher/tmp/ik_solvers-1.0.0.tar.gz]
+[2023-06-10 21:32:28] INFO root fetch - processPackages [ik-solvers]: Remove: archive file [/home/abi/fetcher/tmp/ik_solvers-1.0.1.tar.gz]
+[2023-06-10 21:32:28] INFO root fetch - main [MainThread]: End processing [ik-solvers]: success
+[2023-06-10 21:32:32] INFO root fetch - processPackages [pytest]: Remove: archive file [/home/abi/fetcher/tmp/pytest-7.3.0.tar.gz]
+[2023-06-10 21:32:32] INFO root fetch - processPackages [pytest]: Remove: archive file [/home/abi/fetcher/tmp/pytest-7.3.1.tar.gz]
+[2023-06-10 21:32:32] INFO root fetch - main [MainThread]: End processing [pytest]: success
+[2023-06-10 21:32:32] INFO root fetch - main [MainThread]: Store serial: [18453277]
