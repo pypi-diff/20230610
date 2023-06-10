@@ -18409,3 +18409,40 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-10 23:01:06] INFO root fetch - processPackages [sqlite-jsonschema]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_jsonschema-0.2.3a5-py3-none-win_amd64.whl.zip]
 [2023-06-10 23:01:06] INFO root fetch - main [MainThread]: End processing [sqlite-jsonschema]: success
 [2023-06-10 23:01:06] INFO root fetch - main [MainThread]: Store serial: [18453890]
+[2023-06-10 23:06:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18453890]
+[2023-06-10 23:06:15] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-10 23:06:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yarok
+[2023-06-10 23:06:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: leuci-xyz
+[2023-06-10 23:06:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: add-trailing-comma
+[2023-06-10 23:06:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yarok
+[2023-06-10 23:06:15] INFO root fetch - processPackages [leuci-xyz]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-10 23:06:15] INFO root fetch - processPackages [add-trailing-comma]: New version: [2.5.1] Old Version: [2.5.0]
+[2023-06-10 23:06:16] INFO root fetch - processPackages [yarok]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-10 23:06:16] INFO root fetch - processPackages [yarok]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-10 23:06:16] INFO root fetch - processPackages [add-trailing-comma]: Downloading https://files.pythonhosted.org/packages/a5/ff/cca4c8e26f94dca62844155131903b322536070efbe410c43779c6b336bf/add_trailing_comma-2.5.0.tar.gz
+[2023-06-10 23:06:16] INFO root fetch - processPackages [leuci-xyz]: Downloading https://files.pythonhosted.org/packages/eb/10/d9eee7a355b8ae704f58b8ac47ea3834448ba0ed26fef0f4a323f85a71ff/leuci-xyz-0.0.8.tar.gz
+[2023-06-10 23:06:16] INFO root fetch - processPackages [yarok]: Downloading https://files.pythonhosted.org/packages/5b/35/b497f1c84b39f1ee0c2371d186f0a233ac16bfb20ce52629354a54ffb03a/yarok-0.0.8.tar.gz
+[2023-06-10 23:06:16] INFO root fetch - processPackages [yarok]: Downloading https://files.pythonhosted.org/packages/5b/35/b497f1c84b39f1ee0c2371d186f0a233ac16bfb20ce52629354a54ffb03a/yarok-0.0.8.tar.gz
+[2023-06-10 23:06:16] INFO root fetch - processPackages [leuci-xyz]: Downloading https://files.pythonhosted.org/packages/49/e6/d2f3f483b024d52c15669628ff1c665f3c1b583ee1b375f3d0f4670aa662/leuci-xyz-0.0.9.tar.gz
+[2023-06-10 23:06:16] INFO root fetch - processPackages [add-trailing-comma]: Downloading https://files.pythonhosted.org/packages/a7/eb/fec8a2855d59a1ec4eec5bdfc511f5b1db63a32b3d33ed205b4cd94e8a1f/add_trailing_comma-2.5.1.tar.gz
+[2023-06-10 23:06:16] INFO root fetch - processPackages [leuci-xyz]: executing diffoscope
+[2023-06-10 23:06:16] INFO root fetch - processPackages [leuci-xyz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leuci-xyz-0.0.8.tar.gz tmp/leuci-xyz-0.0.9.tar.gz --markdown 20230610/l/leuci-xyz/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-10 23:06:16] INFO root fetch - processPackages [add-trailing-comma]: executing diffoscope
+[2023-06-10 23:06:16] INFO root fetch - processPackages [add-trailing-comma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/add_trailing_comma-2.5.0.tar.gz tmp/add_trailing_comma-2.5.1.tar.gz --markdown 20230610/a/add-trailing-comma/2.5.0-2.5.1/diff.md --exclude *.pyd
+[2023-06-10 23:06:17] INFO root fetch - processPackages [leuci-xyz]: Remove: archive file [/home/abi/fetcher/tmp/leuci-xyz-0.0.8.tar.gz]
+[2023-06-10 23:06:17] INFO root fetch - processPackages [leuci-xyz]: Remove: archive file [/home/abi/fetcher/tmp/leuci-xyz-0.0.9.tar.gz]
+[2023-06-10 23:06:17] INFO root fetch - main [MainThread]: End processing [leuci-xyz]: success
+[2023-06-10 23:06:17] INFO root fetch - processPackages [add-trailing-comma]: Remove: archive file [/home/abi/fetcher/tmp/add_trailing_comma-2.5.0.tar.gz]
+[2023-06-10 23:06:17] INFO root fetch - processPackages [add-trailing-comma]: Remove: archive file [/home/abi/fetcher/tmp/add_trailing_comma-2.5.1.tar.gz]
+[2023-06-10 23:06:17] INFO root fetch - main [MainThread]: End processing [add-trailing-comma]: success
+[2023-06-10 23:06:18] INFO root fetch - processPackages [yarok]: Downloading https://files.pythonhosted.org/packages/df/af/c521521987dcb898560332432e48f81574262b43e3defad1821893b945a9/yarok-0.0.9.tar.gz
+[2023-06-10 23:06:18] INFO root fetch - processPackages [yarok]: Downloading https://files.pythonhosted.org/packages/df/af/c521521987dcb898560332432e48f81574262b43e3defad1821893b945a9/yarok-0.0.9.tar.gz
+[2023-06-10 23:06:20] INFO root fetch - processPackages [yarok]: executing diffoscope
+[2023-06-10 23:06:20] INFO root fetch - processPackages [yarok]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yarok-0.0.8.tar.gz tmp/yarok-0.0.9.tar.gz --markdown 20230610/y/yarok/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-10 23:06:20] INFO root fetch - processPackages [yarok]: executing diffoscope
+[2023-06-10 23:06:20] INFO root fetch - processPackages [yarok]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yarok-0.0.8.tar.gz tmp/yarok-0.0.9.tar.gz --markdown 20230610/y/yarok/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-10 23:06:23] INFO root fetch - processPackages [yarok]: Remove: archive file [/home/abi/fetcher/tmp/yarok-0.0.8.tar.gz]
+[2023-06-10 23:06:23] INFO root fetch - processPackages [yarok]: Remove: archive file [/home/abi/fetcher/tmp/yarok-0.0.9.tar.gz]
+[2023-06-10 23:06:23] INFO root fetch - main [MainThread]: End processing [yarok]: success
+[2023-06-10 23:07:16] INFO root fetch - main [MainThread]: End processing [yarok]: success
+[2023-06-10 23:07:16] INFO root fetch - main [MainThread]: Store serial: [18453906]
