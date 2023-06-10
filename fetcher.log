@@ -15947,3 +15947,45 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-10 19:45:43] INFO root fetch - processPackages [peaqevcore]: Remove: archive file [/home/abi/fetcher/tmp/peaqevcore-9.2.3.tar.gz]
 [2023-06-10 19:45:43] INFO root fetch - main [MainThread]: End processing [peaqevcore]: success
 [2023-06-10 19:45:43] INFO root fetch - main [MainThread]: Store serial: [18452730]
+[2023-06-10 19:50:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18452730]
+[2023-06-10 19:50:52] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-10 19:50:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: brainfk
+[2023-06-10 19:50:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quik-ai
+[2023-06-10 19:50:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: muheqa
+[2023-06-10 19:50:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: braintrust
+[2023-06-10 19:50:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nutorious
+[2023-06-10 19:50:52] INFO root fetch - processPackages [brainfk]: New version: [1.0.0] Old Version: [0.0.1]
+[2023-06-10 19:50:52] WARNING root fetch - processPackages [muheqa]: Skipping, unable to determine old version
+[2023-06-10 19:50:52] INFO root fetch - processPackages [braintrust]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-10 19:50:52] INFO root fetch - main [MainThread]: End processing [muheqa] error
+[2023-06-10 19:50:52] INFO root fetch - processPackages [quik-ai]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-10 19:50:52] INFO root fetch - processPackages [nutorious]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-10 19:50:52] INFO root fetch - processPackages [nutorious]: Downloading https://files.pythonhosted.org/packages/b1/67/0f9ba80f940f5f2c387d7bea22210857bc88a124aa87d172e09024322941/nutorious-0.1.2.tar.gz
+[2023-06-10 19:50:52] INFO root fetch - processPackages [quik-ai]: Downloading https://files.pythonhosted.org/packages/83/f9/211f3fd0a65928883583442f68a7aedf54cc196ab345eeb33618709cb06a/quik-ai-1.0.0.tar.gz
+[2023-06-10 19:50:52] INFO root fetch - processPackages [brainfk]: Downloading https://files.pythonhosted.org/packages/fb/e0/21429da81bb1ae3791b5524083203ccf3ded70579ce6290a5e22dcca7eae/brainfk-0.0.1.tar.gz
+[2023-06-10 19:50:52] INFO root fetch - processPackages [braintrust]: Downloading https://files.pythonhosted.org/packages/fe/89/bd371ee79859e0263c0caa695f1bcff39723728d40cff68c17c432eeffdd/braintrust-0.0.3.tar.gz
+[2023-06-10 19:50:52] INFO root fetch - processPackages [nutorious]: Downloading https://files.pythonhosted.org/packages/85/43/d832eebcb652fc32ee84507d0242db10a946743b87662dca345ab556af33/nutorious-0.1.3.tar.gz
+[2023-06-10 19:50:52] INFO root fetch - processPackages [brainfk]: Downloading https://files.pythonhosted.org/packages/4d/e0/dcb2a3c639c36104c241dd61571e5fa879bbab7013c087aa9c47388d00a4/brainfk-1.0.0.tar.gz
+[2023-06-10 19:50:52] INFO root fetch - processPackages [quik-ai]: Downloading https://files.pythonhosted.org/packages/8c/0c/5168848a8a721461379b4fb8f19ebbfdf6aaebce763c31f70bf4508ddeae/quik-ai-1.0.1.tar.gz
+[2023-06-10 19:50:52] INFO root fetch - processPackages [braintrust]: Downloading https://files.pythonhosted.org/packages/c3/b6/e7da7d42b8ad624c9df35ce6346ccd77516f081eb07d769fa3e5d1974627/braintrust-0.0.4.tar.gz
+[2023-06-10 19:50:52] INFO root fetch - processPackages [nutorious]: executing diffoscope
+[2023-06-10 19:50:52] INFO root fetch - processPackages [nutorious]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nutorious-0.1.2.tar.gz tmp/nutorious-0.1.3.tar.gz --markdown 20230610/n/nutorious/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-10 19:50:52] INFO root fetch - processPackages [brainfk]: executing diffoscope
+[2023-06-10 19:50:52] INFO root fetch - processPackages [brainfk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brainfk-0.0.1.tar.gz tmp/brainfk-1.0.0.tar.gz --markdown 20230610/b/brainfk/0.0.1-1.0.0/diff.md --exclude *.pyd
+[2023-06-10 19:50:52] INFO root fetch - processPackages [braintrust]: executing diffoscope
+[2023-06-10 19:50:52] INFO root fetch - processPackages [braintrust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/braintrust-0.0.3.tar.gz tmp/braintrust-0.0.4.tar.gz --markdown 20230610/b/braintrust/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-10 19:50:52] INFO root fetch - processPackages [quik-ai]: executing diffoscope
+[2023-06-10 19:50:52] INFO root fetch - processPackages [quik-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quik-ai-1.0.0.tar.gz tmp/quik-ai-1.0.1.tar.gz --markdown 20230610/q/quik-ai/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-10 19:50:53] INFO root fetch - processPackages [brainfk]: Remove: archive file [/home/abi/fetcher/tmp/brainfk-0.0.1.tar.gz]
+[2023-06-10 19:50:53] INFO root fetch - processPackages [brainfk]: Remove: archive file [/home/abi/fetcher/tmp/brainfk-1.0.0.tar.gz]
+[2023-06-10 19:50:53] INFO root fetch - main [MainThread]: End processing [brainfk]: success
+[2023-06-10 19:50:53] INFO root fetch - processPackages [braintrust]: Remove: archive file [/home/abi/fetcher/tmp/braintrust-0.0.3.tar.gz]
+[2023-06-10 19:50:53] INFO root fetch - processPackages [braintrust]: Remove: archive file [/home/abi/fetcher/tmp/braintrust-0.0.4.tar.gz]
+[2023-06-10 19:50:53] INFO root fetch - main [MainThread]: End processing [braintrust]: success
+[2023-06-10 19:50:53] INFO root fetch - processPackages [nutorious]: Remove: archive file [/home/abi/fetcher/tmp/nutorious-0.1.2.tar.gz]
+[2023-06-10 19:50:53] INFO root fetch - processPackages [nutorious]: Remove: archive file [/home/abi/fetcher/tmp/nutorious-0.1.3.tar.gz]
+[2023-06-10 19:50:53] INFO root fetch - main [MainThread]: End processing [nutorious]: success
+[2023-06-10 19:50:54] INFO root fetch - processPackages [quik-ai]: Remove: archive file [/home/abi/fetcher/tmp/quik-ai-1.0.0.tar.gz]
+[2023-06-10 19:50:54] INFO root fetch - processPackages [quik-ai]: Remove: archive file [/home/abi/fetcher/tmp/quik-ai-1.0.1.tar.gz]
+[2023-06-10 19:50:54] INFO root fetch - main [MainThread]: End processing [quik-ai]: success
+[2023-06-10 19:50:54] INFO root fetch - main [MainThread]: Store serial: [18452750]
