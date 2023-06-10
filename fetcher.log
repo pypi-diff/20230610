@@ -9678,3 +9678,27 @@ EOFError: EOF read where object expected
 [2023-06-10 10:52:48] INFO root fetch - processPackages [llama-index]: Remove: archive file [/home/abi/fetcher/tmp/llama_index-0.6.9.tar.gz]
 [2023-06-10 10:52:48] INFO root fetch - main [MainThread]: End processing [llama-index]: success
 [2023-06-10 10:52:48] INFO root fetch - main [MainThread]: Store serial: [18449636]
+[2023-06-10 10:57:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18449636]
+[2023-06-10 10:57:58] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-10 10:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mbstrdecoder
+[2023-06-10 10:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ngql-gen
+[2023-06-10 10:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: garmin-ace
+[2023-06-10 10:57:58] WARNING root fetch - processPackages [garmin-ace]: Skipping, unable to determine old version
+[2023-06-10 10:57:58] INFO root fetch - main [MainThread]: End processing [garmin-ace] error
+[2023-06-10 10:57:58] INFO root fetch - processPackages [mbstrdecoder]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-06-10 10:57:58] INFO root fetch - processPackages [ngql-gen]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-10 10:57:58] INFO root fetch - processPackages [mbstrdecoder]: Downloading https://files.pythonhosted.org/packages/30/88/d21f571a70c911ca64690b32550fd8c81b5c9e3b07f2dc42c744766459e5/mbstrdecoder-1.1.2.tar.gz
+[2023-06-10 10:57:58] INFO root fetch - processPackages [ngql-gen]: Downloading https://files.pythonhosted.org/packages/4e/c7/1c7a690dda4350d11879f57bdd06afd3909068472f05c4d6280377d669a1/ngql_gen-0.0.5.tar.gz
+[2023-06-10 10:57:58] INFO root fetch - processPackages [mbstrdecoder]: Downloading https://files.pythonhosted.org/packages/70/8f/dd5d4efbe3f90d2d38c948f0ca5c698e2d6cedc58ead2f5b90272cbcb4fa/mbstrdecoder-1.1.3.tar.gz
+[2023-06-10 10:57:59] INFO root fetch - processPackages [mbstrdecoder]: executing diffoscope
+[2023-06-10 10:57:59] INFO root fetch - processPackages [mbstrdecoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mbstrdecoder-1.1.2.tar.gz tmp/mbstrdecoder-1.1.3.tar.gz --markdown 20230610/m/mbstrdecoder/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-06-10 10:57:59] INFO root fetch - processPackages [ngql-gen]: Downloading https://files.pythonhosted.org/packages/85/74/40dfa9e665a01119e9917c1b4500cdafc790d0b81be2df43220e8389fcda/ngql_gen-0.0.6.tar.gz
+[2023-06-10 10:57:59] INFO root fetch - processPackages [ngql-gen]: executing diffoscope
+[2023-06-10 10:57:59] INFO root fetch - processPackages [ngql-gen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ngql_gen-0.0.5.tar.gz tmp/ngql_gen-0.0.6.tar.gz --markdown 20230610/n/ngql-gen/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-10 10:58:00] INFO root fetch - processPackages [mbstrdecoder]: Remove: archive file [/home/abi/fetcher/tmp/mbstrdecoder-1.1.2.tar.gz]
+[2023-06-10 10:58:00] INFO root fetch - processPackages [mbstrdecoder]: Remove: archive file [/home/abi/fetcher/tmp/mbstrdecoder-1.1.3.tar.gz]
+[2023-06-10 10:58:00] INFO root fetch - main [MainThread]: End processing [mbstrdecoder]: success
+[2023-06-10 10:58:54] INFO root fetch - processPackages [ngql-gen]: Remove: archive file [/home/abi/fetcher/tmp/ngql_gen-0.0.5.tar.gz]
+[2023-06-10 10:58:54] INFO root fetch - processPackages [ngql-gen]: Remove: archive file [/home/abi/fetcher/tmp/ngql_gen-0.0.6.tar.gz]
+[2023-06-10 10:58:54] INFO root fetch - main [MainThread]: End processing [ngql-gen]: success
+[2023-06-10 10:58:54] INFO root fetch - main [MainThread]: Store serial: [18449648]
