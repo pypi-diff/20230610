@@ -9561,3 +9561,51 @@ EOFError: EOF read where object expected
 [2023-06-10 10:42:07] INFO root fetch - processPackages [Nuitka]: Remove: archive file [/home/abi/fetcher/tmp/Nuitka-1.6.2.tar.gz]
 [2023-06-10 10:42:07] INFO root fetch - main [MainThread]: End processing [Nuitka]: success
 [2023-06-10 10:42:07] INFO root fetch - main [MainThread]: Store serial: [18449599]
+[2023-06-10 10:47:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18449599]
+[2023-06-10 10:47:16] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-10 10:47:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: arithmetica-py
+[2023-06-10 10:47:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pz7z8
+[2023-06-10 10:47:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tfp-nightly
+[2023-06-10 10:47:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: balaboba
+[2023-06-10 10:47:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aiobalaboba
+[2023-06-10 10:47:16] INFO root fetch - processPackages [balaboba]: New version: [3.0.2] Old Version: [3.0.1]
+[2023-06-10 10:47:16] INFO root fetch - processPackages [arithmetica-py]: New version: [1.0.221] Old Version: [1.0.219]
+[2023-06-10 10:47:16] INFO root fetch - processPackages [pz7z8]: New version: [0.1.2] Old Version: [0.0.5]
+[2023-06-10 10:47:16] INFO root fetch - processPackages [aiobalaboba]: New version: [3.0.2] Old Version: [3.0.1]
+[2023-06-10 10:47:16] INFO root fetch - processPackages [tfp-nightly]: New version: [0.9.0.dev20200114] Old Version: [0.9.0.dev20200113]
+[2023-06-10 10:47:16] INFO root fetch - processPackages [arithmetica-py]: Downloading https://files.pythonhosted.org/packages/8f/d1/f02aa5769bc5343bdfdebbe1d0a19791180a9239063ce1e01f6659196ac0/arithmetica-py-1.0.219.tar.gz
+[2023-06-10 10:47:16] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/be/16/ebf16b1094e104257af6265eee53833e4f737ef6d11426d959009fa9952a/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl
+[2023-06-10 10:47:16] INFO root fetch - processPackages [balaboba]: Downloading https://files.pythonhosted.org/packages/1b/f8/e2ea78ed031882391cc8487e2563a2c7661cfcc400c733245b213965284f/balaboba-3.0.1.tar.gz
+[2023-06-10 10:47:16] INFO root fetch - processPackages [pz7z8]: Downloading https://files.pythonhosted.org/packages/34/ca/44d9f61869742793cb1fa57daf84ec009f416fd666b06fc9319fd6682c76/pz7z8-0.0.5.tar.gz
+[2023-06-10 10:47:16] INFO root fetch - processPackages [aiobalaboba]: Downloading https://files.pythonhosted.org/packages/a8/2c/6d79bb9741c0fd1d541141f2fecacb3e3360c50b798f3dc46f7dd8bbc874/aiobalaboba-3.0.1.tar.gz
+[2023-06-10 10:47:16] INFO root fetch - processPackages [arithmetica-py]: Downloading https://files.pythonhosted.org/packages/0e/f4/1cfa3e0c43d765a47d06f98f3759d9db4c14f374ed2ca46b2b11b6ce556a/arithmetica-py-1.0.221.tar.gz
+[2023-06-10 10:47:16] INFO root fetch - processPackages [arithmetica-py]: executing diffoscope
+[2023-06-10 10:47:16] INFO root fetch - processPackages [arithmetica-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arithmetica-py-1.0.219.tar.gz tmp/arithmetica-py-1.0.221.tar.gz --markdown 20230610/a/arithmetica-py/1.0.219-1.0.221/diff.md --exclude *.pyd
+[2023-06-10 10:47:17] INFO root fetch - processPackages [balaboba]: Downloading https://files.pythonhosted.org/packages/e3/54/c4978c065de973f0d4f54679f8ce7affc1e7ab1f8eafc0e05fe98cb79058/balaboba-3.0.2.tar.gz
+[2023-06-10 10:47:17] INFO root fetch - processPackages [pz7z8]: Downloading https://files.pythonhosted.org/packages/87/e3/861a3c9ac47bfa6c632b133e4395000ac0c5a85de3fa8fe0cad86b7806bb/pz7z8-0.1.2.tar.gz
+[2023-06-10 10:47:17] INFO root fetch - processPackages [balaboba]: executing diffoscope
+[2023-06-10 10:47:17] INFO root fetch - processPackages [balaboba]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/balaboba-3.0.1.tar.gz tmp/balaboba-3.0.2.tar.gz --markdown 20230610/b/balaboba/3.0.1-3.0.2/diff.md --exclude *.pyd
+[2023-06-10 10:47:17] INFO root fetch - processPackages [aiobalaboba]: Downloading https://files.pythonhosted.org/packages/3c/56/b21ed045f10d821fd0039234ea7ff9b7892b128bcf9a8e28d31a97e0a245/aiobalaboba-3.0.2.tar.gz
+[2023-06-10 10:47:17] INFO root fetch - processPackages [pz7z8]: executing diffoscope
+[2023-06-10 10:47:17] INFO root fetch - processPackages [pz7z8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pz7z8-0.0.5.tar.gz tmp/pz7z8-0.1.2.tar.gz --markdown 20230610/p/pz7z8/0.0.5-0.1.2/diff.md --exclude *.pyd
+[2023-06-10 10:47:17] INFO root fetch - processPackages [aiobalaboba]: executing diffoscope
+[2023-06-10 10:47:17] INFO root fetch - processPackages [aiobalaboba]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiobalaboba-3.0.1.tar.gz tmp/aiobalaboba-3.0.2.tar.gz --markdown 20230610/a/aiobalaboba/3.0.1-3.0.2/diff.md --exclude *.pyd
+[2023-06-10 10:47:17] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/f1/98/c1f5a754a26ea1f08e3558803ffb67dd65482de4f6bfadc5415573cd3cb7/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl
+[2023-06-10 10:47:18] INFO root fetch - processPackages [balaboba]: Remove: archive file [/home/abi/fetcher/tmp/balaboba-3.0.1.tar.gz]
+[2023-06-10 10:47:18] INFO root fetch - processPackages [balaboba]: Remove: archive file [/home/abi/fetcher/tmp/balaboba-3.0.2.tar.gz]
+[2023-06-10 10:47:18] INFO root fetch - main [MainThread]: End processing [balaboba]: success
+[2023-06-10 10:47:18] INFO root fetch - processPackages [aiobalaboba]: Remove: archive file [/home/abi/fetcher/tmp/aiobalaboba-3.0.1.tar.gz]
+[2023-06-10 10:47:18] INFO root fetch - processPackages [aiobalaboba]: Remove: archive file [/home/abi/fetcher/tmp/aiobalaboba-3.0.2.tar.gz]
+[2023-06-10 10:47:18] INFO root fetch - main [MainThread]: End processing [aiobalaboba]: success
+[2023-06-10 10:47:18] INFO root fetch - processPackages [pz7z8]: Remove: archive file [/home/abi/fetcher/tmp/pz7z8-0.0.5.tar.gz]
+[2023-06-10 10:47:18] INFO root fetch - processPackages [pz7z8]: Remove: archive file [/home/abi/fetcher/tmp/pz7z8-0.1.2.tar.gz]
+[2023-06-10 10:47:18] INFO root fetch - main [MainThread]: End processing [pz7z8]: success
+[2023-06-10 10:47:18] INFO root fetch - processPackages [tfp-nightly]: executing diffoscope
+[2023-06-10 10:47:18] INFO root fetch - processPackages [tfp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip --markdown 20230610/t/tfp-nightly/0.9.0.dev20200113-0.9.0.dev20200114/diff.md --exclude *.pyd
+[2023-06-10 10:47:18] INFO root fetch - processPackages [arithmetica-py]: Remove: archive file [/home/abi/fetcher/tmp/arithmetica-py-1.0.219.tar.gz]
+[2023-06-10 10:47:18] INFO root fetch - processPackages [arithmetica-py]: Remove: archive file [/home/abi/fetcher/tmp/arithmetica-py-1.0.221.tar.gz]
+[2023-06-10 10:47:18] INFO root fetch - main [MainThread]: End processing [arithmetica-py]: success
+[2023-06-10 10:47:34] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip]
+[2023-06-10 10:47:34] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
+[2023-06-10 10:47:34] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
+[2023-06-10 10:47:34] INFO root fetch - main [MainThread]: Store serial: [18449613]
