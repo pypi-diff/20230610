@@ -10437,3 +10437,56 @@ EOFError: EOF read where object expected
 [2023-06-10 12:20:16] INFO root fetch - processPackages [pypcapkit]: Remove: archive file [/home/abi/fetcher/tmp/pypcapkit-1.0.2.post6.tar.gz]
 [2023-06-10 12:20:16] INFO root fetch - main [MainThread]: End processing [pypcapkit]: success
 [2023-06-10 12:20:16] INFO root fetch - main [MainThread]: Store serial: [18449981]
+[2023-06-10 12:25:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18449981]
+[2023-06-10 12:25:27] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-10 12:25:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lazy-calculator
+[2023-06-10 12:25:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vollseg
+[2023-06-10 12:25:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: morsecodeplus
+[2023-06-10 12:25:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pipeline-feature
+[2023-06-10 12:25:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sparta-spanner
+[2023-06-10 12:25:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: NN-FAL
+[2023-06-10 12:25:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mfhpo-benchmark-api
+[2023-06-10 12:25:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: omnata-plugin-runtime
+[2023-06-10 12:25:27] INFO root fetch - processPackages [lazy-calculator]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-10 12:25:27] WARNING root fetch - processPackages [morsecodeplus]: Skipping, unable to determine old version
+[2023-06-10 12:25:27] INFO root fetch - processPackages [pipeline-feature]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-10 12:25:27] INFO root fetch - main [MainThread]: End processing [morsecodeplus] error
+[2023-06-10 12:25:27] INFO root fetch - processPackages [sparta-spanner]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-10 12:25:27] INFO root fetch - processPackages [vollseg]: New version: [8.0.0] Old Version: [7.0.0]
+[2023-06-10 12:25:27] WARNING root fetch - processPackages [mfhpo-benchmark-api]: Skipping, unable to determine old version
+[2023-06-10 12:25:27] INFO root fetch - main [MainThread]: End processing [mfhpo-benchmark-api] error
+[2023-06-10 12:25:27] WARNING root fetch - processPackages [NN-FAL]: Skipping, unable to determine old version
+[2023-06-10 12:25:27] INFO root fetch - main [MainThread]: End processing [NN-FAL] error
+[2023-06-10 12:25:27] INFO root fetch - processPackages [lazy-calculator]: Downloading https://files.pythonhosted.org/packages/a9/98/44ae2aabbb4027a8f36134621da1075514658b1478ad5ff68f17cc38514f/lazy_calculator-0.1.4.tar.gz
+[2023-06-10 12:25:27] INFO root fetch - processPackages [pipeline-feature]: Downloading https://files.pythonhosted.org/packages/f3/4a/2e80d65029b16741c3837546037e85683a420fa8ed5653d5378655998e68/pipeline-feature-0.0.8.tar.gz
+[2023-06-10 12:25:27] INFO root fetch - processPackages [vollseg]: Downloading https://files.pythonhosted.org/packages/49/5e/9558410d2a3b0f12598784a6541087a52cb9eac28650e25b7d767e2c56b0/vollseg-7.0.0.tar.gz
+[2023-06-10 12:25:27] INFO root fetch - processPackages [omnata-plugin-runtime]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-10 12:25:27] WARNING root fetch - processPackages [vollseg]: Skipping package: exceeds size limit 29985919>=10485760
+[2023-06-10 12:25:27] INFO root fetch - main [MainThread]: End processing [vollseg] error
+[2023-06-10 12:25:27] INFO root fetch - processPackages [sparta-spanner]: Downloading https://files.pythonhosted.org/packages/d7/d9/f2f78f85c9ea7d16d3ae41711a61452020d3372611ccff1ea10ec0cbfc54/sparta-spanner-0.0.5.tar.gz
+[2023-06-10 12:25:27] INFO root fetch - processPackages [pipeline-feature]: Downloading https://files.pythonhosted.org/packages/2d/7d/8d87cbdf414b1b7a2a9cc9b2bd5f360572b7da334ce7f3ff61009413e3d6/pipeline-feature-0.0.9.tar.gz
+[2023-06-10 12:25:27] INFO root fetch - processPackages [lazy-calculator]: Downloading https://files.pythonhosted.org/packages/74/58/abaeef167ba76b45322a71fa4525d5746ebff260b154afa2a5239e2c9e03/lazy_calculator-0.1.5.tar.gz
+[2023-06-10 12:25:27] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/53/a1/adf4ca1ed5ea551e6c30a8edb566fbce83dbedc1f72d8e262ff85d80881e/omnata_plugin_runtime-0.1.8.tar.gz
+[2023-06-10 12:25:27] INFO root fetch - processPackages [pipeline-feature]: executing diffoscope
+[2023-06-10 12:25:27] INFO root fetch - processPackages [pipeline-feature]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipeline-feature-0.0.8.tar.gz tmp/pipeline-feature-0.0.9.tar.gz --markdown 20230610/p/pipeline-feature/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-10 12:25:27] INFO root fetch - processPackages [lazy-calculator]: executing diffoscope
+[2023-06-10 12:25:27] INFO root fetch - processPackages [lazy-calculator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazy_calculator-0.1.4.tar.gz tmp/lazy_calculator-0.1.5.tar.gz --markdown 20230610/l/lazy-calculator/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-10 12:25:27] INFO root fetch - processPackages [sparta-spanner]: Downloading https://files.pythonhosted.org/packages/70/1d/54cfb9e6340dcade8764e8805d0e20c727784fdfb4c2a5026a0dc9cb809a/sparta-spanner-0.0.6.tar.gz
+[2023-06-10 12:25:27] INFO root fetch - processPackages [sparta-spanner]: executing diffoscope
+[2023-06-10 12:25:27] INFO root fetch - processPackages [sparta-spanner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparta-spanner-0.0.5.tar.gz tmp/sparta-spanner-0.0.6.tar.gz --markdown 20230610/s/sparta-spanner/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-10 12:25:27] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/cf/ef/88a357f5f8f3b7c775ede6822e6617364cfdcf04a79bca1e74d50ae0aae1/omnata_plugin_runtime-0.1.9.tar.gz
+[2023-06-10 12:25:27] INFO root fetch - processPackages [omnata-plugin-runtime]: executing diffoscope
+[2023-06-10 12:25:27] INFO root fetch - processPackages [omnata-plugin-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_runtime-0.1.8.tar.gz tmp/omnata_plugin_runtime-0.1.9.tar.gz --markdown 20230610/o/omnata-plugin-runtime/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-10 12:25:28] INFO root fetch - processPackages [lazy-calculator]: Remove: archive file [/home/abi/fetcher/tmp/lazy_calculator-0.1.4.tar.gz]
+[2023-06-10 12:25:28] INFO root fetch - processPackages [lazy-calculator]: Remove: archive file [/home/abi/fetcher/tmp/lazy_calculator-0.1.5.tar.gz]
+[2023-06-10 12:25:28] INFO root fetch - main [MainThread]: End processing [lazy-calculator]: success
+[2023-06-10 12:25:28] INFO root fetch - processPackages [pipeline-feature]: Remove: archive file [/home/abi/fetcher/tmp/pipeline-feature-0.0.8.tar.gz]
+[2023-06-10 12:25:28] INFO root fetch - processPackages [pipeline-feature]: Remove: archive file [/home/abi/fetcher/tmp/pipeline-feature-0.0.9.tar.gz]
+[2023-06-10 12:25:28] INFO root fetch - main [MainThread]: End processing [pipeline-feature]: success
+[2023-06-10 12:25:28] INFO root fetch - processPackages [sparta-spanner]: Remove: archive file [/home/abi/fetcher/tmp/sparta-spanner-0.0.5.tar.gz]
+[2023-06-10 12:25:28] INFO root fetch - processPackages [sparta-spanner]: Remove: archive file [/home/abi/fetcher/tmp/sparta-spanner-0.0.6.tar.gz]
+[2023-06-10 12:25:28] INFO root fetch - main [MainThread]: End processing [sparta-spanner]: success
+[2023-06-10 12:25:28] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.1.8.tar.gz]
+[2023-06-10 12:25:28] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.1.9.tar.gz]
+[2023-06-10 12:25:28] INFO root fetch - main [MainThread]: End processing [omnata-plugin-runtime]: success
+[2023-06-10 12:25:28] INFO root fetch - main [MainThread]: Store serial: [18450008]
