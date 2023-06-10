@@ -12483,3 +12483,42 @@ EOFError: EOF read where object expected
 [2023-06-10 15:20:06] INFO root fetch - processPackages [az-st7735]: Remove: archive file [/home/abi/fetcher/tmp/az-st7735-0.1.3.tar.gz]
 [2023-06-10 15:20:06] INFO root fetch - main [MainThread]: End processing [az-st7735]: success
 [2023-06-10 15:20:06] INFO root fetch - main [MainThread]: Store serial: [18450904]
+[2023-06-10 15:25:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18450904]
+[2023-06-10 15:25:14] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-10 15:25:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fast-das
+[2023-06-10 15:25:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: custom-diffusion
+[2023-06-10 15:25:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bluebox-auth-client
+[2023-06-10 15:25:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: accoutning-api-py
+[2023-06-10 15:25:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: llm-generation-server
+[2023-06-10 15:25:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyalgotrading
+[2023-06-10 15:25:14] INFO root fetch - processPackages [custom-diffusion]: New version: [0.1.0] Old Version: [0.0.7]
+[2023-06-10 15:25:14] WARNING root fetch - processPackages [fast-das]: Skipping, unable to determine old version
+[2023-06-10 15:25:14] INFO root fetch - main [MainThread]: End processing [fast-das] error
+[2023-06-10 15:25:14] WARNING root fetch - processPackages [accoutning-api-py]: Skipping, unable to determine old version
+[2023-06-10 15:25:14] INFO root fetch - main [MainThread]: End processing [accoutning-api-py] error
+[2023-06-10 15:25:14] WARNING root fetch - processPackages [bluebox-auth-client]: Skipping, unable to determine old version
+[2023-06-10 15:25:14] INFO root fetch - main [MainThread]: End processing [bluebox-auth-client] error
+[2023-06-10 15:25:14] INFO root fetch - processPackages [llm-generation-server]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-10 15:25:14] INFO root fetch - processPackages [pyalgotrading]: New version: [2023.6.1] Old Version: [2023.5.4]
+[2023-06-10 15:25:14] INFO root fetch - processPackages [custom-diffusion]: Downloading https://files.pythonhosted.org/packages/8f/84/bd267944a47b303a48df7ab95b47eb71b7ec0f36c5a58f87f4e49b8c35bb/custom_diffusion-0.0.7.tar.gz
+[2023-06-10 15:25:15] INFO root fetch - processPackages [pyalgotrading]: Downloading https://files.pythonhosted.org/packages/4b/2b/e800c284287be2815db24467799f018c80ebd6eb1ab2e6b76302b7f250f4/pyalgotrading-2023.5.4-py3-none-any.whl
+[2023-06-10 15:25:15] INFO root fetch - processPackages [llm-generation-server]: Downloading https://files.pythonhosted.org/packages/d7/79/d2a5201af9976eb13abece0c1ddc942db3e35983e6c94707fd1e6b2788d8/llm_generation_server-0.0.8.tar.gz
+[2023-06-10 15:25:15] INFO root fetch - processPackages [custom-diffusion]: Downloading https://files.pythonhosted.org/packages/70/b6/a7b082e69100275c8b717534f1f9302623696af54130e75182dfd5866ee4/custom_diffusion-0.1.0.tar.gz
+[2023-06-10 15:25:15] INFO root fetch - processPackages [custom-diffusion]: executing diffoscope
+[2023-06-10 15:25:15] INFO root fetch - processPackages [custom-diffusion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/custom_diffusion-0.0.7.tar.gz tmp/custom_diffusion-0.1.0.tar.gz --markdown 20230610/c/custom-diffusion/0.0.7-0.1.0/diff.md --exclude *.pyd
+[2023-06-10 15:25:15] INFO root fetch - processPackages [llm-generation-server]: Downloading https://files.pythonhosted.org/packages/1b/92/b7a81c1ae09072f32e01c8f4f15a71efb359935e76a2cdba62984beb2ea1/llm_generation_server-0.0.9.tar.gz
+[2023-06-10 15:25:15] INFO root fetch - processPackages [pyalgotrading]: Downloading https://files.pythonhosted.org/packages/84/cc/91c6b27e93914689b0ba282eede14b3fb6bdb1534d158f14c5adddc78759/pyalgotrading-2023.6.1-py3-none-any.whl
+[2023-06-10 15:25:15] INFO root fetch - processPackages [pyalgotrading]: executing diffoscope
+[2023-06-10 15:25:15] INFO root fetch - processPackages [pyalgotrading]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyalgotrading-2023.5.4-py3-none-any.whl.zip tmp/pyalgotrading-2023.6.1-py3-none-any.whl.zip --markdown 20230610/p/pyalgotrading/2023.5.4-2023.6.1/diff.md --exclude *.pyd
+[2023-06-10 15:25:15] INFO root fetch - processPackages [llm-generation-server]: executing diffoscope
+[2023-06-10 15:25:15] INFO root fetch - processPackages [llm-generation-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm_generation_server-0.0.8.tar.gz tmp/llm_generation_server-0.0.9.tar.gz --markdown 20230610/l/llm-generation-server/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-10 15:25:16] INFO root fetch - processPackages [custom-diffusion]: Remove: archive file [/home/abi/fetcher/tmp/custom_diffusion-0.0.7.tar.gz]
+[2023-06-10 15:25:16] INFO root fetch - processPackages [custom-diffusion]: Remove: archive file [/home/abi/fetcher/tmp/custom_diffusion-0.1.0.tar.gz]
+[2023-06-10 15:25:16] INFO root fetch - main [MainThread]: End processing [custom-diffusion]: success
+[2023-06-10 15:25:16] INFO root fetch - processPackages [pyalgotrading]: Remove: archive file [/home/abi/fetcher/tmp/pyalgotrading-2023.5.4-py3-none-any.whl.zip]
+[2023-06-10 15:25:16] INFO root fetch - processPackages [pyalgotrading]: Remove: archive file [/home/abi/fetcher/tmp/pyalgotrading-2023.6.1-py3-none-any.whl.zip]
+[2023-06-10 15:25:16] INFO root fetch - main [MainThread]: End processing [pyalgotrading]: success
+[2023-06-10 15:25:19] INFO root fetch - processPackages [llm-generation-server]: Remove: archive file [/home/abi/fetcher/tmp/llm_generation_server-0.0.8.tar.gz]
+[2023-06-10 15:25:19] INFO root fetch - processPackages [llm-generation-server]: Remove: archive file [/home/abi/fetcher/tmp/llm_generation_server-0.0.9.tar.gz]
+[2023-06-10 15:25:19] INFO root fetch - main [MainThread]: End processing [llm-generation-server]: success
+[2023-06-10 15:25:19] INFO root fetch - main [MainThread]: Store serial: [18450928]
