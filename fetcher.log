@@ -8505,3 +8505,47 @@ EOFError: EOF read where object expected
 [2023-06-10 08:24:23] INFO root fetch - processPackages [hypha]: Remove: archive file [/home/abi/fetcher/tmp/hypha-0.15.8.tar.gz]
 [2023-06-10 08:24:23] INFO root fetch - main [MainThread]: End processing [hypha]: success
 [2023-06-10 08:24:23] INFO root fetch - main [MainThread]: Store serial: [18449077]
+[2023-06-10 08:29:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18449077]
+[2023-06-10 08:29:31] INFO root fetch - main [MainThread]: No changed packages found
+[2023-06-10 08:34:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18449089]
+[2023-06-10 08:34:37] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-10 08:34:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pipen
+[2023-06-10 08:34:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yunxiao
+[2023-06-10 08:34:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pipen-runinfo
+[2023-06-10 08:34:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: simple-hello-project
+[2023-06-10 08:34:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: netbox-vlan-manager
+[2023-06-10 08:34:37] INFO root fetch - processPackages [pipen-runinfo]: New version: [0.1.0] Old Version: [0.0.0]
+[2023-06-10 08:34:37] INFO root fetch - processPackages [yunxiao]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-06-10 08:34:37] INFO root fetch - processPackages [pipen]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-10 08:34:37] WARNING root fetch - processPackages [simple-hello-project]: Skipping, unable to determine old version
+[2023-06-10 08:34:37] INFO root fetch - main [MainThread]: End processing [simple-hello-project] error
+[2023-06-10 08:34:37] INFO root fetch - processPackages [netbox-vlan-manager]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-10 08:34:37] INFO root fetch - processPackages [yunxiao]: Downloading https://files.pythonhosted.org/packages/7d/7a/7472792f3fe9648b88e700ea94ea0e372dbe6a031c11456525a35dc5feca/yunxiao-0.1.9.tar.gz
+[2023-06-10 08:34:37] INFO root fetch - processPackages [pipen]: Downloading https://files.pythonhosted.org/packages/89/8d/9c6dc54d1785255af9c0f2b040483e2d6d4b2c0f75ac4eef36237b5ba735/pipen-0.9.8.tar.gz
+[2023-06-10 08:34:37] INFO root fetch - processPackages [pipen-runinfo]: Downloading https://files.pythonhosted.org/packages/92/52/cc0f6a8dcb5fa6344e4c6ebd9c0c1ebc139af400c775b89d3f0cbbd376a1/pipen_runinfo-0.0.0.tar.gz
+[2023-06-10 08:34:37] INFO root fetch - processPackages [netbox-vlan-manager]: Downloading https://files.pythonhosted.org/packages/43/62/a6671ed54d65ae1eecf14566fc23ed760b42ecba61803af76e0f2c83921f/netbox-vlan-manager-0.0.3.tar.gz
+[2023-06-10 08:34:37] INFO root fetch - processPackages [pipen]: Downloading https://files.pythonhosted.org/packages/45/94/66725f0ebe253ae8e488f0eba36085ecc25349bc326bfe14d38c76bb9482/pipen-0.9.9.tar.gz
+[2023-06-10 08:34:37] INFO root fetch - processPackages [yunxiao]: Downloading https://files.pythonhosted.org/packages/b6/a3/d9f762e000b93e36bdd2b9c5bebe2c72064bfbd8cbd1286c60ebf41fa4c4/yunxiao-0.2.0.tar.gz
+[2023-06-10 08:34:38] INFO root fetch - processPackages [pipen]: executing diffoscope
+[2023-06-10 08:34:38] INFO root fetch - processPackages [pipen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipen-0.9.8.tar.gz tmp/pipen-0.9.9.tar.gz --markdown 20230610/p/pipen/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-10 08:34:38] INFO root fetch - processPackages [pipen-runinfo]: Downloading https://files.pythonhosted.org/packages/ab/3e/8c2cb14b68b6af4856911485c59c393dcb30ed9e216f11d59956061e9336/pipen_runinfo-0.1.0.tar.gz
+[2023-06-10 08:34:38] INFO root fetch - processPackages [netbox-vlan-manager]: Downloading https://files.pythonhosted.org/packages/c7/fe/191eb21fa97e19eba755bc0d057726a35f9641eed3a5a8efecf4a5ae40b5/netbox-vlan-manager-0.0.4.tar.gz
+[2023-06-10 08:34:38] INFO root fetch - processPackages [pipen-runinfo]: executing diffoscope
+[2023-06-10 08:34:38] INFO root fetch - processPackages [pipen-runinfo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipen_runinfo-0.0.0.tar.gz tmp/pipen_runinfo-0.1.0.tar.gz --markdown 20230610/p/pipen-runinfo/0.0.0-0.1.0/diff.md --exclude *.pyd
+[2023-06-10 08:34:38] INFO root fetch - processPackages [yunxiao]: executing diffoscope
+[2023-06-10 08:34:38] INFO root fetch - processPackages [yunxiao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yunxiao-0.1.9.tar.gz tmp/yunxiao-0.2.0.tar.gz --markdown 20230610/y/yunxiao/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-06-10 08:34:38] INFO root fetch - processPackages [netbox-vlan-manager]: executing diffoscope
+[2023-06-10 08:34:38] INFO root fetch - processPackages [netbox-vlan-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-vlan-manager-0.0.3.tar.gz tmp/netbox-vlan-manager-0.0.4.tar.gz --markdown 20230610/n/netbox-vlan-manager/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-10 08:34:39] INFO root fetch - processPackages [pipen]: Remove: archive file [/home/abi/fetcher/tmp/pipen-0.9.8.tar.gz]
+[2023-06-10 08:34:39] INFO root fetch - processPackages [pipen]: Remove: archive file [/home/abi/fetcher/tmp/pipen-0.9.9.tar.gz]
+[2023-06-10 08:34:39] INFO root fetch - main [MainThread]: End processing [pipen]: success
+[2023-06-10 08:34:39] INFO root fetch - processPackages [yunxiao]: Remove: archive file [/home/abi/fetcher/tmp/yunxiao-0.1.9.tar.gz]
+[2023-06-10 08:34:39] INFO root fetch - processPackages [yunxiao]: Remove: archive file [/home/abi/fetcher/tmp/yunxiao-0.2.0.tar.gz]
+[2023-06-10 08:34:39] INFO root fetch - main [MainThread]: End processing [yunxiao]: success
+[2023-06-10 08:34:39] INFO root fetch - processPackages [netbox-vlan-manager]: Remove: archive file [/home/abi/fetcher/tmp/netbox-vlan-manager-0.0.3.tar.gz]
+[2023-06-10 08:34:39] INFO root fetch - processPackages [netbox-vlan-manager]: Remove: archive file [/home/abi/fetcher/tmp/netbox-vlan-manager-0.0.4.tar.gz]
+[2023-06-10 08:34:39] INFO root fetch - main [MainThread]: End processing [netbox-vlan-manager]: success
+[2023-06-10 08:34:39] INFO root fetch - processPackages [pipen-runinfo]: Remove: archive file [/home/abi/fetcher/tmp/pipen_runinfo-0.0.0.tar.gz]
+[2023-06-10 08:34:39] INFO root fetch - processPackages [pipen-runinfo]: Remove: archive file [/home/abi/fetcher/tmp/pipen_runinfo-0.1.0.tar.gz]
+[2023-06-10 08:34:39] INFO root fetch - main [MainThread]: End processing [pipen-runinfo]: success
+[2023-06-10 08:34:39] INFO root fetch - main [MainThread]: Store serial: [18449110]
