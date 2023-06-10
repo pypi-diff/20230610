@@ -2105,3 +2105,69 @@ EOFError: EOF read where object expected
 [2023-06-10 02:32:54] INFO root fetch - processPackages [cdktf-github-actions]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-github-actions-0.0.99.tar.gz]
 [2023-06-10 02:32:54] INFO root fetch - main [MainThread]: End processing [cdktf-github-actions]: success
 [2023-06-10 02:32:54] INFO root fetch - main [MainThread]: Store serial: [18446600]
+[2023-06-10 02:37:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18446600]
+[2023-06-10 02:38:03] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-10 02:38:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aeppl-nightly
+[2023-06-10 02:38:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rotspectools
+[2023-06-10 02:38:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk8s-plus-25
+[2023-06-10 02:38:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: everdrop-aws-cdk-constructs
+[2023-06-10 02:38:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk8s-plus-26
+[2023-06-10 02:38:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdklabs.cdk-enterprise-iac
+[2023-06-10 02:38:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: state-machine-semaphore
+[2023-06-10 02:38:03] INFO root fetch - processPackages [cdk8s-plus-25]: New version: [2.8.9] Old Version: [2.8.8]
+[2023-06-10 02:38:03] INFO root fetch - processPackages [cdk8s-plus-26]: New version: [2.4.9] Old Version: [2.4.8]
+[2023-06-10 02:38:03] INFO root fetch - processPackages [state-machine-semaphore]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-10 02:38:03] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-10 02:38:03] INFO root fetch - processPackages [everdrop-aws-cdk-constructs]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-10 02:38:03] INFO root fetch - processPackages [rotspectools]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-10 02:38:03] INFO root fetch - processPackages [aeppl-nightly]: New version: [0.1.4.dev20230609] Old Version: [0.1.4.dev20230608]
+[2023-06-10 02:38:03] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/19/05/30d98744c3813d678438d1f164dc4db8972da2ff34d40fc7d3a6492d5cc8/cdk8s-plus-25-2.8.8.tar.gz
+[2023-06-10 02:38:03] INFO root fetch - processPackages [everdrop-aws-cdk-constructs]: Downloading https://files.pythonhosted.org/packages/b1/1b/a3b30c74002ec25b8304d84e5eec007892dead22b4b23a7206f508f96eea/everdrop-aws-cdk-constructs-0.0.8.tar.gz
+[2023-06-10 02:38:03] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Downloading https://files.pythonhosted.org/packages/26/1b/2d98082d5a50de544ac5b0df408479fcedd8e3cbc7361e0cb0e9f362a0af/cdklabs.cdk-enterprise-iac-0.0.98.tar.gz
+[2023-06-10 02:38:03] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/fa/f7/eea494ef2079699969c054c97478b7e0d5db0ce186fbb2708d9a243b4366/state-machine-semaphore-0.1.98.tar.gz
+[2023-06-10 02:38:03] INFO root fetch - processPackages [rotspectools]: Downloading https://files.pythonhosted.org/packages/ea/ca/6212e8d4e659e6af8e812fa1b6209f04c92d9cbf64a19778a70f1bc90c71/rotspectools-0.1.1.tar.gz
+[2023-06-10 02:38:03] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/47/c6/5a822e037e6cbb432276489aac959787ae2b97a77de942d9beffe28fc993/aeppl-nightly-0.1.4.dev20230608.tar.gz
+[2023-06-10 02:38:03] INFO root fetch - processPackages [everdrop-aws-cdk-constructs]: Downloading https://files.pythonhosted.org/packages/cd/57/3add87540af9765045ed2b13533f5a4a8a6608a58b259a8279e90f9a37f6/everdrop-aws-cdk-constructs-0.0.9.tar.gz
+[2023-06-10 02:38:03] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/6b/c4/ca78f2534fcd6fa938f5b5afdce2bc5d4b2e4aca2bd70a7a76993d55cb1a/cdk8s-plus-26-2.4.8.tar.gz
+[2023-06-10 02:38:03] INFO root fetch - processPackages [rotspectools]: Downloading https://files.pythonhosted.org/packages/50/af/91c5fff6eb58032357fcfd3fa1570ece395f5e67a62ea3e0a417c2689287/rotspectools-0.1.2.tar.gz
+[2023-06-10 02:38:03] INFO root fetch - processPackages [everdrop-aws-cdk-constructs]: executing diffoscope
+[2023-06-10 02:38:03] INFO root fetch - processPackages [everdrop-aws-cdk-constructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/everdrop-aws-cdk-constructs-0.0.8.tar.gz tmp/everdrop-aws-cdk-constructs-0.0.9.tar.gz --markdown 20230610/e/everdrop-aws-cdk-constructs/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-10 02:38:03] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/79/f6/d6bb21b3e8c3f61cefbc6cfb377c23ba65b57440ab1bd217fa176e0b9df7/cdk8s-plus-25-2.8.9.tar.gz
+[2023-06-10 02:38:03] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/80/0f/c73e069a7ceff3d9f61065aa4b5b338bc0b9f4f933b94a97692457bfa317/state-machine-semaphore-0.1.99.tar.gz
+[2023-06-10 02:38:03] INFO root fetch - processPackages [rotspectools]: executing diffoscope
+[2023-06-10 02:38:03] INFO root fetch - processPackages [rotspectools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rotspectools-0.1.1.tar.gz tmp/rotspectools-0.1.2.tar.gz --markdown 20230610/r/rotspectools/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-10 02:38:03] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/4d/74/59550063de43b5a5317025a5618eaa1fe660f567c830b186fdb6f71b484c/aeppl-nightly-0.1.4.dev20230609.tar.gz
+[2023-06-10 02:38:03] INFO root fetch - processPackages [cdk8s-plus-25]: executing diffoscope
+[2023-06-10 02:38:03] INFO root fetch - processPackages [cdk8s-plus-25]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-25-2.8.8.tar.gz tmp/cdk8s-plus-25-2.8.9.tar.gz --markdown 20230610/c/cdk8s-plus-25/2.8.8-2.8.9/diff.md --exclude *.pyd
+[2023-06-10 02:38:03] INFO root fetch - processPackages [aeppl-nightly]: executing diffoscope
+[2023-06-10 02:38:03] INFO root fetch - processPackages [aeppl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aeppl-nightly-0.1.4.dev20230608.tar.gz tmp/aeppl-nightly-0.1.4.dev20230609.tar.gz --markdown 20230610/a/aeppl-nightly/0.1.4.dev20230608-0.1.4.dev20230609/diff.md --exclude *.pyd
+[2023-06-10 02:38:03] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/20/3d/a3b8eeb4f101c4c0e5eec995ea1c102412a861b81c18eee0d10bad4570fb/cdk8s-plus-26-2.4.9.tar.gz
+[2023-06-10 02:38:03] INFO root fetch - processPackages [state-machine-semaphore]: executing diffoscope
+[2023-06-10 02:38:03] INFO root fetch - processPackages [state-machine-semaphore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/state-machine-semaphore-0.1.98.tar.gz tmp/state-machine-semaphore-0.1.99.tar.gz --markdown 20230610/s/state-machine-semaphore/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-10 02:38:04] INFO root fetch - processPackages [cdk8s-plus-26]: executing diffoscope
+[2023-06-10 02:38:04] INFO root fetch - processPackages [cdk8s-plus-26]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-26-2.4.8.tar.gz tmp/cdk8s-plus-26-2.4.9.tar.gz --markdown 20230610/c/cdk8s-plus-26/2.4.8-2.4.9/diff.md --exclude *.pyd
+[2023-06-10 02:38:04] INFO root fetch - processPackages [everdrop-aws-cdk-constructs]: Remove: archive file [/home/abi/fetcher/tmp/everdrop-aws-cdk-constructs-0.0.8.tar.gz]
+[2023-06-10 02:38:04] INFO root fetch - processPackages [everdrop-aws-cdk-constructs]: Remove: archive file [/home/abi/fetcher/tmp/everdrop-aws-cdk-constructs-0.0.9.tar.gz]
+[2023-06-10 02:38:04] INFO root fetch - main [MainThread]: End processing [everdrop-aws-cdk-constructs]: success
+[2023-06-10 02:38:04] INFO root fetch - processPackages [rotspectools]: Remove: archive file [/home/abi/fetcher/tmp/rotspectools-0.1.1.tar.gz]
+[2023-06-10 02:38:04] INFO root fetch - processPackages [rotspectools]: Remove: archive file [/home/abi/fetcher/tmp/rotspectools-0.1.2.tar.gz]
+[2023-06-10 02:38:04] INFO root fetch - main [MainThread]: End processing [rotspectools]: success
+[2023-06-10 02:38:04] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.98.tar.gz]
+[2023-06-10 02:38:04] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.99.tar.gz]
+[2023-06-10 02:38:04] INFO root fetch - main [MainThread]: End processing [state-machine-semaphore]: success
+[2023-06-10 02:38:04] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl-nightly-0.1.4.dev20230608.tar.gz]
+[2023-06-10 02:38:04] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl-nightly-0.1.4.dev20230609.tar.gz]
+[2023-06-10 02:38:04] INFO root fetch - main [MainThread]: End processing [aeppl-nightly]: success
+[2023-06-10 02:38:05] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Downloading https://files.pythonhosted.org/packages/68/b7/1bc76974269d07601c13aaa5489dbaf5bfced52da0839a380231163281b2/cdklabs.cdk-enterprise-iac-0.0.99.tar.gz
+[2023-06-10 02:38:05] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.8.tar.gz]
+[2023-06-10 02:38:05] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.9.tar.gz]
+[2023-06-10 02:38:05] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-26]: success
+[2023-06-10 02:38:06] INFO root fetch - processPackages [cdk8s-plus-25]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-25-2.8.8.tar.gz]
+[2023-06-10 02:38:06] INFO root fetch - processPackages [cdk8s-plus-25]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-25-2.8.9.tar.gz]
+[2023-06-10 02:38:06] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-25]: success
+[2023-06-10 02:38:07] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: executing diffoscope
+[2023-06-10 02:38:07] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-enterprise-iac-0.0.98.tar.gz tmp/cdklabs.cdk-enterprise-iac-0.0.99.tar.gz --markdown 20230610/c/cdklabs.cdk-enterprise-iac/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-10 02:38:09] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-enterprise-iac-0.0.98.tar.gz]
+[2023-06-10 02:38:09] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-enterprise-iac-0.0.99.tar.gz]
+[2023-06-10 02:38:09] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-enterprise-iac]: success
+[2023-06-10 02:38:09] INFO root fetch - main [MainThread]: Store serial: [18446624]
