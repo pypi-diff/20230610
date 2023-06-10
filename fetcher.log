@@ -10266,3 +10266,36 @@ EOFError: EOF read where object expected
 [2023-06-10 11:58:22] INFO root fetch - processPackages [OpenFisca-France-Local]: Remove: archive file [/home/abi/fetcher/tmp/OpenFisca-France-Local-4.7.0.tar.gz]
 [2023-06-10 11:58:22] INFO root fetch - main [MainThread]: End processing [OpenFisca-France-Local]: success
 [2023-06-10 11:58:22] INFO root fetch - main [MainThread]: Store serial: [18449881]
+[2023-06-10 12:03:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18449881]
+[2023-06-10 12:03:37] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-10 12:03:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Openfisca-Paris
+[2023-06-10 12:03:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: katottglib
+[2023-06-10 12:03:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hypha
+[2023-06-10 12:03:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pymodd
+[2023-06-10 12:03:37] INFO root fetch - processPackages [hypha]: New version: [0.15.8] Old Version: [0.15.7]
+[2023-06-10 12:03:37] WARNING root fetch - processPackages [katottglib]: Skipping, unable to determine old version
+[2023-06-10 12:03:37] INFO root fetch - processPackages [Openfisca-Paris]: New version: [3.9.0] Old Version: [3.8.0]
+[2023-06-10 12:03:37] INFO root fetch - main [MainThread]: End processing [katottglib] error
+[2023-06-10 12:03:37] INFO root fetch - processPackages [hypha]: Downloading https://files.pythonhosted.org/packages/3b/1c/2587650834b82f5294e81891a15c92e1504fc26a7cb3ea08be1d64f1236a/hypha-0.15.7.tar.gz
+[2023-06-10 12:03:37] INFO root fetch - processPackages [pymodd]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-10 12:03:38] INFO root fetch - processPackages [Openfisca-Paris]: Downloading https://files.pythonhosted.org/packages/ba/77/38eb58b34fed211861d60ab52d676df2d19d08a7bb33b6d917fad2b0f52f/Openfisca-Paris-3.8.0.tar.gz
+[2023-06-10 12:03:38] INFO root fetch - processPackages [hypha]: Downloading https://files.pythonhosted.org/packages/5f/f5/974dbcd4812824cf3f90d85490f8c6b7df7931f35b4ea2b5bdb8cd72cdbf/hypha-0.15.8.tar.gz
+[2023-06-10 12:03:38] INFO root fetch - processPackages [pymodd]: Downloading https://files.pythonhosted.org/packages/40/13/52fcb04cef030c8d43c918223baa1754dd145f29d990db51c165f3580aab/pymodd-1.0.4.tar.gz
+[2023-06-10 12:03:38] INFO root fetch - processPackages [hypha]: executing diffoscope
+[2023-06-10 12:03:38] INFO root fetch - processPackages [hypha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypha-0.15.7.tar.gz tmp/hypha-0.15.8.tar.gz --markdown 20230610/h/hypha/0.15.7-0.15.8/diff.md --exclude *.pyd
+[2023-06-10 12:03:38] INFO root fetch - processPackages [Openfisca-Paris]: Downloading https://files.pythonhosted.org/packages/62/7e/632750a5907db4a75afd7d457e9ba8f8b8322dfa84c4cc0d02386cc4b6aa/Openfisca-Paris-3.9.0.tar.gz
+[2023-06-10 12:03:38] INFO root fetch - processPackages [Openfisca-Paris]: executing diffoscope
+[2023-06-10 12:03:38] INFO root fetch - processPackages [Openfisca-Paris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Openfisca-Paris-3.8.0.tar.gz tmp/Openfisca-Paris-3.9.0.tar.gz --markdown 20230610/O/Openfisca-Paris/3.8.0-3.9.0/diff.md --exclude *.pyd
+[2023-06-10 12:03:38] INFO root fetch - processPackages [pymodd]: Downloading https://files.pythonhosted.org/packages/eb/fe/f5fd8b20c9563cb93e3d5a0497fa88e96074df0cbd0bd8a97a14dc8f57ce/pymodd-1.0.5-cp311-cp311-macosx_11_0_arm64.whl
+[2023-06-10 12:03:39] INFO root fetch - processPackages [pymodd]: executing diffoscope
+[2023-06-10 12:03:39] INFO root fetch - processPackages [pymodd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymodd-1.0.4.tar.gz tmp/pymodd-1.0.5-cp311-cp311-macosx_11_0_arm64.whl.zip --markdown 20230610/p/pymodd/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-10 12:03:39] INFO root fetch - processPackages [Openfisca-Paris]: Remove: archive file [/home/abi/fetcher/tmp/Openfisca-Paris-3.8.0.tar.gz]
+[2023-06-10 12:03:39] INFO root fetch - processPackages [Openfisca-Paris]: Remove: archive file [/home/abi/fetcher/tmp/Openfisca-Paris-3.9.0.tar.gz]
+[2023-06-10 12:03:39] INFO root fetch - main [MainThread]: End processing [Openfisca-Paris]: success
+[2023-06-10 12:03:39] INFO root fetch - processPackages [hypha]: Remove: archive file [/home/abi/fetcher/tmp/hypha-0.15.7.tar.gz]
+[2023-06-10 12:03:39] INFO root fetch - processPackages [hypha]: Remove: archive file [/home/abi/fetcher/tmp/hypha-0.15.8.tar.gz]
+[2023-06-10 12:03:39] INFO root fetch - main [MainThread]: End processing [hypha]: success
+[2023-06-10 12:03:40] INFO root fetch - processPackages [pymodd]: Remove: archive file [/home/abi/fetcher/tmp/pymodd-1.0.4.tar.gz]
+[2023-06-10 12:03:40] INFO root fetch - processPackages [pymodd]: Remove: archive file [/home/abi/fetcher/tmp/pymodd-1.0.5-cp311-cp311-macosx_11_0_arm64.whl.zip]
+[2023-06-10 12:03:40] INFO root fetch - main [MainThread]: End processing [pymodd]: success
+[2023-06-10 12:03:40] INFO root fetch - main [MainThread]: Store serial: [18449897]
