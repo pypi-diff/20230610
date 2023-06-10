@@ -8954,3 +8954,72 @@ EOFError: EOF read where object expected
 [2023-06-10 09:27:49] INFO root fetch - processPackages [Shark-sac-Korean-editor]: Remove: archive file [/home/abi/fetcher/tmp/Shark sac Korean editor-1.2.0.tar.gz]
 [2023-06-10 09:27:49] INFO root fetch - main [MainThread]: End processing [Shark-sac-Korean-editor]: success
 [2023-06-10 09:27:49] INFO root fetch - main [MainThread]: Store serial: [18449335]
+[2023-06-10 09:32:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18449335]
+[2023-06-10 09:32:59] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-10 09:32:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gdsfactory
+[2023-06-10 09:32:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: circuitree
+[2023-06-10 09:32:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: strlib
+[2023-06-10 09:32:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Shark-sac-Korean-editor
+[2023-06-10 09:32:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zeroapi
+[2023-06-10 09:32:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: computing-toolbox
+[2023-06-10 09:32:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hypha
+[2023-06-10 09:32:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pylovens
+[2023-06-10 09:32:59] INFO root fetch - processPackages [Shark-sac-Korean-editor]: New version: [1.2.1] Old Version: [1.1.1]
+[2023-06-10 09:32:59] WARNING root fetch - processPackages [strlib]: Skipping, unable to determine old version
+[2023-06-10 09:32:59] INFO root fetch - main [MainThread]: End processing [strlib] error
+[2023-06-10 09:32:59] INFO root fetch - processPackages [zeroapi]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-10 09:32:59] INFO root fetch - processPackages [hypha]: New version: [0.15.8] Old Version: [0.15.7]
+[2023-06-10 09:32:59] INFO root fetch - processPackages [pylovens]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-10 09:32:59] INFO root fetch - processPackages [circuitree]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-10 09:32:59] INFO root fetch - processPackages [computing-toolbox]: New version: [0.5.0] Old Version: [0.4.1]
+[2023-06-10 09:32:59] INFO root fetch - processPackages [gdsfactory]: New version: [6.99.0] Old Version: [6.98.2]
+[2023-06-10 09:32:59] INFO root fetch - processPackages [Shark-sac-Korean-editor]: Downloading https://files.pythonhosted.org/packages/cd/06/bb6a2b0e8993b8c1025d51d8236c92700eb5b2a2629c05f8267ede46dd0f/Shark%20sac%20Korean%20editor-1.1.1.tar.gz
+[2023-06-10 09:32:59] INFO root fetch - processPackages [zeroapi]: Downloading https://files.pythonhosted.org/packages/cd/24/69229e5243565ddf0d9bfeffc7334c44679cf0e2e8d75b53bb59550fad6b/zeroapi-0.4.0.tar.gz
+[2023-06-10 09:32:59] INFO root fetch - processPackages [circuitree]: Downloading https://files.pythonhosted.org/packages/4f/8a/4f96fa465b98b221b5c7ed9d56a237251bc765279927caf31f81b0179cc0/circuitree-0.1.1.tar.gz
+[2023-06-10 09:32:59] INFO root fetch - processPackages [gdsfactory]: Downloading https://files.pythonhosted.org/packages/c8/dd/88303eeb3c46484a4a64c2675611a92ea3816ae1ec8181c6eb5e78e85064/gdsfactory-6.98.2.tar.gz
+[2023-06-10 09:32:59] INFO root fetch - processPackages [hypha]: Downloading https://files.pythonhosted.org/packages/3b/1c/2587650834b82f5294e81891a15c92e1504fc26a7cb3ea08be1d64f1236a/hypha-0.15.7.tar.gz
+[2023-06-10 09:32:59] INFO root fetch - processPackages [pylovens]: Downloading https://files.pythonhosted.org/packages/15/09/3896c7345005e632b4028faa56e8c19bef4f0e77b0bd8f91e56e23efdbba/pylovens-0.1.0.tar.gz
+[2023-06-10 09:32:59] INFO root fetch - processPackages [computing-toolbox]: Downloading https://files.pythonhosted.org/packages/9f/6f/42a676a93361ee95de4203c4dcdddb21dc7a591f976cdfcab1e62d321cef/computing-toolbox-0.4.1.tar.gz
+[2023-06-10 09:32:59] INFO root fetch - processPackages [gdsfactory]: Downloading https://files.pythonhosted.org/packages/7e/ec/2cd39e2ce278d617eac6988e914b8df36d3496205cac9e991937c8cd1fe3/gdsfactory-6.99.0.tar.gz
+[2023-06-10 09:32:59] INFO root fetch - processPackages [Shark-sac-Korean-editor]: Downloading https://files.pythonhosted.org/packages/ae/f6/ddfae429791fba5ebd80a0f043743358fc8d9d6309cf4b9698a819887a67/Shark%20sac%20Korean%20editor-1.2.1.tar.gz
+[2023-06-10 09:32:59] INFO root fetch - processPackages [zeroapi]: Downloading https://files.pythonhosted.org/packages/0a/ac/99a1d2bd51b2f67983038d2908fc4b130937cfd4bfc7f2ebc45c584c6d30/zeroapi-0.4.1.tar.gz
+[2023-06-10 09:32:59] INFO root fetch - processPackages [circuitree]: Downloading https://files.pythonhosted.org/packages/4a/81/091e976ae2626f653c8d9c14227d4f21803518ecb5a1edbfce3089e9ab91/circuitree-0.1.2.tar.gz
+[2023-06-10 09:32:59] INFO root fetch - processPackages [gdsfactory]: executing diffoscope
+[2023-06-10 09:32:59] INFO root fetch - processPackages [gdsfactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdsfactory-6.98.2.tar.gz tmp/gdsfactory-6.99.0.tar.gz --markdown 20230610/g/gdsfactory/6.98.2-6.99.0/diff.md --exclude *.pyd
+[2023-06-10 09:32:59] INFO root fetch - processPackages [Shark-sac-Korean-editor]: executing diffoscope
+[2023-06-10 09:32:59] INFO root fetch - processPackages [Shark-sac-Korean-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Shark sac Korean editor-1.1.1.tar.gz tmp/Shark sac Korean editor-1.2.1.tar.gz --markdown 20230610/S/Shark-sac-Korean-editor/1.1.1-1.2.1/diff.md --exclude *.pyd
+[2023-06-10 09:32:59] INFO root fetch - processPackages [zeroapi]: executing diffoscope
+[2023-06-10 09:32:59] INFO root fetch - processPackages [zeroapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zeroapi-0.4.0.tar.gz tmp/zeroapi-0.4.1.tar.gz --markdown 20230610/z/zeroapi/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-10 09:32:59] INFO root fetch - processPackages [circuitree]: executing diffoscope
+[2023-06-10 09:32:59] INFO root fetch - processPackages [circuitree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/circuitree-0.1.1.tar.gz tmp/circuitree-0.1.2.tar.gz --markdown 20230610/c/circuitree/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-10 09:32:59] INFO root fetch - processPackages [pylovens]: Downloading https://files.pythonhosted.org/packages/67/b6/8c22c4117443a3d6503cb418513a69973a4de0129feec082b3312d99376b/pylovens-0.2.0.tar.gz
+[2023-06-10 09:32:59] INFO root fetch - processPackages [pylovens]: executing diffoscope
+[2023-06-10 09:32:59] INFO root fetch - processPackages [pylovens]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylovens-0.1.0.tar.gz tmp/pylovens-0.2.0.tar.gz --markdown 20230610/p/pylovens/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-10 09:33:00] INFO root fetch - processPackages [hypha]: Downloading https://files.pythonhosted.org/packages/5f/f5/974dbcd4812824cf3f90d85490f8c6b7df7931f35b4ea2b5bdb8cd72cdbf/hypha-0.15.8.tar.gz
+[2023-06-10 09:33:00] INFO root fetch - processPackages [computing-toolbox]: Downloading https://files.pythonhosted.org/packages/8d/7f/ad808c526ed5ddca3acd8c2dfc61ed734f4151462db64c2e31963e0f3578/computing-toolbox-0.5.0.tar.gz
+[2023-06-10 09:33:00] INFO root fetch - processPackages [hypha]: executing diffoscope
+[2023-06-10 09:33:00] INFO root fetch - processPackages [hypha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypha-0.15.7.tar.gz tmp/hypha-0.15.8.tar.gz --markdown 20230610/h/hypha/0.15.7-0.15.8/diff.md --exclude *.pyd
+[2023-06-10 09:33:00] INFO root fetch - processPackages [computing-toolbox]: executing diffoscope
+[2023-06-10 09:33:00] INFO root fetch - processPackages [computing-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/computing-toolbox-0.4.1.tar.gz tmp/computing-toolbox-0.5.0.tar.gz --markdown 20230610/c/computing-toolbox/0.4.1-0.5.0/diff.md --exclude *.pyd
+[2023-06-10 09:33:01] INFO root fetch - processPackages [pylovens]: Remove: archive file [/home/abi/fetcher/tmp/pylovens-0.1.0.tar.gz]
+[2023-06-10 09:33:01] INFO root fetch - processPackages [pylovens]: Remove: archive file [/home/abi/fetcher/tmp/pylovens-0.2.0.tar.gz]
+[2023-06-10 09:33:01] INFO root fetch - main [MainThread]: End processing [pylovens]: success
+[2023-06-10 09:33:01] INFO root fetch - processPackages [circuitree]: Remove: archive file [/home/abi/fetcher/tmp/circuitree-0.1.1.tar.gz]
+[2023-06-10 09:33:01] INFO root fetch - processPackages [circuitree]: Remove: archive file [/home/abi/fetcher/tmp/circuitree-0.1.2.tar.gz]
+[2023-06-10 09:33:01] INFO root fetch - main [MainThread]: End processing [circuitree]: success
+[2023-06-10 09:33:01] INFO root fetch - processPackages [zeroapi]: Remove: archive file [/home/abi/fetcher/tmp/zeroapi-0.4.0.tar.gz]
+[2023-06-10 09:33:01] INFO root fetch - processPackages [zeroapi]: Remove: archive file [/home/abi/fetcher/tmp/zeroapi-0.4.1.tar.gz]
+[2023-06-10 09:33:01] INFO root fetch - main [MainThread]: End processing [zeroapi]: success
+[2023-06-10 09:33:01] INFO root fetch - processPackages [computing-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/computing-toolbox-0.4.1.tar.gz]
+[2023-06-10 09:33:01] INFO root fetch - processPackages [computing-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/computing-toolbox-0.5.0.tar.gz]
+[2023-06-10 09:33:01] INFO root fetch - main [MainThread]: End processing [computing-toolbox]: success
+[2023-06-10 09:33:01] INFO root fetch - processPackages [Shark-sac-Korean-editor]: Remove: archive file [/home/abi/fetcher/tmp/Shark sac Korean editor-1.1.1.tar.gz]
+[2023-06-10 09:33:01] INFO root fetch - processPackages [Shark-sac-Korean-editor]: Remove: archive file [/home/abi/fetcher/tmp/Shark sac Korean editor-1.2.1.tar.gz]
+[2023-06-10 09:33:01] INFO root fetch - main [MainThread]: End processing [Shark-sac-Korean-editor]: success
+[2023-06-10 09:33:02] INFO root fetch - processPackages [hypha]: Remove: archive file [/home/abi/fetcher/tmp/hypha-0.15.7.tar.gz]
+[2023-06-10 09:33:02] INFO root fetch - processPackages [hypha]: Remove: archive file [/home/abi/fetcher/tmp/hypha-0.15.8.tar.gz]
+[2023-06-10 09:33:02] INFO root fetch - main [MainThread]: End processing [hypha]: success
+[2023-06-10 09:33:06] INFO root fetch - processPackages [gdsfactory]: Remove: archive file [/home/abi/fetcher/tmp/gdsfactory-6.98.2.tar.gz]
+[2023-06-10 09:33:06] INFO root fetch - processPackages [gdsfactory]: Remove: archive file [/home/abi/fetcher/tmp/gdsfactory-6.99.0.tar.gz]
+[2023-06-10 09:33:06] INFO root fetch - main [MainThread]: End processing [gdsfactory]: success
+[2023-06-10 09:33:06] INFO root fetch - main [MainThread]: Store serial: [18449362]
