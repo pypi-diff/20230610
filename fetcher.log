@@ -9953,3 +9953,45 @@ EOFError: EOF read where object expected
 [2023-06-10 11:14:58] INFO root fetch - processPackages [pywpsrpc]: Remove: archive file [/home/abi/fetcher/tmp/pywpsrpc-2.3.6.tar.gz]
 [2023-06-10 11:14:58] INFO root fetch - main [MainThread]: End processing [pywpsrpc]: success
 [2023-06-10 11:14:58] INFO root fetch - main [MainThread]: Store serial: [18449732]
+[2023-06-10 11:20:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18449732]
+[2023-06-10 11:20:07] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-10 11:20:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ogc-na
+[2023-06-10 11:20:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: idoctorai
+[2023-06-10 11:20:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pysimflow
+[2023-06-10 11:20:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spanishconjugator
+[2023-06-10 11:20:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spanishconjugator
+[2023-06-10 11:20:07] INFO root fetch - processPackages [pysimflow]: New version: [0.0.59] Old Version: [0.0.54]
+[2023-06-10 11:20:07] INFO root fetch - processPackages [ogc-na]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-10 11:20:07] INFO root fetch - processPackages [idoctorai]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-10 11:20:07] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-06-10 11:20:07] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-06-10 11:20:07] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-06-10 11:20:07] INFO root fetch - processPackages [ogc-na]: Downloading https://files.pythonhosted.org/packages/6f/1b/a35ac17c9749cc1cf599391bfd4eab6ac44746f5fbff779a67e85b5af2bb/ogc_na-0.2.8.tar.gz
+[2023-06-10 11:20:07] INFO root fetch - processPackages [pysimflow]: Downloading https://files.pythonhosted.org/packages/bf/69/32fe5ae590d8f493e4f1f364cfe3f4faf0bf1e41f1f8c965b7baca77a5f2/pysimflow-0.0.54.tar.gz
+[2023-06-10 11:20:07] INFO root fetch - processPackages [idoctorai]: Downloading https://files.pythonhosted.org/packages/aa/d9/1a60d772f2823f3e0316c1ae8f72c67dfe0a349cb1001d25c732671ce905/idoctorai-0.3.1.tar.gz
+[2023-06-10 11:20:07] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-06-10 11:20:07] WARNING root fetch - processPackages [pysimflow]: Skipping package: exceeds size limit 72645133>=10485760
+[2023-06-10 11:20:07] INFO root fetch - main [MainThread]: End processing [pysimflow] error
+[2023-06-10 11:20:07] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-06-10 11:20:07] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-06-10 11:20:07] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-06-10 11:20:07] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230610/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-06-10 11:20:07] INFO root fetch - processPackages [idoctorai]: Downloading https://files.pythonhosted.org/packages/dd/c8/5688c76b8aabe41d552c574dde1f179906dba33c5156ba5a987833230091/idoctorai-0.3.2.tar.gz
+[2023-06-10 11:20:07] INFO root fetch - processPackages [ogc-na]: Downloading https://files.pythonhosted.org/packages/08/7b/d1a326265898c9d52f3a526697d9f0f458664b7dd04889cf4b95fcae2b5a/ogc_na-0.2.9.tar.gz
+[2023-06-10 11:20:07] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-06-10 11:20:07] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230610/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-06-10 11:20:07] INFO root fetch - processPackages [ogc-na]: executing diffoscope
+[2023-06-10 11:20:07] INFO root fetch - processPackages [ogc-na]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ogc_na-0.2.8.tar.gz tmp/ogc_na-0.2.9.tar.gz --markdown 20230610/o/ogc-na/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-10 11:20:08] INFO root fetch - processPackages [idoctorai]: executing diffoscope
+[2023-06-10 11:20:08] INFO root fetch - processPackages [idoctorai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idoctorai-0.3.1.tar.gz tmp/idoctorai-0.3.2.tar.gz --markdown 20230610/i/idoctorai/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-10 11:20:08] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-06-10 11:20:08] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-06-10 11:20:08] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-06-10 11:20:08] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-06-10 11:20:09] INFO root fetch - processPackages [idoctorai]: Remove: archive file [/home/abi/fetcher/tmp/idoctorai-0.3.1.tar.gz]
+[2023-06-10 11:20:09] INFO root fetch - processPackages [idoctorai]: Remove: archive file [/home/abi/fetcher/tmp/idoctorai-0.3.2.tar.gz]
+[2023-06-10 11:20:09] INFO root fetch - main [MainThread]: End processing [idoctorai]: success
+[2023-06-10 11:20:09] INFO root fetch - processPackages [ogc-na]: Remove: archive file [/home/abi/fetcher/tmp/ogc_na-0.2.8.tar.gz]
+[2023-06-10 11:20:09] INFO root fetch - processPackages [ogc-na]: Remove: archive file [/home/abi/fetcher/tmp/ogc_na-0.2.9.tar.gz]
+[2023-06-10 11:20:09] INFO root fetch - main [MainThread]: End processing [ogc-na]: success
+[2023-06-10 11:20:09] INFO root fetch - main [MainThread]: Store serial: [18449760]
