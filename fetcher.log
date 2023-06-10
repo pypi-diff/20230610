@@ -6788,3 +6788,27 @@ EOFError: EOF read where object expected
 [2023-06-10 04:44:30] INFO root fetch - processPackages [jittor]: Remove: archive file [/home/abi/fetcher/tmp/jittor-1.3.8.2.tar.gz]
 [2023-06-10 04:44:30] INFO root fetch - main [MainThread]: End processing [jittor]: success
 [2023-06-10 04:44:30] INFO root fetch - main [MainThread]: Store serial: [18448267]
+[2023-06-10 04:49:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18448267]
+[2023-06-10 04:49:40] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-10 04:49:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Ret2GPT
+[2023-06-10 04:49:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: djangofoundry
+[2023-06-10 04:49:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addons-oca-account-invoicing
+[2023-06-10 04:49:40] WARNING root fetch - processPackages [djangofoundry]: Skipping, unable to determine old version
+[2023-06-10 04:49:40] INFO root fetch - main [MainThread]: End processing [djangofoundry] error
+[2023-06-10 04:49:40] INFO root fetch - processPackages [Ret2GPT]: New version: [1.0.1.3] Old Version: [1.0.1.1]
+[2023-06-10 04:49:40] INFO root fetch - processPackages [Ret2GPT]: Downloading https://files.pythonhosted.org/packages/fb/ec/8a279aec5c5cfe9430f8a9135d54956c49df692c4568b202a7ca9a992fcb/Ret2GPT-1.0.1.1.tar.gz
+[2023-06-10 04:49:40] INFO root fetch - processPackages [odoo-addons-oca-account-invoicing]: New version: [16.0.20230609.0] Old Version: [16.0.20230607.1]
+[2023-06-10 04:49:40] INFO root fetch - processPackages [odoo-addons-oca-account-invoicing]: Downloading https://files.pythonhosted.org/packages/0e/a6/b07b5cc654c887c97198f5438050d0c0f84c899e70b270079cff06b95290/odoo_addons_oca_account_invoicing-16.0.20230607.1-py3-none-any.whl
+[2023-06-10 04:49:40] INFO root fetch - processPackages [Ret2GPT]: Downloading https://files.pythonhosted.org/packages/c9/c2/c020ea62969e7ee7cbd0941c0906b3f648c4146860ca52ebd51a96318873/Ret2GPT-1.0.1.3.tar.gz
+[2023-06-10 04:49:40] INFO root fetch - processPackages [Ret2GPT]: executing diffoscope
+[2023-06-10 04:49:40] INFO root fetch - processPackages [Ret2GPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Ret2GPT-1.0.1.1.tar.gz tmp/Ret2GPT-1.0.1.3.tar.gz --markdown 20230610/R/Ret2GPT/1.0.1.1-1.0.1.3/diff.md --exclude *.pyd
+[2023-06-10 04:49:40] INFO root fetch - processPackages [odoo-addons-oca-account-invoicing]: Downloading https://files.pythonhosted.org/packages/9f/8a/8d45c7228a278ce736c38d2337c7cda6e4f180468f8dd66a0e62e539b6b4/odoo_addons_oca_account_invoicing-16.0.20230609.0-py3-none-any.whl
+[2023-06-10 04:49:40] INFO root fetch - processPackages [odoo-addons-oca-account-invoicing]: executing diffoscope
+[2023-06-10 04:49:40] INFO root fetch - processPackages [odoo-addons-oca-account-invoicing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_account_invoicing-16.0.20230607.1-py3-none-any.whl.zip tmp/odoo_addons_oca_account_invoicing-16.0.20230609.0-py3-none-any.whl.zip --markdown 20230610/o/odoo-addons-oca-account-invoicing/16.0.20230607.1-16.0.20230609.0/diff.md --exclude *.pyd
+[2023-06-10 04:49:41] INFO root fetch - processPackages [Ret2GPT]: Remove: archive file [/home/abi/fetcher/tmp/Ret2GPT-1.0.1.1.tar.gz]
+[2023-06-10 04:49:41] INFO root fetch - processPackages [Ret2GPT]: Remove: archive file [/home/abi/fetcher/tmp/Ret2GPT-1.0.1.3.tar.gz]
+[2023-06-10 04:49:41] INFO root fetch - main [MainThread]: End processing [Ret2GPT]: success
+[2023-06-10 04:49:41] INFO root fetch - processPackages [odoo-addons-oca-account-invoicing]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_account_invoicing-16.0.20230607.1-py3-none-any.whl.zip]
+[2023-06-10 04:49:41] INFO root fetch - processPackages [odoo-addons-oca-account-invoicing]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_account_invoicing-16.0.20230609.0-py3-none-any.whl.zip]
+[2023-06-10 04:49:41] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-account-invoicing]: success
+[2023-06-10 04:49:41] INFO root fetch - main [MainThread]: Store serial: [18448278]
