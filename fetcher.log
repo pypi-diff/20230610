@@ -10598,3 +10598,21 @@ EOFError: EOF read where object expected
 [2023-06-10 12:41:02] INFO root fetch - processPackages [Oz-Engine]: Remove: archive file [/home/abi/fetcher/tmp/Oz_Engine-1.3.0.2.tar.gz]
 [2023-06-10 12:41:02] INFO root fetch - main [MainThread]: End processing [Oz-Engine]: success
 [2023-06-10 12:41:02] INFO root fetch - main [MainThread]: Store serial: [18450059]
+[2023-06-10 12:46:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18450059]
+[2023-06-10 12:46:12] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-10 12:46:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: argtoml
+[2023-06-10 12:46:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: CandyCrunch
+[2023-06-10 12:46:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yetl-framework
+[2023-06-10 12:46:12] WARNING root fetch - processPackages [CandyCrunch]: Skipping, unable to determine old version
+[2023-06-10 12:46:12] INFO root fetch - main [MainThread]: End processing [CandyCrunch] error
+[2023-06-10 12:46:12] WARNING root fetch - processPackages [argtoml]: Skipping, unable to determine old version
+[2023-06-10 12:46:12] INFO root fetch - main [MainThread]: End processing [argtoml] error
+[2023-06-10 12:46:12] INFO root fetch - processPackages [yetl-framework]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-06-10 12:46:12] INFO root fetch - processPackages [yetl-framework]: Downloading https://files.pythonhosted.org/packages/8b/f6/06420da98dc83038ecb8783d665b4f7cea12abf80b1ebaa76ecdacdc5c6b/yetl-framework-1.4.8.tar.gz
+[2023-06-10 12:46:12] INFO root fetch - processPackages [yetl-framework]: Downloading https://files.pythonhosted.org/packages/16/41/f7c9468164ed6cbc7df78da25d7adbb6bd07f3f9bc65e9e360c33a09d3f7/yetl-framework-1.4.9.tar.gz
+[2023-06-10 12:46:12] INFO root fetch - processPackages [yetl-framework]: executing diffoscope
+[2023-06-10 12:46:12] INFO root fetch - processPackages [yetl-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yetl-framework-1.4.8.tar.gz tmp/yetl-framework-1.4.9.tar.gz --markdown 20230610/y/yetl-framework/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-06-10 12:46:13] INFO root fetch - processPackages [yetl-framework]: Remove: archive file [/home/abi/fetcher/tmp/yetl-framework-1.4.8.tar.gz]
+[2023-06-10 12:46:13] INFO root fetch - processPackages [yetl-framework]: Remove: archive file [/home/abi/fetcher/tmp/yetl-framework-1.4.9.tar.gz]
+[2023-06-10 12:46:13] INFO root fetch - main [MainThread]: End processing [yetl-framework]: success
+[2023-06-10 12:46:13] INFO root fetch - main [MainThread]: Store serial: [18450074]
