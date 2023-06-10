@@ -7348,3 +7348,72 @@ EOFError: EOF read where object expected
 [2023-06-10 05:43:32] INFO root fetch - processPackages [darwinio]: Remove: archive file [/home/abi/fetcher/tmp/darwinio-0.0.5.tar.gz]
 [2023-06-10 05:43:32] INFO root fetch - main [MainThread]: End processing [darwinio]: success
 [2023-06-10 05:43:32] INFO root fetch - main [MainThread]: Store serial: [18448484]
+[2023-06-10 05:48:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18448484]
+[2023-06-10 05:48:41] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-10 05:48:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-l10n-fr-intrastat-product
+[2023-06-10 05:48:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addons-oca-l10n-france
+[2023-06-10 05:48:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gigaloader
+[2023-06-10 05:48:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo10-addon-l10n-it-ddt
+[2023-06-10 05:48:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-l10n-it-ricevute-bancarie
+[2023-06-10 05:48:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-l10n-it-fatturapa-out
+[2023-06-10 05:48:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pygeoweaver
+[2023-06-10 05:48:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: henipipe
+[2023-06-10 05:48:41] INFO root fetch - processPackages [odoo14-addon-l10n-it-ricevute-bancarie]: New version: [14.0.1.3.0] Old Version: [14.0.1.2.4.dev5]
+[2023-06-10 05:48:41] INFO root fetch - processPackages [odoo14-addon-l10n-it-fatturapa-out]: New version: [14.0.3.4.2] Old Version: [14.0.3.4.1]
+[2023-06-10 05:48:41] INFO root fetch - processPackages [henipipe]: New version: [2.4.8] Old Version: [2.4.7]
+[2023-06-10 05:48:41] INFO root fetch - processPackages [odoo10-addon-l10n-it-ddt]: New version: [10.0.1.9.0.99.dev7] Old Version: [10.0.1.9.0.99.dev6]
+[2023-06-10 05:48:41] INFO root fetch - processPackages [odoo14-addon-l10n-it-ricevute-bancarie]: Downloading https://files.pythonhosted.org/packages/d8/f8/e9d32e94f961eb4ba9308c1d4e20e0a41bfa2a7a8a7176a7386870f11378/odoo14_addon_l10n_it_ricevute_bancarie-14.0.1.2.4.dev5-py3-none-any.whl
+[2023-06-10 05:48:41] INFO root fetch - processPackages [henipipe]: Downloading https://files.pythonhosted.org/packages/6a/24/bb7cb8a90d8fd0f9939e4306646737f6c0cb7f65e407d4091a65c538f6fb/henipipe-2.4.7.tar.gz
+[2023-06-10 05:48:41] INFO root fetch - processPackages [odoo14-addon-l10n-it-fatturapa-out]: Downloading https://files.pythonhosted.org/packages/f6/cc/0213324bcaf734a514a15f979167fd35d8c40cb09591c7dc3dd49512300c/odoo14_addon_l10n_it_fatturapa_out-14.0.3.4.1-py3-none-any.whl
+[2023-06-10 05:48:41] INFO root fetch - processPackages [odoo10-addon-l10n-it-ddt]: Downloading https://files.pythonhosted.org/packages/a3/98/bd7623718c66226003a277e5d67ae9f3275dc67e20476fb8f0238745454e/odoo10_addon_l10n_it_ddt-10.0.1.9.0.99.dev6-py2-none-any.whl
+[2023-06-10 05:48:41] INFO root fetch - processPackages [odoo-addon-l10n-fr-intrastat-product]: New version: [16.0.1.0.0.6] Old Version: [16.0.1.0.0.4]
+[2023-06-10 05:48:41] INFO root fetch - processPackages [odoo-addons-oca-l10n-france]: New version: [16.0.20230609.1] Old Version: [16.0.20230414.0]
+[2023-06-10 05:48:41] WARNING root fetch - processPackages [gigaloader]: Skipping, unable to determine old version
+[2023-06-10 05:48:41] INFO root fetch - main [MainThread]: End processing [gigaloader] error
+[2023-06-10 05:48:41] INFO root fetch - processPackages [pygeoweaver]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-10 05:48:41] INFO root fetch - processPackages [odoo10-addon-l10n-it-ddt]: Downloading https://files.pythonhosted.org/packages/b8/b5/351ea3b5c76630f0758599d9526f1280d0577b8d2b6cb697559c280026e6/odoo10_addon_l10n_it_ddt-10.0.1.9.0.99.dev7-py2-none-any.whl
+[2023-06-10 05:48:41] INFO root fetch - processPackages [odoo14-addon-l10n-it-ricevute-bancarie]: Downloading https://files.pythonhosted.org/packages/7d/be/70503b70384c00ac9e1e45b0c41055ddf7d3b6949426a64cd484aaa33bee/odoo14_addon_l10n_it_ricevute_bancarie-14.0.1.3.0-py3-none-any.whl
+[2023-06-10 05:48:41] INFO root fetch - processPackages [henipipe]: Downloading https://files.pythonhosted.org/packages/1a/3c/a7772f6d85e24a88b6588662449af6e89f6e47cad7932500da296e608c92/henipipe-2.4.8.tar.gz
+[2023-06-10 05:48:41] INFO root fetch - processPackages [odoo14-addon-l10n-it-fatturapa-out]: Downloading https://files.pythonhosted.org/packages/66/60/224741b5e3efe2943263a72136ea525991210bf869849abd049cf48cd388/odoo14_addon_l10n_it_fatturapa_out-14.0.3.4.2-py3-none-any.whl
+[2023-06-10 05:48:41] INFO root fetch - processPackages [odoo14-addon-l10n-it-ricevute-bancarie]: executing diffoscope
+[2023-06-10 05:48:41] INFO root fetch - processPackages [odoo14-addon-l10n-it-ricevute-bancarie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_it_ricevute_bancarie-14.0.1.2.4.dev5-py3-none-any.whl.zip tmp/odoo14_addon_l10n_it_ricevute_bancarie-14.0.1.3.0-py3-none-any.whl.zip --markdown 20230610/o/odoo14-addon-l10n-it-ricevute-bancarie/14.0.1.2.4.dev5-14.0.1.3.0/diff.md --exclude *.pyd
+[2023-06-10 05:48:41] INFO root fetch - processPackages [odoo-addon-l10n-fr-intrastat-product]: Downloading https://files.pythonhosted.org/packages/b4/8f/8bd4593e689814a7e8a3ca7d95c2a26d3ecd8834b75b2392bee1b06d7fd7/odoo_addon_l10n_fr_intrastat_product-16.0.1.0.0.4-py3-none-any.whl
+[2023-06-10 05:48:41] INFO root fetch - processPackages [odoo14-addon-l10n-it-fatturapa-out]: executing diffoscope
+[2023-06-10 05:48:41] INFO root fetch - processPackages [odoo14-addon-l10n-it-fatturapa-out]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_it_fatturapa_out-14.0.3.4.1-py3-none-any.whl.zip tmp/odoo14_addon_l10n_it_fatturapa_out-14.0.3.4.2-py3-none-any.whl.zip --markdown 20230610/o/odoo14-addon-l10n-it-fatturapa-out/14.0.3.4.1-14.0.3.4.2/diff.md --exclude *.pyd
+[2023-06-10 05:48:41] INFO root fetch - processPackages [henipipe]: executing diffoscope
+[2023-06-10 05:48:41] INFO root fetch - processPackages [henipipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/henipipe-2.4.7.tar.gz tmp/henipipe-2.4.8.tar.gz --markdown 20230610/h/henipipe/2.4.7-2.4.8/diff.md --exclude *.pyd
+[2023-06-10 05:48:41] INFO root fetch - processPackages [pygeoweaver]: Downloading https://files.pythonhosted.org/packages/e1/e6/cebbcc85961e976c30d3410fec3974b68de6578d7aa4a9934d08ae9b0255/pygeoweaver-0.6.8.tar.gz
+[2023-06-10 05:48:41] INFO root fetch - processPackages [odoo-addons-oca-l10n-france]: Downloading https://files.pythonhosted.org/packages/b0/f2/cf700a40d3857c6bff1418a65b98c46e995a0bdc2864fce2040f9b7cd415/odoo_addons_oca_l10n_france-16.0.20230414.0-py3-none-any.whl
+[2023-06-10 05:48:41] INFO root fetch - processPackages [odoo10-addon-l10n-it-ddt]: executing diffoscope
+[2023-06-10 05:48:41] INFO root fetch - processPackages [odoo10-addon-l10n-it-ddt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo10_addon_l10n_it_ddt-10.0.1.9.0.99.dev6-py2-none-any.whl.zip tmp/odoo10_addon_l10n_it_ddt-10.0.1.9.0.99.dev7-py2-none-any.whl.zip --markdown 20230610/o/odoo10-addon-l10n-it-ddt/10.0.1.9.0.99.dev6-10.0.1.9.0.99.dev7/diff.md --exclude *.pyd
+[2023-06-10 05:48:41] INFO root fetch - processPackages [odoo-addon-l10n-fr-intrastat-product]: Downloading https://files.pythonhosted.org/packages/e7/64/3c1ad84f1dc161ac2b0cf98fdb22f9414bffef4b923059b4a1f6088b1e3f/odoo_addon_l10n_fr_intrastat_product-16.0.1.0.0.6-py3-none-any.whl
+[2023-06-10 05:48:41] INFO root fetch - processPackages [odoo-addon-l10n-fr-intrastat-product]: executing diffoscope
+[2023-06-10 05:48:41] INFO root fetch - processPackages [odoo-addon-l10n-fr-intrastat-product]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_fr_intrastat_product-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_l10n_fr_intrastat_product-16.0.1.0.0.6-py3-none-any.whl.zip --markdown 20230610/o/odoo-addon-l10n-fr-intrastat-product/16.0.1.0.0.4-16.0.1.0.0.6/diff.md --exclude *.pyd
+[2023-06-10 05:48:42] INFO root fetch - processPackages [pygeoweaver]: Downloading https://files.pythonhosted.org/packages/1d/a0/3aed3861d673cf10573bb61e4f114331be2f9040fad159c1af452f29567e/pygeoweaver-0.6.9.tar.gz
+[2023-06-10 05:48:42] INFO root fetch - processPackages [pygeoweaver]: executing diffoscope
+[2023-06-10 05:48:42] INFO root fetch - processPackages [pygeoweaver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygeoweaver-0.6.8.tar.gz tmp/pygeoweaver-0.6.9.tar.gz --markdown 20230610/p/pygeoweaver/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-06-10 05:48:42] INFO root fetch - processPackages [odoo-addons-oca-l10n-france]: Downloading https://files.pythonhosted.org/packages/fb/8e/b16bdb868215d24ddbfacd7bc7afb56c9cddbd6b60b1f3d5f722af52c4cb/odoo_addons_oca_l10n_france-16.0.20230609.1-py3-none-any.whl
+[2023-06-10 05:48:42] INFO root fetch - processPackages [odoo-addons-oca-l10n-france]: executing diffoscope
+[2023-06-10 05:48:42] INFO root fetch - processPackages [odoo-addons-oca-l10n-france]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_l10n_france-16.0.20230414.0-py3-none-any.whl.zip tmp/odoo_addons_oca_l10n_france-16.0.20230609.1-py3-none-any.whl.zip --markdown 20230610/o/odoo-addons-oca-l10n-france/16.0.20230414.0-16.0.20230609.1/diff.md --exclude *.pyd
+[2023-06-10 05:48:42] INFO root fetch - processPackages [henipipe]: Remove: archive file [/home/abi/fetcher/tmp/henipipe-2.4.7.tar.gz]
+[2023-06-10 05:48:42] INFO root fetch - processPackages [henipipe]: Remove: archive file [/home/abi/fetcher/tmp/henipipe-2.4.8.tar.gz]
+[2023-06-10 05:48:42] INFO root fetch - main [MainThread]: End processing [henipipe]: success
+[2023-06-10 05:48:43] INFO root fetch - processPackages [odoo14-addon-l10n-it-ricevute-bancarie]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_it_ricevute_bancarie-14.0.1.2.4.dev5-py3-none-any.whl.zip]
+[2023-06-10 05:48:43] INFO root fetch - processPackages [odoo14-addon-l10n-it-ricevute-bancarie]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_it_ricevute_bancarie-14.0.1.3.0-py3-none-any.whl.zip]
+[2023-06-10 05:48:43] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-it-ricevute-bancarie]: success
+[2023-06-10 05:48:43] INFO root fetch - processPackages [pygeoweaver]: Remove: archive file [/home/abi/fetcher/tmp/pygeoweaver-0.6.8.tar.gz]
+[2023-06-10 05:48:43] INFO root fetch - processPackages [pygeoweaver]: Remove: archive file [/home/abi/fetcher/tmp/pygeoweaver-0.6.9.tar.gz]
+[2023-06-10 05:48:43] INFO root fetch - main [MainThread]: End processing [pygeoweaver]: success
+[2023-06-10 05:48:43] INFO root fetch - processPackages [odoo-addons-oca-l10n-france]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_l10n_france-16.0.20230414.0-py3-none-any.whl.zip]
+[2023-06-10 05:48:43] INFO root fetch - processPackages [odoo-addons-oca-l10n-france]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_l10n_france-16.0.20230609.1-py3-none-any.whl.zip]
+[2023-06-10 05:48:43] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-l10n-france]: success
+[2023-06-10 05:48:43] INFO root fetch - processPackages [odoo10-addon-l10n-it-ddt]: Remove: archive file [/home/abi/fetcher/tmp/odoo10_addon_l10n_it_ddt-10.0.1.9.0.99.dev6-py2-none-any.whl.zip]
+[2023-06-10 05:48:43] INFO root fetch - processPackages [odoo10-addon-l10n-it-ddt]: Remove: archive file [/home/abi/fetcher/tmp/odoo10_addon_l10n_it_ddt-10.0.1.9.0.99.dev7-py2-none-any.whl.zip]
+[2023-06-10 05:48:43] INFO root fetch - main [MainThread]: End processing [odoo10-addon-l10n-it-ddt]: success
+[2023-06-10 05:48:43] INFO root fetch - processPackages [odoo-addon-l10n-fr-intrastat-product]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_fr_intrastat_product-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-06-10 05:48:43] INFO root fetch - processPackages [odoo-addon-l10n-fr-intrastat-product]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_fr_intrastat_product-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2023-06-10 05:48:43] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-fr-intrastat-product]: success
+[2023-06-10 05:48:43] INFO root fetch - processPackages [odoo14-addon-l10n-it-fatturapa-out]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_it_fatturapa_out-14.0.3.4.1-py3-none-any.whl.zip]
+[2023-06-10 05:48:43] INFO root fetch - processPackages [odoo14-addon-l10n-it-fatturapa-out]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_it_fatturapa_out-14.0.3.4.2-py3-none-any.whl.zip]
+[2023-06-10 05:48:43] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-it-fatturapa-out]: success
+[2023-06-10 05:48:43] INFO root fetch - main [MainThread]: Store serial: [18448511]
