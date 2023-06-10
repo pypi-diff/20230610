@@ -6908,3 +6908,36 @@ EOFError: EOF read where object expected
 [2023-06-10 05:00:11] INFO root fetch - processPackages [odoo8-addon-magentoerpconnect]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_magentoerpconnect-8.0.3.0.0.99.dev99-py2-none-any.whl.zip]
 [2023-06-10 05:00:11] INFO root fetch - main [MainThread]: End processing [odoo8-addon-magentoerpconnect]: success
 [2023-06-10 05:00:11] INFO root fetch - main [MainThread]: Store serial: [18448306]
+[2023-06-10 05:05:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18448306]
+[2023-06-10 05:05:20] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-10 05:05:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo9-addon-contract
+[2023-06-10 05:05:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: neon-mana-utils
+[2023-06-10 05:05:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-adapter-github
+[2023-06-10 05:05:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autocast
+[2023-06-10 05:05:20] INFO root fetch - processPackages [neon-mana-utils]: New version: [0.1.1a1] Old Version: [0.1.0]
+[2023-06-10 05:05:20] WARNING root fetch - processPackages [autocast]: Skipping, unable to determine old version
+[2023-06-10 05:05:20] INFO root fetch - main [MainThread]: End processing [autocast] error
+[2023-06-10 05:05:20] INFO root fetch - processPackages [neon-mana-utils]: Downloading https://files.pythonhosted.org/packages/3c/08/37184b6162ff02771e742ada5f91c40ef88a715308240ec8e3184915b1ae/neon_mana_utils-0.1.0-py3-none-any.whl
+[2023-06-10 05:05:20] INFO root fetch - processPackages [nonebot-adapter-github]: New version: [0.3.0] Old Version: [0.2.5]
+[2023-06-10 05:05:20] INFO root fetch - processPackages [odoo9-addon-contract]: New version: [9.0.1.3.0.99.dev9] Old Version: [9.0.1.3.0.99.dev8]
+[2023-06-10 05:05:20] INFO root fetch - processPackages [neon-mana-utils]: Downloading https://files.pythonhosted.org/packages/ce/02/5116da9f9e04b22cfb92574f40ceeec58ab6fad39a0c5b5d6d8306eb9c00/neon_mana_utils-0.1.1a1-py3-none-any.whl
+[2023-06-10 05:05:21] INFO root fetch - processPackages [neon-mana-utils]: executing diffoscope
+[2023-06-10 05:05:21] INFO root fetch - processPackages [neon-mana-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_mana_utils-0.1.0-py3-none-any.whl.zip tmp/neon_mana_utils-0.1.1a1-py3-none-any.whl.zip --markdown 20230610/n/neon-mana-utils/0.1.0-0.1.1a1/diff.md --exclude *.pyd
+[2023-06-10 05:05:21] INFO root fetch - processPackages [nonebot-adapter-github]: Downloading https://files.pythonhosted.org/packages/e9/11/253e1b0937bf4ebe35b8fd5bf73f4c973018fb43c4908bd8817906b6281d/nonebot_adapter_github-0.2.5.tar.gz
+[2023-06-10 05:05:21] INFO root fetch - processPackages [odoo9-addon-contract]: Downloading https://files.pythonhosted.org/packages/ec/64/fc634a46661f5b5e865bbd36b36ecd88a7dbf7c549bf67b47b8eaee000d7/odoo9_addon_contract-9.0.1.3.0.99.dev8-py2-none-any.whl
+[2023-06-10 05:05:21] INFO root fetch - processPackages [nonebot-adapter-github]: Downloading https://files.pythonhosted.org/packages/44/b1/219b05f25d20a329690b766617122daeb975da30703d723baa3a0adc813c/nonebot_adapter_github-0.3.0.tar.gz
+[2023-06-10 05:05:21] INFO root fetch - processPackages [nonebot-adapter-github]: executing diffoscope
+[2023-06-10 05:05:21] INFO root fetch - processPackages [nonebot-adapter-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_adapter_github-0.2.5.tar.gz tmp/nonebot_adapter_github-0.3.0.tar.gz --markdown 20230610/n/nonebot-adapter-github/0.2.5-0.3.0/diff.md --exclude *.pyd
+[2023-06-10 05:05:21] INFO root fetch - processPackages [odoo9-addon-contract]: Downloading https://files.pythonhosted.org/packages/1a/40/036bba745ad7b0e7fb04762bdfbdd8782232f13615c9550cc94bf1841a91/odoo9_addon_contract-9.0.1.3.0.99.dev9-py2-none-any.whl
+[2023-06-10 05:05:22] INFO root fetch - processPackages [neon-mana-utils]: Remove: archive file [/home/abi/fetcher/tmp/neon_mana_utils-0.1.0-py3-none-any.whl.zip]
+[2023-06-10 05:05:22] INFO root fetch - processPackages [neon-mana-utils]: Remove: archive file [/home/abi/fetcher/tmp/neon_mana_utils-0.1.1a1-py3-none-any.whl.zip]
+[2023-06-10 05:05:22] INFO root fetch - main [MainThread]: End processing [neon-mana-utils]: success
+[2023-06-10 05:05:22] INFO root fetch - processPackages [odoo9-addon-contract]: executing diffoscope
+[2023-06-10 05:05:22] INFO root fetch - processPackages [odoo9-addon-contract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_contract-9.0.1.3.0.99.dev8-py2-none-any.whl.zip tmp/odoo9_addon_contract-9.0.1.3.0.99.dev9-py2-none-any.whl.zip --markdown 20230610/o/odoo9-addon-contract/9.0.1.3.0.99.dev8-9.0.1.3.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-10 05:05:22] INFO root fetch - processPackages [nonebot-adapter-github]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_adapter_github-0.2.5.tar.gz]
+[2023-06-10 05:05:22] INFO root fetch - processPackages [nonebot-adapter-github]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_adapter_github-0.3.0.tar.gz]
+[2023-06-10 05:05:22] INFO root fetch - main [MainThread]: End processing [nonebot-adapter-github]: success
+[2023-06-10 05:05:23] INFO root fetch - processPackages [odoo9-addon-contract]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_contract-9.0.1.3.0.99.dev8-py2-none-any.whl.zip]
+[2023-06-10 05:05:23] INFO root fetch - processPackages [odoo9-addon-contract]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_contract-9.0.1.3.0.99.dev9-py2-none-any.whl.zip]
+[2023-06-10 05:05:23] INFO root fetch - main [MainThread]: End processing [odoo9-addon-contract]: success
+[2023-06-10 05:05:23] INFO root fetch - main [MainThread]: Store serial: [18448317]
