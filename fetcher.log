@@ -17623,3 +17623,63 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-10 22:22:02] INFO root fetch - processPackages [docassemble.webapp]: Remove: archive file [/home/abi/fetcher/tmp/docassemble.webapp-1.4.9.tar.gz]
 [2023-06-10 22:22:02] INFO root fetch - main [MainThread]: End processing [docassemble.webapp]: success
 [2023-06-10 22:22:02] INFO root fetch - main [MainThread]: Store serial: [18453584]
+[2023-06-10 22:27:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18453584]
+[2023-06-10 22:27:12] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-10 22:27:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spanishconjugator
+[2023-06-10 22:27:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yagooglesearch
+[2023-06-10 22:27:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyypkg
+[2023-06-10 22:27:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: maadstml
+[2023-06-10 22:27:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: counterplots
+[2023-06-10 22:27:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: irvy
+[2023-06-10 22:27:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: drjson
+[2023-06-10 22:27:12] INFO root fetch - processPackages [yagooglesearch]: New version: [1.7.0] Old Version: [1.6.1]
+[2023-06-10 22:27:12] WARNING root fetch - processPackages [pyypkg]: Skipping, unable to determine old version
+[2023-06-10 22:27:12] INFO root fetch - main [MainThread]: End processing [pyypkg] error
+[2023-06-10 22:27:12] INFO root fetch - processPackages [counterplots]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-10 22:27:12] INFO root fetch - processPackages [irvy]: New version: [1.0.0] Old Version: [0.0.1]
+[2023-06-10 22:27:12] INFO root fetch - processPackages [drjson]: New version: [3.0.0] Old Version: [2.0.1]
+[2023-06-10 22:27:12] INFO root fetch - processPackages [maadstml]: New version: [3.26] Old Version: [3.25]
+[2023-06-10 22:27:12] INFO root fetch - processPackages [counterplots]: Downloading https://files.pythonhosted.org/packages/fb/45/be5ec21de3c8d3d37df8a60886d25a51c20801586811fee2c4d3320cb08b/counterplots-0.0.4.tar.gz
+[2023-06-10 22:27:12] INFO root fetch - processPackages [drjson]: Downloading https://files.pythonhosted.org/packages/4b/c0/b9e07533c9bbb65f11b56cee84b5f956b772331bccb80d99e9988e5b4b9f/drjson-2.0.1-cp39-cp39-win_amd64.whl
+[2023-06-10 22:27:12] INFO root fetch - processPackages [irvy]: Downloading https://files.pythonhosted.org/packages/0c/1c/4e0eb461ba6c94f8ac37084e8201cf7f7e5f363bb6a78e0a39b092649737/irvy-0.0.1.tar.gz
+[2023-06-10 22:27:12] INFO root fetch - processPackages [yagooglesearch]: Downloading https://files.pythonhosted.org/packages/46/7b/4a9ae4519e9671779978ba198c19b6131e32cf7a6c566c547fdd36a7ec11/yagooglesearch-1.6.1.tar.gz
+[2023-06-10 22:27:12] INFO root fetch - processPackages [maadstml]: Downloading https://files.pythonhosted.org/packages/5a/e0/4322df49d14f97e3d540db6141f08bd84add139fdabb732e9d4b55549469/maadstml-3.25.tar.gz
+[2023-06-10 22:27:12] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-06-10 22:27:12] INFO root fetch - processPackages [irvy]: Downloading https://files.pythonhosted.org/packages/60/34/96100c7d2330444c2ea652340071726a649805d0360fb67d62ac2d11d04a/irvy-1.0.0.tar.gz
+[2023-06-10 22:27:12] INFO root fetch - processPackages [drjson]: Downloading https://files.pythonhosted.org/packages/bb/3b/cb2a23276dc2daf5ea509c8d266db4b28370d1b4bb020218023aefe028f2/drjson-3.0.0-cp39-cp39-win_amd64.whl
+[2023-06-10 22:27:12] INFO root fetch - processPackages [counterplots]: Downloading https://files.pythonhosted.org/packages/48/28/a11eaec7f75abff8ebd5fdfda828baf1bd65552bc406206c5ae9b251db4a/counterplots-0.0.5.tar.gz
+[2023-06-10 22:27:12] INFO root fetch - processPackages [irvy]: executing diffoscope
+[2023-06-10 22:27:12] INFO root fetch - processPackages [irvy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irvy-0.0.1.tar.gz tmp/irvy-1.0.0.tar.gz --markdown 20230610/i/irvy/0.0.1-1.0.0/diff.md --exclude *.pyd
+[2023-06-10 22:27:12] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-06-10 22:27:12] INFO root fetch - processPackages [yagooglesearch]: Downloading https://files.pythonhosted.org/packages/8c/e5/81db4a82189dbfd6dfbdba205c48bff50a0c5e0f5a2006aff882898b205a/yagooglesearch-1.7.0.tar.gz
+[2023-06-10 22:27:12] INFO root fetch - processPackages [drjson]: executing diffoscope
+[2023-06-10 22:27:12] INFO root fetch - processPackages [drjson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drjson-2.0.1-cp39-cp39-win_amd64.whl.zip tmp/drjson-3.0.0-cp39-cp39-win_amd64.whl.zip --markdown 20230610/d/drjson/2.0.1-3.0.0/diff.md --exclude *.pyd
+[2023-06-10 22:27:12] INFO root fetch - processPackages [maadstml]: Downloading https://files.pythonhosted.org/packages/12/86/cf7bd9f19181c69f023e8c0a6a0242ff1f6ce82268c2ca904a35e0b27869/maadstml-3.26.tar.gz
+[2023-06-10 22:27:12] INFO root fetch - processPackages [counterplots]: executing diffoscope
+[2023-06-10 22:27:12] INFO root fetch - processPackages [counterplots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/counterplots-0.0.4.tar.gz tmp/counterplots-0.0.5.tar.gz --markdown 20230610/c/counterplots/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-10 22:27:12] INFO root fetch - processPackages [yagooglesearch]: executing diffoscope
+[2023-06-10 22:27:12] INFO root fetch - processPackages [yagooglesearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yagooglesearch-1.6.1.tar.gz tmp/yagooglesearch-1.7.0.tar.gz --markdown 20230610/y/yagooglesearch/1.6.1-1.7.0/diff.md --exclude *.pyd
+[2023-06-10 22:27:13] INFO root fetch - processPackages [maadstml]: executing diffoscope
+[2023-06-10 22:27:13] INFO root fetch - processPackages [maadstml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maadstml-3.25.tar.gz tmp/maadstml-3.26.tar.gz --markdown 20230610/m/maadstml/3.25-3.26/diff.md --exclude *.pyd
+[2023-06-10 22:27:13] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-06-10 22:27:13] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-06-10 22:27:13] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230610/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-06-10 22:27:14] INFO root fetch - processPackages [drjson]: Remove: archive file [/home/abi/fetcher/tmp/drjson-2.0.1-cp39-cp39-win_amd64.whl.zip]
+[2023-06-10 22:27:14] INFO root fetch - processPackages [drjson]: Remove: archive file [/home/abi/fetcher/tmp/drjson-3.0.0-cp39-cp39-win_amd64.whl.zip]
+[2023-06-10 22:27:14] INFO root fetch - main [MainThread]: End processing [drjson]: success
+[2023-06-10 22:27:14] INFO root fetch - processPackages [irvy]: Remove: archive file [/home/abi/fetcher/tmp/irvy-0.0.1.tar.gz]
+[2023-06-10 22:27:14] INFO root fetch - processPackages [irvy]: Remove: archive file [/home/abi/fetcher/tmp/irvy-1.0.0.tar.gz]
+[2023-06-10 22:27:14] INFO root fetch - main [MainThread]: End processing [irvy]: success
+[2023-06-10 22:27:14] INFO root fetch - processPackages [counterplots]: Remove: archive file [/home/abi/fetcher/tmp/counterplots-0.0.4.tar.gz]
+[2023-06-10 22:27:14] INFO root fetch - processPackages [counterplots]: Remove: archive file [/home/abi/fetcher/tmp/counterplots-0.0.5.tar.gz]
+[2023-06-10 22:27:14] INFO root fetch - main [MainThread]: End processing [counterplots]: success
+[2023-06-10 22:27:14] INFO root fetch - processPackages [yagooglesearch]: Remove: archive file [/home/abi/fetcher/tmp/yagooglesearch-1.6.1.tar.gz]
+[2023-06-10 22:27:14] INFO root fetch - processPackages [yagooglesearch]: Remove: archive file [/home/abi/fetcher/tmp/yagooglesearch-1.7.0.tar.gz]
+[2023-06-10 22:27:14] INFO root fetch - main [MainThread]: End processing [yagooglesearch]: success
+[2023-06-10 22:27:14] INFO root fetch - processPackages [maadstml]: Remove: archive file [/home/abi/fetcher/tmp/maadstml-3.25.tar.gz]
+[2023-06-10 22:27:14] INFO root fetch - processPackages [maadstml]: Remove: archive file [/home/abi/fetcher/tmp/maadstml-3.26.tar.gz]
+[2023-06-10 22:27:14] INFO root fetch - main [MainThread]: End processing [maadstml]: success
+[2023-06-10 22:27:14] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-06-10 22:27:14] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-06-10 22:27:14] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-06-10 22:27:14] INFO root fetch - main [MainThread]: Store serial: [18453604]
