@@ -16170,3 +16170,72 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-10 20:06:31] INFO root fetch - processPackages [web3cli]: Remove: archive file [/home/abi/fetcher/tmp/web3cli-1.1.2.tar.gz]
 [2023-06-10 20:06:31] INFO root fetch - main [MainThread]: End processing [web3cli]: success
 [2023-06-10 20:06:31] INFO root fetch - main [MainThread]: Store serial: [18452818]
+[2023-06-10 20:11:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18452818]
+[2023-06-10 20:11:40] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-10 20:11:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: biliarchiver
+[2023-06-10 20:11:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oklahoma
+[2023-06-10 20:11:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dcrx-api
+[2023-06-10 20:11:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: JacksonQuery
+[2023-06-10 20:11:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyrademacher
+[2023-06-10 20:11:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hrin-msb
+[2023-06-10 20:11:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tiafork
+[2023-06-10 20:11:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: frankAllSkyCam
+[2023-06-10 20:11:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gemcalc
+[2023-06-10 20:11:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: synmax-api-python-client
+[2023-06-10 20:11:40] INFO root fetch - processPackages [biliarchiver]: New version: [0.0.9] Old Version: [0.0.15]
+[2023-06-10 20:11:40] WARNING root fetch - processPackages [oklahoma]: Skipping, unable to determine old version
+[2023-06-10 20:11:40] INFO root fetch - main [MainThread]: End processing [oklahoma] error
+[2023-06-10 20:11:40] INFO root fetch - processPackages [synmax-api-python-client]: New version: [0.0b9] Old Version: [0.0b8]
+[2023-06-10 20:11:40] INFO root fetch - processPackages [tiafork]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-06-10 20:11:40] INFO root fetch - processPackages [pyrademacher]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-10 20:11:40] WARNING root fetch - processPackages [frankAllSkyCam]: Skipping, unable to determine old version
+[2023-06-10 20:11:40] INFO root fetch - main [MainThread]: End processing [frankAllSkyCam] error
+[2023-06-10 20:11:40] WARNING root fetch - processPackages [gemcalc]: Skipping, unable to determine old version
+[2023-06-10 20:11:40] INFO root fetch - processPackages [hrin-msb]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-10 20:11:40] INFO root fetch - processPackages [dcrx-api]: New version: [0.2.2] Old Version: [0.2.0]
+[2023-06-10 20:11:40] WARNING root fetch - processPackages [JacksonQuery]: Skipping, unable to determine old version
+[2023-06-10 20:11:40] INFO root fetch - main [MainThread]: End processing [gemcalc] error
+[2023-06-10 20:11:40] INFO root fetch - main [MainThread]: End processing [JacksonQuery] error
+[2023-06-10 20:11:40] INFO root fetch - processPackages [pyrademacher]: Downloading https://files.pythonhosted.org/packages/02/12/6b35c4f5c1445a0947c03a2d92b9549033a7c04b9cb4afb639778d7fb131/pyrademacher-0.9.8.tar.gz
+[2023-06-10 20:11:40] INFO root fetch - processPackages [tiafork]: Downloading https://files.pythonhosted.org/packages/37/22/795a4a5d233f17ee6c7170f6dd7b7d74a40de67bd27843a9710e0fecc806/tiafork-1.2.2.tar.gz
+[2023-06-10 20:11:40] INFO root fetch - processPackages [hrin-msb]: Downloading https://files.pythonhosted.org/packages/01/68/1789fa953fb7468267c85f88fd2bd30966fc7095fa1019588962e2e45635/hrin_msb-0.2.8.tar.gz
+[2023-06-10 20:11:40] INFO root fetch - processPackages [dcrx-api]: Downloading https://files.pythonhosted.org/packages/95/2b/77ab87d1c539949d80ced75bdc264a7cab8ed5068992b288bb5c6fd027a2/dcrx-api-0.2.0.tar.gz
+[2023-06-10 20:11:40] INFO root fetch - processPackages [biliarchiver]: Downloading https://files.pythonhosted.org/packages/6b/25/4844baac2503d5df673e0bdb890f6612c295d3c4854e333a13d5bd2836eb/biliarchiver-0.0.15.tar.gz
+[2023-06-10 20:11:40] INFO root fetch - processPackages [synmax-api-python-client]: Downloading https://files.pythonhosted.org/packages/4d/c5/a0b8a29a6dbd108182a0302629ad8ed86317efaba70fa6fe517e6f8bd9ec/synmax_api_python_client-0.0b8-py3-none-any.whl
+[2023-06-10 20:11:40] INFO root fetch - processPackages [pyrademacher]: Downloading https://files.pythonhosted.org/packages/97/06/40b8c17bb8a3a79653e7c9fa154c89fb8e4e1122553a6f696919593d2fa9/pyrademacher-0.9.9.tar.gz
+[2023-06-10 20:11:40] INFO root fetch - processPackages [hrin-msb]: Downloading https://files.pythonhosted.org/packages/f7/94/d59c8a5b3bee420117fc2d467d62317feecd19b8b1d838107abbbf1f5528/hrin_msb-0.2.9.tar.gz
+[2023-06-10 20:11:40] INFO root fetch - processPackages [pyrademacher]: executing diffoscope
+[2023-06-10 20:11:40] INFO root fetch - processPackages [pyrademacher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrademacher-0.9.8.tar.gz tmp/pyrademacher-0.9.9.tar.gz --markdown 20230610/p/pyrademacher/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-10 20:11:40] INFO root fetch - processPackages [tiafork]: Downloading https://files.pythonhosted.org/packages/ae/64/1b9f6ae7caf9963a0a9133e875fa569f45c816c706b680ebda1947c5f2b2/tiafork-1.2.3.tar.gz
+[2023-06-10 20:11:40] INFO root fetch - processPackages [dcrx-api]: Downloading https://files.pythonhosted.org/packages/5a/b9/dc8f6ee2e7e1e1d72db5446f7da05283be2083318c0705d089fe1fdc57df/dcrx-api-0.2.2.tar.gz
+[2023-06-10 20:11:40] INFO root fetch - processPackages [biliarchiver]: Downloading https://files.pythonhosted.org/packages/75/6f/a07bee6d23ed240047e737c1e393aadca816e9e1cc7c1aaa81457a4885da/biliarchiver-0.0.9.tar.gz
+[2023-06-10 20:11:40] INFO root fetch - processPackages [hrin-msb]: executing diffoscope
+[2023-06-10 20:11:40] INFO root fetch - processPackages [hrin-msb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hrin_msb-0.2.8.tar.gz tmp/hrin_msb-0.2.9.tar.gz --markdown 20230610/h/hrin-msb/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-10 20:11:40] INFO root fetch - processPackages [dcrx-api]: executing diffoscope
+[2023-06-10 20:11:40] INFO root fetch - processPackages [dcrx-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcrx-api-0.2.0.tar.gz tmp/dcrx-api-0.2.2.tar.gz --markdown 20230610/d/dcrx-api/0.2.0-0.2.2/diff.md --exclude *.pyd
+[2023-06-10 20:11:40] INFO root fetch - processPackages [biliarchiver]: executing diffoscope
+[2023-06-10 20:11:40] INFO root fetch - processPackages [synmax-api-python-client]: Downloading https://files.pythonhosted.org/packages/3d/c8/04eb4e0dde6c27f7c3475a2364374b883d2ef35018344b7f5ef2d1d85e5d/synmax_api_python_client-0.0b9-py3-none-any.whl
+[2023-06-10 20:11:40] INFO root fetch - processPackages [biliarchiver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biliarchiver-0.0.15.tar.gz tmp/biliarchiver-0.0.9.tar.gz --markdown 20230610/b/biliarchiver/0.0.15-0.0.9/diff.md --exclude *.pyd
+[2023-06-10 20:11:40] INFO root fetch - processPackages [tiafork]: executing diffoscope
+[2023-06-10 20:11:40] INFO root fetch - processPackages [tiafork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tiafork-1.2.2.tar.gz tmp/tiafork-1.2.3.tar.gz --markdown 20230610/t/tiafork/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-06-10 20:11:40] INFO root fetch - processPackages [synmax-api-python-client]: executing diffoscope
+[2023-06-10 20:11:40] INFO root fetch - processPackages [synmax-api-python-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synmax_api_python_client-0.0b8-py3-none-any.whl.zip tmp/synmax_api_python_client-0.0b9-py3-none-any.whl.zip --markdown 20230610/s/synmax-api-python-client/0.0b8-0.0b9/diff.md --exclude *.pyd
+[2023-06-10 20:11:41] INFO root fetch - processPackages [pyrademacher]: Remove: archive file [/home/abi/fetcher/tmp/pyrademacher-0.9.8.tar.gz]
+[2023-06-10 20:11:41] INFO root fetch - processPackages [pyrademacher]: Remove: archive file [/home/abi/fetcher/tmp/pyrademacher-0.9.9.tar.gz]
+[2023-06-10 20:11:41] INFO root fetch - main [MainThread]: End processing [pyrademacher]: success
+[2023-06-10 20:11:41] INFO root fetch - processPackages [biliarchiver]: Remove: archive file [/home/abi/fetcher/tmp/biliarchiver-0.0.15.tar.gz]
+[2023-06-10 20:11:41] INFO root fetch - processPackages [biliarchiver]: Remove: archive file [/home/abi/fetcher/tmp/biliarchiver-0.0.9.tar.gz]
+[2023-06-10 20:11:41] INFO root fetch - main [MainThread]: End processing [biliarchiver]: success
+[2023-06-10 20:11:41] INFO root fetch - processPackages [synmax-api-python-client]: Remove: archive file [/home/abi/fetcher/tmp/synmax_api_python_client-0.0b8-py3-none-any.whl.zip]
+[2023-06-10 20:11:41] INFO root fetch - processPackages [synmax-api-python-client]: Remove: archive file [/home/abi/fetcher/tmp/synmax_api_python_client-0.0b9-py3-none-any.whl.zip]
+[2023-06-10 20:11:41] INFO root fetch - main [MainThread]: End processing [synmax-api-python-client]: success
+[2023-06-10 20:11:42] INFO root fetch - processPackages [dcrx-api]: Remove: archive file [/home/abi/fetcher/tmp/dcrx-api-0.2.0.tar.gz]
+[2023-06-10 20:11:42] INFO root fetch - processPackages [dcrx-api]: Remove: archive file [/home/abi/fetcher/tmp/dcrx-api-0.2.2.tar.gz]
+[2023-06-10 20:11:42] INFO root fetch - main [MainThread]: End processing [dcrx-api]: success
+[2023-06-10 20:11:42] INFO root fetch - processPackages [hrin-msb]: Remove: archive file [/home/abi/fetcher/tmp/hrin_msb-0.2.8.tar.gz]
+[2023-06-10 20:11:42] INFO root fetch - processPackages [hrin-msb]: Remove: archive file [/home/abi/fetcher/tmp/hrin_msb-0.2.9.tar.gz]
+[2023-06-10 20:11:42] INFO root fetch - main [MainThread]: End processing [hrin-msb]: success
+[2023-06-10 20:11:42] INFO root fetch - processPackages [tiafork]: Remove: archive file [/home/abi/fetcher/tmp/tiafork-1.2.2.tar.gz]
+[2023-06-10 20:11:42] INFO root fetch - processPackages [tiafork]: Remove: archive file [/home/abi/fetcher/tmp/tiafork-1.2.3.tar.gz]
+[2023-06-10 20:11:42] INFO root fetch - main [MainThread]: End processing [tiafork]: success
+[2023-06-10 20:11:42] INFO root fetch - main [MainThread]: Store serial: [18452856]
