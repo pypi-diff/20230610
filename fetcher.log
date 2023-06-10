@@ -14478,3 +14478,33 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-10 17:49:06] INFO root fetch - processPackages [DevGoldy]: Remove: archive file [/home/abi/fetcher/tmp/DevGoldy-1.3a1.tar.gz]
 [2023-06-10 17:49:06] INFO root fetch - main [MainThread]: End processing [DevGoldy]: success
 [2023-06-10 17:49:06] INFO root fetch - main [MainThread]: Store serial: [18451924]
+[2023-06-10 17:54:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18451924]
+[2023-06-10 17:54:15] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-10 17:54:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aioqui
+[2023-06-10 17:54:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mapbot-frontend
+[2023-06-10 17:54:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scratchattach
+[2023-06-10 17:54:15] INFO root fetch - processPackages [scratchattach]: New version: [1.1.8] Old Version: [1.1.6]
+[2023-06-10 17:54:15] INFO root fetch - processPackages [mapbot-frontend]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-10 17:54:15] INFO root fetch - processPackages [aioqui]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-06-10 17:54:15] INFO root fetch - processPackages [mapbot-frontend]: Downloading https://files.pythonhosted.org/packages/c3/15/a76b10735e815f29e69252cfdf5844d8267526ca51d4be0ae611898cf761/mapbot_frontend-0.1.8.tar.gz
+[2023-06-10 17:54:15] INFO root fetch - processPackages [scratchattach]: Downloading https://files.pythonhosted.org/packages/de/6e/71e4962a3fa2e653c56dda1cb1474286b01310f8273e7d346c0026dce237/scratchattach-1.1.6.tar.gz
+[2023-06-10 17:54:15] INFO root fetch - processPackages [aioqui]: Downloading https://files.pythonhosted.org/packages/c4/52/8af6ad26a267757d86c11cc26e283821c07a1c0da79ce274f47e1e6983cc/aioqui-2.1.0.tar.gz
+[2023-06-10 17:54:15] INFO root fetch - processPackages [mapbot-frontend]: Downloading https://files.pythonhosted.org/packages/2c/2b/65497a0d97cff1920b70e98b8c0780cb445ac34e1ebb2d6cf5ddf99b0ffc/mapbot_frontend-0.1.9.tar.gz
+[2023-06-10 17:54:15] INFO root fetch - processPackages [scratchattach]: Downloading https://files.pythonhosted.org/packages/fb/e7/1d69d744b0d6b11f4d96ed8fcf7ea0a3d4ecbc28e64ff3565ea80a301cb1/scratchattach-1.1.8.tar.gz
+[2023-06-10 17:54:15] INFO root fetch - processPackages [mapbot-frontend]: executing diffoscope
+[2023-06-10 17:54:15] INFO root fetch - processPackages [mapbot-frontend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapbot_frontend-0.1.8.tar.gz tmp/mapbot_frontend-0.1.9.tar.gz --markdown 20230610/m/mapbot-frontend/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-10 17:54:15] INFO root fetch - processPackages [aioqui]: Downloading https://files.pythonhosted.org/packages/aa/1f/7877d13423fbf750266f620f45cd4d9b8a6d2c34c1ceb3fc4acd2436e5b2/aioqui-2.1.1.tar.gz
+[2023-06-10 17:54:15] INFO root fetch - processPackages [scratchattach]: executing diffoscope
+[2023-06-10 17:54:15] INFO root fetch - processPackages [scratchattach]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scratchattach-1.1.6.tar.gz tmp/scratchattach-1.1.8.tar.gz --markdown 20230610/s/scratchattach/1.1.6-1.1.8/diff.md --exclude *.pyd
+[2023-06-10 17:54:16] INFO root fetch - processPackages [aioqui]: executing diffoscope
+[2023-06-10 17:54:16] INFO root fetch - processPackages [aioqui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioqui-2.1.0.tar.gz tmp/aioqui-2.1.1.tar.gz --markdown 20230610/a/aioqui/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-06-10 17:54:16] INFO root fetch - processPackages [scratchattach]: Remove: archive file [/home/abi/fetcher/tmp/scratchattach-1.1.6.tar.gz]
+[2023-06-10 17:54:16] INFO root fetch - processPackages [scratchattach]: Remove: archive file [/home/abi/fetcher/tmp/scratchattach-1.1.8.tar.gz]
+[2023-06-10 17:54:16] INFO root fetch - main [MainThread]: End processing [scratchattach]: success
+[2023-06-10 17:54:17] INFO root fetch - processPackages [mapbot-frontend]: Remove: archive file [/home/abi/fetcher/tmp/mapbot_frontend-0.1.8.tar.gz]
+[2023-06-10 17:54:17] INFO root fetch - processPackages [mapbot-frontend]: Remove: archive file [/home/abi/fetcher/tmp/mapbot_frontend-0.1.9.tar.gz]
+[2023-06-10 17:54:17] INFO root fetch - main [MainThread]: End processing [mapbot-frontend]: success
+[2023-06-10 17:54:18] INFO root fetch - processPackages [aioqui]: Remove: archive file [/home/abi/fetcher/tmp/aioqui-2.1.0.tar.gz]
+[2023-06-10 17:54:18] INFO root fetch - processPackages [aioqui]: Remove: archive file [/home/abi/fetcher/tmp/aioqui-2.1.1.tar.gz]
+[2023-06-10 17:54:18] INFO root fetch - main [MainThread]: End processing [aioqui]: success
+[2023-06-10 17:54:18] INFO root fetch - main [MainThread]: Store serial: [18451933]
