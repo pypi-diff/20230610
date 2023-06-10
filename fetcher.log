@@ -18611,3 +18611,69 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-10 23:28:07] INFO root fetch - processPackages [mobilizon-reshare]: Remove: archive file [/home/abi/fetcher/tmp/mobilizon-reshare-0.3.4.tar.gz]
 [2023-06-10 23:28:07] INFO root fetch - main [MainThread]: End processing [mobilizon-reshare]: success
 [2023-06-10 23:28:07] INFO root fetch - main [MainThread]: Store serial: [18453975]
+[2023-06-10 23:33:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18453975]
+[2023-06-10 23:33:15] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-10 23:33:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: metaphor-connectors
+[2023-06-10 23:33:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deta-discord-interactions
+[2023-06-10 23:33:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: JacksonQuery
+[2023-06-10 23:33:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: datasette-sqlite-regex
+[2023-06-10 23:33:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sqlite-regex
+[2023-06-10 23:33:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sqlite-xsv
+[2023-06-10 23:33:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flasgger
+[2023-06-10 23:33:16] INFO root fetch - processPackages [deta-discord-interactions]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-10 23:33:16] INFO root fetch - processPackages [datasette-sqlite-regex]: New version: [0.2.3a9] Old Version: [0.2.3a8]
+[2023-06-10 23:33:16] INFO root fetch - processPackages [JacksonQuery]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-06-10 23:33:16] INFO root fetch - processPackages [flasgger]: New version: [0.9.7b2] Old Version: [0.9.7.2.dev1]
+[2023-06-10 23:33:16] INFO root fetch - processPackages [sqlite-xsv]: New version: [0.2.1a9] Old Version: [0.2.1a8]
+[2023-06-10 23:33:16] INFO root fetch - processPackages [sqlite-regex]: New version: [0.2.3a9] Old Version: [0.2.3a8]
+[2023-06-10 23:33:16] INFO root fetch - processPackages [metaphor-connectors]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-10 23:33:16] INFO root fetch - processPackages [flasgger]: Downloading https://files.pythonhosted.org/packages/92/2c/85815e64c1d6b058a06f79ed4ae3ef6a1fa36d4b2a68256928f80eff8f39/flasgger-0.9.7.2.dev1.tar.gz
+[2023-06-10 23:33:16] INFO root fetch - processPackages [datasette-sqlite-regex]: Downloading https://files.pythonhosted.org/packages/b1/06/4db5ebce60a3f07d4b77c213ae069b036967a9583cb894c9d0a27f5e18ac/datasette_sqlite_regex-0.2.3a8-py3-none-any.whl
+[2023-06-10 23:33:16] INFO root fetch - processPackages [sqlite-regex]: Downloading https://files.pythonhosted.org/packages/25/c5/7c63d35ee5f41a41d5d94b797a0545e2d77df72f6d7d15640fd9693b2911/sqlite_regex-0.2.3a8-py3-none-win_amd64.whl
+[2023-06-10 23:33:16] INFO root fetch - processPackages [sqlite-xsv]: Downloading https://files.pythonhosted.org/packages/80/c1/00186b71f75a0e4e88919ae0639f9a942abdf521ca8d7e40c9115543d682/sqlite_xsv-0.2.1a8-py3-none-win_amd64.whl
+[2023-06-10 23:33:16] INFO root fetch - processPackages [metaphor-connectors]: Downloading https://files.pythonhosted.org/packages/92/c2/f775488949e85740917971e97fbd1e7187de61421ac7fbbc9d5485275473/metaphor-connectors-0.9.3.tar.gz
+[2023-06-10 23:33:16] INFO root fetch - processPackages [deta-discord-interactions]: Downloading https://files.pythonhosted.org/packages/ef/e8/6ef10a66a521000817aebf186b06d193ac6a02eea52790d0ca7299dff0b8/deta-discord-interactions-0.1.0.tar.gz
+[2023-06-10 23:33:16] INFO root fetch - processPackages [JacksonQuery]: Downloading https://files.pythonhosted.org/packages/b2/95/53ce88aca2144f13826b494ec35c1b79e0bbf3c8a2cbe8dcd57d3d6fb4aa/JacksonQuery-0.0.0.tar.gz
+[2023-06-10 23:33:16] INFO root fetch - processPackages [sqlite-xsv]: Downloading https://files.pythonhosted.org/packages/71/f5/8a2eaac1185aa4c81d82b9eee3a0932c75bebae1a4ad1ff52e0ab85f3f2f/sqlite_xsv-0.2.1a9-py3-none-win_amd64.whl
+[2023-06-10 23:33:16] INFO root fetch - processPackages [metaphor-connectors]: Downloading https://files.pythonhosted.org/packages/7e/f3/fd51e0c2498f7340487d8eba1ee24a716e8056cce2a496a20f5da0cc11de/metaphor-connectors-0.9.4.tar.gz
+[2023-06-10 23:33:16] INFO root fetch - processPackages [datasette-sqlite-regex]: Downloading https://files.pythonhosted.org/packages/48/62/95bcaf409cd88ea3aac6424ee42ecd2df4fa5dab60b5bc2d965cbd656673/datasette_sqlite_regex-0.2.3a9-py3-none-any.whl
+[2023-06-10 23:33:16] INFO root fetch - processPackages [flasgger]: Downloading https://files.pythonhosted.org/packages/cf/f4/7b17871ee710c16644b20a379e31998eddbd2a455251d4bd8da05e8e47ae/flasgger-0.9.7b2.tar.gz
+[2023-06-10 23:33:16] INFO root fetch - processPackages [sqlite-regex]: Downloading https://files.pythonhosted.org/packages/c6/af/dc3e5461f322aa76450bd02d99ee04f6e3971e6886fcccecd8b3ea645e97/sqlite_regex-0.2.3a9-py3-none-win_amd64.whl
+[2023-06-10 23:33:16] INFO root fetch - processPackages [deta-discord-interactions]: Downloading https://files.pythonhosted.org/packages/bc/c1/2020756ed25fe7cb3985184feec1b6a262ed227adf2af862f5525eeb2dfe/deta-discord-interactions-0.1.1.tar.gz
+[2023-06-10 23:33:16] INFO root fetch - processPackages [metaphor-connectors]: executing diffoscope
+[2023-06-10 23:33:16] INFO root fetch - processPackages [metaphor-connectors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metaphor-connectors-0.9.3.tar.gz tmp/metaphor-connectors-0.9.4.tar.gz --markdown 20230610/m/metaphor-connectors/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-10 23:33:16] INFO root fetch - processPackages [sqlite-xsv]: executing diffoscope
+[2023-06-10 23:33:16] INFO root fetch - processPackages [sqlite-xsv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite_xsv-0.2.1a8-py3-none-win_amd64.whl.zip tmp/sqlite_xsv-0.2.1a9-py3-none-win_amd64.whl.zip --markdown 20230610/s/sqlite-xsv/0.2.1a8-0.2.1a9/diff.md --exclude *.pyd
+[2023-06-10 23:33:16] INFO root fetch - processPackages [JacksonQuery]: Downloading https://files.pythonhosted.org/packages/27/ef/aeb76f8e394b45a94e702553b273214bbbeeeeff11628d5cf6b48446720b/JacksonQuery-0.0.1.tar.gz
+[2023-06-10 23:33:16] INFO root fetch - processPackages [flasgger]: executing diffoscope
+[2023-06-10 23:33:16] INFO root fetch - processPackages [flasgger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flasgger-0.9.7.2.dev1.tar.gz tmp/flasgger-0.9.7b2.tar.gz --markdown 20230610/f/flasgger/0.9.7.2.dev1-0.9.7b2/diff.md --exclude *.pyd
+[2023-06-10 23:33:16] INFO root fetch - processPackages [datasette-sqlite-regex]: executing diffoscope
+[2023-06-10 23:33:16] INFO root fetch - processPackages [datasette-sqlite-regex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasette_sqlite_regex-0.2.3a8-py3-none-any.whl.zip tmp/datasette_sqlite_regex-0.2.3a9-py3-none-any.whl.zip --markdown 20230610/d/datasette-sqlite-regex/0.2.3a8-0.2.3a9/diff.md --exclude *.pyd
+[2023-06-10 23:33:16] INFO root fetch - processPackages [deta-discord-interactions]: executing diffoscope
+[2023-06-10 23:33:16] INFO root fetch - processPackages [deta-discord-interactions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deta-discord-interactions-0.1.0.tar.gz tmp/deta-discord-interactions-0.1.1.tar.gz --markdown 20230610/d/deta-discord-interactions/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-10 23:33:16] INFO root fetch - processPackages [sqlite-regex]: executing diffoscope
+[2023-06-10 23:33:16] INFO root fetch - processPackages [sqlite-regex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite_regex-0.2.3a8-py3-none-win_amd64.whl.zip tmp/sqlite_regex-0.2.3a9-py3-none-win_amd64.whl.zip --markdown 20230610/s/sqlite-regex/0.2.3a8-0.2.3a9/diff.md --exclude *.pyd
+[2023-06-10 23:33:16] INFO root fetch - processPackages [JacksonQuery]: executing diffoscope
+[2023-06-10 23:33:16] INFO root fetch - processPackages [JacksonQuery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JacksonQuery-0.0.0.tar.gz tmp/JacksonQuery-0.0.1.tar.gz --markdown 20230610/J/JacksonQuery/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-06-10 23:33:17] INFO root fetch - processPackages [datasette-sqlite-regex]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_regex-0.2.3a8-py3-none-any.whl.zip]
+[2023-06-10 23:33:17] INFO root fetch - processPackages [datasette-sqlite-regex]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_regex-0.2.3a9-py3-none-any.whl.zip]
+[2023-06-10 23:33:17] INFO root fetch - main [MainThread]: End processing [datasette-sqlite-regex]: success
+[2023-06-10 23:33:18] INFO root fetch - processPackages [JacksonQuery]: Remove: archive file [/home/abi/fetcher/tmp/JacksonQuery-0.0.0.tar.gz]
+[2023-06-10 23:33:18] INFO root fetch - processPackages [JacksonQuery]: Remove: archive file [/home/abi/fetcher/tmp/JacksonQuery-0.0.1.tar.gz]
+[2023-06-10 23:33:18] INFO root fetch - main [MainThread]: End processing [JacksonQuery]: success
+[2023-06-10 23:33:18] INFO root fetch - processPackages [metaphor-connectors]: Remove: archive file [/home/abi/fetcher/tmp/metaphor-connectors-0.9.3.tar.gz]
+[2023-06-10 23:33:18] INFO root fetch - processPackages [metaphor-connectors]: Remove: archive file [/home/abi/fetcher/tmp/metaphor-connectors-0.9.4.tar.gz]
+[2023-06-10 23:33:18] INFO root fetch - main [MainThread]: End processing [metaphor-connectors]: success
+[2023-06-10 23:33:18] INFO root fetch - processPackages [deta-discord-interactions]: Remove: archive file [/home/abi/fetcher/tmp/deta-discord-interactions-0.1.0.tar.gz]
+[2023-06-10 23:33:18] INFO root fetch - processPackages [deta-discord-interactions]: Remove: archive file [/home/abi/fetcher/tmp/deta-discord-interactions-0.1.1.tar.gz]
+[2023-06-10 23:33:18] INFO root fetch - main [MainThread]: End processing [deta-discord-interactions]: success
+[2023-06-10 23:33:24] INFO root fetch - processPackages [sqlite-xsv]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_xsv-0.2.1a8-py3-none-win_amd64.whl.zip]
+[2023-06-10 23:33:24] INFO root fetch - processPackages [sqlite-xsv]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_xsv-0.2.1a9-py3-none-win_amd64.whl.zip]
+[2023-06-10 23:33:24] INFO root fetch - main [MainThread]: End processing [sqlite-xsv]: success
+[2023-06-10 23:33:27] INFO root fetch - processPackages [sqlite-regex]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_regex-0.2.3a8-py3-none-win_amd64.whl.zip]
+[2023-06-10 23:33:27] INFO root fetch - processPackages [sqlite-regex]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_regex-0.2.3a9-py3-none-win_amd64.whl.zip]
+[2023-06-10 23:33:27] INFO root fetch - main [MainThread]: End processing [sqlite-regex]: success
+[2023-06-10 23:35:09] INFO root fetch - processPackages [flasgger]: Remove: archive file [/home/abi/fetcher/tmp/flasgger-0.9.7.2.dev1.tar.gz]
+[2023-06-10 23:35:09] INFO root fetch - processPackages [flasgger]: Remove: archive file [/home/abi/fetcher/tmp/flasgger-0.9.7b2.tar.gz]
+[2023-06-10 23:35:09] INFO root fetch - main [MainThread]: End processing [flasgger]: success
+[2023-06-10 23:35:09] INFO root fetch - main [MainThread]: Store serial: [18453996]
