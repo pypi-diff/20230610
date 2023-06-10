@@ -6337,3 +6337,57 @@ EOFError: EOF read where object expected
 [2023-06-10 04:06:47] INFO root fetch - processPackages [duckdb]: Remove: archive file [/home/abi/fetcher/tmp/duckdb-0.8.1.dev416-cp310-cp310-win_amd64.whl.zip]
 [2023-06-10 04:06:47] INFO root fetch - main [MainThread]: End processing [duckdb]: success
 [2023-06-10 04:06:47] INFO root fetch - main [MainThread]: Store serial: [18448069]
+[2023-06-10 04:11:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18448069]
+[2023-06-10 04:11:55] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-10 04:11:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wildered
+[2023-06-10 04:11:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autocast
+[2023-06-10 04:11:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: MALDIpy
+[2023-06-10 04:11:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-db-connection-pool
+[2023-06-10 04:11:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: utterless
+[2023-06-10 04:11:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: micropython-stts22h
+[2023-06-10 04:11:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: netron
+[2023-06-10 04:11:55] INFO root fetch - processPackages [wildered]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-10 04:11:55] INFO root fetch - processPackages [django-db-connection-pool]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-06-10 04:11:56] INFO root fetch - processPackages [MALDIpy]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-10 04:11:56] WARNING root fetch - processPackages [micropython-stts22h]: Skipping, unable to determine old version
+[2023-06-10 04:11:56] INFO root fetch - main [MainThread]: End processing [micropython-stts22h] error
+[2023-06-10 04:11:56] WARNING root fetch - processPackages [autocast]: Skipping, unable to determine old version
+[2023-06-10 04:11:56] INFO root fetch - main [MainThread]: End processing [autocast] error
+[2023-06-10 04:11:56] INFO root fetch - processPackages [utterless]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-06-10 04:11:56] INFO root fetch - processPackages [netron]: New version: [6.9.5] Old Version: [6.9.4]
+[2023-06-10 04:11:56] INFO root fetch - processPackages [MALDIpy]: Downloading https://files.pythonhosted.org/packages/6d/60/72617e11a0911adc94bd02c02b3973d4a18bd687ce4fc227719e8e919d87/MALDIpy-0.0.2.tar.gz
+[2023-06-10 04:11:56] INFO root fetch - processPackages [wildered]: Downloading https://files.pythonhosted.org/packages/f4/c9/88b71630f93ab7d27ceefb11830b3b27f4aa65d74a3421a25b1e660552ed/wildered-0.1.0.tar.gz
+[2023-06-10 04:11:56] INFO root fetch - processPackages [netron]: Downloading https://files.pythonhosted.org/packages/45/48/533452a5d990c93bc112adb1ec30d1078c79efac045ad5dcbf798dba484e/netron-6.9.4-py3-none-any.whl
+[2023-06-10 04:11:56] INFO root fetch - processPackages [django-db-connection-pool]: Downloading https://files.pythonhosted.org/packages/14/14/d721c085518b8f59b73f4cb86ce124d0e7959c2fdb5ab382927805bc2089/django-db-connection-pool-1.2.3.tar.gz
+[2023-06-10 04:11:56] INFO root fetch - processPackages [utterless]: Downloading https://files.pythonhosted.org/packages/af/95/0aa2fd8f77046b3b59882aa3a1157f977531077bfc95c7f61f88d384cf47/utterless-0.3.1.tar.gz
+[2023-06-10 04:11:56] INFO root fetch - processPackages [wildered]: Downloading https://files.pythonhosted.org/packages/49/f7/29e0a51dedcefd8267c3d42bf69c92f3bc0272ec916829af607cd1c6a771/wildered-0.1.1.tar.gz
+[2023-06-10 04:11:56] INFO root fetch - processPackages [utterless]: Downloading https://files.pythonhosted.org/packages/2a/59/2ed13dbbac2e331e786caef50e56ca73dc4ea30a1cc40ea99dbd66a96615/utterless-0.4.0.tar.gz
+[2023-06-10 04:11:56] INFO root fetch - processPackages [netron]: Downloading https://files.pythonhosted.org/packages/dc/76/d917cf516b86770bf2f0c5c5db487c87ff6750612ffb30ac7778589a5d3f/netron-6.9.5-py3-none-any.whl
+[2023-06-10 04:11:56] INFO root fetch - processPackages [django-db-connection-pool]: Downloading https://files.pythonhosted.org/packages/59/b3/81687f66accdc8eadb39c37ca5e61099083bad31dbf0e8f9754303549197/django-db-connection-pool-1.2.4.tar.gz
+[2023-06-10 04:11:56] INFO root fetch - processPackages [MALDIpy]: Downloading https://files.pythonhosted.org/packages/41/8e/c22a260cfe45c17c561a8cea0eae444bda5e8f7b17509c9de0b188074388/MALDIpy-0.0.3.tar.gz
+[2023-06-10 04:11:56] INFO root fetch - processPackages [wildered]: executing diffoscope
+[2023-06-10 04:11:56] INFO root fetch - processPackages [wildered]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wildered-0.1.0.tar.gz tmp/wildered-0.1.1.tar.gz --markdown 20230610/w/wildered/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-10 04:11:56] INFO root fetch - processPackages [django-db-connection-pool]: executing diffoscope
+[2023-06-10 04:11:56] INFO root fetch - processPackages [django-db-connection-pool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-db-connection-pool-1.2.3.tar.gz tmp/django-db-connection-pool-1.2.4.tar.gz --markdown 20230610/d/django-db-connection-pool/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-06-10 04:11:56] INFO root fetch - processPackages [MALDIpy]: executing diffoscope
+[2023-06-10 04:11:56] INFO root fetch - processPackages [utterless]: executing diffoscope
+[2023-06-10 04:11:56] INFO root fetch - processPackages [MALDIpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MALDIpy-0.0.2.tar.gz tmp/MALDIpy-0.0.3.tar.gz --markdown 20230610/M/MALDIpy/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-10 04:11:56] INFO root fetch - processPackages [utterless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utterless-0.3.1.tar.gz tmp/utterless-0.4.0.tar.gz --markdown 20230610/u/utterless/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-06-10 04:11:56] INFO root fetch - processPackages [netron]: executing diffoscope
+[2023-06-10 04:11:56] INFO root fetch - processPackages [netron]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netron-6.9.4-py3-none-any.whl.zip tmp/netron-6.9.5-py3-none-any.whl.zip --markdown 20230610/n/netron/6.9.4-6.9.5/diff.md --exclude *.pyd
+[2023-06-10 04:11:57] INFO root fetch - processPackages [MALDIpy]: Remove: archive file [/home/abi/fetcher/tmp/MALDIpy-0.0.2.tar.gz]
+[2023-06-10 04:11:57] INFO root fetch - processPackages [MALDIpy]: Remove: archive file [/home/abi/fetcher/tmp/MALDIpy-0.0.3.tar.gz]
+[2023-06-10 04:11:57] INFO root fetch - main [MainThread]: End processing [MALDIpy]: success
+[2023-06-10 04:11:57] INFO root fetch - processPackages [django-db-connection-pool]: Remove: archive file [/home/abi/fetcher/tmp/django-db-connection-pool-1.2.3.tar.gz]
+[2023-06-10 04:11:57] INFO root fetch - processPackages [django-db-connection-pool]: Remove: archive file [/home/abi/fetcher/tmp/django-db-connection-pool-1.2.4.tar.gz]
+[2023-06-10 04:11:57] INFO root fetch - main [MainThread]: End processing [django-db-connection-pool]: success
+[2023-06-10 04:11:57] INFO root fetch - processPackages [utterless]: Remove: archive file [/home/abi/fetcher/tmp/utterless-0.3.1.tar.gz]
+[2023-06-10 04:11:57] INFO root fetch - processPackages [utterless]: Remove: archive file [/home/abi/fetcher/tmp/utterless-0.4.0.tar.gz]
+[2023-06-10 04:11:57] INFO root fetch - main [MainThread]: End processing [utterless]: success
+[2023-06-10 04:11:57] INFO root fetch - processPackages [wildered]: Remove: archive file [/home/abi/fetcher/tmp/wildered-0.1.0.tar.gz]
+[2023-06-10 04:11:57] INFO root fetch - processPackages [wildered]: Remove: archive file [/home/abi/fetcher/tmp/wildered-0.1.1.tar.gz]
+[2023-06-10 04:11:57] INFO root fetch - main [MainThread]: End processing [wildered]: success
+[2023-06-10 04:12:07] INFO root fetch - processPackages [netron]: Remove: archive file [/home/abi/fetcher/tmp/netron-6.9.4-py3-none-any.whl.zip]
+[2023-06-10 04:12:07] INFO root fetch - processPackages [netron]: Remove: archive file [/home/abi/fetcher/tmp/netron-6.9.5-py3-none-any.whl.zip]
+[2023-06-10 04:12:07] INFO root fetch - main [MainThread]: End processing [netron]: success
+[2023-06-10 04:12:07] INFO root fetch - main [MainThread]: Store serial: [18448097]
