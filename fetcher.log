@@ -8564,3 +8564,72 @@ EOFError: EOF read where object expected
 [2023-06-10 08:39:48] WARNING root fetch - processPackages [lzy-E520]: Skipping, unable to determine old version
 [2023-06-10 08:39:48] INFO root fetch - main [MainThread]: End processing [lzy-E520] error
 [2023-06-10 08:39:48] INFO root fetch - main [MainThread]: Store serial: [18449139]
+[2023-06-10 08:44:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18449139]
+[2023-06-10 08:44:58] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-10 08:44:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cliopts
+[2023-06-10 08:44:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MMutils
+[2023-06-10 08:44:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: shakenfist-agent
+[2023-06-10 08:44:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lzy-610
+[2023-06-10 08:44:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: MMutils
+[2023-06-10 08:44:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: icat
+[2023-06-10 08:44:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pautobot
+[2023-06-10 08:44:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: yulan-test-project
+[2023-06-10 08:44:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: applyx
+[2023-06-10 08:44:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dodo-is-api
+[2023-06-10 08:44:58] WARNING root fetch - processPackages [lzy-610]: Skipping, unable to determine old version
+[2023-06-10 08:44:58] INFO root fetch - main [MainThread]: End processing [lzy-610] error
+[2023-06-10 08:44:58] INFO root fetch - processPackages [applyx]: New version: [0.2.9] Old Version: [0.2.7]
+[2023-06-10 08:44:58] INFO root fetch - processPackages [pautobot]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-10 08:44:58] INFO root fetch - processPackages [icat]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-10 08:44:58] INFO root fetch - processPackages [shakenfist-agent]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-10 08:44:58] INFO root fetch - processPackages [cliopts]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-10 08:44:58] WARNING root fetch - processPackages [yulan-test-project]: Skipping, unable to determine old version
+[2023-06-10 08:44:58] INFO root fetch - main [MainThread]: End processing [yulan-test-project] error
+[2023-06-10 08:44:58] WARNING root fetch - processPackages [MMutils]: Skipping, unable to determine old version
+[2023-06-10 08:44:58] INFO root fetch - main [MainThread]: End processing [MMutils] error
+[2023-06-10 08:44:58] WARNING root fetch - processPackages [MMutils]: Skipping, unable to determine old version
+[2023-06-10 08:44:58] INFO root fetch - main [MainThread]: End processing [MMutils] error
+[2023-06-10 08:44:58] INFO root fetch - processPackages [pautobot]: Downloading https://files.pythonhosted.org/packages/9f/52/faeb139fbabfe65ff760254fa31f131fbb53bf96f7676f890b72a8b89175/pautobot-0.0.8.tar.gz
+[2023-06-10 08:44:58] INFO root fetch - processPackages [icat]: Downloading https://files.pythonhosted.org/packages/20/cc/1f81e31d81dae75bdf014ae836d66e5a099cd1b186456c6173fe373808eb/icat-0.0.8.tar.gz
+[2023-06-10 08:44:58] INFO root fetch - processPackages [shakenfist-agent]: Downloading https://files.pythonhosted.org/packages/1b/9d/8e86760dedc977eaad2d9a2b5c4b27400c70f0c4ec38ab513b7cf312f996/shakenfist-agent-0.3.8.tar.gz
+[2023-06-10 08:44:58] INFO root fetch - processPackages [icat]: Downloading https://files.pythonhosted.org/packages/eb/0c/edb87dc6f60c3c7258f67f2c10019aad1f1b1b3406b27579880229e57341/icat-0.0.9.tar.gz
+[2023-06-10 08:44:58] INFO root fetch - processPackages [cliopts]: Downloading https://files.pythonhosted.org/packages/5c/0c/66dff4b589177199a5323c8d4534415751205d062e8152c8fa42fce16a90/cliopts-1.0.0.tar.gz
+[2023-06-10 08:44:58] INFO root fetch - processPackages [pautobot]: Downloading https://files.pythonhosted.org/packages/f4/f6/5ec6aeb2fd8851a6cc459db4ba7278878ac6e26fb247f3e18b9d99d1c394/pautobot-0.0.9.tar.gz
+[2023-06-10 08:44:58] INFO root fetch - processPackages [dodo-is-api]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-06-10 08:44:58] INFO root fetch - processPackages [icat]: executing diffoscope
+[2023-06-10 08:44:58] INFO root fetch - processPackages [icat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icat-0.0.8.tar.gz tmp/icat-0.0.9.tar.gz --markdown 20230610/i/icat/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-10 08:44:58] INFO root fetch - processPackages [applyx]: Downloading https://files.pythonhosted.org/packages/30/96/bf00ea1d25d2d488fbefc1ff443a118a6c42de1422b84c2c517bf582d16c/applyx-0.2.7-py3-none-any.whl
+[2023-06-10 08:44:58] INFO root fetch - processPackages [pautobot]: executing diffoscope
+[2023-06-10 08:44:58] INFO root fetch - processPackages [pautobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pautobot-0.0.8.tar.gz tmp/pautobot-0.0.9.tar.gz --markdown 20230610/p/pautobot/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-10 08:44:58] INFO root fetch - processPackages [shakenfist-agent]: Downloading https://files.pythonhosted.org/packages/8d/79/f656d2ef8da79e62fd60458bb773a4d9d04d1881176e7901f83dd4119e6c/shakenfist-agent-0.3.9.tar.gz
+[2023-06-10 08:44:58] INFO root fetch - processPackages [shakenfist-agent]: executing diffoscope
+[2023-06-10 08:44:58] INFO root fetch - processPackages [shakenfist-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shakenfist-agent-0.3.8.tar.gz tmp/shakenfist-agent-0.3.9.tar.gz --markdown 20230610/s/shakenfist-agent/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-10 08:44:58] INFO root fetch - processPackages [cliopts]: Downloading https://files.pythonhosted.org/packages/5e/70/df9bd33d0dc71f6b82b2ccc27202c1086577cbe171e4db762e737c108dc0/cliopts-1.0.1.tar.gz
+[2023-06-10 08:44:58] INFO root fetch - processPackages [dodo-is-api]: Downloading https://files.pythonhosted.org/packages/af/49/adcbb68a5915188e19dad935dcb69309b855f573e50eb02c81224560b2e5/dodo_is_api-0.6.0.tar.gz
+[2023-06-10 08:44:58] INFO root fetch - processPackages [cliopts]: executing diffoscope
+[2023-06-10 08:44:58] INFO root fetch - processPackages [cliopts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cliopts-1.0.0.tar.gz tmp/cliopts-1.0.1.tar.gz --markdown 20230610/c/cliopts/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-10 08:44:59] INFO root fetch - processPackages [applyx]: Downloading https://files.pythonhosted.org/packages/55/82/e3be3f202f0a3163a1550c0b5b78be1aea8301a9ac6459c4ad6c5d2f7499/applyx-0.2.9-py3-none-any.whl
+[2023-06-10 08:44:59] INFO root fetch - processPackages [applyx]: executing diffoscope
+[2023-06-10 08:44:59] INFO root fetch - processPackages [applyx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/applyx-0.2.7-py3-none-any.whl.zip tmp/applyx-0.2.9-py3-none-any.whl.zip --markdown 20230610/a/applyx/0.2.7-0.2.9/diff.md --exclude *.pyd
+[2023-06-10 08:44:59] INFO root fetch - processPackages [dodo-is-api]: Downloading https://files.pythonhosted.org/packages/3e/06/edc780c1368ab0f119d046c0fd0c96e325787affcaf24cd94cf3feb602c1/dodo_is_api-0.6.1.tar.gz
+[2023-06-10 08:44:59] INFO root fetch - processPackages [icat]: Remove: archive file [/home/abi/fetcher/tmp/icat-0.0.8.tar.gz]
+[2023-06-10 08:44:59] INFO root fetch - processPackages [icat]: Remove: archive file [/home/abi/fetcher/tmp/icat-0.0.9.tar.gz]
+[2023-06-10 08:44:59] INFO root fetch - main [MainThread]: End processing [icat]: success
+[2023-06-10 08:44:59] INFO root fetch - processPackages [cliopts]: Remove: archive file [/home/abi/fetcher/tmp/cliopts-1.0.0.tar.gz]
+[2023-06-10 08:44:59] INFO root fetch - processPackages [cliopts]: Remove: archive file [/home/abi/fetcher/tmp/cliopts-1.0.1.tar.gz]
+[2023-06-10 08:44:59] INFO root fetch - main [MainThread]: End processing [cliopts]: success
+[2023-06-10 08:44:59] INFO root fetch - processPackages [dodo-is-api]: executing diffoscope
+[2023-06-10 08:44:59] INFO root fetch - processPackages [dodo-is-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dodo_is_api-0.6.0.tar.gz tmp/dodo_is_api-0.6.1.tar.gz --markdown 20230610/d/dodo-is-api/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-06-10 08:45:00] INFO root fetch - processPackages [pautobot]: Remove: archive file [/home/abi/fetcher/tmp/pautobot-0.0.8.tar.gz]
+[2023-06-10 08:45:00] INFO root fetch - processPackages [pautobot]: Remove: archive file [/home/abi/fetcher/tmp/pautobot-0.0.9.tar.gz]
+[2023-06-10 08:45:00] INFO root fetch - main [MainThread]: End processing [pautobot]: success
+[2023-06-10 08:45:00] INFO root fetch - processPackages [shakenfist-agent]: Remove: archive file [/home/abi/fetcher/tmp/shakenfist-agent-0.3.8.tar.gz]
+[2023-06-10 08:45:00] INFO root fetch - processPackages [shakenfist-agent]: Remove: archive file [/home/abi/fetcher/tmp/shakenfist-agent-0.3.9.tar.gz]
+[2023-06-10 08:45:00] INFO root fetch - main [MainThread]: End processing [shakenfist-agent]: success
+[2023-06-10 08:45:00] INFO root fetch - processPackages [applyx]: Remove: archive file [/home/abi/fetcher/tmp/applyx-0.2.7-py3-none-any.whl.zip]
+[2023-06-10 08:45:00] INFO root fetch - processPackages [applyx]: Remove: archive file [/home/abi/fetcher/tmp/applyx-0.2.9-py3-none-any.whl.zip]
+[2023-06-10 08:45:00] INFO root fetch - main [MainThread]: End processing [applyx]: success
+[2023-06-10 08:45:01] INFO root fetch - processPackages [dodo-is-api]: Remove: archive file [/home/abi/fetcher/tmp/dodo_is_api-0.6.0.tar.gz]
+[2023-06-10 08:45:01] INFO root fetch - processPackages [dodo-is-api]: Remove: archive file [/home/abi/fetcher/tmp/dodo_is_api-0.6.1.tar.gz]
+[2023-06-10 08:45:01] INFO root fetch - main [MainThread]: End processing [dodo-is-api]: success
+[2023-06-10 08:45:01] INFO root fetch - main [MainThread]: Store serial: [18449175]
