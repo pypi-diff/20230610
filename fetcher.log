@@ -10094,3 +10094,24 @@ EOFError: EOF read where object expected
 [2023-06-10 11:36:36] INFO root fetch - processPackages [alns]: Remove: archive file [/home/abi/fetcher/tmp/alns-5.2.0.tar.gz]
 [2023-06-10 11:36:36] INFO root fetch - main [MainThread]: End processing [alns]: success
 [2023-06-10 11:36:36] INFO root fetch - main [MainThread]: Store serial: [18449815]
+[2023-06-10 11:41:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18449815]
+[2023-06-10 11:41:45] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-06-10 11:41:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mml-qae
+[2023-06-10 11:41:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fastapi-amis-admin-cli
+[2023-06-10 11:41:45] INFO root fetch - processPackages [mml-qae]: New version: [1.0.2.11] Old Version: [1.0.2.10]
+[2023-06-10 11:41:45] INFO root fetch - processPackages [fastapi-amis-admin-cli]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-10 11:41:45] INFO root fetch - processPackages [mml-qae]: Downloading https://files.pythonhosted.org/packages/fe/98/daab07c77e1ab47797cdb71bc2b759a1b587a9a6bbe29f4705f725b9ebf9/mml_qae-1.0.2.10.tar.gz
+[2023-06-10 11:41:45] INFO root fetch - processPackages [fastapi-amis-admin-cli]: Downloading https://files.pythonhosted.org/packages/4f/32/2d199f486e89e32f61aecd62676928c28aefb6a875dc4e593c99be0b3c51/fastapi_amis_admin_cli-0.1.1.tar.gz
+[2023-06-10 11:41:46] INFO root fetch - processPackages [mml-qae]: Downloading https://files.pythonhosted.org/packages/31/cf/633955ee0eb58ee14569cfec52fbfa59ea95ffd054e8c96604889fed2388/mml_qae-1.0.2.11.tar.gz
+[2023-06-10 11:41:46] INFO root fetch - processPackages [fastapi-amis-admin-cli]: Downloading https://files.pythonhosted.org/packages/c3/8c/5989210b0f33ee73766fdf72638dbb01cd014b1baaab3222c85a141fb113/fastapi_amis_admin_cli-0.1.2.tar.gz
+[2023-06-10 11:41:46] INFO root fetch - processPackages [fastapi-amis-admin-cli]: executing diffoscope
+[2023-06-10 11:41:46] INFO root fetch - processPackages [fastapi-amis-admin-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_amis_admin_cli-0.1.1.tar.gz tmp/fastapi_amis_admin_cli-0.1.2.tar.gz --markdown 20230610/f/fastapi-amis-admin-cli/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-10 11:41:46] INFO root fetch - processPackages [mml-qae]: executing diffoscope
+[2023-06-10 11:41:46] INFO root fetch - processPackages [mml-qae]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mml_qae-1.0.2.10.tar.gz tmp/mml_qae-1.0.2.11.tar.gz --markdown 20230610/m/mml-qae/1.0.2.10-1.0.2.11/diff.md --exclude *.pyd
+[2023-06-10 11:41:47] INFO root fetch - processPackages [mml-qae]: Remove: archive file [/home/abi/fetcher/tmp/mml_qae-1.0.2.10.tar.gz]
+[2023-06-10 11:41:47] INFO root fetch - processPackages [mml-qae]: Remove: archive file [/home/abi/fetcher/tmp/mml_qae-1.0.2.11.tar.gz]
+[2023-06-10 11:41:47] INFO root fetch - main [MainThread]: End processing [mml-qae]: success
+[2023-06-10 11:41:47] INFO root fetch - processPackages [fastapi-amis-admin-cli]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_amis_admin_cli-0.1.1.tar.gz]
+[2023-06-10 11:41:47] INFO root fetch - processPackages [fastapi-amis-admin-cli]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_amis_admin_cli-0.1.2.tar.gz]
+[2023-06-10 11:41:47] INFO root fetch - main [MainThread]: End processing [fastapi-amis-admin-cli]: success
+[2023-06-10 11:41:47] INFO root fetch - main [MainThread]: Store serial: [18449820]
