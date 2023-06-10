@@ -10888,3 +10888,101 @@ EOFError: EOF read where object expected
 [2023-06-10 13:25:20] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
 [2023-06-10 13:25:20] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
 [2023-06-10 13:25:20] INFO root fetch - main [MainThread]: Store serial: [18450193]
+[2023-06-10 13:30:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18450193]
+[2023-06-10 13:30:29] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-10 13:30:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: morsecode-enhanced
+[2023-06-10 13:30:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torchserve-nightly
+[2023-06-10 13:30:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torch-model-archiver-nightly
+[2023-06-10 13:30:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torch-workflow-archiver-nightly
+[2023-06-10 13:30:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torchrl-nightly
+[2023-06-10 13:30:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kdslibs
+[2023-06-10 13:30:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-sale-margin-security
+[2023-06-10 13:30:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: DefyDatabase
+[2023-06-10 13:30:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: torchrec-nightly
+[2023-06-10 13:30:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fabric-orchestrator-client
+[2023-06-10 13:30:29] INFO root fetch - processPackages [kdslibs]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-10 13:30:29] INFO root fetch - processPackages [odoo-addon-sale-margin-security]: New version: [16.0.1.0.0.3] Old Version: [15.0.1.0.0.3]
+[2023-06-10 13:30:29] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-10 13:30:29] INFO root fetch - processPackages [morsecode-enhanced]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-10 13:30:29] INFO root fetch - processPackages [torchserve-nightly]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-10 13:30:29] INFO root fetch - processPackages [torch-model-archiver-nightly]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-10 13:30:29] INFO root fetch - processPackages [kdslibs]: Downloading https://files.pythonhosted.org/packages/8c/4b/aa1dd0b5dc31fae20e64d1d6b7ad788346de555e99a8a16877ced3e79c87/kdslibs-0.0.2.tar.gz
+[2023-06-10 13:30:29] INFO root fetch - processPackages [DefyDatabase]: New version: [10.0.0a2] Old Version: [10.0.0a1]
+[2023-06-10 13:30:29] INFO root fetch - processPackages [fabric-orchestrator-client]: New version: [1.5.0rc2] Old Version: [1.5.0rc1]
+[2023-06-10 13:30:29] INFO root fetch - processPackages [torchrec-nightly]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-10 13:30:29] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/2d/32/4e894d3be8e8e9434a6a981f3753ef5962d2361cf8b1882e7b00802b9794/torch_model_archiver_nightly-2023.6.8-py3-none-any.whl
+[2023-06-10 13:30:29] INFO root fetch - processPackages [torchserve-nightly]: Downloading https://files.pythonhosted.org/packages/56/b6/048d65207c6147185cedfdfe7821bba7a9b4dcbe0872a2ea7bf026469542/torchserve_nightly-2023.6.8-py3-none-any.whl
+[2023-06-10 13:30:29] INFO root fetch - processPackages [morsecode-enhanced]: Downloading https://files.pythonhosted.org/packages/93/fc/678a7aae6c8baf4ef65b4f543513b96ed19eb61506d7698ee21bd43fa36d/morsecode_enhanced-1.0.2.tar.gz
+[2023-06-10 13:30:29] INFO root fetch - processPackages [torchrl-nightly]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-10 13:30:29] WARNING root fetch - processPackages [torchserve-nightly]: Skipping package: exceeds size limit 23719695>=10485760
+[2023-06-10 13:30:29] INFO root fetch - processPackages [torchserve-nightly]: Start processing: fabrictestbed
+[2023-06-10 13:30:29] INFO root fetch - main [MainThread]: End processing [torchserve-nightly] error
+[2023-06-10 13:30:29] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/f5/2a/88193e82d25d79119cc3ada46f444a1b21b3f7e2c788642590d33eac95e9/torch_workflow_archiver_nightly-2023.6.8-py3-none-any.whl
+[2023-06-10 13:30:29] INFO root fetch - processPackages [torchrec-nightly]: Downloading https://files.pythonhosted.org/packages/91/c6/d57c712eef951e5889cc42cba904e3b4623c3618eea80e54f3153275a070/torchrec_nightly-2023.6.8-py39-none-any.whl
+[2023-06-10 13:30:29] INFO root fetch - processPackages [fabrictestbed]: New version: [1.5.0rc2] Old Version: [1.5.0rc1]
+[2023-06-10 13:30:29] INFO root fetch - processPackages [DefyDatabase]: Downloading https://files.pythonhosted.org/packages/ff/23/61fb4eb4abe441b47cc758664e3cbb0e27181982012be60bfaba1a1473e8/DefyDatabase-10.0.0a1.tar.gz
+[2023-06-10 13:30:29] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/f1/30/b2bda61c7beb66124a778454c53b13e6e3368a1964be094e7a260aafb8a7/torch_model_archiver_nightly-2023.6.9-py3-none-any.whl
+[2023-06-10 13:30:29] INFO root fetch - processPackages [fabric-orchestrator-client]: Downloading https://files.pythonhosted.org/packages/90/5b/f8cacc1a349d7f9ab24930fa027dc292e8aa3d21da2b6050b8796f8ac093/fabric-orchestrator-client-1.5.0rc1.tar.gz
+[2023-06-10 13:30:29] INFO root fetch - processPackages [kdslibs]: Downloading https://files.pythonhosted.org/packages/9c/6a/77876e3d613df2e54d7f8f4fe8d89985c87a944c18e51f0665b69cee9bce/kdslibs-0.0.3.tar.gz
+[2023-06-10 13:30:29] INFO root fetch - processPackages [odoo-addon-sale-margin-security]: Downloading https://files.pythonhosted.org/packages/66/5d/94076545374db74dff7fb97ca63c63491b665a1b1fd2c051f923cd783e08/odoo_addon_sale_margin_security-15.0.1.0.0.3-py3-none-any.whl
+[2023-06-10 13:30:29] INFO root fetch - processPackages [torch-model-archiver-nightly]: executing diffoscope
+[2023-06-10 13:30:29] INFO root fetch - processPackages [torch-model-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_archiver_nightly-2023.6.8-py3-none-any.whl.zip tmp/torch_model_archiver_nightly-2023.6.9-py3-none-any.whl.zip --markdown 20230610/t/torch-model-archiver-nightly/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-10 13:30:29] INFO root fetch - processPackages [morsecode-enhanced]: Downloading https://files.pythonhosted.org/packages/dc/85/98140f5197a0e0aa0a1ecaa35e748c15f3d23c0208996ba74ed4c24f7de2/morsecode_enhanced-1.0.3.tar.gz
+[2023-06-10 13:30:29] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/3b/88/101e7c87a8d056c43a8fc2343ea5a24020bd6c62819390407e19c2e58b84/torchrl_nightly-2023.6.8-cp39-cp39-win_amd64.whl
+[2023-06-10 13:30:29] INFO root fetch - processPackages [kdslibs]: executing diffoscope
+[2023-06-10 13:30:29] INFO root fetch - processPackages [kdslibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kdslibs-0.0.2.tar.gz tmp/kdslibs-0.0.3.tar.gz --markdown 20230610/k/kdslibs/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-10 13:30:29] INFO root fetch - processPackages [morsecode-enhanced]: executing diffoscope
+[2023-06-10 13:30:29] INFO root fetch - processPackages [fabrictestbed]: Downloading https://files.pythonhosted.org/packages/02/f1/0b30248692a9c1ff71c8701fe3da6846b54fb4e76652767ed87d1dcd8613/fabrictestbed-1.5.0rc1.tar.gz
+[2023-06-10 13:30:29] INFO root fetch - processPackages [morsecode-enhanced]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/morsecode_enhanced-1.0.2.tar.gz tmp/morsecode_enhanced-1.0.3.tar.gz --markdown 20230610/m/morsecode-enhanced/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-10 13:30:29] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/5f/39/ae38721c2532ed03ae71497a6d5158695daf882cb31dff90ce342e46ef32/torch_workflow_archiver_nightly-2023.6.9-py3-none-any.whl
+[2023-06-10 13:30:29] INFO root fetch - processPackages [torchrec-nightly]: Downloading https://files.pythonhosted.org/packages/04/c2/8bc2408f10b66a9f096323e663a67f541486c62d4a69e7cc8052175447e1/torchrec_nightly-2023.6.9-py39-none-any.whl
+[2023-06-10 13:30:29] INFO root fetch - processPackages [fabric-orchestrator-client]: Downloading https://files.pythonhosted.org/packages/ca/bf/670ab420e66ec0da1d71d4d9fcf8d0c013c4c47c5817bc81579a7973b976/fabric-orchestrator-client-1.5.0rc2.tar.gz
+[2023-06-10 13:30:29] INFO root fetch - processPackages [DefyDatabase]: Downloading https://files.pythonhosted.org/packages/0b/d9/cd2b191766b987f8aaf45ab76d5c9808a0bb471a93143d289adee2dd215e/DefyDatabase-10.0.0a2.tar.gz
+[2023-06-10 13:30:29] INFO root fetch - processPackages [fabric-orchestrator-client]: executing diffoscope
+[2023-06-10 13:30:29] INFO root fetch - processPackages [fabric-orchestrator-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fabric-orchestrator-client-1.5.0rc1.tar.gz tmp/fabric-orchestrator-client-1.5.0rc2.tar.gz --markdown 20230610/f/fabric-orchestrator-client/1.5.0rc1-1.5.0rc2/diff.md --exclude *.pyd
+[2023-06-10 13:30:30] INFO root fetch - processPackages [odoo-addon-sale-margin-security]: Downloading https://files.pythonhosted.org/packages/73/23/ff4cfd5fb175fffec34fd4b46497043d92b48a64a066cef95097f4aec385/odoo_addon_sale_margin_security-16.0.1.0.0.3-py3-none-any.whl
+[2023-06-10 13:30:30] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: executing diffoscope
+[2023-06-10 13:30:30] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_workflow_archiver_nightly-2023.6.8-py3-none-any.whl.zip tmp/torch_workflow_archiver_nightly-2023.6.9-py3-none-any.whl.zip --markdown 20230610/t/torch-workflow-archiver-nightly/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-10 13:30:30] INFO root fetch - processPackages [torchrec-nightly]: executing diffoscope
+[2023-06-10 13:30:30] INFO root fetch - processPackages [torchrec-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrec_nightly-2023.6.8-py39-none-any.whl.zip tmp/torchrec_nightly-2023.6.9-py39-none-any.whl.zip --markdown 20230610/t/torchrec-nightly/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-10 13:30:30] INFO root fetch - processPackages [odoo-addon-sale-margin-security]: executing diffoscope
+[2023-06-10 13:30:30] INFO root fetch - processPackages [odoo-addon-sale-margin-security]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_margin_security-15.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_sale_margin_security-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230610/o/odoo-addon-sale-margin-security/15.0.1.0.0.3-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-06-10 13:30:30] INFO root fetch - processPackages [DefyDatabase]: executing diffoscope
+[2023-06-10 13:30:30] INFO root fetch - processPackages [DefyDatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DefyDatabase-10.0.0a1.tar.gz tmp/DefyDatabase-10.0.0a2.tar.gz --markdown 20230610/D/DefyDatabase/10.0.0a1-10.0.0a2/diff.md --exclude *.pyd
+[2023-06-10 13:30:30] INFO root fetch - processPackages [fabrictestbed]: Downloading https://files.pythonhosted.org/packages/5c/a8/32ff6ba0af71134229fee55ab80274c4e478b7464a3abcf169b8501819cc/fabrictestbed-1.5.0rc2.tar.gz
+[2023-06-10 13:30:30] INFO root fetch - processPackages [fabrictestbed]: executing diffoscope
+[2023-06-10 13:30:30] INFO root fetch - processPackages [fabrictestbed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fabrictestbed-1.5.0rc1.tar.gz tmp/fabrictestbed-1.5.0rc2.tar.gz --markdown 20230610/f/fabrictestbed/1.5.0rc1-1.5.0rc2/diff.md --exclude *.pyd
+[2023-06-10 13:30:30] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/b9/46/ce016b773818b01f9d3047ba111687f8b14fc64ca46b82b77f62c661e902/torchrl_nightly-2023.6.9-cp39-cp39-win_amd64.whl
+[2023-06-10 13:30:30] INFO root fetch - processPackages [torchrl-nightly]: executing diffoscope
+[2023-06-10 13:30:30] INFO root fetch - processPackages [torchrl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrl_nightly-2023.6.8-cp39-cp39-win_amd64.whl.zip tmp/torchrl_nightly-2023.6.9-cp39-cp39-win_amd64.whl.zip --markdown 20230610/t/torchrl-nightly/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-10 13:30:31] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2023.6.8-py3-none-any.whl.zip]
+[2023-06-10 13:30:31] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2023.6.9-py3-none-any.whl.zip]
+[2023-06-10 13:30:31] INFO root fetch - main [MainThread]: End processing [torch-model-archiver-nightly]: success
+[2023-06-10 13:30:31] INFO root fetch - processPackages [kdslibs]: Remove: archive file [/home/abi/fetcher/tmp/kdslibs-0.0.2.tar.gz]
+[2023-06-10 13:30:31] INFO root fetch - processPackages [kdslibs]: Remove: archive file [/home/abi/fetcher/tmp/kdslibs-0.0.3.tar.gz]
+[2023-06-10 13:30:31] INFO root fetch - main [MainThread]: End processing [kdslibs]: success
+[2023-06-10 13:30:31] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2023.6.8-py3-none-any.whl.zip]
+[2023-06-10 13:30:31] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2023.6.9-py3-none-any.whl.zip]
+[2023-06-10 13:30:31] INFO root fetch - main [MainThread]: End processing [torch-workflow-archiver-nightly]: success
+[2023-06-10 13:30:31] INFO root fetch - processPackages [morsecode-enhanced]: Remove: archive file [/home/abi/fetcher/tmp/morsecode_enhanced-1.0.2.tar.gz]
+[2023-06-10 13:30:31] INFO root fetch - processPackages [morsecode-enhanced]: Remove: archive file [/home/abi/fetcher/tmp/morsecode_enhanced-1.0.3.tar.gz]
+[2023-06-10 13:30:31] INFO root fetch - main [MainThread]: End processing [morsecode-enhanced]: success
+[2023-06-10 13:30:31] INFO root fetch - processPackages [odoo-addon-sale-margin-security]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_margin_security-15.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-06-10 13:30:31] INFO root fetch - processPackages [odoo-addon-sale-margin-security]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_margin_security-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-06-10 13:30:31] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-margin-security]: success
+[2023-06-10 13:30:31] INFO root fetch - processPackages [DefyDatabase]: Remove: archive file [/home/abi/fetcher/tmp/DefyDatabase-10.0.0a1.tar.gz]
+[2023-06-10 13:30:31] INFO root fetch - processPackages [DefyDatabase]: Remove: archive file [/home/abi/fetcher/tmp/DefyDatabase-10.0.0a2.tar.gz]
+[2023-06-10 13:30:31] INFO root fetch - main [MainThread]: End processing [DefyDatabase]: success
+[2023-06-10 13:30:32] INFO root fetch - processPackages [fabrictestbed]: Remove: archive file [/home/abi/fetcher/tmp/fabrictestbed-1.5.0rc1.tar.gz]
+[2023-06-10 13:30:32] INFO root fetch - processPackages [fabrictestbed]: Remove: archive file [/home/abi/fetcher/tmp/fabrictestbed-1.5.0rc2.tar.gz]
+[2023-06-10 13:30:32] INFO root fetch - main [MainThread]: End processing [fabrictestbed]: success
+[2023-06-10 13:30:32] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2023.6.8-cp39-cp39-win_amd64.whl.zip]
+[2023-06-10 13:30:32] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2023.6.9-cp39-cp39-win_amd64.whl.zip]
+[2023-06-10 13:30:32] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
+[2023-06-10 13:30:32] INFO root fetch - processPackages [torchrec-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrec_nightly-2023.6.8-py39-none-any.whl.zip]
+[2023-06-10 13:30:32] INFO root fetch - processPackages [torchrec-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrec_nightly-2023.6.9-py39-none-any.whl.zip]
+[2023-06-10 13:30:32] INFO root fetch - main [MainThread]: End processing [torchrec-nightly]: success
+[2023-06-10 13:30:33] INFO root fetch - processPackages [fabric-orchestrator-client]: Remove: archive file [/home/abi/fetcher/tmp/fabric-orchestrator-client-1.5.0rc1.tar.gz]
+[2023-06-10 13:30:33] INFO root fetch - processPackages [fabric-orchestrator-client]: Remove: archive file [/home/abi/fetcher/tmp/fabric-orchestrator-client-1.5.0rc2.tar.gz]
+[2023-06-10 13:30:33] INFO root fetch - main [MainThread]: End processing [fabric-orchestrator-client]: success
+[2023-06-10 13:30:33] INFO root fetch - main [MainThread]: Store serial: [18450235]
