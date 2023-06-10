@@ -14999,3 +14999,81 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-10 18:42:45] INFO root fetch - processPackages [pydantic-core]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_core-0.9.0.tar.gz]
 [2023-06-10 18:42:45] INFO root fetch - main [MainThread]: End processing [pydantic-core]: success
 [2023-06-10 18:42:45] INFO root fetch - main [MainThread]: Store serial: [18452243]
+[2023-06-10 18:47:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18452243]
+[2023-06-10 18:47:54] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-10 18:47:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: smarterbombing
+[2023-06-10 18:47:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: maccabistats
+[2023-06-10 18:47:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cuallee
+[2023-06-10 18:47:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: eAsistentPY
+[2023-06-10 18:47:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: counterplots
+[2023-06-10 18:47:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tiafork
+[2023-06-10 18:47:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: networklab
+[2023-06-10 18:47:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: discord-pretty-help
+[2023-06-10 18:47:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: netsim-tools
+[2023-06-10 18:47:54] INFO root fetch - processPackages [smarterbombing]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-06-10 18:47:54] WARNING root fetch - processPackages [eAsistentPY]: Skipping, unable to determine old version
+[2023-06-10 18:47:54] INFO root fetch - main [MainThread]: End processing [eAsistentPY] error
+[2023-06-10 18:47:54] INFO root fetch - processPackages [cuallee]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-06-10 18:47:54] INFO root fetch - processPackages [tiafork]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-06-10 18:47:54] INFO root fetch - processPackages [counterplots]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-10 18:47:54] INFO root fetch - processPackages [maccabistats]: New version: [2.9.5] Old Version: [2.9.4]
+[2023-06-10 18:47:54] INFO root fetch - processPackages [networklab]: New version: [1.5.4] Old Version: [1.5.3.post1]
+[2023-06-10 18:47:54] INFO root fetch - processPackages [discord-pretty-help]: New version: [2.0.6] Old Version: [2.0.5]
+[2023-06-10 18:47:54] INFO root fetch - processPackages [netsim-tools]: New version: [1.5.4] Old Version: [1.5.3.post1]
+[2023-06-10 18:47:54] INFO root fetch - processPackages [smarterbombing]: Downloading https://files.pythonhosted.org/packages/9d/38/3fdcee99f84b8c8c18a7a283fdd3d9ef2c4066faf9be64c04bfb77dc1b36/smarterbombing-0.2.1.tar.gz
+[2023-06-10 18:47:54] INFO root fetch - processPackages [tiafork]: Downloading https://files.pythonhosted.org/packages/66/e1/3c7256da603713958c6f3ae7ca28bc470f2631665503017f597c4ea3a1f9/tiafork-1.2.0.tar.gz
+[2023-06-10 18:47:54] INFO root fetch - processPackages [counterplots]: Downloading https://files.pythonhosted.org/packages/51/da/8e61b981e2ef62bc40a8b274220c569f2102f928a41190cabc398dac87b9/counterplots-0.0.1.tar.gz
+[2023-06-10 18:47:54] INFO root fetch - processPackages [maccabistats]: Downloading https://files.pythonhosted.org/packages/25/59/f8c7b6f474a1385d13f689642c68c6fc2f9ab28e14dccfe4fc8e999dfa90/maccabistats-2.9.4-py3-none-any.whl
+[2023-06-10 18:47:54] INFO root fetch - processPackages [cuallee]: Downloading https://files.pythonhosted.org/packages/4d/db/f8e284c0b0cbdf49aeeb2d112dfa5b87a21f81b79c62e1e0539fed36ff47/cuallee-0.4.4.tar.gz
+[2023-06-10 18:47:54] INFO root fetch - processPackages [networklab]: Downloading https://files.pythonhosted.org/packages/3d/42/a5d941056bab3eabea836a5b82e3ed2bd8b3eff8c82cc5e42b422846b913/networklab-1.5.3.post1.tar.gz
+[2023-06-10 18:47:54] INFO root fetch - processPackages [discord-pretty-help]: Downloading https://files.pythonhosted.org/packages/a3/da/4da1e5ae738100457bc8648a439794167784662ad45f355a5cbb93875c75/discord_pretty_help-2.0.5.tar.gz
+[2023-06-10 18:47:54] INFO root fetch - processPackages [netsim-tools]: Downloading https://files.pythonhosted.org/packages/0c/df/9623a553218d6dd79f3bfda6156584ff31d9d9e554d7e797bbfad9235ddc/netsim-tools-1.5.3.post1.tar.gz
+[2023-06-10 18:47:55] INFO root fetch - processPackages [counterplots]: Downloading https://files.pythonhosted.org/packages/60/59/26fa6c5418609d6616e6b52eabe6125053485f0e4c6acdbe309bd103f115/counterplots-0.0.2.tar.gz
+[2023-06-10 18:47:55] INFO root fetch - processPackages [tiafork]: Downloading https://files.pythonhosted.org/packages/72/28/a3d0197b939a54c2ea98363bf9c6ba23a40f6084841a95d4478ed7883785/tiafork-1.2.1.tar.gz
+[2023-06-10 18:47:55] INFO root fetch - processPackages [smarterbombing]: Downloading https://files.pythonhosted.org/packages/b2/5a/6a77d4ae2f7dc8066baf4143c6dc48d09793fdca69c0dedce2940d985947/smarterbombing-0.3.0.tar.gz
+[2023-06-10 18:47:55] INFO root fetch - processPackages [cuallee]: Downloading https://files.pythonhosted.org/packages/67/4c/b8a1beb917cf29f87ed15d883cf4dbfd5cb5d78a5198447afc050afbcd89/cuallee-0.4.5.tar.gz
+[2023-06-10 18:47:55] INFO root fetch - processPackages [maccabistats]: Downloading https://files.pythonhosted.org/packages/3a/81/f1641238f5d505b3e351e8de6a0e9ea86be243d3ab61cb015b05b1297846/maccabistats-2.9.5-py3-none-any.whl
+[2023-06-10 18:47:55] INFO root fetch - processPackages [networklab]: Downloading https://files.pythonhosted.org/packages/76/aa/916798ca11dd1a8aba17973f98f2c2b66bb9537a2cd0fc2302ec689bef8c/networklab-1.5.4.tar.gz
+[2023-06-10 18:47:55] INFO root fetch - processPackages [discord-pretty-help]: Downloading https://files.pythonhosted.org/packages/d6/eb/2ff22da75e36e0bd4f55a6ddbcdf511d5e8f3dfabc7058cff1b4e761e10e/discord_pretty_help-2.0.6.tar.gz
+[2023-06-10 18:47:55] INFO root fetch - processPackages [counterplots]: executing diffoscope
+[2023-06-10 18:47:55] INFO root fetch - processPackages [counterplots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/counterplots-0.0.1.tar.gz tmp/counterplots-0.0.2.tar.gz --markdown 20230610/c/counterplots/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-10 18:47:55] INFO root fetch - processPackages [tiafork]: executing diffoscope
+[2023-06-10 18:47:55] INFO root fetch - processPackages [tiafork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tiafork-1.2.0.tar.gz tmp/tiafork-1.2.1.tar.gz --markdown 20230610/t/tiafork/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-06-10 18:47:55] INFO root fetch - processPackages [smarterbombing]: executing diffoscope
+[2023-06-10 18:47:55] INFO root fetch - processPackages [smarterbombing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smarterbombing-0.2.1.tar.gz tmp/smarterbombing-0.3.0.tar.gz --markdown 20230610/s/smarterbombing/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-06-10 18:47:55] INFO root fetch - processPackages [cuallee]: executing diffoscope
+[2023-06-10 18:47:55] INFO root fetch - processPackages [cuallee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cuallee-0.4.4.tar.gz tmp/cuallee-0.4.5.tar.gz --markdown 20230610/c/cuallee/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-06-10 18:47:55] INFO root fetch - processPackages [networklab]: executing diffoscope
+[2023-06-10 18:47:55] INFO root fetch - processPackages [networklab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/networklab-1.5.3.post1.tar.gz tmp/networklab-1.5.4.tar.gz --markdown 20230610/n/networklab/1.5.3.post1-1.5.4/diff.md --exclude *.pyd
+[2023-06-10 18:47:55] INFO root fetch - processPackages [maccabistats]: executing diffoscope
+[2023-06-10 18:47:55] INFO root fetch - processPackages [maccabistats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maccabistats-2.9.4-py3-none-any.whl.zip tmp/maccabistats-2.9.5-py3-none-any.whl.zip --markdown 20230610/m/maccabistats/2.9.4-2.9.5/diff.md --exclude *.pyd
+[2023-06-10 18:47:55] INFO root fetch - processPackages [discord-pretty-help]: executing diffoscope
+[2023-06-10 18:47:55] INFO root fetch - processPackages [discord-pretty-help]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discord_pretty_help-2.0.5.tar.gz tmp/discord_pretty_help-2.0.6.tar.gz --markdown 20230610/d/discord-pretty-help/2.0.5-2.0.6/diff.md --exclude *.pyd
+[2023-06-10 18:47:55] INFO root fetch - processPackages [netsim-tools]: Downloading https://files.pythonhosted.org/packages/68/69/48e3e0ed5791181a499e2040a85ddcffb868e4b293f28bbca08046d874b4/netsim-tools-1.5.4.tar.gz
+[2023-06-10 18:47:55] INFO root fetch - processPackages [netsim-tools]: executing diffoscope
+[2023-06-10 18:47:55] INFO root fetch - processPackages [netsim-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netsim-tools-1.5.3.post1.tar.gz tmp/netsim-tools-1.5.4.tar.gz --markdown 20230610/n/netsim-tools/1.5.3.post1-1.5.4/diff.md --exclude *.pyd
+[2023-06-10 18:47:56] INFO root fetch - processPackages [smarterbombing]: Remove: archive file [/home/abi/fetcher/tmp/smarterbombing-0.2.1.tar.gz]
+[2023-06-10 18:47:56] INFO root fetch - processPackages [smarterbombing]: Remove: archive file [/home/abi/fetcher/tmp/smarterbombing-0.3.0.tar.gz]
+[2023-06-10 18:47:56] INFO root fetch - main [MainThread]: End processing [smarterbombing]: success
+[2023-06-10 18:47:56] INFO root fetch - processPackages [counterplots]: Remove: archive file [/home/abi/fetcher/tmp/counterplots-0.0.1.tar.gz]
+[2023-06-10 18:47:56] INFO root fetch - processPackages [counterplots]: Remove: archive file [/home/abi/fetcher/tmp/counterplots-0.0.2.tar.gz]
+[2023-06-10 18:47:56] INFO root fetch - main [MainThread]: End processing [counterplots]: success
+[2023-06-10 18:47:56] INFO root fetch - processPackages [tiafork]: Remove: archive file [/home/abi/fetcher/tmp/tiafork-1.2.0.tar.gz]
+[2023-06-10 18:47:56] INFO root fetch - processPackages [tiafork]: Remove: archive file [/home/abi/fetcher/tmp/tiafork-1.2.1.tar.gz]
+[2023-06-10 18:47:56] INFO root fetch - main [MainThread]: End processing [tiafork]: success
+[2023-06-10 18:47:56] INFO root fetch - processPackages [discord-pretty-help]: Remove: archive file [/home/abi/fetcher/tmp/discord_pretty_help-2.0.5.tar.gz]
+[2023-06-10 18:47:56] INFO root fetch - processPackages [discord-pretty-help]: Remove: archive file [/home/abi/fetcher/tmp/discord_pretty_help-2.0.6.tar.gz]
+[2023-06-10 18:47:56] INFO root fetch - main [MainThread]: End processing [discord-pretty-help]: success
+[2023-06-10 18:47:56] INFO root fetch - processPackages [cuallee]: Remove: archive file [/home/abi/fetcher/tmp/cuallee-0.4.4.tar.gz]
+[2023-06-10 18:47:56] INFO root fetch - processPackages [cuallee]: Remove: archive file [/home/abi/fetcher/tmp/cuallee-0.4.5.tar.gz]
+[2023-06-10 18:47:56] INFO root fetch - main [MainThread]: End processing [cuallee]: success
+[2023-06-10 18:47:57] INFO root fetch - processPackages [maccabistats]: Remove: archive file [/home/abi/fetcher/tmp/maccabistats-2.9.4-py3-none-any.whl.zip]
+[2023-06-10 18:47:57] INFO root fetch - processPackages [maccabistats]: Remove: archive file [/home/abi/fetcher/tmp/maccabistats-2.9.5-py3-none-any.whl.zip]
+[2023-06-10 18:47:57] INFO root fetch - main [MainThread]: End processing [maccabistats]: success
+[2023-06-10 18:47:57] INFO root fetch - processPackages [netsim-tools]: Remove: archive file [/home/abi/fetcher/tmp/netsim-tools-1.5.3.post1.tar.gz]
+[2023-06-10 18:47:57] INFO root fetch - processPackages [netsim-tools]: Remove: archive file [/home/abi/fetcher/tmp/netsim-tools-1.5.4.tar.gz]
+[2023-06-10 18:47:57] INFO root fetch - main [MainThread]: End processing [netsim-tools]: success
+[2023-06-10 18:48:02] INFO root fetch - processPackages [networklab]: Remove: archive file [/home/abi/fetcher/tmp/networklab-1.5.3.post1.tar.gz]
+[2023-06-10 18:48:02] INFO root fetch - processPackages [networklab]: Remove: archive file [/home/abi/fetcher/tmp/networklab-1.5.4.tar.gz]
+[2023-06-10 18:48:02] INFO root fetch - main [MainThread]: End processing [networklab]: success
+[2023-06-10 18:48:02] INFO root fetch - main [MainThread]: Store serial: [18452271]
