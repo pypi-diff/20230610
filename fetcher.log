@@ -7540,3 +7540,15 @@ EOFError: EOF read where object expected
 [2023-06-10 06:09:37] INFO root fetch - processPackages [odoo-addon-maintenance-team-hierarchy]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_maintenance_team_hierarchy-15.0.1.0.0.4-py3-none-any.whl.zip]
 [2023-06-10 06:09:37] INFO root fetch - main [MainThread]: End processing [odoo-addon-maintenance-team-hierarchy]: success
 [2023-06-10 06:09:37] INFO root fetch - main [MainThread]: Store serial: [18448542]
+[2023-06-10 06:14:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18448542]
+[2023-06-10 06:14:46] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-06-10 06:14:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-quality-control-oca
+[2023-06-10 06:14:46] INFO root fetch - processPackages [odoo-addon-quality-control-oca]: New version: [16.0.1.0.0.8] Old Version: [16.0.1.0.0.7]
+[2023-06-10 06:14:46] INFO root fetch - processPackages [odoo-addon-quality-control-oca]: Downloading https://files.pythonhosted.org/packages/69/84/e3f88d4d5c4daa7f3979983647e01b05cd6a929d65605cccc951d66b228b/odoo_addon_quality_control_oca-16.0.1.0.0.7-py3-none-any.whl
+[2023-06-10 06:14:46] INFO root fetch - processPackages [odoo-addon-quality-control-oca]: Downloading https://files.pythonhosted.org/packages/ac/9a/e20a4a4ca39618eb108575de07b27c526e075c982e6c46a445487adb4018/odoo_addon_quality_control_oca-16.0.1.0.0.8-py3-none-any.whl
+[2023-06-10 06:14:46] INFO root fetch - processPackages [odoo-addon-quality-control-oca]: executing diffoscope
+[2023-06-10 06:14:46] INFO root fetch - processPackages [odoo-addon-quality-control-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_quality_control_oca-16.0.1.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_quality_control_oca-16.0.1.0.0.8-py3-none-any.whl.zip --markdown 20230610/o/odoo-addon-quality-control-oca/16.0.1.0.0.7-16.0.1.0.0.8/diff.md --exclude *.pyd
+[2023-06-10 06:14:48] INFO root fetch - processPackages [odoo-addon-quality-control-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_quality_control_oca-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2023-06-10 06:14:48] INFO root fetch - processPackages [odoo-addon-quality-control-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_quality_control_oca-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2023-06-10 06:14:48] INFO root fetch - main [MainThread]: End processing [odoo-addon-quality-control-oca]: success
+[2023-06-10 06:14:48] INFO root fetch - main [MainThread]: Store serial: [18448545]
