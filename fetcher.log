@@ -18575,3 +18575,39 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-10 23:22:56] INFO root fetch - processPackages [PowerGenome]: Remove: archive file [/home/abi/fetcher/tmp/PowerGenome-0.6.1a0.tar.gz]
 [2023-06-10 23:22:56] INFO root fetch - main [MainThread]: End processing [PowerGenome]: success
 [2023-06-10 23:22:56] INFO root fetch - main [MainThread]: Store serial: [18453958]
+[2023-06-10 23:28:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18453958]
+[2023-06-10 23:28:05] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-10 23:28:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: routexplorer
+[2023-06-10 23:28:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: html-report-line-profiler
+[2023-06-10 23:28:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: inkscape_figure_manager
+[2023-06-10 23:28:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: litesqlite
+[2023-06-10 23:28:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mobilizon-reshare
+[2023-06-10 23:28:05] INFO root fetch - processPackages [inkscape_figure_manager]: New version: [0.1.0] Old Version: [0.0.5]
+[2023-06-10 23:28:05] INFO root fetch - processPackages [html-report-line-profiler]: New version: [0.1.1a0] Old Version: [0.1.0]
+[2023-06-10 23:28:05] WARNING root fetch - processPackages [routexplorer]: Skipping, unable to determine old version
+[2023-06-10 23:28:05] INFO root fetch - main [MainThread]: End processing [routexplorer] error
+[2023-06-10 23:28:05] INFO root fetch - processPackages [mobilizon-reshare]: New version: [0.3.4] Old Version: [0.3.2]
+[2023-06-10 23:28:05] WARNING root fetch - processPackages [litesqlite]: Skipping, unable to determine old version
+[2023-06-10 23:28:05] INFO root fetch - main [MainThread]: End processing [litesqlite] error
+[2023-06-10 23:28:05] INFO root fetch - processPackages [inkscape_figure_manager]: Downloading https://files.pythonhosted.org/packages/48/07/8116d9d23a1f4da096fb4bcaa64b9240d2726966ed3bd2009f7cd62c6372/inkscape_figure_manager-0.0.5.tar.gz
+[2023-06-10 23:28:05] INFO root fetch - processPackages [html-report-line-profiler]: Downloading https://files.pythonhosted.org/packages/88/18/78a8788789d043757feb94c1259f28367e658a7a6959b67e0df0f41bce2e/html_report_line_profiler-0.1.0.tar.gz
+[2023-06-10 23:28:05] INFO root fetch - processPackages [mobilizon-reshare]: Downloading https://files.pythonhosted.org/packages/11/f6/a222bf462915c7f903a7607a8645f8627bce3e53d19726500d683b921bdf/mobilizon-reshare-0.3.2.tar.gz
+[2023-06-10 23:28:05] INFO root fetch - processPackages [mobilizon-reshare]: Downloading https://files.pythonhosted.org/packages/21/c1/eded832f052b6c6a53a7a061a8e472cd08c0bb8398c113374eda4b499b39/mobilizon-reshare-0.3.4.tar.gz
+[2023-06-10 23:28:05] INFO root fetch - processPackages [html-report-line-profiler]: Downloading https://files.pythonhosted.org/packages/a7/9c/c28625b3cc43fbf897b49c97ae0c70aafcce72eb6d44497353e7055470f0/html_report_line_profiler-0.1.1a0.tar.gz
+[2023-06-10 23:28:05] INFO root fetch - processPackages [inkscape_figure_manager]: Downloading https://files.pythonhosted.org/packages/63/79/c3a3a2507c70a5b74fbabafb84e77386cf42975394e5d6ce4b28e3690f16/inkscape_figure_manager-0.1.0.tar.gz
+[2023-06-10 23:28:05] INFO root fetch - processPackages [mobilizon-reshare]: executing diffoscope
+[2023-06-10 23:28:05] INFO root fetch - processPackages [mobilizon-reshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mobilizon-reshare-0.3.2.tar.gz tmp/mobilizon-reshare-0.3.4.tar.gz --markdown 20230610/m/mobilizon-reshare/0.3.2-0.3.4/diff.md --exclude *.pyd
+[2023-06-10 23:28:05] INFO root fetch - processPackages [inkscape_figure_manager]: executing diffoscope
+[2023-06-10 23:28:05] INFO root fetch - processPackages [inkscape_figure_manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inkscape_figure_manager-0.0.5.tar.gz tmp/inkscape_figure_manager-0.1.0.tar.gz --markdown 20230610/i/inkscape_figure_manager/0.0.5-0.1.0/diff.md --exclude *.pyd
+[2023-06-10 23:28:05] INFO root fetch - processPackages [html-report-line-profiler]: executing diffoscope
+[2023-06-10 23:28:05] INFO root fetch - processPackages [html-report-line-profiler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/html_report_line_profiler-0.1.0.tar.gz tmp/html_report_line_profiler-0.1.1a0.tar.gz --markdown 20230610/h/html-report-line-profiler/0.1.0-0.1.1a0/diff.md --exclude *.pyd
+[2023-06-10 23:28:06] INFO root fetch - processPackages [inkscape_figure_manager]: Remove: archive file [/home/abi/fetcher/tmp/inkscape_figure_manager-0.0.5.tar.gz]
+[2023-06-10 23:28:06] INFO root fetch - processPackages [inkscape_figure_manager]: Remove: archive file [/home/abi/fetcher/tmp/inkscape_figure_manager-0.1.0.tar.gz]
+[2023-06-10 23:28:06] INFO root fetch - main [MainThread]: End processing [inkscape_figure_manager]: success
+[2023-06-10 23:28:06] INFO root fetch - processPackages [html-report-line-profiler]: Remove: archive file [/home/abi/fetcher/tmp/html_report_line_profiler-0.1.0.tar.gz]
+[2023-06-10 23:28:06] INFO root fetch - processPackages [html-report-line-profiler]: Remove: archive file [/home/abi/fetcher/tmp/html_report_line_profiler-0.1.1a0.tar.gz]
+[2023-06-10 23:28:06] INFO root fetch - main [MainThread]: End processing [html-report-line-profiler]: success
+[2023-06-10 23:28:07] INFO root fetch - processPackages [mobilizon-reshare]: Remove: archive file [/home/abi/fetcher/tmp/mobilizon-reshare-0.3.2.tar.gz]
+[2023-06-10 23:28:07] INFO root fetch - processPackages [mobilizon-reshare]: Remove: archive file [/home/abi/fetcher/tmp/mobilizon-reshare-0.3.4.tar.gz]
+[2023-06-10 23:28:07] INFO root fetch - main [MainThread]: End processing [mobilizon-reshare]: success
+[2023-06-10 23:28:07] INFO root fetch - main [MainThread]: Store serial: [18453975]
