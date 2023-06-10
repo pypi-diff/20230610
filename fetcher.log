@@ -16465,3 +16465,57 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-10 20:44:07] INFO root fetch - processPackages [scratchattach]: Remove: archive file [/home/abi/fetcher/tmp/scratchattach-1.2.0.tar.gz]
 [2023-06-10 20:44:07] INFO root fetch - main [MainThread]: End processing [scratchattach]: success
 [2023-06-10 20:44:07] INFO root fetch - main [MainThread]: Store serial: [18452964]
+[2023-06-10 20:49:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18452964]
+[2023-06-10 20:49:16] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-10 20:49:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ckanext-toolbelt
+[2023-06-10 20:49:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyrcs
+[2023-06-10 20:49:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: needed-libs
+[2023-06-10 20:49:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mapbot-frontend
+[2023-06-10 20:49:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: anyai
+[2023-06-10 20:49:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: anyml
+[2023-06-10 20:49:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: anycv
+[2023-06-10 20:49:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dymoprint
+[2023-06-10 20:49:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: anynlp
+[2023-06-10 20:49:16] WARNING root fetch - processPackages [needed-libs]: Skipping, unable to determine old version
+[2023-06-10 20:49:16] INFO root fetch - processPackages [pyrcs]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-06-10 20:49:16] INFO root fetch - main [MainThread]: End processing [needed-libs] error
+[2023-06-10 20:49:16] INFO root fetch - processPackages [mapbot-frontend]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-10 20:49:16] INFO root fetch - processPackages [ckanext-toolbelt]: New version: [0.4.0] Old Version: [0.3.9]
+[2023-06-10 20:49:16] INFO root fetch - processPackages [mapbot-frontend]: Downloading https://files.pythonhosted.org/packages/c3/15/a76b10735e815f29e69252cfdf5844d8267526ca51d4be0ae611898cf761/mapbot_frontend-0.1.8.tar.gz
+[2023-06-10 20:49:16] ERROR root fetch - processPackages [anynlp]: Unable to get metadata: No such project 'anynlp'
+[2023-06-10 20:49:16] INFO root fetch - main [MainThread]: End processing [anynlp] error
+[2023-06-10 20:49:16] ERROR root fetch - processPackages [anycv]: Unable to get metadata: No such project 'anycv'
+[2023-06-10 20:49:16] INFO root fetch - main [MainThread]: End processing [anycv] error
+[2023-06-10 20:49:16] WARNING root fetch - processPackages [anyml]: Skipping, unable to determine old version
+[2023-06-10 20:49:16] INFO root fetch - main [MainThread]: End processing [anyml] error
+[2023-06-10 20:49:16] INFO root fetch - processPackages [dymoprint]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-06-10 20:49:16] INFO root fetch - processPackages [pyrcs]: Downloading https://files.pythonhosted.org/packages/f0/e9/3fe8d3d5f0694bc705a7f2b466d27cafb0942f1bdec36c607a1dd3f42925/pyrcs-0.3.5.tar.gz
+[2023-06-10 20:49:16] WARNING root fetch - processPackages [anyai]: Skipping, unable to determine old version
+[2023-06-10 20:49:16] INFO root fetch - main [MainThread]: End processing [anyai] error
+[2023-06-10 20:49:16] INFO root fetch - processPackages [mapbot-frontend]: Downloading https://files.pythonhosted.org/packages/2c/2b/65497a0d97cff1920b70e98b8c0780cb445ac34e1ebb2d6cf5ddf99b0ffc/mapbot_frontend-0.1.9.tar.gz
+[2023-06-10 20:49:16] INFO root fetch - processPackages [ckanext-toolbelt]: Downloading https://files.pythonhosted.org/packages/eb/7c/3edf6399fb36f1bc509d50bc2bc4955f8fc471744e72e8cf233a24b6e95b/ckanext-toolbelt-0.3.9.tar.gz
+[2023-06-10 20:49:16] INFO root fetch - processPackages [mapbot-frontend]: executing diffoscope
+[2023-06-10 20:49:16] INFO root fetch - processPackages [mapbot-frontend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapbot_frontend-0.1.8.tar.gz tmp/mapbot_frontend-0.1.9.tar.gz --markdown 20230610/m/mapbot-frontend/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-10 20:49:16] INFO root fetch - processPackages [dymoprint]: Downloading https://files.pythonhosted.org/packages/00/4e/dbee5acd2b344dff4d26b9620823ba5bde601da34e8690160d2afe66fd51/dymoprint-1.4.0.tar.gz
+[2023-06-10 20:49:16] INFO root fetch - processPackages [ckanext-toolbelt]: Downloading https://files.pythonhosted.org/packages/69/f0/65ad12aabbc4ad1b244e66feebcd7bb7a7db536ae81ca148ba57a6067be6/ckanext-toolbelt-0.4.0.tar.gz
+[2023-06-10 20:49:16] INFO root fetch - processPackages [ckanext-toolbelt]: executing diffoscope
+[2023-06-10 20:49:16] INFO root fetch - processPackages [ckanext-toolbelt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ckanext-toolbelt-0.3.9.tar.gz tmp/ckanext-toolbelt-0.4.0.tar.gz --markdown 20230610/c/ckanext-toolbelt/0.3.9-0.4.0/diff.md --exclude *.pyd
+[2023-06-10 20:49:16] INFO root fetch - processPackages [dymoprint]: Downloading https://files.pythonhosted.org/packages/71/52/541704471b6a51fbaa35aecd7a1761231ff97eebbb4d9e49fe37ffdb0661/dymoprint-1.4.1.tar.gz
+[2023-06-10 20:49:16] INFO root fetch - processPackages [pyrcs]: Downloading https://files.pythonhosted.org/packages/9b/f0/00813fe2dc537fa92c645aa5aaf1d08c43dcd846892f01bdac265a263477/pyrcs-0.3.6.tar.gz
+[2023-06-10 20:49:17] INFO root fetch - processPackages [pyrcs]: executing diffoscope
+[2023-06-10 20:49:17] INFO root fetch - processPackages [pyrcs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrcs-0.3.5.tar.gz tmp/pyrcs-0.3.6.tar.gz --markdown 20230610/p/pyrcs/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-06-10 20:49:17] INFO root fetch - processPackages [dymoprint]: executing diffoscope
+[2023-06-10 20:49:17] INFO root fetch - processPackages [dymoprint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dymoprint-1.4.0.tar.gz tmp/dymoprint-1.4.1.tar.gz --markdown 20230610/d/dymoprint/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-06-10 20:49:18] INFO root fetch - processPackages [ckanext-toolbelt]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-toolbelt-0.3.9.tar.gz]
+[2023-06-10 20:49:18] INFO root fetch - processPackages [ckanext-toolbelt]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-toolbelt-0.4.0.tar.gz]
+[2023-06-10 20:49:18] INFO root fetch - main [MainThread]: End processing [ckanext-toolbelt]: success
+[2023-06-10 20:49:18] INFO root fetch - processPackages [mapbot-frontend]: Remove: archive file [/home/abi/fetcher/tmp/mapbot_frontend-0.1.8.tar.gz]
+[2023-06-10 20:49:18] INFO root fetch - processPackages [mapbot-frontend]: Remove: archive file [/home/abi/fetcher/tmp/mapbot_frontend-0.1.9.tar.gz]
+[2023-06-10 20:49:18] INFO root fetch - main [MainThread]: End processing [mapbot-frontend]: success
+[2023-06-10 20:49:18] INFO root fetch - processPackages [dymoprint]: Remove: archive file [/home/abi/fetcher/tmp/dymoprint-1.4.0.tar.gz]
+[2023-06-10 20:49:18] INFO root fetch - processPackages [dymoprint]: Remove: archive file [/home/abi/fetcher/tmp/dymoprint-1.4.1.tar.gz]
+[2023-06-10 20:49:18] INFO root fetch - main [MainThread]: End processing [dymoprint]: success
+[2023-06-10 20:49:31] INFO root fetch - processPackages [pyrcs]: Remove: archive file [/home/abi/fetcher/tmp/pyrcs-0.3.5.tar.gz]
+[2023-06-10 20:49:31] INFO root fetch - processPackages [pyrcs]: Remove: archive file [/home/abi/fetcher/tmp/pyrcs-0.3.6.tar.gz]
+[2023-06-10 20:49:31] INFO root fetch - main [MainThread]: End processing [pyrcs]: success
+[2023-06-10 20:49:31] INFO root fetch - main [MainThread]: Store serial: [18453023]
