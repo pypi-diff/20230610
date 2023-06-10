@@ -8824,3 +8824,44 @@ EOFError: EOF read where object expected
 [2023-06-10 09:12:00] INFO root fetch - processPackages [gpboost]: Remove: archive file [/home/abi/fetcher/tmp/gpboost-1.2.0.tar.gz]
 [2023-06-10 09:12:00] INFO root fetch - main [MainThread]: End processing [gpboost]: success
 [2023-06-10 09:12:00] INFO root fetch - main [MainThread]: Store serial: [18449274]
+[2023-06-10 09:17:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18449274]
+[2023-06-10 09:17:09] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-10 09:17:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: krx-holidays
+[2023-06-10 09:17:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fastapi_swagger2
+[2023-06-10 09:17:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tfq-nightly
+[2023-06-10 09:17:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: streamlit-nightly
+[2023-06-10 09:17:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zeroapi
+[2023-06-10 09:17:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pydflow
+[2023-06-10 09:17:09] WARNING root fetch - processPackages [krx-holidays]: Skipping, unable to determine old version
+[2023-06-10 09:17:09] INFO root fetch - main [MainThread]: End processing [krx-holidays] error
+[2023-06-10 09:17:09] INFO root fetch - processPackages [tfq-nightly]: New version: [0.7.3.dev20230609] Old Version: [0.7.3.dev20230522]
+[2023-06-10 09:17:09] INFO root fetch - processPackages [zeroapi]: New version: [0.4.0] Old Version: [0.3.60]
+[2023-06-10 09:17:09] INFO root fetch - processPackages [streamlit-nightly]: New version: [1.9.3.dev20220601] Old Version: [1.9.3.dev20220531]
+[2023-06-10 09:17:09] WARNING root fetch - processPackages [fastapi_swagger2]: Skipping, unable to determine old version
+[2023-06-10 09:17:09] INFO root fetch - main [MainThread]: End processing [fastapi_swagger2] error
+[2023-06-10 09:17:09] INFO root fetch - processPackages [tfq-nightly]: Downloading https://files.pythonhosted.org/packages/d8/00/e4d664f7f4f4f264c0828b3fdc3eb5b8ba0e557266c02cbc6c3708056d85/tfq_nightly-0.7.3.dev20230522-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-10 09:17:09] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/bb/77/73ca36b159a0852f16710c30eca243772d04e8d37c1497e26e837ebad465/streamlit-nightly-1.9.3.dev20220531.tar.gz
+[2023-06-10 09:17:09] WARNING root fetch - processPackages [tfq-nightly]: Skipping package: exceeds size limit 10819838>=10485760
+[2023-06-10 09:17:09] INFO root fetch - main [MainThread]: End processing [tfq-nightly] error
+[2023-06-10 09:17:09] INFO root fetch - processPackages [pydflow]: New version: [1.6.99] Old Version: [1.6.98]
+[2023-06-10 09:17:09] INFO root fetch - processPackages [zeroapi]: Downloading https://files.pythonhosted.org/packages/b6/e7/3dc4cc51760fd5204a0bae6f0e46b6e6fe3d12b97432833fa3890033658f/zeroapi-0.3.60.tar.gz
+[2023-06-10 09:17:09] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/c6/42/d4b1986a307020d3007742d6f25422e7aebd391ade1cb451d28a4865e7d2/pydflow-1.6.98.tar.gz
+[2023-06-10 09:17:09] INFO root fetch - processPackages [zeroapi]: Downloading https://files.pythonhosted.org/packages/cd/24/69229e5243565ddf0d9bfeffc7334c44679cf0e2e8d75b53bb59550fad6b/zeroapi-0.4.0.tar.gz
+[2023-06-10 09:17:09] INFO root fetch - processPackages [zeroapi]: executing diffoscope
+[2023-06-10 09:17:09] INFO root fetch - processPackages [zeroapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zeroapi-0.3.60.tar.gz tmp/zeroapi-0.4.0.tar.gz --markdown 20230610/z/zeroapi/0.3.60-0.4.0/diff.md --exclude *.pyd
+[2023-06-10 09:17:09] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/86/ec/1d1f51e2ef9a626c2621695ed39210c378d699e371457fcd1efe70b1c890/pydflow-1.6.99.tar.gz
+[2023-06-10 09:17:10] INFO root fetch - processPackages [pydflow]: executing diffoscope
+[2023-06-10 09:17:10] INFO root fetch - processPackages [pydflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydflow-1.6.98.tar.gz tmp/pydflow-1.6.99.tar.gz --markdown 20230610/p/pydflow/1.6.98-1.6.99/diff.md --exclude *.pyd
+[2023-06-10 09:17:11] INFO root fetch - processPackages [zeroapi]: Remove: archive file [/home/abi/fetcher/tmp/zeroapi-0.3.60.tar.gz]
+[2023-06-10 09:17:11] INFO root fetch - processPackages [zeroapi]: Remove: archive file [/home/abi/fetcher/tmp/zeroapi-0.4.0.tar.gz]
+[2023-06-10 09:17:11] INFO root fetch - main [MainThread]: End processing [zeroapi]: success
+[2023-06-10 09:17:11] INFO root fetch - processPackages [pydflow]: Remove: archive file [/home/abi/fetcher/tmp/pydflow-1.6.98.tar.gz]
+[2023-06-10 09:17:11] INFO root fetch - processPackages [pydflow]: Remove: archive file [/home/abi/fetcher/tmp/pydflow-1.6.99.tar.gz]
+[2023-06-10 09:17:11] INFO root fetch - main [MainThread]: End processing [pydflow]: success
+[2023-06-10 09:17:11] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/3f/2a/57340e81e1d94e80229a3f8d9acc663cdad9ffd0ead21e2c20c76b879c18/streamlit-nightly-1.9.3.dev20220601.tar.gz
+[2023-06-10 09:17:14] INFO root fetch - processPackages [streamlit-nightly]: executing diffoscope
+[2023-06-10 09:17:14] INFO root fetch - processPackages [streamlit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-nightly-1.9.3.dev20220531.tar.gz tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz --markdown 20230610/s/streamlit-nightly/1.9.3.dev20220531-1.9.3.dev20220601/diff.md --exclude *.pyd
+[2023-06-10 09:17:24] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220531.tar.gz]
+[2023-06-10 09:17:24] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz]
+[2023-06-10 09:17:24] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
+[2023-06-10 09:17:24] INFO root fetch - main [MainThread]: Store serial: [18449297]
