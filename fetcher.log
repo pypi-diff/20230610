@@ -18820,3 +18820,33 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-10 23:47:34] INFO root fetch - processPackages [sqlite-fastrand]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_fastrand-0.2.1a9-py3-none-win_amd64.whl.zip]
 [2023-06-10 23:47:34] INFO root fetch - main [MainThread]: End processing [sqlite-fastrand]: success
 [2023-06-10 23:47:34] INFO root fetch - main [MainThread]: Store serial: [18454153]
+[2023-06-10 23:52:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18454153]
+[2023-06-10 23:52:43] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-10 23:52:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: unitsnet-py
+[2023-06-10 23:52:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyupgrade
+[2023-06-10 23:52:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chatdocs
+[2023-06-10 23:52:43] INFO root fetch - processPackages [unitsnet-py]: New version: [0.1.39] Old Version: [0.1.38]
+[2023-06-10 23:52:44] INFO root fetch - processPackages [pyupgrade]: New version: [3.6.0] Old Version: [3.5.0]
+[2023-06-10 23:52:44] INFO root fetch - processPackages [chatdocs]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-06-10 23:52:44] INFO root fetch - processPackages [chatdocs]: Downloading https://files.pythonhosted.org/packages/0a/7f/02cb3fcbea81c3afac12adb9c5e57732d377a77a6a1f8dc293bf50165a8d/chatdocs-0.2.3.tar.gz
+[2023-06-10 23:52:44] INFO root fetch - processPackages [pyupgrade]: Downloading https://files.pythonhosted.org/packages/d8/73/65466907dec86d3a982ba741f1835b3295e5fe40c935048a8139403c52dd/pyupgrade-3.5.0.tar.gz
+[2023-06-10 23:52:44] INFO root fetch - processPackages [unitsnet-py]: Downloading https://files.pythonhosted.org/packages/15/ed/6323b80ed932fbea41cbd38bd8a67cc99a653e7deceb39645bdc30e02fb5/unitsnet-py-0.1.38.tar.gz
+[2023-06-10 23:52:44] INFO root fetch - processPackages [chatdocs]: Downloading https://files.pythonhosted.org/packages/39/68/bd451a54f40c565e03d067d6f9c094d09322d83e9a8da860a1ecdb174e60/chatdocs-0.2.4.tar.gz
+[2023-06-10 23:52:44] INFO root fetch - processPackages [pyupgrade]: Downloading https://files.pythonhosted.org/packages/2f/53/306f86bd927741833780a33d9f3a1ff0731729235d867e87ee85476f610d/pyupgrade-3.6.0.tar.gz
+[2023-06-10 23:52:44] INFO root fetch - processPackages [unitsnet-py]: Downloading https://files.pythonhosted.org/packages/20/4b/eefeb59ad67b8f6efb9cd42d78923d2261d22ab585c8378a359bc6c7f28a/unitsnet-py-0.1.39.tar.gz
+[2023-06-10 23:52:44] INFO root fetch - processPackages [chatdocs]: executing diffoscope
+[2023-06-10 23:52:44] INFO root fetch - processPackages [chatdocs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatdocs-0.2.3.tar.gz tmp/chatdocs-0.2.4.tar.gz --markdown 20230610/c/chatdocs/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-06-10 23:52:44] INFO root fetch - processPackages [pyupgrade]: executing diffoscope
+[2023-06-10 23:52:44] INFO root fetch - processPackages [pyupgrade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyupgrade-3.5.0.tar.gz tmp/pyupgrade-3.6.0.tar.gz --markdown 20230610/p/pyupgrade/3.5.0-3.6.0/diff.md --exclude *.pyd
+[2023-06-10 23:52:44] INFO root fetch - processPackages [unitsnet-py]: executing diffoscope
+[2023-06-10 23:52:44] INFO root fetch - processPackages [unitsnet-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unitsnet-py-0.1.38.tar.gz tmp/unitsnet-py-0.1.39.tar.gz --markdown 20230610/u/unitsnet-py/0.1.38-0.1.39/diff.md --exclude *.pyd
+[2023-06-10 23:52:45] INFO root fetch - processPackages [chatdocs]: Remove: archive file [/home/abi/fetcher/tmp/chatdocs-0.2.3.tar.gz]
+[2023-06-10 23:52:45] INFO root fetch - processPackages [chatdocs]: Remove: archive file [/home/abi/fetcher/tmp/chatdocs-0.2.4.tar.gz]
+[2023-06-10 23:52:45] INFO root fetch - main [MainThread]: End processing [chatdocs]: success
+[2023-06-10 23:52:45] INFO root fetch - processPackages [pyupgrade]: Remove: archive file [/home/abi/fetcher/tmp/pyupgrade-3.5.0.tar.gz]
+[2023-06-10 23:52:45] INFO root fetch - processPackages [pyupgrade]: Remove: archive file [/home/abi/fetcher/tmp/pyupgrade-3.6.0.tar.gz]
+[2023-06-10 23:52:45] INFO root fetch - main [MainThread]: End processing [pyupgrade]: success
+[2023-06-10 23:52:46] INFO root fetch - processPackages [unitsnet-py]: Remove: archive file [/home/abi/fetcher/tmp/unitsnet-py-0.1.38.tar.gz]
+[2023-06-10 23:52:46] INFO root fetch - processPackages [unitsnet-py]: Remove: archive file [/home/abi/fetcher/tmp/unitsnet-py-0.1.39.tar.gz]
+[2023-06-10 23:52:46] INFO root fetch - main [MainThread]: End processing [unitsnet-py]: success
+[2023-06-10 23:52:46] INFO root fetch - main [MainThread]: Store serial: [18454161]
