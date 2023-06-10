@@ -8144,3 +8144,51 @@ EOFError: EOF read where object expected
 [2023-06-10 07:21:30] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.14.0.dev20230609-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2023-06-10 07:21:30] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
 [2023-06-10 07:21:30] INFO root fetch - main [MainThread]: Store serial: [18448791]
+[2023-06-10 07:26:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18448791]
+[2023-06-10 07:26:43] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-10 07:26:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-stock-reserve
+[2023-06-10 07:26:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: control
+[2023-06-10 07:26:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tflite-model-maker-nightly
+[2023-06-10 07:26:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyfilehandling
+[2023-06-10 07:26:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: federa
+[2023-06-10 07:26:43] INFO root fetch - processPackages [federa]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-10 07:26:43] INFO root fetch - processPackages [control]: New version: [0.9.4] Old Version: [0.9.3.post2]
+[2023-06-10 07:26:43] INFO root fetch - processPackages [odoo-addon-stock-reserve]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.3]
+[2023-06-10 07:26:43] INFO root fetch - processPackages [pyfilehandling]: New version: [0.2] Old Version: [0.1]
+[2023-06-10 07:26:43] INFO root fetch - processPackages [tflite-model-maker-nightly]: New version: [0.4.3.dev202306100521] Old Version: [0.4.3.dev202306090508]
+[2023-06-10 07:26:43] INFO root fetch - processPackages [control]: Downloading https://files.pythonhosted.org/packages/41/c0/fdfa7059b59619f1b51a6483c1e1cecf2383b95d9e3cf989f2ead3a96eab/control-0.9.3.post2.tar.gz
+[2023-06-10 07:26:43] INFO root fetch - processPackages [odoo-addon-stock-reserve]: Downloading https://files.pythonhosted.org/packages/ce/96/d7cd5133ab9ad17a8062ec05540cbae5b00f02231c233545152b724f7481/odoo_addon_stock_reserve-16.0.1.0.0.3-py3-none-any.whl
+[2023-06-10 07:26:43] INFO root fetch - processPackages [federa]: Downloading https://files.pythonhosted.org/packages/33/97/ffb8ded55778c9a852bb08778b0492004783198e9486301327a9ca94bb0e/federa-0.0.2.tar.gz
+[2023-06-10 07:26:43] INFO root fetch - processPackages [pyfilehandling]: Downloading https://files.pythonhosted.org/packages/98/a3/b100df8fc5678472df13e01fea1251fa2bd0fd335cbea05d0946080912b4/pyfilehandling-0.1.tar.gz
+[2023-06-10 07:26:43] INFO root fetch - processPackages [tflite-model-maker-nightly]: Downloading https://files.pythonhosted.org/packages/dc/b1/1d2c5fbf0a67c84469af2cbcc94ec396f7b302e564178c2d348f6af798d7/tflite-model-maker-nightly-0.4.3.dev202306090508.tar.gz
+[2023-06-10 07:26:43] INFO root fetch - processPackages [federa]: Downloading https://files.pythonhosted.org/packages/eb/40/34026a2b609d05c313a7541354f4c539c3818fc7449b2a532339ad50a20c/federa-0.0.3.tar.gz
+[2023-06-10 07:26:43] INFO root fetch - processPackages [pyfilehandling]: Downloading https://files.pythonhosted.org/packages/64/1d/8dff9b10a56a373c67a09ec78fb1e6c570ac1c34a8f50829a33ef6effd13/pyfilehandling-0.2.tar.gz
+[2023-06-10 07:26:43] INFO root fetch - processPackages [odoo-addon-stock-reserve]: Downloading https://files.pythonhosted.org/packages/1d/6b/9b0b018cea56a936a4c3ddde90472012fd32665730bad15aa6981f0388ae/odoo_addon_stock_reserve-16.0.1.0.0.4-py3-none-any.whl
+[2023-06-10 07:26:43] INFO root fetch - processPackages [pyfilehandling]: executing diffoscope
+[2023-06-10 07:26:43] INFO root fetch - processPackages [pyfilehandling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfilehandling-0.1.tar.gz tmp/pyfilehandling-0.2.tar.gz --markdown 20230610/p/pyfilehandling/0.1-0.2/diff.md --exclude *.pyd
+[2023-06-10 07:26:43] INFO root fetch - processPackages [federa]: executing diffoscope
+[2023-06-10 07:26:43] INFO root fetch - processPackages [federa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/federa-0.0.2.tar.gz tmp/federa-0.0.3.tar.gz --markdown 20230610/f/federa/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-10 07:26:43] INFO root fetch - processPackages [odoo-addon-stock-reserve]: executing diffoscope
+[2023-06-10 07:26:43] INFO root fetch - processPackages [odoo-addon-stock-reserve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_reserve-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_stock_reserve-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20230610/o/odoo-addon-stock-reserve/16.0.1.0.0.3-16.0.1.0.0.4/diff.md --exclude *.pyd
+[2023-06-10 07:26:44] INFO root fetch - processPackages [tflite-model-maker-nightly]: Downloading https://files.pythonhosted.org/packages/60/41/98fecc803ca48f8d72ecc2a8dbe245aedeb6deb2d00059699c026bc36b4b/tflite-model-maker-nightly-0.4.3.dev202306100521.tar.gz
+[2023-06-10 07:26:44] INFO root fetch - processPackages [tflite-model-maker-nightly]: executing diffoscope
+[2023-06-10 07:26:44] INFO root fetch - processPackages [tflite-model-maker-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite-model-maker-nightly-0.4.3.dev202306090508.tar.gz tmp/tflite-model-maker-nightly-0.4.3.dev202306100521.tar.gz --markdown 20230610/t/tflite-model-maker-nightly/0.4.3.dev202306090508-0.4.3.dev202306100521/diff.md --exclude *.pyd
+[2023-06-10 07:26:44] INFO root fetch - processPackages [control]: Downloading https://files.pythonhosted.org/packages/e8/93/a85db3742a80c96478067cfb2bbe3eb82f84551264bca57c15bafbfc1867/control-0.9.4.tar.gz
+[2023-06-10 07:26:44] INFO root fetch - processPackages [control]: executing diffoscope
+[2023-06-10 07:26:44] INFO root fetch - processPackages [control]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/control-0.9.3.post2.tar.gz tmp/control-0.9.4.tar.gz --markdown 20230610/c/control/0.9.3.post2-0.9.4/diff.md --exclude *.pyd
+[2023-06-10 07:26:44] INFO root fetch - processPackages [pyfilehandling]: Remove: archive file [/home/abi/fetcher/tmp/pyfilehandling-0.1.tar.gz]
+[2023-06-10 07:26:44] INFO root fetch - processPackages [pyfilehandling]: Remove: archive file [/home/abi/fetcher/tmp/pyfilehandling-0.2.tar.gz]
+[2023-06-10 07:26:44] INFO root fetch - main [MainThread]: End processing [pyfilehandling]: success
+[2023-06-10 07:26:45] INFO root fetch - processPackages [odoo-addon-stock-reserve]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_reserve-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-06-10 07:26:45] INFO root fetch - processPackages [odoo-addon-stock-reserve]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_reserve-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-06-10 07:26:45] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-reserve]: success
+[2023-06-10 07:26:47] INFO root fetch - processPackages [tflite-model-maker-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite-model-maker-nightly-0.4.3.dev202306090508.tar.gz]
+[2023-06-10 07:26:47] INFO root fetch - processPackages [tflite-model-maker-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite-model-maker-nightly-0.4.3.dev202306100521.tar.gz]
+[2023-06-10 07:26:47] INFO root fetch - main [MainThread]: End processing [tflite-model-maker-nightly]: success
+[2023-06-10 07:26:48] INFO root fetch - processPackages [federa]: Remove: archive file [/home/abi/fetcher/tmp/federa-0.0.2.tar.gz]
+[2023-06-10 07:26:48] INFO root fetch - processPackages [federa]: Remove: archive file [/home/abi/fetcher/tmp/federa-0.0.3.tar.gz]
+[2023-06-10 07:26:48] INFO root fetch - main [MainThread]: End processing [federa]: success
+[2023-06-10 07:26:48] INFO root fetch - processPackages [control]: Remove: archive file [/home/abi/fetcher/tmp/control-0.9.3.post2.tar.gz]
+[2023-06-10 07:26:48] INFO root fetch - processPackages [control]: Remove: archive file [/home/abi/fetcher/tmp/control-0.9.4.tar.gz]
+[2023-06-10 07:26:48] INFO root fetch - main [MainThread]: End processing [control]: success
+[2023-06-10 07:26:48] INFO root fetch - main [MainThread]: Store serial: [18448806]
