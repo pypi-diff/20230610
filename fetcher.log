@@ -11208,3 +11208,47 @@ EOFError: EOF read where object expected
 [2023-06-10 13:46:16] INFO root fetch - processPackages [nonebot-plugin-bawiki]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bawiki-0.7.9.tar.gz]
 [2023-06-10 13:46:16] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-bawiki]: success
 [2023-06-10 13:46:16] INFO root fetch - main [MainThread]: Store serial: [18450310]
+[2023-06-10 13:51:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18450310]
+[2023-06-10 13:51:25] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-10 13:51:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyre-check-nightly
+[2023-06-10 13:51:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: elasticai-creator
+[2023-06-10 13:51:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-torque
+[2023-06-10 13:51:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: starrailres
+[2023-06-10 13:51:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dxtils
+[2023-06-10 13:51:25] INFO root fetch - processPackages [dxtils]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-10 13:51:25] INFO root fetch - processPackages [starrailres]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-06-10 13:51:25] INFO root fetch - processPackages [django-torque]: New version: [0.5.0a2] Old Version: [0.5.0a1]
+[2023-06-10 13:51:25] INFO root fetch - processPackages [elasticai-creator]: New version: [0.9.0] Old Version: [0.7.0]
+[2023-06-10 13:51:25] INFO root fetch - processPackages [elasticai-creator]: Downloading https://files.pythonhosted.org/packages/f4/f4/3c8441508e7e4c9f560d0bb8bfbfc64a417b96a55a09af93424946816450/elasticai.creator-0.7.0.tar.gz
+[2023-06-10 13:51:25] INFO root fetch - processPackages [pyre-check-nightly]: New version: [0.0.101686395243] Old Version: [0.0.101686310781]
+[2023-06-10 13:51:25] INFO root fetch - processPackages [dxtils]: Downloading https://files.pythonhosted.org/packages/46/26/1899671cb735bf5e03c89d6bb6961368a136abf89696f9cfee338748db71/dxtils-0.0.4.tar.gz
+[2023-06-10 13:51:25] INFO root fetch - processPackages [django-torque]: Downloading https://files.pythonhosted.org/packages/0d/58/daced7daeb57c05617e3ee22ecacf4b772a28209b9d9231ed501030a5d37/django-torque-0.5.0a1.tar.gz
+[2023-06-10 13:51:26] INFO root fetch - processPackages [elasticai-creator]: Downloading https://files.pythonhosted.org/packages/41/00/ecf6fd2903be8cf829d89408464d3338913631ab10066e0541a95b004b45/elasticai.creator-0.9.0.tar.gz
+[2023-06-10 13:51:26] INFO root fetch - processPackages [starrailres]: Downloading https://files.pythonhosted.org/packages/82/74/1bd8c5f99736626aaf24bc48f1eec3799e89109dac25e517b1a62d001f0b/starrailres-1.1.0.tar.gz
+[2023-06-10 13:51:26] INFO root fetch - processPackages [elasticai-creator]: executing diffoscope
+[2023-06-10 13:51:26] INFO root fetch - processPackages [elasticai-creator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elasticai.creator-0.7.0.tar.gz tmp/elasticai.creator-0.9.0.tar.gz --markdown 20230610/e/elasticai-creator/0.7.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-10 13:51:26] INFO root fetch - processPackages [pyre-check-nightly]: Downloading https://files.pythonhosted.org/packages/5f/b7/af842bf5fe6d6920114bad3a60dee32db7ae763fa5e0d1a4728589812645/pyre-check-nightly-0.0.101686310781.tar.gz
+[2023-06-10 13:51:26] INFO root fetch - processPackages [dxtils]: Downloading https://files.pythonhosted.org/packages/39/11/6981fe50c14b8a9ed9b6b92301e088a809ced1eaede0d7a1c1c5a1d6e464/dxtils-0.0.5.tar.gz
+[2023-06-10 13:51:26] WARNING root fetch - processPackages [pyre-check-nightly]: Skipping package: exceeds size limit 23500703>=10485760
+[2023-06-10 13:51:26] INFO root fetch - main [MainThread]: End processing [pyre-check-nightly] error
+[2023-06-10 13:51:26] INFO root fetch - processPackages [starrailres]: Downloading https://files.pythonhosted.org/packages/cd/18/c9b2122018b52140b725b843076bf35092a69d422e82537f2a073eea4e7f/starrailres-1.1.1.tar.gz
+[2023-06-10 13:51:26] INFO root fetch - processPackages [django-torque]: Downloading https://files.pythonhosted.org/packages/8a/8d/3b2e6e7d230e652fd2d294945653d660795960cf5aa88083ec75a54e3a55/django-torque-0.5.0a2.tar.gz
+[2023-06-10 13:51:26] INFO root fetch - processPackages [dxtils]: executing diffoscope
+[2023-06-10 13:51:26] INFO root fetch - processPackages [dxtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dxtils-0.0.4.tar.gz tmp/dxtils-0.0.5.tar.gz --markdown 20230610/d/dxtils/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-10 13:51:26] INFO root fetch - processPackages [starrailres]: executing diffoscope
+[2023-06-10 13:51:26] INFO root fetch - processPackages [starrailres]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starrailres-1.1.0.tar.gz tmp/starrailres-1.1.1.tar.gz --markdown 20230610/s/starrailres/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-06-10 13:51:26] INFO root fetch - processPackages [django-torque]: executing diffoscope
+[2023-06-10 13:51:26] INFO root fetch - processPackages [django-torque]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-torque-0.5.0a1.tar.gz tmp/django-torque-0.5.0a2.tar.gz --markdown 20230610/d/django-torque/0.5.0a1-0.5.0a2/diff.md --exclude *.pyd
+[2023-06-10 13:51:27] INFO root fetch - processPackages [dxtils]: Remove: archive file [/home/abi/fetcher/tmp/dxtils-0.0.4.tar.gz]
+[2023-06-10 13:51:27] INFO root fetch - processPackages [dxtils]: Remove: archive file [/home/abi/fetcher/tmp/dxtils-0.0.5.tar.gz]
+[2023-06-10 13:51:27] INFO root fetch - main [MainThread]: End processing [dxtils]: success
+[2023-06-10 13:51:27] INFO root fetch - processPackages [starrailres]: Remove: archive file [/home/abi/fetcher/tmp/starrailres-1.1.0.tar.gz]
+[2023-06-10 13:51:27] INFO root fetch - processPackages [starrailres]: Remove: archive file [/home/abi/fetcher/tmp/starrailres-1.1.1.tar.gz]
+[2023-06-10 13:51:27] INFO root fetch - main [MainThread]: End processing [starrailres]: success
+[2023-06-10 13:51:27] INFO root fetch - processPackages [django-torque]: Remove: archive file [/home/abi/fetcher/tmp/django-torque-0.5.0a1.tar.gz]
+[2023-06-10 13:51:27] INFO root fetch - processPackages [django-torque]: Remove: archive file [/home/abi/fetcher/tmp/django-torque-0.5.0a2.tar.gz]
+[2023-06-10 13:51:27] INFO root fetch - main [MainThread]: End processing [django-torque]: success
+[2023-06-10 13:51:27] INFO root fetch - processPackages [elasticai-creator]: Remove: archive file [/home/abi/fetcher/tmp/elasticai.creator-0.7.0.tar.gz]
+[2023-06-10 13:51:27] INFO root fetch - processPackages [elasticai-creator]: Remove: archive file [/home/abi/fetcher/tmp/elasticai.creator-0.9.0.tar.gz]
+[2023-06-10 13:51:27] INFO root fetch - main [MainThread]: End processing [elasticai-creator]: success
+[2023-06-10 13:51:27] INFO root fetch - main [MainThread]: Store serial: [18450326]
