@@ -16305,3 +16305,27 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-10 20:17:15] INFO root fetch - processPackages [gfs-dynamical-core]: Remove: archive file [/home/abi/fetcher/tmp/gfs_dynamical_core-0.1.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-06-10 20:17:15] INFO root fetch - main [MainThread]: End processing [gfs-dynamical-core]: success
 [2023-06-10 20:17:15] INFO root fetch - main [MainThread]: Store serial: [18452879]
+[2023-06-10 20:22:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18452879]
+[2023-06-10 20:22:25] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-10 20:22:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rxctl
+[2023-06-10 20:22:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dktotoolkit
+[2023-06-10 20:22:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: muheqa
+[2023-06-10 20:22:25] INFO root fetch - processPackages [rxctl]: New version: [1.0.1] Old Version: [0.1.8]
+[2023-06-10 20:22:25] INFO root fetch - processPackages [dktotoolkit]: New version: [1.0.2b0] Old Version: [1.0.1b2]
+[2023-06-10 20:22:25] WARNING root fetch - processPackages [muheqa]: Skipping, unable to determine old version
+[2023-06-10 20:22:25] INFO root fetch - main [MainThread]: End processing [muheqa] error
+[2023-06-10 20:22:25] INFO root fetch - processPackages [dktotoolkit]: Downloading https://files.pythonhosted.org/packages/cb/8f/8badc86c5a14e1d05d0874ea299c47b4ffe0acd72b6802d245211330e83d/dktotoolkit-1.0.1b2.tar.gz
+[2023-06-10 20:22:25] INFO root fetch - processPackages [rxctl]: Downloading https://files.pythonhosted.org/packages/29/cc/6a3ac23b6cb0b122ac11291f92e58e45b10613e1021928994532dd353fab/rxctl-0.1.8.tar.gz
+[2023-06-10 20:22:25] INFO root fetch - processPackages [rxctl]: Downloading https://files.pythonhosted.org/packages/4c/b6/d5d1a0271361b00fd15a7108e0df674ef90a7e99eb4ff9e013453f1667ca/rxctl-1.0.1.tar.gz
+[2023-06-10 20:22:25] INFO root fetch - processPackages [rxctl]: executing diffoscope
+[2023-06-10 20:22:25] INFO root fetch - processPackages [rxctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rxctl-0.1.8.tar.gz tmp/rxctl-1.0.1.tar.gz --markdown 20230610/r/rxctl/0.1.8-1.0.1/diff.md --exclude *.pyd
+[2023-06-10 20:22:25] INFO root fetch - processPackages [dktotoolkit]: Downloading https://files.pythonhosted.org/packages/21/f9/7e1ac2939e127a1805cce63ef9fda6e85728e4c30dc2df3ba8f56fe0cfbe/dktotoolkit-1.0.2b0.tar.gz
+[2023-06-10 20:22:26] INFO root fetch - processPackages [dktotoolkit]: executing diffoscope
+[2023-06-10 20:22:26] INFO root fetch - processPackages [dktotoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dktotoolkit-1.0.1b2.tar.gz tmp/dktotoolkit-1.0.2b0.tar.gz --markdown 20230610/d/dktotoolkit/1.0.1b2-1.0.2b0/diff.md --exclude *.pyd
+[2023-06-10 20:22:27] INFO root fetch - processPackages [dktotoolkit]: Remove: archive file [/home/abi/fetcher/tmp/dktotoolkit-1.0.1b2.tar.gz]
+[2023-06-10 20:22:27] INFO root fetch - processPackages [dktotoolkit]: Remove: archive file [/home/abi/fetcher/tmp/dktotoolkit-1.0.2b0.tar.gz]
+[2023-06-10 20:22:27] INFO root fetch - main [MainThread]: End processing [dktotoolkit]: success
+[2023-06-10 20:23:20] INFO root fetch - processPackages [rxctl]: Remove: archive file [/home/abi/fetcher/tmp/rxctl-0.1.8.tar.gz]
+[2023-06-10 20:23:20] INFO root fetch - processPackages [rxctl]: Remove: archive file [/home/abi/fetcher/tmp/rxctl-1.0.1.tar.gz]
+[2023-06-10 20:23:20] INFO root fetch - main [MainThread]: End processing [rxctl]: success
+[2023-06-10 20:23:20] INFO root fetch - main [MainThread]: Store serial: [18452894]
