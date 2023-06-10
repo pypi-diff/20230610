@@ -14625,3 +14625,93 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-10 18:05:24] INFO root fetch - processPackages [ultibi]: Remove: archive file [/home/abi/fetcher/tmp/ultibi-0.3.3.tar.gz]
 [2023-06-10 18:05:24] INFO root fetch - main [MainThread]: End processing [ultibi]: success
 [2023-06-10 18:05:24] INFO root fetch - main [MainThread]: Store serial: [18451985]
+[2023-06-10 18:10:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18451985]
+[2023-06-10 18:10:33] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-10 18:10:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: notification-service-nightly
+[2023-06-10 18:10:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyrademacher
+[2023-06-10 18:10:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ai-flow-nightly
+[2023-06-10 18:10:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: langchain
+[2023-06-10 18:10:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: blip-ci
+[2023-06-10 18:10:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: grrif-tools
+[2023-06-10 18:10:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: phenom-xfel
+[2023-06-10 18:10:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: web3cli
+[2023-06-10 18:10:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sinricpro
+[2023-06-10 18:10:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dsdiagram
+[2023-06-10 18:10:33] INFO root fetch - processPackages [notification-service-nightly]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-10 18:10:33] INFO root fetch - processPackages [blip-ci]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-10 18:10:33] INFO root fetch - processPackages [langchain]: New version: [0.0.99rc0] Old Version: [0.0.99]
+[2023-06-10 18:10:33] INFO root fetch - processPackages [pyrademacher]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-10 18:10:33] INFO root fetch - processPackages [grrif-tools]: New version: [0.7.1] Old Version: [0.6.2]
+[2023-06-10 18:10:33] INFO root fetch - processPackages [ai-flow-nightly]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-10 18:10:33] WARNING root fetch - processPackages [phenom-xfel]: Skipping, unable to determine old version
+[2023-06-10 18:10:33] INFO root fetch - processPackages [phenom-xfel]: Start processing: velesresearch
+[2023-06-10 18:10:33] INFO root fetch - main [MainThread]: End processing [phenom-xfel] error
+[2023-06-10 18:10:33] INFO root fetch - processPackages [web3cli]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-06-10 18:10:33] INFO root fetch - processPackages [velesresearch]: New version: [0.0.4.post1] Old Version: [0.0.4]
+[2023-06-10 18:10:33] INFO root fetch - processPackages [langchain]: Downloading https://files.pythonhosted.org/packages/24/6a/f6c87d4ef49bae4d166fa3be99402f669acf9aa59b4d1d31342da0c57e32/langchain-0.0.99.tar.gz
+[2023-06-10 18:10:33] INFO root fetch - processPackages [ai-flow-nightly]: Downloading https://files.pythonhosted.org/packages/34/1d/be9be06cee41d896178e7bb38ed9dec185d52aae65bb569e8174d486e5ed/ai_flow_nightly-2023.6.8.tar.gz
+[2023-06-10 18:10:33] INFO root fetch - processPackages [sinricpro]: New version: [2.7.1] Old Version: [2.6.4]
+[2023-06-10 18:10:33] INFO root fetch - processPackages [notification-service-nightly]: Downloading https://files.pythonhosted.org/packages/60/1e/33a59a6d19349b60110279e0f4904b88c93779a866e4df1bb5fdc97ea00c/notification_service_nightly-2023.6.8.tar.gz
+[2023-06-10 18:10:33] ERROR root fetch - processPackages [dsdiagram]: Unable to get metadata: No such project 'dsdiagram'
+[2023-06-10 18:10:33] INFO root fetch - main [MainThread]: End processing [dsdiagram] error
+[2023-06-10 18:10:33] INFO root fetch - processPackages [velesresearch]: Downloading https://files.pythonhosted.org/packages/06/c6/2c00ab7dbb9a81cbd125494b694fea3b79b968741d8952ca52bdbf9ef3d1/velesresearch-0.0.4.tar.gz
+[2023-06-10 18:10:33] INFO root fetch - processPackages [langchain]: Downloading https://files.pythonhosted.org/packages/8e/d3/a01f18d4cda1e4e2cbed8c15693f649fb439aab4b94f0c2a0ed636bbe505/langchain-0.0.99rc0.tar.gz
+[2023-06-10 18:10:33] INFO root fetch - processPackages [langchain]: executing diffoscope
+[2023-06-10 18:10:33] INFO root fetch - processPackages [langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-0.0.99.tar.gz tmp/langchain-0.0.99rc0.tar.gz --markdown 20230610/l/langchain/0.0.99-0.0.99rc0/diff.md --exclude *.pyd
+[2023-06-10 18:10:33] INFO root fetch - processPackages [blip-ci]: Downloading https://files.pythonhosted.org/packages/08/df/92521a45ae427d5bef26b64cb920688911e4f5709f06500766cbd4d015ff/blip-ci-0.0.3.tar.gz
+[2023-06-10 18:10:33] INFO root fetch - processPackages [velesresearch]: Downloading https://files.pythonhosted.org/packages/9c/33/f20f4429f2ca27259bb3a4d21e7e43e12a27be5a753a409d9f56814ef05d/velesresearch-0.0.4.post1.tar.gz
+[2023-06-10 18:10:33] INFO root fetch - processPackages [grrif-tools]: Downloading https://files.pythonhosted.org/packages/6b/8e/2bc1c1d0f5f67d983e2584113b2706652c755cdb9ffe5f07b8eba2ca5054/grrif_tools-0.6.2.tar.gz
+[2023-06-10 18:10:33] INFO root fetch - processPackages [pyrademacher]: Downloading https://files.pythonhosted.org/packages/02/12/6b35c4f5c1445a0947c03a2d92b9549033a7c04b9cb4afb639778d7fb131/pyrademacher-0.9.8.tar.gz
+[2023-06-10 18:10:33] INFO root fetch - processPackages [velesresearch]: executing diffoscope
+[2023-06-10 18:10:33] INFO root fetch - processPackages [velesresearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/velesresearch-0.0.4.tar.gz tmp/velesresearch-0.0.4.post1.tar.gz --markdown 20230610/v/velesresearch/0.0.4-0.0.4.post1/diff.md --exclude *.pyd
+[2023-06-10 18:10:33] INFO root fetch - processPackages [sinricpro]: Downloading https://files.pythonhosted.org/packages/81/b6/9c6555cd1d22a5635ee5d988f6b641a0e252c9b74ee97078818472b686ba/sinricpro-2.6.4.tar.gz
+[2023-06-10 18:10:33] INFO root fetch - processPackages [web3cli]: Downloading https://files.pythonhosted.org/packages/50/46/8173f54e0d40f902212f4692de4339d7e5b99a7a6aba700a43c2bebb5247/web3cli-1.1.0.tar.gz
+[2023-06-10 18:10:33] INFO root fetch - processPackages [ai-flow-nightly]: Downloading https://files.pythonhosted.org/packages/cc/73/3f73f232627f5ecbe868f04b645ad7af47bcedf955abd2f49f643b401ca5/ai_flow_nightly-2023.6.9.tar.gz
+[2023-06-10 18:10:33] INFO root fetch - processPackages [notification-service-nightly]: Downloading https://files.pythonhosted.org/packages/f8/ce/f2cdb54fd34d5f722838df65d988beeaf815ec747efab45a21e56deaaa7c/notification_service_nightly-2023.6.9.tar.gz
+[2023-06-10 18:10:33] INFO root fetch - processPackages [blip-ci]: Downloading https://files.pythonhosted.org/packages/a8/8d/4ece9bd651a63dc0b2c3ca62fb9af73331178464779eb0e585e66e1ef9b9/blip-ci-0.0.4.tar.gz
+[2023-06-10 18:10:33] INFO root fetch - processPackages [ai-flow-nightly]: executing diffoscope
+[2023-06-10 18:10:33] INFO root fetch - processPackages [ai-flow-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai_flow_nightly-2023.6.8.tar.gz tmp/ai_flow_nightly-2023.6.9.tar.gz --markdown 20230610/a/ai-flow-nightly/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-10 18:10:33] INFO root fetch - processPackages [web3cli]: Downloading https://files.pythonhosted.org/packages/fc/56/85a1c229fa01e4ec598cae1ee3354df363ad39c760753ba8d13b14fbbae8/web3cli-1.1.1.tar.gz
+[2023-06-10 18:10:33] INFO root fetch - processPackages [blip-ci]: executing diffoscope
+[2023-06-10 18:10:33] INFO root fetch - processPackages [blip-ci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blip-ci-0.0.3.tar.gz tmp/blip-ci-0.0.4.tar.gz --markdown 20230610/b/blip-ci/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-10 18:10:33] INFO root fetch - processPackages [notification-service-nightly]: executing diffoscope
+[2023-06-10 18:10:33] INFO root fetch - processPackages [notification-service-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notification_service_nightly-2023.6.8.tar.gz tmp/notification_service_nightly-2023.6.9.tar.gz --markdown 20230610/n/notification-service-nightly/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-10 18:10:33] INFO root fetch - processPackages [grrif-tools]: Downloading https://files.pythonhosted.org/packages/9f/2e/bf256bb74c2ec04951c91a13d09b9d3c43c8cb2eab3493d9217a08823aa9/grrif_tools-0.7.1.tar.gz
+[2023-06-10 18:10:33] INFO root fetch - processPackages [sinricpro]: Downloading https://files.pythonhosted.org/packages/de/92/81bbecbc6e336152be3d443004e4c9d63ffe4ba735b298466909d558889d/sinricpro-2.7.1.tar.gz
+[2023-06-10 18:10:33] INFO root fetch - processPackages [pyrademacher]: Downloading https://files.pythonhosted.org/packages/97/06/40b8c17bb8a3a79653e7c9fa154c89fb8e4e1122553a6f696919593d2fa9/pyrademacher-0.9.9.tar.gz
+[2023-06-10 18:10:33] INFO root fetch - processPackages [web3cli]: executing diffoscope
+[2023-06-10 18:10:33] INFO root fetch - processPackages [web3cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/web3cli-1.1.0.tar.gz tmp/web3cli-1.1.1.tar.gz --markdown 20230610/w/web3cli/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-06-10 18:10:33] INFO root fetch - processPackages [pyrademacher]: executing diffoscope
+[2023-06-10 18:10:33] INFO root fetch - processPackages [pyrademacher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrademacher-0.9.8.tar.gz tmp/pyrademacher-0.9.9.tar.gz --markdown 20230610/p/pyrademacher/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-10 18:10:33] INFO root fetch - processPackages [grrif-tools]: executing diffoscope
+[2023-06-10 18:10:33] INFO root fetch - processPackages [grrif-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grrif_tools-0.6.2.tar.gz tmp/grrif_tools-0.7.1.tar.gz --markdown 20230610/g/grrif-tools/0.6.2-0.7.1/diff.md --exclude *.pyd
+[2023-06-10 18:10:33] INFO root fetch - processPackages [sinricpro]: executing diffoscope
+[2023-06-10 18:10:33] INFO root fetch - processPackages [sinricpro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sinricpro-2.6.4.tar.gz tmp/sinricpro-2.7.1.tar.gz --markdown 20230610/s/sinricpro/2.6.4-2.7.1/diff.md --exclude *.pyd
+[2023-06-10 18:10:34] INFO root fetch - processPackages [velesresearch]: Remove: archive file [/home/abi/fetcher/tmp/velesresearch-0.0.4.tar.gz]
+[2023-06-10 18:10:34] INFO root fetch - processPackages [velesresearch]: Remove: archive file [/home/abi/fetcher/tmp/velesresearch-0.0.4.post1.tar.gz]
+[2023-06-10 18:10:34] INFO root fetch - main [MainThread]: End processing [velesresearch]: success
+[2023-06-10 18:10:35] INFO root fetch - processPackages [pyrademacher]: Remove: archive file [/home/abi/fetcher/tmp/pyrademacher-0.9.8.tar.gz]
+[2023-06-10 18:10:35] INFO root fetch - processPackages [pyrademacher]: Remove: archive file [/home/abi/fetcher/tmp/pyrademacher-0.9.9.tar.gz]
+[2023-06-10 18:10:35] INFO root fetch - main [MainThread]: End processing [pyrademacher]: success
+[2023-06-10 18:10:35] INFO root fetch - processPackages [grrif-tools]: Remove: archive file [/home/abi/fetcher/tmp/grrif_tools-0.6.2.tar.gz]
+[2023-06-10 18:10:35] INFO root fetch - processPackages [grrif-tools]: Remove: archive file [/home/abi/fetcher/tmp/grrif_tools-0.7.1.tar.gz]
+[2023-06-10 18:10:35] INFO root fetch - main [MainThread]: End processing [grrif-tools]: success
+[2023-06-10 18:10:35] INFO root fetch - processPackages [sinricpro]: Remove: archive file [/home/abi/fetcher/tmp/sinricpro-2.6.4.tar.gz]
+[2023-06-10 18:10:35] INFO root fetch - processPackages [sinricpro]: Remove: archive file [/home/abi/fetcher/tmp/sinricpro-2.7.1.tar.gz]
+[2023-06-10 18:10:35] INFO root fetch - main [MainThread]: End processing [sinricpro]: success
+[2023-06-10 18:10:35] INFO root fetch - processPackages [web3cli]: Remove: archive file [/home/abi/fetcher/tmp/web3cli-1.1.0.tar.gz]
+[2023-06-10 18:10:35] INFO root fetch - processPackages [web3cli]: Remove: archive file [/home/abi/fetcher/tmp/web3cli-1.1.1.tar.gz]
+[2023-06-10 18:10:35] INFO root fetch - main [MainThread]: End processing [web3cli]: success
+[2023-06-10 18:10:35] INFO root fetch - processPackages [notification-service-nightly]: Remove: archive file [/home/abi/fetcher/tmp/notification_service_nightly-2023.6.8.tar.gz]
+[2023-06-10 18:10:35] INFO root fetch - processPackages [notification-service-nightly]: Remove: archive file [/home/abi/fetcher/tmp/notification_service_nightly-2023.6.9.tar.gz]
+[2023-06-10 18:10:35] INFO root fetch - main [MainThread]: End processing [notification-service-nightly]: success
+[2023-06-10 18:10:36] INFO root fetch - processPackages [langchain]: Remove: archive file [/home/abi/fetcher/tmp/langchain-0.0.99.tar.gz]
+[2023-06-10 18:10:36] INFO root fetch - processPackages [langchain]: Remove: archive file [/home/abi/fetcher/tmp/langchain-0.0.99rc0.tar.gz]
+[2023-06-10 18:10:36] INFO root fetch - main [MainThread]: End processing [langchain]: success
+[2023-06-10 18:10:36] INFO root fetch - processPackages [blip-ci]: Remove: archive file [/home/abi/fetcher/tmp/blip-ci-0.0.3.tar.gz]
+[2023-06-10 18:10:36] INFO root fetch - processPackages [blip-ci]: Remove: archive file [/home/abi/fetcher/tmp/blip-ci-0.0.4.tar.gz]
+[2023-06-10 18:10:36] INFO root fetch - main [MainThread]: End processing [blip-ci]: success
+[2023-06-10 18:10:38] INFO root fetch - processPackages [ai-flow-nightly]: Remove: archive file [/home/abi/fetcher/tmp/ai_flow_nightly-2023.6.8.tar.gz]
+[2023-06-10 18:10:38] INFO root fetch - processPackages [ai-flow-nightly]: Remove: archive file [/home/abi/fetcher/tmp/ai_flow_nightly-2023.6.9.tar.gz]
+[2023-06-10 18:10:38] INFO root fetch - main [MainThread]: End processing [ai-flow-nightly]: success
+[2023-06-10 18:10:38] INFO root fetch - main [MainThread]: Store serial: [18452021]
