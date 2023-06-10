@@ -10350,3 +10350,59 @@ EOFError: EOF read where object expected
 [2023-06-10 12:08:57] INFO root fetch - processPackages [ascend-deployer]: Remove: archive file [/home/abi/fetcher/tmp/ascend_deployer-5.0.0b4-py3-none-any.whl.zip]
 [2023-06-10 12:08:57] INFO root fetch - main [MainThread]: End processing [ascend-deployer]: success
 [2023-06-10 12:08:57] INFO root fetch - main [MainThread]: Store serial: [18449924]
+[2023-06-10 12:14:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18449924]
+[2023-06-10 12:14:07] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-10 12:14:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: garmin-ace
+[2023-06-10 12:14:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openllm
+[2023-06-10 12:14:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tdbot
+[2023-06-10 12:14:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: humlab-penelope
+[2023-06-10 12:14:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lnschema_core
+[2023-06-10 12:14:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyfilehandling
+[2023-06-10 12:14:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dm-reverb-nightly
+[2023-06-10 12:14:07] INFO root fetch - processPackages [garmin-ace]: New version: [0.0.1a2] Old Version: [0.0.1a1]
+[2023-06-10 12:14:07] WARNING root fetch - processPackages [tdbot]: Skipping, unable to determine old version
+[2023-06-10 12:14:07] INFO root fetch - main [MainThread]: End processing [tdbot] error
+[2023-06-10 12:14:07] INFO root fetch - processPackages [openllm]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-10 12:14:07] INFO root fetch - processPackages [lnschema_core]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-06-10 12:14:07] INFO root fetch - processPackages [pyfilehandling]: New version: [1.1.1] Old Version: [1.1]
+[2023-06-10 12:14:07] INFO root fetch - processPackages [humlab-penelope]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-06-10 12:14:07] INFO root fetch - processPackages [openllm]: Downloading https://files.pythonhosted.org/packages/36/cd/20848bcb4c9b68c31a099ce94b6edef3d995143454f89cbb9db8e7b7c99f/openllm-0.0.8.tar.gz
+[2023-06-10 12:14:07] INFO root fetch - processPackages [pyfilehandling]: Downloading https://files.pythonhosted.org/packages/e0/bf/e2857a910b7865af4a09ab1c1d77a38978e8c188786c3f0c410b92396a21/pyfilehandling-1.1.tar.gz
+[2023-06-10 12:14:07] INFO root fetch - processPackages [lnschema_core]: Downloading https://files.pythonhosted.org/packages/7a/53/1459e32f6943488250f623718aeb560351a142d81c57a5fc8ef6b0dd1680/lnschema_core-0.8.1.tar.gz
+[2023-06-10 12:14:07] INFO root fetch - processPackages [dm-reverb-nightly]: New version: [0.9.0.dev20221207] Old Version: [0.9.0.dev20221206]
+[2023-06-10 12:14:07] INFO root fetch - processPackages [garmin-ace]: Downloading https://files.pythonhosted.org/packages/e3/37/b3351e3c6141e5d0a2b35bb9b050e1b9e70ccccbbd8b45fe495689095deb/garmin_ace-0.0.1a1.tar.gz
+[2023-06-10 12:14:07] INFO root fetch - processPackages [dm-reverb-nightly]: Downloading https://files.pythonhosted.org/packages/b4/60/e92fdb2c772dd865b56f7c50bfc1c4bffe5431b4007700cd760900e7aaf2/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-10 12:14:07] INFO root fetch - processPackages [humlab-penelope]: Downloading https://files.pythonhosted.org/packages/d8/ca/dedea523957beaa5dab86604ac3a1877a34c4a4036306f5610f37f3eeb10/humlab-penelope-0.7.8.tar.gz
+[2023-06-10 12:14:07] WARNING root fetch - processPackages [openllm]: Skipping package: exceeds size limit 11989091>=10485760
+[2023-06-10 12:14:07] INFO root fetch - main [MainThread]: End processing [openllm] error
+[2023-06-10 12:14:07] INFO root fetch - processPackages [lnschema_core]: Downloading https://files.pythonhosted.org/packages/39/cd/cc4d91db21934f66692bedcbdb15fc2c82698c7cc9d0288133e8fa2f5cee/lnschema_core-0.9.0.tar.gz
+[2023-06-10 12:14:07] INFO root fetch - processPackages [garmin-ace]: Downloading https://files.pythonhosted.org/packages/93/73/b929f5c09ee8a7c0e2c34cbc73a67c4becdc7041e9d7d34f55d57a1d142c/garmin_ace-0.0.1a2.tar.gz
+[2023-06-10 12:14:07] INFO root fetch - processPackages [pyfilehandling]: Downloading https://files.pythonhosted.org/packages/06/f1/5e480e27d9ab796ed63b6b4ebf4435d4b3d6efbc62b2fb4b2e82cf7e0ef6/pyfilehandling-1.1.1.tar.gz
+[2023-06-10 12:14:07] INFO root fetch - processPackages [garmin-ace]: executing diffoscope
+[2023-06-10 12:14:07] INFO root fetch - processPackages [garmin-ace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garmin_ace-0.0.1a1.tar.gz tmp/garmin_ace-0.0.1a2.tar.gz --markdown 20230610/g/garmin-ace/0.0.1a1-0.0.1a2/diff.md --exclude *.pyd
+[2023-06-10 12:14:07] INFO root fetch - processPackages [humlab-penelope]: Downloading https://files.pythonhosted.org/packages/cd/64/b400304bb580cd93a392737813c0281428d325fb97fce6726ec5b53a4fd3/humlab-penelope-0.7.9.tar.gz
+[2023-06-10 12:14:07] INFO root fetch - processPackages [lnschema_core]: executing diffoscope
+[2023-06-10 12:14:07] INFO root fetch - processPackages [lnschema_core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnschema_core-0.8.1.tar.gz tmp/lnschema_core-0.9.0.tar.gz --markdown 20230610/l/lnschema_core/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-06-10 12:14:07] INFO root fetch - processPackages [pyfilehandling]: executing diffoscope
+[2023-06-10 12:14:07] INFO root fetch - processPackages [pyfilehandling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfilehandling-1.1.tar.gz tmp/pyfilehandling-1.1.1.tar.gz --markdown 20230610/p/pyfilehandling/1.1-1.1.1/diff.md --exclude *.pyd
+[2023-06-10 12:14:07] INFO root fetch - processPackages [humlab-penelope]: executing diffoscope
+[2023-06-10 12:14:07] INFO root fetch - processPackages [humlab-penelope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/humlab-penelope-0.7.8.tar.gz tmp/humlab-penelope-0.7.9.tar.gz --markdown 20230610/h/humlab-penelope/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-06-10 12:14:08] INFO root fetch - processPackages [dm-reverb-nightly]: Downloading https://files.pythonhosted.org/packages/07/ba/e9ef4e61b606a17814023d4b0a99ebf04f48787449f89134eb770db70591/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-10 12:14:08] INFO root fetch - processPackages [garmin-ace]: Remove: archive file [/home/abi/fetcher/tmp/garmin_ace-0.0.1a1.tar.gz]
+[2023-06-10 12:14:08] INFO root fetch - processPackages [garmin-ace]: Remove: archive file [/home/abi/fetcher/tmp/garmin_ace-0.0.1a2.tar.gz]
+[2023-06-10 12:14:08] INFO root fetch - main [MainThread]: End processing [garmin-ace]: success
+[2023-06-10 12:14:08] INFO root fetch - processPackages [pyfilehandling]: Remove: archive file [/home/abi/fetcher/tmp/pyfilehandling-1.1.tar.gz]
+[2023-06-10 12:14:08] INFO root fetch - processPackages [pyfilehandling]: Remove: archive file [/home/abi/fetcher/tmp/pyfilehandling-1.1.1.tar.gz]
+[2023-06-10 12:14:08] INFO root fetch - main [MainThread]: End processing [pyfilehandling]: success
+[2023-06-10 12:14:08] INFO root fetch - processPackages [lnschema_core]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_core-0.8.1.tar.gz]
+[2023-06-10 12:14:08] INFO root fetch - processPackages [lnschema_core]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_core-0.9.0.tar.gz]
+[2023-06-10 12:14:08] INFO root fetch - main [MainThread]: End processing [lnschema_core]: success
+[2023-06-10 12:14:09] INFO root fetch - processPackages [dm-reverb-nightly]: executing diffoscope
+[2023-06-10 12:14:09] INFO root fetch - processPackages [dm-reverb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230610/d/dm-reverb-nightly/0.9.0.dev20221206-0.9.0.dev20221207/diff.md --exclude *.pyd
+[2023-06-10 12:14:10] INFO root fetch - processPackages [humlab-penelope]: Remove: archive file [/home/abi/fetcher/tmp/humlab-penelope-0.7.8.tar.gz]
+[2023-06-10 12:14:10] INFO root fetch - processPackages [humlab-penelope]: Remove: archive file [/home/abi/fetcher/tmp/humlab-penelope-0.7.9.tar.gz]
+[2023-06-10 12:14:10] INFO root fetch - main [MainThread]: End processing [humlab-penelope]: success
+[2023-06-10 12:15:02] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-06-10 12:15:02] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-06-10 12:15:02] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
+[2023-06-10 12:15:02] INFO root fetch - main [MainThread]: Store serial: [18449951]
