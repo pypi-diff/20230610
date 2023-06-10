@@ -9143,3 +9143,78 @@ EOFError: EOF read where object expected
 [2023-06-10 09:49:34] INFO root fetch - processPackages [nonebot-bison-migang]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_bison_migang-0.0.5.tar.gz]
 [2023-06-10 09:49:34] INFO root fetch - main [MainThread]: End processing [nonebot-bison-migang]: success
 [2023-06-10 09:49:34] INFO root fetch - main [MainThread]: Store serial: [18449424]
+[2023-06-10 09:54:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18449424]
+[2023-06-10 09:54:45] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-10 09:54:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tf-nightly-cpu
+[2023-06-10 09:54:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kcli
+[2023-06-10 09:54:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: evennia
+[2023-06-10 09:54:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hotpot-zzy
+[2023-06-10 09:54:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: textalloc
+[2023-06-10 09:54:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: python-code-outline
+[2023-06-10 09:54:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: folder-tree-generator
+[2023-06-10 09:54:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kfish
+[2023-06-10 09:54:45] INFO root fetch - processPackages [evennia]: New version: [2.0.0] Old Version: [1.3.0]
+[2023-06-10 09:54:45] INFO root fetch - processPackages [python-code-outline]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-10 09:54:45] INFO root fetch - processPackages [hotpot-zzy]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-10 09:54:45] INFO root fetch - processPackages [folder-tree-generator]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-10 09:54:45] INFO root fetch - processPackages [kfish]: New version: [99.0.202306100753] Old Version: [99.0.202306092006]
+[2023-06-10 09:54:45] INFO root fetch - processPackages [textalloc]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-10 09:54:45] INFO root fetch - processPackages [kcli]: New version: [99.0.202306100751] Old Version: [99.0.202306092004]
+[2023-06-10 09:54:45] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.14.0.dev20230610] Old Version: [2.14.0.dev20230609]
+[2023-06-10 09:54:45] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/85/27/f984cdd333648cf701eb410a84337ba76090866a9ea96257b3ac40fcaf44/kfish-99.0.202306092006-py3-none-any.whl
+[2023-06-10 09:54:45] INFO root fetch - processPackages [python-code-outline]: Downloading https://files.pythonhosted.org/packages/a0/14/25bb34c9cf13c47a18a170d302c8e279f1c6c7e1a00a6f2b7b35d0402b8f/python_code_outline-0.1.6.tar.gz
+[2023-06-10 09:54:45] INFO root fetch - processPackages [evennia]: Downloading https://files.pythonhosted.org/packages/a1/7b/7c3275cbcbdbfdc550f4c8f1baa79e86d10e834bb5e0cce2fc09b2c5643f/evennia-1.3.0.tar.gz
+[2023-06-10 09:54:45] INFO root fetch - processPackages [hotpot-zzy]: Downloading https://files.pythonhosted.org/packages/15/08/40a4f8d1c8ee809e2c8ce53c51537f0c4d903e592335fd46128e441b6b6a/hotpot-zzy-0.2.2.tar.gz
+[2023-06-10 09:54:45] INFO root fetch - processPackages [textalloc]: Downloading https://files.pythonhosted.org/packages/bd/2d/1eba43eff508cb96b66bdf48261ec5978949186952cddfefd3b58acd682b/textalloc-0.0.5.tar.gz
+[2023-06-10 09:54:45] INFO root fetch - processPackages [folder-tree-generator]: Downloading https://files.pythonhosted.org/packages/6c/fe/bbc18edb4187500d38a41b5bbd275a36f684740caa02fa0947b731655f19/folder_tree_generator-0.1.8.tar.gz
+[2023-06-10 09:54:45] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/a4/5a/1b14c7e64db3498f99a3492b29b57f860a7c29eceb9fc24e7de8193dd32e/kcli-99.0.202306092004-py3-none-any.whl
+[2023-06-10 09:54:45] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/e7/74/3f1c64266aaa974f90280d90a766003861118e85e858c972ca6bcd149ff0/tf_nightly_cpu-2.14.0.dev20230609-cp39-cp39-win_amd64.whl
+[2023-06-10 09:54:45] INFO root fetch - processPackages [hotpot-zzy]: Downloading https://files.pythonhosted.org/packages/e1/ba/eae2365828949e58c6ec804d8aa896d43dc965ad71b3a366bae6461721dd/hotpot-zzy-0.2.3.tar.gz
+[2023-06-10 09:54:45] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/65/c3/9a959f76e8fa69c5028df32f25a11b75aa2359e976ba6ff5f665a37b9aa5/kfish-99.0.202306100753-py3-none-any.whl
+[2023-06-10 09:54:45] INFO root fetch - processPackages [textalloc]: Downloading https://files.pythonhosted.org/packages/0a/25/8a262e580a39307910ea9a0abfe2719e48d41f5fca00f3721c85adf5b9ef/textalloc-0.0.6.tar.gz
+[2023-06-10 09:54:45] INFO root fetch - processPackages [python-code-outline]: Downloading https://files.pythonhosted.org/packages/ae/bd/5cceaf3129c15cdc9c7195d4baaffc44cc02eaa18b7debf72d35d28e9fba/python_code_outline-0.1.7.tar.gz
+[2023-06-10 09:54:45] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/45/33/a12c8a0903d264d7ce960af2910d334ad544481dd694f465f3bfb4d4000e/tf_nightly_cpu-2.14.0.dev20230610-cp39-cp39-win_amd64.whl
+[2023-06-10 09:54:45] INFO root fetch - processPackages [hotpot-zzy]: executing diffoscope
+[2023-06-10 09:54:45] INFO root fetch - processPackages [hotpot-zzy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotpot-zzy-0.2.2.tar.gz tmp/hotpot-zzy-0.2.3.tar.gz --markdown 20230610/h/hotpot-zzy/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-10 09:54:45] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/ca/f7/1031ca5f238d7d402ad684569b1c9dee994bdfe3bd8f36444bb448a89bc9/kcli-99.0.202306100751-py3-none-any.whl
+[2023-06-10 09:54:45] INFO root fetch - processPackages [folder-tree-generator]: Downloading https://files.pythonhosted.org/packages/af/8c/6fbaa1474b672735423e92f428a9a5f54acdd7e0a9603ee7ba1e08bb0d71/folder_tree_generator-0.1.9.tar.gz
+[2023-06-10 09:54:45] INFO root fetch - processPackages [textalloc]: executing diffoscope
+[2023-06-10 09:54:45] INFO root fetch - processPackages [textalloc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textalloc-0.0.5.tar.gz tmp/textalloc-0.0.6.tar.gz --markdown 20230610/t/textalloc/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-10 09:54:45] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-06-10 09:54:45] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202306092006-py3-none-any.whl.zip tmp/kfish-99.0.202306100753-py3-none-any.whl.zip --markdown 20230610/k/kfish/99.0.202306092006-99.0.202306100753/diff.md --exclude *.pyd
+[2023-06-10 09:54:45] INFO root fetch - processPackages [python-code-outline]: executing diffoscope
+[2023-06-10 09:54:45] INFO root fetch - processPackages [python-code-outline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_code_outline-0.1.6.tar.gz tmp/python_code_outline-0.1.7.tar.gz --markdown 20230610/p/python-code-outline/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-10 09:54:45] INFO root fetch - processPackages [folder-tree-generator]: executing diffoscope
+[2023-06-10 09:54:45] INFO root fetch - processPackages [folder-tree-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/folder_tree_generator-0.1.8.tar.gz tmp/folder_tree_generator-0.1.9.tar.gz --markdown 20230610/f/folder-tree-generator/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-10 09:54:45] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2023-06-10 09:54:45] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.14.0.dev20230609-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.14.0.dev20230610-cp39-cp39-win_amd64.whl.zip --markdown 20230610/t/tf-nightly-cpu/2.14.0.dev20230609-2.14.0.dev20230610/diff.md --exclude *.pyd
+[2023-06-10 09:54:45] INFO root fetch - processPackages [evennia]: Downloading https://files.pythonhosted.org/packages/51/03/0bd0688e390e0bc66af3fcccb44a7a8f4399a6d47c2c2825e3bd7912fd7d/evennia-2.0.0.tar.gz
+[2023-06-10 09:54:46] INFO root fetch - processPackages [evennia]: executing diffoscope
+[2023-06-10 09:54:46] INFO root fetch - processPackages [evennia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evennia-1.3.0.tar.gz tmp/evennia-2.0.0.tar.gz --markdown 20230610/e/evennia/1.3.0-2.0.0/diff.md --exclude *.pyd
+[2023-06-10 09:54:46] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-06-10 09:54:46] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202306092004-py3-none-any.whl.zip tmp/kcli-99.0.202306100751-py3-none-any.whl.zip --markdown 20230610/k/kcli/99.0.202306092004-99.0.202306100751/diff.md --exclude *.pyd
+[2023-06-10 09:54:47] INFO root fetch - processPackages [python-code-outline]: Remove: archive file [/home/abi/fetcher/tmp/python_code_outline-0.1.6.tar.gz]
+[2023-06-10 09:54:47] INFO root fetch - processPackages [python-code-outline]: Remove: archive file [/home/abi/fetcher/tmp/python_code_outline-0.1.7.tar.gz]
+[2023-06-10 09:54:47] INFO root fetch - main [MainThread]: End processing [python-code-outline]: success
+[2023-06-10 09:54:47] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306092006-py3-none-any.whl.zip]
+[2023-06-10 09:54:47] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306100753-py3-none-any.whl.zip]
+[2023-06-10 09:54:47] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-06-10 09:54:47] INFO root fetch - processPackages [textalloc]: Remove: archive file [/home/abi/fetcher/tmp/textalloc-0.0.5.tar.gz]
+[2023-06-10 09:54:47] INFO root fetch - processPackages [textalloc]: Remove: archive file [/home/abi/fetcher/tmp/textalloc-0.0.6.tar.gz]
+[2023-06-10 09:54:47] INFO root fetch - main [MainThread]: End processing [textalloc]: success
+[2023-06-10 09:54:47] INFO root fetch - processPackages [folder-tree-generator]: Remove: archive file [/home/abi/fetcher/tmp/folder_tree_generator-0.1.8.tar.gz]
+[2023-06-10 09:54:47] INFO root fetch - processPackages [folder-tree-generator]: Remove: archive file [/home/abi/fetcher/tmp/folder_tree_generator-0.1.9.tar.gz]
+[2023-06-10 09:54:47] INFO root fetch - main [MainThread]: End processing [folder-tree-generator]: success
+[2023-06-10 09:54:47] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230609-cp39-cp39-win_amd64.whl.zip]
+[2023-06-10 09:54:47] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230610-cp39-cp39-win_amd64.whl.zip]
+[2023-06-10 09:54:47] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2023-06-10 09:54:47] INFO root fetch - processPackages [hotpot-zzy]: Remove: archive file [/home/abi/fetcher/tmp/hotpot-zzy-0.2.2.tar.gz]
+[2023-06-10 09:54:47] INFO root fetch - processPackages [hotpot-zzy]: Remove: archive file [/home/abi/fetcher/tmp/hotpot-zzy-0.2.3.tar.gz]
+[2023-06-10 09:54:47] INFO root fetch - main [MainThread]: End processing [hotpot-zzy]: success
+[2023-06-10 09:54:55] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306092004-py3-none-any.whl.zip]
+[2023-06-10 09:54:55] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306100751-py3-none-any.whl.zip]
+[2023-06-10 09:54:55] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-06-10 09:54:58] INFO root fetch - processPackages [evennia]: Remove: archive file [/home/abi/fetcher/tmp/evennia-1.3.0.tar.gz]
+[2023-06-10 09:54:58] INFO root fetch - processPackages [evennia]: Remove: archive file [/home/abi/fetcher/tmp/evennia-2.0.0.tar.gz]
+[2023-06-10 09:54:58] INFO root fetch - main [MainThread]: End processing [evennia]: success
+[2023-06-10 09:54:58] INFO root fetch - main [MainThread]: Store serial: [18449449]
