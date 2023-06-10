@@ -16392,3 +16392,17 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-10 20:28:35] INFO root fetch - processPackages [confattr]: Remove: archive file [/home/abi/fetcher/tmp/confattr-0.9.1.tar.gz]
 [2023-06-10 20:28:35] INFO root fetch - main [MainThread]: End processing [confattr]: success
 [2023-06-10 20:28:35] INFO root fetch - main [MainThread]: Store serial: [18452926]
+[2023-06-10 20:33:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18452926]
+[2023-06-10 20:33:44] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-10 20:33:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: superagi
+[2023-06-10 20:33:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: localgpt
+[2023-06-10 20:33:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lollms
+[2023-06-10 20:33:44] INFO root fetch - processPackages [lollms]: New version: [1.1.9] Old Version: [1.1.7]
+[2023-06-10 20:33:44] WARNING root fetch - processPackages [superagi]: Skipping, unable to determine old version
+[2023-06-10 20:33:44] INFO root fetch - main [MainThread]: End processing [superagi] error
+[2023-06-10 20:33:44] WARNING root fetch - processPackages [localgpt]: Skipping, unable to determine old version
+[2023-06-10 20:33:44] INFO root fetch - main [MainThread]: End processing [localgpt] error
+[2023-06-10 20:33:44] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/3d/63/5860743c06fbd44180fc9469d6a01bbc0644f8be5bc965843b7c2864a173/lollms-1.1.7.tar.gz
+[2023-06-10 20:33:44] WARNING root fetch - processPackages [lollms]: Skipping package: exceeds size limit 17349845>=10485760
+[2023-06-10 20:33:44] INFO root fetch - main [MainThread]: End processing [lollms] error
+[2023-06-10 20:33:44] INFO root fetch - main [MainThread]: Store serial: [18452939]
