@@ -14715,3 +14715,36 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-10 18:10:38] INFO root fetch - processPackages [ai-flow-nightly]: Remove: archive file [/home/abi/fetcher/tmp/ai_flow_nightly-2023.6.9.tar.gz]
 [2023-06-10 18:10:38] INFO root fetch - main [MainThread]: End processing [ai-flow-nightly]: success
 [2023-06-10 18:10:38] INFO root fetch - main [MainThread]: Store serial: [18452021]
+[2023-06-10 18:15:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18452021]
+[2023-06-10 18:15:47] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-10 18:15:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dsdiagram
+[2023-06-10 18:15:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: velesresearch
+[2023-06-10 18:15:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aioqui
+[2023-06-10 18:15:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flexmeasures
+[2023-06-10 18:15:48] INFO root fetch - processPackages [flexmeasures]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-10 18:15:48] INFO root fetch - processPackages [velesresearch]: New version: [0.0.5] Old Version: [0.0.4.post1]
+[2023-06-10 18:15:48] INFO root fetch - processPackages [aioqui]: New version: [2.1.2] Old Version: [2.1.1]
+[2023-06-10 18:15:48] INFO root fetch - processPackages [flexmeasures]: Downloading https://files.pythonhosted.org/packages/54/d6/5f4106babfe3f4bed4f79ff5e21ee46b716203802745656119b7921714e7/flexmeasures-0.9.3.tar.gz
+[2023-06-10 18:15:48] INFO root fetch - processPackages [aioqui]: Downloading https://files.pythonhosted.org/packages/aa/1f/7877d13423fbf750266f620f45cd4d9b8a6d2c34c1ceb3fc4acd2436e5b2/aioqui-2.1.1.tar.gz
+[2023-06-10 18:15:48] WARNING root fetch - processPackages [dsdiagram]: Skipping, unable to determine old version
+[2023-06-10 18:15:48] INFO root fetch - main [MainThread]: End processing [dsdiagram] error
+[2023-06-10 18:15:48] INFO root fetch - processPackages [velesresearch]: Downloading https://files.pythonhosted.org/packages/9c/33/f20f4429f2ca27259bb3a4d21e7e43e12a27be5a753a409d9f56814ef05d/velesresearch-0.0.4.post1.tar.gz
+[2023-06-10 18:15:48] INFO root fetch - processPackages [aioqui]: Downloading https://files.pythonhosted.org/packages/ff/89/f2b20a1685be8482059611ab388d601cab415b8af0b0660388bbeb70064c/aioqui-2.1.2.tar.gz
+[2023-06-10 18:15:48] INFO root fetch - processPackages [velesresearch]: Downloading https://files.pythonhosted.org/packages/a5/65/6601c479def3f9106bd7d11eee834df89b353caee076ec7e0155eabbe7d6/velesresearch-0.0.5.tar.gz
+[2023-06-10 18:15:48] INFO root fetch - processPackages [velesresearch]: executing diffoscope
+[2023-06-10 18:15:48] INFO root fetch - processPackages [velesresearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/velesresearch-0.0.4.post1.tar.gz tmp/velesresearch-0.0.5.tar.gz --markdown 20230610/v/velesresearch/0.0.4.post1-0.0.5/diff.md --exclude *.pyd
+[2023-06-10 18:15:48] INFO root fetch - processPackages [aioqui]: executing diffoscope
+[2023-06-10 18:15:48] INFO root fetch - processPackages [aioqui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioqui-2.1.1.tar.gz tmp/aioqui-2.1.2.tar.gz --markdown 20230610/a/aioqui/2.1.1-2.1.2/diff.md --exclude *.pyd
+[2023-06-10 18:15:48] INFO root fetch - processPackages [flexmeasures]: Downloading https://files.pythonhosted.org/packages/36/f9/a77949c243c7adde4c28f2a6861c0208ad20e4f95832238f910fdbea1103/flexmeasures-0.9.4.tar.gz
+[2023-06-10 18:15:49] INFO root fetch - processPackages [flexmeasures]: executing diffoscope
+[2023-06-10 18:15:49] INFO root fetch - processPackages [flexmeasures]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flexmeasures-0.9.3.tar.gz tmp/flexmeasures-0.9.4.tar.gz --markdown 20230610/f/flexmeasures/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-10 18:15:49] INFO root fetch - processPackages [velesresearch]: Remove: archive file [/home/abi/fetcher/tmp/velesresearch-0.0.4.post1.tar.gz]
+[2023-06-10 18:15:49] INFO root fetch - processPackages [velesresearch]: Remove: archive file [/home/abi/fetcher/tmp/velesresearch-0.0.5.tar.gz]
+[2023-06-10 18:15:49] INFO root fetch - main [MainThread]: End processing [velesresearch]: success
+[2023-06-10 18:15:50] INFO root fetch - processPackages [aioqui]: Remove: archive file [/home/abi/fetcher/tmp/aioqui-2.1.1.tar.gz]
+[2023-06-10 18:15:50] INFO root fetch - processPackages [aioqui]: Remove: archive file [/home/abi/fetcher/tmp/aioqui-2.1.2.tar.gz]
+[2023-06-10 18:15:50] INFO root fetch - main [MainThread]: End processing [aioqui]: success
+[2023-06-10 18:15:53] INFO root fetch - processPackages [flexmeasures]: Remove: archive file [/home/abi/fetcher/tmp/flexmeasures-0.9.3.tar.gz]
+[2023-06-10 18:15:53] INFO root fetch - processPackages [flexmeasures]: Remove: archive file [/home/abi/fetcher/tmp/flexmeasures-0.9.4.tar.gz]
+[2023-06-10 18:15:53] INFO root fetch - main [MainThread]: End processing [flexmeasures]: success
+[2023-06-10 18:15:53] INFO root fetch - main [MainThread]: Store serial: [18452053]
