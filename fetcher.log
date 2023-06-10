@@ -9321,3 +9321,66 @@ EOFError: EOF read where object expected
 [2023-06-10 10:10:34] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.3.1.dev20230610.tar.gz]
 [2023-06-10 10:10:34] INFO root fetch - main [MainThread]: End processing [pyglove]: success
 [2023-06-10 10:10:34] INFO root fetch - main [MainThread]: Store serial: [18449505]
+[2023-06-10 10:15:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18449505]
+[2023-06-10 10:15:43] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-10 10:15:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: convert-labse-tf-pt
+[2023-06-10 10:15:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-template-partials
+[2023-06-10 10:15:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: repysitory
+[2023-06-10 10:15:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rbloom
+[2023-06-10 10:15:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: foreverbull
+[2023-06-10 10:15:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lanarky
+[2023-06-10 10:15:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: difftlk
+[2023-06-10 10:15:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mzt
+[2023-06-10 10:15:43] INFO root fetch - processPackages [foreverbull]: New version: [0.0.0.92] Old Version: [0.0.0]
+[2023-06-10 10:15:43] INFO root fetch - processPackages [convert-labse-tf-pt]: New version: [3.0.0] Old Version: [2.4.2]
+[2023-06-10 10:15:43] INFO root fetch - processPackages [rbloom]: New version: [1.4.5] Old Version: [1.4.4]
+[2023-06-10 10:15:43] INFO root fetch - processPackages [django-template-partials]: New version: [23.1] Old Version: [23.0]
+[2023-06-10 10:15:43] WARNING root fetch - processPackages [repysitory]: Skipping, unable to determine old version
+[2023-06-10 10:15:43] INFO root fetch - main [MainThread]: End processing [repysitory] error
+[2023-06-10 10:15:43] INFO root fetch - processPackages [lanarky]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-06-10 10:15:43] WARNING root fetch - processPackages [difftlk]: Skipping, unable to determine old version
+[2023-06-10 10:15:43] INFO root fetch - main [MainThread]: End processing [difftlk] error
+[2023-06-10 10:15:43] INFO root fetch - processPackages [mzt]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-06-10 10:15:43] INFO root fetch - processPackages [foreverbull]: Downloading https://files.pythonhosted.org/packages/17/18/9b248aaf356a793f8e31bffa58afcd142046a6060cd1a753be3c1a729328/foreverbull-0.0.0.tar.gz
+[2023-06-10 10:15:43] INFO root fetch - processPackages [convert-labse-tf-pt]: Downloading https://files.pythonhosted.org/packages/8b/36/ed30fa86d90c90f8172b3c7b00c9899588cbe2319e279d1a0717725af606/convert_labse_tf_pt-2.4.2.tar.gz
+[2023-06-10 10:15:43] INFO root fetch - processPackages [django-template-partials]: Downloading https://files.pythonhosted.org/packages/c0/8e/8bff8271b1d3ea9dbc7a0b915edee6270bbe05ca2b31a91c018032856001/django-template-partials-23.0.tar.gz
+[2023-06-10 10:15:43] INFO root fetch - processPackages [rbloom]: Downloading https://files.pythonhosted.org/packages/3a/50/33fe775bcfa08f6ea2285ea5d01f9aac36f51c22053dbc47faf5df705117/rbloom-1.4.4.tar.gz
+[2023-06-10 10:15:43] INFO root fetch - processPackages [mzt]: Downloading https://files.pythonhosted.org/packages/9a/3b/79dda7cbe372c6704d9b0d37c99f6e5faebc7ad24df6a8e44be57247fddd/mzt-1.1.5.tar.gz
+[2023-06-10 10:15:43] INFO root fetch - processPackages [lanarky]: Downloading https://files.pythonhosted.org/packages/e3/d0/25718133c4af1001b02549187ff8695d89f5c95564ffa6c0d575964115c1/lanarky-0.7.8.tar.gz
+[2023-06-10 10:15:43] INFO root fetch - processPackages [foreverbull]: Downloading https://files.pythonhosted.org/packages/83/5e/402b3d8e197a33b59ae5994459465f8027f487cad42df3747b300fe53dc4/foreverbull-0.0.0.92.tar.gz
+[2023-06-10 10:15:43] INFO root fetch - processPackages [django-template-partials]: Downloading https://files.pythonhosted.org/packages/8e/66/b13562078fe36c3d870ae79378be890df6f27ba700301c11691547c53645/django-template-partials-23.1.tar.gz
+[2023-06-10 10:15:43] INFO root fetch - processPackages [rbloom]: Downloading https://files.pythonhosted.org/packages/00/7b/4394b0c9e99f31eba30192fdaf45747319984c52b716e9f8a427efb0b5db/rbloom-1.4.5.tar.gz
+[2023-06-10 10:15:43] INFO root fetch - processPackages [foreverbull]: executing diffoscope
+[2023-06-10 10:15:43] INFO root fetch - processPackages [foreverbull]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foreverbull-0.0.0.tar.gz tmp/foreverbull-0.0.0.92.tar.gz --markdown 20230610/f/foreverbull/0.0.0-0.0.0.92/diff.md --exclude *.pyd
+[2023-06-10 10:15:43] INFO root fetch - processPackages [lanarky]: Downloading https://files.pythonhosted.org/packages/3f/43/1d53c93aa25b84b05fa3ae62ccc998a35d771464e67ada2c200759fdb773/lanarky-0.7.9.tar.gz
+[2023-06-10 10:15:43] INFO root fetch - processPackages [mzt]: Downloading https://files.pythonhosted.org/packages/d1/55/a11547194d43c3c2229568bbf7c9358e372622c02328a73481fe8313f6ba/mzt-1.1.6.tar.gz
+[2023-06-10 10:15:43] INFO root fetch - processPackages [rbloom]: executing diffoscope
+[2023-06-10 10:15:43] INFO root fetch - processPackages [rbloom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rbloom-1.4.4.tar.gz tmp/rbloom-1.4.5.tar.gz --markdown 20230610/r/rbloom/1.4.4-1.4.5/diff.md --exclude *.pyd
+[2023-06-10 10:15:43] INFO root fetch - processPackages [django-template-partials]: executing diffoscope
+[2023-06-10 10:15:43] INFO root fetch - processPackages [django-template-partials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-template-partials-23.0.tar.gz tmp/django-template-partials-23.1.tar.gz --markdown 20230610/d/django-template-partials/23.0-23.1/diff.md --exclude *.pyd
+[2023-06-10 10:15:43] INFO root fetch - processPackages [lanarky]: executing diffoscope
+[2023-06-10 10:15:43] INFO root fetch - processPackages [lanarky]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lanarky-0.7.8.tar.gz tmp/lanarky-0.7.9.tar.gz --markdown 20230610/l/lanarky/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-06-10 10:15:44] INFO root fetch - processPackages [mzt]: executing diffoscope
+[2023-06-10 10:15:44] INFO root fetch - processPackages [mzt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mzt-1.1.5.tar.gz tmp/mzt-1.1.6.tar.gz --markdown 20230610/m/mzt/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-06-10 10:15:44] INFO root fetch - processPackages [convert-labse-tf-pt]: Downloading https://files.pythonhosted.org/packages/97/9f/daed960aa54cfa25bcffe2052cd9d7b34d179e7d3c0edc8c488b989dcbbd/convert_labse_tf_pt-3.0.0.tar.gz
+[2023-06-10 10:15:44] INFO root fetch - processPackages [convert-labse-tf-pt]: executing diffoscope
+[2023-06-10 10:15:44] INFO root fetch - processPackages [convert-labse-tf-pt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/convert_labse_tf_pt-2.4.2.tar.gz tmp/convert_labse_tf_pt-3.0.0.tar.gz --markdown 20230610/c/convert-labse-tf-pt/2.4.2-3.0.0/diff.md --exclude *.pyd
+[2023-06-10 10:15:45] INFO root fetch - processPackages [django-template-partials]: Remove: archive file [/home/abi/fetcher/tmp/django-template-partials-23.0.tar.gz]
+[2023-06-10 10:15:45] INFO root fetch - processPackages [django-template-partials]: Remove: archive file [/home/abi/fetcher/tmp/django-template-partials-23.1.tar.gz]
+[2023-06-10 10:15:45] INFO root fetch - main [MainThread]: End processing [django-template-partials]: success
+[2023-06-10 10:15:45] INFO root fetch - processPackages [lanarky]: Remove: archive file [/home/abi/fetcher/tmp/lanarky-0.7.8.tar.gz]
+[2023-06-10 10:15:45] INFO root fetch - processPackages [lanarky]: Remove: archive file [/home/abi/fetcher/tmp/lanarky-0.7.9.tar.gz]
+[2023-06-10 10:15:45] INFO root fetch - main [MainThread]: End processing [lanarky]: success
+[2023-06-10 10:15:45] INFO root fetch - processPackages [rbloom]: Remove: archive file [/home/abi/fetcher/tmp/rbloom-1.4.4.tar.gz]
+[2023-06-10 10:15:45] INFO root fetch - processPackages [rbloom]: Remove: archive file [/home/abi/fetcher/tmp/rbloom-1.4.5.tar.gz]
+[2023-06-10 10:15:45] INFO root fetch - main [MainThread]: End processing [rbloom]: success
+[2023-06-10 10:15:45] INFO root fetch - processPackages [foreverbull]: Remove: archive file [/home/abi/fetcher/tmp/foreverbull-0.0.0.tar.gz]
+[2023-06-10 10:15:45] INFO root fetch - processPackages [foreverbull]: Remove: archive file [/home/abi/fetcher/tmp/foreverbull-0.0.0.92.tar.gz]
+[2023-06-10 10:15:45] INFO root fetch - main [MainThread]: End processing [foreverbull]: success
+[2023-06-10 10:15:45] INFO root fetch - processPackages [mzt]: Remove: archive file [/home/abi/fetcher/tmp/mzt-1.1.5.tar.gz]
+[2023-06-10 10:15:45] INFO root fetch - processPackages [mzt]: Remove: archive file [/home/abi/fetcher/tmp/mzt-1.1.6.tar.gz]
+[2023-06-10 10:15:45] INFO root fetch - main [MainThread]: End processing [mzt]: success
+[2023-06-10 10:15:46] INFO root fetch - processPackages [convert-labse-tf-pt]: Remove: archive file [/home/abi/fetcher/tmp/convert_labse_tf_pt-2.4.2.tar.gz]
+[2023-06-10 10:15:46] INFO root fetch - processPackages [convert-labse-tf-pt]: Remove: archive file [/home/abi/fetcher/tmp/convert_labse_tf_pt-3.0.0.tar.gz]
+[2023-06-10 10:15:46] INFO root fetch - main [MainThread]: End processing [convert-labse-tf-pt]: success
+[2023-06-10 10:15:46] INFO root fetch - main [MainThread]: Store serial: [18449539]
