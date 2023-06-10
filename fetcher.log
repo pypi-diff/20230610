@@ -17683,3 +17683,78 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-10 22:27:14] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
 [2023-06-10 22:27:14] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
 [2023-06-10 22:27:14] INFO root fetch - main [MainThread]: Store serial: [18453604]
+[2023-06-10 22:32:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18453604]
+[2023-06-10 22:32:23] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-10 22:32:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: drjson
+[2023-06-10 22:32:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zensols.datdesc
+[2023-06-10 22:32:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pcdl
+[2023-06-10 22:32:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: counterplots
+[2023-06-10 22:32:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: osintbuddy
+[2023-06-10 22:32:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyqrack
+[2023-06-10 22:32:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Talayserializer
+[2023-06-10 22:32:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: add-trailing-comma
+[2023-06-10 22:32:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: spotRiver
+[2023-06-10 22:32:23] WARNING root fetch - processPackages [Talayserializer]: Skipping, unable to determine old version
+[2023-06-10 22:32:23] INFO root fetch - main [MainThread]: End processing [Talayserializer] error
+[2023-06-10 22:32:23] INFO root fetch - processPackages [counterplots]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-10 22:32:23] INFO root fetch - processPackages [pyqrack]: New version: [1.9.6] Old Version: [1.9.5]
+[2023-06-10 22:32:23] INFO root fetch - processPackages [pcdl]: New version: [3.1.3] Old Version: [3.1.2]
+[2023-06-10 22:32:23] INFO root fetch - processPackages [zensols.datdesc]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-10 22:32:23] INFO root fetch - processPackages [add-trailing-comma]: New version: [2.5.0] Old Version: [2.4.0]
+[2023-06-10 22:32:23] INFO root fetch - processPackages [drjson]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-06-10 22:32:23] INFO root fetch - processPackages [spotRiver]: New version: [0.0.93] Old Version: [0.0.92]
+[2023-06-10 22:32:23] INFO root fetch - processPackages [osintbuddy]: New version: [0.0.3rc36.post1] Old Version: [0.0.3rc35.post1]
+[2023-06-10 22:32:23] INFO root fetch - processPackages [counterplots]: Downloading https://files.pythonhosted.org/packages/fb/45/be5ec21de3c8d3d37df8a60886d25a51c20801586811fee2c4d3320cb08b/counterplots-0.0.4.tar.gz
+[2023-06-10 22:32:23] INFO root fetch - processPackages [pyqrack]: Downloading https://files.pythonhosted.org/packages/28/29/f16cb84b71504321dc06c36eb231f91bd576824fb0425d18edef846c9e14/pyqrack-1.9.5.tar.gz
+[2023-06-10 22:32:23] INFO root fetch - processPackages [pcdl]: Downloading https://files.pythonhosted.org/packages/78/5e/c07653103f098785911b849926a6a83113b24499bb5d9de3d003188db269/pcdl-3.1.2.tar.gz
+[2023-06-10 22:32:23] INFO root fetch - processPackages [add-trailing-comma]: Downloading https://files.pythonhosted.org/packages/05/a8/1bfd5ea8add9d7243a63788d132b30bbc706bb9225d45baf1ada5aac5271/add_trailing_comma-2.4.0.tar.gz
+[2023-06-10 22:32:23] INFO root fetch - processPackages [zensols.datdesc]: Downloading https://files.pythonhosted.org/packages/72/8f/9ce64068bb46ea594e00941dbd759996602ccdba2db98a93edc2aeeabe7e/zensols.datdesc-0.0.1-py3-none-any.whl
+[2023-06-10 22:32:23] INFO root fetch - processPackages [drjson]: Downloading https://files.pythonhosted.org/packages/bb/3b/cb2a23276dc2daf5ea509c8d266db4b28370d1b4bb020218023aefe028f2/drjson-3.0.0-cp39-cp39-win_amd64.whl
+[2023-06-10 22:32:23] INFO root fetch - processPackages [spotRiver]: Downloading https://files.pythonhosted.org/packages/ad/eb/6d3d04115a3bc9dacceb83a002cfccd6a2dc3ea732809a13afdabfa3bfe1/spotRiver-0.0.92.tar.gz
+[2023-06-10 22:32:23] INFO root fetch - processPackages [osintbuddy]: Downloading https://files.pythonhosted.org/packages/f0/56/4b7ccc2b7b49ba7c62a04601a45ff2aee51f7756141229312f3b7d173c21/osintbuddy-0.0.3rc35.post1.tar.gz
+[2023-06-10 22:32:23] INFO root fetch - processPackages [pyqrack]: Downloading https://files.pythonhosted.org/packages/34/a1/c6968107745c3dcebdaf556a582d8f63f49943f43c90a7d33e04b0397f53/pyqrack-1.9.6.tar.gz
+[2023-06-10 22:32:23] INFO root fetch - processPackages [counterplots]: Downloading https://files.pythonhosted.org/packages/48/28/a11eaec7f75abff8ebd5fdfda828baf1bd65552bc406206c5ae9b251db4a/counterplots-0.0.5.tar.gz
+[2023-06-10 22:32:23] INFO root fetch - processPackages [pyqrack]: executing diffoscope
+[2023-06-10 22:32:23] INFO root fetch - processPackages [pyqrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqrack-1.9.5.tar.gz tmp/pyqrack-1.9.6.tar.gz --markdown 20230610/p/pyqrack/1.9.5-1.9.6/diff.md --exclude *.pyd
+[2023-06-10 22:32:23] INFO root fetch - processPackages [counterplots]: executing diffoscope
+[2023-06-10 22:32:23] INFO root fetch - processPackages [counterplots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/counterplots-0.0.4.tar.gz tmp/counterplots-0.0.5.tar.gz --markdown 20230610/c/counterplots/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-10 22:32:23] INFO root fetch - processPackages [pcdl]: Downloading https://files.pythonhosted.org/packages/72/28/dcdd7e0587676837975525ea0563aea9a52712ec8e3985ea664a0711cfe5/pcdl-3.1.3.tar.gz
+[2023-06-10 22:32:23] INFO root fetch - processPackages [osintbuddy]: Downloading https://files.pythonhosted.org/packages/9f/12/063156f9fbbaff7746fac912ec6b5ad57864e329ae6e88e4edd3ec6fb775/osintbuddy-0.0.3rc36.post1.tar.gz
+[2023-06-10 22:32:23] INFO root fetch - processPackages [spotRiver]: Downloading https://files.pythonhosted.org/packages/ff/40/b883bdb8bbd4701218193d51187228cfe7099f7123bb07a1bd2f32ab1042/spotRiver-0.0.93.tar.gz
+[2023-06-10 22:32:23] INFO root fetch - processPackages [drjson]: Downloading https://files.pythonhosted.org/packages/f0/a0/3e77cc023f22ebdf67e851d8d6e2ed244dddc2350dec7378bad8795586f8/drjson-3.0.1-cp39-cp39-win_amd64.whl
+[2023-06-10 22:32:23] WARNING root fetch - processPackages [pcdl]: Skipping package: exceeds size limit 18901067>=10485760
+[2023-06-10 22:32:23] INFO root fetch - main [MainThread]: End processing [pcdl] error
+[2023-06-10 22:32:23] INFO root fetch - processPackages [zensols.datdesc]: Downloading https://files.pythonhosted.org/packages/5a/65/e9e6f151b27bf4117162bbec219564c8dab1d2aa44b1ed50f28981f20af6/zensols.datdesc-0.0.2-py3-none-any.whl
+[2023-06-10 22:32:23] INFO root fetch - processPackages [osintbuddy]: executing diffoscope
+[2023-06-10 22:32:23] INFO root fetch - processPackages [osintbuddy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osintbuddy-0.0.3rc35.post1.tar.gz tmp/osintbuddy-0.0.3rc36.post1.tar.gz --markdown 20230610/o/osintbuddy/0.0.3rc35.post1-0.0.3rc36.post1/diff.md --exclude *.pyd
+[2023-06-10 22:32:23] INFO root fetch - processPackages [add-trailing-comma]: Downloading https://files.pythonhosted.org/packages/a5/ff/cca4c8e26f94dca62844155131903b322536070efbe410c43779c6b336bf/add_trailing_comma-2.5.0.tar.gz
+[2023-06-10 22:32:23] INFO root fetch - processPackages [spotRiver]: executing diffoscope
+[2023-06-10 22:32:23] INFO root fetch - processPackages [drjson]: executing diffoscope
+[2023-06-10 22:32:23] INFO root fetch - processPackages [spotRiver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotRiver-0.0.92.tar.gz tmp/spotRiver-0.0.93.tar.gz --markdown 20230610/s/spotRiver/0.0.92-0.0.93/diff.md --exclude *.pyd
+[2023-06-10 22:32:23] INFO root fetch - processPackages [drjson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drjson-3.0.0-cp39-cp39-win_amd64.whl.zip tmp/drjson-3.0.1-cp39-cp39-win_amd64.whl.zip --markdown 20230610/d/drjson/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-06-10 22:32:24] INFO root fetch - processPackages [zensols.datdesc]: executing diffoscope
+[2023-06-10 22:32:24] INFO root fetch - processPackages [zensols.datdesc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zensols.datdesc-0.0.1-py3-none-any.whl.zip tmp/zensols.datdesc-0.0.2-py3-none-any.whl.zip --markdown 20230610/z/zensols.datdesc/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-10 22:32:24] INFO root fetch - processPackages [add-trailing-comma]: executing diffoscope
+[2023-06-10 22:32:24] INFO root fetch - processPackages [add-trailing-comma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/add_trailing_comma-2.4.0.tar.gz tmp/add_trailing_comma-2.5.0.tar.gz --markdown 20230610/a/add-trailing-comma/2.4.0-2.5.0/diff.md --exclude *.pyd
+[2023-06-10 22:32:24] INFO root fetch - processPackages [pyqrack]: Remove: archive file [/home/abi/fetcher/tmp/pyqrack-1.9.5.tar.gz]
+[2023-06-10 22:32:24] INFO root fetch - processPackages [pyqrack]: Remove: archive file [/home/abi/fetcher/tmp/pyqrack-1.9.6.tar.gz]
+[2023-06-10 22:32:24] INFO root fetch - main [MainThread]: End processing [pyqrack]: success
+[2023-06-10 22:32:25] INFO root fetch - processPackages [osintbuddy]: Remove: archive file [/home/abi/fetcher/tmp/osintbuddy-0.0.3rc35.post1.tar.gz]
+[2023-06-10 22:32:25] INFO root fetch - processPackages [osintbuddy]: Remove: archive file [/home/abi/fetcher/tmp/osintbuddy-0.0.3rc36.post1.tar.gz]
+[2023-06-10 22:32:25] INFO root fetch - main [MainThread]: End processing [osintbuddy]: success
+[2023-06-10 22:32:25] INFO root fetch - processPackages [drjson]: Remove: archive file [/home/abi/fetcher/tmp/drjson-3.0.0-cp39-cp39-win_amd64.whl.zip]
+[2023-06-10 22:32:25] INFO root fetch - processPackages [drjson]: Remove: archive file [/home/abi/fetcher/tmp/drjson-3.0.1-cp39-cp39-win_amd64.whl.zip]
+[2023-06-10 22:32:25] INFO root fetch - main [MainThread]: End processing [drjson]: success
+[2023-06-10 22:32:25] INFO root fetch - processPackages [spotRiver]: Remove: archive file [/home/abi/fetcher/tmp/spotRiver-0.0.92.tar.gz]
+[2023-06-10 22:32:25] INFO root fetch - processPackages [spotRiver]: Remove: archive file [/home/abi/fetcher/tmp/spotRiver-0.0.93.tar.gz]
+[2023-06-10 22:32:25] INFO root fetch - main [MainThread]: End processing [spotRiver]: success
+[2023-06-10 22:32:25] INFO root fetch - processPackages [counterplots]: Remove: archive file [/home/abi/fetcher/tmp/counterplots-0.0.4.tar.gz]
+[2023-06-10 22:32:25] INFO root fetch - processPackages [counterplots]: Remove: archive file [/home/abi/fetcher/tmp/counterplots-0.0.5.tar.gz]
+[2023-06-10 22:32:25] INFO root fetch - main [MainThread]: End processing [counterplots]: success
+[2023-06-10 22:32:25] INFO root fetch - processPackages [zensols.datdesc]: Remove: archive file [/home/abi/fetcher/tmp/zensols.datdesc-0.0.1-py3-none-any.whl.zip]
+[2023-06-10 22:32:25] INFO root fetch - processPackages [zensols.datdesc]: Remove: archive file [/home/abi/fetcher/tmp/zensols.datdesc-0.0.2-py3-none-any.whl.zip]
+[2023-06-10 22:32:25] INFO root fetch - main [MainThread]: End processing [zensols.datdesc]: success
+[2023-06-10 22:32:25] INFO root fetch - processPackages [add-trailing-comma]: Remove: archive file [/home/abi/fetcher/tmp/add_trailing_comma-2.4.0.tar.gz]
+[2023-06-10 22:32:25] INFO root fetch - processPackages [add-trailing-comma]: Remove: archive file [/home/abi/fetcher/tmp/add_trailing_comma-2.5.0.tar.gz]
+[2023-06-10 22:32:25] INFO root fetch - main [MainThread]: End processing [add-trailing-comma]: success
+[2023-06-10 22:32:25] INFO root fetch - main [MainThread]: Store serial: [18453662]
