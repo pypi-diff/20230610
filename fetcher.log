@@ -2464,3 +2464,51 @@ EOFError: EOF read where object expected
 [2023-06-10 03:04:36] INFO root fetch - processPackages [cdk-lambda-layer-wget]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-wget-2.0.99.tar.gz]
 [2023-06-10 03:04:36] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-wget]: success
 [2023-06-10 03:04:36] INFO root fetch - main [MainThread]: Store serial: [18446732]
+[2023-06-10 03:09:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18446732]
+[2023-06-10 03:09:44] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-10 03:09:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: structure-py
+[2023-06-10 03:09:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cognica
+[2023-06-10 03:09:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: indeterminatebeam
+[2023-06-10 03:09:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tensorflowjs
+[2023-06-10 03:09:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rmrkl
+[2023-06-10 03:09:45] INFO root fetch - processPackages [rmrkl]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-10 03:09:45] INFO root fetch - processPackages [indeterminatebeam]: New version: [v2.1.1] Old Version: [v2.1.0]
+[2023-06-10 03:09:45] INFO root fetch - processPackages [tensorflowjs]: New version: [4.6.0] Old Version: [4.5.0]
+[2023-06-10 03:09:45] INFO root fetch - processPackages [cognica]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-10 03:09:45] INFO root fetch - processPackages [structure-py]: New version: [0.9.0] Old Version: [0.8.4]
+[2023-06-10 03:09:45] INFO root fetch - processPackages [rmrkl]: Downloading https://files.pythonhosted.org/packages/6c/bd/b07198302d63309535305607995a5c24baba01b90c78db952a860db136bd/rmrkl-0.0.2.tar.gz
+[2023-06-10 03:09:45] INFO root fetch - processPackages [cognica]: Downloading https://files.pythonhosted.org/packages/0a/c0/edcce97d0c66bcd4b478feeef39458c665cb143e001ce1885fc706216cb9/cognica-0.1.8.tar.gz
+[2023-06-10 03:09:45] INFO root fetch - processPackages [tensorflowjs]: Downloading https://files.pythonhosted.org/packages/99/83/683dfa7d5ecdbda5c35655e9df31ee16b5b655d040b6934228f09d35ae47/tensorflowjs-4.5.0-py3-none-any.whl
+[2023-06-10 03:09:45] INFO root fetch - processPackages [indeterminatebeam]: Downloading https://files.pythonhosted.org/packages/f4/da/82d1fe00c1dd6250a5fe143a5f5c4041c8cf59fa4a26088e27ce830fc514/indeterminatebeam-v2.1.0.tar.gz
+[2023-06-10 03:09:45] INFO root fetch - processPackages [structure-py]: Downloading https://files.pythonhosted.org/packages/ab/54/301df64e96dfc4a5c71842f38f38cbb5c9b1f036bedfb8ce5c29f3c78523/structure_py-0.8.4-py3-none-any.whl
+[2023-06-10 03:09:45] INFO root fetch - processPackages [rmrkl]: Downloading https://files.pythonhosted.org/packages/36/51/cb59e7f0d4806e4bb1d6644c2a8c4303f372fa72648fd6b9daedc6ce5213/rmrkl-0.0.3.tar.gz
+[2023-06-10 03:09:45] INFO root fetch - processPackages [rmrkl]: executing diffoscope
+[2023-06-10 03:09:45] INFO root fetch - processPackages [rmrkl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rmrkl-0.0.2.tar.gz tmp/rmrkl-0.0.3.tar.gz --markdown 20230610/r/rmrkl/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-10 03:09:45] INFO root fetch - processPackages [tensorflowjs]: Downloading https://files.pythonhosted.org/packages/10/7b/d61f39cbae66602d9fb43e73f0bd0183e9736cdb09391daeb954f90e4a53/tensorflowjs-4.6.0-py3-none-any.whl
+[2023-06-10 03:09:45] INFO root fetch - processPackages [cognica]: Downloading https://files.pythonhosted.org/packages/82/15/6df17103d2f64996dc8dd529b547761a0024973fb7b0b96968cbb2eb9f56/cognica-0.1.9.tar.gz
+[2023-06-10 03:09:45] INFO root fetch - processPackages [tensorflowjs]: executing diffoscope
+[2023-06-10 03:09:45] INFO root fetch - processPackages [tensorflowjs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorflowjs-4.5.0-py3-none-any.whl.zip tmp/tensorflowjs-4.6.0-py3-none-any.whl.zip --markdown 20230610/t/tensorflowjs/4.5.0-4.6.0/diff.md --exclude *.pyd
+[2023-06-10 03:09:45] INFO root fetch - processPackages [indeterminatebeam]: Downloading https://files.pythonhosted.org/packages/87/84/fcd9802f4e9958e7ffafe1262a0d6221511b7fbdb206519d8b6d89ceecfc/indeterminatebeam-v2.1.1.tar.gz
+[2023-06-10 03:09:45] INFO root fetch - processPackages [cognica]: executing diffoscope
+[2023-06-10 03:09:45] INFO root fetch - processPackages [cognica]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognica-0.1.8.tar.gz tmp/cognica-0.1.9.tar.gz --markdown 20230610/c/cognica/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-10 03:09:45] INFO root fetch - processPackages [structure-py]: Downloading https://files.pythonhosted.org/packages/a3/6e/98234b66c3ce7d92f6b957ee2fd5b07749190eed5bd99f47651d736e0bc7/structure_py-0.9.0.tar.gz
+[2023-06-10 03:09:45] INFO root fetch - processPackages [structure-py]: executing diffoscope
+[2023-06-10 03:09:45] INFO root fetch - processPackages [structure-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/structure_py-0.8.4-py3-none-any.whl.zip tmp/structure_py-0.9.0.tar.gz --markdown 20230610/s/structure-py/0.8.4-0.9.0/diff.md --exclude *.pyd
+[2023-06-10 03:09:45] INFO root fetch - processPackages [indeterminatebeam]: executing diffoscope
+[2023-06-10 03:09:45] INFO root fetch - processPackages [indeterminatebeam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indeterminatebeam-v2.1.0.tar.gz tmp/indeterminatebeam-v2.1.1.tar.gz --markdown 20230610/i/indeterminatebeam/v2.1.0-v2.1.1/diff.md --exclude *.pyd
+[2023-06-10 03:09:46] INFO root fetch - processPackages [rmrkl]: Remove: archive file [/home/abi/fetcher/tmp/rmrkl-0.0.2.tar.gz]
+[2023-06-10 03:09:46] INFO root fetch - processPackages [rmrkl]: Remove: archive file [/home/abi/fetcher/tmp/rmrkl-0.0.3.tar.gz]
+[2023-06-10 03:09:46] INFO root fetch - main [MainThread]: End processing [rmrkl]: success
+[2023-06-10 03:09:46] INFO root fetch - processPackages [structure-py]: Remove: archive file [/home/abi/fetcher/tmp/structure_py-0.8.4-py3-none-any.whl.zip]
+[2023-06-10 03:09:46] INFO root fetch - processPackages [structure-py]: Remove: archive file [/home/abi/fetcher/tmp/structure_py-0.9.0.tar.gz]
+[2023-06-10 03:09:46] INFO root fetch - main [MainThread]: End processing [structure-py]: success
+[2023-06-10 03:09:46] INFO root fetch - processPackages [tensorflowjs]: Remove: archive file [/home/abi/fetcher/tmp/tensorflowjs-4.5.0-py3-none-any.whl.zip]
+[2023-06-10 03:09:46] INFO root fetch - processPackages [tensorflowjs]: Remove: archive file [/home/abi/fetcher/tmp/tensorflowjs-4.6.0-py3-none-any.whl.zip]
+[2023-06-10 03:09:46] INFO root fetch - main [MainThread]: End processing [tensorflowjs]: success
+[2023-06-10 03:09:46] INFO root fetch - processPackages [indeterminatebeam]: Remove: archive file [/home/abi/fetcher/tmp/indeterminatebeam-v2.1.0.tar.gz]
+[2023-06-10 03:09:46] INFO root fetch - processPackages [indeterminatebeam]: Remove: archive file [/home/abi/fetcher/tmp/indeterminatebeam-v2.1.1.tar.gz]
+[2023-06-10 03:09:46] INFO root fetch - main [MainThread]: End processing [indeterminatebeam]: success
+[2023-06-10 03:09:46] INFO root fetch - processPackages [cognica]: Remove: archive file [/home/abi/fetcher/tmp/cognica-0.1.8.tar.gz]
+[2023-06-10 03:09:46] INFO root fetch - processPackages [cognica]: Remove: archive file [/home/abi/fetcher/tmp/cognica-0.1.9.tar.gz]
+[2023-06-10 03:09:46] INFO root fetch - main [MainThread]: End processing [cognica]: success
+[2023-06-10 03:09:46] INFO root fetch - main [MainThread]: Store serial: [18446746]
