@@ -9423,3 +9423,42 @@ EOFError: EOF read where object expected
 [2023-06-10 10:20:57] INFO root fetch - processPackages [chainlib-eth]: Remove: archive file [/home/abi/fetcher/tmp/chainlib-eth-0.4.9.tar.gz]
 [2023-06-10 10:20:57] INFO root fetch - main [MainThread]: End processing [chainlib-eth]: success
 [2023-06-10 10:20:57] INFO root fetch - main [MainThread]: Store serial: [18449549]
+[2023-06-10 10:26:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18449549]
+[2023-06-10 10:26:06] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-10 10:26:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chainlib
+[2023-06-10 10:26:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hypha
+[2023-06-10 10:26:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lavaplay.py
+[2023-06-10 10:26:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pipeline-feature
+[2023-06-10 10:26:06] INFO root fetch - processPackages [lavaplay.py]: New version: [1.0.12a0] Old Version: [1.0.11a0]
+[2023-06-10 10:26:06] INFO root fetch - processPackages [chainlib]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-06-10 10:26:06] INFO root fetch - processPackages [hypha]: New version: [0.15.8] Old Version: [0.15.7]
+[2023-06-10 10:26:06] INFO root fetch - processPackages [pipeline-feature]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-10 10:26:06] INFO root fetch - processPackages [hypha]: Downloading https://files.pythonhosted.org/packages/3b/1c/2587650834b82f5294e81891a15c92e1504fc26a7cb3ea08be1d64f1236a/hypha-0.15.7.tar.gz
+[2023-06-10 10:26:06] INFO root fetch - processPackages [pipeline-feature]: Downloading https://files.pythonhosted.org/packages/f3/4a/2e80d65029b16741c3837546037e85683a420fa8ed5653d5378655998e68/pipeline-feature-0.0.8.tar.gz
+[2023-06-10 10:26:06] INFO root fetch - processPackages [lavaplay.py]: Downloading https://files.pythonhosted.org/packages/77/0c/f0223072fa7d3af5d2e47f59e406039e4fec3f70175387ad46a1c2dfce8d/lavaplay.py-1.0.11a0.tar.gz
+[2023-06-10 10:26:06] INFO root fetch - processPackages [chainlib]: Downloading https://files.pythonhosted.org/packages/74/a9/8530d0f7af85256a2e33c3b11a0ab81fed9d20b22b01037336f1efbf26d1/chainlib-0.4.8.tar.gz
+[2023-06-10 10:26:06] INFO root fetch - processPackages [pipeline-feature]: Downloading https://files.pythonhosted.org/packages/2d/7d/8d87cbdf414b1b7a2a9cc9b2bd5f360572b7da334ce7f3ff61009413e3d6/pipeline-feature-0.0.9.tar.gz
+[2023-06-10 10:26:06] INFO root fetch - processPackages [hypha]: Downloading https://files.pythonhosted.org/packages/5f/f5/974dbcd4812824cf3f90d85490f8c6b7df7931f35b4ea2b5bdb8cd72cdbf/hypha-0.15.8.tar.gz
+[2023-06-10 10:26:06] INFO root fetch - processPackages [pipeline-feature]: executing diffoscope
+[2023-06-10 10:26:06] INFO root fetch - processPackages [pipeline-feature]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipeline-feature-0.0.8.tar.gz tmp/pipeline-feature-0.0.9.tar.gz --markdown 20230610/p/pipeline-feature/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-10 10:26:06] INFO root fetch - processPackages [hypha]: executing diffoscope
+[2023-06-10 10:26:06] INFO root fetch - processPackages [hypha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypha-0.15.7.tar.gz tmp/hypha-0.15.8.tar.gz --markdown 20230610/h/hypha/0.15.7-0.15.8/diff.md --exclude *.pyd
+[2023-06-10 10:26:06] INFO root fetch - processPackages [lavaplay.py]: Downloading https://files.pythonhosted.org/packages/32/52/9bedd50f191a9595e56e98e6d3106268b1886c01f814d61a4c846fe9ecfd/lavaplay.py-1.0.12a0.tar.gz
+[2023-06-10 10:26:06] INFO root fetch - processPackages [chainlib]: Downloading https://files.pythonhosted.org/packages/d2/c1/c82620206cd2e44148a47b1009b67b854f7c6bb870d44537182fdbd02dd8/chainlib-0.4.9.tar.gz
+[2023-06-10 10:26:06] INFO root fetch - processPackages [lavaplay.py]: executing diffoscope
+[2023-06-10 10:26:06] INFO root fetch - processPackages [lavaplay.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lavaplay.py-1.0.11a0.tar.gz tmp/lavaplay.py-1.0.12a0.tar.gz --markdown 20230610/l/lavaplay.py/1.0.11a0-1.0.12a0/diff.md --exclude *.pyd
+[2023-06-10 10:26:06] INFO root fetch - processPackages [chainlib]: executing diffoscope
+[2023-06-10 10:26:06] INFO root fetch - processPackages [chainlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chainlib-0.4.8.tar.gz tmp/chainlib-0.4.9.tar.gz --markdown 20230610/c/chainlib/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-06-10 10:26:07] INFO root fetch - processPackages [pipeline-feature]: Remove: archive file [/home/abi/fetcher/tmp/pipeline-feature-0.0.8.tar.gz]
+[2023-06-10 10:26:07] INFO root fetch - processPackages [pipeline-feature]: Remove: archive file [/home/abi/fetcher/tmp/pipeline-feature-0.0.9.tar.gz]
+[2023-06-10 10:26:07] INFO root fetch - main [MainThread]: End processing [pipeline-feature]: success
+[2023-06-10 10:26:07] INFO root fetch - processPackages [hypha]: Remove: archive file [/home/abi/fetcher/tmp/hypha-0.15.7.tar.gz]
+[2023-06-10 10:26:07] INFO root fetch - processPackages [hypha]: Remove: archive file [/home/abi/fetcher/tmp/hypha-0.15.8.tar.gz]
+[2023-06-10 10:26:07] INFO root fetch - main [MainThread]: End processing [hypha]: success
+[2023-06-10 10:26:08] INFO root fetch - processPackages [lavaplay.py]: Remove: archive file [/home/abi/fetcher/tmp/lavaplay.py-1.0.11a0.tar.gz]
+[2023-06-10 10:26:08] INFO root fetch - processPackages [lavaplay.py]: Remove: archive file [/home/abi/fetcher/tmp/lavaplay.py-1.0.12a0.tar.gz]
+[2023-06-10 10:26:08] INFO root fetch - main [MainThread]: End processing [lavaplay.py]: success
+[2023-06-10 10:26:08] INFO root fetch - processPackages [chainlib]: Remove: archive file [/home/abi/fetcher/tmp/chainlib-0.4.8.tar.gz]
+[2023-06-10 10:26:08] INFO root fetch - processPackages [chainlib]: Remove: archive file [/home/abi/fetcher/tmp/chainlib-0.4.9.tar.gz]
+[2023-06-10 10:26:08] INFO root fetch - main [MainThread]: End processing [chainlib]: success
+[2023-06-10 10:26:08] INFO root fetch - main [MainThread]: Store serial: [18449560]
