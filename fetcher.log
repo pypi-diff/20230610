@@ -1367,3 +1367,54 @@ EOFError: EOF read where object expected
 [2023-06-10 02:00:57] INFO root fetch - processPackages [craft-parts]: Remove: archive file [/home/abi/fetcher/tmp/craft-parts-1.9.0.tar.gz]
 [2023-06-10 02:00:57] INFO root fetch - main [MainThread]: End processing [craft-parts]: success
 [2023-06-10 02:00:57] INFO root fetch - main [MainThread]: Store serial: [18446332]
+[2023-06-10 02:06:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18446332]
+[2023-06-10 02:06:06] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-10 02:06:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torchdatasets-nightly
+[2023-06-10 02:06:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mct-nightly
+[2023-06-10 02:06:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jaxkern-nightly
+[2023-06-10 02:06:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pydos2
+[2023-06-10 02:06:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ksconf
+[2023-06-10 02:06:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kintyre-splunk-conf
+[2023-06-10 02:06:06] WARNING root fetch - processPackages [pydos2]: Skipping, unable to determine old version
+[2023-06-10 02:06:06] INFO root fetch - main [MainThread]: End processing [pydos2] error
+[2023-06-10 02:06:06] INFO root fetch - processPackages [jaxkern-nightly]: New version: [0.dev20221222] Old Version: [0.dev20221221]
+[2023-06-10 02:06:06] INFO root fetch - processPackages [mct-nightly]: New version: [1.8.0.9052023.post348] Old Version: [1.8.0.9042023.post411]
+[2023-06-10 02:06:06] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/15/16/97490c39f95f97f1b8de896b5ed7cb784948f9a52a6891755c41f74302a8/mct-nightly-1.8.0.9042023.post411.tar.gz
+[2023-06-10 02:06:06] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/76/55/ef13835e3e8e1570e91b3bc7235725e556f183e3222d5e7e66ac8de58ba0/jaxkern-nightly-0.dev20221221.tar.gz
+[2023-06-10 02:06:06] INFO root fetch - processPackages [torchdatasets-nightly]: New version: [1686355400] Old Version: [1686269010]
+[2023-06-10 02:06:06] INFO root fetch - processPackages [kintyre-splunk-conf]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-06-10 02:06:06] INFO root fetch - processPackages [ksconf]: New version: [0.11.4] Old Version: [0.11.3b4]
+[2023-06-10 02:06:06] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/ea/b1/fbac44f07e48f8800aada2de8e9114775baf3f3d605ee80382db18a1c728/jaxkern-nightly-0.dev20221222.tar.gz
+[2023-06-10 02:06:06] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/8d/2b/e8dc1273faca481037223d6cf33cf20b1c1549a62f51a9567ba8caa6eac8/torchdatasets-nightly-1686269010.tar.gz
+[2023-06-10 02:06:06] INFO root fetch - processPackages [ksconf]: Downloading https://files.pythonhosted.org/packages/56/d7/84731e87251a7f573cec9011ecb23b2ea7999937ac0c6a1ea5225783793b/ksconf-0.11.3b4.tar.gz
+[2023-06-10 02:06:06] INFO root fetch - processPackages [kintyre-splunk-conf]: Downloading https://files.pythonhosted.org/packages/b8/0e/7f3a2a3e474828d04c49b15b90e9cbcb7da098680838599b5a4a2f390162/kintyre-splunk-conf-0.9.2.tar.gz
+[2023-06-10 02:06:06] INFO root fetch - processPackages [jaxkern-nightly]: executing diffoscope
+[2023-06-10 02:06:06] INFO root fetch - processPackages [jaxkern-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxkern-nightly-0.dev20221221.tar.gz tmp/jaxkern-nightly-0.dev20221222.tar.gz --markdown 20230610/j/jaxkern-nightly/0.dev20221221-0.dev20221222/diff.md --exclude *.pyd
+[2023-06-10 02:06:06] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/39/fa/63c23125514f4ccbde477ead4854e4d29c9cacdb45efe98739c07a78a9a1/mct-nightly-1.8.0.9052023.post348.tar.gz
+[2023-06-10 02:06:07] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2023-06-10 02:06:07] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-1.8.0.9042023.post411.tar.gz tmp/mct-nightly-1.8.0.9052023.post348.tar.gz --markdown 20230610/m/mct-nightly/1.8.0.9042023.post411-1.8.0.9052023.post348/diff.md --exclude *.pyd
+[2023-06-10 02:06:07] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/90/52/3e138cb78aea451e95016699620155d99999ff652e6f0327b94b8fadc326/torchdatasets-nightly-1686355400.tar.gz
+[2023-06-10 02:06:07] INFO root fetch - processPackages [torchdatasets-nightly]: executing diffoscope
+[2023-06-10 02:06:07] INFO root fetch - processPackages [torchdatasets-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchdatasets-nightly-1686269010.tar.gz tmp/torchdatasets-nightly-1686355400.tar.gz --markdown 20230610/t/torchdatasets-nightly/1686269010-1686355400/diff.md --exclude *.pyd
+[2023-06-10 02:06:07] INFO root fetch - processPackages [kintyre-splunk-conf]: Downloading https://files.pythonhosted.org/packages/ff/50/83d795fcf4e619a01a0359f751a90e713163be1c4353939994ccd6743602/kintyre-splunk-conf-0.9.3.tar.gz
+[2023-06-10 02:06:07] INFO root fetch - processPackages [ksconf]: Downloading https://files.pythonhosted.org/packages/e4/12/3ea068025a0c982039297f81d50608549504e733cfc3772eb5ed98290e68/ksconf-0.11.4.tar.gz
+[2023-06-10 02:06:07] INFO root fetch - processPackages [kintyre-splunk-conf]: executing diffoscope
+[2023-06-10 02:06:07] INFO root fetch - processPackages [kintyre-splunk-conf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kintyre-splunk-conf-0.9.2.tar.gz tmp/kintyre-splunk-conf-0.9.3.tar.gz --markdown 20230610/k/kintyre-splunk-conf/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-06-10 02:06:07] INFO root fetch - processPackages [ksconf]: executing diffoscope
+[2023-06-10 02:06:07] INFO root fetch - processPackages [ksconf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ksconf-0.11.3b4.tar.gz tmp/ksconf-0.11.4.tar.gz --markdown 20230610/k/ksconf/0.11.3b4-0.11.4/diff.md --exclude *.pyd
+[2023-06-10 02:06:07] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221221.tar.gz]
+[2023-06-10 02:06:07] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221222.tar.gz]
+[2023-06-10 02:06:07] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
+[2023-06-10 02:06:08] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1686269010.tar.gz]
+[2023-06-10 02:06:08] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1686355400.tar.gz]
+[2023-06-10 02:06:08] INFO root fetch - main [MainThread]: End processing [torchdatasets-nightly]: success
+[2023-06-10 02:06:08] INFO root fetch - processPackages [kintyre-splunk-conf]: Remove: archive file [/home/abi/fetcher/tmp/kintyre-splunk-conf-0.9.2.tar.gz]
+[2023-06-10 02:06:08] INFO root fetch - processPackages [kintyre-splunk-conf]: Remove: archive file [/home/abi/fetcher/tmp/kintyre-splunk-conf-0.9.3.tar.gz]
+[2023-06-10 02:06:08] INFO root fetch - main [MainThread]: End processing [kintyre-splunk-conf]: success
+[2023-06-10 02:06:08] INFO root fetch - processPackages [ksconf]: Remove: archive file [/home/abi/fetcher/tmp/ksconf-0.11.3b4.tar.gz]
+[2023-06-10 02:06:08] INFO root fetch - processPackages [ksconf]: Remove: archive file [/home/abi/fetcher/tmp/ksconf-0.11.4.tar.gz]
+[2023-06-10 02:06:08] INFO root fetch - main [MainThread]: End processing [ksconf]: success
+[2023-06-10 02:06:16] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.8.0.9042023.post411.tar.gz]
+[2023-06-10 02:06:16] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.8.0.9052023.post348.tar.gz]
+[2023-06-10 02:06:16] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2023-06-10 02:06:16] INFO root fetch - main [MainThread]: Store serial: [18446348]
