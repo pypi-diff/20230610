@@ -14364,3 +14364,66 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-10 17:33:32] INFO root fetch - processPackages [mapbot-frontend]: Remove: archive file [/home/abi/fetcher/tmp/mapbot_frontend-0.1.9.tar.gz]
 [2023-06-10 17:33:32] INFO root fetch - main [MainThread]: End processing [mapbot-frontend]: success
 [2023-06-10 17:33:32] INFO root fetch - main [MainThread]: Store serial: [18451863]
+[2023-06-10 17:38:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18451863]
+[2023-06-10 17:38:41] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-10 17:38:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dsdiagram
+[2023-06-10 17:38:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: botodto
+[2023-06-10 17:38:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ab-test-toolkit
+[2023-06-10 17:38:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xia-git
+[2023-06-10 17:38:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: clust-learn
+[2023-06-10 17:38:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xia-git-gitlab
+[2023-06-10 17:38:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kayle
+[2023-06-10 17:38:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: biliarchiver
+[2023-06-10 17:38:41] WARNING root fetch - processPackages [botodto]: Skipping, unable to determine old version
+[2023-06-10 17:38:41] INFO root fetch - main [MainThread]: End processing [botodto] error
+[2023-06-10 17:38:41] INFO root fetch - processPackages [clust-learn]: New version: [0.2.0b0] Old Version: [0.2.0.7]
+[2023-06-10 17:38:41] INFO root fetch - processPackages [clust-learn]: Downloading https://files.pythonhosted.org/packages/65/10/ea981afcf22b8b3cf9ce7138a2af0ca2a010c4e0ec06523f56bd02c94124/clust-learn-0.2.0.7.tar.gz
+[2023-06-10 17:38:41] ERROR root fetch - processPackages [dsdiagram]: Unable to get metadata: No such project 'dsdiagram'
+[2023-06-10 17:38:41] INFO root fetch - main [MainThread]: End processing [dsdiagram] error
+[2023-06-10 17:38:41] INFO root fetch - processPackages [ab-test-toolkit]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-10 17:38:41] INFO root fetch - processPackages [xia-git-gitlab]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-10 17:38:41] INFO root fetch - processPackages [biliarchiver]: New version: [0.0.9] Old Version: [0.0.14]
+[2023-06-10 17:38:41] INFO root fetch - processPackages [kayle]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-06-10 17:38:41] INFO root fetch - processPackages [biliarchiver]: Downloading https://files.pythonhosted.org/packages/5a/ba/6ae4f77c628575b1aadff15a03cbe8b2fa0a73ec3404de0b1013f0a0c664/biliarchiver-0.0.14.tar.gz
+[2023-06-10 17:38:41] INFO root fetch - processPackages [xia-git]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-10 17:38:41] INFO root fetch - processPackages [clust-learn]: Downloading https://files.pythonhosted.org/packages/c6/c8/b18bdbd40954b4bd9be87b5105c7b58f94556fc18f3c5cb3d5f62e349c09/clust-learn-0.2.0b0.tar.gz
+[2023-06-10 17:38:41] INFO root fetch - processPackages [ab-test-toolkit]: Downloading https://files.pythonhosted.org/packages/d0/a7/c89413d6ed5274be43042a4ba486913dcfd9504568bd288786ad137e11b4/ab-test-toolkit-0.0.3.tar.gz
+[2023-06-10 17:38:41] INFO root fetch - processPackages [xia-git-gitlab]: Downloading https://files.pythonhosted.org/packages/dc/27/bc415411c36bb2af3f3fa85cfa89f931593ab15ecf221e0ad83914adeadb/xia_git_gitlab-0.0.6-cp39-none-win_amd64.whl
+[2023-06-10 17:38:41] INFO root fetch - processPackages [clust-learn]: executing diffoscope
+[2023-06-10 17:38:41] INFO root fetch - processPackages [clust-learn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clust-learn-0.2.0.7.tar.gz tmp/clust-learn-0.2.0b0.tar.gz --markdown 20230610/c/clust-learn/0.2.0.7-0.2.0b0/diff.md --exclude *.pyd
+[2023-06-10 17:38:41] INFO root fetch - processPackages [kayle]: Downloading https://files.pythonhosted.org/packages/91/53/2305502f1e6b46808a8dea0be653b3d7bf7fa1ab0a8e27b082b2961b8a76/kayle-0.5.8-py3-none-any.whl
+[2023-06-10 17:38:41] INFO root fetch - processPackages [xia-git]: Downloading https://files.pythonhosted.org/packages/1e/0e/cb061f9056114f0ffbb34f293227c77f31c815d66e0e73bd6e81a89536a5/xia_git-0.0.8-cp39-none-win_amd64.whl
+[2023-06-10 17:38:41] INFO root fetch - processPackages [ab-test-toolkit]: Downloading https://files.pythonhosted.org/packages/50/63/2b68bafceb762093edc84b1f31f867524adee831ec4094932d11807091bc/ab-test-toolkit-0.0.4.tar.gz
+[2023-06-10 17:38:41] INFO root fetch - processPackages [xia-git-gitlab]: Downloading https://files.pythonhosted.org/packages/16/ab/9cf488d4ce95ea49fdde114fc2304a3b151e0579a9122e32347295a96758/xia_git_gitlab-0.0.7-cp39-none-macosx_11_0_x86_64.whl
+[2023-06-10 17:38:42] INFO root fetch - processPackages [biliarchiver]: Downloading https://files.pythonhosted.org/packages/75/6f/a07bee6d23ed240047e737c1e393aadca816e9e1cc7c1aaa81457a4885da/biliarchiver-0.0.9.tar.gz
+[2023-06-10 17:38:42] INFO root fetch - processPackages [biliarchiver]: executing diffoscope
+[2023-06-10 17:38:42] INFO root fetch - processPackages [biliarchiver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biliarchiver-0.0.14.tar.gz tmp/biliarchiver-0.0.9.tar.gz --markdown 20230610/b/biliarchiver/0.0.14-0.0.9/diff.md --exclude *.pyd
+[2023-06-10 17:38:42] INFO root fetch - processPackages [ab-test-toolkit]: executing diffoscope
+[2023-06-10 17:38:42] INFO root fetch - processPackages [ab-test-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ab-test-toolkit-0.0.3.tar.gz tmp/ab-test-toolkit-0.0.4.tar.gz --markdown 20230610/a/ab-test-toolkit/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-10 17:38:42] INFO root fetch - processPackages [kayle]: Downloading https://files.pythonhosted.org/packages/53/0a/d428491d9c47c3d70c6e36d95bb7d75a5dc4e8e40bcc979d4d8fd678b885/kayle-0.5.9-py3-none-any.whl
+[2023-06-10 17:38:42] INFO root fetch - processPackages [xia-git]: Downloading https://files.pythonhosted.org/packages/ec/9c/473183c93858148e24e4fb727dcb81f1a6c3df46f16d72fa9f179cab7f67/xia_git-0.0.9-cp39-none-win_amd64.whl
+[2023-06-10 17:38:42] INFO root fetch - processPackages [xia-git-gitlab]: executing diffoscope
+[2023-06-10 17:38:42] INFO root fetch - processPackages [xia-git-gitlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_git_gitlab-0.0.6-cp39-none-win_amd64.whl.zip tmp/xia_git_gitlab-0.0.7-cp39-none-macosx_11_0_x86_64.whl.zip --markdown 20230610/x/xia-git-gitlab/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-10 17:38:42] INFO root fetch - processPackages [kayle]: executing diffoscope
+[2023-06-10 17:38:42] INFO root fetch - processPackages [kayle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kayle-0.5.8-py3-none-any.whl.zip tmp/kayle-0.5.9-py3-none-any.whl.zip --markdown 20230610/k/kayle/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-06-10 17:38:42] INFO root fetch - processPackages [xia-git]: executing diffoscope
+[2023-06-10 17:38:42] INFO root fetch - processPackages [xia-git]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_git-0.0.8-cp39-none-win_amd64.whl.zip tmp/xia_git-0.0.9-cp39-none-win_amd64.whl.zip --markdown 20230610/x/xia-git/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-10 17:38:43] INFO root fetch - processPackages [biliarchiver]: Remove: archive file [/home/abi/fetcher/tmp/biliarchiver-0.0.14.tar.gz]
+[2023-06-10 17:38:43] INFO root fetch - processPackages [biliarchiver]: Remove: archive file [/home/abi/fetcher/tmp/biliarchiver-0.0.9.tar.gz]
+[2023-06-10 17:38:43] INFO root fetch - main [MainThread]: End processing [biliarchiver]: success
+[2023-06-10 17:38:43] INFO root fetch - processPackages [ab-test-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/ab-test-toolkit-0.0.3.tar.gz]
+[2023-06-10 17:38:43] INFO root fetch - processPackages [ab-test-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/ab-test-toolkit-0.0.4.tar.gz]
+[2023-06-10 17:38:43] INFO root fetch - main [MainThread]: End processing [ab-test-toolkit]: success
+[2023-06-10 17:38:43] INFO root fetch - processPackages [xia-git]: Remove: archive file [/home/abi/fetcher/tmp/xia_git-0.0.8-cp39-none-win_amd64.whl.zip]
+[2023-06-10 17:38:43] INFO root fetch - processPackages [xia-git]: Remove: archive file [/home/abi/fetcher/tmp/xia_git-0.0.9-cp39-none-win_amd64.whl.zip]
+[2023-06-10 17:38:43] INFO root fetch - main [MainThread]: End processing [xia-git]: success
+[2023-06-10 17:38:43] INFO root fetch - processPackages [kayle]: Remove: archive file [/home/abi/fetcher/tmp/kayle-0.5.8-py3-none-any.whl.zip]
+[2023-06-10 17:38:43] INFO root fetch - processPackages [kayle]: Remove: archive file [/home/abi/fetcher/tmp/kayle-0.5.9-py3-none-any.whl.zip]
+[2023-06-10 17:38:43] INFO root fetch - main [MainThread]: End processing [kayle]: success
+[2023-06-10 17:38:43] INFO root fetch - processPackages [xia-git-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/xia_git_gitlab-0.0.6-cp39-none-win_amd64.whl.zip]
+[2023-06-10 17:38:43] INFO root fetch - processPackages [xia-git-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/xia_git_gitlab-0.0.7-cp39-none-macosx_11_0_x86_64.whl.zip]
+[2023-06-10 17:38:43] INFO root fetch - main [MainThread]: End processing [xia-git-gitlab]: success
+[2023-06-10 17:38:43] INFO root fetch - processPackages [clust-learn]: Remove: archive file [/home/abi/fetcher/tmp/clust-learn-0.2.0.7.tar.gz]
+[2023-06-10 17:38:43] INFO root fetch - processPackages [clust-learn]: Remove: archive file [/home/abi/fetcher/tmp/clust-learn-0.2.0b0.tar.gz]
+[2023-06-10 17:38:43] INFO root fetch - main [MainThread]: End processing [clust-learn]: success
+[2023-06-10 17:38:43] INFO root fetch - main [MainThread]: Store serial: [18451894]
