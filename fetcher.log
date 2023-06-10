@@ -13963,3 +13963,66 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-10 16:56:07] INFO root fetch - processPackages [eqalert]: Remove: archive file [/home/abi/fetcher/tmp/eqalert-3.5.3.tar.gz]
 [2023-06-10 16:56:07] INFO root fetch - main [MainThread]: End processing [eqalert]: success
 [2023-06-10 16:56:07] INFO root fetch - main [MainThread]: Store serial: [18451628]
+[2023-06-10 17:01:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18451628]
+[2023-06-10 17:01:18] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-10 17:01:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ingestor
+[2023-06-10 17:01:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: omniplate
+[2023-06-10 17:01:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: custom-secrets-manager
+[2023-06-10 17:01:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rdflib-ocdm
+[2023-06-10 17:01:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: record-msg
+[2023-06-10 17:01:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: python-Levenshtein
+[2023-06-10 17:01:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jwtlib
+[2023-06-10 17:01:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gine
+[2023-06-10 17:01:18] INFO root fetch - processPackages [custom-secrets-manager]: New version: [1.1.0] Old Version: [1.0.8b0]
+[2023-06-10 17:01:18] WARNING root fetch - processPackages [ingestor]: Skipping, unable to determine old version
+[2023-06-10 17:01:18] INFO root fetch - main [MainThread]: End processing [ingestor] error
+[2023-06-10 17:01:18] INFO root fetch - processPackages [omniplate]: New version: [0.9.9] Old Version: [0.9.85]
+[2023-06-10 17:01:18] WARNING root fetch - processPackages [gine]: Skipping, unable to determine old version
+[2023-06-10 17:01:18] INFO root fetch - main [MainThread]: End processing [gine] error
+[2023-06-10 17:01:18] INFO root fetch - processPackages [record-msg]: New version: [1.0.0] Old Version: [0.1.1]
+[2023-06-10 17:01:18] INFO root fetch - processPackages [jwtlib]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-06-10 17:01:18] INFO root fetch - processPackages [rdflib-ocdm]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-06-10 17:01:18] INFO root fetch - processPackages [python-Levenshtein]: New version: [0.21.1] Old Version: [0.21.0]
+[2023-06-10 17:01:18] INFO root fetch - processPackages [custom-secrets-manager]: Downloading https://files.pythonhosted.org/packages/1a/c0/4e1dc36bb086166c4bf083fd4cd9c80cbe6cef8a2ed944edd479676a4d43/custom_secrets_manager-1.0.8b0.tar.gz
+[2023-06-10 17:01:18] INFO root fetch - processPackages [jwtlib]: Downloading https://files.pythonhosted.org/packages/dd/ab/abbfcde99762e2fb3b8a98cf104de457cf375013d4479f4728208e4190c7/jwtlib-0.3.2.tar.gz
+[2023-06-10 17:01:18] INFO root fetch - processPackages [rdflib-ocdm]: Downloading https://files.pythonhosted.org/packages/87/40/386886b621a3af4a843aabde481a4e5c4a5903b33992989bd7e41e7aa50c/rdflib_ocdm-0.3.3.tar.gz
+[2023-06-10 17:01:18] INFO root fetch - processPackages [python-Levenshtein]: Downloading https://files.pythonhosted.org/packages/f2/6b/4a03914df5e8a76a7dab8eeade75cbc87790823f293a11a77f25ed9524bd/python-Levenshtein-0.21.0.tar.gz
+[2023-06-10 17:01:18] INFO root fetch - processPackages [omniplate]: Downloading https://files.pythonhosted.org/packages/50/14/7b100b3d1148850e521b76c0f5453898d62ce9322b47f8954385b0abfc2e/omniplate-0.9.85.tar.gz
+[2023-06-10 17:01:18] INFO root fetch - processPackages [custom-secrets-manager]: Downloading https://files.pythonhosted.org/packages/d8/6a/6962992a9ac5ed2267efa541a341c9103a8a7c05de73b4534486554bc690/custom_secrets_manager-1.1.0.tar.gz
+[2023-06-10 17:01:18] INFO root fetch - processPackages [jwtlib]: Downloading https://files.pythonhosted.org/packages/ef/23/a7acc823b6bf652b1d293ca18826628216967cd5f4adc21ea31df8d64577/jwtlib-0.3.3.tar.gz
+[2023-06-10 17:01:18] INFO root fetch - processPackages [rdflib-ocdm]: Downloading https://files.pythonhosted.org/packages/18/65/8058c9bda3dd0da5fc4810e3a398e6203c980e4456164ae023e311246643/rdflib_ocdm-0.3.4.tar.gz
+[2023-06-10 17:01:18] INFO root fetch - processPackages [record-msg]: Downloading https://files.pythonhosted.org/packages/b3/00/bc2dc1ff340efb392a1e03c758d3d11d560d51722c8c7f963db69f84eb71/record_msg-0.1.1.tar.gz
+[2023-06-10 17:01:18] INFO root fetch - processPackages [jwtlib]: executing diffoscope
+[2023-06-10 17:01:18] INFO root fetch - processPackages [jwtlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jwtlib-0.3.2.tar.gz tmp/jwtlib-0.3.3.tar.gz --markdown 20230610/j/jwtlib/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-06-10 17:01:18] INFO root fetch - processPackages [python-Levenshtein]: Downloading https://files.pythonhosted.org/packages/59/63/6c5eb0da240bef1e608e0597fa1036fdf49e28fe5e9cb1e557ca4f8f340e/python-Levenshtein-0.21.1.tar.gz
+[2023-06-10 17:01:18] INFO root fetch - processPackages [rdflib-ocdm]: executing diffoscope
+[2023-06-10 17:01:18] INFO root fetch - processPackages [rdflib-ocdm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rdflib_ocdm-0.3.3.tar.gz tmp/rdflib_ocdm-0.3.4.tar.gz --markdown 20230610/r/rdflib-ocdm/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-06-10 17:01:18] INFO root fetch - processPackages [custom-secrets-manager]: executing diffoscope
+[2023-06-10 17:01:18] INFO root fetch - processPackages [custom-secrets-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/custom_secrets_manager-1.0.8b0.tar.gz tmp/custom_secrets_manager-1.1.0.tar.gz --markdown 20230610/c/custom-secrets-manager/1.0.8b0-1.1.0/diff.md --exclude *.pyd
+[2023-06-10 17:01:18] INFO root fetch - processPackages [omniplate]: Downloading https://files.pythonhosted.org/packages/15/c0/f3e821ec7805adc2eeb940ff29eb3de8d233f24be8ea1da46bcfd28cc811/omniplate-0.9.9.tar.gz
+[2023-06-10 17:01:18] INFO root fetch - processPackages [python-Levenshtein]: executing diffoscope
+[2023-06-10 17:01:18] INFO root fetch - processPackages [python-Levenshtein]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-Levenshtein-0.21.0.tar.gz tmp/python-Levenshtein-0.21.1.tar.gz --markdown 20230610/p/python-Levenshtein/0.21.0-0.21.1/diff.md --exclude *.pyd
+[2023-06-10 17:01:18] INFO root fetch - processPackages [omniplate]: executing diffoscope
+[2023-06-10 17:01:18] INFO root fetch - processPackages [omniplate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omniplate-0.9.85.tar.gz tmp/omniplate-0.9.9.tar.gz --markdown 20230610/o/omniplate/0.9.85-0.9.9/diff.md --exclude *.pyd
+[2023-06-10 17:01:19] INFO root fetch - processPackages [record-msg]: Downloading https://files.pythonhosted.org/packages/32/7a/28a4b6e0475e36aa7142cec9b7da09d9eaa52a0b395540c4083c692dfcb4/record_msg-1.0.0.tar.gz
+[2023-06-10 17:01:19] INFO root fetch - processPackages [record-msg]: executing diffoscope
+[2023-06-10 17:01:19] INFO root fetch - processPackages [record-msg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/record_msg-0.1.1.tar.gz tmp/record_msg-1.0.0.tar.gz --markdown 20230610/r/record-msg/0.1.1-1.0.0/diff.md --exclude *.pyd
+[2023-06-10 17:01:20] INFO root fetch - processPackages [jwtlib]: Remove: archive file [/home/abi/fetcher/tmp/jwtlib-0.3.2.tar.gz]
+[2023-06-10 17:01:20] INFO root fetch - processPackages [jwtlib]: Remove: archive file [/home/abi/fetcher/tmp/jwtlib-0.3.3.tar.gz]
+[2023-06-10 17:01:20] INFO root fetch - main [MainThread]: End processing [jwtlib]: success
+[2023-06-10 17:01:20] INFO root fetch - processPackages [rdflib-ocdm]: Remove: archive file [/home/abi/fetcher/tmp/rdflib_ocdm-0.3.3.tar.gz]
+[2023-06-10 17:01:20] INFO root fetch - processPackages [rdflib-ocdm]: Remove: archive file [/home/abi/fetcher/tmp/rdflib_ocdm-0.3.4.tar.gz]
+[2023-06-10 17:01:20] INFO root fetch - main [MainThread]: End processing [rdflib-ocdm]: success
+[2023-06-10 17:01:20] INFO root fetch - processPackages [python-Levenshtein]: Remove: archive file [/home/abi/fetcher/tmp/python-Levenshtein-0.21.0.tar.gz]
+[2023-06-10 17:01:20] INFO root fetch - processPackages [python-Levenshtein]: Remove: archive file [/home/abi/fetcher/tmp/python-Levenshtein-0.21.1.tar.gz]
+[2023-06-10 17:01:20] INFO root fetch - main [MainThread]: End processing [python-Levenshtein]: success
+[2023-06-10 17:01:20] INFO root fetch - processPackages [custom-secrets-manager]: Remove: archive file [/home/abi/fetcher/tmp/custom_secrets_manager-1.0.8b0.tar.gz]
+[2023-06-10 17:01:20] INFO root fetch - processPackages [custom-secrets-manager]: Remove: archive file [/home/abi/fetcher/tmp/custom_secrets_manager-1.1.0.tar.gz]
+[2023-06-10 17:01:20] INFO root fetch - main [MainThread]: End processing [custom-secrets-manager]: success
+[2023-06-10 17:01:21] INFO root fetch - processPackages [omniplate]: Remove: archive file [/home/abi/fetcher/tmp/omniplate-0.9.85.tar.gz]
+[2023-06-10 17:01:21] INFO root fetch - processPackages [omniplate]: Remove: archive file [/home/abi/fetcher/tmp/omniplate-0.9.9.tar.gz]
+[2023-06-10 17:01:21] INFO root fetch - main [MainThread]: End processing [omniplate]: success
+[2023-06-10 17:01:30] INFO root fetch - processPackages [record-msg]: Remove: archive file [/home/abi/fetcher/tmp/record_msg-0.1.1.tar.gz]
+[2023-06-10 17:01:30] INFO root fetch - processPackages [record-msg]: Remove: archive file [/home/abi/fetcher/tmp/record_msg-1.0.0.tar.gz]
+[2023-06-10 17:01:30] INFO root fetch - main [MainThread]: End processing [record-msg]: success
+[2023-06-10 17:01:30] INFO root fetch - main [MainThread]: Store serial: [18451669]
