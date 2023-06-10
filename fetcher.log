@@ -7632,3 +7632,24 @@ EOFError: EOF read where object expected
 [2023-06-10 06:26:05] INFO root fetch - processPackages [pbt]: Remove: archive file [/home/abi/fetcher/tmp/pbt-2.9.4.tar.gz]
 [2023-06-10 06:26:05] INFO root fetch - main [MainThread]: End processing [pbt]: success
 [2023-06-10 06:26:05] INFO root fetch - main [MainThread]: Store serial: [18448595]
+[2023-06-10 06:31:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18448595]
+[2023-06-10 06:31:14] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-06-10 06:31:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: henipipe
+[2023-06-10 06:31:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-base-product-mass-addition
+[2023-06-10 06:31:14] INFO root fetch - processPackages [henipipe]: New version: [2.4.9] Old Version: [2.4.8]
+[2023-06-10 06:31:14] INFO root fetch - processPackages [henipipe]: Downloading https://files.pythonhosted.org/packages/1a/3c/a7772f6d85e24a88b6588662449af6e89f6e47cad7932500da296e608c92/henipipe-2.4.8.tar.gz
+[2023-06-10 06:31:15] INFO root fetch - processPackages [odoo14-addon-base-product-mass-addition]: New version: [14.0.1.2.1.dev2] Old Version: [14.0.1.2.0]
+[2023-06-10 06:31:15] INFO root fetch - processPackages [henipipe]: Downloading https://files.pythonhosted.org/packages/31/ce/52f83823b639987d43cd65ee88905a8aa6c034d3d30c6059f832a13e388a/henipipe-2.4.9.tar.gz
+[2023-06-10 06:31:15] INFO root fetch - processPackages [henipipe]: executing diffoscope
+[2023-06-10 06:31:15] INFO root fetch - processPackages [henipipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/henipipe-2.4.8.tar.gz tmp/henipipe-2.4.9.tar.gz --markdown 20230610/h/henipipe/2.4.8-2.4.9/diff.md --exclude *.pyd
+[2023-06-10 06:31:15] INFO root fetch - processPackages [odoo14-addon-base-product-mass-addition]: Downloading https://files.pythonhosted.org/packages/97/2a/f417f6ca5c25d8cc7f3aa5a8551f92dc27d779417ac6e1743e3608894bf2/odoo14_addon_base_product_mass_addition-14.0.1.2.0-py3-none-any.whl
+[2023-06-10 06:31:16] INFO root fetch - processPackages [odoo14-addon-base-product-mass-addition]: Downloading https://files.pythonhosted.org/packages/df/3a/c691a65e3e36bf744ab1e2466a05606d1ae47afed5cdfc66e58558ed83f4/odoo14_addon_base_product_mass_addition-14.0.1.2.1.dev2-py3-none-any.whl
+[2023-06-10 06:31:16] INFO root fetch - processPackages [henipipe]: Remove: archive file [/home/abi/fetcher/tmp/henipipe-2.4.8.tar.gz]
+[2023-06-10 06:31:16] INFO root fetch - processPackages [henipipe]: Remove: archive file [/home/abi/fetcher/tmp/henipipe-2.4.9.tar.gz]
+[2023-06-10 06:31:16] INFO root fetch - main [MainThread]: End processing [henipipe]: success
+[2023-06-10 06:31:16] INFO root fetch - processPackages [odoo14-addon-base-product-mass-addition]: executing diffoscope
+[2023-06-10 06:31:16] INFO root fetch - processPackages [odoo14-addon-base-product-mass-addition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_base_product_mass_addition-14.0.1.2.0-py3-none-any.whl.zip tmp/odoo14_addon_base_product_mass_addition-14.0.1.2.1.dev2-py3-none-any.whl.zip --markdown 20230610/o/odoo14-addon-base-product-mass-addition/14.0.1.2.0-14.0.1.2.1.dev2/diff.md --exclude *.pyd
+[2023-06-10 06:31:17] INFO root fetch - processPackages [odoo14-addon-base-product-mass-addition]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_base_product_mass_addition-14.0.1.2.0-py3-none-any.whl.zip]
+[2023-06-10 06:31:17] INFO root fetch - processPackages [odoo14-addon-base-product-mass-addition]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_base_product_mass_addition-14.0.1.2.1.dev2-py3-none-any.whl.zip]
+[2023-06-10 06:31:17] INFO root fetch - main [MainThread]: End processing [odoo14-addon-base-product-mass-addition]: success
+[2023-06-10 06:31:17] INFO root fetch - main [MainThread]: Store serial: [18448604]
