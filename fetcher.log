@@ -16239,3 +16239,69 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-10 20:11:42] INFO root fetch - processPackages [tiafork]: Remove: archive file [/home/abi/fetcher/tmp/tiafork-1.2.3.tar.gz]
 [2023-06-10 20:11:42] INFO root fetch - main [MainThread]: End processing [tiafork]: success
 [2023-06-10 20:11:42] INFO root fetch - main [MainThread]: Store serial: [18452856]
+[2023-06-10 20:16:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18452856]
+[2023-06-10 20:16:52] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-10 20:16:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gfs-dynamical-core
+[2023-06-10 20:16:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: heracless
+[2023-06-10 20:16:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: heracless
+[2023-06-10 20:16:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dbl-tempo
+[2023-06-10 20:16:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tkintertoy
+[2023-06-10 20:16:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dcrx-api
+[2023-06-10 20:16:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: smdb-api
+[2023-06-10 20:16:52] INFO root fetch - processPackages [dbl-tempo]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-10 20:16:52] INFO root fetch - processPackages [gfs-dynamical-core]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-10 20:16:52] INFO root fetch - processPackages [tkintertoy]: New version: [1.5.0] Old Version: [1.3.0]
+[2023-06-10 20:16:52] INFO root fetch - processPackages [smdb-api]: New version: [0.9.12] Old Version: [0.9.1]
+[2023-06-10 20:16:52] INFO root fetch - processPackages [heracless]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-10 20:16:52] INFO root fetch - processPackages [dcrx-api]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-10 20:16:52] INFO root fetch - processPackages [heracless]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-10 20:16:52] INFO root fetch - processPackages [dcrx-api]: Downloading https://files.pythonhosted.org/packages/5a/b9/dc8f6ee2e7e1e1d72db5446f7da05283be2083318c0705d089fe1fdc57df/dcrx-api-0.2.2.tar.gz
+[2023-06-10 20:16:52] INFO root fetch - processPackages [heracless]: Downloading https://files.pythonhosted.org/packages/9e/c0/01d2ca87559cdaaf949c8e35acdab74302319bc395e640f7880f3096b7ff/heracless-0.1.0.tar.gz
+[2023-06-10 20:16:52] INFO root fetch - processPackages [heracless]: Downloading https://files.pythonhosted.org/packages/9e/c0/01d2ca87559cdaaf949c8e35acdab74302319bc395e640f7880f3096b7ff/heracless-0.1.0.tar.gz
+[2023-06-10 20:16:52] INFO root fetch - processPackages [tkintertoy]: Downloading https://files.pythonhosted.org/packages/c8/5b/8732b80be7a0e9640c2266036f620814f7c1c0b7450343e1d7875ae74eb8/tkintertoy-1.3.0.tar.gz
+[2023-06-10 20:16:52] INFO root fetch - processPackages [gfs-dynamical-core]: Downloading https://files.pythonhosted.org/packages/27/74/e6cedf4b9d67d1f39c455316d838b4f95ffc158a1b616090a659532dda1d/gfs_dynamical_core-0.1.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-10 20:16:52] INFO root fetch - processPackages [dbl-tempo]: Downloading https://files.pythonhosted.org/packages/f5/fc/e96f6ffaf704d55e0aefef6861ff962082fdc836001ef7283dfbd9523af2/dbl_tempo-0.1.8-py3-none-any.whl
+[2023-06-10 20:16:52] INFO root fetch - processPackages [smdb-api]: Downloading https://files.pythonhosted.org/packages/8b/7c/462aee1f0b31705fd270ae4f3e269115e2d4d915b3f0af107c97f2e51531/smdb_api-0.9.1.tar.gz
+[2023-06-10 20:16:53] INFO root fetch - processPackages [heracless]: Downloading https://files.pythonhosted.org/packages/e9/7d/cbe3c95131e2fe5426f87f5325651fbd53ff2f84499b8a30bde90340e701/heracless-0.1.1.tar.gz
+[2023-06-10 20:16:53] INFO root fetch - processPackages [heracless]: Downloading https://files.pythonhosted.org/packages/e9/7d/cbe3c95131e2fe5426f87f5325651fbd53ff2f84499b8a30bde90340e701/heracless-0.1.1.tar.gz
+[2023-06-10 20:16:53] INFO root fetch - processPackages [smdb-api]: Downloading https://files.pythonhosted.org/packages/7c/40/4f246c09d870d252aea285313cdb40d34031bafd148e7448cd55500393fa/smdb_api-0.9.12.tar.gz
+[2023-06-10 20:16:53] INFO root fetch - processPackages [tkintertoy]: Downloading https://files.pythonhosted.org/packages/dc/a6/44b3ab87fdba2966abf0af8d618c57357564549ad68da22f71b2872d19d6/tkintertoy-1.5.0.tar.gz
+[2023-06-10 20:16:53] INFO root fetch - processPackages [gfs-dynamical-core]: Downloading https://files.pythonhosted.org/packages/0e/54/969a86c8ebdf4ac854a47d8845bdcb970317a8a4a0c7ba1fb04fba0d705b/gfs_dynamical_core-0.1.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-10 20:16:53] INFO root fetch - processPackages [dcrx-api]: Downloading https://files.pythonhosted.org/packages/00/b8/dd922bbbd0fa2cd6369b4211078b7f282bab9f8bdd84429fc30dbcdef049/dcrx-api-0.2.3.tar.gz
+[2023-06-10 20:16:53] INFO root fetch - processPackages [dbl-tempo]: Downloading https://files.pythonhosted.org/packages/60/ba/7ac8d7bd7a959f8caaa54486807b24e273939ba9a5001c1459f9b27f7ca6/dbl_tempo-0.1.9-py3-none-any.whl
+[2023-06-10 20:16:53] INFO root fetch - processPackages [tkintertoy]: executing diffoscope
+[2023-06-10 20:16:53] INFO root fetch - processPackages [tkintertoy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tkintertoy-1.3.0.tar.gz tmp/tkintertoy-1.5.0.tar.gz --markdown 20230610/t/tkintertoy/1.3.0-1.5.0/diff.md --exclude *.pyd
+[2023-06-10 20:16:53] INFO root fetch - processPackages [dcrx-api]: executing diffoscope
+[2023-06-10 20:16:53] INFO root fetch - processPackages [dcrx-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcrx-api-0.2.2.tar.gz tmp/dcrx-api-0.2.3.tar.gz --markdown 20230610/d/dcrx-api/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-10 20:16:53] INFO root fetch - processPackages [heracless]: executing diffoscope
+[2023-06-10 20:16:53] INFO root fetch - processPackages [heracless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heracless-0.1.0.tar.gz tmp/heracless-0.1.1.tar.gz --markdown 20230610/h/heracless/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-10 20:16:53] INFO root fetch - processPackages [gfs-dynamical-core]: executing diffoscope
+[2023-06-10 20:16:53] INFO root fetch - processPackages [gfs-dynamical-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gfs_dynamical_core-0.1.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/gfs_dynamical_core-0.1.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230610/g/gfs-dynamical-core/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-10 20:16:53] INFO root fetch - processPackages [smdb-api]: executing diffoscope
+[2023-06-10 20:16:53] INFO root fetch - processPackages [smdb-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smdb_api-0.9.1.tar.gz tmp/smdb_api-0.9.12.tar.gz --markdown 20230610/s/smdb-api/0.9.1-0.9.12/diff.md --exclude *.pyd
+[2023-06-10 20:16:53] INFO root fetch - processPackages [heracless]: executing diffoscope
+[2023-06-10 20:16:53] INFO root fetch - processPackages [heracless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heracless-0.1.0.tar.gz tmp/heracless-0.1.1.tar.gz --markdown 20230610/h/heracless/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-10 20:16:53] INFO root fetch - processPackages [dbl-tempo]: executing diffoscope
+[2023-06-10 20:16:53] INFO root fetch - processPackages [dbl-tempo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbl_tempo-0.1.8-py3-none-any.whl.zip tmp/dbl_tempo-0.1.9-py3-none-any.whl.zip --markdown 20230610/d/dbl-tempo/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-10 20:16:53] ERROR root fetch - processPackages [heracless]: Diffoscope failed: Error: error creating container storage: the container name "sweet_newton" is already in use by "287a29c2748c2d230415b976f6d1648853123c7c06443d4a0a4bca12356f2cae". You have to remove that container to be able to reuse that name.: that name is already in use
+
+[2023-06-10 20:16:53] INFO root fetch - main [MainThread]: End processing [heracless] error
+[2023-06-10 20:16:54] INFO root fetch - processPackages [tkintertoy]: Remove: archive file [/home/abi/fetcher/tmp/tkintertoy-1.3.0.tar.gz]
+[2023-06-10 20:16:54] INFO root fetch - processPackages [tkintertoy]: Remove: archive file [/home/abi/fetcher/tmp/tkintertoy-1.5.0.tar.gz]
+[2023-06-10 20:16:54] INFO root fetch - main [MainThread]: End processing [tkintertoy]: success
+[2023-06-10 20:16:54] INFO root fetch - processPackages [heracless]: Remove: archive file [/home/abi/fetcher/tmp/heracless-0.1.0.tar.gz]
+[2023-06-10 20:16:54] INFO root fetch - processPackages [heracless]: Remove: archive file [/home/abi/fetcher/tmp/heracless-0.1.1.tar.gz]
+[2023-06-10 20:16:54] INFO root fetch - main [MainThread]: End processing [heracless]: success
+[2023-06-10 20:16:54] INFO root fetch - processPackages [smdb-api]: Remove: archive file [/home/abi/fetcher/tmp/smdb_api-0.9.1.tar.gz]
+[2023-06-10 20:16:54] INFO root fetch - processPackages [smdb-api]: Remove: archive file [/home/abi/fetcher/tmp/smdb_api-0.9.12.tar.gz]
+[2023-06-10 20:16:54] INFO root fetch - main [MainThread]: End processing [smdb-api]: success
+[2023-06-10 20:16:54] INFO root fetch - processPackages [dbl-tempo]: Remove: archive file [/home/abi/fetcher/tmp/dbl_tempo-0.1.8-py3-none-any.whl.zip]
+[2023-06-10 20:16:54] INFO root fetch - processPackages [dbl-tempo]: Remove: archive file [/home/abi/fetcher/tmp/dbl_tempo-0.1.9-py3-none-any.whl.zip]
+[2023-06-10 20:16:54] INFO root fetch - main [MainThread]: End processing [dbl-tempo]: success
+[2023-06-10 20:16:54] INFO root fetch - processPackages [dcrx-api]: Remove: archive file [/home/abi/fetcher/tmp/dcrx-api-0.2.2.tar.gz]
+[2023-06-10 20:16:54] INFO root fetch - processPackages [dcrx-api]: Remove: archive file [/home/abi/fetcher/tmp/dcrx-api-0.2.3.tar.gz]
+[2023-06-10 20:16:54] INFO root fetch - main [MainThread]: End processing [dcrx-api]: success
+[2023-06-10 20:17:15] INFO root fetch - processPackages [gfs-dynamical-core]: Remove: archive file [/home/abi/fetcher/tmp/gfs_dynamical_core-0.1.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-10 20:17:15] INFO root fetch - processPackages [gfs-dynamical-core]: Remove: archive file [/home/abi/fetcher/tmp/gfs_dynamical_core-0.1.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-10 20:17:15] INFO root fetch - main [MainThread]: End processing [gfs-dynamical-core]: success
+[2023-06-10 20:17:15] INFO root fetch - main [MainThread]: Store serial: [18452879]
