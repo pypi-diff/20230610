@@ -10556,3 +10556,45 @@ EOFError: EOF read where object expected
 [2023-06-10 12:35:51] INFO root fetch - processPackages [bionty]: Remove: archive file [/home/abi/fetcher/tmp/bionty-0.9.0rc1.tar.gz]
 [2023-06-10 12:35:51] INFO root fetch - main [MainThread]: End processing [bionty]: success
 [2023-06-10 12:35:51] INFO root fetch - main [MainThread]: Store serial: [18450043]
+[2023-06-10 12:40:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18450043]
+[2023-06-10 12:41:01] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-10 12:41:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: garmin-ace
+[2023-06-10 12:41:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Crayfish
+[2023-06-10 12:41:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-web-company-color
+[2023-06-10 12:41:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Spider-Toolkit
+[2023-06-10 12:41:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Oz-Engine
+[2023-06-10 12:41:01] INFO root fetch - processPackages [Oz-Engine]: New version: [1.3.0.2] Old Version: [1.3.0.1]
+[2023-06-10 12:41:01] WARNING root fetch - processPackages [Crayfish]: Skipping, unable to determine old version
+[2023-06-10 12:41:01] INFO root fetch - main [MainThread]: End processing [Crayfish] error
+[2023-06-10 12:41:01] INFO root fetch - processPackages [Spider-Toolkit]: New version: [23.0.2] Old Version: [23.0.1]
+[2023-06-10 12:41:01] INFO root fetch - processPackages [odoo-addon-web-company-color]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.1.0.2]
+[2023-06-10 12:41:01] INFO root fetch - processPackages [garmin-ace]: New version: [0.0.1a4] Old Version: [0.0.1a3]
+[2023-06-10 12:41:01] INFO root fetch - processPackages [Oz-Engine]: Downloading https://files.pythonhosted.org/packages/7c/21/44d2adc48dec32a507b30cec37960458c005261c2fc2761de49e887aa1de/Oz-Engine-1.3.0.1.tar.gz
+[2023-06-10 12:41:01] INFO root fetch - processPackages [garmin-ace]: Downloading https://files.pythonhosted.org/packages/91/0b/739c67f0a28ab56ae85a80783b38f2909917017a07d90cbe1f09820885c2/garmin_ace-0.0.1a3.tar.gz
+[2023-06-10 12:41:01] INFO root fetch - processPackages [Spider-Toolkit]: Downloading https://files.pythonhosted.org/packages/6e/ce/4607909738ee7563f474e14605990dcc681f67d78647a2256675d2a3f94c/Spider_Toolkit-23.0.1.tar.gz
+[2023-06-10 12:41:01] INFO root fetch - processPackages [odoo-addon-web-company-color]: Downloading https://files.pythonhosted.org/packages/fd/1d/05fe853ca53566b0b0f834a50092727d913d81ca4c53d11fa42dce46badf/odoo_addon_web_company_color-15.0.1.1.0.2-py3-none-any.whl
+[2023-06-10 12:41:01] INFO root fetch - processPackages [Oz-Engine]: Downloading https://files.pythonhosted.org/packages/f3/dd/fbbcfd6314f7135733203d57fee132b0f2d0b3d00e81acc1455c49494197/Oz_Engine-1.3.0.2.tar.gz
+[2023-06-10 12:41:01] INFO root fetch - processPackages [garmin-ace]: Downloading https://files.pythonhosted.org/packages/bb/73/9964405323ce5092b8ec5262565e5f6ea4f1bbb95376ecfd30dbcd2c94fd/garmin_ace-0.0.1a4.tar.gz
+[2023-06-10 12:41:01] INFO root fetch - processPackages [Spider-Toolkit]: Downloading https://files.pythonhosted.org/packages/37/55/c41aacdfbc69a111ce6d8432e0e55c184861b53b1d0b6d32c337180cd24a/Spider_Toolkit-23.0.2.tar.gz
+[2023-06-10 12:41:01] INFO root fetch - processPackages [odoo-addon-web-company-color]: Downloading https://files.pythonhosted.org/packages/26/a6/be6df542ea6eaf06c660c7faeb245369c48308259f06a7e3a058d6f1a2e7/odoo_addon_web_company_color-16.0.1.0.0.2-py3-none-any.whl
+[2023-06-10 12:41:01] INFO root fetch - processPackages [Oz-Engine]: executing diffoscope
+[2023-06-10 12:41:01] INFO root fetch - processPackages [Oz-Engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Oz-Engine-1.3.0.1.tar.gz tmp/Oz_Engine-1.3.0.2.tar.gz --markdown 20230610/O/Oz-Engine/1.3.0.1-1.3.0.2/diff.md --exclude *.pyd
+[2023-06-10 12:41:01] INFO root fetch - processPackages [Spider-Toolkit]: executing diffoscope
+[2023-06-10 12:41:01] INFO root fetch - processPackages [Spider-Toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Spider_Toolkit-23.0.1.tar.gz tmp/Spider_Toolkit-23.0.2.tar.gz --markdown 20230610/S/Spider-Toolkit/23.0.1-23.0.2/diff.md --exclude *.pyd
+[2023-06-10 12:41:01] INFO root fetch - processPackages [odoo-addon-web-company-color]: executing diffoscope
+[2023-06-10 12:41:01] INFO root fetch - processPackages [odoo-addon-web-company-color]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_web_company_color-15.0.1.1.0.2-py3-none-any.whl.zip tmp/odoo_addon_web_company_color-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230610/o/odoo-addon-web-company-color/15.0.1.1.0.2-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-06-10 12:41:01] INFO root fetch - processPackages [garmin-ace]: executing diffoscope
+[2023-06-10 12:41:01] INFO root fetch - processPackages [garmin-ace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garmin_ace-0.0.1a3.tar.gz tmp/garmin_ace-0.0.1a4.tar.gz --markdown 20230610/g/garmin-ace/0.0.1a3-0.0.1a4/diff.md --exclude *.pyd
+[2023-06-10 12:41:02] INFO root fetch - processPackages [Spider-Toolkit]: Remove: archive file [/home/abi/fetcher/tmp/Spider_Toolkit-23.0.1.tar.gz]
+[2023-06-10 12:41:02] INFO root fetch - processPackages [Spider-Toolkit]: Remove: archive file [/home/abi/fetcher/tmp/Spider_Toolkit-23.0.2.tar.gz]
+[2023-06-10 12:41:02] INFO root fetch - main [MainThread]: End processing [Spider-Toolkit]: success
+[2023-06-10 12:41:02] INFO root fetch - processPackages [odoo-addon-web-company-color]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_web_company_color-15.0.1.1.0.2-py3-none-any.whl.zip]
+[2023-06-10 12:41:02] INFO root fetch - processPackages [odoo-addon-web-company-color]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_web_company_color-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-10 12:41:02] INFO root fetch - main [MainThread]: End processing [odoo-addon-web-company-color]: success
+[2023-06-10 12:41:02] INFO root fetch - processPackages [garmin-ace]: Remove: archive file [/home/abi/fetcher/tmp/garmin_ace-0.0.1a3.tar.gz]
+[2023-06-10 12:41:02] INFO root fetch - processPackages [garmin-ace]: Remove: archive file [/home/abi/fetcher/tmp/garmin_ace-0.0.1a4.tar.gz]
+[2023-06-10 12:41:02] INFO root fetch - main [MainThread]: End processing [garmin-ace]: success
+[2023-06-10 12:41:02] INFO root fetch - processPackages [Oz-Engine]: Remove: archive file [/home/abi/fetcher/tmp/Oz-Engine-1.3.0.1.tar.gz]
+[2023-06-10 12:41:02] INFO root fetch - processPackages [Oz-Engine]: Remove: archive file [/home/abi/fetcher/tmp/Oz_Engine-1.3.0.2.tar.gz]
+[2023-06-10 12:41:02] INFO root fetch - main [MainThread]: End processing [Oz-Engine]: success
+[2023-06-10 12:41:02] INFO root fetch - main [MainThread]: Store serial: [18450059]
