@@ -8448,3 +8448,36 @@ EOFError: EOF read where object expected
 [2023-06-10 08:13:57] INFO root fetch - processPackages [henipipe]: Remove: archive file [/home/abi/fetcher/tmp/henipipe-2.4.9.tar.gz]
 [2023-06-10 08:13:57] INFO root fetch - main [MainThread]: End processing [henipipe]: success
 [2023-06-10 08:13:57] INFO root fetch - main [MainThread]: Store serial: [18449013]
+[2023-06-10 08:19:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18449013]
+[2023-06-10 08:19:05] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-10 08:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sabledocs
+[2023-06-10 08:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: OpenFisca-Survey-Manager
+[2023-06-10 08:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: MMutils
+[2023-06-10 08:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pretext
+[2023-06-10 08:19:06] INFO root fetch - processPackages [sabledocs]: New version: [0.4.170] Old Version: [0.4.168.dev0]
+[2023-06-10 08:19:06] INFO root fetch - processPackages [pretext]: New version: [1.6.1.dev20230609] Old Version: [1.6.1.dev20230608]
+[2023-06-10 08:19:06] INFO root fetch - processPackages [sabledocs]: Downloading https://files.pythonhosted.org/packages/80/2c/9d80e6b1fe087134971ee9d72f346eb4983b96e9ff4ed12adbc1754fb070/sabledocs-0.4.168.dev0.tar.gz
+[2023-06-10 08:19:06] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/1f/12/d7b7c865f8300c2f680a196405f68af9f4ecc2faf6327fa9b8dcf37b3f19/pretext-1.6.1.dev20230608.tar.gz
+[2023-06-10 08:19:06] WARNING root fetch - processPackages [MMutils]: Skipping, unable to determine old version
+[2023-06-10 08:19:06] INFO root fetch - main [MainThread]: End processing [MMutils] error
+[2023-06-10 08:19:06] INFO root fetch - processPackages [OpenFisca-Survey-Manager]: New version: [1.0.0] Old Version: [0.9.8]
+[2023-06-10 08:19:06] INFO root fetch - processPackages [sabledocs]: Downloading https://files.pythonhosted.org/packages/67/13/227401caa33934a540574da322432c05e642adde83aadb9931abe846fc6e/sabledocs-0.4.170.tar.gz
+[2023-06-10 08:19:06] INFO root fetch - processPackages [OpenFisca-Survey-Manager]: Downloading https://files.pythonhosted.org/packages/c9/14/00abe2b80174996b0a2c6cec188b74eff5c177217070db33b19d47a3c08c/OpenFisca-Survey-Manager-0.9.8.tar.gz
+[2023-06-10 08:19:06] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/45/2c/e4e9a745c727234db1f7a0a15fd1b53d53f52ef0f5016966278979f57486/pretext-1.6.1.dev20230609.tar.gz
+[2023-06-10 08:19:06] INFO root fetch - processPackages [sabledocs]: executing diffoscope
+[2023-06-10 08:19:06] INFO root fetch - processPackages [sabledocs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sabledocs-0.4.168.dev0.tar.gz tmp/sabledocs-0.4.170.tar.gz --markdown 20230610/s/sabledocs/0.4.168.dev0-0.4.170/diff.md --exclude *.pyd
+[2023-06-10 08:19:06] INFO root fetch - processPackages [pretext]: executing diffoscope
+[2023-06-10 08:19:06] INFO root fetch - processPackages [pretext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretext-1.6.1.dev20230608.tar.gz tmp/pretext-1.6.1.dev20230609.tar.gz --markdown 20230610/p/pretext/1.6.1.dev20230608-1.6.1.dev20230609/diff.md --exclude *.pyd
+[2023-06-10 08:19:06] INFO root fetch - processPackages [OpenFisca-Survey-Manager]: Downloading https://files.pythonhosted.org/packages/bf/e3/ac9e1985260b242692489f84354d101be32f4dc1dcd5a2b1d9ae8e4fce42/OpenFisca-Survey-Manager-1.0.0.tar.gz
+[2023-06-10 08:19:06] INFO root fetch - processPackages [OpenFisca-Survey-Manager]: executing diffoscope
+[2023-06-10 08:19:06] INFO root fetch - processPackages [OpenFisca-Survey-Manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenFisca-Survey-Manager-0.9.8.tar.gz tmp/OpenFisca-Survey-Manager-1.0.0.tar.gz --markdown 20230610/O/OpenFisca-Survey-Manager/0.9.8-1.0.0/diff.md --exclude *.pyd
+[2023-06-10 08:19:07] INFO root fetch - processPackages [sabledocs]: Remove: archive file [/home/abi/fetcher/tmp/sabledocs-0.4.168.dev0.tar.gz]
+[2023-06-10 08:19:07] INFO root fetch - processPackages [sabledocs]: Remove: archive file [/home/abi/fetcher/tmp/sabledocs-0.4.170.tar.gz]
+[2023-06-10 08:19:07] INFO root fetch - main [MainThread]: End processing [sabledocs]: success
+[2023-06-10 08:19:07] INFO root fetch - processPackages [OpenFisca-Survey-Manager]: Remove: archive file [/home/abi/fetcher/tmp/OpenFisca-Survey-Manager-0.9.8.tar.gz]
+[2023-06-10 08:19:07] INFO root fetch - processPackages [OpenFisca-Survey-Manager]: Remove: archive file [/home/abi/fetcher/tmp/OpenFisca-Survey-Manager-1.0.0.tar.gz]
+[2023-06-10 08:19:07] INFO root fetch - main [MainThread]: End processing [OpenFisca-Survey-Manager]: success
+[2023-06-10 08:19:12] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.6.1.dev20230608.tar.gz]
+[2023-06-10 08:19:12] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.6.1.dev20230609.tar.gz]
+[2023-06-10 08:19:12] INFO root fetch - main [MainThread]: End processing [pretext]: success
+[2023-06-10 08:19:12] INFO root fetch - main [MainThread]: Store serial: [18449066]
