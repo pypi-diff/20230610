@@ -8865,3 +8865,71 @@ EOFError: EOF read where object expected
 [2023-06-10 09:17:24] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz]
 [2023-06-10 09:17:24] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
 [2023-06-10 09:17:24] INFO root fetch - main [MainThread]: Store serial: [18449297]
+[2023-06-10 09:22:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18449297]
+[2023-06-10 09:22:33] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-10 09:22:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pydflow
+[2023-06-10 09:22:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: indecro
+[2023-06-10 09:22:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mahirodos2
+[2023-06-10 09:22:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lollms
+[2023-06-10 09:22:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pydantic-xml
+[2023-06-10 09:22:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Shark-sac-Korean-editor
+[2023-06-10 09:22:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sdk-obs-python
+[2023-06-10 09:22:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pbt
+[2023-06-10 09:22:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mpservice
+[2023-06-10 09:22:33] WARNING root fetch - processPackages [mahirodos2]: Skipping, unable to determine old version
+[2023-06-10 09:22:33] INFO root fetch - processPackages [lollms]: New version: [1.1.9] Old Version: [1.1.7]
+[2023-06-10 09:22:33] INFO root fetch - main [MainThread]: End processing [mahirodos2] error
+[2023-06-10 09:22:33] INFO root fetch - processPackages [indecro]: New version: [0.135] Old Version: [0.132]
+[2023-06-10 09:22:33] INFO root fetch - processPackages [mpservice]: New version: [0.9.9.post1] Old Version: [0.9.9]
+[2023-06-10 09:22:33] INFO root fetch - processPackages [pydflow]: New version: [1.6.99] Old Version: [1.6.98]
+[2023-06-10 09:22:33] INFO root fetch - processPackages [pbt]: New version: [2.9.4] Old Version: [2.9.3]
+[2023-06-10 09:22:33] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/3d/63/5860743c06fbd44180fc9469d6a01bbc0644f8be5bc965843b7c2864a173/lollms-1.1.7.tar.gz
+[2023-06-10 09:22:33] INFO root fetch - processPackages [pbt]: Downloading https://files.pythonhosted.org/packages/5c/6b/f41552dfdddd6270fb8f02586752201bdef15b5649ec8fdb6fca7b4f3a00/pbt-2.9.3.tar.gz
+[2023-06-10 09:22:34] WARNING root fetch - processPackages [sdk-obs-python]: Skipping, unable to determine old version
+[2023-06-10 09:22:34] INFO root fetch - main [MainThread]: End processing [sdk-obs-python] error
+[2023-06-10 09:22:34] INFO root fetch - processPackages [pydantic-xml]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-06-10 09:22:34] INFO root fetch - processPackages [Shark-sac-Korean-editor]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-10 09:22:34] WARNING root fetch - processPackages [lollms]: Skipping package: exceeds size limit 17349845>=10485760
+[2023-06-10 09:22:34] INFO root fetch - main [MainThread]: End processing [lollms] error
+[2023-06-10 09:22:34] INFO root fetch - processPackages [indecro]: Downloading https://files.pythonhosted.org/packages/35/02/09a78235ee30674276ce1d5c19bb38d610fc56ea1c19f94ed20dfb199579/indecro-0.132.tar.gz
+[2023-06-10 09:22:34] INFO root fetch - processPackages [mpservice]: Downloading https://files.pythonhosted.org/packages/a4/76/0caf3e54fc1b0c685c01abdb7deb283a4e0ab62467df218edf79256efe6d/mpservice-0.9.9.tar.gz
+[2023-06-10 09:22:34] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/c6/42/d4b1986a307020d3007742d6f25422e7aebd391ade1cb451d28a4865e7d2/pydflow-1.6.98.tar.gz
+[2023-06-10 09:22:34] INFO root fetch - processPackages [pydantic-xml]: Downloading https://files.pythonhosted.org/packages/ff/a4/00f05caa75aa100b7b2cea16c04952809ca9c348d5d02d74a91904a921b0/pydantic_xml-0.6.1.tar.gz
+[2023-06-10 09:22:34] INFO root fetch - processPackages [Shark-sac-Korean-editor]: Downloading https://files.pythonhosted.org/packages/cd/06/bb6a2b0e8993b8c1025d51d8236c92700eb5b2a2629c05f8267ede46dd0f/Shark%20sac%20Korean%20editor-1.1.1.tar.gz
+[2023-06-10 09:22:34] INFO root fetch - processPackages [pbt]: Downloading https://files.pythonhosted.org/packages/82/35/7e5c8e112f41c956e411dae99953fd41213c914e310da341f2eb524a15a7/pbt-2.9.4.tar.gz
+[2023-06-10 09:22:34] INFO root fetch - processPackages [indecro]: Downloading https://files.pythonhosted.org/packages/95/7c/fd4f164fde181163c1da99497f68b7823e0cfffadbaff7bbc3c8e03e231b/indecro-0.135.tar.gz
+[2023-06-10 09:22:34] INFO root fetch - processPackages [pbt]: executing diffoscope
+[2023-06-10 09:22:34] INFO root fetch - processPackages [pbt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pbt-2.9.3.tar.gz tmp/pbt-2.9.4.tar.gz --markdown 20230610/p/pbt/2.9.3-2.9.4/diff.md --exclude *.pyd
+[2023-06-10 09:22:34] INFO root fetch - processPackages [mpservice]: Downloading https://files.pythonhosted.org/packages/62/83/992eb812676a1d5b8ffbc5c9ba7e1bd57f82c86ae5c8a0e509834c8df031/mpservice-0.9.9.post1.tar.gz
+[2023-06-10 09:22:34] INFO root fetch - processPackages [indecro]: executing diffoscope
+[2023-06-10 09:22:34] INFO root fetch - processPackages [indecro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indecro-0.132.tar.gz tmp/indecro-0.135.tar.gz --markdown 20230610/i/indecro/0.132-0.135/diff.md --exclude *.pyd
+[2023-06-10 09:22:34] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/86/ec/1d1f51e2ef9a626c2621695ed39210c378d699e371457fcd1efe70b1c890/pydflow-1.6.99.tar.gz
+[2023-06-10 09:22:34] INFO root fetch - processPackages [pydantic-xml]: Downloading https://files.pythonhosted.org/packages/c0/ba/defe50c75d7ff67f6ca2c9b8e83d3d39245b14cfa8f8d868cccade69a398/pydantic_xml-0.6.2.tar.gz
+[2023-06-10 09:22:34] INFO root fetch - processPackages [mpservice]: executing diffoscope
+[2023-06-10 09:22:34] INFO root fetch - processPackages [mpservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpservice-0.9.9.tar.gz tmp/mpservice-0.9.9.post1.tar.gz --markdown 20230610/m/mpservice/0.9.9-0.9.9.post1/diff.md --exclude *.pyd
+[2023-06-10 09:22:34] INFO root fetch - processPackages [pydflow]: executing diffoscope
+[2023-06-10 09:22:34] INFO root fetch - processPackages [pydflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydflow-1.6.98.tar.gz tmp/pydflow-1.6.99.tar.gz --markdown 20230610/p/pydflow/1.6.98-1.6.99/diff.md --exclude *.pyd
+[2023-06-10 09:22:34] INFO root fetch - processPackages [Shark-sac-Korean-editor]: Downloading https://files.pythonhosted.org/packages/a2/ea/615f7af3ea90eb45a511ccba774c9d46d83e6f102241b860b46490f619d1/Shark%20sac%20Korean%20editor-1.1.2.tar.gz
+[2023-06-10 09:22:34] INFO root fetch - processPackages [pydantic-xml]: executing diffoscope
+[2023-06-10 09:22:34] INFO root fetch - processPackages [pydantic-xml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_xml-0.6.1.tar.gz tmp/pydantic_xml-0.6.2.tar.gz --markdown 20230610/p/pydantic-xml/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-06-10 09:22:34] INFO root fetch - processPackages [Shark-sac-Korean-editor]: executing diffoscope
+[2023-06-10 09:22:34] INFO root fetch - processPackages [Shark-sac-Korean-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Shark sac Korean editor-1.1.1.tar.gz tmp/Shark sac Korean editor-1.1.2.tar.gz --markdown 20230610/S/Shark-sac-Korean-editor/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-06-10 09:22:35] INFO root fetch - processPackages [indecro]: Remove: archive file [/home/abi/fetcher/tmp/indecro-0.132.tar.gz]
+[2023-06-10 09:22:35] INFO root fetch - processPackages [indecro]: Remove: archive file [/home/abi/fetcher/tmp/indecro-0.135.tar.gz]
+[2023-06-10 09:22:35] INFO root fetch - main [MainThread]: End processing [indecro]: success
+[2023-06-10 09:22:35] INFO root fetch - processPackages [pbt]: Remove: archive file [/home/abi/fetcher/tmp/pbt-2.9.3.tar.gz]
+[2023-06-10 09:22:35] INFO root fetch - processPackages [pbt]: Remove: archive file [/home/abi/fetcher/tmp/pbt-2.9.4.tar.gz]
+[2023-06-10 09:22:35] INFO root fetch - main [MainThread]: End processing [pbt]: success
+[2023-06-10 09:22:35] INFO root fetch - processPackages [mpservice]: Remove: archive file [/home/abi/fetcher/tmp/mpservice-0.9.9.tar.gz]
+[2023-06-10 09:22:35] INFO root fetch - processPackages [mpservice]: Remove: archive file [/home/abi/fetcher/tmp/mpservice-0.9.9.post1.tar.gz]
+[2023-06-10 09:22:35] INFO root fetch - main [MainThread]: End processing [mpservice]: success
+[2023-06-10 09:22:35] INFO root fetch - processPackages [pydantic-xml]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_xml-0.6.1.tar.gz]
+[2023-06-10 09:22:35] INFO root fetch - processPackages [pydantic-xml]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_xml-0.6.2.tar.gz]
+[2023-06-10 09:22:35] INFO root fetch - main [MainThread]: End processing [pydantic-xml]: success
+[2023-06-10 09:22:36] INFO root fetch - processPackages [pydflow]: Remove: archive file [/home/abi/fetcher/tmp/pydflow-1.6.98.tar.gz]
+[2023-06-10 09:22:36] INFO root fetch - processPackages [pydflow]: Remove: archive file [/home/abi/fetcher/tmp/pydflow-1.6.99.tar.gz]
+[2023-06-10 09:22:36] INFO root fetch - main [MainThread]: End processing [pydflow]: success
+[2023-06-10 09:22:36] INFO root fetch - processPackages [Shark-sac-Korean-editor]: Remove: archive file [/home/abi/fetcher/tmp/Shark sac Korean editor-1.1.1.tar.gz]
+[2023-06-10 09:22:36] INFO root fetch - processPackages [Shark-sac-Korean-editor]: Remove: archive file [/home/abi/fetcher/tmp/Shark sac Korean editor-1.1.2.tar.gz]
+[2023-06-10 09:22:36] INFO root fetch - main [MainThread]: End processing [Shark-sac-Korean-editor]: success
+[2023-06-10 09:22:36] INFO root fetch - main [MainThread]: Store serial: [18449325]
