@@ -7229,3 +7229,72 @@ EOFError: EOF read where object expected
 [2023-06-10 05:31:22] INFO root fetch - processPackages [alicechess]: Remove: archive file [/home/abi/fetcher/tmp/alicechess-2.2.0.tar.gz]
 [2023-06-10 05:31:22] INFO root fetch - main [MainThread]: End processing [alicechess]: success
 [2023-06-10 05:31:22] INFO root fetch - main [MainThread]: Store serial: [18448436]
+[2023-06-10 05:36:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18448436]
+[2023-06-10 05:36:31] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-10 05:36:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tcheck
+[2023-06-10 05:36:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-product-harmonized-system-delivery
+[2023-06-10 05:36:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-intrastat-base
+[2023-06-10 05:36:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-intrastat-product
+[2023-06-10 05:36:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addons-oca-intrastat-extrastat
+[2023-06-10 05:36:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: llama-cpp-python
+[2023-06-10 05:36:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ovos-PHAL-plugin-network-manager
+[2023-06-10 05:36:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: quik-ai
+[2023-06-10 05:36:32] INFO root fetch - processPackages [odoo-addons-oca-intrastat-extrastat]: New version: [16.0.20230609.0] Old Version: [16.0.20230304.0]
+[2023-06-10 05:36:32] INFO root fetch - processPackages [odoo-addon-product-harmonized-system-delivery]: New version: [16.0.1.0.0.9] Old Version: [16.0.1.0.0.8]
+[2023-06-10 05:36:32] INFO root fetch - processPackages [odoo-addon-intrastat-product]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.3]
+[2023-06-10 05:36:32] INFO root fetch - processPackages [ovos-PHAL-plugin-network-manager]: New version: [1.0.1a3] Old Version: [1.0.1a2]
+[2023-06-10 05:36:32] INFO root fetch - processPackages [odoo-addon-intrastat-base]: New version: [16.0.1.1.0.1] Old Version: [16.0.1.1.0]
+[2023-06-10 05:36:32] WARNING root fetch - processPackages [tcheck]: Skipping, unable to determine old version
+[2023-06-10 05:36:32] INFO root fetch - main [MainThread]: End processing [tcheck] error
+[2023-06-10 05:36:32] INFO root fetch - processPackages [llama-cpp-python]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-10 05:36:32] INFO root fetch - processPackages [odoo-addon-intrastat-product]: Downloading https://files.pythonhosted.org/packages/0a/7f/35f96307db43bb0c03515f156b49812655adc9a02b7b65cd98dca62afd12/odoo_addon_intrastat_product-16.0.1.0.0.3-py3-none-any.whl
+[2023-06-10 05:36:32] INFO root fetch - processPackages [odoo-addon-intrastat-base]: Downloading https://files.pythonhosted.org/packages/dd/26/a688efbf1beae706d5968be969ac1377dcf2aa9229d1719d8ceb27f2da67/odoo_addon_intrastat_base-16.0.1.1.0-py3-none-any.whl
+[2023-06-10 05:36:32] INFO root fetch - processPackages [quik-ai]: New version: [1.0.0] Old Version: [0.0.1]
+[2023-06-10 05:36:32] INFO root fetch - processPackages [odoo-addons-oca-intrastat-extrastat]: Downloading https://files.pythonhosted.org/packages/ec/db/fca38bbf0bf9670b6a693696dc10b029e2361b99a948cb952b637833e9c8/odoo_addons_oca_intrastat_extrastat-16.0.20230304.0-py3-none-any.whl
+[2023-06-10 05:36:32] INFO root fetch - processPackages [llama-cpp-python]: Downloading https://files.pythonhosted.org/packages/7e/3b/b5f7e1ec5f43a4e980733c63bd4f05e1b7e14fd3b7aa72d9ca91f2415323/llama_cpp_python-0.1.8.tar.gz
+[2023-06-10 05:36:32] INFO root fetch - processPackages [ovos-PHAL-plugin-network-manager]: Downloading https://files.pythonhosted.org/packages/9b/f0/644193797e0fc9716f837a27f01a93149db00f7462eca7d2b2f7aa67a378/ovos-PHAL-plugin-network-manager-1.0.1a2.tar.gz
+[2023-06-10 05:36:32] INFO root fetch - processPackages [odoo-addon-intrastat-product]: Downloading https://files.pythonhosted.org/packages/b7/ec/acda2eabeaa3d632aa05c918a35d0862b205ac4dd1dc18864cd2951e6f08/odoo_addon_intrastat_product-16.0.1.0.0.4-py3-none-any.whl
+[2023-06-10 05:36:32] INFO root fetch - processPackages [odoo-addon-product-harmonized-system-delivery]: Downloading https://files.pythonhosted.org/packages/4c/9c/8560b9ebca523fe28d91787c28f584007aec43a7fbb168bbc9be5b09acd0/odoo_addon_product_harmonized_system_delivery-16.0.1.0.0.8-py3-none-any.whl
+[2023-06-10 05:36:32] INFO root fetch - processPackages [quik-ai]: Downloading https://files.pythonhosted.org/packages/d2/5c/4ee20e3436ecd56e4943328dcd4c204a3a411f88eca3fd7e6f63d0815aa6/quik-ai-0.0.1.tar.gz
+[2023-06-10 05:36:32] INFO root fetch - processPackages [odoo-addon-intrastat-base]: Downloading https://files.pythonhosted.org/packages/e8/e3/0070dcc7655ef31e15ddfd8bd4b41b48a32d5bcb69c8f2f0641ed00a044c/odoo_addon_intrastat_base-16.0.1.1.0.1-py3-none-any.whl
+[2023-06-10 05:36:32] INFO root fetch - processPackages [odoo-addon-intrastat-product]: executing diffoscope
+[2023-06-10 05:36:32] INFO root fetch - processPackages [odoo-addon-intrastat-product]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_intrastat_product-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_intrastat_product-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20230610/o/odoo-addon-intrastat-product/16.0.1.0.0.3-16.0.1.0.0.4/diff.md --exclude *.pyd
+[2023-06-10 05:36:32] INFO root fetch - processPackages [odoo-addon-intrastat-base]: executing diffoscope
+[2023-06-10 05:36:32] INFO root fetch - processPackages [odoo-addon-intrastat-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_intrastat_base-16.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_intrastat_base-16.0.1.1.0.1-py3-none-any.whl.zip --markdown 20230610/o/odoo-addon-intrastat-base/16.0.1.1.0-16.0.1.1.0.1/diff.md --exclude *.pyd
+[2023-06-10 05:36:32] INFO root fetch - processPackages [llama-cpp-python]: Downloading https://files.pythonhosted.org/packages/9f/24/45a5a3beee1354f668d916eb1a2146835a0eda4dbad0da45252170e105a6/llama_cpp_python-0.1.9.tar.gz
+[2023-06-10 05:36:32] INFO root fetch - processPackages [odoo-addons-oca-intrastat-extrastat]: Downloading https://files.pythonhosted.org/packages/0a/93/72fbe86ebeb44d539d210b680d340eec62590fbecd0d55acafc335b0cd3d/odoo_addons_oca_intrastat_extrastat-16.0.20230609.0-py3-none-any.whl
+[2023-06-10 05:36:32] INFO root fetch - processPackages [ovos-PHAL-plugin-network-manager]: Downloading https://files.pythonhosted.org/packages/2a/9a/672b7d707464e6e29ac11c8074a4e5948257791522138f895aca98679d28/ovos-PHAL-plugin-network-manager-1.0.1a3.tar.gz
+[2023-06-10 05:36:32] INFO root fetch - processPackages [odoo-addons-oca-intrastat-extrastat]: executing diffoscope
+[2023-06-10 05:36:32] INFO root fetch - processPackages [odoo-addons-oca-intrastat-extrastat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_intrastat_extrastat-16.0.20230304.0-py3-none-any.whl.zip tmp/odoo_addons_oca_intrastat_extrastat-16.0.20230609.0-py3-none-any.whl.zip --markdown 20230610/o/odoo-addons-oca-intrastat-extrastat/16.0.20230304.0-16.0.20230609.0/diff.md --exclude *.pyd
+[2023-06-10 05:36:32] INFO root fetch - processPackages [odoo-addon-product-harmonized-system-delivery]: Downloading https://files.pythonhosted.org/packages/29/c1/b6eb322fe2e4a06e4512155a5f61aac2e5a9878963a8dfa5f19519e26a9a/odoo_addon_product_harmonized_system_delivery-16.0.1.0.0.9-py3-none-any.whl
+[2023-06-10 05:36:32] INFO root fetch - processPackages [llama-cpp-python]: executing diffoscope
+[2023-06-10 05:36:32] INFO root fetch - processPackages [llama-cpp-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_cpp_python-0.1.8.tar.gz tmp/llama_cpp_python-0.1.9.tar.gz --markdown 20230610/l/llama-cpp-python/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-10 05:36:32] INFO root fetch - processPackages [odoo-addon-product-harmonized-system-delivery]: executing diffoscope
+[2023-06-10 05:36:32] INFO root fetch - processPackages [odoo-addon-product-harmonized-system-delivery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_harmonized_system_delivery-16.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_product_harmonized_system_delivery-16.0.1.0.0.9-py3-none-any.whl.zip --markdown 20230610/o/odoo-addon-product-harmonized-system-delivery/16.0.1.0.0.8-16.0.1.0.0.9/diff.md --exclude *.pyd
+[2023-06-10 05:36:32] INFO root fetch - processPackages [quik-ai]: Downloading https://files.pythonhosted.org/packages/83/f9/211f3fd0a65928883583442f68a7aedf54cc196ab345eeb33618709cb06a/quik-ai-1.0.0.tar.gz
+[2023-06-10 05:36:32] INFO root fetch - processPackages [ovos-PHAL-plugin-network-manager]: executing diffoscope
+[2023-06-10 05:36:32] INFO root fetch - processPackages [ovos-PHAL-plugin-network-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos-PHAL-plugin-network-manager-1.0.1a2.tar.gz tmp/ovos-PHAL-plugin-network-manager-1.0.1a3.tar.gz --markdown 20230610/o/ovos-PHAL-plugin-network-manager/1.0.1a2-1.0.1a3/diff.md --exclude *.pyd
+[2023-06-10 05:36:32] INFO root fetch - processPackages [quik-ai]: executing diffoscope
+[2023-06-10 05:36:32] INFO root fetch - processPackages [quik-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quik-ai-0.0.1.tar.gz tmp/quik-ai-1.0.0.tar.gz --markdown 20230610/q/quik-ai/0.0.1-1.0.0/diff.md --exclude *.pyd
+[2023-06-10 05:36:33] INFO root fetch - processPackages [odoo-addons-oca-intrastat-extrastat]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_intrastat_extrastat-16.0.20230304.0-py3-none-any.whl.zip]
+[2023-06-10 05:36:33] INFO root fetch - processPackages [odoo-addons-oca-intrastat-extrastat]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_intrastat_extrastat-16.0.20230609.0-py3-none-any.whl.zip]
+[2023-06-10 05:36:33] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-intrastat-extrastat]: success
+[2023-06-10 05:36:33] INFO root fetch - processPackages [odoo-addon-intrastat-base]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_intrastat_base-16.0.1.1.0-py3-none-any.whl.zip]
+[2023-06-10 05:36:33] INFO root fetch - processPackages [odoo-addon-intrastat-base]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_intrastat_base-16.0.1.1.0.1-py3-none-any.whl.zip]
+[2023-06-10 05:36:33] INFO root fetch - main [MainThread]: End processing [odoo-addon-intrastat-base]: success
+[2023-06-10 05:36:33] INFO root fetch - processPackages [quik-ai]: Remove: archive file [/home/abi/fetcher/tmp/quik-ai-0.0.1.tar.gz]
+[2023-06-10 05:36:33] INFO root fetch - processPackages [quik-ai]: Remove: archive file [/home/abi/fetcher/tmp/quik-ai-1.0.0.tar.gz]
+[2023-06-10 05:36:33] INFO root fetch - main [MainThread]: End processing [quik-ai]: success
+[2023-06-10 05:36:33] INFO root fetch - processPackages [odoo-addon-intrastat-product]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_intrastat_product-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-06-10 05:36:33] INFO root fetch - processPackages [odoo-addon-intrastat-product]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_intrastat_product-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-06-10 05:36:33] INFO root fetch - main [MainThread]: End processing [odoo-addon-intrastat-product]: success
+[2023-06-10 05:36:34] INFO root fetch - processPackages [odoo-addon-product-harmonized-system-delivery]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_harmonized_system_delivery-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2023-06-10 05:36:34] INFO root fetch - processPackages [odoo-addon-product-harmonized-system-delivery]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_harmonized_system_delivery-16.0.1.0.0.9-py3-none-any.whl.zip]
+[2023-06-10 05:36:34] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-harmonized-system-delivery]: success
+[2023-06-10 05:36:34] INFO root fetch - processPackages [ovos-PHAL-plugin-network-manager]: Remove: archive file [/home/abi/fetcher/tmp/ovos-PHAL-plugin-network-manager-1.0.1a2.tar.gz]
+[2023-06-10 05:36:34] INFO root fetch - processPackages [ovos-PHAL-plugin-network-manager]: Remove: archive file [/home/abi/fetcher/tmp/ovos-PHAL-plugin-network-manager-1.0.1a3.tar.gz]
+[2023-06-10 05:36:34] INFO root fetch - main [MainThread]: End processing [ovos-PHAL-plugin-network-manager]: success
+[2023-06-10 05:37:28] INFO root fetch - processPackages [llama-cpp-python]: Remove: archive file [/home/abi/fetcher/tmp/llama_cpp_python-0.1.8.tar.gz]
+[2023-06-10 05:37:28] INFO root fetch - processPackages [llama-cpp-python]: Remove: archive file [/home/abi/fetcher/tmp/llama_cpp_python-0.1.9.tar.gz]
+[2023-06-10 05:37:28] INFO root fetch - main [MainThread]: End processing [llama-cpp-python]: success
+[2023-06-10 05:37:28] INFO root fetch - main [MainThread]: Store serial: [18448457]
