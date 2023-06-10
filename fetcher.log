@@ -8254,3 +8254,27 @@ EOFError: EOF read where object expected
 [2023-06-10 07:32:00] INFO root fetch - processPackages [odoo-addon-hotel]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hotel-15.0.1.0.0.9-py3-none-any.whl.zip]
 [2023-06-10 07:32:00] INFO root fetch - main [MainThread]: End processing [odoo-addon-hotel]: success
 [2023-06-10 07:32:00] INFO root fetch - main [MainThread]: Store serial: [18448833]
+[2023-06-10 07:37:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18448833]
+[2023-06-10 07:37:09] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-10 07:37:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mathslib
+[2023-06-10 07:37:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yaylib
+[2023-06-10 07:37:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aws-ecs-exec
+[2023-06-10 07:37:09] INFO root fetch - processPackages [yaylib]: New version: [0.1.2] Old Version: [0.1.0]
+[2023-06-10 07:37:09] WARNING root fetch - processPackages [aws-ecs-exec]: Skipping, unable to determine old version
+[2023-06-10 07:37:09] INFO root fetch - main [MainThread]: End processing [aws-ecs-exec] error
+[2023-06-10 07:37:09] INFO root fetch - processPackages [mathslib]: New version: [3.0.0] Old Version: [2.9.0]
+[2023-06-10 07:37:09] INFO root fetch - processPackages [mathslib]: Downloading https://files.pythonhosted.org/packages/b9/18/18c1a1ddd16806396cd80205e1569813a1a4e4be23228651721ddcec7837/mathslib-2.9.0.tar.gz
+[2023-06-10 07:37:09] INFO root fetch - processPackages [yaylib]: Downloading https://files.pythonhosted.org/packages/b6/fe/3d82a19606b319f87ca34874a604a71395d1cf5dc448366cf8c4d7de30e7/yaylib-0.1.0.tar.gz
+[2023-06-10 07:37:10] INFO root fetch - processPackages [mathslib]: Downloading https://files.pythonhosted.org/packages/01/fa/be76aea3e83b5d0a1fee25b72d666e8a70d012d07c84d1fa2ae2bd4bea4e/mathslib-3.0.0.tar.gz
+[2023-06-10 07:37:10] INFO root fetch - processPackages [yaylib]: Downloading https://files.pythonhosted.org/packages/79/f1/15910bad1f594949cdc8d5ea07e509804bc16e839b9a04e6db76e5ab1634/yaylib-0.1.2.tar.gz
+[2023-06-10 07:37:10] INFO root fetch - processPackages [mathslib]: executing diffoscope
+[2023-06-10 07:37:10] INFO root fetch - processPackages [mathslib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mathslib-2.9.0.tar.gz tmp/mathslib-3.0.0.tar.gz --markdown 20230610/m/mathslib/2.9.0-3.0.0/diff.md --exclude *.pyd
+[2023-06-10 07:37:10] INFO root fetch - processPackages [yaylib]: executing diffoscope
+[2023-06-10 07:37:10] INFO root fetch - processPackages [yaylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yaylib-0.1.0.tar.gz tmp/yaylib-0.1.2.tar.gz --markdown 20230610/y/yaylib/0.1.0-0.1.2/diff.md --exclude *.pyd
+[2023-06-10 07:37:11] INFO root fetch - processPackages [mathslib]: Remove: archive file [/home/abi/fetcher/tmp/mathslib-2.9.0.tar.gz]
+[2023-06-10 07:37:11] INFO root fetch - processPackages [mathslib]: Remove: archive file [/home/abi/fetcher/tmp/mathslib-3.0.0.tar.gz]
+[2023-06-10 07:37:11] INFO root fetch - main [MainThread]: End processing [mathslib]: success
+[2023-06-10 07:37:11] INFO root fetch - processPackages [yaylib]: Remove: archive file [/home/abi/fetcher/tmp/yaylib-0.1.0.tar.gz]
+[2023-06-10 07:37:11] INFO root fetch - processPackages [yaylib]: Remove: archive file [/home/abi/fetcher/tmp/yaylib-0.1.2.tar.gz]
+[2023-06-10 07:37:11] INFO root fetch - main [MainThread]: End processing [yaylib]: success
+[2023-06-10 07:37:11] INFO root fetch - main [MainThread]: Store serial: [18448845]
