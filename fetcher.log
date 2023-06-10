@@ -11958,3 +11958,78 @@ EOFError: EOF read where object expected
 [2023-06-10 14:42:42] INFO root fetch - processPackages [bigdl-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_spark3-2.4.0b20230610-py3-none-manylinux1_x86_64.whl.zip]
 [2023-06-10 14:42:42] INFO root fetch - main [MainThread]: End processing [bigdl-spark3]: success
 [2023-06-10 14:42:42] INFO root fetch - main [MainThread]: Store serial: [18450693]
+[2023-06-10 14:47:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18450693]
+[2023-06-10 14:47:51] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-10 14:47:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: progress-table
+[2023-06-10 14:47:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: poppt
+[2023-06-10 14:47:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pofile
+[2023-06-10 14:47:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: netbox-ddns
+[2023-06-10 14:47:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: findmyorder
+[2023-06-10 14:47:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cbpi4-iSpindle
+[2023-06-10 14:47:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pymox
+[2023-06-10 14:47:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: manticore
+[2023-06-10 14:47:51] INFO root fetch - processPackages [progress-table]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-10 14:47:51] INFO root fetch - processPackages [findmyorder]: New version: [1.4.0] Old Version: [1.3.9]
+[2023-06-10 14:47:51] INFO root fetch - processPackages [manticore]: New version: [0.3.8.dev230609] Old Version: [0.3.8.dev230608]
+[2023-06-10 14:47:51] INFO root fetch - processPackages [pofile]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-10 14:47:51] INFO root fetch - processPackages [pymox]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-10 14:47:51] INFO root fetch - processPackages [netbox-ddns]: New version: [1.2.8] Old Version: [1.2.7]
+[2023-06-10 14:47:51] INFO root fetch - processPackages [poppt]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-10 14:47:51] INFO root fetch - processPackages [cbpi4-iSpindle]: New version: [0.0.9] Old Version: [0.0.3]
+[2023-06-10 14:47:51] INFO root fetch - processPackages [manticore]: Downloading https://files.pythonhosted.org/packages/8f/0d/4cb83130ede0f452f83379a8590428efddf67b939e6a433bfda7c43a1a21/manticore-0.3.8.dev230608.tar.gz
+[2023-06-10 14:47:52] INFO root fetch - processPackages [progress-table]: Downloading https://files.pythonhosted.org/packages/88/d4/3eacb2c0de6ca4db9ca3e858c7305a16e7a40ec03d90bc2c626aafe4f27e/progress-table-0.1.8.tar.gz
+[2023-06-10 14:47:52] INFO root fetch - processPackages [findmyorder]: Downloading https://files.pythonhosted.org/packages/52/b2/27542c768cd467bba099bd3795a116a0f5925f906d812f5ba7335c21a9d3/findmyorder-1.3.9.tar.gz
+[2023-06-10 14:47:52] INFO root fetch - processPackages [pofile]: Downloading https://files.pythonhosted.org/packages/0d/fa/bc9030d8434096556a9b84ab2850425ca6c8a7307b87120cd55ac1c77dc2/pofile-0.0.8.tar.gz
+[2023-06-10 14:47:52] INFO root fetch - processPackages [pymox]: Downloading https://files.pythonhosted.org/packages/e0/52/c42c8c8df23e1ab2f6f1bf1dd9116cc2f633060841ebcb62b1a2af7975ad/pymox-1.0.0.tar.gz
+[2023-06-10 14:47:52] INFO root fetch - processPackages [poppt]: Downloading https://files.pythonhosted.org/packages/3d/b5/0e0e954698fa8ba422e02d799729646ce70d1c330aca1100c7497f971f90/poppt-0.0.8.tar.gz
+[2023-06-10 14:47:52] INFO root fetch - processPackages [netbox-ddns]: Downloading https://files.pythonhosted.org/packages/43/77/2af9e615ce512c712180b3dcbded4c43655f4fdbb8cf27de2a9fafb3493b/netbox-ddns-1.2.7.tar.gz
+[2023-06-10 14:47:52] INFO root fetch - processPackages [cbpi4-iSpindle]: Downloading https://files.pythonhosted.org/packages/f8/43/3f59502de08c33af6c2d99a6dede13de65244a3ac3a6092da8b89929316d/cbpi4-iSpindle-0.0.3.tar.gz
+[2023-06-10 14:47:52] INFO root fetch - processPackages [manticore]: Downloading https://files.pythonhosted.org/packages/5a/ed/fde5c1b3a685b09b7ca65206e713132542decb622b9062548145e906107b/manticore-0.3.8.dev230609.tar.gz
+[2023-06-10 14:47:52] INFO root fetch - processPackages [findmyorder]: Downloading https://files.pythonhosted.org/packages/68/9b/4a7b9ffbcd1b6dfb5c479b4789cceab686bfac04087eca67d2b2ad69519e/findmyorder-1.4.0.tar.gz
+[2023-06-10 14:47:52] INFO root fetch - processPackages [manticore]: executing diffoscope
+[2023-06-10 14:47:52] INFO root fetch - processPackages [manticore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manticore-0.3.8.dev230608.tar.gz tmp/manticore-0.3.8.dev230609.tar.gz --markdown 20230610/m/manticore/0.3.8.dev230608-0.3.8.dev230609/diff.md --exclude *.pyd
+[2023-06-10 14:47:52] INFO root fetch - processPackages [findmyorder]: executing diffoscope
+[2023-06-10 14:47:52] INFO root fetch - processPackages [findmyorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findmyorder-1.3.9.tar.gz tmp/findmyorder-1.4.0.tar.gz --markdown 20230610/f/findmyorder/1.3.9-1.4.0/diff.md --exclude *.pyd
+[2023-06-10 14:47:52] INFO root fetch - processPackages [progress-table]: Downloading https://files.pythonhosted.org/packages/c6/ba/d645d7da028f22453b5764cabbe5a732f9d783804a65e68719c632b70fd1/progress-table-0.1.9.tar.gz
+[2023-06-10 14:47:52] INFO root fetch - processPackages [netbox-ddns]: Downloading https://files.pythonhosted.org/packages/79/a8/12e4cdfe29e86f7a960e64412bd9d2017c0f8864ca4c66ae0a0b847cfaa0/netbox-ddns-1.2.8.tar.gz
+[2023-06-10 14:47:52] INFO root fetch - processPackages [pymox]: Downloading https://files.pythonhosted.org/packages/a8/39/c930be27abb73f0b5346f4dc34d002556b50363c2c3de13ac4f5e35f388e/pymox-1.0.1.tar.gz
+[2023-06-10 14:47:52] INFO root fetch - processPackages [pofile]: Downloading https://files.pythonhosted.org/packages/d5/d0/bb6622d672b256658a7850f57c7e194425381759d3828bc9313f87ed36f9/pofile-0.0.9.tar.gz
+[2023-06-10 14:47:52] INFO root fetch - processPackages [poppt]: Downloading https://files.pythonhosted.org/packages/67/d4/d1be62443831d45efb096ea9ad1bdfb25bcb5c431ba0bfaaf1a4f447b373/poppt-0.0.9.tar.gz
+[2023-06-10 14:47:52] INFO root fetch - processPackages [cbpi4-iSpindle]: Downloading https://files.pythonhosted.org/packages/30/c2/09c4fb36fb8f6a3adbf8c953c9396bf138bdb39855c01e8e3e7707723dcb/cbpi4-iSpindle-0.0.9.tar.gz
+[2023-06-10 14:47:52] INFO root fetch - processPackages [progress-table]: executing diffoscope
+[2023-06-10 14:47:52] INFO root fetch - processPackages [progress-table]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/progress-table-0.1.8.tar.gz tmp/progress-table-0.1.9.tar.gz --markdown 20230610/p/progress-table/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-10 14:47:52] INFO root fetch - processPackages [pofile]: executing diffoscope
+[2023-06-10 14:47:52] INFO root fetch - processPackages [pofile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pofile-0.0.8.tar.gz tmp/pofile-0.0.9.tar.gz --markdown 20230610/p/pofile/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-10 14:47:52] INFO root fetch - processPackages [netbox-ddns]: executing diffoscope
+[2023-06-10 14:47:52] INFO root fetch - processPackages [netbox-ddns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-ddns-1.2.7.tar.gz tmp/netbox-ddns-1.2.8.tar.gz --markdown 20230610/n/netbox-ddns/1.2.7-1.2.8/diff.md --exclude *.pyd
+[2023-06-10 14:47:52] INFO root fetch - processPackages [poppt]: executing diffoscope
+[2023-06-10 14:47:52] INFO root fetch - processPackages [cbpi4-iSpindle]: executing diffoscope
+[2023-06-10 14:47:52] INFO root fetch - processPackages [cbpi4-iSpindle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cbpi4-iSpindle-0.0.3.tar.gz tmp/cbpi4-iSpindle-0.0.9.tar.gz --markdown 20230610/c/cbpi4-iSpindle/0.0.3-0.0.9/diff.md --exclude *.pyd
+[2023-06-10 14:47:52] INFO root fetch - processPackages [poppt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poppt-0.0.8.tar.gz tmp/poppt-0.0.9.tar.gz --markdown 20230610/p/poppt/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-10 14:47:52] INFO root fetch - processPackages [pymox]: executing diffoscope
+[2023-06-10 14:47:52] INFO root fetch - processPackages [pymox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymox-1.0.0.tar.gz tmp/pymox-1.0.1.tar.gz --markdown 20230610/p/pymox/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-10 14:47:53] INFO root fetch - processPackages [findmyorder]: Remove: archive file [/home/abi/fetcher/tmp/findmyorder-1.3.9.tar.gz]
+[2023-06-10 14:47:53] INFO root fetch - processPackages [findmyorder]: Remove: archive file [/home/abi/fetcher/tmp/findmyorder-1.4.0.tar.gz]
+[2023-06-10 14:47:53] INFO root fetch - main [MainThread]: End processing [findmyorder]: success
+[2023-06-10 14:47:53] INFO root fetch - processPackages [progress-table]: Remove: archive file [/home/abi/fetcher/tmp/progress-table-0.1.8.tar.gz]
+[2023-06-10 14:47:53] INFO root fetch - processPackages [progress-table]: Remove: archive file [/home/abi/fetcher/tmp/progress-table-0.1.9.tar.gz]
+[2023-06-10 14:47:53] INFO root fetch - main [MainThread]: End processing [progress-table]: success
+[2023-06-10 14:47:53] INFO root fetch - processPackages [pofile]: Remove: archive file [/home/abi/fetcher/tmp/pofile-0.0.8.tar.gz]
+[2023-06-10 14:47:53] INFO root fetch - processPackages [pofile]: Remove: archive file [/home/abi/fetcher/tmp/pofile-0.0.9.tar.gz]
+[2023-06-10 14:47:53] INFO root fetch - main [MainThread]: End processing [pofile]: success
+[2023-06-10 14:47:53] INFO root fetch - processPackages [cbpi4-iSpindle]: Remove: archive file [/home/abi/fetcher/tmp/cbpi4-iSpindle-0.0.3.tar.gz]
+[2023-06-10 14:47:53] INFO root fetch - processPackages [cbpi4-iSpindle]: Remove: archive file [/home/abi/fetcher/tmp/cbpi4-iSpindle-0.0.9.tar.gz]
+[2023-06-10 14:47:53] INFO root fetch - main [MainThread]: End processing [cbpi4-iSpindle]: success
+[2023-06-10 14:47:54] INFO root fetch - processPackages [netbox-ddns]: Remove: archive file [/home/abi/fetcher/tmp/netbox-ddns-1.2.7.tar.gz]
+[2023-06-10 14:47:54] INFO root fetch - processPackages [netbox-ddns]: Remove: archive file [/home/abi/fetcher/tmp/netbox-ddns-1.2.8.tar.gz]
+[2023-06-10 14:47:54] INFO root fetch - main [MainThread]: End processing [netbox-ddns]: success
+[2023-06-10 14:47:54] INFO root fetch - processPackages [pymox]: Remove: archive file [/home/abi/fetcher/tmp/pymox-1.0.0.tar.gz]
+[2023-06-10 14:47:54] INFO root fetch - processPackages [pymox]: Remove: archive file [/home/abi/fetcher/tmp/pymox-1.0.1.tar.gz]
+[2023-06-10 14:47:54] INFO root fetch - main [MainThread]: End processing [pymox]: success
+[2023-06-10 14:47:54] INFO root fetch - processPackages [poppt]: Remove: archive file [/home/abi/fetcher/tmp/poppt-0.0.8.tar.gz]
+[2023-06-10 14:47:54] INFO root fetch - processPackages [poppt]: Remove: archive file [/home/abi/fetcher/tmp/poppt-0.0.9.tar.gz]
+[2023-06-10 14:47:54] INFO root fetch - main [MainThread]: End processing [poppt]: success
+[2023-06-10 14:47:55] INFO root fetch - processPackages [manticore]: Remove: archive file [/home/abi/fetcher/tmp/manticore-0.3.8.dev230608.tar.gz]
+[2023-06-10 14:47:55] INFO root fetch - processPackages [manticore]: Remove: archive file [/home/abi/fetcher/tmp/manticore-0.3.8.dev230609.tar.gz]
+[2023-06-10 14:47:55] INFO root fetch - main [MainThread]: End processing [manticore]: success
+[2023-06-10 14:47:55] INFO root fetch - main [MainThread]: Store serial: [18450716]
