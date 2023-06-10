@@ -11252,3 +11252,50 @@ EOFError: EOF read where object expected
 [2023-06-10 13:51:27] INFO root fetch - processPackages [elasticai-creator]: Remove: archive file [/home/abi/fetcher/tmp/elasticai.creator-0.9.0.tar.gz]
 [2023-06-10 13:51:27] INFO root fetch - main [MainThread]: End processing [elasticai-creator]: success
 [2023-06-10 13:51:27] INFO root fetch - main [MainThread]: Store serial: [18450326]
+[2023-06-10 13:56:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18450326]
+[2023-06-10 13:56:36] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-10 13:56:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: adataset
+[2023-06-10 13:56:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sparta-pubsub
+[2023-06-10 13:56:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bosch-alarm-mode2
+[2023-06-10 13:56:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lttbc
+[2023-06-10 13:56:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ccxt
+[2023-06-10 13:56:36] INFO root fetch - processPackages [adataset]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-10 13:56:36] INFO root fetch - processPackages [sparta-pubsub]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-10 13:56:36] INFO root fetch - processPackages [bosch-alarm-mode2]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-10 13:56:37] INFO root fetch - processPackages [lttbc]: New version: [0.2.4] Old Version: [0.2.2]
+[2023-06-10 13:56:37] INFO root fetch - processPackages [ccxt]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-06-10 13:56:37] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/c8/8c/0f6049cfe62c7345061ebc4bc204d5b43328f61a0dea4dba781a9cb6d23c/ccxt-3.1.8.tar.gz
+[2023-06-10 13:56:37] INFO root fetch - processPackages [sparta-pubsub]: Downloading https://files.pythonhosted.org/packages/7a/84/8c22d41a731e176daf8b37d7001d16ce6561ba440e37528a09637c75681d/sparta-pubsub-0.0.1.tar.gz
+[2023-06-10 13:56:37] WARNING root fetch - processPackages [lttbc]: fallback to get urls: [0.2.2]
+[2023-06-10 13:56:37] INFO root fetch - processPackages [adataset]: Downloading https://files.pythonhosted.org/packages/5c/b6/26b71b853b1ea01b4e5cd5ebdc1877f8fd60dde74425d6e09c85c6fa8f0d/adataset-0.1.0.tar.gz
+[2023-06-10 13:56:37] INFO root fetch - processPackages [bosch-alarm-mode2]: Downloading https://files.pythonhosted.org/packages/59/5e/7cbf2ad6d8f9b4667e432b6ebd8b4de668f4e0c416e097376b59d53cc31e/bosch_alarm_mode2-0.3.8.tar.gz
+[2023-06-10 13:56:37] WARNING root fetch - processPackages [lttbc]: None
+[2023-06-10 13:56:37] WARNING root fetch - processPackages [lttbc]: None
+[2023-06-10 13:56:37] WARNING root fetch - processPackages [lttbc]: unable to get url for both version [0.2.2]
+[2023-06-10 13:56:37] WARNING root fetch - processPackages [lttbc]: None
+[2023-06-10 13:56:37] INFO root fetch - main [MainThread]: End processing [lttbc] error
+[2023-06-10 13:56:37] INFO root fetch - processPackages [sparta-pubsub]: Downloading https://files.pythonhosted.org/packages/2f/ce/a18b1591c78d3b569dc6c1797058e3bb3483d73f5490ac1a56777a936162/sparta-pubsub-0.0.2.tar.gz
+[2023-06-10 13:56:37] INFO root fetch - processPackages [adataset]: Downloading https://files.pythonhosted.org/packages/16/91/94a94cb4dd5d428912983208e1e4e82bb727c18fab2446e761c20b2cd068/adataset-0.1.1.tar.gz
+[2023-06-10 13:56:37] INFO root fetch - processPackages [adataset]: executing diffoscope
+[2023-06-10 13:56:37] INFO root fetch - processPackages [adataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adataset-0.1.0.tar.gz tmp/adataset-0.1.1.tar.gz --markdown 20230610/a/adataset/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-10 13:56:37] INFO root fetch - processPackages [bosch-alarm-mode2]: Downloading https://files.pythonhosted.org/packages/84/e7/a45d441636d4387b2da27858b0346c247762861434e8cb8a86ddc2b0660f/bosch_alarm_mode2-0.3.9.tar.gz
+[2023-06-10 13:56:37] INFO root fetch - processPackages [sparta-pubsub]: executing diffoscope
+[2023-06-10 13:56:37] INFO root fetch - processPackages [sparta-pubsub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparta-pubsub-0.0.1.tar.gz tmp/sparta-pubsub-0.0.2.tar.gz --markdown 20230610/s/sparta-pubsub/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-10 13:56:37] INFO root fetch - processPackages [bosch-alarm-mode2]: executing diffoscope
+[2023-06-10 13:56:37] INFO root fetch - processPackages [bosch-alarm-mode2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bosch_alarm_mode2-0.3.8.tar.gz tmp/bosch_alarm_mode2-0.3.9.tar.gz --markdown 20230610/b/bosch-alarm-mode2/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-10 13:56:38] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/da/20/697a7c246ccda48f1db7fabcef3d2ae5b059eb38ab11d028ed79393e0d46/ccxt-3.1.9.tar.gz
+[2023-06-10 13:56:38] INFO root fetch - processPackages [sparta-pubsub]: Remove: archive file [/home/abi/fetcher/tmp/sparta-pubsub-0.0.1.tar.gz]
+[2023-06-10 13:56:38] INFO root fetch - processPackages [sparta-pubsub]: Remove: archive file [/home/abi/fetcher/tmp/sparta-pubsub-0.0.2.tar.gz]
+[2023-06-10 13:56:38] INFO root fetch - main [MainThread]: End processing [sparta-pubsub]: success
+[2023-06-10 13:56:38] INFO root fetch - processPackages [adataset]: Remove: archive file [/home/abi/fetcher/tmp/adataset-0.1.0.tar.gz]
+[2023-06-10 13:56:38] INFO root fetch - processPackages [adataset]: Remove: archive file [/home/abi/fetcher/tmp/adataset-0.1.1.tar.gz]
+[2023-06-10 13:56:38] INFO root fetch - main [MainThread]: End processing [adataset]: success
+[2023-06-10 13:56:38] INFO root fetch - processPackages [bosch-alarm-mode2]: Remove: archive file [/home/abi/fetcher/tmp/bosch_alarm_mode2-0.3.8.tar.gz]
+[2023-06-10 13:56:38] INFO root fetch - processPackages [bosch-alarm-mode2]: Remove: archive file [/home/abi/fetcher/tmp/bosch_alarm_mode2-0.3.9.tar.gz]
+[2023-06-10 13:56:38] INFO root fetch - main [MainThread]: End processing [bosch-alarm-mode2]: success
+[2023-06-10 13:56:39] INFO root fetch - processPackages [ccxt]: executing diffoscope
+[2023-06-10 13:56:39] INFO root fetch - processPackages [ccxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-3.1.8.tar.gz tmp/ccxt-3.1.9.tar.gz --markdown 20230610/c/ccxt/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-06-10 13:56:48] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-3.1.8.tar.gz]
+[2023-06-10 13:56:48] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-3.1.9.tar.gz]
+[2023-06-10 13:56:48] INFO root fetch - main [MainThread]: End processing [ccxt]: success
+[2023-06-10 13:56:48] INFO root fetch - main [MainThread]: Store serial: [18450343]
