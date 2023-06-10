@@ -10616,3 +10616,27 @@ EOFError: EOF read where object expected
 [2023-06-10 12:46:13] INFO root fetch - processPackages [yetl-framework]: Remove: archive file [/home/abi/fetcher/tmp/yetl-framework-1.4.9.tar.gz]
 [2023-06-10 12:46:13] INFO root fetch - main [MainThread]: End processing [yetl-framework]: success
 [2023-06-10 12:46:13] INFO root fetch - main [MainThread]: Store serial: [18450074]
+[2023-06-10 12:51:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18450074]
+[2023-06-10 12:51:23] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-10 12:51:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: garmin-ace
+[2023-06-10 12:51:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: civicutils
+[2023-06-10 12:51:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: az-st7735
+[2023-06-10 12:51:23] INFO root fetch - processPackages [garmin-ace]: New version: [0.0.1a4] Old Version: [0.0.1a3]
+[2023-06-10 12:51:23] INFO root fetch - processPackages [garmin-ace]: Downloading https://files.pythonhosted.org/packages/91/0b/739c67f0a28ab56ae85a80783b38f2909917017a07d90cbe1f09820885c2/garmin_ace-0.0.1a3.tar.gz
+[2023-06-10 12:51:23] INFO root fetch - processPackages [civicutils]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-10 12:51:23] WARNING root fetch - processPackages [az-st7735]: Skipping, unable to determine old version
+[2023-06-10 12:51:23] INFO root fetch - main [MainThread]: End processing [az-st7735] error
+[2023-06-10 12:51:23] INFO root fetch - processPackages [garmin-ace]: Downloading https://files.pythonhosted.org/packages/bb/73/9964405323ce5092b8ec5262565e5f6ea4f1bbb95376ecfd30dbcd2c94fd/garmin_ace-0.0.1a4.tar.gz
+[2023-06-10 12:51:23] INFO root fetch - processPackages [civicutils]: Downloading https://files.pythonhosted.org/packages/4a/68/05563c0a0c2c933f35be5c4cf5b8d1df73203ea36139a454e5c093955fc3/civicutils-1.0.0.tar.gz
+[2023-06-10 12:51:23] INFO root fetch - processPackages [garmin-ace]: executing diffoscope
+[2023-06-10 12:51:23] INFO root fetch - processPackages [garmin-ace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garmin_ace-0.0.1a3.tar.gz tmp/garmin_ace-0.0.1a4.tar.gz --markdown 20230610/g/garmin-ace/0.0.1a3-0.0.1a4/diff.md --exclude *.pyd
+[2023-06-10 12:51:24] INFO root fetch - processPackages [civicutils]: Downloading https://files.pythonhosted.org/packages/ef/8e/9105d9f69789ce2ed220228684f047f9ab72a749346f006325f14ca9e849/civicutils-1.0.1.tar.gz
+[2023-06-10 12:51:24] INFO root fetch - processPackages [civicutils]: executing diffoscope
+[2023-06-10 12:51:24] INFO root fetch - processPackages [civicutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/civicutils-1.0.0.tar.gz tmp/civicutils-1.0.1.tar.gz --markdown 20230610/c/civicutils/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-10 12:51:24] INFO root fetch - processPackages [garmin-ace]: Remove: archive file [/home/abi/fetcher/tmp/garmin_ace-0.0.1a3.tar.gz]
+[2023-06-10 12:51:24] INFO root fetch - processPackages [garmin-ace]: Remove: archive file [/home/abi/fetcher/tmp/garmin_ace-0.0.1a4.tar.gz]
+[2023-06-10 12:51:24] INFO root fetch - main [MainThread]: End processing [garmin-ace]: success
+[2023-06-10 12:51:25] INFO root fetch - processPackages [civicutils]: Remove: archive file [/home/abi/fetcher/tmp/civicutils-1.0.0.tar.gz]
+[2023-06-10 12:51:25] INFO root fetch - processPackages [civicutils]: Remove: archive file [/home/abi/fetcher/tmp/civicutils-1.0.1.tar.gz]
+[2023-06-10 12:51:25] INFO root fetch - main [MainThread]: End processing [civicutils]: success
+[2023-06-10 12:51:25] INFO root fetch - main [MainThread]: Store serial: [18450092]
