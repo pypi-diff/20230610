@@ -8278,3 +8278,15 @@ EOFError: EOF read where object expected
 [2023-06-10 07:37:11] INFO root fetch - processPackages [yaylib]: Remove: archive file [/home/abi/fetcher/tmp/yaylib-0.1.2.tar.gz]
 [2023-06-10 07:37:11] INFO root fetch - main [MainThread]: End processing [yaylib]: success
 [2023-06-10 07:37:11] INFO root fetch - main [MainThread]: Store serial: [18448845]
+[2023-06-10 07:42:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18448845]
+[2023-06-10 07:42:20] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-06-10 07:42:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: neuroimager
+[2023-06-10 07:42:20] INFO root fetch - processPackages [neuroimager]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-10 07:42:20] INFO root fetch - processPackages [neuroimager]: Downloading https://files.pythonhosted.org/packages/42/6f/7ef80cc67b850e1331e9f4b1010263c0cb6d3b3a75e18a08d057aca9d579/neuroimager-0.0.4.tar.gz
+[2023-06-10 07:42:21] INFO root fetch - processPackages [neuroimager]: Downloading https://files.pythonhosted.org/packages/77/fd/a808153b123190c751d4184d6d248607c345ad71e3928409b5a546392402/neuroimager-0.0.5.tar.gz
+[2023-06-10 07:42:21] INFO root fetch - processPackages [neuroimager]: executing diffoscope
+[2023-06-10 07:42:21] INFO root fetch - processPackages [neuroimager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuroimager-0.0.4.tar.gz tmp/neuroimager-0.0.5.tar.gz --markdown 20230610/n/neuroimager/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-10 07:42:22] INFO root fetch - processPackages [neuroimager]: Remove: archive file [/home/abi/fetcher/tmp/neuroimager-0.0.4.tar.gz]
+[2023-06-10 07:42:22] INFO root fetch - processPackages [neuroimager]: Remove: archive file [/home/abi/fetcher/tmp/neuroimager-0.0.5.tar.gz]
+[2023-06-10 07:42:22] INFO root fetch - main [MainThread]: End processing [neuroimager]: success
+[2023-06-10 07:42:22] INFO root fetch - main [MainThread]: Store serial: [18448848]
