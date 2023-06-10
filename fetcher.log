@@ -2293,3 +2293,45 @@ EOFError: EOF read where object expected
 [2023-06-10 02:48:43] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.2.dev202306090045.tar.gz]
 [2023-06-10 02:48:43] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
 [2023-06-10 02:48:43] INFO root fetch - main [MainThread]: Store serial: [18446665]
+[2023-06-10 02:53:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18446665]
+[2023-06-10 02:53:52] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-10 02:53:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-slack-chatbot
+[2023-06-10 02:53:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: intel-xai
+[2023-06-10 02:53:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dcrx-api
+[2023-06-10 02:53:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ovos-microphone-plugin-socket
+[2023-06-10 02:53:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-databrew-cicd
+[2023-06-10 02:53:52] INFO root fetch - processPackages [dcrx-api]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-10 02:53:52] INFO root fetch - processPackages [cdk-slack-chatbot]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-06-10 02:53:52] INFO root fetch - processPackages [intel-xai]: New version: [0.3.1.dev20230608] Old Version: [0.3.0]
+[2023-06-10 02:53:52] WARNING root fetch - processPackages [ovos-microphone-plugin-socket]: Skipping, unable to determine old version
+[2023-06-10 02:53:52] INFO root fetch - main [MainThread]: End processing [ovos-microphone-plugin-socket] error
+[2023-06-10 02:53:52] INFO root fetch - processPackages [cdk-databrew-cicd]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-10 02:53:52] INFO root fetch - processPackages [dcrx-api]: Downloading https://files.pythonhosted.org/packages/74/4c/8075f2bdb5b7d1f66cb847c90a0d876a5e1d06ba9a6b23b54b08ab7ca684/dcrx-api-0.1.2.tar.gz
+[2023-06-10 02:53:52] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/9c/18/acad9d22fe20a13d93a1aee49739981e3ab739a2edcb478344aa0fc5b783/cdk_databrew_cicd-2.0.98.tar.gz
+[2023-06-10 02:53:52] INFO root fetch - processPackages [intel-xai]: Downloading https://files.pythonhosted.org/packages/90/ec/496147df866d842b9a86ff13b0c27c9a7b3def6d9a5b78a652296c94c071/intel_xai-0.3.0-py3-none-any.whl
+[2023-06-10 02:53:52] INFO root fetch - processPackages [cdk-slack-chatbot]: Downloading https://files.pythonhosted.org/packages/18/e1/39c7ef0a63f08b4cdd9206beb69861062b890aa42bf0ead00ce61f92d7e4/cdk-slack-chatbot-1.0.98.tar.gz
+[2023-06-10 02:53:52] INFO root fetch - processPackages [dcrx-api]: Downloading https://files.pythonhosted.org/packages/2b/38/a9669f6e8d67422d427c0854ad354d26d6c46a64b78cde1a34557444cc6e/dcrx-api-0.1.3.tar.gz
+[2023-06-10 02:53:52] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/66/41/4c5089b171b28b627753bb3de1b4b696fdaeb4f78ef49dcb72a79fcb6e9d/cdk_databrew_cicd-2.0.99.tar.gz
+[2023-06-10 02:53:52] INFO root fetch - processPackages [dcrx-api]: executing diffoscope
+[2023-06-10 02:53:52] INFO root fetch - processPackages [dcrx-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcrx-api-0.1.2.tar.gz tmp/dcrx-api-0.1.3.tar.gz --markdown 20230610/d/dcrx-api/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-10 02:53:52] INFO root fetch - processPackages [cdk-databrew-cicd]: executing diffoscope
+[2023-06-10 02:53:52] INFO root fetch - processPackages [cdk-databrew-cicd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_databrew_cicd-2.0.98.tar.gz tmp/cdk_databrew_cicd-2.0.99.tar.gz --markdown 20230610/c/cdk-databrew-cicd/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-10 02:53:52] INFO root fetch - processPackages [intel-xai]: Downloading https://files.pythonhosted.org/packages/73/1d/b0ec5be8d0961f51f47bb2b0bccd70713aa4abdfecb3d99935ed665a2307/intel_xai-0.3.1.dev20230608-py3-none-any.whl
+[2023-06-10 02:53:52] INFO root fetch - processPackages [intel-xai]: executing diffoscope
+[2023-06-10 02:53:52] INFO root fetch - processPackages [intel-xai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intel_xai-0.3.0-py3-none-any.whl.zip tmp/intel_xai-0.3.1.dev20230608-py3-none-any.whl.zip --markdown 20230610/i/intel-xai/0.3.0-0.3.1.dev20230608/diff.md --exclude *.pyd
+[2023-06-10 02:53:52] INFO root fetch - processPackages [cdk-slack-chatbot]: Downloading https://files.pythonhosted.org/packages/12/72/dc851f78a8ed85e11196ca9ee9dd0d9524d10ba5e6a193ae2ce79645cb38/cdk-slack-chatbot-1.0.99.tar.gz
+[2023-06-10 02:53:53] INFO root fetch - processPackages [cdk-slack-chatbot]: executing diffoscope
+[2023-06-10 02:53:53] INFO root fetch - processPackages [cdk-slack-chatbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-slack-chatbot-1.0.98.tar.gz tmp/cdk-slack-chatbot-1.0.99.tar.gz --markdown 20230610/c/cdk-slack-chatbot/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-06-10 02:53:53] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.98.tar.gz]
+[2023-06-10 02:53:53] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.99.tar.gz]
+[2023-06-10 02:53:53] INFO root fetch - main [MainThread]: End processing [cdk-databrew-cicd]: success
+[2023-06-10 02:53:53] INFO root fetch - processPackages [dcrx-api]: Remove: archive file [/home/abi/fetcher/tmp/dcrx-api-0.1.2.tar.gz]
+[2023-06-10 02:53:53] INFO root fetch - processPackages [dcrx-api]: Remove: archive file [/home/abi/fetcher/tmp/dcrx-api-0.1.3.tar.gz]
+[2023-06-10 02:53:53] INFO root fetch - main [MainThread]: End processing [dcrx-api]: success
+[2023-06-10 02:53:54] INFO root fetch - processPackages [cdk-slack-chatbot]: Remove: archive file [/home/abi/fetcher/tmp/cdk-slack-chatbot-1.0.98.tar.gz]
+[2023-06-10 02:53:54] INFO root fetch - processPackages [cdk-slack-chatbot]: Remove: archive file [/home/abi/fetcher/tmp/cdk-slack-chatbot-1.0.99.tar.gz]
+[2023-06-10 02:53:54] INFO root fetch - main [MainThread]: End processing [cdk-slack-chatbot]: success
+[2023-06-10 02:53:54] INFO root fetch - processPackages [intel-xai]: Remove: archive file [/home/abi/fetcher/tmp/intel_xai-0.3.0-py3-none-any.whl.zip]
+[2023-06-10 02:53:54] INFO root fetch - processPackages [intel-xai]: Remove: archive file [/home/abi/fetcher/tmp/intel_xai-0.3.1.dev20230608-py3-none-any.whl.zip]
+[2023-06-10 02:53:54] INFO root fetch - main [MainThread]: End processing [intel-xai]: success
+[2023-06-10 02:53:54] INFO root fetch - main [MainThread]: Store serial: [18446681]
