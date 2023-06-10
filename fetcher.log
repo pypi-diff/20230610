@@ -17833,3 +17833,96 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-10 22:37:47] INFO root fetch - processPackages [spotPython]: Remove: archive file [/home/abi/fetcher/tmp/spotPython-0.2.9.tar.gz]
 [2023-06-10 22:37:47] INFO root fetch - main [MainThread]: End processing [spotPython]: success
 [2023-06-10 22:37:47] INFO root fetch - main [MainThread]: Store serial: [18453693]
+[2023-06-10 22:42:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18453693]
+[2023-06-10 22:42:57] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-10 22:42:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SEKKAYBOT
+[2023-06-10 22:42:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: FLOBOT
+[2023-06-10 22:42:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyepkg
+[2023-06-10 22:42:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: datoso-seed-sfc-enhancedcolors
+[2023-06-10 22:42:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: peaqevcore
+[2023-06-10 22:42:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: remla23-team10-preprocessing
+[2023-06-10 22:42:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: datoso-seed-sfc-speedhacks
+[2023-06-10 22:42:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: flasgger
+[2023-06-10 22:42:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pycounts-ic
+[2023-06-10 22:42:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: auxein
+[2023-06-10 22:42:57] INFO root fetch - processPackages [peaqevcore]: New version: [9.2.3] Old Version: [9.2.2]
+[2023-06-10 22:42:57] ERROR root fetch - processPackages [pyepkg]: Unable to get metadata: No such project 'pyepkg'
+[2023-06-10 22:42:57] INFO root fetch - processPackages [datoso-seed-sfc-enhancedcolors]: New version: [0.3.0] Old Version: [0.2.3]
+[2023-06-10 22:42:57] INFO root fetch - processPackages [pyepkg]: Start processing: datoso-plugin-internetarchive
+[2023-06-10 22:42:57] INFO root fetch - main [MainThread]: End processing [pyepkg] error
+[2023-06-10 22:42:57] INFO root fetch - processPackages [FLOBOT]: New version: [0.1.118] Old Version: [0.1.117]
+[2023-06-10 22:42:57] INFO root fetch - processPackages [auxein]: New version: [0.1.0] Old Version: [0.0.6]
+[2023-06-10 22:42:57] WARNING root fetch - processPackages [pycounts-ic]: Skipping, unable to determine old version
+[2023-06-10 22:42:57] INFO root fetch - processPackages [pycounts-ic]: Start processing: mcfonts
+[2023-06-10 22:42:57] INFO root fetch - main [MainThread]: End processing [pycounts-ic] error
+[2023-06-10 22:42:57] INFO root fetch - processPackages [datoso-seed-sfc-speedhacks]: New version: [0.3.0] Old Version: [0.2.3]
+[2023-06-10 22:42:57] INFO root fetch - processPackages [flasgger]: New version: [0.9.7b2] Old Version: [0.9.7.2.dev1]
+[2023-06-10 22:42:57] INFO root fetch - processPackages [SEKKAYBOT]: New version: [0.22.268] Old Version: [0.22.267]
+[2023-06-10 22:42:57] INFO root fetch - processPackages [datoso-plugin-internetarchive]: New version: [0.3.0] Old Version: [0.2.3]
+[2023-06-10 22:42:57] INFO root fetch - processPackages [mcfonts]: New version: [0.6] Old Version: [0.5.2]
+[2023-06-10 22:42:57] INFO root fetch - processPackages [peaqevcore]: Downloading https://files.pythonhosted.org/packages/d3/3a/d595706eb589ecf59a8cba9b6d5b0456fc65fe7e1d2c1e2aec7feee838b8/peaqevcore-9.2.2.tar.gz
+[2023-06-10 22:42:57] WARNING root fetch - processPackages [remla23-team10-preprocessing]: Skipping, unable to determine old version
+[2023-06-10 22:42:57] INFO root fetch - main [MainThread]: End processing [remla23-team10-preprocessing] error
+[2023-06-10 22:42:57] INFO root fetch - processPackages [auxein]: Downloading https://files.pythonhosted.org/packages/3d/6d/ef463f90edd9757fd2275b8da64b78e6710c1c5b5429b3fc6bbca246c0c5/Auxein-0.0.6.tar.gz
+[2023-06-10 22:42:57] INFO root fetch - processPackages [flasgger]: Downloading https://files.pythonhosted.org/packages/92/2c/85815e64c1d6b058a06f79ed4ae3ef6a1fa36d4b2a68256928f80eff8f39/flasgger-0.9.7.2.dev1.tar.gz
+[2023-06-10 22:42:57] INFO root fetch - processPackages [SEKKAYBOT]: Downloading https://files.pythonhosted.org/packages/cf/67/b206b212bd72e50c9d99463eeb6f94b17f2063b8b02ec71765d9c5fa10ff/SEKKAYBOT-0.22.267.tar.gz
+[2023-06-10 22:42:57] INFO root fetch - processPackages [FLOBOT]: Downloading https://files.pythonhosted.org/packages/2b/de/7e759d97856c7ba727a930e6fc8889a20e20ef162d47870364bcd7d26c03/FLOBOT-0.1.117.tar.gz
+[2023-06-10 22:42:57] INFO root fetch - processPackages [datoso-seed-sfc-enhancedcolors]: Downloading https://files.pythonhosted.org/packages/51/db/e50f63ca7533d6edbd2e2efa4e7f706dd303150309a6db604f5febea8198/datoso_seed_sfc_enhancedcolors-0.2.3.tar.gz
+[2023-06-10 22:42:57] INFO root fetch - processPackages [peaqevcore]: Downloading https://files.pythonhosted.org/packages/7d/ed/173dd45b11e856f6a0a37a2fe90750405b19807684a9c94bd5e9388c29a2/peaqevcore-9.2.3.tar.gz
+[2023-06-10 22:42:57] INFO root fetch - processPackages [datoso-seed-sfc-speedhacks]: Downloading https://files.pythonhosted.org/packages/d2/94/21f220863cd18f6ec323c72facdf44c42be808b98460e7a62d13c90b53a3/datoso_seed_sfc_speedhacks-0.2.3.tar.gz
+[2023-06-10 22:42:57] INFO root fetch - processPackages [datoso-plugin-internetarchive]: Downloading https://files.pythonhosted.org/packages/de/f0/bcb9c8ae6389b53bc5db078be84fb7b407b9d5017c832d9fa22c85d95757/datoso_plugin_internetarchive-0.2.3.tar.gz
+[2023-06-10 22:42:57] INFO root fetch - processPackages [mcfonts]: Downloading https://files.pythonhosted.org/packages/ad/99/7cc74e67b124c8fdac15606b669a05ecbbc278574388f4e99f8d2988df47/mcfonts-0.5.2.tar.gz
+[2023-06-10 22:42:57] INFO root fetch - processPackages [peaqevcore]: executing diffoscope
+[2023-06-10 22:42:57] INFO root fetch - processPackages [peaqevcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peaqevcore-9.2.2.tar.gz tmp/peaqevcore-9.2.3.tar.gz --markdown 20230610/p/peaqevcore/9.2.2-9.2.3/diff.md --exclude *.pyd
+[2023-06-10 22:42:57] INFO root fetch - processPackages [auxein]: Downloading https://files.pythonhosted.org/packages/90/b5/549f3d744d92648a3eda9396a16faf3b38bab299f6c1d010ed9336541b16/auxein-0.1.0.tar.gz
+[2023-06-10 22:42:57] INFO root fetch - processPackages [SEKKAYBOT]: Downloading https://files.pythonhosted.org/packages/4d/67/24f6bd074e3c71174bd4b4456f5988f896730210b24f40dc065fb4239843/SEKKAYBOT-0.22.268.tar.gz
+[2023-06-10 22:42:57] INFO root fetch - processPackages [datoso-seed-sfc-enhancedcolors]: Downloading https://files.pythonhosted.org/packages/5e/ab/11e3b2c9a69725f43c45f66b3b8171374ff93d87de79704cb1f91ae1368a/datoso_seed_sfc_enhancedcolors-0.3.0.tar.gz
+[2023-06-10 22:42:57] INFO root fetch - processPackages [FLOBOT]: Downloading https://files.pythonhosted.org/packages/01/33/b4431f8cf24aaccab3c52a799fe9b41d0b2912576c9af7e92fae1d90e407/FLOBOT-0.1.118.tar.gz
+[2023-06-10 22:42:57] INFO root fetch - processPackages [datoso-seed-sfc-speedhacks]: Downloading https://files.pythonhosted.org/packages/42/e9/42ee40571dfe43aa7b7640f65e72e7ee477c34475675ed46cb8eb0126d00/datoso_seed_sfc_speedhacks-0.3.0.tar.gz
+[2023-06-10 22:42:57] INFO root fetch - processPackages [auxein]: executing diffoscope
+[2023-06-10 22:42:57] INFO root fetch - processPackages [auxein]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Auxein-0.0.6.tar.gz tmp/auxein-0.1.0.tar.gz --markdown 20230610/a/auxein/0.0.6-0.1.0/diff.md --exclude *.pyd
+[2023-06-10 22:42:57] INFO root fetch - processPackages [SEKKAYBOT]: executing diffoscope
+[2023-06-10 22:42:57] INFO root fetch - processPackages [SEKKAYBOT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SEKKAYBOT-0.22.267.tar.gz tmp/SEKKAYBOT-0.22.268.tar.gz --markdown 20230610/S/SEKKAYBOT/0.22.267-0.22.268/diff.md --exclude *.pyd
+[2023-06-10 22:42:57] INFO root fetch - processPackages [datoso-plugin-internetarchive]: Downloading https://files.pythonhosted.org/packages/d5/8c/75cd8726cd0cd0764e3da91ebc898a2efc9abec3185ea4fe256cb5ea30fc/datoso_plugin_internetarchive-0.3.0.tar.gz
+[2023-06-10 22:42:57] INFO root fetch - processPackages [datoso-seed-sfc-speedhacks]: executing diffoscope
+[2023-06-10 22:42:57] INFO root fetch - processPackages [datoso-seed-sfc-speedhacks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datoso_seed_sfc_speedhacks-0.2.3.tar.gz tmp/datoso_seed_sfc_speedhacks-0.3.0.tar.gz --markdown 20230610/d/datoso-seed-sfc-speedhacks/0.2.3-0.3.0/diff.md --exclude *.pyd
+[2023-06-10 22:42:57] INFO root fetch - processPackages [mcfonts]: Downloading https://files.pythonhosted.org/packages/79/6c/8eff7a841beefcc2b93fc27a4b7f336a94299994cb701e5b6d7e8bd9c0c5/mcfonts-0.6.tar.gz
+[2023-06-10 22:42:57] INFO root fetch - processPackages [datoso-seed-sfc-enhancedcolors]: executing diffoscope
+[2023-06-10 22:42:57] INFO root fetch - processPackages [datoso-seed-sfc-enhancedcolors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datoso_seed_sfc_enhancedcolors-0.2.3.tar.gz tmp/datoso_seed_sfc_enhancedcolors-0.3.0.tar.gz --markdown 20230610/d/datoso-seed-sfc-enhancedcolors/0.2.3-0.3.0/diff.md --exclude *.pyd
+[2023-06-10 22:42:57] INFO root fetch - processPackages [datoso-plugin-internetarchive]: executing diffoscope
+[2023-06-10 22:42:57] INFO root fetch - processPackages [datoso-plugin-internetarchive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datoso_plugin_internetarchive-0.2.3.tar.gz tmp/datoso_plugin_internetarchive-0.3.0.tar.gz --markdown 20230610/d/datoso-plugin-internetarchive/0.2.3-0.3.0/diff.md --exclude *.pyd
+[2023-06-10 22:42:57] INFO root fetch - processPackages [FLOBOT]: executing diffoscope
+[2023-06-10 22:42:57] INFO root fetch - processPackages [FLOBOT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FLOBOT-0.1.117.tar.gz tmp/FLOBOT-0.1.118.tar.gz --markdown 20230610/F/FLOBOT/0.1.117-0.1.118/diff.md --exclude *.pyd
+[2023-06-10 22:42:57] INFO root fetch - processPackages [mcfonts]: executing diffoscope
+[2023-06-10 22:42:57] INFO root fetch - processPackages [mcfonts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mcfonts-0.5.2.tar.gz tmp/mcfonts-0.6.tar.gz --markdown 20230610/m/mcfonts/0.5.2-0.6/diff.md --exclude *.pyd
+[2023-06-10 22:42:58] INFO root fetch - processPackages [flasgger]: Downloading https://files.pythonhosted.org/packages/cf/f4/7b17871ee710c16644b20a379e31998eddbd2a455251d4bd8da05e8e47ae/flasgger-0.9.7b2.tar.gz
+[2023-06-10 22:42:58] INFO root fetch - processPackages [flasgger]: executing diffoscope
+[2023-06-10 22:42:58] INFO root fetch - processPackages [flasgger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flasgger-0.9.7.2.dev1.tar.gz tmp/flasgger-0.9.7b2.tar.gz --markdown 20230610/f/flasgger/0.9.7.2.dev1-0.9.7b2/diff.md --exclude *.pyd
+[2023-06-10 22:42:59] INFO root fetch - processPackages [datoso-seed-sfc-speedhacks]: Remove: archive file [/home/abi/fetcher/tmp/datoso_seed_sfc_speedhacks-0.2.3.tar.gz]
+[2023-06-10 22:42:59] INFO root fetch - processPackages [datoso-seed-sfc-speedhacks]: Remove: archive file [/home/abi/fetcher/tmp/datoso_seed_sfc_speedhacks-0.3.0.tar.gz]
+[2023-06-10 22:42:59] INFO root fetch - main [MainThread]: End processing [datoso-seed-sfc-speedhacks]: success
+[2023-06-10 22:42:59] INFO root fetch - processPackages [datoso-plugin-internetarchive]: Remove: archive file [/home/abi/fetcher/tmp/datoso_plugin_internetarchive-0.2.3.tar.gz]
+[2023-06-10 22:42:59] INFO root fetch - processPackages [datoso-plugin-internetarchive]: Remove: archive file [/home/abi/fetcher/tmp/datoso_plugin_internetarchive-0.3.0.tar.gz]
+[2023-06-10 22:42:59] INFO root fetch - main [MainThread]: End processing [datoso-plugin-internetarchive]: success
+[2023-06-10 22:42:59] INFO root fetch - processPackages [datoso-seed-sfc-enhancedcolors]: Remove: archive file [/home/abi/fetcher/tmp/datoso_seed_sfc_enhancedcolors-0.2.3.tar.gz]
+[2023-06-10 22:42:59] INFO root fetch - processPackages [datoso-seed-sfc-enhancedcolors]: Remove: archive file [/home/abi/fetcher/tmp/datoso_seed_sfc_enhancedcolors-0.3.0.tar.gz]
+[2023-06-10 22:42:59] INFO root fetch - main [MainThread]: End processing [datoso-seed-sfc-enhancedcolors]: success
+[2023-06-10 22:42:59] INFO root fetch - processPackages [auxein]: Remove: archive file [/home/abi/fetcher/tmp/Auxein-0.0.6.tar.gz]
+[2023-06-10 22:42:59] INFO root fetch - processPackages [auxein]: Remove: archive file [/home/abi/fetcher/tmp/auxein-0.1.0.tar.gz]
+[2023-06-10 22:42:59] INFO root fetch - main [MainThread]: End processing [auxein]: success
+[2023-06-10 22:42:59] INFO root fetch - processPackages [SEKKAYBOT]: Remove: archive file [/home/abi/fetcher/tmp/SEKKAYBOT-0.22.267.tar.gz]
+[2023-06-10 22:42:59] INFO root fetch - processPackages [SEKKAYBOT]: Remove: archive file [/home/abi/fetcher/tmp/SEKKAYBOT-0.22.268.tar.gz]
+[2023-06-10 22:42:59] INFO root fetch - main [MainThread]: End processing [SEKKAYBOT]: success
+[2023-06-10 22:42:59] INFO root fetch - processPackages [FLOBOT]: Remove: archive file [/home/abi/fetcher/tmp/FLOBOT-0.1.117.tar.gz]
+[2023-06-10 22:42:59] INFO root fetch - processPackages [FLOBOT]: Remove: archive file [/home/abi/fetcher/tmp/FLOBOT-0.1.118.tar.gz]
+[2023-06-10 22:42:59] INFO root fetch - main [MainThread]: End processing [FLOBOT]: success
+[2023-06-10 22:42:59] INFO root fetch - processPackages [mcfonts]: Remove: archive file [/home/abi/fetcher/tmp/mcfonts-0.5.2.tar.gz]
+[2023-06-10 22:42:59] INFO root fetch - processPackages [mcfonts]: Remove: archive file [/home/abi/fetcher/tmp/mcfonts-0.6.tar.gz]
+[2023-06-10 22:42:59] INFO root fetch - main [MainThread]: End processing [mcfonts]: success
+[2023-06-10 22:43:00] INFO root fetch - processPackages [peaqevcore]: Remove: archive file [/home/abi/fetcher/tmp/peaqevcore-9.2.2.tar.gz]
+[2023-06-10 22:43:00] INFO root fetch - processPackages [peaqevcore]: Remove: archive file [/home/abi/fetcher/tmp/peaqevcore-9.2.3.tar.gz]
+[2023-06-10 22:43:00] INFO root fetch - main [MainThread]: End processing [peaqevcore]: success
+[2023-06-10 22:44:50] INFO root fetch - processPackages [flasgger]: Remove: archive file [/home/abi/fetcher/tmp/flasgger-0.9.7.2.dev1.tar.gz]
+[2023-06-10 22:44:50] INFO root fetch - processPackages [flasgger]: Remove: archive file [/home/abi/fetcher/tmp/flasgger-0.9.7b2.tar.gz]
+[2023-06-10 22:44:50] INFO root fetch - main [MainThread]: End processing [flasgger]: success
+[2023-06-10 22:44:50] INFO root fetch - main [MainThread]: Store serial: [18453735]
