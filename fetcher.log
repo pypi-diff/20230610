@@ -14300,3 +14300,14 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-10 17:23:05] INFO root fetch - processPackages [flute-alc]: Remove: archive file [/home/abi/fetcher/tmp/flute_alc-1.0.0-cp310-cp310-manylinux_2_34_x86_64.whl.zip]
 [2023-06-10 17:23:05] INFO root fetch - main [MainThread]: End processing [flute-alc]: success
 [2023-06-10 17:23:05] INFO root fetch - main [MainThread]: Store serial: [18451824]
+[2023-06-10 17:28:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18451824]
+[2023-06-10 17:28:20] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-06-10 17:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: seedot
+[2023-06-10 17:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pygame
+[2023-06-10 17:28:20] WARNING root fetch - processPackages [seedot]: Skipping, unable to determine old version
+[2023-06-10 17:28:20] INFO root fetch - main [MainThread]: End processing [seedot] error
+[2023-06-10 17:28:20] INFO root fetch - processPackages [pygame]: New version: [2.5.0.dev2] Old Version: [2.4.0.dev2]
+[2023-06-10 17:28:20] INFO root fetch - processPackages [pygame]: Downloading https://files.pythonhosted.org/packages/a5/ef/d189b114b3dd487a4bbd8cd5c019024b3c6896ad3c14e0e508c44c1e54d0/pygame-2.4.0.dev2.tar.gz
+[2023-06-10 17:28:20] WARNING root fetch - processPackages [pygame]: Skipping package: exceeds size limit 12875826>=10485760
+[2023-06-10 17:28:20] INFO root fetch - main [MainThread]: End processing [pygame] error
+[2023-06-10 17:28:20] INFO root fetch - main [MainThread]: Store serial: [18451836]
