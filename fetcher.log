@@ -10640,3 +10640,53 @@ EOFError: EOF read where object expected
 [2023-06-10 12:51:25] INFO root fetch - processPackages [civicutils]: Remove: archive file [/home/abi/fetcher/tmp/civicutils-1.0.1.tar.gz]
 [2023-06-10 12:51:25] INFO root fetch - main [MainThread]: End processing [civicutils]: success
 [2023-06-10 12:51:25] INFO root fetch - main [MainThread]: Store serial: [18450092]
+[2023-06-10 12:56:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18450092]
+[2023-06-10 12:56:34] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-10 12:56:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: auto-screener
+[2023-06-10 12:56:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: morsecode-enhanced
+[2023-06-10 12:56:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-pcrjjc
+[2023-06-10 12:56:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-rename
+[2023-06-10 12:56:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sqlite3-to-mysql
+[2023-06-10 12:56:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gns3-gui
+[2023-06-10 12:56:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gns3-server
+[2023-06-10 12:56:34] WARNING root fetch - processPackages [nonebot-plugin-pcrjjc]: Skipping, unable to determine old version
+[2023-06-10 12:56:34] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-pcrjjc] error
+[2023-06-10 12:56:34] INFO root fetch - processPackages [nonebot-plugin-rename]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-06-10 12:56:34] WARNING root fetch - processPackages [morsecode-enhanced]: Skipping, unable to determine old version
+[2023-06-10 12:56:34] INFO root fetch - main [MainThread]: End processing [morsecode-enhanced] error
+[2023-06-10 12:56:34] INFO root fetch - processPackages [auto-screener]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-10 12:56:34] INFO root fetch - processPackages [gns3-server]: New version: [3.0.0a3] Old Version: [3.0.0a2]
+[2023-06-10 12:56:34] INFO root fetch - processPackages [sqlite3-to-mysql]: New version: [2.0.0] Old Version: [1.4.9]
+[2023-06-10 12:56:34] INFO root fetch - processPackages [gns3-gui]: New version: [3.0.0a3] Old Version: [3.0.0a2]
+[2023-06-10 12:56:35] INFO root fetch - processPackages [auto-screener]: Downloading https://files.pythonhosted.org/packages/95/23/4dbcfba64c876f7bcecd12377e084d5142ab1da8b4ebeb3d3a127852b847/auto-screener-0.0.8.tar.gz
+[2023-06-10 12:56:35] INFO root fetch - processPackages [nonebot-plugin-rename]: Downloading https://files.pythonhosted.org/packages/1b/5e/eb629fd840da8af01f10c3a73401020930699581f106d53a3f6296ca9484/nonebot_plugin_rename-1.3.8.tar.gz
+[2023-06-10 12:56:35] INFO root fetch - processPackages [gns3-server]: Downloading https://files.pythonhosted.org/packages/76/9f/37cd34b9d2adaa1f623deb3512df6985042e29a59f172df45233f2978436/gns3-server-3.0.0a2.tar.gz
+[2023-06-10 12:56:35] INFO root fetch - processPackages [sqlite3-to-mysql]: Downloading https://files.pythonhosted.org/packages/69/65/95c014958ee2571ec300bb7efc29f290d37e5b5d610d59e7cdfba415a2bb/sqlite3-to-mysql-1.4.9.tar.gz
+[2023-06-10 12:56:35] INFO root fetch - processPackages [gns3-gui]: Downloading https://files.pythonhosted.org/packages/62/9a/1387c4b06e150035dae2743434539e28292f0deaed11e4731f5cac8ff208/gns3-gui-3.0.0a2.tar.gz
+[2023-06-10 12:56:35] INFO root fetch - processPackages [nonebot-plugin-rename]: Downloading https://files.pythonhosted.org/packages/6b/7f/08ee29145821a9e9b93a24de9552d02e1dbf231d7227eaf466e27c98bb94/nonebot_plugin_rename-1.3.9.tar.gz
+[2023-06-10 12:56:35] WARNING root fetch - processPackages [gns3-server]: Skipping package: exceeds size limit 11101961>=10485760
+[2023-06-10 12:56:35] INFO root fetch - main [MainThread]: End processing [gns3-server] error
+[2023-06-10 12:56:35] INFO root fetch - processPackages [sqlite3-to-mysql]: Downloading https://files.pythonhosted.org/packages/78/e7/3238188bb04bd2e800129383be976987b64404cc7e9b731b41a13d0294b0/sqlite3_to_mysql-2.0.0.tar.gz
+[2023-06-10 12:56:35] INFO root fetch - processPackages [nonebot-plugin-rename]: executing diffoscope
+[2023-06-10 12:56:35] INFO root fetch - processPackages [nonebot-plugin-rename]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_rename-1.3.8.tar.gz tmp/nonebot_plugin_rename-1.3.9.tar.gz --markdown 20230610/n/nonebot-plugin-rename/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-06-10 12:56:35] INFO root fetch - processPackages [sqlite3-to-mysql]: executing diffoscope
+[2023-06-10 12:56:35] INFO root fetch - processPackages [sqlite3-to-mysql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite3-to-mysql-1.4.9.tar.gz tmp/sqlite3_to_mysql-2.0.0.tar.gz --markdown 20230610/s/sqlite3-to-mysql/1.4.9-2.0.0/diff.md --exclude *.pyd
+[2023-06-10 12:56:35] INFO root fetch - processPackages [auto-screener]: Downloading https://files.pythonhosted.org/packages/17/81/2cce88151208fb3d0d0ee59ce98a996260f0578227453f7753134f315aaa/auto-screener-0.0.9.tar.gz
+[2023-06-10 12:56:35] INFO root fetch - processPackages [auto-screener]: executing diffoscope
+[2023-06-10 12:56:35] INFO root fetch - processPackages [auto-screener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-screener-0.0.8.tar.gz tmp/auto-screener-0.0.9.tar.gz --markdown 20230610/a/auto-screener/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-10 12:56:36] INFO root fetch - processPackages [gns3-gui]: Downloading https://files.pythonhosted.org/packages/e2/82/1ee7996124e6120bdddc377acb2e41de242ae5f11e58252f94e00be797e0/gns3-gui-3.0.0a3.tar.gz
+[2023-06-10 12:56:36] INFO root fetch - processPackages [auto-screener]: Remove: archive file [/home/abi/fetcher/tmp/auto-screener-0.0.8.tar.gz]
+[2023-06-10 12:56:36] INFO root fetch - processPackages [auto-screener]: Remove: archive file [/home/abi/fetcher/tmp/auto-screener-0.0.9.tar.gz]
+[2023-06-10 12:56:36] INFO root fetch - main [MainThread]: End processing [auto-screener]: success
+[2023-06-10 12:56:37] INFO root fetch - processPackages [nonebot-plugin-rename]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_rename-1.3.8.tar.gz]
+[2023-06-10 12:56:37] INFO root fetch - processPackages [nonebot-plugin-rename]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_rename-1.3.9.tar.gz]
+[2023-06-10 12:56:37] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-rename]: success
+[2023-06-10 12:56:37] INFO root fetch - processPackages [sqlite3-to-mysql]: Remove: archive file [/home/abi/fetcher/tmp/sqlite3-to-mysql-1.4.9.tar.gz]
+[2023-06-10 12:56:37] INFO root fetch - processPackages [sqlite3-to-mysql]: Remove: archive file [/home/abi/fetcher/tmp/sqlite3_to_mysql-2.0.0.tar.gz]
+[2023-06-10 12:56:37] INFO root fetch - main [MainThread]: End processing [sqlite3-to-mysql]: success
+[2023-06-10 12:56:37] INFO root fetch - processPackages [gns3-gui]: executing diffoscope
+[2023-06-10 12:56:37] INFO root fetch - processPackages [gns3-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gns3-gui-3.0.0a2.tar.gz tmp/gns3-gui-3.0.0a3.tar.gz --markdown 20230610/g/gns3-gui/3.0.0a2-3.0.0a3/diff.md --exclude *.pyd
+[2023-06-10 12:56:47] INFO root fetch - processPackages [gns3-gui]: Remove: archive file [/home/abi/fetcher/tmp/gns3-gui-3.0.0a2.tar.gz]
+[2023-06-10 12:56:47] INFO root fetch - processPackages [gns3-gui]: Remove: archive file [/home/abi/fetcher/tmp/gns3-gui-3.0.0a3.tar.gz]
+[2023-06-10 12:56:47] INFO root fetch - main [MainThread]: End processing [gns3-gui]: success
+[2023-06-10 12:56:47] INFO root fetch - main [MainThread]: Store serial: [18450119]
