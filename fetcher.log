@@ -15835,3 +15835,43 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-10 19:30:07] INFO root fetch - processPackages [ethyca-fides]: Remove: archive file [/home/abi/fetcher/tmp/ethyca-fides-2.9.2.tar.gz]
 [2023-06-10 19:30:07] INFO root fetch - main [MainThread]: End processing [ethyca-fides]: success
 [2023-06-10 19:30:07] INFO root fetch - main [MainThread]: Store serial: [18452654]
+[2023-06-10 19:35:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18452654]
+[2023-06-10 19:35:16] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-10 19:35:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: balladeer
+[2023-06-10 19:35:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: irvy
+[2023-06-10 19:35:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: transformer-lite
+[2023-06-10 19:35:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: irvy
+[2023-06-10 19:35:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hrin-msb
+[2023-06-10 19:35:16] WARNING root fetch - processPackages [transformer-lite]: Skipping, unable to determine old version
+[2023-06-10 19:35:16] INFO root fetch - main [MainThread]: End processing [transformer-lite] error
+[2023-06-10 19:35:16] INFO root fetch - processPackages [irvy]: New version: [1.0.0] Old Version: [0.0.1]
+[2023-06-10 19:35:16] INFO root fetch - processPackages [balladeer]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-10 19:35:16] INFO root fetch - processPackages [irvy]: New version: [1.0.0] Old Version: [0.0.1]
+[2023-06-10 19:35:16] INFO root fetch - processPackages [hrin-msb]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-10 19:35:16] INFO root fetch - processPackages [balladeer]: Downloading https://files.pythonhosted.org/packages/1f/43/53529d10bdca06dda5752947f24bf67b88cab69c060a37b9f5478ed74e8f/balladeer-0.8.0.tar.gz
+[2023-06-10 19:35:17] INFO root fetch - processPackages [irvy]: Downloading https://files.pythonhosted.org/packages/0c/1c/4e0eb461ba6c94f8ac37084e8201cf7f7e5f363bb6a78e0a39b092649737/irvy-0.0.1.tar.gz
+[2023-06-10 19:35:17] INFO root fetch - processPackages [irvy]: Downloading https://files.pythonhosted.org/packages/0c/1c/4e0eb461ba6c94f8ac37084e8201cf7f7e5f363bb6a78e0a39b092649737/irvy-0.0.1.tar.gz
+[2023-06-10 19:35:17] INFO root fetch - processPackages [hrin-msb]: Downloading https://files.pythonhosted.org/packages/01/68/1789fa953fb7468267c85f88fd2bd30966fc7095fa1019588962e2e45635/hrin_msb-0.2.8.tar.gz
+[2023-06-10 19:35:17] INFO root fetch - processPackages [irvy]: Downloading https://files.pythonhosted.org/packages/60/34/96100c7d2330444c2ea652340071726a649805d0360fb67d62ac2d11d04a/irvy-1.0.0.tar.gz
+[2023-06-10 19:35:17] INFO root fetch - processPackages [irvy]: Downloading https://files.pythonhosted.org/packages/60/34/96100c7d2330444c2ea652340071726a649805d0360fb67d62ac2d11d04a/irvy-1.0.0.tar.gz
+[2023-06-10 19:35:17] INFO root fetch - processPackages [balladeer]: Downloading https://files.pythonhosted.org/packages/0f/28/d422c06bc986a4f14c0e70b958a10c6d2d3617f2290ce9d0390ea5b7de2f/balladeer-0.9.0.tar.gz
+[2023-06-10 19:35:17] INFO root fetch - processPackages [irvy]: executing diffoscope
+[2023-06-10 19:35:17] INFO root fetch - processPackages [irvy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irvy-0.0.1.tar.gz tmp/irvy-1.0.0.tar.gz --markdown 20230610/i/irvy/0.0.1-1.0.0/diff.md --exclude *.pyd
+[2023-06-10 19:35:17] INFO root fetch - processPackages [irvy]: executing diffoscope
+[2023-06-10 19:35:17] INFO root fetch - processPackages [irvy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irvy-0.0.1.tar.gz tmp/irvy-1.0.0.tar.gz --markdown 20230610/i/irvy/0.0.1-1.0.0/diff.md --exclude *.pyd
+[2023-06-10 19:35:17] INFO root fetch - processPackages [hrin-msb]: Downloading https://files.pythonhosted.org/packages/f7/94/d59c8a5b3bee420117fc2d467d62317feecd19b8b1d838107abbbf1f5528/hrin_msb-0.2.9.tar.gz
+[2023-06-10 19:35:17] INFO root fetch - processPackages [hrin-msb]: executing diffoscope
+[2023-06-10 19:35:17] INFO root fetch - processPackages [hrin-msb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hrin_msb-0.2.8.tar.gz tmp/hrin_msb-0.2.9.tar.gz --markdown 20230610/h/hrin-msb/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-10 19:35:17] INFO root fetch - processPackages [balladeer]: executing diffoscope
+[2023-06-10 19:35:17] INFO root fetch - processPackages [balladeer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/balladeer-0.8.0.tar.gz tmp/balladeer-0.9.0.tar.gz --markdown 20230610/b/balladeer/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-10 19:35:18] INFO root fetch - processPackages [irvy]: Remove: archive file [/home/abi/fetcher/tmp/irvy-0.0.1.tar.gz]
+[2023-06-10 19:35:18] INFO root fetch - processPackages [irvy]: Remove: archive file [/home/abi/fetcher/tmp/irvy-1.0.0.tar.gz]
+[2023-06-10 19:35:18] INFO root fetch - main [MainThread]: End processing [irvy]: success
+[2023-06-10 19:35:18] INFO root fetch - main [MainThread]: End processing [irvy]: success
+[2023-06-10 19:35:18] INFO root fetch - processPackages [balladeer]: Remove: archive file [/home/abi/fetcher/tmp/balladeer-0.8.0.tar.gz]
+[2023-06-10 19:35:18] INFO root fetch - processPackages [balladeer]: Remove: archive file [/home/abi/fetcher/tmp/balladeer-0.9.0.tar.gz]
+[2023-06-10 19:35:18] INFO root fetch - main [MainThread]: End processing [balladeer]: success
+[2023-06-10 19:35:18] INFO root fetch - processPackages [hrin-msb]: Remove: archive file [/home/abi/fetcher/tmp/hrin_msb-0.2.8.tar.gz]
+[2023-06-10 19:35:18] INFO root fetch - processPackages [hrin-msb]: Remove: archive file [/home/abi/fetcher/tmp/hrin_msb-0.2.9.tar.gz]
+[2023-06-10 19:35:18] INFO root fetch - main [MainThread]: End processing [hrin-msb]: success
+[2023-06-10 19:35:18] INFO root fetch - main [MainThread]: Store serial: [18452681]
