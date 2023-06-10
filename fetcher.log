@@ -6175,3 +6175,84 @@ EOFError: EOF read where object expected
 [2023-06-10 03:51:07] INFO root fetch - processPackages [cirq-core]: Remove: archive file [/home/abi/fetcher/tmp/cirq_core-1.2.0.dev20230609234135-py3-none-any.whl.zip]
 [2023-06-10 03:51:07] INFO root fetch - main [MainThread]: End processing [cirq-core]: success
 [2023-06-10 03:51:07] INFO root fetch - main [MainThread]: Store serial: [18448009]
+[2023-06-10 03:56:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18448009]
+[2023-06-10 03:56:16] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-10 03:56:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cirq-aqt
+[2023-06-10 03:56:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cirq-rigetti
+[2023-06-10 03:56:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cirq-web
+[2023-06-10 03:56:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cirq
+[2023-06-10 03:56:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tracera
+[2023-06-10 03:56:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: funcStats
+[2023-06-10 03:56:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rotspectools
+[2023-06-10 03:56:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ovos-phal-plugin-connectivity-events
+[2023-06-10 03:56:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: GoogleBard
+[2023-06-10 03:56:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mahirdos2
+[2023-06-10 03:56:16] INFO root fetch - processPackages [ovos-phal-plugin-connectivity-events]: New version: [0.0.3a1] Old Version: [0.0.2a2]
+[2023-06-10 03:56:16] INFO root fetch - processPackages [rotspectools]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-10 03:56:16] WARNING root fetch - processPackages [tracera]: Skipping, unable to determine old version
+[2023-06-10 03:56:16] INFO root fetch - processPackages [GoogleBard]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-06-10 03:56:16] INFO root fetch - main [MainThread]: End processing [tracera] error
+[2023-06-10 03:56:16] INFO root fetch - processPackages [cirq-rigetti]: New version: [1.2.0.dev20230610015021] Old Version: [1.2.0.dev20230609234135]
+[2023-06-10 03:56:16] INFO root fetch - processPackages [funcStats]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-10 03:56:16] INFO root fetch - processPackages [cirq-aqt]: New version: [1.2.0.dev20230610015021] Old Version: [1.2.0.dev20230609234135]
+[2023-06-10 03:56:16] INFO root fetch - processPackages [cirq-web]: New version: [1.2.0.dev20230610015021] Old Version: [1.2.0.dev20230609234135]
+[2023-06-10 03:56:16] INFO root fetch - processPackages [rotspectools]: Downloading https://files.pythonhosted.org/packages/eb/d7/e32fed903f8901eacf814365b895ab821754f8b6d6abfe82cf1b1701edf2/rotspectools-0.1.3.tar.gz
+[2023-06-10 03:56:16] INFO root fetch - processPackages [cirq]: New version: [1.2.0.dev20230610015021] Old Version: [1.2.0.dev20230609234135]
+[2023-06-10 03:56:16] WARNING root fetch - processPackages [mahirdos2]: Skipping, unable to determine old version
+[2023-06-10 03:56:16] INFO root fetch - main [MainThread]: End processing [mahirdos2] error
+[2023-06-10 03:56:16] INFO root fetch - processPackages [GoogleBard]: Downloading https://files.pythonhosted.org/packages/34/8d/30ac39681aadc566cdec82151789890c032d7fd27ab77d3836a5d5836f37/GoogleBard-1.3.1.tar.gz
+[2023-06-10 03:56:16] INFO root fetch - processPackages [cirq-aqt]: Downloading https://files.pythonhosted.org/packages/6b/6e/dfd48d05d276e184f4b5d78b539f86f7eacd3e53a387e301146edd998b2c/cirq_aqt-1.2.0.dev20230609234135-py3-none-any.whl
+[2023-06-10 03:56:16] INFO root fetch - processPackages [funcStats]: Downloading https://files.pythonhosted.org/packages/6e/26/2b5b73f222cc98c4f14dafb02f962c025289c63cadd5563788c59211646e/funcStats-0.0.1.tar.gz
+[2023-06-10 03:56:16] INFO root fetch - processPackages [ovos-phal-plugin-connectivity-events]: Downloading https://files.pythonhosted.org/packages/a4/f0/438bdf06eaa0a678612027877e6c17c3883645c76fe423969fb62f37a85a/ovos-phal-plugin-connectivity-events-0.0.2a2.tar.gz
+[2023-06-10 03:56:16] INFO root fetch - processPackages [cirq-rigetti]: Downloading https://files.pythonhosted.org/packages/6b/6f/169a9f7de4fd83f58ad3c2e2a37ed8ec34e332446565d156f7416da3f19f/cirq_rigetti-1.2.0.dev20230609234135-py3-none-any.whl
+[2023-06-10 03:56:16] INFO root fetch - processPackages [cirq-web]: Downloading https://files.pythonhosted.org/packages/3a/bb/43053db39b1b0fa86c435ea7a56c48d5572c9ea6cb20839d24602249ccba/cirq_web-1.2.0.dev20230609234135-py3-none-any.whl
+[2023-06-10 03:56:16] INFO root fetch - processPackages [cirq]: Downloading https://files.pythonhosted.org/packages/9f/c3/5accbe0559e228831be068ac368a86fd23f6319d3ba1c1da5e08c6db3353/cirq-1.2.0.dev20230609234135-py3-none-any.whl
+[2023-06-10 03:56:16] INFO root fetch - processPackages [GoogleBard]: Downloading https://files.pythonhosted.org/packages/30/6d/911d2c2eba9536c824d3130b0a8a1a17a7f67d0307f5ad252f28ff7634b2/GoogleBard-1.3.2.tar.gz
+[2023-06-10 03:56:16] INFO root fetch - processPackages [cirq-aqt]: Downloading https://files.pythonhosted.org/packages/c8/69/3eea4ffef7478e5a51e779de465b3d37415fa1227dbe9581d5e17f17344c/cirq_aqt-1.2.0.dev20230610015021-py3-none-any.whl
+[2023-06-10 03:56:16] INFO root fetch - processPackages [funcStats]: Downloading https://files.pythonhosted.org/packages/12/86/2fcd3186b4c1f710b2076f79151c72b615b908d0f9c15b824dada8525256/funcStats-0.0.2.tar.gz
+[2023-06-10 03:56:16] INFO root fetch - processPackages [rotspectools]: Downloading https://files.pythonhosted.org/packages/06/5b/76394b15068294ac60630fcbe6c1d5ef8cd31831ffbde45807d878ec843a/rotspectools-0.1.4.tar.gz
+[2023-06-10 03:56:16] INFO root fetch - processPackages [funcStats]: executing diffoscope
+[2023-06-10 03:56:16] INFO root fetch - processPackages [funcStats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funcStats-0.0.1.tar.gz tmp/funcStats-0.0.2.tar.gz --markdown 20230610/f/funcStats/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-10 03:56:16] INFO root fetch - processPackages [GoogleBard]: executing diffoscope
+[2023-06-10 03:56:16] INFO root fetch - processPackages [GoogleBard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GoogleBard-1.3.1.tar.gz tmp/GoogleBard-1.3.2.tar.gz --markdown 20230610/G/GoogleBard/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-06-10 03:56:16] INFO root fetch - processPackages [rotspectools]: executing diffoscope
+[2023-06-10 03:56:16] INFO root fetch - processPackages [rotspectools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rotspectools-0.1.3.tar.gz tmp/rotspectools-0.1.4.tar.gz --markdown 20230610/r/rotspectools/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-10 03:56:16] INFO root fetch - processPackages [cirq-aqt]: executing diffoscope
+[2023-06-10 03:56:16] INFO root fetch - processPackages [cirq-aqt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_aqt-1.2.0.dev20230609234135-py3-none-any.whl.zip tmp/cirq_aqt-1.2.0.dev20230610015021-py3-none-any.whl.zip --markdown 20230610/c/cirq-aqt/1.2.0.dev20230609234135-1.2.0.dev20230610015021/diff.md --exclude *.pyd
+[2023-06-10 03:56:16] INFO root fetch - processPackages [ovos-phal-plugin-connectivity-events]: Downloading https://files.pythonhosted.org/packages/a3/4f/832aa630f16709616d0a9913e0026993ef835de4198b31d2419e7f90b36a/ovos-phal-plugin-connectivity-events-0.0.3a1.tar.gz
+[2023-06-10 03:56:16] INFO root fetch - processPackages [cirq-rigetti]: Downloading https://files.pythonhosted.org/packages/39/19/209281ecf7b68ba46a17498982ef4e71ecdf1ff8a8e6b6c2fe058d21074e/cirq_rigetti-1.2.0.dev20230610015021-py3-none-any.whl
+[2023-06-10 03:56:16] INFO root fetch - processPackages [cirq]: Downloading https://files.pythonhosted.org/packages/ed/c4/43fa617a8615b5c1b8f5d4a70b4241f103f30bd71634de1f389709bd110b/cirq-1.2.0.dev20230610015021-py3-none-any.whl
+[2023-06-10 03:56:17] INFO root fetch - processPackages [ovos-phal-plugin-connectivity-events]: executing diffoscope
+[2023-06-10 03:56:17] INFO root fetch - processPackages [ovos-phal-plugin-connectivity-events]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos-phal-plugin-connectivity-events-0.0.2a2.tar.gz tmp/ovos-phal-plugin-connectivity-events-0.0.3a1.tar.gz --markdown 20230610/o/ovos-phal-plugin-connectivity-events/0.0.2a2-0.0.3a1/diff.md --exclude *.pyd
+[2023-06-10 03:56:17] INFO root fetch - processPackages [cirq-rigetti]: executing diffoscope
+[2023-06-10 03:56:17] INFO root fetch - processPackages [cirq-rigetti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_rigetti-1.2.0.dev20230609234135-py3-none-any.whl.zip tmp/cirq_rigetti-1.2.0.dev20230610015021-py3-none-any.whl.zip --markdown 20230610/c/cirq-rigetti/1.2.0.dev20230609234135-1.2.0.dev20230610015021/diff.md --exclude *.pyd
+[2023-06-10 03:56:17] INFO root fetch - processPackages [cirq-web]: Downloading https://files.pythonhosted.org/packages/4e/95/55cbd1dacc79a9c1b2feaeae9f258a323bae8dff14b0a3efef5cd4f25fca/cirq_web-1.2.0.dev20230610015021-py3-none-any.whl
+[2023-06-10 03:56:17] INFO root fetch - processPackages [cirq]: executing diffoscope
+[2023-06-10 03:56:17] INFO root fetch - processPackages [cirq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq-1.2.0.dev20230609234135-py3-none-any.whl.zip tmp/cirq-1.2.0.dev20230610015021-py3-none-any.whl.zip --markdown 20230610/c/cirq/1.2.0.dev20230609234135-1.2.0.dev20230610015021/diff.md --exclude *.pyd
+[2023-06-10 03:56:17] INFO root fetch - processPackages [cirq-web]: executing diffoscope
+[2023-06-10 03:56:17] INFO root fetch - processPackages [cirq-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_web-1.2.0.dev20230609234135-py3-none-any.whl.zip tmp/cirq_web-1.2.0.dev20230610015021-py3-none-any.whl.zip --markdown 20230610/c/cirq-web/1.2.0.dev20230609234135-1.2.0.dev20230610015021/diff.md --exclude *.pyd
+[2023-06-10 03:56:18] INFO root fetch - processPackages [funcStats]: Remove: archive file [/home/abi/fetcher/tmp/funcStats-0.0.1.tar.gz]
+[2023-06-10 03:56:18] INFO root fetch - processPackages [funcStats]: Remove: archive file [/home/abi/fetcher/tmp/funcStats-0.0.2.tar.gz]
+[2023-06-10 03:56:18] INFO root fetch - main [MainThread]: End processing [funcStats]: success
+[2023-06-10 03:56:18] INFO root fetch - processPackages [rotspectools]: Remove: archive file [/home/abi/fetcher/tmp/rotspectools-0.1.3.tar.gz]
+[2023-06-10 03:56:18] INFO root fetch - processPackages [rotspectools]: Remove: archive file [/home/abi/fetcher/tmp/rotspectools-0.1.4.tar.gz]
+[2023-06-10 03:56:18] INFO root fetch - main [MainThread]: End processing [rotspectools]: success
+[2023-06-10 03:56:18] INFO root fetch - processPackages [cirq-aqt]: Remove: archive file [/home/abi/fetcher/tmp/cirq_aqt-1.2.0.dev20230609234135-py3-none-any.whl.zip]
+[2023-06-10 03:56:18] INFO root fetch - processPackages [cirq-aqt]: Remove: archive file [/home/abi/fetcher/tmp/cirq_aqt-1.2.0.dev20230610015021-py3-none-any.whl.zip]
+[2023-06-10 03:56:18] INFO root fetch - main [MainThread]: End processing [cirq-aqt]: success
+[2023-06-10 03:56:18] INFO root fetch - processPackages [GoogleBard]: Remove: archive file [/home/abi/fetcher/tmp/GoogleBard-1.3.1.tar.gz]
+[2023-06-10 03:56:18] INFO root fetch - processPackages [GoogleBard]: Remove: archive file [/home/abi/fetcher/tmp/GoogleBard-1.3.2.tar.gz]
+[2023-06-10 03:56:18] INFO root fetch - main [MainThread]: End processing [GoogleBard]: success
+[2023-06-10 03:56:18] INFO root fetch - processPackages [ovos-phal-plugin-connectivity-events]: Remove: archive file [/home/abi/fetcher/tmp/ovos-phal-plugin-connectivity-events-0.0.2a2.tar.gz]
+[2023-06-10 03:56:18] INFO root fetch - processPackages [ovos-phal-plugin-connectivity-events]: Remove: archive file [/home/abi/fetcher/tmp/ovos-phal-plugin-connectivity-events-0.0.3a1.tar.gz]
+[2023-06-10 03:56:18] INFO root fetch - main [MainThread]: End processing [ovos-phal-plugin-connectivity-events]: success
+[2023-06-10 03:56:18] INFO root fetch - processPackages [cirq-web]: Remove: archive file [/home/abi/fetcher/tmp/cirq_web-1.2.0.dev20230609234135-py3-none-any.whl.zip]
+[2023-06-10 03:56:18] INFO root fetch - processPackages [cirq-web]: Remove: archive file [/home/abi/fetcher/tmp/cirq_web-1.2.0.dev20230610015021-py3-none-any.whl.zip]
+[2023-06-10 03:56:18] INFO root fetch - main [MainThread]: End processing [cirq-web]: success
+[2023-06-10 03:56:18] INFO root fetch - processPackages [cirq]: Remove: archive file [/home/abi/fetcher/tmp/cirq-1.2.0.dev20230609234135-py3-none-any.whl.zip]
+[2023-06-10 03:56:18] INFO root fetch - processPackages [cirq]: Remove: archive file [/home/abi/fetcher/tmp/cirq-1.2.0.dev20230610015021-py3-none-any.whl.zip]
+[2023-06-10 03:56:18] INFO root fetch - main [MainThread]: End processing [cirq]: success
+[2023-06-10 03:56:18] INFO root fetch - processPackages [cirq-rigetti]: Remove: archive file [/home/abi/fetcher/tmp/cirq_rigetti-1.2.0.dev20230609234135-py3-none-any.whl.zip]
+[2023-06-10 03:56:18] INFO root fetch - processPackages [cirq-rigetti]: Remove: archive file [/home/abi/fetcher/tmp/cirq_rigetti-1.2.0.dev20230610015021-py3-none-any.whl.zip]
+[2023-06-10 03:56:18] INFO root fetch - main [MainThread]: End processing [cirq-rigetti]: success
+[2023-06-10 03:56:18] INFO root fetch - main [MainThread]: Store serial: [18448038]
