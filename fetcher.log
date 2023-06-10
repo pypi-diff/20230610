@@ -6563,3 +6563,117 @@ EOFError: EOF read where object expected
 [2023-06-10 04:33:43] INFO root fetch - processPackages [gen3]: Remove: archive file [/home/abi/fetcher/tmp/gen3-4.9.4.tar.gz]
 [2023-06-10 04:33:43] INFO root fetch - main [MainThread]: End processing [gen3]: success
 [2023-06-10 04:33:43] INFO root fetch - main [MainThread]: Store serial: [18448166]
+[2023-06-10 04:38:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18448166]
+[2023-06-10 04:38:52] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-10 04:38:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Mirrorstr
+[2023-06-10 04:38:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addons-oca-account-closing
+[2023-06-10 04:38:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: smol
+[2023-06-10 04:38:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ovos-tts-plugin-piper
+[2023-06-10 04:38:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: quorum-fullnode-py
+[2023-06-10 04:38:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk8s-plus-24
+[2023-06-10 04:38:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: raiwidgets
+[2023-06-10 04:38:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: responsibleai
+[2023-06-10 04:38:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: MALDIpy
+[2023-06-10 04:38:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: korean-regex
+[2023-06-10 04:38:52] INFO root fetch - processPackages [Mirrorstr]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-10 04:38:52] INFO root fetch - processPackages [odoo-addons-oca-account-closing]: New version: [16.0.20230609.0] Old Version: [16.0.20230224.0]
+[2023-06-10 04:38:52] INFO root fetch - processPackages [smol]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-06-10 04:38:52] INFO root fetch - processPackages [MALDIpy]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-10 04:38:52] WARNING root fetch - processPackages [korean-regex]: Skipping, unable to determine old version
+[2023-06-10 04:38:52] INFO root fetch - processPackages [korean-regex]: Start processing: dowg
+[2023-06-10 04:38:52] INFO root fetch - main [MainThread]: End processing [korean-regex] error
+[2023-06-10 04:38:52] INFO root fetch - processPackages [MALDIpy]: Downloading https://files.pythonhosted.org/packages/7e/a2/62a6c095977f6e27d2fbe937f06c605a7edf9857e71b9d8ef7f32319a3dd/MALDIpy-0.0.5.tar.gz
+[2023-06-10 04:38:52] INFO root fetch - processPackages [ovos-tts-plugin-piper]: New version: [0.0.1a2] Old Version: [0.0.1a1]
+[2023-06-10 04:38:52] INFO root fetch - processPackages [quorum-fullnode-py]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-06-10 04:38:52] INFO root fetch - processPackages [cdk8s-plus-24]: New version: [2.8.9] Old Version: [2.8.8]
+[2023-06-10 04:38:52] INFO root fetch - processPackages [responsibleai]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-10 04:38:52] INFO root fetch - processPackages [raiwidgets]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-10 04:38:52] INFO root fetch - processPackages [dowg]: New version: [0.3.1] Old Version: [0.2.2]
+[2023-06-10 04:38:52] INFO root fetch - processPackages [cdk8s-plus-24]: Downloading https://files.pythonhosted.org/packages/73/d5/49a8dc44e72e5db18c0f19520eb82a0010e697d0f43ab159152c33791aa7/cdk8s-plus-24-2.8.8.tar.gz
+[2023-06-10 04:38:52] INFO root fetch - processPackages [MALDIpy]: Downloading https://files.pythonhosted.org/packages/24/2e/da4c6b6b8a73da73a29a0fad77ed5409a6e7ef5c665ad1f9d296c8f8ae37/MALDIpy-0.0.6.tar.gz
+[2023-06-10 04:38:52] INFO root fetch - processPackages [odoo-addons-oca-account-closing]: Downloading https://files.pythonhosted.org/packages/de/cb/3c5c67f659d4eb75bca90aba9ffb49f91c504e28c3d4aa974a1065426ade/odoo_addons_oca_account_closing-16.0.20230224.0-py3-none-any.whl
+[2023-06-10 04:38:52] INFO root fetch - processPackages [smol]: Downloading https://files.pythonhosted.org/packages/f6/bb/e24df26dffa7a0ff3df2377b68a40cc50ab03e752a214f56ef05ef0bc3d7/smol-0.3.1.tar.gz
+[2023-06-10 04:38:52] INFO root fetch - processPackages [dowg]: Downloading https://files.pythonhosted.org/packages/84/06/b39eb80783287bbb57ec3720da4b8df7b7dcd07e6722ffdc3ed098d0968c/dowg-0.2.2.tar.gz
+[2023-06-10 04:38:52] INFO root fetch - processPackages [Mirrorstr]: Downloading https://files.pythonhosted.org/packages/56/04/403ab1b305bdda00b82ddc83aa7098b13e23d819d0609cb610954daa99f5/Mirrorstr-0.0.5.tar.gz
+[2023-06-10 04:38:52] INFO root fetch - processPackages [MALDIpy]: executing diffoscope
+[2023-06-10 04:38:52] INFO root fetch - processPackages [MALDIpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MALDIpy-0.0.5.tar.gz tmp/MALDIpy-0.0.6.tar.gz --markdown 20230610/M/MALDIpy/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-10 04:38:53] INFO root fetch - processPackages [cdk8s-plus-24]: Downloading https://files.pythonhosted.org/packages/a4/eb/7fc3f17d6eb6750041a6b336906ad566e6b538954d0cd6fe7880f54bf206/cdk8s-plus-24-2.8.9.tar.gz
+[2023-06-10 04:38:53] INFO root fetch - processPackages [quorum-fullnode-py]: Downloading https://files.pythonhosted.org/packages/96/3d/e5b671cf592ec480f892c7e2de549c31ab0f41bc8afc1f58ae94b42e0ab5/quorum_fullnode_py-1.3.0.tar.gz
+[2023-06-10 04:38:53] INFO root fetch - processPackages [ovos-tts-plugin-piper]: Downloading https://files.pythonhosted.org/packages/c7/51/a7ff785ab980c2cac3d810705b8815df9221f96de826986e7029e1f7ab88/ovos_tts_plugin_piper-0.0.1a1-py3-none-any.whl
+[2023-06-10 04:38:53] INFO root fetch - processPackages [raiwidgets]: Downloading https://files.pythonhosted.org/packages/1b/02/d914dcb9e91d46c58de393629b8f920b922f08735598687bc90c9dfd10f0/raiwidgets-0.9.3.tar.gz
+[2023-06-10 04:38:53] INFO root fetch - processPackages [responsibleai]: Downloading https://files.pythonhosted.org/packages/4c/a3/02aa2bd27b1f4f80337d002ed76af42e71b89da64b93e2250e78dc548f57/responsibleai-0.9.3.tar.gz
+[2023-06-10 04:38:53] INFO root fetch - processPackages [cdk8s-plus-24]: executing diffoscope
+[2023-06-10 04:38:53] INFO root fetch - processPackages [cdk8s-plus-24]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-24-2.8.8.tar.gz tmp/cdk8s-plus-24-2.8.9.tar.gz --markdown 20230610/c/cdk8s-plus-24/2.8.8-2.8.9/diff.md --exclude *.pyd
+[2023-06-10 04:38:53] INFO root fetch - processPackages [dowg]: Downloading https://files.pythonhosted.org/packages/43/b3/2e4305f17f70f0a884e243dc6457f016de206a9e0e40d45ec45e8cf3ee90/dowg-0.3.1.tar.gz
+[2023-06-10 04:38:53] INFO root fetch - processPackages [Mirrorstr]: Downloading https://files.pythonhosted.org/packages/cb/b3/f07c7238c14202988404cf65b08edb3b66851ed3dee359e11d406a46e77f/Mirrorstr-0.0.6.tar.gz
+[2023-06-10 04:38:53] INFO root fetch - processPackages [odoo-addons-oca-account-closing]: Downloading https://files.pythonhosted.org/packages/b7/fb/a831f16fd5c9b8b5b24e59429d5b7e3ed386f1dba872fe737305d6dc84cb/odoo_addons_oca_account_closing-16.0.20230609.0-py3-none-any.whl
+[2023-06-10 04:38:53] INFO root fetch - processPackages [odoo-addons-oca-account-closing]: executing diffoscope
+[2023-06-10 04:38:53] INFO root fetch - processPackages [odoo-addons-oca-account-closing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_account_closing-16.0.20230224.0-py3-none-any.whl.zip tmp/odoo_addons_oca_account_closing-16.0.20230609.0-py3-none-any.whl.zip --markdown 20230610/o/odoo-addons-oca-account-closing/16.0.20230224.0-16.0.20230609.0/diff.md --exclude *.pyd
+[2023-06-10 04:38:53] INFO root fetch - processPackages [dowg]: executing diffoscope
+[2023-06-10 04:38:53] INFO root fetch - processPackages [dowg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dowg-0.2.2.tar.gz tmp/dowg-0.3.1.tar.gz --markdown 20230610/d/dowg/0.2.2-0.3.1/diff.md --exclude *.pyd
+[2023-06-10 04:38:53] INFO root fetch - processPackages [ovos-tts-plugin-piper]: Downloading https://files.pythonhosted.org/packages/92/46/5e076479cae017131d2bcbf289fb05ff2d924cd305eb3341d35160a2a6c1/ovos_tts_plugin_piper-0.0.1a2-py3-none-any.whl
+[2023-06-10 04:38:53] INFO root fetch - processPackages [quorum-fullnode-py]: Downloading https://files.pythonhosted.org/packages/2b/49/b2b0120987ce60e39e182a78c6ebcba4ffc1dc4951aad88f3ab340f884d4/quorum_fullnode_py-1.3.1.tar.gz
+[2023-06-10 04:38:53] INFO root fetch - processPackages [Mirrorstr]: executing diffoscope
+[2023-06-10 04:38:53] INFO root fetch - processPackages [Mirrorstr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Mirrorstr-0.0.5.tar.gz tmp/Mirrorstr-0.0.6.tar.gz --markdown 20230610/M/Mirrorstr/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-10 04:38:53] INFO root fetch - processPackages [raiwidgets]: Downloading https://files.pythonhosted.org/packages/18/63/a9c5f334a60866586600bab4f625b768f26b89130ea483e25e99cd2958f0/raiwidgets-0.9.4.tar.gz
+[2023-06-10 04:38:53] INFO root fetch - processPackages [responsibleai]: Downloading https://files.pythonhosted.org/packages/4e/f4/9df86f8740f534b0e8b50f8f661ce81b2c35ce2b5b137b491a1dc8697da1/responsibleai-0.9.4.tar.gz
+[2023-06-10 04:38:53] INFO root fetch - processPackages [quorum-fullnode-py]: executing diffoscope
+[2023-06-10 04:38:53] INFO root fetch - processPackages [quorum-fullnode-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quorum_fullnode_py-1.3.0.tar.gz tmp/quorum_fullnode_py-1.3.1.tar.gz --markdown 20230610/q/quorum-fullnode-py/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-06-10 04:38:53] INFO root fetch - processPackages [ovos-tts-plugin-piper]: executing diffoscope
+[2023-06-10 04:38:53] INFO root fetch - processPackages [ovos-tts-plugin-piper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_tts_plugin_piper-0.0.1a1-py3-none-any.whl.zip tmp/ovos_tts_plugin_piper-0.0.1a2-py3-none-any.whl.zip --markdown 20230610/o/ovos-tts-plugin-piper/0.0.1a1-0.0.1a2/diff.md --exclude *.pyd
+[2023-06-10 04:38:53] INFO root fetch - processPackages [responsibleai]: executing diffoscope
+[2023-06-10 04:38:53] INFO root fetch - processPackages [responsibleai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/responsibleai-0.9.3.tar.gz tmp/responsibleai-0.9.4.tar.gz --markdown 20230610/r/responsibleai/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-10 04:38:53] INFO root fetch - processPackages [raiwidgets]: executing diffoscope
+[2023-06-10 04:38:53] INFO root fetch - processPackages [raiwidgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raiwidgets-0.9.3.tar.gz tmp/raiwidgets-0.9.4.tar.gz --markdown 20230610/r/raiwidgets/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-10 04:38:54] INFO root fetch - processPackages [odoo-addons-oca-account-closing]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_account_closing-16.0.20230224.0-py3-none-any.whl.zip]
+[2023-06-10 04:38:54] INFO root fetch - processPackages [odoo-addons-oca-account-closing]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_account_closing-16.0.20230609.0-py3-none-any.whl.zip]
+[2023-06-10 04:38:54] INFO root fetch - processPackages [odoo-addons-oca-account-closing]: Start processing: naif-eop-high-prec
+[2023-06-10 04:38:54] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-account-closing]: success
+[2023-06-10 04:38:54] INFO root fetch - processPackages [smol]: Downloading https://files.pythonhosted.org/packages/84/47/3901542f990a31ad98ff46d9bcfa8fe41317e7a08f741f8db297456bec29/smol-0.4.0.tar.gz
+[2023-06-10 04:38:54] INFO root fetch - processPackages [MALDIpy]: Remove: archive file [/home/abi/fetcher/tmp/MALDIpy-0.0.5.tar.gz]
+[2023-06-10 04:38:54] INFO root fetch - processPackages [MALDIpy]: Remove: archive file [/home/abi/fetcher/tmp/MALDIpy-0.0.6.tar.gz]
+[2023-06-10 04:38:54] INFO root fetch - processPackages [MALDIpy]: Start processing: cdk8s-plus-26
+[2023-06-10 04:38:54] INFO root fetch - main [MainThread]: End processing [MALDIpy]: success
+[2023-06-10 04:38:54] INFO root fetch - processPackages [naif-eop-high-prec]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-10 04:38:54] INFO root fetch - processPackages [cdk8s-plus-26]: New version: [2.4.9] Old Version: [2.4.8]
+[2023-06-10 04:38:54] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/ea/0f/9044bbdb2efd71c50d870fc6fcaa6c3fd51bb323c9c484bdca69334e5a1e/naif_eop_high_prec-2023.6.8.tar.gz
+[2023-06-10 04:38:54] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/6b/c4/ca78f2534fcd6fa938f5b5afdce2bc5d4b2e4aca2bd70a7a76993d55cb1a/cdk8s-plus-26-2.4.8.tar.gz
+[2023-06-10 04:38:54] INFO root fetch - processPackages [dowg]: Remove: archive file [/home/abi/fetcher/tmp/dowg-0.2.2.tar.gz]
+[2023-06-10 04:38:54] INFO root fetch - processPackages [dowg]: Remove: archive file [/home/abi/fetcher/tmp/dowg-0.3.1.tar.gz]
+[2023-06-10 04:38:54] INFO root fetch - main [MainThread]: End processing [dowg]: success
+[2023-06-10 04:38:54] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/20/3d/a3b8eeb4f101c4c0e5eec995ea1c102412a861b81c18eee0d10bad4570fb/cdk8s-plus-26-2.4.9.tar.gz
+[2023-06-10 04:38:54] INFO root fetch - processPackages [cdk8s-plus-26]: executing diffoscope
+[2023-06-10 04:38:54] INFO root fetch - processPackages [cdk8s-plus-26]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-26-2.4.8.tar.gz tmp/cdk8s-plus-26-2.4.9.tar.gz --markdown 20230610/c/cdk8s-plus-26/2.4.8-2.4.9/diff.md --exclude *.pyd
+[2023-06-10 04:38:54] INFO root fetch - processPackages [ovos-tts-plugin-piper]: Remove: archive file [/home/abi/fetcher/tmp/ovos_tts_plugin_piper-0.0.1a1-py3-none-any.whl.zip]
+[2023-06-10 04:38:54] INFO root fetch - processPackages [ovos-tts-plugin-piper]: Remove: archive file [/home/abi/fetcher/tmp/ovos_tts_plugin_piper-0.0.1a2-py3-none-any.whl.zip]
+[2023-06-10 04:38:54] INFO root fetch - main [MainThread]: End processing [ovos-tts-plugin-piper]: success
+[2023-06-10 04:38:54] INFO root fetch - processPackages [Mirrorstr]: Remove: archive file [/home/abi/fetcher/tmp/Mirrorstr-0.0.5.tar.gz]
+[2023-06-10 04:38:54] INFO root fetch - processPackages [Mirrorstr]: Remove: archive file [/home/abi/fetcher/tmp/Mirrorstr-0.0.6.tar.gz]
+[2023-06-10 04:38:54] INFO root fetch - main [MainThread]: End processing [Mirrorstr]: success
+[2023-06-10 04:38:54] INFO root fetch - processPackages [quorum-fullnode-py]: Remove: archive file [/home/abi/fetcher/tmp/quorum_fullnode_py-1.3.0.tar.gz]
+[2023-06-10 04:38:54] INFO root fetch - processPackages [quorum-fullnode-py]: Remove: archive file [/home/abi/fetcher/tmp/quorum_fullnode_py-1.3.1.tar.gz]
+[2023-06-10 04:38:54] INFO root fetch - main [MainThread]: End processing [quorum-fullnode-py]: success
+[2023-06-10 04:38:54] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/86/df/7e6a8b8768d3fb282891cae7859ab48b4ff949a7ed50e8d31090c561c199/naif_eop_high_prec-2023.6.9.tar.gz
+[2023-06-10 04:38:55] INFO root fetch - processPackages [raiwidgets]: Remove: archive file [/home/abi/fetcher/tmp/raiwidgets-0.9.3.tar.gz]
+[2023-06-10 04:38:55] INFO root fetch - processPackages [raiwidgets]: Remove: archive file [/home/abi/fetcher/tmp/raiwidgets-0.9.4.tar.gz]
+[2023-06-10 04:38:55] INFO root fetch - main [MainThread]: End processing [raiwidgets]: success
+[2023-06-10 04:38:55] INFO root fetch - processPackages [responsibleai]: Remove: archive file [/home/abi/fetcher/tmp/responsibleai-0.9.3.tar.gz]
+[2023-06-10 04:38:55] INFO root fetch - processPackages [responsibleai]: Remove: archive file [/home/abi/fetcher/tmp/responsibleai-0.9.4.tar.gz]
+[2023-06-10 04:38:55] INFO root fetch - main [MainThread]: End processing [responsibleai]: success
+[2023-06-10 04:38:55] INFO root fetch - processPackages [naif-eop-high-prec]: executing diffoscope
+[2023-06-10 04:38:55] INFO root fetch - processPackages [naif-eop-high-prec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naif_eop_high_prec-2023.6.8.tar.gz tmp/naif_eop_high_prec-2023.6.9.tar.gz --markdown 20230610/n/naif-eop-high-prec/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-10 04:38:55] INFO root fetch - processPackages [smol]: executing diffoscope
+[2023-06-10 04:38:55] INFO root fetch - processPackages [smol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smol-0.3.1.tar.gz tmp/smol-0.4.0.tar.gz --markdown 20230610/s/smol/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-06-10 04:38:56] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.8.tar.gz]
+[2023-06-10 04:38:56] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.9.tar.gz]
+[2023-06-10 04:38:56] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-26]: success
+[2023-06-10 04:38:57] INFO root fetch - processPackages [cdk8s-plus-24]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-24-2.8.8.tar.gz]
+[2023-06-10 04:38:57] INFO root fetch - processPackages [cdk8s-plus-24]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-24-2.8.9.tar.gz]
+[2023-06-10 04:38:57] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-24]: success
+[2023-06-10 04:38:59] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.6.8.tar.gz]
+[2023-06-10 04:38:59] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.6.9.tar.gz]
+[2023-06-10 04:38:59] INFO root fetch - main [MainThread]: End processing [naif-eop-high-prec]: success
+[2023-06-10 04:39:06] INFO root fetch - processPackages [smol]: Remove: archive file [/home/abi/fetcher/tmp/smol-0.3.1.tar.gz]
+[2023-06-10 04:39:06] INFO root fetch - processPackages [smol]: Remove: archive file [/home/abi/fetcher/tmp/smol-0.4.0.tar.gz]
+[2023-06-10 04:39:06] INFO root fetch - main [MainThread]: End processing [smol]: success
+[2023-06-10 04:39:06] INFO root fetch - main [MainThread]: Store serial: [18448234]
