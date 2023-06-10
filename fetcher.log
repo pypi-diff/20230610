@@ -6677,3 +6677,114 @@ EOFError: EOF read where object expected
 [2023-06-10 04:39:06] INFO root fetch - processPackages [smol]: Remove: archive file [/home/abi/fetcher/tmp/smol-0.4.0.tar.gz]
 [2023-06-10 04:39:06] INFO root fetch - main [MainThread]: End processing [smol]: success
 [2023-06-10 04:39:06] INFO root fetch - main [MainThread]: Store serial: [18448234]
+[2023-06-10 04:44:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18448234]
+[2023-06-10 04:44:21] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-10 04:44:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-account-cash-deposit
+[2023-06-10 04:44:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jittor
+[2023-06-10 04:44:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: MALDIpy
+[2023-06-10 04:44:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bq-estimator
+[2023-06-10 04:44:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: funcStats
+[2023-06-10 04:44:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk8s-plus-25
+[2023-06-10 04:44:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Ret2GPT
+[2023-06-10 04:44:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addon-account-invoice-report-grouped-by-picking
+[2023-06-10 04:44:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: iam-actions
+[2023-06-10 04:44:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-account-invoice-report-grouped-by-picking
+[2023-06-10 04:44:21] INFO root fetch - processPackages [bq-estimator]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-10 04:44:21] INFO root fetch - processPackages [odoo-addon-account-cash-deposit]: New version: [16.0.1.2.0.1] Old Version: [16.0.1.2.0]
+[2023-06-10 04:44:21] INFO root fetch - processPackages [funcStats]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-10 04:44:21] INFO root fetch - processPackages [Ret2GPT]: New version: [1.0.1.3] Old Version: [1.0.1.1]
+[2023-06-10 04:44:21] INFO root fetch - processPackages [odoo-addon-account-invoice-report-grouped-by-picking]: New version: [16.0.1.1.0] Old Version: [16.0.1.0.0.4]
+[2023-06-10 04:44:21] INFO root fetch - processPackages [odoo14-addon-account-invoice-report-grouped-by-picking]: New version: [14.0.1.1.5.dev2] Old Version: [14.0.1.1.5.dev1]
+[2023-06-10 04:44:21] INFO root fetch - processPackages [jittor]: New version: [1.3.8.2] Old Version: [1.3.8.1]
+[2023-06-10 04:44:21] INFO root fetch - processPackages [MALDIpy]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-10 04:44:21] INFO root fetch - processPackages [cdk8s-plus-25]: New version: [2.8.9] Old Version: [2.8.8]
+[2023-06-10 04:44:21] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20230610] Old Version: [1.2.20230609]
+[2023-06-10 04:44:21] INFO root fetch - processPackages [odoo14-addon-account-invoice-report-grouped-by-picking]: Downloading https://files.pythonhosted.org/packages/02/80/8ff4ec403f75f68c8ff2c293f54274c1957274b0100e35b369299a2b2d2e/odoo14_addon_account_invoice_report_grouped_by_picking-14.0.1.1.5.dev1-py3-none-any.whl
+[2023-06-10 04:44:21] INFO root fetch - processPackages [funcStats]: Downloading https://files.pythonhosted.org/packages/de/9c/11f29e123994b39dfbf5e076a2e9a436ffffb46761ceebfdaa0ed95c9223/funcStats-0.0.3.tar.gz
+[2023-06-10 04:44:21] INFO root fetch - processPackages [jittor]: Downloading https://files.pythonhosted.org/packages/dd/18/a993276436fa52b44e6fa2d93a5ff3991ba6a3cce2734fdcd991fd36a78b/jittor-1.3.8.1.tar.gz
+[2023-06-10 04:44:21] INFO root fetch - processPackages [odoo-addon-account-invoice-report-grouped-by-picking]: Downloading https://files.pythonhosted.org/packages/db/31/de0ec87cb39387a10592822811cd2357bf4ce7b29450716acbdf563397c7/odoo_addon_account_invoice_report_grouped_by_picking-16.0.1.0.0.4-py3-none-any.whl
+[2023-06-10 04:44:21] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/19/05/30d98744c3813d678438d1f164dc4db8972da2ff34d40fc7d3a6492d5cc8/cdk8s-plus-25-2.8.8.tar.gz
+[2023-06-10 04:44:21] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/e7/86/03e7a7c36c92c52a10d729c4ee05d8d02caba79ff60e8409258fc7794747/iam_actions-1.2.20230609.tar.gz
+[2023-06-10 04:44:21] INFO root fetch - processPackages [odoo-addon-account-cash-deposit]: Downloading https://files.pythonhosted.org/packages/63/23/3662a336331b4ef35866018dc48cc08d5daac1a04030f675d351cb05568a/odoo_addon_account_cash_deposit-16.0.1.2.0-py3-none-any.whl
+[2023-06-10 04:44:21] INFO root fetch - processPackages [bq-estimator]: Downloading https://files.pythonhosted.org/packages/52/85/df519903e7bf567f1ba18516f8645b16f05d1c4aaec91905c1d8341dece2/bq_estimator-1.0.0.tar.gz
+[2023-06-10 04:44:21] INFO root fetch - processPackages [Ret2GPT]: Downloading https://files.pythonhosted.org/packages/fb/ec/8a279aec5c5cfe9430f8a9135d54956c49df692c4568b202a7ca9a992fcb/Ret2GPT-1.0.1.1.tar.gz
+[2023-06-10 04:44:21] INFO root fetch - processPackages [MALDIpy]: Downloading https://files.pythonhosted.org/packages/cf/45/881d79b32709c895e5980ade2aa3262dc56ce41de75d0b9e71a2538b4d74/MALDIpy-0.1.0.tar.gz
+[2023-06-10 04:44:21] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/79/f6/d6bb21b3e8c3f61cefbc6cfb377c23ba65b57440ab1bd217fa176e0b9df7/cdk8s-plus-25-2.8.9.tar.gz
+[2023-06-10 04:44:21] INFO root fetch - processPackages [jittor]: Downloading https://files.pythonhosted.org/packages/52/7e/8d519a07c25cd116a1330dc6f5f8e1a56c90b593f30617e34e4044c6e826/jittor-1.3.8.2.tar.gz
+[2023-06-10 04:44:21] INFO root fetch - processPackages [funcStats]: Downloading https://files.pythonhosted.org/packages/e4/a0/903b0adddfdb6f24afee811541b3da111b64d12c51e1c10713562cde6b8e/funcStats-0.0.4.tar.gz
+[2023-06-10 04:44:21] INFO root fetch - processPackages [cdk8s-plus-25]: executing diffoscope
+[2023-06-10 04:44:21] INFO root fetch - processPackages [cdk8s-plus-25]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-25-2.8.8.tar.gz tmp/cdk8s-plus-25-2.8.9.tar.gz --markdown 20230610/c/cdk8s-plus-25/2.8.8-2.8.9/diff.md --exclude *.pyd
+[2023-06-10 04:44:21] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/78/1c/d8c13935155cd7e29fb2f7726406eed284d8dbda897db85ef322be2efa82/iam_actions-1.2.20230610.tar.gz
+[2023-06-10 04:44:21] INFO root fetch - processPackages [odoo14-addon-account-invoice-report-grouped-by-picking]: Downloading https://files.pythonhosted.org/packages/e4/be/a0536cc171a15e929c3b38f6b65576a989468d510b1682da42601f5f8212/odoo14_addon_account_invoice_report_grouped_by_picking-14.0.1.1.5.dev2-py3-none-any.whl
+[2023-06-10 04:44:21] INFO root fetch - processPackages [Ret2GPT]: Downloading https://files.pythonhosted.org/packages/c9/c2/c020ea62969e7ee7cbd0941c0906b3f648c4146860ca52ebd51a96318873/Ret2GPT-1.0.1.3.tar.gz
+[2023-06-10 04:44:21] INFO root fetch - processPackages [odoo-addon-account-cash-deposit]: Downloading https://files.pythonhosted.org/packages/a1/e8/06588fa2df47f6d5580bb9334a8f41ccde10f091d71b5a63c11ffc54aec6/odoo_addon_account_cash_deposit-16.0.1.2.0.1-py3-none-any.whl
+[2023-06-10 04:44:21] INFO root fetch - processPackages [funcStats]: executing diffoscope
+[2023-06-10 04:44:21] INFO root fetch - processPackages [funcStats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funcStats-0.0.3.tar.gz tmp/funcStats-0.0.4.tar.gz --markdown 20230610/f/funcStats/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-10 04:44:21] INFO root fetch - processPackages [bq-estimator]: Downloading https://files.pythonhosted.org/packages/67/4c/3ec5bf1ac0b1467f2d41fb14b01e41abcd901cc512fa9d06251367eecbe1/bq_estimator-1.0.1.tar.gz
+[2023-06-10 04:44:21] INFO root fetch - processPackages [MALDIpy]: Downloading https://files.pythonhosted.org/packages/ae/31/714520da488702887f57b4208867d6434d5ac5f6898c40939249dff30a54/MALDIpy-0.1.1.tar.gz
+[2023-06-10 04:44:21] INFO root fetch - processPackages [odoo14-addon-account-invoice-report-grouped-by-picking]: executing diffoscope
+[2023-06-10 04:44:21] INFO root fetch - processPackages [odoo14-addon-account-invoice-report-grouped-by-picking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_invoice_report_grouped_by_picking-14.0.1.1.5.dev1-py3-none-any.whl.zip tmp/odoo14_addon_account_invoice_report_grouped_by_picking-14.0.1.1.5.dev2-py3-none-any.whl.zip --markdown 20230610/o/odoo14-addon-account-invoice-report-grouped-by-picking/14.0.1.1.5.dev1-14.0.1.1.5.dev2/diff.md --exclude *.pyd
+[2023-06-10 04:44:22] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2023-06-10 04:44:22] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20230609.tar.gz tmp/iam_actions-1.2.20230610.tar.gz --markdown 20230610/i/iam-actions/1.2.20230609-1.2.20230610/diff.md --exclude *.pyd
+[2023-06-10 04:44:22] INFO root fetch - processPackages [Ret2GPT]: executing diffoscope
+[2023-06-10 04:44:22] INFO root fetch - processPackages [Ret2GPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Ret2GPT-1.0.1.1.tar.gz tmp/Ret2GPT-1.0.1.3.tar.gz --markdown 20230610/R/Ret2GPT/1.0.1.1-1.0.1.3/diff.md --exclude *.pyd
+[2023-06-10 04:44:22] INFO root fetch - processPackages [odoo-addon-account-cash-deposit]: executing diffoscope
+[2023-06-10 04:44:22] INFO root fetch - processPackages [odoo-addon-account-cash-deposit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_cash_deposit-16.0.1.2.0-py3-none-any.whl.zip tmp/odoo_addon_account_cash_deposit-16.0.1.2.0.1-py3-none-any.whl.zip --markdown 20230610/o/odoo-addon-account-cash-deposit/16.0.1.2.0-16.0.1.2.0.1/diff.md --exclude *.pyd
+[2023-06-10 04:44:22] INFO root fetch - processPackages [odoo-addon-account-invoice-report-grouped-by-picking]: Downloading https://files.pythonhosted.org/packages/ca/25/3cbfb5fd75e936bb5264d283be99fbe4b8a8b5155ababd65cac5054c968d/odoo_addon_account_invoice_report_grouped_by_picking-16.0.1.1.0-py3-none-any.whl
+[2023-06-10 04:44:22] INFO root fetch - processPackages [jittor]: executing diffoscope
+[2023-06-10 04:44:22] INFO root fetch - processPackages [jittor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jittor-1.3.8.1.tar.gz tmp/jittor-1.3.8.2.tar.gz --markdown 20230610/j/jittor/1.3.8.1-1.3.8.2/diff.md --exclude *.pyd
+[2023-06-10 04:44:22] INFO root fetch - processPackages [bq-estimator]: executing diffoscope
+[2023-06-10 04:44:22] INFO root fetch - processPackages [bq-estimator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bq_estimator-1.0.0.tar.gz tmp/bq_estimator-1.0.1.tar.gz --markdown 20230610/b/bq-estimator/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-10 04:44:22] INFO root fetch - processPackages [MALDIpy]: executing diffoscope
+[2023-06-10 04:44:22] INFO root fetch - processPackages [MALDIpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MALDIpy-0.1.0.tar.gz tmp/MALDIpy-0.1.1.tar.gz --markdown 20230610/M/MALDIpy/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-10 04:44:22] INFO root fetch - processPackages [odoo-addon-account-invoice-report-grouped-by-picking]: executing diffoscope
+[2023-06-10 04:44:22] INFO root fetch - processPackages [odoo-addon-account-invoice-report-grouped-by-picking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_invoice_report_grouped_by_picking-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_account_invoice_report_grouped_by_picking-16.0.1.1.0-py3-none-any.whl.zip --markdown 20230610/o/odoo-addon-account-invoice-report-grouped-by-picking/16.0.1.0.0.4-16.0.1.1.0/diff.md --exclude *.pyd
+[2023-06-10 04:44:23] INFO root fetch - processPackages [funcStats]: Remove: archive file [/home/abi/fetcher/tmp/funcStats-0.0.3.tar.gz]
+[2023-06-10 04:44:23] INFO root fetch - processPackages [funcStats]: Remove: archive file [/home/abi/fetcher/tmp/funcStats-0.0.4.tar.gz]
+[2023-06-10 04:44:23] INFO root fetch - processPackages [funcStats]: Start processing: odoo8-addon-account-invoice-line-sort
+[2023-06-10 04:44:23] INFO root fetch - main [MainThread]: End processing [funcStats]: success
+[2023-06-10 04:44:23] INFO root fetch - processPackages [odoo8-addon-account-invoice-line-sort]: New version: [8.0.0.1.1.99.dev8] Old Version: [8.0.0.1.1.99.dev7]
+[2023-06-10 04:44:23] INFO root fetch - processPackages [cdk8s-plus-25]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-25-2.8.8.tar.gz]
+[2023-06-10 04:44:23] INFO root fetch - processPackages [cdk8s-plus-25]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-25-2.8.9.tar.gz]
+[2023-06-10 04:44:23] INFO root fetch - processPackages [cdk8s-plus-25]: Start processing: dcrx-api
+[2023-06-10 04:44:23] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-25]: success
+[2023-06-10 04:44:23] INFO root fetch - processPackages [dcrx-api]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-10 04:44:23] INFO root fetch - processPackages [dcrx-api]: Downloading https://files.pythonhosted.org/packages/cb/06/069b4f79a02a32c44752b948bb8520fd2fde8415708bfe7e13e7c19707ef/dcrx-api-0.1.8.tar.gz
+[2023-06-10 04:44:23] INFO root fetch - processPackages [odoo8-addon-account-invoice-line-sort]: Downloading https://files.pythonhosted.org/packages/cb/2f/b5f443a094e71f5e5d82cda03f68ce6be7bdd2a64e3eb96eda0a452d4915/odoo8_addon_account_invoice_line_sort-8.0.0.1.1.99.dev7-py2-none-any.whl
+[2023-06-10 04:44:23] INFO root fetch - processPackages [bq-estimator]: Remove: archive file [/home/abi/fetcher/tmp/bq_estimator-1.0.0.tar.gz]
+[2023-06-10 04:44:23] INFO root fetch - processPackages [bq-estimator]: Remove: archive file [/home/abi/fetcher/tmp/bq_estimator-1.0.1.tar.gz]
+[2023-06-10 04:44:23] INFO root fetch - main [MainThread]: End processing [bq-estimator]: success
+[2023-06-10 04:44:23] INFO root fetch - processPackages [dcrx-api]: Downloading https://files.pythonhosted.org/packages/ec/35/452b46bfdda475bf32f8e68044754d83404cb99439279f5d5148c341a986/dcrx-api-0.1.9.tar.gz
+[2023-06-10 04:44:23] INFO root fetch - processPackages [Ret2GPT]: Remove: archive file [/home/abi/fetcher/tmp/Ret2GPT-1.0.1.1.tar.gz]
+[2023-06-10 04:44:23] INFO root fetch - processPackages [Ret2GPT]: Remove: archive file [/home/abi/fetcher/tmp/Ret2GPT-1.0.1.3.tar.gz]
+[2023-06-10 04:44:23] INFO root fetch - main [MainThread]: End processing [Ret2GPT]: success
+[2023-06-10 04:44:23] INFO root fetch - processPackages [dcrx-api]: executing diffoscope
+[2023-06-10 04:44:23] INFO root fetch - processPackages [dcrx-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcrx-api-0.1.8.tar.gz tmp/dcrx-api-0.1.9.tar.gz --markdown 20230610/d/dcrx-api/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-10 04:44:23] INFO root fetch - processPackages [odoo14-addon-account-invoice-report-grouped-by-picking]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_invoice_report_grouped_by_picking-14.0.1.1.5.dev1-py3-none-any.whl.zip]
+[2023-06-10 04:44:23] INFO root fetch - processPackages [odoo14-addon-account-invoice-report-grouped-by-picking]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_invoice_report_grouped_by_picking-14.0.1.1.5.dev2-py3-none-any.whl.zip]
+[2023-06-10 04:44:23] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-invoice-report-grouped-by-picking]: success
+[2023-06-10 04:44:23] INFO root fetch - processPackages [odoo-addon-account-invoice-report-grouped-by-picking]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_invoice_report_grouped_by_picking-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-06-10 04:44:23] INFO root fetch - processPackages [odoo-addon-account-invoice-report-grouped-by-picking]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_invoice_report_grouped_by_picking-16.0.1.1.0-py3-none-any.whl.zip]
+[2023-06-10 04:44:23] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-invoice-report-grouped-by-picking]: success
+[2023-06-10 04:44:23] INFO root fetch - processPackages [odoo-addon-account-cash-deposit]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_cash_deposit-16.0.1.2.0-py3-none-any.whl.zip]
+[2023-06-10 04:44:23] INFO root fetch - processPackages [odoo-addon-account-cash-deposit]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_cash_deposit-16.0.1.2.0.1-py3-none-any.whl.zip]
+[2023-06-10 04:44:23] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-cash-deposit]: success
+[2023-06-10 04:44:23] INFO root fetch - processPackages [odoo8-addon-account-invoice-line-sort]: Downloading https://files.pythonhosted.org/packages/47/38/b6f0f0d80f9f2e69d905d4e520495a3d96d2699d282359db65d44fa6a3a2/odoo8_addon_account_invoice_line_sort-8.0.0.1.1.99.dev8-py2-none-any.whl
+[2023-06-10 04:44:23] INFO root fetch - processPackages [MALDIpy]: Remove: archive file [/home/abi/fetcher/tmp/MALDIpy-0.1.0.tar.gz]
+[2023-06-10 04:44:23] INFO root fetch - processPackages [MALDIpy]: Remove: archive file [/home/abi/fetcher/tmp/MALDIpy-0.1.1.tar.gz]
+[2023-06-10 04:44:23] INFO root fetch - main [MainThread]: End processing [MALDIpy]: success
+[2023-06-10 04:44:24] INFO root fetch - processPackages [odoo8-addon-account-invoice-line-sort]: executing diffoscope
+[2023-06-10 04:44:24] INFO root fetch - processPackages [odoo8-addon-account-invoice-line-sort]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_account_invoice_line_sort-8.0.0.1.1.99.dev7-py2-none-any.whl.zip tmp/odoo8_addon_account_invoice_line_sort-8.0.0.1.1.99.dev8-py2-none-any.whl.zip --markdown 20230610/o/odoo8-addon-account-invoice-line-sort/8.0.0.1.1.99.dev7-8.0.0.1.1.99.dev8/diff.md --exclude *.pyd
+[2023-06-10 04:44:24] INFO root fetch - processPackages [dcrx-api]: Remove: archive file [/home/abi/fetcher/tmp/dcrx-api-0.1.8.tar.gz]
+[2023-06-10 04:44:24] INFO root fetch - processPackages [dcrx-api]: Remove: archive file [/home/abi/fetcher/tmp/dcrx-api-0.1.9.tar.gz]
+[2023-06-10 04:44:24] INFO root fetch - main [MainThread]: End processing [dcrx-api]: success
+[2023-06-10 04:44:25] INFO root fetch - processPackages [odoo8-addon-account-invoice-line-sort]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_account_invoice_line_sort-8.0.0.1.1.99.dev7-py2-none-any.whl.zip]
+[2023-06-10 04:44:25] INFO root fetch - processPackages [odoo8-addon-account-invoice-line-sort]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_account_invoice_line_sort-8.0.0.1.1.99.dev8-py2-none-any.whl.zip]
+[2023-06-10 04:44:25] INFO root fetch - main [MainThread]: End processing [odoo8-addon-account-invoice-line-sort]: success
+[2023-06-10 04:44:29] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230609.tar.gz]
+[2023-06-10 04:44:29] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230610.tar.gz]
+[2023-06-10 04:44:29] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2023-06-10 04:44:30] INFO root fetch - processPackages [jittor]: Remove: archive file [/home/abi/fetcher/tmp/jittor-1.3.8.1.tar.gz]
+[2023-06-10 04:44:30] INFO root fetch - processPackages [jittor]: Remove: archive file [/home/abi/fetcher/tmp/jittor-1.3.8.2.tar.gz]
+[2023-06-10 04:44:30] INFO root fetch - main [MainThread]: End processing [jittor]: success
+[2023-06-10 04:44:30] INFO root fetch - main [MainThread]: Store serial: [18448267]
