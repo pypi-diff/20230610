@@ -6451,3 +6451,43 @@ EOFError: EOF read where object expected
 [2023-06-10 04:22:29] INFO root fetch - processPackages [neon-phal-plugin-switches]: Remove: archive file [/home/abi/fetcher/tmp/neon_phal_plugin_switches-0.0.4a0-py3-none-any.whl.zip]
 [2023-06-10 04:22:29] INFO root fetch - main [MainThread]: End processing [neon-phal-plugin-switches]: success
 [2023-06-10 04:22:29] INFO root fetch - main [MainThread]: Store serial: [18448120]
+[2023-06-10 04:27:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18448120]
+[2023-06-10 04:27:38] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-10 04:27:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dcrx-api
+[2023-06-10 04:27:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MALDIpy
+[2023-06-10 04:27:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: irisml-tasks-fiftyone
+[2023-06-10 04:27:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kor-re
+[2023-06-10 04:27:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: MALDIpy
+[2023-06-10 04:27:38] INFO root fetch - processPackages [dcrx-api]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-10 04:27:38] INFO root fetch - processPackages [irisml-tasks-fiftyone]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-06-10 04:27:38] INFO root fetch - processPackages [MALDIpy]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-10 04:27:38] WARNING root fetch - processPackages [kor-re]: Skipping, unable to determine old version
+[2023-06-10 04:27:38] INFO root fetch - main [MainThread]: End processing [kor-re] error
+[2023-06-10 04:27:38] INFO root fetch - processPackages [MALDIpy]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-10 04:27:38] INFO root fetch - processPackages [dcrx-api]: Downloading https://files.pythonhosted.org/packages/cb/06/069b4f79a02a32c44752b948bb8520fd2fde8415708bfe7e13e7c19707ef/dcrx-api-0.1.8.tar.gz
+[2023-06-10 04:27:38] INFO root fetch - processPackages [irisml-tasks-fiftyone]: Downloading https://files.pythonhosted.org/packages/4a/c3/34e273a6553c9921f545b7248252907d41328fc84f2e429e557ea869fc55/irisml-tasks-fiftyone-0.0.0.tar.gz
+[2023-06-10 04:27:38] INFO root fetch - processPackages [MALDIpy]: Downloading https://files.pythonhosted.org/packages/7e/a2/62a6c095977f6e27d2fbe937f06c605a7edf9857e71b9d8ef7f32319a3dd/MALDIpy-0.0.5.tar.gz
+[2023-06-10 04:27:38] INFO root fetch - processPackages [MALDIpy]: Downloading https://files.pythonhosted.org/packages/7e/a2/62a6c095977f6e27d2fbe937f06c605a7edf9857e71b9d8ef7f32319a3dd/MALDIpy-0.0.5.tar.gz
+[2023-06-10 04:27:38] INFO root fetch - processPackages [dcrx-api]: Downloading https://files.pythonhosted.org/packages/ec/35/452b46bfdda475bf32f8e68044754d83404cb99439279f5d5148c341a986/dcrx-api-0.1.9.tar.gz
+[2023-06-10 04:27:38] INFO root fetch - processPackages [irisml-tasks-fiftyone]: Downloading https://files.pythonhosted.org/packages/b3/51/6b2ea165d9b7765e129bf4855c49a91a04c6c4e053fdbed1e75a014134d1/irisml-tasks-fiftyone-0.0.1.tar.gz
+[2023-06-10 04:27:38] INFO root fetch - processPackages [MALDIpy]: Downloading https://files.pythonhosted.org/packages/24/2e/da4c6b6b8a73da73a29a0fad77ed5409a6e7ef5c665ad1f9d296c8f8ae37/MALDIpy-0.0.6.tar.gz
+[2023-06-10 04:27:38] INFO root fetch - processPackages [MALDIpy]: Downloading https://files.pythonhosted.org/packages/24/2e/da4c6b6b8a73da73a29a0fad77ed5409a6e7ef5c665ad1f9d296c8f8ae37/MALDIpy-0.0.6.tar.gz
+[2023-06-10 04:27:38] INFO root fetch - processPackages [dcrx-api]: executing diffoscope
+[2023-06-10 04:27:38] INFO root fetch - processPackages [dcrx-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcrx-api-0.1.8.tar.gz tmp/dcrx-api-0.1.9.tar.gz --markdown 20230610/d/dcrx-api/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-10 04:27:38] INFO root fetch - processPackages [irisml-tasks-fiftyone]: executing diffoscope
+[2023-06-10 04:27:38] INFO root fetch - processPackages [irisml-tasks-fiftyone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irisml-tasks-fiftyone-0.0.0.tar.gz tmp/irisml-tasks-fiftyone-0.0.1.tar.gz --markdown 20230610/i/irisml-tasks-fiftyone/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-06-10 04:27:38] INFO root fetch - processPackages [MALDIpy]: executing diffoscope
+[2023-06-10 04:27:38] INFO root fetch - processPackages [MALDIpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MALDIpy-0.0.5.tar.gz tmp/MALDIpy-0.0.6.tar.gz --markdown 20230610/M/MALDIpy/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-10 04:27:39] INFO root fetch - processPackages [MALDIpy]: executing diffoscope
+[2023-06-10 04:27:39] INFO root fetch - processPackages [MALDIpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MALDIpy-0.0.5.tar.gz tmp/MALDIpy-0.0.6.tar.gz --markdown 20230610/M/MALDIpy/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-10 04:27:40] INFO root fetch - processPackages [irisml-tasks-fiftyone]: Remove: archive file [/home/abi/fetcher/tmp/irisml-tasks-fiftyone-0.0.0.tar.gz]
+[2023-06-10 04:27:40] INFO root fetch - processPackages [irisml-tasks-fiftyone]: Remove: archive file [/home/abi/fetcher/tmp/irisml-tasks-fiftyone-0.0.1.tar.gz]
+[2023-06-10 04:27:40] INFO root fetch - main [MainThread]: End processing [irisml-tasks-fiftyone]: success
+[2023-06-10 04:27:40] INFO root fetch - processPackages [MALDIpy]: Remove: archive file [/home/abi/fetcher/tmp/MALDIpy-0.0.5.tar.gz]
+[2023-06-10 04:27:40] INFO root fetch - processPackages [MALDIpy]: Remove: archive file [/home/abi/fetcher/tmp/MALDIpy-0.0.6.tar.gz]
+[2023-06-10 04:27:40] INFO root fetch - main [MainThread]: End processing [MALDIpy]: success
+[2023-06-10 04:27:40] INFO root fetch - processPackages [dcrx-api]: Remove: archive file [/home/abi/fetcher/tmp/dcrx-api-0.1.8.tar.gz]
+[2023-06-10 04:27:40] INFO root fetch - processPackages [dcrx-api]: Remove: archive file [/home/abi/fetcher/tmp/dcrx-api-0.1.9.tar.gz]
+[2023-06-10 04:27:40] INFO root fetch - main [MainThread]: End processing [dcrx-api]: success
+[2023-06-10 04:27:40] INFO root fetch - main [MainThread]: End processing [MALDIpy]: success
+[2023-06-10 04:27:40] INFO root fetch - main [MainThread]: Store serial: [18448139]
