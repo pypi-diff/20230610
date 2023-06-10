@@ -6391,3 +6391,42 @@ EOFError: EOF read where object expected
 [2023-06-10 04:12:07] INFO root fetch - processPackages [netron]: Remove: archive file [/home/abi/fetcher/tmp/netron-6.9.5-py3-none-any.whl.zip]
 [2023-06-10 04:12:07] INFO root fetch - main [MainThread]: End processing [netron]: success
 [2023-06-10 04:12:07] INFO root fetch - main [MainThread]: Store serial: [18448097]
+[2023-06-10 04:17:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18448097]
+[2023-06-10 04:17:16] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-10 04:17:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ovos-tts-plugin-mimic3-server
+[2023-06-10 04:17:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ovos-PHAL-plugin-system
+[2023-06-10 04:17:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ovos-PHAL-plugin-wifi-setup
+[2023-06-10 04:17:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dcrx-api
+[2023-06-10 04:17:16] INFO root fetch - processPackages [ovos-PHAL-plugin-system]: New version: [0.0.4a3] Old Version: [0.0.4a2]
+[2023-06-10 04:17:16] INFO root fetch - processPackages [ovos-tts-plugin-mimic3-server]: New version: [0.0.2a2] Old Version: [0.0.2a1]
+[2023-06-10 04:17:16] INFO root fetch - processPackages [ovos-PHAL-plugin-wifi-setup]: New version: [1.1.1a1] Old Version: [1.1.0a1]
+[2023-06-10 04:17:16] INFO root fetch - processPackages [dcrx-api]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-10 04:17:16] INFO root fetch - processPackages [dcrx-api]: Downloading https://files.pythonhosted.org/packages/31/c0/bd726863c5585b624e3c219c69cd0901c22bb0d56effa9ec21d7ab874c99/dcrx-api-0.1.7.tar.gz
+[2023-06-10 04:17:16] INFO root fetch - processPackages [ovos-PHAL-plugin-system]: Downloading https://files.pythonhosted.org/packages/59/d4/a15f14582b8fc4bfd1a5be9affec88ab8d4004dadb97f7751c3da235d269/ovos-PHAL-plugin-system-0.0.4a2.tar.gz
+[2023-06-10 04:17:16] INFO root fetch - processPackages [ovos-PHAL-plugin-wifi-setup]: Downloading https://files.pythonhosted.org/packages/b7/8e/c8291e283d3a7be9802dcba1215e469f880790074520ea066ac74a31728c/ovos-PHAL-plugin-wifi-setup-1.1.0a1.tar.gz
+[2023-06-10 04:17:16] INFO root fetch - processPackages [ovos-tts-plugin-mimic3-server]: Downloading https://files.pythonhosted.org/packages/1d/62/778e5b5d1635a5ad7d4c5fbd8e36ee6e89501c91d0bdc430042f5e03e6e0/ovos_tts_plugin_mimic3_server-0.0.2a1-py3-none-any.whl
+[2023-06-10 04:17:16] INFO root fetch - processPackages [dcrx-api]: Downloading https://files.pythonhosted.org/packages/cb/06/069b4f79a02a32c44752b948bb8520fd2fde8415708bfe7e13e7c19707ef/dcrx-api-0.1.8.tar.gz
+[2023-06-10 04:17:16] INFO root fetch - processPackages [dcrx-api]: executing diffoscope
+[2023-06-10 04:17:16] INFO root fetch - processPackages [dcrx-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcrx-api-0.1.7.tar.gz tmp/dcrx-api-0.1.8.tar.gz --markdown 20230610/d/dcrx-api/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-10 04:17:16] INFO root fetch - processPackages [ovos-PHAL-plugin-system]: Downloading https://files.pythonhosted.org/packages/be/5c/4498befcedbd04458a9871469b76e2731f7ef213d4adbd1b80ff57c05c08/ovos-PHAL-plugin-system-0.0.4a3.tar.gz
+[2023-06-10 04:17:16] INFO root fetch - processPackages [ovos-PHAL-plugin-wifi-setup]: Downloading https://files.pythonhosted.org/packages/5a/28/6e077557f3e1b68d406d22a5a9b62af64580add21ce04b91e33b74f464ce/ovos-PHAL-plugin-wifi-setup-1.1.1a1.tar.gz
+[2023-06-10 04:17:16] INFO root fetch - processPackages [ovos-tts-plugin-mimic3-server]: Downloading https://files.pythonhosted.org/packages/f8/86/9b16db6755ab0421a773c00f6b83506fb27d62113456c6e9bb531b59ad2d/ovos_tts_plugin_mimic3_server-0.0.2a2-py3-none-any.whl
+[2023-06-10 04:17:16] INFO root fetch - processPackages [ovos-PHAL-plugin-system]: executing diffoscope
+[2023-06-10 04:17:16] INFO root fetch - processPackages [ovos-PHAL-plugin-system]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos-PHAL-plugin-system-0.0.4a2.tar.gz tmp/ovos-PHAL-plugin-system-0.0.4a3.tar.gz --markdown 20230610/o/ovos-PHAL-plugin-system/0.0.4a2-0.0.4a3/diff.md --exclude *.pyd
+[2023-06-10 04:17:16] INFO root fetch - processPackages [ovos-PHAL-plugin-wifi-setup]: executing diffoscope
+[2023-06-10 04:17:16] INFO root fetch - processPackages [ovos-PHAL-plugin-wifi-setup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos-PHAL-plugin-wifi-setup-1.1.0a1.tar.gz tmp/ovos-PHAL-plugin-wifi-setup-1.1.1a1.tar.gz --markdown 20230610/o/ovos-PHAL-plugin-wifi-setup/1.1.0a1-1.1.1a1/diff.md --exclude *.pyd
+[2023-06-10 04:17:16] INFO root fetch - processPackages [ovos-tts-plugin-mimic3-server]: executing diffoscope
+[2023-06-10 04:17:16] INFO root fetch - processPackages [ovos-tts-plugin-mimic3-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_tts_plugin_mimic3_server-0.0.2a1-py3-none-any.whl.zip tmp/ovos_tts_plugin_mimic3_server-0.0.2a2-py3-none-any.whl.zip --markdown 20230610/o/ovos-tts-plugin-mimic3-server/0.0.2a1-0.0.2a2/diff.md --exclude *.pyd
+[2023-06-10 04:17:17] INFO root fetch - processPackages [dcrx-api]: Remove: archive file [/home/abi/fetcher/tmp/dcrx-api-0.1.7.tar.gz]
+[2023-06-10 04:17:17] INFO root fetch - processPackages [dcrx-api]: Remove: archive file [/home/abi/fetcher/tmp/dcrx-api-0.1.8.tar.gz]
+[2023-06-10 04:17:17] INFO root fetch - main [MainThread]: End processing [dcrx-api]: success
+[2023-06-10 04:17:17] INFO root fetch - processPackages [ovos-PHAL-plugin-system]: Remove: archive file [/home/abi/fetcher/tmp/ovos-PHAL-plugin-system-0.0.4a2.tar.gz]
+[2023-06-10 04:17:17] INFO root fetch - processPackages [ovos-PHAL-plugin-system]: Remove: archive file [/home/abi/fetcher/tmp/ovos-PHAL-plugin-system-0.0.4a3.tar.gz]
+[2023-06-10 04:17:17] INFO root fetch - main [MainThread]: End processing [ovos-PHAL-plugin-system]: success
+[2023-06-10 04:17:17] INFO root fetch - processPackages [ovos-tts-plugin-mimic3-server]: Remove: archive file [/home/abi/fetcher/tmp/ovos_tts_plugin_mimic3_server-0.0.2a1-py3-none-any.whl.zip]
+[2023-06-10 04:17:17] INFO root fetch - processPackages [ovos-tts-plugin-mimic3-server]: Remove: archive file [/home/abi/fetcher/tmp/ovos_tts_plugin_mimic3_server-0.0.2a2-py3-none-any.whl.zip]
+[2023-06-10 04:17:17] INFO root fetch - main [MainThread]: End processing [ovos-tts-plugin-mimic3-server]: success
+[2023-06-10 04:17:18] INFO root fetch - processPackages [ovos-PHAL-plugin-wifi-setup]: Remove: archive file [/home/abi/fetcher/tmp/ovos-PHAL-plugin-wifi-setup-1.1.0a1.tar.gz]
+[2023-06-10 04:17:18] INFO root fetch - processPackages [ovos-PHAL-plugin-wifi-setup]: Remove: archive file [/home/abi/fetcher/tmp/ovos-PHAL-plugin-wifi-setup-1.1.1a1.tar.gz]
+[2023-06-10 04:17:18] INFO root fetch - main [MainThread]: End processing [ovos-PHAL-plugin-wifi-setup]: success
+[2023-06-10 04:17:18] INFO root fetch - main [MainThread]: Store serial: [18448115]
