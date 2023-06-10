@@ -10028,3 +10028,36 @@ EOFError: EOF read where object expected
 [2023-06-10 11:25:20] INFO root fetch - processPackages [xchembku]: Remove: archive file [/home/abi/fetcher/tmp/xchembku-1.9.1.tar.gz]
 [2023-06-10 11:25:20] INFO root fetch - main [MainThread]: End processing [xchembku]: success
 [2023-06-10 11:25:20] INFO root fetch - main [MainThread]: Store serial: [18449779]
+[2023-06-10 11:30:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18449779]
+[2023-06-10 11:30:30] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-10 11:30:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: getmodelspec
+[2023-06-10 11:30:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: setup2upypackage
+[2023-06-10 11:30:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pymc-experimental
+[2023-06-10 11:30:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: evilHunter
+[2023-06-10 11:30:30] WARNING root fetch - processPackages [getmodelspec]: Skipping, unable to determine old version
+[2023-06-10 11:30:30] INFO root fetch - main [MainThread]: End processing [getmodelspec] error
+[2023-06-10 11:30:30] INFO root fetch - processPackages [pymc-experimental]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-10 11:30:30] INFO root fetch - processPackages [setup2upypackage]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-06-10 11:30:30] INFO root fetch - processPackages [evilHunter]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-10 11:30:30] INFO root fetch - processPackages [evilHunter]: Downloading https://files.pythonhosted.org/packages/3c/19/8f973c5392263a362c552db69d3fd6b89c0635f1161627f7d7214f54b3dc/evilHunter-0.1.5.tar.gz
+[2023-06-10 11:30:30] INFO root fetch - processPackages [pymc-experimental]: Downloading https://files.pythonhosted.org/packages/09/21/a131ba96324305d618f40d238a76dc901aa5300736c8d748bdfbbb989cd6/pymc-experimental-0.0.6.tar.gz
+[2023-06-10 11:30:30] INFO root fetch - processPackages [setup2upypackage]: Downloading https://files.pythonhosted.org/packages/93/da/752c656e0cc2ae0c641ad131c688a95d2c59a68ca30c7a37bfbd76a40d82/setup2upypackage-0.3.0.tar.gz
+[2023-06-10 11:30:30] INFO root fetch - processPackages [evilHunter]: Downloading https://files.pythonhosted.org/packages/a7/5e/4efa19d74ac48ec99b164f00cdea5f408395226160725e43797aa04a94fd/evilHunter-0.1.6.tar.gz
+[2023-06-10 11:30:31] INFO root fetch - processPackages [setup2upypackage]: Downloading https://files.pythonhosted.org/packages/23/e5/2c26623e1d64835e478963dbf35b79ff2d76e1c574039bc70a3c5d47fe4d/setup2upypackage-0.4.0.tar.gz
+[2023-06-10 11:30:31] INFO root fetch - processPackages [pymc-experimental]: Downloading https://files.pythonhosted.org/packages/1f/a1/60de60079d4104146fcf4b45160ed831cbbc11cac13ca73472b9951e21f8/pymc-experimental-0.0.7.tar.gz
+[2023-06-10 11:30:31] INFO root fetch - processPackages [evilHunter]: executing diffoscope
+[2023-06-10 11:30:31] INFO root fetch - processPackages [evilHunter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evilHunter-0.1.5.tar.gz tmp/evilHunter-0.1.6.tar.gz --markdown 20230610/e/evilHunter/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-10 11:30:31] INFO root fetch - processPackages [setup2upypackage]: executing diffoscope
+[2023-06-10 11:30:31] INFO root fetch - processPackages [setup2upypackage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/setup2upypackage-0.3.0.tar.gz tmp/setup2upypackage-0.4.0.tar.gz --markdown 20230610/s/setup2upypackage/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-06-10 11:30:31] INFO root fetch - processPackages [pymc-experimental]: executing diffoscope
+[2023-06-10 11:30:31] INFO root fetch - processPackages [pymc-experimental]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymc-experimental-0.0.6.tar.gz tmp/pymc-experimental-0.0.7.tar.gz --markdown 20230610/p/pymc-experimental/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-10 11:30:32] INFO root fetch - processPackages [evilHunter]: Remove: archive file [/home/abi/fetcher/tmp/evilHunter-0.1.5.tar.gz]
+[2023-06-10 11:30:32] INFO root fetch - processPackages [evilHunter]: Remove: archive file [/home/abi/fetcher/tmp/evilHunter-0.1.6.tar.gz]
+[2023-06-10 11:30:32] INFO root fetch - main [MainThread]: End processing [evilHunter]: success
+[2023-06-10 11:30:33] INFO root fetch - processPackages [pymc-experimental]: Remove: archive file [/home/abi/fetcher/tmp/pymc-experimental-0.0.6.tar.gz]
+[2023-06-10 11:30:33] INFO root fetch - processPackages [pymc-experimental]: Remove: archive file [/home/abi/fetcher/tmp/pymc-experimental-0.0.7.tar.gz]
+[2023-06-10 11:30:33] INFO root fetch - main [MainThread]: End processing [pymc-experimental]: success
+[2023-06-10 11:31:25] INFO root fetch - processPackages [setup2upypackage]: Remove: archive file [/home/abi/fetcher/tmp/setup2upypackage-0.3.0.tar.gz]
+[2023-06-10 11:31:25] INFO root fetch - processPackages [setup2upypackage]: Remove: archive file [/home/abi/fetcher/tmp/setup2upypackage-0.4.0.tar.gz]
+[2023-06-10 11:31:25] INFO root fetch - main [MainThread]: End processing [setup2upypackage]: success
+[2023-06-10 11:31:25] INFO root fetch - main [MainThread]: Store serial: [18449795]
