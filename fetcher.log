@@ -15875,3 +15875,33 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-10 19:35:18] INFO root fetch - processPackages [hrin-msb]: Remove: archive file [/home/abi/fetcher/tmp/hrin_msb-0.2.9.tar.gz]
 [2023-06-10 19:35:18] INFO root fetch - main [MainThread]: End processing [hrin-msb]: success
 [2023-06-10 19:35:18] INFO root fetch - main [MainThread]: Store serial: [18452681]
+[2023-06-10 19:40:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18452681]
+[2023-06-10 19:40:27] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-10 19:40:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: css-inline
+[2023-06-10 19:40:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: faker-cli
+[2023-06-10 19:40:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: truss
+[2023-06-10 19:40:27] INFO root fetch - processPackages [faker-cli]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-10 19:40:27] INFO root fetch - processPackages [css-inline]: New version: [0.9.0] Old Version: [0.8.7]
+[2023-06-10 19:40:28] INFO root fetch - processPackages [truss]: New version: [0.4.8rc8] Old Version: [0.4.8rc7]
+[2023-06-10 19:40:28] INFO root fetch - processPackages [faker-cli]: Downloading https://files.pythonhosted.org/packages/ba/c4/a5085b3c1d5445f861d962f9aa1192073893352cdd23772a4a81333f8768/faker_cli-0.2.0.tar.gz
+[2023-06-10 19:40:28] INFO root fetch - processPackages [css-inline]: Downloading https://files.pythonhosted.org/packages/53/4d/511e3155bf8f863d129e8d1006cc01f26ecfb36b2622dd32551c654c5f66/css_inline-0.8.7.tar.gz
+[2023-06-10 19:40:28] INFO root fetch - processPackages [truss]: Downloading https://files.pythonhosted.org/packages/68/1b/5c9cffb5fa8d7c2dc429b84e4c0ed1c4dcde8d43a3df2693be94adff27c0/truss-0.4.8rc7.tar.gz
+[2023-06-10 19:40:28] INFO root fetch - processPackages [faker-cli]: Downloading https://files.pythonhosted.org/packages/ef/f9/ac3f94f822f4333e137d7a3165b803c5df175ca5955edd476c5f4bd2a7e5/faker_cli-0.3.0.tar.gz
+[2023-06-10 19:40:28] INFO root fetch - processPackages [faker-cli]: executing diffoscope
+[2023-06-10 19:40:28] INFO root fetch - processPackages [faker-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faker_cli-0.2.0.tar.gz tmp/faker_cli-0.3.0.tar.gz --markdown 20230610/f/faker-cli/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-10 19:40:28] INFO root fetch - processPackages [css-inline]: Downloading https://files.pythonhosted.org/packages/b6/8a/f5f42b7f417e1a8c1e5764caecc6d9f03a4da93449225918f9cf4aa5f590/css_inline-0.9.0.tar.gz
+[2023-06-10 19:40:28] INFO root fetch - processPackages [truss]: Downloading https://files.pythonhosted.org/packages/39/8f/773ad669602a2194e784abb29cef0af2082ca366a38b8a43ca8a7f5e0565/truss-0.4.8rc8.tar.gz
+[2023-06-10 19:40:28] INFO root fetch - processPackages [css-inline]: executing diffoscope
+[2023-06-10 19:40:28] INFO root fetch - processPackages [css-inline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/css_inline-0.8.7.tar.gz tmp/css_inline-0.9.0.tar.gz --markdown 20230610/c/css-inline/0.8.7-0.9.0/diff.md --exclude *.pyd
+[2023-06-10 19:40:28] INFO root fetch - processPackages [truss]: executing diffoscope
+[2023-06-10 19:40:28] INFO root fetch - processPackages [truss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/truss-0.4.8rc7.tar.gz tmp/truss-0.4.8rc8.tar.gz --markdown 20230610/t/truss/0.4.8rc7-0.4.8rc8/diff.md --exclude *.pyd
+[2023-06-10 19:40:29] INFO root fetch - processPackages [faker-cli]: Remove: archive file [/home/abi/fetcher/tmp/faker_cli-0.2.0.tar.gz]
+[2023-06-10 19:40:29] INFO root fetch - processPackages [faker-cli]: Remove: archive file [/home/abi/fetcher/tmp/faker_cli-0.3.0.tar.gz]
+[2023-06-10 19:40:29] INFO root fetch - main [MainThread]: End processing [faker-cli]: success
+[2023-06-10 19:40:29] INFO root fetch - processPackages [css-inline]: Remove: archive file [/home/abi/fetcher/tmp/css_inline-0.8.7.tar.gz]
+[2023-06-10 19:40:29] INFO root fetch - processPackages [css-inline]: Remove: archive file [/home/abi/fetcher/tmp/css_inline-0.9.0.tar.gz]
+[2023-06-10 19:40:29] INFO root fetch - main [MainThread]: End processing [css-inline]: success
+[2023-06-10 19:40:30] INFO root fetch - processPackages [truss]: Remove: archive file [/home/abi/fetcher/tmp/truss-0.4.8rc7.tar.gz]
+[2023-06-10 19:40:30] INFO root fetch - processPackages [truss]: Remove: archive file [/home/abi/fetcher/tmp/truss-0.4.8rc8.tar.gz]
+[2023-06-10 19:40:30] INFO root fetch - main [MainThread]: End processing [truss]: success
+[2023-06-10 19:40:30] INFO root fetch - main [MainThread]: Store serial: [18452713]
