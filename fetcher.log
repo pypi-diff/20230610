@@ -12643,3 +12643,186 @@ EOFError: EOF read where object expected
 [2023-06-10 15:36:34] INFO root fetch - processPackages [nonebot-plugin-crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_crazy_thursday-0.2.7-py3-none-any.whl.zip]
 [2023-06-10 15:36:34] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-crazy-thursday]: success
 [2023-06-10 15:36:34] INFO root fetch - main [MainThread]: Store serial: [18450974]
+[2023-06-10 15:41:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18450974]
+[2023-06-10 15:41:43] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-10 15:41:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: osrsreboxed
+[2023-06-10 15:41:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Shark-sac-Korean-editor
+[2023-06-10 15:41:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jwtlib
+[2023-06-10 15:41:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: panml
+[2023-06-10 15:41:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Shark-sac-Korean-editor
+[2023-06-10 15:41:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: llm-generation-server
+[2023-06-10 15:41:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: docker-tidy
+[2023-06-10 15:41:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pypaz
+[2023-06-10 15:41:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lightweight-charts
+[2023-06-10 15:41:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: granny-pliers
+[2023-06-10 15:41:43] INFO root fetch - processPackages [Shark-sac-Korean-editor]: New version: [1.2.5] Old Version: [1.2.1]
+[2023-06-10 15:41:43] INFO root fetch - processPackages [osrsreboxed]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-06-10 15:41:43] INFO root fetch - processPackages [jwtlib]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-10 15:41:43] INFO root fetch - processPackages [Shark-sac-Korean-editor]: New version: [1.2.5] Old Version: [1.2.1]
+[2023-06-10 15:41:43] INFO root fetch - processPackages [llm-generation-server]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-10 15:41:43] INFO root fetch - processPackages [lightweight-charts]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-10 15:41:43] INFO root fetch - processPackages [panml]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-10 15:41:43] INFO root fetch - processPackages [granny-pliers]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-10 15:41:43] INFO root fetch - processPackages [pypaz]: New version: [0.2.4] Old Version: [0.1.9]
+[2023-06-10 15:41:43] INFO root fetch - processPackages [docker-tidy]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-10 15:41:43] INFO root fetch - processPackages [Shark-sac-Korean-editor]: Downloading https://files.pythonhosted.org/packages/ae/f6/ddfae429791fba5ebd80a0f043743358fc8d9d6309cf4b9698a819887a67/Shark%20sac%20Korean%20editor-1.2.1.tar.gz
+[2023-06-10 15:41:43] INFO root fetch - processPackages [llm-generation-server]: Downloading https://files.pythonhosted.org/packages/d7/79/d2a5201af9976eb13abece0c1ddc942db3e35983e6c94707fd1e6b2788d8/llm_generation_server-0.0.8.tar.gz
+[2023-06-10 15:41:43] INFO root fetch - processPackages [panml]: Downloading https://files.pythonhosted.org/packages/2e/05/0bcd97aba46ea7f64c6fa78281bbf5135434e8d08f46e3070ef40bcb0fbb/panml-1.0.1.tar.gz
+[2023-06-10 15:41:43] INFO root fetch - processPackages [Shark-sac-Korean-editor]: Downloading https://files.pythonhosted.org/packages/ae/f6/ddfae429791fba5ebd80a0f043743358fc8d9d6309cf4b9698a819887a67/Shark%20sac%20Korean%20editor-1.2.1.tar.gz
+[2023-06-10 15:41:43] INFO root fetch - processPackages [granny-pliers]: Downloading https://files.pythonhosted.org/packages/93/1e/8fe4c37a2bc5486d573b0d1793cece4c10a430ebdfd00c3633bd30f250bc/granny-pliers-0.0.6.tar.gz
+[2023-06-10 15:41:43] INFO root fetch - processPackages [jwtlib]: Downloading https://files.pythonhosted.org/packages/03/f8/bff462edc4d199eb514b48e87b707022b3a30e0c2354f111d47aa22dd296/jwtlib-0.3.1.tar.gz
+[2023-06-10 15:41:44] INFO root fetch - processPackages [lightweight-charts]: Downloading https://files.pythonhosted.org/packages/89/47/c4ba1db5b863a175467d66e743b117aff7b293975b8c1494abdafb760b45/lightweight_charts-1.0.8.tar.gz
+[2023-06-10 15:41:44] INFO root fetch - processPackages [osrsreboxed]: Downloading https://files.pythonhosted.org/packages/91/1a/16ae9c074c1c99d6c4aa7ad991a23ad7ad5aab7b203cf59f1ac09e31cdc8/osrsreboxed-2.3.8.tar.gz
+[2023-06-10 15:41:44] INFO root fetch - processPackages [docker-tidy]: Downloading https://files.pythonhosted.org/packages/3a/f0/41c3d83f787830ce7ab9f93102bd3e0e5d13e6b936cfbf378ac03e247a6c/docker-tidy-1.1.8.tar.gz
+[2023-06-10 15:41:44] INFO root fetch - processPackages [pypaz]: Downloading https://files.pythonhosted.org/packages/13/81/caf80df65d067fe33a395a005569c1233d31ec9f67c07b7c5f37de179c32/pypaz-0.1.9.tar.gz
+[2023-06-10 15:41:44] WARNING root fetch - processPackages [osrsreboxed]: Skipping package: exceeds size limit 14949464>=10485760
+[2023-06-10 15:41:44] INFO root fetch - processPackages [osrsreboxed]: Start processing: nonebot-plugin-rename
+[2023-06-10 15:41:44] INFO root fetch - main [MainThread]: End processing [osrsreboxed] error
+[2023-06-10 15:41:44] INFO root fetch - processPackages [panml]: Downloading https://files.pythonhosted.org/packages/aa/a5/fd1c3ff9df8db27226fb44505b205dc79a552fc668d5fe68d22fe036a5e4/panml-1.0.2.tar.gz
+[2023-06-10 15:41:44] INFO root fetch - processPackages [nonebot-plugin-rename]: New version: [1.5.0] Old Version: [1.3.9]
+[2023-06-10 15:41:44] INFO root fetch - processPackages [Shark-sac-Korean-editor]: Downloading https://files.pythonhosted.org/packages/53/94/2f03365f97dfc3e1035f236ac116201dee3fdc9ef814472ac47d3da1532a/Shark%20sac%20Korean%20editor-1.2.5.tar.gz
+[2023-06-10 15:41:44] INFO root fetch - processPackages [Shark-sac-Korean-editor]: Downloading https://files.pythonhosted.org/packages/53/94/2f03365f97dfc3e1035f236ac116201dee3fdc9ef814472ac47d3da1532a/Shark%20sac%20Korean%20editor-1.2.5.tar.gz
+[2023-06-10 15:41:44] INFO root fetch - processPackages [granny-pliers]: Downloading https://files.pythonhosted.org/packages/9c/ce/414c2ea105ad94e870e999185f62b3c484f3921a81171f3d408d07578a78/granny-pliers-0.0.7.tar.gz
+[2023-06-10 15:41:44] INFO root fetch - processPackages [panml]: executing diffoscope
+[2023-06-10 15:41:44] INFO root fetch - processPackages [panml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panml-1.0.1.tar.gz tmp/panml-1.0.2.tar.gz --markdown 20230610/p/panml/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-10 15:41:44] INFO root fetch - processPackages [Shark-sac-Korean-editor]: executing diffoscope
+[2023-06-10 15:41:44] INFO root fetch - processPackages [Shark-sac-Korean-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Shark sac Korean editor-1.2.1.tar.gz tmp/Shark sac Korean editor-1.2.5.tar.gz --markdown 20230610/S/Shark-sac-Korean-editor/1.2.1-1.2.5/diff.md --exclude *.pyd
+[2023-06-10 15:41:44] INFO root fetch - processPackages [nonebot-plugin-rename]: Downloading https://files.pythonhosted.org/packages/6b/7f/08ee29145821a9e9b93a24de9552d02e1dbf231d7227eaf466e27c98bb94/nonebot_plugin_rename-1.3.9.tar.gz
+[2023-06-10 15:41:44] INFO root fetch - processPackages [Shark-sac-Korean-editor]: executing diffoscope
+[2023-06-10 15:41:44] INFO root fetch - processPackages [Shark-sac-Korean-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Shark sac Korean editor-1.2.1.tar.gz tmp/Shark sac Korean editor-1.2.5.tar.gz --markdown 20230610/S/Shark-sac-Korean-editor/1.2.1-1.2.5/diff.md --exclude *.pyd
+[2023-06-10 15:41:44] INFO root fetch - processPackages [granny-pliers]: executing diffoscope
+[2023-06-10 15:41:44] INFO root fetch - processPackages [granny-pliers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/granny-pliers-0.0.6.tar.gz tmp/granny-pliers-0.0.7.tar.gz --markdown 20230610/g/granny-pliers/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-10 15:41:44] INFO root fetch - processPackages [nonebot-plugin-rename]: Downloading https://files.pythonhosted.org/packages/b6/a3/184d4f5285bf329deb2dd343bc35ca124216b1874e94f47857c9a6d9d317/nonebot_plugin_rename-1.5.0.tar.gz
+[2023-06-10 15:41:44] INFO root fetch - processPackages [jwtlib]: Downloading https://files.pythonhosted.org/packages/dd/ab/abbfcde99762e2fb3b8a98cf104de457cf375013d4479f4728208e4190c7/jwtlib-0.3.2.tar.gz
+[2023-06-10 15:41:44] INFO root fetch - processPackages [jwtlib]: executing diffoscope
+[2023-06-10 15:41:44] INFO root fetch - processPackages [jwtlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jwtlib-0.3.1.tar.gz tmp/jwtlib-0.3.2.tar.gz --markdown 20230610/j/jwtlib/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-10 15:41:44] INFO root fetch - processPackages [pypaz]: Downloading https://files.pythonhosted.org/packages/52/cc/03299e0b58ba974a25c9f40d7b1926e5e744bd5f8d459606a57dd8c7cdf8/pypaz-0.2.4.tar.gz
+[2023-06-10 15:41:44] INFO root fetch - processPackages [lightweight-charts]: Downloading https://files.pythonhosted.org/packages/cf/d4/9663fbc09e849ab1b6fd51555de471f4d107dde6cb568043398b7376aeee/lightweight_charts-1.0.9.tar.gz
+[2023-06-10 15:41:44] INFO root fetch - processPackages [docker-tidy]: Downloading https://files.pythonhosted.org/packages/7f/e1/e1eef38be8e8d81c764437f3762cd1652e9752d5019883141249df204eb7/docker-tidy-1.1.9.tar.gz
+[2023-06-10 15:41:44] INFO root fetch - processPackages [pypaz]: executing diffoscope
+[2023-06-10 15:41:44] INFO root fetch - processPackages [pypaz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypaz-0.1.9.tar.gz tmp/pypaz-0.2.4.tar.gz --markdown 20230610/p/pypaz/0.1.9-0.2.4/diff.md --exclude *.pyd
+[2023-06-10 15:41:44] INFO root fetch - processPackages [lightweight-charts]: executing diffoscope
+[2023-06-10 15:41:44] INFO root fetch - processPackages [lightweight-charts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightweight_charts-1.0.8.tar.gz tmp/lightweight_charts-1.0.9.tar.gz --markdown 20230610/l/lightweight-charts/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-10 15:41:44] INFO root fetch - processPackages [llm-generation-server]: Downloading https://files.pythonhosted.org/packages/1b/92/b7a81c1ae09072f32e01c8f4f15a71efb359935e76a2cdba62984beb2ea1/llm_generation_server-0.0.9.tar.gz
+[2023-06-10 15:41:44] INFO root fetch - processPackages [nonebot-plugin-rename]: executing diffoscope
+[2023-06-10 15:41:44] INFO root fetch - processPackages [nonebot-plugin-rename]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_rename-1.3.9.tar.gz tmp/nonebot_plugin_rename-1.5.0.tar.gz --markdown 20230610/n/nonebot-plugin-rename/1.3.9-1.5.0/diff.md --exclude *.pyd
+[2023-06-10 15:41:44] INFO root fetch - processPackages [docker-tidy]: executing diffoscope
+[2023-06-10 15:41:44] INFO root fetch - processPackages [docker-tidy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docker-tidy-1.1.8.tar.gz tmp/docker-tidy-1.1.9.tar.gz --markdown 20230610/d/docker-tidy/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-10 15:41:44] INFO root fetch - processPackages [llm-generation-server]: executing diffoscope
+[2023-06-10 15:41:44] INFO root fetch - processPackages [llm-generation-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm_generation_server-0.0.8.tar.gz tmp/llm_generation_server-0.0.9.tar.gz --markdown 20230610/l/llm-generation-server/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-10 15:41:45] INFO root fetch - processPackages [panml]: Remove: archive file [/home/abi/fetcher/tmp/panml-1.0.1.tar.gz]
+[2023-06-10 15:41:45] INFO root fetch - processPackages [panml]: Remove: archive file [/home/abi/fetcher/tmp/panml-1.0.2.tar.gz]
+[2023-06-10 15:41:45] INFO root fetch - main [MainThread]: End processing [panml]: success
+[2023-06-10 15:41:45] INFO root fetch - processPackages [jwtlib]: Remove: archive file [/home/abi/fetcher/tmp/jwtlib-0.3.1.tar.gz]
+[2023-06-10 15:41:45] INFO root fetch - processPackages [jwtlib]: Remove: archive file [/home/abi/fetcher/tmp/jwtlib-0.3.2.tar.gz]
+[2023-06-10 15:41:45] INFO root fetch - main [MainThread]: End processing [jwtlib]: success
+[2023-06-10 15:41:45] INFO root fetch - processPackages [granny-pliers]: Remove: archive file [/home/abi/fetcher/tmp/granny-pliers-0.0.6.tar.gz]
+[2023-06-10 15:41:45] INFO root fetch - processPackages [granny-pliers]: Remove: archive file [/home/abi/fetcher/tmp/granny-pliers-0.0.7.tar.gz]
+[2023-06-10 15:41:45] INFO root fetch - main [MainThread]: End processing [granny-pliers]: success
+[2023-06-10 15:41:46] INFO root fetch - processPackages [lightweight-charts]: Remove: archive file [/home/abi/fetcher/tmp/lightweight_charts-1.0.8.tar.gz]
+[2023-06-10 15:41:46] INFO root fetch - processPackages [lightweight-charts]: Remove: archive file [/home/abi/fetcher/tmp/lightweight_charts-1.0.9.tar.gz]
+[2023-06-10 15:41:46] INFO root fetch - main [MainThread]: End processing [lightweight-charts]: success
+[2023-06-10 15:41:46] INFO root fetch - processPackages [Shark-sac-Korean-editor]: Remove: archive file [/home/abi/fetcher/tmp/Shark sac Korean editor-1.2.1.tar.gz]
+[2023-06-10 15:41:46] INFO root fetch - processPackages [Shark-sac-Korean-editor]: Remove: archive file [/home/abi/fetcher/tmp/Shark sac Korean editor-1.2.5.tar.gz]
+[2023-06-10 15:41:46] INFO root fetch - main [MainThread]: End processing [Shark-sac-Korean-editor]: success
+[2023-06-10 15:41:46] INFO root fetch - processPackages [nonebot-plugin-rename]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_rename-1.3.9.tar.gz]
+[2023-06-10 15:41:46] INFO root fetch - processPackages [nonebot-plugin-rename]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_rename-1.5.0.tar.gz]
+[2023-06-10 15:41:46] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-rename]: success
+[2023-06-10 15:41:46] INFO root fetch - processPackages [docker-tidy]: Remove: archive file [/home/abi/fetcher/tmp/docker-tidy-1.1.8.tar.gz]
+[2023-06-10 15:41:46] INFO root fetch - processPackages [docker-tidy]: Remove: archive file [/home/abi/fetcher/tmp/docker-tidy-1.1.9.tar.gz]
+[2023-06-10 15:41:46] INFO root fetch - main [MainThread]: End processing [docker-tidy]: success
+[2023-06-10 15:41:46] INFO root fetch - processPackages [pypaz]: Remove: archive file [/home/abi/fetcher/tmp/pypaz-0.1.9.tar.gz]
+[2023-06-10 15:41:46] INFO root fetch - processPackages [pypaz]: Remove: archive file [/home/abi/fetcher/tmp/pypaz-0.2.4.tar.gz]
+[2023-06-10 15:41:46] INFO root fetch - main [MainThread]: End processing [pypaz]: success
+[2023-06-10 15:41:46] ERROR root fetch - processPackages [Shark-sac-Korean-editor]: Diffoscope failed: gzip: tmp/Shark sac Korean editor-1.2.5.tar.gz: No such file or directory
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 131, in comparisons
+    other_members = OrderedDict(other.get_adjusted_members_sizes())
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 126, in get_adjusted_members_sizes
+    size = path_apparent_size(member.path)
+                              ^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/archive.py", line 114, in path
+    self._path = self.container.extract(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/tools.py", line 141, in tool_check
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/gzip.py", line 51, in extract
+    subprocess.check_call(
+  File "/usr/lib/python3.11/subprocess.py", line 413, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['gzip', '-d', '-c', 'tmp/Shark sac Korean editor-1.2.5.tar.gz']' returned non-zero exit status 1.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 536, in compare
+    difference = self.compare_bytes(other, source=source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 395, in compare_bytes
+    return compare_binary_files(self, other, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 176, in compare_binary_files
+    return Difference.from_operation(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+[2023-06-10 15:41:46] INFO root fetch - main [MainThread]: End processing [Shark-sac-Korean-editor] error
+[2023-06-10 15:41:48] INFO root fetch - processPackages [llm-generation-server]: Remove: archive file [/home/abi/fetcher/tmp/llm_generation_server-0.0.8.tar.gz]
+[2023-06-10 15:41:48] INFO root fetch - processPackages [llm-generation-server]: Remove: archive file [/home/abi/fetcher/tmp/llm_generation_server-0.0.9.tar.gz]
+[2023-06-10 15:41:48] INFO root fetch - main [MainThread]: End processing [llm-generation-server]: success
+[2023-06-10 15:41:48] INFO root fetch - main [MainThread]: Store serial: [18451010]
