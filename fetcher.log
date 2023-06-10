@@ -12063,3 +12063,85 @@ EOFError: EOF read where object expected
 [2023-06-10 14:53:59] INFO root fetch - processPackages [az-st7735]: Remove: archive file [/home/abi/fetcher/tmp/az-st7735-0.1.1.tar.gz]
 [2023-06-10 14:53:59] INFO root fetch - main [MainThread]: End processing [az-st7735]: success
 [2023-06-10 14:53:59] INFO root fetch - main [MainThread]: Store serial: [18450735]
+[2023-06-10 14:59:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18450735]
+[2023-06-10 14:59:08] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-10 14:59:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: atproto
+[2023-06-10 14:59:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: iman
+[2023-06-10 14:59:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: librelingo-fakes
+[2023-06-10 14:59:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: WignerSymbol
+[2023-06-10 14:59:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: darwinio
+[2023-06-10 14:59:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: librelingo-yaml-loader
+[2023-06-10 14:59:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: manhattan-manage
+[2023-06-10 14:59:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: librelingo-json-export
+[2023-06-10 14:59:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: librelingo-json-export
+[2023-06-10 14:59:08] INFO root fetch - processPackages [darwinio]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-10 14:59:08] INFO root fetch - processPackages [iman]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-10 14:59:08] INFO root fetch - processPackages [WignerSymbol]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-10 14:59:08] INFO root fetch - processPackages [atproto]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-10 14:59:08] INFO root fetch - processPackages [librelingo-fakes]: New version: [3.2.0] Old Version: [3.1.0]
+[2023-06-10 14:59:08] INFO root fetch - processPackages [librelingo-yaml-loader]: New version: [1.9.3] Old Version: [1.9.2]
+[2023-06-10 14:59:08] INFO root fetch - processPackages [manhattan-manage]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-10 14:59:08] INFO root fetch - processPackages [darwinio]: Downloading https://files.pythonhosted.org/packages/ba/e3/504348b7e78bfccd5c7e63460e2acde28cab5df883489e0faded46ef8fdf/darwinio-0.0.5.tar.gz
+[2023-06-10 14:59:08] INFO root fetch - processPackages [manhattan-manage]: Downloading https://files.pythonhosted.org/packages/91/33/ee17a7e38947eee2a48d91e83038f05c2d14f57fb8bc5a35fe4bc48aaaf5/manhattan_manage-0.9.8.tar.gz
+[2023-06-10 14:59:08] INFO root fetch - processPackages [librelingo-json-export]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-06-10 14:59:08] INFO root fetch - processPackages [librelingo-json-export]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-06-10 14:59:08] INFO root fetch - processPackages [librelingo-fakes]: Downloading https://files.pythonhosted.org/packages/e0/a3/08ac421637b1be49c0265d700bca59b98c15bbb9c26a588973d766be441a/librelingo_fakes-3.1.0.tar.gz
+[2023-06-10 14:59:08] INFO root fetch - processPackages [WignerSymbol]: Downloading https://files.pythonhosted.org/packages/85/1e/4c49b8e360f1d2017d6e097e7a9e5382ed0380000b0df0bef8cb8b4949f2/WignerSymbol-0.0.1.tar.gz
+[2023-06-10 14:59:08] INFO root fetch - processPackages [iman]: Downloading https://files.pythonhosted.org/packages/a8/79/5ec52b959a24b35cdb3cd5b4ac8f6b8636717bba6921a761a2e96991c7d5/iman-0.0.8.tar.gz
+[2023-06-10 14:59:08] INFO root fetch - processPackages [atproto]: Downloading https://files.pythonhosted.org/packages/41/b1/8fd5cf9bb765a6bab94fe28a2c42c4f7961bca68115339fa301a2551b814/atproto-0.0.8.tar.gz
+[2023-06-10 14:59:08] INFO root fetch - processPackages [librelingo-yaml-loader]: Downloading https://files.pythonhosted.org/packages/46/2d/39e0c514f5a386fb55ea4b80de1f3160c919da2a9ae572b5127259082ce3/librelingo_yaml_loader-1.9.2.tar.gz
+[2023-06-10 14:59:08] INFO root fetch - processPackages [manhattan-manage]: Downloading https://files.pythonhosted.org/packages/b4/ad/b633ac133de90b3a6cc0b64e8d039c2237a4e9a9f97d284434cff1048053/manhattan_manage-0.9.9.tar.gz
+[2023-06-10 14:59:08] INFO root fetch - processPackages [librelingo-json-export]: Downloading https://files.pythonhosted.org/packages/3a/87/a37c38664cdc0844ba631e6f4eb66e6d681a278a6c4b152042e316637bcb/librelingo_json_export-0.9.2.tar.gz
+[2023-06-10 14:59:08] INFO root fetch - processPackages [librelingo-json-export]: Downloading https://files.pythonhosted.org/packages/3a/87/a37c38664cdc0844ba631e6f4eb66e6d681a278a6c4b152042e316637bcb/librelingo_json_export-0.9.2.tar.gz
+[2023-06-10 14:59:08] INFO root fetch - processPackages [librelingo-fakes]: Downloading https://files.pythonhosted.org/packages/63/b5/3faa45c0259d2b17b2d4d1137a1e37d10387966bd6410ec587731bc4f312/librelingo_fakes-3.2.0.tar.gz
+[2023-06-10 14:59:08] INFO root fetch - processPackages [darwinio]: Downloading https://files.pythonhosted.org/packages/4e/4e/498fd1b241ae5a67077e2ad26235f14771bb106674dce203a8b58c818eae/darwinio-0.0.6.tar.gz
+[2023-06-10 14:59:08] INFO root fetch - processPackages [WignerSymbol]: Downloading https://files.pythonhosted.org/packages/e9/11/64df0e6bf5cb0cd821aec02ec171328766fb2b72f5afad7e3d8819be507c/WignerSymbol-0.0.2-cp310-cp310-win_amd64.whl
+[2023-06-10 14:59:08] INFO root fetch - processPackages [manhattan-manage]: executing diffoscope
+[2023-06-10 14:59:08] INFO root fetch - processPackages [manhattan-manage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manhattan_manage-0.9.8.tar.gz tmp/manhattan_manage-0.9.9.tar.gz --markdown 20230610/m/manhattan-manage/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-10 14:59:08] INFO root fetch - processPackages [librelingo-fakes]: executing diffoscope
+[2023-06-10 14:59:08] INFO root fetch - processPackages [librelingo-fakes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/librelingo_fakes-3.1.0.tar.gz tmp/librelingo_fakes-3.2.0.tar.gz --markdown 20230610/l/librelingo-fakes/3.1.0-3.2.0/diff.md --exclude *.pyd
+[2023-06-10 14:59:08] INFO root fetch - processPackages [iman]: Downloading https://files.pythonhosted.org/packages/30/17/389821fbd85328fbda7e038746aa1d02011502958e2d9589ede98d2f5b0b/iman-0.0.9.tar.gz
+[2023-06-10 14:59:08] INFO root fetch - processPackages [WignerSymbol]: executing diffoscope
+[2023-06-10 14:59:08] INFO root fetch - processPackages [WignerSymbol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WignerSymbol-0.0.1.tar.gz tmp/WignerSymbol-0.0.2-cp310-cp310-win_amd64.whl.zip --markdown 20230610/W/WignerSymbol/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-10 14:59:09] INFO root fetch - processPackages [librelingo-json-export]: Downloading https://files.pythonhosted.org/packages/a1/46/d393661dae3deb36766ac84e894ebd5fda72ca3c9f11599226508cd3b694/librelingo_json_export-0.9.3.tar.gz
+[2023-06-10 14:59:09] INFO root fetch - processPackages [darwinio]: executing diffoscope
+[2023-06-10 14:59:09] INFO root fetch - processPackages [darwinio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/darwinio-0.0.5.tar.gz tmp/darwinio-0.0.6.tar.gz --markdown 20230610/d/darwinio/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-10 14:59:09] INFO root fetch - processPackages [librelingo-json-export]: Downloading https://files.pythonhosted.org/packages/a1/46/d393661dae3deb36766ac84e894ebd5fda72ca3c9f11599226508cd3b694/librelingo_json_export-0.9.3.tar.gz
+[2023-06-10 14:59:09] INFO root fetch - processPackages [librelingo-yaml-loader]: Downloading https://files.pythonhosted.org/packages/e6/40/162de30b2405f84125e820a4fd03fc47f25ac4ef5a8176a4645fa46e0720/librelingo_yaml_loader-1.9.3.tar.gz
+[2023-06-10 14:59:09] INFO root fetch - processPackages [iman]: executing diffoscope
+[2023-06-10 14:59:09] INFO root fetch - processPackages [iman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iman-0.0.8.tar.gz tmp/iman-0.0.9.tar.gz --markdown 20230610/i/iman/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-10 14:59:09] INFO root fetch - processPackages [librelingo-json-export]: executing diffoscope
+[2023-06-10 14:59:09] INFO root fetch - processPackages [librelingo-json-export]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/librelingo_json_export-0.9.2.tar.gz tmp/librelingo_json_export-0.9.3.tar.gz --markdown 20230610/l/librelingo-json-export/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-06-10 14:59:09] INFO root fetch - processPackages [librelingo-json-export]: executing diffoscope
+[2023-06-10 14:59:09] INFO root fetch - processPackages [librelingo-json-export]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/librelingo_json_export-0.9.2.tar.gz tmp/librelingo_json_export-0.9.3.tar.gz --markdown 20230610/l/librelingo-json-export/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-06-10 14:59:09] INFO root fetch - processPackages [atproto]: Downloading https://files.pythonhosted.org/packages/77/1e/7dc305471e00c4c47363abdd5b249d56887681dfb22aa19f38866d6e7506/atproto-0.0.9.tar.gz
+[2023-06-10 14:59:09] INFO root fetch - processPackages [librelingo-yaml-loader]: executing diffoscope
+[2023-06-10 14:59:09] INFO root fetch - processPackages [librelingo-yaml-loader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/librelingo_yaml_loader-1.9.2.tar.gz tmp/librelingo_yaml_loader-1.9.3.tar.gz --markdown 20230610/l/librelingo-yaml-loader/1.9.2-1.9.3/diff.md --exclude *.pyd
+[2023-06-10 14:59:09] INFO root fetch - processPackages [atproto]: executing diffoscope
+[2023-06-10 14:59:09] INFO root fetch - processPackages [atproto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atproto-0.0.8.tar.gz tmp/atproto-0.0.9.tar.gz --markdown 20230610/a/atproto/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-10 14:59:10] INFO root fetch - processPackages [WignerSymbol]: Remove: archive file [/home/abi/fetcher/tmp/WignerSymbol-0.0.1.tar.gz]
+[2023-06-10 14:59:10] INFO root fetch - processPackages [WignerSymbol]: Remove: archive file [/home/abi/fetcher/tmp/WignerSymbol-0.0.2-cp310-cp310-win_amd64.whl.zip]
+[2023-06-10 14:59:10] INFO root fetch - main [MainThread]: End processing [WignerSymbol]: success
+[2023-06-10 14:59:10] INFO root fetch - processPackages [librelingo-fakes]: Remove: archive file [/home/abi/fetcher/tmp/librelingo_fakes-3.1.0.tar.gz]
+[2023-06-10 14:59:10] INFO root fetch - processPackages [librelingo-fakes]: Remove: archive file [/home/abi/fetcher/tmp/librelingo_fakes-3.2.0.tar.gz]
+[2023-06-10 14:59:10] INFO root fetch - main [MainThread]: End processing [librelingo-fakes]: success
+[2023-06-10 14:59:10] INFO root fetch - processPackages [librelingo-json-export]: Remove: archive file [/home/abi/fetcher/tmp/librelingo_json_export-0.9.2.tar.gz]
+[2023-06-10 14:59:10] INFO root fetch - processPackages [librelingo-json-export]: Remove: archive file [/home/abi/fetcher/tmp/librelingo_json_export-0.9.3.tar.gz]
+[2023-06-10 14:59:10] INFO root fetch - main [MainThread]: End processing [librelingo-json-export]: success
+[2023-06-10 14:59:10] INFO root fetch - processPackages [manhattan-manage]: Remove: archive file [/home/abi/fetcher/tmp/manhattan_manage-0.9.8.tar.gz]
+[2023-06-10 14:59:10] INFO root fetch - processPackages [manhattan-manage]: Remove: archive file [/home/abi/fetcher/tmp/manhattan_manage-0.9.9.tar.gz]
+[2023-06-10 14:59:10] INFO root fetch - main [MainThread]: End processing [manhattan-manage]: success
+[2023-06-10 14:59:10] INFO root fetch - processPackages [librelingo-yaml-loader]: Remove: archive file [/home/abi/fetcher/tmp/librelingo_yaml_loader-1.9.2.tar.gz]
+[2023-06-10 14:59:10] INFO root fetch - processPackages [librelingo-yaml-loader]: Remove: archive file [/home/abi/fetcher/tmp/librelingo_yaml_loader-1.9.3.tar.gz]
+[2023-06-10 14:59:10] INFO root fetch - main [MainThread]: End processing [librelingo-yaml-loader]: success
+[2023-06-10 14:59:10] INFO root fetch - processPackages [iman]: Remove: archive file [/home/abi/fetcher/tmp/iman-0.0.8.tar.gz]
+[2023-06-10 14:59:10] INFO root fetch - processPackages [iman]: Remove: archive file [/home/abi/fetcher/tmp/iman-0.0.9.tar.gz]
+[2023-06-10 14:59:10] INFO root fetch - main [MainThread]: End processing [iman]: success
+[2023-06-10 14:59:10] INFO root fetch - main [MainThread]: End processing [librelingo-json-export]: success
+[2023-06-10 14:59:10] INFO root fetch - processPackages [darwinio]: Remove: archive file [/home/abi/fetcher/tmp/darwinio-0.0.5.tar.gz]
+[2023-06-10 14:59:10] INFO root fetch - processPackages [darwinio]: Remove: archive file [/home/abi/fetcher/tmp/darwinio-0.0.6.tar.gz]
+[2023-06-10 14:59:10] INFO root fetch - main [MainThread]: End processing [darwinio]: success
+[2023-06-10 14:59:13] INFO root fetch - processPackages [atproto]: Remove: archive file [/home/abi/fetcher/tmp/atproto-0.0.8.tar.gz]
+[2023-06-10 14:59:13] INFO root fetch - processPackages [atproto]: Remove: archive file [/home/abi/fetcher/tmp/atproto-0.0.9.tar.gz]
+[2023-06-10 14:59:13] INFO root fetch - main [MainThread]: End processing [atproto]: success
+[2023-06-10 14:59:13] INFO root fetch - main [MainThread]: Store serial: [18450758]
