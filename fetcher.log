@@ -8192,3 +8192,65 @@ EOFError: EOF read where object expected
 [2023-06-10 07:26:48] INFO root fetch - processPackages [control]: Remove: archive file [/home/abi/fetcher/tmp/control-0.9.4.tar.gz]
 [2023-06-10 07:26:48] INFO root fetch - main [MainThread]: End processing [control]: success
 [2023-06-10 07:26:48] INFO root fetch - main [MainThread]: Store serial: [18448806]
+[2023-06-10 07:31:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18448806]
+[2023-06-10 07:31:57] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-10 07:31:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hyperfast-python-template
+[2023-06-10 07:31:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: crazy-thursday
+[2023-06-10 07:31:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sabledocs
+[2023-06-10 07:31:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: edir
+[2023-06-10 07:31:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dss-python-backend
+[2023-06-10 07:31:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-hotel
+[2023-06-10 07:31:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fasttq
+[2023-06-10 07:31:57] INFO root fetch - processPackages [hyperfast-python-template]: New version: [0.8.7] Old Version: [0.8.6]
+[2023-06-10 07:31:57] INFO root fetch - processPackages [dss-python-backend]: New version: [0.13.2rc1] Old Version: [0.13.2]
+[2023-06-10 07:31:57] INFO root fetch - processPackages [sabledocs]: New version: [0.4.170] Old Version: [0.4.168.dev0]
+[2023-06-10 07:31:57] INFO root fetch - processPackages [edir]: New version: [2.9.1] Old Version: [2.9]
+[2023-06-10 07:31:57] INFO root fetch - processPackages [hyperfast-python-template]: Downloading https://files.pythonhosted.org/packages/67/16/b47ca18a4d8a62995f7d764c6e0f19985a7776a1ff624c01558cab4a8f5e/hyperfast_python_template-0.8.6.tar.gz
+[2023-06-10 07:31:57] INFO root fetch - processPackages [crazy-thursday]: New version: [2023.6.9.1] Old Version: [2023.6.9.0]
+[2023-06-10 07:31:57] INFO root fetch - processPackages [fasttq]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-10 07:31:57] INFO root fetch - processPackages [odoo-addon-hotel]: New version: [15.0.1.0.0.9] Old Version: [15.0.1.0.0.8]
+[2023-06-10 07:31:57] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/b1/40/5829ec135b8688f4278ad96c53701edc59c7542d244da7fff625e9bf0586/crazy-thursday-2023.6.9.0.tar.gz
+[2023-06-10 07:31:57] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/5e/9d/4da02a3a3f23da194e2e84c3736bb6b6dddf3afa5ff453187cab26459381/crazy-thursday-2023.6.9.1.tar.gz
+[2023-06-10 07:31:57] INFO root fetch - processPackages [sabledocs]: Downloading https://files.pythonhosted.org/packages/80/2c/9d80e6b1fe087134971ee9d72f346eb4983b96e9ff4ed12adbc1754fb070/sabledocs-0.4.168.dev0.tar.gz
+[2023-06-10 07:31:57] INFO root fetch - processPackages [dss-python-backend]: Downloading https://files.pythonhosted.org/packages/1f/99/7b35de6a18c1de8dba6b37a82432f7288a0868fb35ed00e6d1aedb3f23ed/dss_python_backend-0.13.2-cp37-abi3-win_amd64.whl
+[2023-06-10 07:31:57] INFO root fetch - processPackages [edir]: Downloading https://files.pythonhosted.org/packages/c3/c7/4bc9c5b81b8615ac27cafe90feab04ab1ac9e8f0ed217e5be999daa0d51e/edir-2.9.tar.gz
+[2023-06-10 07:31:57] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2023-06-10 07:31:57] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy-thursday-2023.6.9.0.tar.gz tmp/crazy-thursday-2023.6.9.1.tar.gz --markdown 20230610/c/crazy-thursday/2023.6.9.0-2023.6.9.1/diff.md --exclude *.pyd
+[2023-06-10 07:31:57] INFO root fetch - processPackages [hyperfast-python-template]: Downloading https://files.pythonhosted.org/packages/80/f4/2607e9ad262f64a6fa048f54da2aafb1b16671e642925b25fbd22c2c79c6/hyperfast_python_template-0.8.7.tar.gz
+[2023-06-10 07:31:58] INFO root fetch - processPackages [fasttq]: Downloading https://files.pythonhosted.org/packages/f4/31/f3483c688187150e6cbb6b11b9d0907bd92fda4ecfc21d4bf6b834c96751/fasttq-1.0.4.tar.gz
+[2023-06-10 07:31:58] INFO root fetch - processPackages [odoo-addon-hotel]: Downloading https://files.pythonhosted.org/packages/2a/de/5bea8e65f68a988e7b46d533a8191a2960d7695ef56fbdced31b6ddaaa22/odoo_addon_hotel-15.0.1.0.0.8-py3-none-any.whl
+[2023-06-10 07:31:58] INFO root fetch - processPackages [hyperfast-python-template]: executing diffoscope
+[2023-06-10 07:31:58] INFO root fetch - processPackages [hyperfast-python-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperfast_python_template-0.8.6.tar.gz tmp/hyperfast_python_template-0.8.7.tar.gz --markdown 20230610/h/hyperfast-python-template/0.8.6-0.8.7/diff.md --exclude *.pyd
+[2023-06-10 07:31:58] WARNING root fetch - processPackages [dss-python-backend]: Skipping package: exceeds size limit 16955944>=10485760
+[2023-06-10 07:31:58] INFO root fetch - main [MainThread]: End processing [dss-python-backend] error
+[2023-06-10 07:31:58] INFO root fetch - processPackages [sabledocs]: Downloading https://files.pythonhosted.org/packages/67/13/227401caa33934a540574da322432c05e642adde83aadb9931abe846fc6e/sabledocs-0.4.170.tar.gz
+[2023-06-10 07:31:58] INFO root fetch - processPackages [fasttq]: Downloading https://files.pythonhosted.org/packages/eb/9e/c63bede56bb7dd9bf9c2056fac786d972943f745b3be0cfad598da0160e5/fasttq-1.0.5.tar.gz
+[2023-06-10 07:31:58] INFO root fetch - processPackages [edir]: Downloading https://files.pythonhosted.org/packages/bf/fa/60c088f766d0e4e431a27ad0b4d302389c5774c309d1aaec3e1b74bf3b5d/edir-2.9.1.tar.gz
+[2023-06-10 07:31:58] INFO root fetch - processPackages [sabledocs]: executing diffoscope
+[2023-06-10 07:31:58] INFO root fetch - processPackages [sabledocs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sabledocs-0.4.168.dev0.tar.gz tmp/sabledocs-0.4.170.tar.gz --markdown 20230610/s/sabledocs/0.4.168.dev0-0.4.170/diff.md --exclude *.pyd
+[2023-06-10 07:31:58] INFO root fetch - processPackages [odoo-addon-hotel]: Downloading https://files.pythonhosted.org/packages/d7/0a/188a625f0ab4ccbf7cdd33b16e453f1a8b32cea2ced9d90f7b20caf9bcc0/odoo_addon_hotel-15.0.1.0.0.9-py3-none-any.whl
+[2023-06-10 07:31:58] INFO root fetch - processPackages [fasttq]: executing diffoscope
+[2023-06-10 07:31:58] INFO root fetch - processPackages [fasttq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fasttq-1.0.4.tar.gz tmp/fasttq-1.0.5.tar.gz --markdown 20230610/f/fasttq/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-10 07:31:58] INFO root fetch - processPackages [edir]: executing diffoscope
+[2023-06-10 07:31:58] INFO root fetch - processPackages [edir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edir-2.9.tar.gz tmp/edir-2.9.1.tar.gz --markdown 20230610/e/edir/2.9-2.9.1/diff.md --exclude *.pyd
+[2023-06-10 07:31:58] INFO root fetch - processPackages [odoo-addon-hotel]: executing diffoscope
+[2023-06-10 07:31:58] INFO root fetch - processPackages [odoo-addon-hotel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_hotel-15.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_hotel-15.0.1.0.0.9-py3-none-any.whl.zip --markdown 20230610/o/odoo-addon-hotel/15.0.1.0.0.8-15.0.1.0.0.9/diff.md --exclude *.pyd
+[2023-06-10 07:31:59] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.6.9.0.tar.gz]
+[2023-06-10 07:31:59] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.6.9.1.tar.gz]
+[2023-06-10 07:31:59] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2023-06-10 07:31:59] INFO root fetch - processPackages [hyperfast-python-template]: Remove: archive file [/home/abi/fetcher/tmp/hyperfast_python_template-0.8.6.tar.gz]
+[2023-06-10 07:31:59] INFO root fetch - processPackages [hyperfast-python-template]: Remove: archive file [/home/abi/fetcher/tmp/hyperfast_python_template-0.8.7.tar.gz]
+[2023-06-10 07:31:59] INFO root fetch - main [MainThread]: End processing [hyperfast-python-template]: success
+[2023-06-10 07:31:59] INFO root fetch - processPackages [sabledocs]: Remove: archive file [/home/abi/fetcher/tmp/sabledocs-0.4.168.dev0.tar.gz]
+[2023-06-10 07:31:59] INFO root fetch - processPackages [sabledocs]: Remove: archive file [/home/abi/fetcher/tmp/sabledocs-0.4.170.tar.gz]
+[2023-06-10 07:31:59] INFO root fetch - main [MainThread]: End processing [sabledocs]: success
+[2023-06-10 07:31:59] INFO root fetch - processPackages [fasttq]: Remove: archive file [/home/abi/fetcher/tmp/fasttq-1.0.4.tar.gz]
+[2023-06-10 07:31:59] INFO root fetch - processPackages [fasttq]: Remove: archive file [/home/abi/fetcher/tmp/fasttq-1.0.5.tar.gz]
+[2023-06-10 07:31:59] INFO root fetch - main [MainThread]: End processing [fasttq]: success
+[2023-06-10 07:32:00] INFO root fetch - processPackages [edir]: Remove: archive file [/home/abi/fetcher/tmp/edir-2.9.tar.gz]
+[2023-06-10 07:32:00] INFO root fetch - processPackages [edir]: Remove: archive file [/home/abi/fetcher/tmp/edir-2.9.1.tar.gz]
+[2023-06-10 07:32:00] INFO root fetch - main [MainThread]: End processing [edir]: success
+[2023-06-10 07:32:00] INFO root fetch - processPackages [odoo-addon-hotel]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hotel-15.0.1.0.0.8-py3-none-any.whl.zip]
+[2023-06-10 07:32:00] INFO root fetch - processPackages [odoo-addon-hotel]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hotel-15.0.1.0.0.9-py3-none-any.whl.zip]
+[2023-06-10 07:32:00] INFO root fetch - main [MainThread]: End processing [odoo-addon-hotel]: success
+[2023-06-10 07:32:00] INFO root fetch - main [MainThread]: Store serial: [18448833]
