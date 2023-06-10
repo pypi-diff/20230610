@@ -6860,3 +6860,51 @@ EOFError: EOF read where object expected
 [2023-06-10 04:54:53] INFO root fetch - processPackages [pycafe24]: Remove: archive file [/home/abi/fetcher/tmp/pycafe24-1.9.tar.gz]
 [2023-06-10 04:54:53] INFO root fetch - main [MainThread]: End processing [pycafe24]: success
 [2023-06-10 04:54:53] INFO root fetch - main [MainThread]: Store serial: [18448289]
+[2023-06-10 04:59:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18448289]
+[2023-06-10 05:00:01] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-10 05:00:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: perseus-restful-api-framework
+[2023-06-10 05:00:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-sale-commission
+[2023-06-10 05:00:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: neon-mana-utils
+[2023-06-10 05:00:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Ret2GPT
+[2023-06-10 05:00:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo8-addon-magentoerpconnect
+[2023-06-10 05:00:02] INFO root fetch - processPackages [Ret2GPT]: New version: [1.0.2] Old Version: [1.0.1.4]
+[2023-06-10 05:00:02] INFO root fetch - processPackages [perseus-restful-api-framework]: New version: [1.26.9] Old Version: [1.26.8]
+[2023-06-10 05:00:02] INFO root fetch - processPackages [perseus-restful-api-framework]: Downloading https://files.pythonhosted.org/packages/80/72/6a2628fda2ee20de41514a51916001d12eb60a0d744948a158e0b495038d/perseus_restful_api_framework-1.26.8.tar.gz
+[2023-06-10 05:00:02] INFO root fetch - processPackages [Ret2GPT]: Downloading https://files.pythonhosted.org/packages/d0/9c/86ba208418b23aab9ebede8abc107b8e9565b7b71a66ef2e4e4d35ac8155/Ret2GPT-1.0.1.4.tar.gz
+[2023-06-10 05:00:02] INFO root fetch - processPackages [odoo8-addon-magentoerpconnect]: New version: [8.0.3.0.0.99.dev99] Old Version: [8.0.3.0.0.99.dev98]
+[2023-06-10 05:00:02] INFO root fetch - processPackages [neon-mana-utils]: New version: [0.1.1a1] Old Version: [0.1.0]
+[2023-06-10 05:00:02] INFO root fetch - processPackages [odoo14-addon-sale-commission]: New version: [14.0.1.6.1.dev1] Old Version: [14.0.1.6.0]
+[2023-06-10 05:00:02] INFO root fetch - processPackages [neon-mana-utils]: Downloading https://files.pythonhosted.org/packages/3c/08/37184b6162ff02771e742ada5f91c40ef88a715308240ec8e3184915b1ae/neon_mana_utils-0.1.0-py3-none-any.whl
+[2023-06-10 05:00:02] INFO root fetch - processPackages [perseus-restful-api-framework]: Downloading https://files.pythonhosted.org/packages/cf/74/730b74192f6c1e7410d7a9ba9957dad8eebbc5f556057ff6a238cac07e2a/perseus_restful_api_framework-1.26.9.tar.gz
+[2023-06-10 05:00:02] INFO root fetch - processPackages [odoo8-addon-magentoerpconnect]: Downloading https://files.pythonhosted.org/packages/ca/3e/4c137faab202d535afe62d150650274f3113494f50921b52376b49af1db3/odoo8_addon_magentoerpconnect-8.0.3.0.0.99.dev98-py2-none-any.whl
+[2023-06-10 05:00:02] INFO root fetch - processPackages [odoo14-addon-sale-commission]: Downloading https://files.pythonhosted.org/packages/f9/c6/7e13035ea9c0a56d5ee64e0d339feddc85538e8f19262144f439b2d06162/odoo14_addon_sale_commission-14.0.1.6.0-py3-none-any.whl
+[2023-06-10 05:00:02] INFO root fetch - processPackages [Ret2GPT]: Downloading https://files.pythonhosted.org/packages/12/1f/45218f16c8ecf938d8043b498b1908cc461a9345074e46c1f60a4b521d72/Ret2GPT-1.0.2.tar.gz
+[2023-06-10 05:00:02] INFO root fetch - processPackages [perseus-restful-api-framework]: executing diffoscope
+[2023-06-10 05:00:02] INFO root fetch - processPackages [perseus-restful-api-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perseus_restful_api_framework-1.26.8.tar.gz tmp/perseus_restful_api_framework-1.26.9.tar.gz --markdown 20230610/p/perseus-restful-api-framework/1.26.8-1.26.9/diff.md --exclude *.pyd
+[2023-06-10 05:00:02] INFO root fetch - processPackages [Ret2GPT]: executing diffoscope
+[2023-06-10 05:00:02] INFO root fetch - processPackages [Ret2GPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Ret2GPT-1.0.1.4.tar.gz tmp/Ret2GPT-1.0.2.tar.gz --markdown 20230610/R/Ret2GPT/1.0.1.4-1.0.2/diff.md --exclude *.pyd
+[2023-06-10 05:00:02] INFO root fetch - processPackages [neon-mana-utils]: Downloading https://files.pythonhosted.org/packages/ce/02/5116da9f9e04b22cfb92574f40ceeec58ab6fad39a0c5b5d6d8306eb9c00/neon_mana_utils-0.1.1a1-py3-none-any.whl
+[2023-06-10 05:00:02] INFO root fetch - processPackages [odoo14-addon-sale-commission]: Downloading https://files.pythonhosted.org/packages/e4/af/9dd65f14844d34b359fed13930d3303e3b3d2d59fe9e500d66ee9eee2d8e/odoo14_addon_sale_commission-14.0.1.6.1.dev1-py3-none-any.whl
+[2023-06-10 05:00:02] INFO root fetch - processPackages [neon-mana-utils]: executing diffoscope
+[2023-06-10 05:00:02] INFO root fetch - processPackages [neon-mana-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_mana_utils-0.1.0-py3-none-any.whl.zip tmp/neon_mana_utils-0.1.1a1-py3-none-any.whl.zip --markdown 20230610/n/neon-mana-utils/0.1.0-0.1.1a1/diff.md --exclude *.pyd
+[2023-06-10 05:00:02] INFO root fetch - processPackages [odoo14-addon-sale-commission]: executing diffoscope
+[2023-06-10 05:00:02] INFO root fetch - processPackages [odoo14-addon-sale-commission]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_sale_commission-14.0.1.6.0-py3-none-any.whl.zip tmp/odoo14_addon_sale_commission-14.0.1.6.1.dev1-py3-none-any.whl.zip --markdown 20230610/o/odoo14-addon-sale-commission/14.0.1.6.0-14.0.1.6.1.dev1/diff.md --exclude *.pyd
+[2023-06-10 05:00:03] INFO root fetch - processPackages [Ret2GPT]: Remove: archive file [/home/abi/fetcher/tmp/Ret2GPT-1.0.1.4.tar.gz]
+[2023-06-10 05:00:03] INFO root fetch - processPackages [Ret2GPT]: Remove: archive file [/home/abi/fetcher/tmp/Ret2GPT-1.0.2.tar.gz]
+[2023-06-10 05:00:03] INFO root fetch - main [MainThread]: End processing [Ret2GPT]: success
+[2023-06-10 05:00:03] INFO root fetch - processPackages [neon-mana-utils]: Remove: archive file [/home/abi/fetcher/tmp/neon_mana_utils-0.1.0-py3-none-any.whl.zip]
+[2023-06-10 05:00:03] INFO root fetch - processPackages [neon-mana-utils]: Remove: archive file [/home/abi/fetcher/tmp/neon_mana_utils-0.1.1a1-py3-none-any.whl.zip]
+[2023-06-10 05:00:03] INFO root fetch - main [MainThread]: End processing [neon-mana-utils]: success
+[2023-06-10 05:00:04] INFO root fetch - processPackages [odoo14-addon-sale-commission]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_commission-14.0.1.6.0-py3-none-any.whl.zip]
+[2023-06-10 05:00:04] INFO root fetch - processPackages [odoo14-addon-sale-commission]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_commission-14.0.1.6.1.dev1-py3-none-any.whl.zip]
+[2023-06-10 05:00:04] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-commission]: success
+[2023-06-10 05:00:04] INFO root fetch - processPackages [odoo8-addon-magentoerpconnect]: Downloading https://files.pythonhosted.org/packages/8c/df/e2903450ff8a8521d1ffe7f414b2c48a9ae22059b2f7e39c7ca578b500c2/odoo8_addon_magentoerpconnect-8.0.3.0.0.99.dev99-py2-none-any.whl
+[2023-06-10 05:00:04] INFO root fetch - processPackages [perseus-restful-api-framework]: Remove: archive file [/home/abi/fetcher/tmp/perseus_restful_api_framework-1.26.8.tar.gz]
+[2023-06-10 05:00:04] INFO root fetch - processPackages [perseus-restful-api-framework]: Remove: archive file [/home/abi/fetcher/tmp/perseus_restful_api_framework-1.26.9.tar.gz]
+[2023-06-10 05:00:04] INFO root fetch - main [MainThread]: End processing [perseus-restful-api-framework]: success
+[2023-06-10 05:00:06] INFO root fetch - processPackages [odoo8-addon-magentoerpconnect]: executing diffoscope
+[2023-06-10 05:00:06] INFO root fetch - processPackages [odoo8-addon-magentoerpconnect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_magentoerpconnect-8.0.3.0.0.99.dev98-py2-none-any.whl.zip tmp/odoo8_addon_magentoerpconnect-8.0.3.0.0.99.dev99-py2-none-any.whl.zip --markdown 20230610/o/odoo8-addon-magentoerpconnect/8.0.3.0.0.99.dev98-8.0.3.0.0.99.dev99/diff.md --exclude *.pyd
+[2023-06-10 05:00:11] INFO root fetch - processPackages [odoo8-addon-magentoerpconnect]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_magentoerpconnect-8.0.3.0.0.99.dev98-py2-none-any.whl.zip]
+[2023-06-10 05:00:11] INFO root fetch - processPackages [odoo8-addon-magentoerpconnect]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_magentoerpconnect-8.0.3.0.0.99.dev99-py2-none-any.whl.zip]
+[2023-06-10 05:00:11] INFO root fetch - main [MainThread]: End processing [odoo8-addon-magentoerpconnect]: success
+[2023-06-10 05:00:11] INFO root fetch - main [MainThread]: Store serial: [18448306]
