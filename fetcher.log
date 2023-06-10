@@ -7085,3 +7085,42 @@ EOFError: EOF read where object expected
 [2023-06-10 05:20:58] INFO root fetch - processPackages [py4DSTEM]: Remove: archive file [/home/abi/fetcher/tmp/py4DSTEM-0.9.9.tar.gz]
 [2023-06-10 05:20:58] INFO root fetch - main [MainThread]: End processing [py4DSTEM]: success
 [2023-06-10 05:20:58] INFO root fetch - main [MainThread]: Store serial: [18448359]
+[2023-06-10 05:26:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18448359]
+[2023-06-10 05:26:07] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-10 05:26:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: korean-regex
+[2023-06-10 05:26:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Ret2GPT
+[2023-06-10 05:26:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: danmakuC
+[2023-06-10 05:26:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: konfuzio-sdk
+[2023-06-10 05:26:07] INFO root fetch - processPackages [korean-regex]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-10 05:26:07] INFO root fetch - processPackages [Ret2GPT]: New version: [1.0.2.1] Old Version: [1.0.2]
+[2023-06-10 05:26:07] INFO root fetch - processPackages [konfuzio-sdk]: New version: [0.2.9.dev20230104175944] Old Version: [0.2.9.dev20221227125623]
+[2023-06-10 05:26:07] INFO root fetch - processPackages [danmakuC]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-06-10 05:26:07] INFO root fetch - processPackages [Ret2GPT]: Downloading https://files.pythonhosted.org/packages/12/1f/45218f16c8ecf938d8043b498b1908cc461a9345074e46c1f60a4b521d72/Ret2GPT-1.0.2.tar.gz
+[2023-06-10 05:26:07] INFO root fetch - processPackages [konfuzio-sdk]: Downloading https://files.pythonhosted.org/packages/ac/dc/9465335e6231c486f3c6bdbe6b292085b01976718bb1af6f33d8d890281a/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz
+[2023-06-10 05:26:07] INFO root fetch - processPackages [korean-regex]: Downloading https://files.pythonhosted.org/packages/15/98/acff27f8e8957fba581437ad71b7a68645a187b08f810df4c96687fc0b6e/korean_regex-0.0.1.tar.gz
+[2023-06-10 05:26:07] INFO root fetch - processPackages [danmakuC]: Downloading https://files.pythonhosted.org/packages/c4/40/22a58f83fea6ccc55d36f0969c765ef1220eb53ab5ce274c58111d71aaa6/danmakuC-0.3.5.tar.gz
+[2023-06-10 05:26:07] INFO root fetch - processPackages [konfuzio-sdk]: Downloading https://files.pythonhosted.org/packages/4a/3b/875a5d1cf74ec597eceaf7095d68ea13e58abb9f095fff321dc0709029f0/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz
+[2023-06-10 05:26:07] INFO root fetch - processPackages [Ret2GPT]: Downloading https://files.pythonhosted.org/packages/d9/66/a6de0a0a484f27d81717152a7544da96a7bf1c106e5d649fa18482a75533/Ret2GPT-1.0.2.1.tar.gz
+[2023-06-10 05:26:07] INFO root fetch - processPackages [korean-regex]: Downloading https://files.pythonhosted.org/packages/ca/72/fbde4d98443fc3ed279ed0d5650a2d2835d842b609ee7a0b58c73393d877/korean_regex-0.0.2.tar.gz
+[2023-06-10 05:26:07] INFO root fetch - processPackages [Ret2GPT]: executing diffoscope
+[2023-06-10 05:26:07] INFO root fetch - processPackages [Ret2GPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Ret2GPT-1.0.2.tar.gz tmp/Ret2GPT-1.0.2.1.tar.gz --markdown 20230610/R/Ret2GPT/1.0.2-1.0.2.1/diff.md --exclude *.pyd
+[2023-06-10 05:26:07] INFO root fetch - processPackages [konfuzio-sdk]: executing diffoscope
+[2023-06-10 05:26:07] INFO root fetch - processPackages [konfuzio-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz tmp/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz --markdown 20230610/k/konfuzio-sdk/0.2.9.dev20221227125623-0.2.9.dev20230104175944/diff.md --exclude *.pyd
+[2023-06-10 05:26:07] INFO root fetch - processPackages [korean-regex]: executing diffoscope
+[2023-06-10 05:26:07] INFO root fetch - processPackages [korean-regex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/korean_regex-0.0.1.tar.gz tmp/korean_regex-0.0.2.tar.gz --markdown 20230610/k/korean-regex/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-10 05:26:07] INFO root fetch - processPackages [danmakuC]: Downloading https://files.pythonhosted.org/packages/bf/dd/0ae0d3ffd8608d1d50903d1ed7e2994556a3c7ce90a1dcd0fe95b22c9cf2/danmakuC-0.3.6-cp38-cp38-win32.whl
+[2023-06-10 05:26:08] INFO root fetch - processPackages [danmakuC]: executing diffoscope
+[2023-06-10 05:26:08] INFO root fetch - processPackages [danmakuC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/danmakuC-0.3.5.tar.gz tmp/danmakuC-0.3.6-cp38-cp38-win32.whl.zip --markdown 20230610/d/danmakuC/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-06-10 05:26:08] INFO root fetch - processPackages [Ret2GPT]: Remove: archive file [/home/abi/fetcher/tmp/Ret2GPT-1.0.2.tar.gz]
+[2023-06-10 05:26:08] INFO root fetch - processPackages [Ret2GPT]: Remove: archive file [/home/abi/fetcher/tmp/Ret2GPT-1.0.2.1.tar.gz]
+[2023-06-10 05:26:08] INFO root fetch - main [MainThread]: End processing [Ret2GPT]: success
+[2023-06-10 05:26:08] INFO root fetch - processPackages [korean-regex]: Remove: archive file [/home/abi/fetcher/tmp/korean_regex-0.0.1.tar.gz]
+[2023-06-10 05:26:08] INFO root fetch - processPackages [korean-regex]: Remove: archive file [/home/abi/fetcher/tmp/korean_regex-0.0.2.tar.gz]
+[2023-06-10 05:26:08] INFO root fetch - main [MainThread]: End processing [korean-regex]: success
+[2023-06-10 05:26:08] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz]
+[2023-06-10 05:26:08] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz]
+[2023-06-10 05:26:08] INFO root fetch - main [MainThread]: End processing [konfuzio-sdk]: success
+[2023-06-10 05:26:10] INFO root fetch - processPackages [danmakuC]: Remove: archive file [/home/abi/fetcher/tmp/danmakuC-0.3.5.tar.gz]
+[2023-06-10 05:26:10] INFO root fetch - processPackages [danmakuC]: Remove: archive file [/home/abi/fetcher/tmp/danmakuC-0.3.6-cp38-cp38-win32.whl.zip]
+[2023-06-10 05:26:10] INFO root fetch - main [MainThread]: End processing [danmakuC]: success
+[2023-06-10 05:26:10] INFO root fetch - main [MainThread]: Store serial: [18448390]
