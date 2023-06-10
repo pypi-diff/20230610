@@ -8481,3 +8481,27 @@ EOFError: EOF read where object expected
 [2023-06-10 08:19:12] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.6.1.dev20230609.tar.gz]
 [2023-06-10 08:19:12] INFO root fetch - main [MainThread]: End processing [pretext]: success
 [2023-06-10 08:19:12] INFO root fetch - main [MainThread]: Store serial: [18449066]
+[2023-06-10 08:24:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18449066]
+[2023-06-10 08:24:21] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-10 08:24:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyfilehandling
+[2023-06-10 08:24:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hypha
+[2023-06-10 08:24:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: casbin-databases-adapter
+[2023-06-10 08:24:21] WARNING root fetch - processPackages [casbin-databases-adapter]: Skipping, unable to determine old version
+[2023-06-10 08:24:21] INFO root fetch - main [MainThread]: End processing [casbin-databases-adapter] error
+[2023-06-10 08:24:21] INFO root fetch - processPackages [hypha]: New version: [0.15.8] Old Version: [0.15.7]
+[2023-06-10 08:24:21] INFO root fetch - processPackages [pyfilehandling]: New version: [1.0] Old Version: [0.2]
+[2023-06-10 08:24:21] INFO root fetch - processPackages [pyfilehandling]: Downloading https://files.pythonhosted.org/packages/64/1d/8dff9b10a56a373c67a09ec78fb1e6c570ac1c34a8f50829a33ef6effd13/pyfilehandling-0.2.tar.gz
+[2023-06-10 08:24:21] INFO root fetch - processPackages [hypha]: Downloading https://files.pythonhosted.org/packages/3b/1c/2587650834b82f5294e81891a15c92e1504fc26a7cb3ea08be1d64f1236a/hypha-0.15.7.tar.gz
+[2023-06-10 08:24:21] INFO root fetch - processPackages [pyfilehandling]: Downloading https://files.pythonhosted.org/packages/f2/75/2be6cb74f0c095d3e1c6ed500bd74772b6886a6ff88866b00db6ccbb385c/pyfilehandling-1.0.tar.gz
+[2023-06-10 08:24:21] INFO root fetch - processPackages [hypha]: Downloading https://files.pythonhosted.org/packages/5f/f5/974dbcd4812824cf3f90d85490f8c6b7df7931f35b4ea2b5bdb8cd72cdbf/hypha-0.15.8.tar.gz
+[2023-06-10 08:24:21] INFO root fetch - processPackages [pyfilehandling]: executing diffoscope
+[2023-06-10 08:24:21] INFO root fetch - processPackages [pyfilehandling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfilehandling-0.2.tar.gz tmp/pyfilehandling-1.0.tar.gz --markdown 20230610/p/pyfilehandling/0.2-1.0/diff.md --exclude *.pyd
+[2023-06-10 08:24:21] INFO root fetch - processPackages [hypha]: executing diffoscope
+[2023-06-10 08:24:21] INFO root fetch - processPackages [hypha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypha-0.15.7.tar.gz tmp/hypha-0.15.8.tar.gz --markdown 20230610/h/hypha/0.15.7-0.15.8/diff.md --exclude *.pyd
+[2023-06-10 08:24:22] INFO root fetch - processPackages [pyfilehandling]: Remove: archive file [/home/abi/fetcher/tmp/pyfilehandling-0.2.tar.gz]
+[2023-06-10 08:24:22] INFO root fetch - processPackages [pyfilehandling]: Remove: archive file [/home/abi/fetcher/tmp/pyfilehandling-1.0.tar.gz]
+[2023-06-10 08:24:22] INFO root fetch - main [MainThread]: End processing [pyfilehandling]: success
+[2023-06-10 08:24:23] INFO root fetch - processPackages [hypha]: Remove: archive file [/home/abi/fetcher/tmp/hypha-0.15.7.tar.gz]
+[2023-06-10 08:24:23] INFO root fetch - processPackages [hypha]: Remove: archive file [/home/abi/fetcher/tmp/hypha-0.15.8.tar.gz]
+[2023-06-10 08:24:23] INFO root fetch - main [MainThread]: End processing [hypha]: success
+[2023-06-10 08:24:23] INFO root fetch - main [MainThread]: Store serial: [18449077]
