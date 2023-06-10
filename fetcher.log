@@ -6980,3 +6980,60 @@ EOFError: EOF read where object expected
 [2023-06-10 05:10:34] INFO root fetch - processPackages [odoo-addons-oca-currency]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_currency-16.0.20230609.0-py3-none-any.whl.zip]
 [2023-06-10 05:10:34] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-currency]: success
 [2023-06-10 05:10:34] INFO root fetch - main [MainThread]: Store serial: [18448328]
+[2023-06-10 05:15:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18448328]
+[2023-06-10 05:15:44] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-10 05:15:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dcrx-api
+[2023-06-10 05:15:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: perseus-restful-api-framework
+[2023-06-10 05:15:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yunxiao
+[2023-06-10 05:15:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: GANDLF
+[2023-06-10 05:15:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: python-manifest
+[2023-06-10 05:15:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: quorum-mininode-py
+[2023-06-10 05:15:44] INFO root fetch - processPackages [perseus-restful-api-framework]: New version: [1.26.9] Old Version: [1.26.8]
+[2023-06-10 05:15:44] INFO root fetch - processPackages [python-manifest]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-10 05:15:44] INFO root fetch - processPackages [dcrx-api]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-10 05:15:44] INFO root fetch - processPackages [perseus-restful-api-framework]: Downloading https://files.pythonhosted.org/packages/80/72/6a2628fda2ee20de41514a51916001d12eb60a0d744948a158e0b495038d/perseus_restful_api_framework-1.26.8.tar.gz
+[2023-06-10 05:15:44] INFO root fetch - processPackages [python-manifest]: Downloading https://files.pythonhosted.org/packages/80/e8/71bcdac6daac6da25ee97d7c08c6efd287a23a27570613c7c413e9c595fc/python_manifest-1.0.2-py3-none-any.whl
+[2023-06-10 05:15:44] INFO root fetch - processPackages [dcrx-api]: Downloading https://files.pythonhosted.org/packages/cb/06/069b4f79a02a32c44752b948bb8520fd2fde8415708bfe7e13e7c19707ef/dcrx-api-0.1.8.tar.gz
+[2023-06-10 05:15:44] INFO root fetch - processPackages [yunxiao]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-10 05:15:44] INFO root fetch - processPackages [GANDLF]: New version: [0.0.17.dev20230610] Old Version: [0.0.17.dev20230609]
+[2023-06-10 05:15:44] INFO root fetch - processPackages [quorum-mininode-py]: New version: [1.3.0] Old Version: [1.2.9]
+[2023-06-10 05:15:44] INFO root fetch - processPackages [GANDLF]: Downloading https://files.pythonhosted.org/packages/fe/c6/301a9abacd9599a7d99095a92e3bac50523566a26ee9ed31ad3edbfce583/GANDLF-0.0.17.dev20230609.tar.gz
+[2023-06-10 05:15:44] INFO root fetch - processPackages [python-manifest]: Downloading https://files.pythonhosted.org/packages/a5/6a/ebd2cb8a0b55e14012431a141787016cec9fa6d90ce9dc6cfac43dc1a6e2/python_manifest-1.0.3-py3-none-any.whl
+[2023-06-10 05:15:44] INFO root fetch - processPackages [dcrx-api]: Downloading https://files.pythonhosted.org/packages/ec/35/452b46bfdda475bf32f8e68044754d83404cb99439279f5d5148c341a986/dcrx-api-0.1.9.tar.gz
+[2023-06-10 05:15:44] INFO root fetch - processPackages [perseus-restful-api-framework]: Downloading https://files.pythonhosted.org/packages/cf/74/730b74192f6c1e7410d7a9ba9957dad8eebbc5f556057ff6a238cac07e2a/perseus_restful_api_framework-1.26.9.tar.gz
+[2023-06-10 05:15:44] INFO root fetch - processPackages [yunxiao]: Downloading https://files.pythonhosted.org/packages/9b/6a/5279175ab0794b93607a09a26d61e9df00a827d0595c89c7468dc77f600c/yunxiao-0.1.8.tar.gz
+[2023-06-10 05:15:44] INFO root fetch - processPackages [python-manifest]: executing diffoscope
+[2023-06-10 05:15:44] INFO root fetch - processPackages [python-manifest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_manifest-1.0.2-py3-none-any.whl.zip tmp/python_manifest-1.0.3-py3-none-any.whl.zip --markdown 20230610/p/python-manifest/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-10 05:15:44] INFO root fetch - processPackages [dcrx-api]: executing diffoscope
+[2023-06-10 05:15:44] INFO root fetch - processPackages [dcrx-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcrx-api-0.1.8.tar.gz tmp/dcrx-api-0.1.9.tar.gz --markdown 20230610/d/dcrx-api/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-10 05:15:44] INFO root fetch - processPackages [quorum-mininode-py]: Downloading https://files.pythonhosted.org/packages/f2/45/a552b90eaf2b02fe555c5fbcfaf6fda0675ca60ca27402e671b982aa37d6/quorum_mininode_py-1.2.9.tar.gz
+[2023-06-10 05:15:44] INFO root fetch - processPackages [perseus-restful-api-framework]: executing diffoscope
+[2023-06-10 05:15:44] INFO root fetch - processPackages [perseus-restful-api-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perseus_restful_api_framework-1.26.8.tar.gz tmp/perseus_restful_api_framework-1.26.9.tar.gz --markdown 20230610/p/perseus-restful-api-framework/1.26.8-1.26.9/diff.md --exclude *.pyd
+[2023-06-10 05:15:44] INFO root fetch - processPackages [GANDLF]: Downloading https://files.pythonhosted.org/packages/f8/1c/94206723fe858b0985be592431db0c8806de699983627f923c64516d76e6/GANDLF-0.0.17.dev20230610.tar.gz
+[2023-06-10 05:15:44] INFO root fetch - processPackages [quorum-mininode-py]: Downloading https://files.pythonhosted.org/packages/27/e9/1f88f8847ea5a4ef5f9497368e7333ac0192bc57710fd1dd4589dfdefb34/quorum_mininode_py-1.3.0.tar.gz
+[2023-06-10 05:15:44] INFO root fetch - processPackages [yunxiao]: Downloading https://files.pythonhosted.org/packages/7d/7a/7472792f3fe9648b88e700ea94ea0e372dbe6a031c11456525a35dc5feca/yunxiao-0.1.9.tar.gz
+[2023-06-10 05:15:44] INFO root fetch - processPackages [GANDLF]: executing diffoscope
+[2023-06-10 05:15:44] INFO root fetch - processPackages [GANDLF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GANDLF-0.0.17.dev20230609.tar.gz tmp/GANDLF-0.0.17.dev20230610.tar.gz --markdown 20230610/G/GANDLF/0.0.17.dev20230609-0.0.17.dev20230610/diff.md --exclude *.pyd
+[2023-06-10 05:15:44] INFO root fetch - processPackages [yunxiao]: executing diffoscope
+[2023-06-10 05:15:44] INFO root fetch - processPackages [yunxiao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yunxiao-0.1.8.tar.gz tmp/yunxiao-0.1.9.tar.gz --markdown 20230610/y/yunxiao/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-10 05:15:45] INFO root fetch - processPackages [quorum-mininode-py]: executing diffoscope
+[2023-06-10 05:15:45] INFO root fetch - processPackages [quorum-mininode-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quorum_mininode_py-1.2.9.tar.gz tmp/quorum_mininode_py-1.3.0.tar.gz --markdown 20230610/q/quorum-mininode-py/1.2.9-1.3.0/diff.md --exclude *.pyd
+[2023-06-10 05:15:45] INFO root fetch - processPackages [python-manifest]: Remove: archive file [/home/abi/fetcher/tmp/python_manifest-1.0.2-py3-none-any.whl.zip]
+[2023-06-10 05:15:45] INFO root fetch - processPackages [python-manifest]: Remove: archive file [/home/abi/fetcher/tmp/python_manifest-1.0.3-py3-none-any.whl.zip]
+[2023-06-10 05:15:45] INFO root fetch - main [MainThread]: End processing [python-manifest]: success
+[2023-06-10 05:15:45] INFO root fetch - processPackages [dcrx-api]: Remove: archive file [/home/abi/fetcher/tmp/dcrx-api-0.1.8.tar.gz]
+[2023-06-10 05:15:45] INFO root fetch - processPackages [dcrx-api]: Remove: archive file [/home/abi/fetcher/tmp/dcrx-api-0.1.9.tar.gz]
+[2023-06-10 05:15:45] INFO root fetch - main [MainThread]: End processing [dcrx-api]: success
+[2023-06-10 05:15:46] INFO root fetch - processPackages [yunxiao]: Remove: archive file [/home/abi/fetcher/tmp/yunxiao-0.1.8.tar.gz]
+[2023-06-10 05:15:46] INFO root fetch - processPackages [yunxiao]: Remove: archive file [/home/abi/fetcher/tmp/yunxiao-0.1.9.tar.gz]
+[2023-06-10 05:15:46] INFO root fetch - main [MainThread]: End processing [yunxiao]: success
+[2023-06-10 05:15:46] INFO root fetch - processPackages [quorum-mininode-py]: Remove: archive file [/home/abi/fetcher/tmp/quorum_mininode_py-1.2.9.tar.gz]
+[2023-06-10 05:15:46] INFO root fetch - processPackages [quorum-mininode-py]: Remove: archive file [/home/abi/fetcher/tmp/quorum_mininode_py-1.3.0.tar.gz]
+[2023-06-10 05:15:46] INFO root fetch - main [MainThread]: End processing [quorum-mininode-py]: success
+[2023-06-10 05:15:46] INFO root fetch - processPackages [GANDLF]: Remove: archive file [/home/abi/fetcher/tmp/GANDLF-0.0.17.dev20230609.tar.gz]
+[2023-06-10 05:15:46] INFO root fetch - processPackages [GANDLF]: Remove: archive file [/home/abi/fetcher/tmp/GANDLF-0.0.17.dev20230610.tar.gz]
+[2023-06-10 05:15:46] INFO root fetch - main [MainThread]: End processing [GANDLF]: success
+[2023-06-10 05:15:46] INFO root fetch - processPackages [perseus-restful-api-framework]: Remove: archive file [/home/abi/fetcher/tmp/perseus_restful_api_framework-1.26.8.tar.gz]
+[2023-06-10 05:15:46] INFO root fetch - processPackages [perseus-restful-api-framework]: Remove: archive file [/home/abi/fetcher/tmp/perseus_restful_api_framework-1.26.9.tar.gz]
+[2023-06-10 05:15:46] INFO root fetch - main [MainThread]: End processing [perseus-restful-api-framework]: success
+[2023-06-10 05:15:46] INFO root fetch - main [MainThread]: Store serial: [18448342]
