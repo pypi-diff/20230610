@@ -15989,3 +15989,87 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-10 19:50:54] INFO root fetch - processPackages [quik-ai]: Remove: archive file [/home/abi/fetcher/tmp/quik-ai-1.0.1.tar.gz]
 [2023-06-10 19:50:54] INFO root fetch - main [MainThread]: End processing [quik-ai]: success
 [2023-06-10 19:50:54] INFO root fetch - main [MainThread]: Store serial: [18452750]
+[2023-06-10 19:55:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18452750]
+[2023-06-10 19:56:02] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-10 19:56:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scratchattach
+[2023-06-10 19:56:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyhalo
+[2023-06-10 19:56:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: html-report-line-profiler
+[2023-06-10 19:56:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyobihai
+[2023-06-10 19:56:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: graphdisplay
+[2023-06-10 19:56:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: scorecardpipeline
+[2023-06-10 19:56:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: peaqevcore
+[2023-06-10 19:56:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hashkern
+[2023-06-10 19:56:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: spimdisasm
+[2023-06-10 19:56:03] INFO root fetch - processPackages [html-report-line-profiler]: New version: [0.1.0] Old Version: [0.0.2]
+[2023-06-10 19:56:03] INFO root fetch - processPackages [pyhalo]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-06-10 19:56:03] INFO root fetch - processPackages [scorecardpipeline]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-10 19:56:03] INFO root fetch - processPackages [graphdisplay]: New version: [0.4.7] Old Version: [0.4.6]
+[2023-06-10 19:56:03] INFO root fetch - processPackages [pyobihai]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-06-10 19:56:03] INFO root fetch - processPackages [scratchattach]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-10 19:56:03] INFO root fetch - processPackages [spimdisasm]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-06-10 19:56:03] INFO root fetch - processPackages [peaqevcore]: New version: [9.2.3] Old Version: [9.2.2]
+[2023-06-10 19:56:03] INFO root fetch - processPackages [pyhalo]: Downloading https://files.pythonhosted.org/packages/2a/5b/e8aa697b164260448f43ad2945acb5f07cb9c8f84aff791465bb2b3fcfb7/pyhalo-0.2.6.tar.gz
+[2023-06-10 19:56:03] INFO root fetch - processPackages [scratchattach]: Downloading https://files.pythonhosted.org/packages/fb/e7/1d69d744b0d6b11f4d96ed8fcf7ea0a3d4ecbc28e64ff3565ea80a301cb1/scratchattach-1.1.8.tar.gz
+[2023-06-10 19:56:03] INFO root fetch - processPackages [html-report-line-profiler]: Downloading https://files.pythonhosted.org/packages/f0/f3/5e8193d1117a723b8a260f8eeccc9b0ef4df7ff3ace6287c908838277f73/html_report_line_profiler-0.0.2.tar.gz
+[2023-06-10 19:56:03] INFO root fetch - processPackages [peaqevcore]: Downloading https://files.pythonhosted.org/packages/d3/3a/d595706eb589ecf59a8cba9b6d5b0456fc65fe7e1d2c1e2aec7feee838b8/peaqevcore-9.2.2.tar.gz
+[2023-06-10 19:56:03] INFO root fetch - processPackages [hashkern]: New version: [0.4.0] Old Version: [0.3.3]
+[2023-06-10 19:56:03] INFO root fetch - processPackages [spimdisasm]: Downloading https://files.pythonhosted.org/packages/65/8a/e3c45d6cdbcedb650d78e916ad3a53d6a72fa3e8eb4c6ffe1da395457581/spimdisasm-1.9.1.tar.gz
+[2023-06-10 19:56:03] INFO root fetch - processPackages [graphdisplay]: Downloading https://files.pythonhosted.org/packages/b1/6a/f2899f474949c2844082ecc1f0d11c75405c0e963a2fce74bb47c9cc6139/graphdisplay-0.4.6.tar.gz
+[2023-06-10 19:56:03] INFO root fetch - processPackages [pyobihai]: Downloading https://files.pythonhosted.org/packages/20/72/36f2efd582e812bfd9a942918a9405eb8b861894e90600f5a62821adde93/pyobihai-1.4.1.tar.gz
+[2023-06-10 19:56:03] INFO root fetch - processPackages [scorecardpipeline]: Downloading https://files.pythonhosted.org/packages/fd/af/ef7ecf96dcc4213b3f7dfb9a15525fa157ef059a491d6853a7dd1105e435/scorecardpipeline-0.1.8.tar.gz
+[2023-06-10 19:56:03] INFO root fetch - processPackages [html-report-line-profiler]: Downloading https://files.pythonhosted.org/packages/88/18/78a8788789d043757feb94c1259f28367e658a7a6959b67e0df0f41bce2e/html_report_line_profiler-0.1.0.tar.gz
+[2023-06-10 19:56:03] INFO root fetch - processPackages [hashkern]: Downloading https://files.pythonhosted.org/packages/73/d6/ae7ef8326e5df8533403d9394f8121453078aa86bd9147927c12294af63d/hashkern-0.3.3.tar.gz
+[2023-06-10 19:56:03] INFO root fetch - processPackages [peaqevcore]: Downloading https://files.pythonhosted.org/packages/7d/ed/173dd45b11e856f6a0a37a2fe90750405b19807684a9c94bd5e9388c29a2/peaqevcore-9.2.3.tar.gz
+[2023-06-10 19:56:03] INFO root fetch - processPackages [pyhalo]: Downloading https://files.pythonhosted.org/packages/47/64/01e3e45510da5ca465477234e9b3408eaf192f39884d45803a9cc941c9ee/pyhalo-0.2.7.tar.gz
+[2023-06-10 19:56:03] INFO root fetch - processPackages [scratchattach]: Downloading https://files.pythonhosted.org/packages/0d/9c/a150d024dc92973b6294ce114ef14340bd99afe2f0161128e9367a26e42f/scratchattach-1.1.9.tar.gz
+[2023-06-10 19:56:03] INFO root fetch - processPackages [spimdisasm]: Downloading https://files.pythonhosted.org/packages/4f/b6/3e3fe88ecbbc893a7b39d4c1bb62693fbaa6ad1360bbb0af77a0acafca9c/spimdisasm-1.9.2.tar.gz
+[2023-06-10 19:56:03] INFO root fetch - processPackages [html-report-line-profiler]: executing diffoscope
+[2023-06-10 19:56:03] INFO root fetch - processPackages [html-report-line-profiler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/html_report_line_profiler-0.0.2.tar.gz tmp/html_report_line_profiler-0.1.0.tar.gz --markdown 20230610/h/html-report-line-profiler/0.0.2-0.1.0/diff.md --exclude *.pyd
+[2023-06-10 19:56:03] INFO root fetch - processPackages [peaqevcore]: executing diffoscope
+[2023-06-10 19:56:03] INFO root fetch - processPackages [peaqevcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peaqevcore-9.2.2.tar.gz tmp/peaqevcore-9.2.3.tar.gz --markdown 20230610/p/peaqevcore/9.2.2-9.2.3/diff.md --exclude *.pyd
+[2023-06-10 19:56:03] INFO root fetch - processPackages [pyobihai]: Downloading https://files.pythonhosted.org/packages/f0/cc/ac3f163f748ddc0c2d9191ef4955786537ebd802ced1c72466962d3cf862/pyobihai-1.4.2.tar.gz
+[2023-06-10 19:56:03] INFO root fetch - processPackages [pyhalo]: executing diffoscope
+[2023-06-10 19:56:03] INFO root fetch - processPackages [pyhalo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhalo-0.2.6.tar.gz tmp/pyhalo-0.2.7.tar.gz --markdown 20230610/p/pyhalo/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-06-10 19:56:03] INFO root fetch - processPackages [scratchattach]: executing diffoscope
+[2023-06-10 19:56:03] INFO root fetch - processPackages [scratchattach]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scratchattach-1.1.8.tar.gz tmp/scratchattach-1.1.9.tar.gz --markdown 20230610/s/scratchattach/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-10 19:56:03] INFO root fetch - processPackages [graphdisplay]: Downloading https://files.pythonhosted.org/packages/d9/e3/d75adec271570dea6041b101ccf25f269fcb197b601f59738c4314d1b35d/graphdisplay-0.4.7.tar.gz
+[2023-06-10 19:56:03] INFO root fetch - processPackages [spimdisasm]: executing diffoscope
+[2023-06-10 19:56:03] INFO root fetch - processPackages [spimdisasm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spimdisasm-1.9.1.tar.gz tmp/spimdisasm-1.9.2.tar.gz --markdown 20230610/s/spimdisasm/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-06-10 19:56:03] INFO root fetch - processPackages [pyobihai]: executing diffoscope
+[2023-06-10 19:56:03] INFO root fetch - processPackages [pyobihai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobihai-1.4.1.tar.gz tmp/pyobihai-1.4.2.tar.gz --markdown 20230610/p/pyobihai/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-06-10 19:56:03] INFO root fetch - processPackages [scorecardpipeline]: Downloading https://files.pythonhosted.org/packages/a4/91/45325468a92f3523d06f1e377fde8445d27c1710c8141c51f0c036fc39af/scorecardpipeline-0.1.9.tar.gz
+[2023-06-10 19:56:03] INFO root fetch - processPackages [hashkern]: Downloading https://files.pythonhosted.org/packages/eb/8c/2f16e694451027fc03482fc7b5470b7a5e5f20dfd7f9fd5332b1210ecf37/hashkern-0.4.0.tar.gz
+[2023-06-10 19:56:03] INFO root fetch - processPackages [graphdisplay]: executing diffoscope
+[2023-06-10 19:56:03] INFO root fetch - processPackages [graphdisplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphdisplay-0.4.6.tar.gz tmp/graphdisplay-0.4.7.tar.gz --markdown 20230610/g/graphdisplay/0.4.6-0.4.7/diff.md --exclude *.pyd
+[2023-06-10 19:56:03] INFO root fetch - processPackages [hashkern]: executing diffoscope
+[2023-06-10 19:56:03] INFO root fetch - processPackages [hashkern]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hashkern-0.3.3.tar.gz tmp/hashkern-0.4.0.tar.gz --markdown 20230610/h/hashkern/0.3.3-0.4.0/diff.md --exclude *.pyd
+[2023-06-10 19:56:04] INFO root fetch - processPackages [scorecardpipeline]: executing diffoscope
+[2023-06-10 19:56:04] INFO root fetch - processPackages [scorecardpipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scorecardpipeline-0.1.8.tar.gz tmp/scorecardpipeline-0.1.9.tar.gz --markdown 20230610/s/scorecardpipeline/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-10 19:56:04] INFO root fetch - processPackages [html-report-line-profiler]: Remove: archive file [/home/abi/fetcher/tmp/html_report_line_profiler-0.0.2.tar.gz]
+[2023-06-10 19:56:04] INFO root fetch - processPackages [html-report-line-profiler]: Remove: archive file [/home/abi/fetcher/tmp/html_report_line_profiler-0.1.0.tar.gz]
+[2023-06-10 19:56:04] INFO root fetch - main [MainThread]: End processing [html-report-line-profiler]: success
+[2023-06-10 19:56:05] INFO root fetch - processPackages [pyobihai]: Remove: archive file [/home/abi/fetcher/tmp/pyobihai-1.4.1.tar.gz]
+[2023-06-10 19:56:05] INFO root fetch - processPackages [pyobihai]: Remove: archive file [/home/abi/fetcher/tmp/pyobihai-1.4.2.tar.gz]
+[2023-06-10 19:56:05] INFO root fetch - main [MainThread]: End processing [pyobihai]: success
+[2023-06-10 19:56:05] INFO root fetch - processPackages [graphdisplay]: Remove: archive file [/home/abi/fetcher/tmp/graphdisplay-0.4.6.tar.gz]
+[2023-06-10 19:56:05] INFO root fetch - processPackages [graphdisplay]: Remove: archive file [/home/abi/fetcher/tmp/graphdisplay-0.4.7.tar.gz]
+[2023-06-10 19:56:05] INFO root fetch - main [MainThread]: End processing [graphdisplay]: success
+[2023-06-10 19:56:05] INFO root fetch - processPackages [hashkern]: Remove: archive file [/home/abi/fetcher/tmp/hashkern-0.3.3.tar.gz]
+[2023-06-10 19:56:05] INFO root fetch - processPackages [hashkern]: Remove: archive file [/home/abi/fetcher/tmp/hashkern-0.4.0.tar.gz]
+[2023-06-10 19:56:05] INFO root fetch - main [MainThread]: End processing [hashkern]: success
+[2023-06-10 19:56:05] INFO root fetch - processPackages [scorecardpipeline]: Remove: archive file [/home/abi/fetcher/tmp/scorecardpipeline-0.1.8.tar.gz]
+[2023-06-10 19:56:05] INFO root fetch - processPackages [scorecardpipeline]: Remove: archive file [/home/abi/fetcher/tmp/scorecardpipeline-0.1.9.tar.gz]
+[2023-06-10 19:56:05] INFO root fetch - main [MainThread]: End processing [scorecardpipeline]: success
+[2023-06-10 19:56:06] INFO root fetch - processPackages [scratchattach]: Remove: archive file [/home/abi/fetcher/tmp/scratchattach-1.1.8.tar.gz]
+[2023-06-10 19:56:06] INFO root fetch - processPackages [scratchattach]: Remove: archive file [/home/abi/fetcher/tmp/scratchattach-1.1.9.tar.gz]
+[2023-06-10 19:56:06] INFO root fetch - main [MainThread]: End processing [scratchattach]: success
+[2023-06-10 19:56:06] INFO root fetch - processPackages [peaqevcore]: Remove: archive file [/home/abi/fetcher/tmp/peaqevcore-9.2.2.tar.gz]
+[2023-06-10 19:56:06] INFO root fetch - processPackages [peaqevcore]: Remove: archive file [/home/abi/fetcher/tmp/peaqevcore-9.2.3.tar.gz]
+[2023-06-10 19:56:06] INFO root fetch - main [MainThread]: End processing [peaqevcore]: success
+[2023-06-10 19:56:06] INFO root fetch - processPackages [spimdisasm]: Remove: archive file [/home/abi/fetcher/tmp/spimdisasm-1.9.1.tar.gz]
+[2023-06-10 19:56:06] INFO root fetch - processPackages [spimdisasm]: Remove: archive file [/home/abi/fetcher/tmp/spimdisasm-1.9.2.tar.gz]
+[2023-06-10 19:56:06] INFO root fetch - main [MainThread]: End processing [spimdisasm]: success
+[2023-06-10 19:56:07] INFO root fetch - processPackages [pyhalo]: Remove: archive file [/home/abi/fetcher/tmp/pyhalo-0.2.6.tar.gz]
+[2023-06-10 19:56:07] INFO root fetch - processPackages [pyhalo]: Remove: archive file [/home/abi/fetcher/tmp/pyhalo-0.2.7.tar.gz]
+[2023-06-10 19:56:07] INFO root fetch - main [MainThread]: End processing [pyhalo]: success
+[2023-06-10 19:56:07] INFO root fetch - main [MainThread]: Store serial: [18452778]
