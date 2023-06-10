@@ -10690,3 +10690,57 @@ EOFError: EOF read where object expected
 [2023-06-10 12:56:47] INFO root fetch - processPackages [gns3-gui]: Remove: archive file [/home/abi/fetcher/tmp/gns3-gui-3.0.0a3.tar.gz]
 [2023-06-10 12:56:47] INFO root fetch - main [MainThread]: End processing [gns3-gui]: success
 [2023-06-10 12:56:47] INFO root fetch - main [MainThread]: Store serial: [18450119]
+[2023-06-10 13:01:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18450119]
+[2023-06-10 13:01:56] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-10 13:01:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: supreme-task
+[2023-06-10 13:01:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lamindb_setup
+[2023-06-10 13:01:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kdslibs
+[2023-06-10 13:01:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fastadmin
+[2023-06-10 13:01:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyrubi
+[2023-06-10 13:01:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rockingester
+[2023-06-10 13:01:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: newrelic-sb-sdk
+[2023-06-10 13:01:56] WARNING root fetch - processPackages [supreme-task]: Skipping, unable to determine old version
+[2023-06-10 13:01:56] INFO root fetch - main [MainThread]: End processing [supreme-task] error
+[2023-06-10 13:01:56] INFO root fetch - processPackages [lamindb_setup]: New version: [0.47.1] Old Version: [0.47.0]
+[2023-06-10 13:01:56] INFO root fetch - processPackages [lamindb_setup]: Downloading https://files.pythonhosted.org/packages/03/4e/1a760a3e70176891b9dfdfcbea1ae891114880cb952ca32cb54317b42343/lamindb_setup-0.47.0.tar.gz
+[2023-06-10 13:01:56] INFO root fetch - processPackages [pyrubi]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-06-10 13:01:56] INFO root fetch - processPackages [fastadmin]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-10 13:01:56] INFO root fetch - processPackages [newrelic-sb-sdk]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-06-10 13:01:56] WARNING root fetch - processPackages [kdslibs]: Skipping, unable to determine old version
+[2023-06-10 13:01:57] INFO root fetch - main [MainThread]: End processing [kdslibs] error
+[2023-06-10 13:01:57] INFO root fetch - processPackages [rockingester]: New version: [3.0.5] Old Version: [3.0.2]
+[2023-06-10 13:01:57] INFO root fetch - processPackages [pyrubi]: Downloading https://files.pythonhosted.org/packages/4e/b1/d06a2e43b3151414a7061f32befe8baf10e59896b0a8eea5f27437edfcba/pyrubi-2.1.0.tar.gz
+[2023-06-10 13:01:57] INFO root fetch - processPackages [fastadmin]: Downloading https://files.pythonhosted.org/packages/71/02/7668642f0d1fac4fb5e07ec7941670fd3db65b7c2d96bc9a061498177cdc/fastadmin-0.1.6.tar.gz
+[2023-06-10 13:01:57] INFO root fetch - processPackages [rockingester]: Downloading https://files.pythonhosted.org/packages/39/e2/f8109c263c27872251b9cd43a9a5a827c4129cbf8e2a6161f8db7c26b095/rockingester-3.0.2.tar.gz
+[2023-06-10 13:01:57] INFO root fetch - processPackages [newrelic-sb-sdk]: Downloading https://files.pythonhosted.org/packages/05/e3/75a587a7a5eeb98c731b9d6dd64ccea47c58b1c9638a7a7d038c2e76fbc5/newrelic_sb_sdk-0.5.0.tar.gz
+[2023-06-10 13:01:57] INFO root fetch - processPackages [lamindb_setup]: Downloading https://files.pythonhosted.org/packages/a2/32/f7072641ea144381b30c8fb3e74b8312e603eb3c383ac4d8a215fc0b609e/lamindb_setup-0.47.1.tar.gz
+[2023-06-10 13:01:57] INFO root fetch - processPackages [lamindb_setup]: executing diffoscope
+[2023-06-10 13:01:57] INFO root fetch - processPackages [lamindb_setup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamindb_setup-0.47.0.tar.gz tmp/lamindb_setup-0.47.1.tar.gz --markdown 20230610/l/lamindb_setup/0.47.0-0.47.1/diff.md --exclude *.pyd
+[2023-06-10 13:01:57] INFO root fetch - processPackages [pyrubi]: Downloading https://files.pythonhosted.org/packages/a2/0a/43e883b4bb6909b8d4ae236f61a653f30129f8a46d43527c6428cee36714/pyrubi-2.1.1.tar.gz
+[2023-06-10 13:01:57] INFO root fetch - processPackages [rockingester]: Downloading https://files.pythonhosted.org/packages/08/af/164a345c9fe8837f49e779d80b02194508d051860a467a05c577e17021c2/rockingester-3.0.5.tar.gz
+[2023-06-10 13:01:57] INFO root fetch - processPackages [pyrubi]: executing diffoscope
+[2023-06-10 13:01:57] INFO root fetch - processPackages [pyrubi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrubi-2.1.0.tar.gz tmp/pyrubi-2.1.1.tar.gz --markdown 20230610/p/pyrubi/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-06-10 13:01:57] INFO root fetch - processPackages [newrelic-sb-sdk]: Downloading https://files.pythonhosted.org/packages/a5/52/56e729653a270976afed32119e5077140813e7ad18feaa035a13ffb60ba0/newrelic_sb_sdk-0.6.0.tar.gz
+[2023-06-10 13:01:57] INFO root fetch - processPackages [rockingester]: executing diffoscope
+[2023-06-10 13:01:57] INFO root fetch - processPackages [rockingester]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rockingester-3.0.2.tar.gz tmp/rockingester-3.0.5.tar.gz --markdown 20230610/r/rockingester/3.0.2-3.0.5/diff.md --exclude *.pyd
+[2023-06-10 13:01:57] INFO root fetch - processPackages [newrelic-sb-sdk]: executing diffoscope
+[2023-06-10 13:01:57] INFO root fetch - processPackages [newrelic-sb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/newrelic_sb_sdk-0.5.0.tar.gz tmp/newrelic_sb_sdk-0.6.0.tar.gz --markdown 20230610/n/newrelic-sb-sdk/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-06-10 13:01:57] INFO root fetch - processPackages [fastadmin]: Downloading https://files.pythonhosted.org/packages/32/ba/06424e44dd1c0d49272ec7ad8e93f8b15e665c7c818a0cbd0b8b3ba2a4e4/fastadmin-0.1.7.tar.gz
+[2023-06-10 13:01:58] INFO root fetch - processPackages [pyrubi]: Remove: archive file [/home/abi/fetcher/tmp/pyrubi-2.1.0.tar.gz]
+[2023-06-10 13:01:58] INFO root fetch - processPackages [pyrubi]: Remove: archive file [/home/abi/fetcher/tmp/pyrubi-2.1.1.tar.gz]
+[2023-06-10 13:01:58] INFO root fetch - main [MainThread]: End processing [pyrubi]: success
+[2023-06-10 13:01:58] INFO root fetch - processPackages [fastadmin]: executing diffoscope
+[2023-06-10 13:01:58] INFO root fetch - processPackages [fastadmin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastadmin-0.1.6.tar.gz tmp/fastadmin-0.1.7.tar.gz --markdown 20230610/f/fastadmin/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-10 13:01:58] INFO root fetch - processPackages [lamindb_setup]: Remove: archive file [/home/abi/fetcher/tmp/lamindb_setup-0.47.0.tar.gz]
+[2023-06-10 13:01:58] INFO root fetch - processPackages [lamindb_setup]: Remove: archive file [/home/abi/fetcher/tmp/lamindb_setup-0.47.1.tar.gz]
+[2023-06-10 13:01:58] INFO root fetch - main [MainThread]: End processing [lamindb_setup]: success
+[2023-06-10 13:01:59] INFO root fetch - processPackages [newrelic-sb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/newrelic_sb_sdk-0.5.0.tar.gz]
+[2023-06-10 13:01:59] INFO root fetch - processPackages [newrelic-sb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/newrelic_sb_sdk-0.6.0.tar.gz]
+[2023-06-10 13:01:59] INFO root fetch - main [MainThread]: End processing [newrelic-sb-sdk]: success
+[2023-06-10 13:01:59] INFO root fetch - processPackages [rockingester]: Remove: archive file [/home/abi/fetcher/tmp/rockingester-3.0.2.tar.gz]
+[2023-06-10 13:01:59] INFO root fetch - processPackages [rockingester]: Remove: archive file [/home/abi/fetcher/tmp/rockingester-3.0.5.tar.gz]
+[2023-06-10 13:01:59] INFO root fetch - main [MainThread]: End processing [rockingester]: success
+[2023-06-10 13:04:24] INFO root fetch - processPackages [fastadmin]: Remove: archive file [/home/abi/fetcher/tmp/fastadmin-0.1.6.tar.gz]
+[2023-06-10 13:04:24] INFO root fetch - processPackages [fastadmin]: Remove: archive file [/home/abi/fetcher/tmp/fastadmin-0.1.7.tar.gz]
+[2023-06-10 13:04:24] INFO root fetch - main [MainThread]: End processing [fastadmin]: success
+[2023-06-10 13:04:24] INFO root fetch - main [MainThread]: Store serial: [18450145]
