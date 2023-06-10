@@ -14880,3 +14880,63 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-10 18:31:29] INFO root fetch - processPackages [otpme]: Remove: archive file [/home/abi/fetcher/tmp/otpme-0.3.0a9.tar.gz]
 [2023-06-10 18:31:29] INFO root fetch - main [MainThread]: End processing [otpme]: success
 [2023-06-10 18:31:29] INFO root fetch - main [MainThread]: Store serial: [18452106]
+[2023-06-10 18:36:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18452106]
+[2023-06-10 18:36:38] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-10 18:36:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: otpme
+[2023-06-10 18:36:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tkintertools-dev
+[2023-06-10 18:36:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: talkytrend
+[2023-06-10 18:36:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cross-process-bridge
+[2023-06-10 18:36:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nutorious
+[2023-06-10 18:36:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: MMutils
+[2023-06-10 18:36:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: html-report-line-profiler
+[2023-06-10 18:36:38] INFO root fetch - processPackages [nutorious]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-10 18:36:38] INFO root fetch - processPackages [otpme]: New version: [0.3.0a9] Old Version: [0.3.0a8]
+[2023-06-10 18:36:38] INFO root fetch - processPackages [talkytrend]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-06-10 18:36:38] WARNING root fetch - processPackages [cross-process-bridge]: Skipping, unable to determine old version
+[2023-06-10 18:36:38] INFO root fetch - processPackages [html-report-line-profiler]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-10 18:36:38] INFO root fetch - processPackages [tkintertools-dev]: New version: [2.6.4] Old Version: [2.6.3]
+[2023-06-10 18:36:38] INFO root fetch - main [MainThread]: End processing [cross-process-bridge] error
+[2023-06-10 18:36:38] INFO root fetch - processPackages [MMutils]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-10 18:36:38] INFO root fetch - processPackages [talkytrend]: Downloading https://files.pythonhosted.org/packages/65/80/2ac4502d99aad646a38b83111981612d4363ea9f9f5fa3af34a7c1febd90/talkytrend-1.1.0.tar.gz
+[2023-06-10 18:36:38] INFO root fetch - processPackages [nutorious]: Downloading https://files.pythonhosted.org/packages/09/42/9f085857bb2bc745d0b43b3fb0ae4ce739c61e9489f042f251ab9252ce11/nutorious-0.1.0.tar.gz
+[2023-06-10 18:36:38] INFO root fetch - processPackages [otpme]: Downloading https://files.pythonhosted.org/packages/98/1d/f05f73ea1e959973ab56f0abb892009528faf4a7f0da031af39371307de8/otpme-0.3.0a8.tar.gz
+[2023-06-10 18:36:38] INFO root fetch - processPackages [tkintertools-dev]: Downloading https://files.pythonhosted.org/packages/f6/f3/782ee7b95755ef3ece131f281be47988f3da37209229ecf4077808a22087/tkintertools-dev-2.6.3.tar.gz
+[2023-06-10 18:36:38] INFO root fetch - processPackages [MMutils]: Downloading https://files.pythonhosted.org/packages/8e/46/ced20db77ae7d2f029747005659351c9d80b0b3079f3680ac56f9e17587b/MMutils-0.0.3.tar.gz
+[2023-06-10 18:36:39] INFO root fetch - processPackages [html-report-line-profiler]: Downloading https://files.pythonhosted.org/packages/43/22/28ee348aa94e59587c5d7f02f23e163701420c6fdead12444e4cb3b26fd6/html_report_line_profiler-0.0.1.tar.gz
+[2023-06-10 18:36:39] INFO root fetch - processPackages [talkytrend]: Downloading https://files.pythonhosted.org/packages/c9/84/cdc7300a10b511d89d61f3f4dd52d9a789df7c9c6012c87e4f8c744f7300/talkytrend-1.1.1.tar.gz
+[2023-06-10 18:36:39] INFO root fetch - processPackages [nutorious]: Downloading https://files.pythonhosted.org/packages/37/ba/29f3f93b4ff7e72c9e4064d4b26aa8c5720fb94b9acd2ae60e0ba9216e69/nutorious-0.1.1.tar.gz
+[2023-06-10 18:36:39] INFO root fetch - processPackages [tkintertools-dev]: Downloading https://files.pythonhosted.org/packages/58/ab/4226a5d9818285da88af1ff31047dcffa30fa92984b17316db8bf97ebc90/tkintertools-dev-2.6.4.tar.gz
+[2023-06-10 18:36:39] INFO root fetch - processPackages [MMutils]: Downloading https://files.pythonhosted.org/packages/ea/0e/25de64316202566f89ddf025acad37747361728b7d7f5b972a8fb812fb74/MMutils-0.0.4.tar.gz
+[2023-06-10 18:36:39] INFO root fetch - processPackages [html-report-line-profiler]: Downloading https://files.pythonhosted.org/packages/f0/f3/5e8193d1117a723b8a260f8eeccc9b0ef4df7ff3ace6287c908838277f73/html_report_line_profiler-0.0.2.tar.gz
+[2023-06-10 18:36:39] INFO root fetch - processPackages [otpme]: Downloading https://files.pythonhosted.org/packages/ec/d4/c2021c5284dad482e118317f65e7a59ea168655179a76dfae7cc25e67961/otpme-0.3.0a9.tar.gz
+[2023-06-10 18:36:39] INFO root fetch - processPackages [nutorious]: executing diffoscope
+[2023-06-10 18:36:39] INFO root fetch - processPackages [nutorious]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nutorious-0.1.0.tar.gz tmp/nutorious-0.1.1.tar.gz --markdown 20230610/n/nutorious/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-10 18:36:39] INFO root fetch - processPackages [tkintertools-dev]: executing diffoscope
+[2023-06-10 18:36:39] INFO root fetch - processPackages [tkintertools-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tkintertools-dev-2.6.3.tar.gz tmp/tkintertools-dev-2.6.4.tar.gz --markdown 20230610/t/tkintertools-dev/2.6.3-2.6.4/diff.md --exclude *.pyd
+[2023-06-10 18:36:39] INFO root fetch - processPackages [talkytrend]: executing diffoscope
+[2023-06-10 18:36:39] INFO root fetch - processPackages [talkytrend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talkytrend-1.1.0.tar.gz tmp/talkytrend-1.1.1.tar.gz --markdown 20230610/t/talkytrend/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-06-10 18:36:39] INFO root fetch - processPackages [MMutils]: executing diffoscope
+[2023-06-10 18:36:39] INFO root fetch - processPackages [MMutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MMutils-0.0.3.tar.gz tmp/MMutils-0.0.4.tar.gz --markdown 20230610/M/MMutils/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-10 18:36:39] INFO root fetch - processPackages [otpme]: executing diffoscope
+[2023-06-10 18:36:39] INFO root fetch - processPackages [otpme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otpme-0.3.0a8.tar.gz tmp/otpme-0.3.0a9.tar.gz --markdown 20230610/o/otpme/0.3.0a8-0.3.0a9/diff.md --exclude *.pyd
+[2023-06-10 18:36:39] INFO root fetch - processPackages [html-report-line-profiler]: executing diffoscope
+[2023-06-10 18:36:39] INFO root fetch - processPackages [html-report-line-profiler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/html_report_line_profiler-0.0.1.tar.gz tmp/html_report_line_profiler-0.0.2.tar.gz --markdown 20230610/h/html-report-line-profiler/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-10 18:36:40] INFO root fetch - processPackages [nutorious]: Remove: archive file [/home/abi/fetcher/tmp/nutorious-0.1.0.tar.gz]
+[2023-06-10 18:36:40] INFO root fetch - processPackages [nutorious]: Remove: archive file [/home/abi/fetcher/tmp/nutorious-0.1.1.tar.gz]
+[2023-06-10 18:36:40] INFO root fetch - main [MainThread]: End processing [nutorious]: success
+[2023-06-10 18:36:40] INFO root fetch - processPackages [talkytrend]: Remove: archive file [/home/abi/fetcher/tmp/talkytrend-1.1.0.tar.gz]
+[2023-06-10 18:36:40] INFO root fetch - processPackages [talkytrend]: Remove: archive file [/home/abi/fetcher/tmp/talkytrend-1.1.1.tar.gz]
+[2023-06-10 18:36:40] INFO root fetch - main [MainThread]: End processing [talkytrend]: success
+[2023-06-10 18:36:41] INFO root fetch - processPackages [html-report-line-profiler]: Remove: archive file [/home/abi/fetcher/tmp/html_report_line_profiler-0.0.1.tar.gz]
+[2023-06-10 18:36:41] INFO root fetch - processPackages [html-report-line-profiler]: Remove: archive file [/home/abi/fetcher/tmp/html_report_line_profiler-0.0.2.tar.gz]
+[2023-06-10 18:36:41] INFO root fetch - main [MainThread]: End processing [html-report-line-profiler]: success
+[2023-06-10 18:36:41] INFO root fetch - processPackages [MMutils]: Remove: archive file [/home/abi/fetcher/tmp/MMutils-0.0.3.tar.gz]
+[2023-06-10 18:36:41] INFO root fetch - processPackages [MMutils]: Remove: archive file [/home/abi/fetcher/tmp/MMutils-0.0.4.tar.gz]
+[2023-06-10 18:36:41] INFO root fetch - main [MainThread]: End processing [MMutils]: success
+[2023-06-10 18:36:46] INFO root fetch - processPackages [otpme]: Remove: archive file [/home/abi/fetcher/tmp/otpme-0.3.0a8.tar.gz]
+[2023-06-10 18:36:46] INFO root fetch - processPackages [otpme]: Remove: archive file [/home/abi/fetcher/tmp/otpme-0.3.0a9.tar.gz]
+[2023-06-10 18:36:46] INFO root fetch - main [MainThread]: End processing [otpme]: success
+[2023-06-10 18:37:33] INFO root fetch - processPackages [tkintertools-dev]: Remove: archive file [/home/abi/fetcher/tmp/tkintertools-dev-2.6.3.tar.gz]
+[2023-06-10 18:37:33] INFO root fetch - processPackages [tkintertools-dev]: Remove: archive file [/home/abi/fetcher/tmp/tkintertools-dev-2.6.4.tar.gz]
+[2023-06-10 18:37:33] INFO root fetch - main [MainThread]: End processing [tkintertools-dev]: success
+[2023-06-10 18:37:33] INFO root fetch - main [MainThread]: Store serial: [18452131]
