@@ -16770,3 +16770,56 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-10 21:11:41] INFO root fetch - processPackages [dbx]: Remove: archive file [/home/abi/fetcher/tmp/dbx-0.8.9-py3-none-any.whl.zip]
 [2023-06-10 21:11:41] INFO root fetch - main [MainThread]: End processing [dbx]: success
 [2023-06-10 21:11:41] INFO root fetch - main [MainThread]: Store serial: [18453191]
+[2023-06-10 21:16:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18453191]
+[2023-06-10 21:16:50] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-10 21:16:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: AoiPy
+[2023-06-10 21:16:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: highcharts-gantt
+[2023-06-10 21:16:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bionty
+[2023-06-10 21:16:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: py-agua-iot
+[2023-06-10 21:16:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ogc-na
+[2023-06-10 21:16:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lnschema_bionty
+[2023-06-10 21:16:50] INFO root fetch - processPackages [ogc-na]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-10 21:16:50] INFO root fetch - processPackages [AoiPy]: New version: [0.9.18] Old Version: [0.9.17]
+[2023-06-10 21:16:50] INFO root fetch - processPackages [bionty]: New version: [0.9.0rc1] Old Version: [0.9.0]
+[2023-06-10 21:16:50] INFO root fetch - processPackages [ogc-na]: Downloading https://files.pythonhosted.org/packages/6f/1b/a35ac17c9749cc1cf599391bfd4eab6ac44746f5fbff779a67e85b5af2bb/ogc_na-0.2.8.tar.gz
+[2023-06-10 21:16:50] INFO root fetch - processPackages [AoiPy]: Downloading https://files.pythonhosted.org/packages/19/32/af10b0bc2e821a9e92b4ee843886148150c9020cf0d270f59c0179deafe7/AoiPy-0.9.17-py3-none-any.whl
+[2023-06-10 21:16:50] INFO root fetch - processPackages [bionty]: Downloading https://files.pythonhosted.org/packages/99/96/56b5f6e7d406917b173d9b761f4b2ff41b68d375105fe40b9b23131b295d/bionty-0.9.0.tar.gz
+[2023-06-10 21:16:50] INFO root fetch - processPackages [py-agua-iot]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-10 21:16:50] INFO root fetch - processPackages [lnschema_bionty]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-06-10 21:16:50] INFO root fetch - processPackages [highcharts-gantt]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-06-10 21:16:50] INFO root fetch - processPackages [lnschema_bionty]: Downloading https://files.pythonhosted.org/packages/12/bb/32a1cbaa73ee4f038a3540bbbf0b3d7e27f22edcdbd7d7c80667fef68afd/lnschema_bionty-0.8.1.tar.gz
+[2023-06-10 21:16:51] INFO root fetch - processPackages [ogc-na]: Downloading https://files.pythonhosted.org/packages/08/7b/d1a326265898c9d52f3a526697d9f0f458664b7dd04889cf4b95fcae2b5a/ogc_na-0.2.9.tar.gz
+[2023-06-10 21:16:51] INFO root fetch - processPackages [AoiPy]: Downloading https://files.pythonhosted.org/packages/f8/27/5da8a71f296f225c17b3ca84e877f963fdba228b95bff7e6c40ae3bd2a0a/AoiPy-0.9.18-py3-none-any.whl
+[2023-06-10 21:16:51] INFO root fetch - processPackages [py-agua-iot]: Downloading https://files.pythonhosted.org/packages/cc/7b/b2101df79cd2d81c8a29b6bd519a196948d073a706a9e0424fa151383d2c/py-agua-iot-0.0.7.tar.gz
+[2023-06-10 21:16:51] INFO root fetch - processPackages [bionty]: Downloading https://files.pythonhosted.org/packages/f4/01/3a99104d9a37cf7fbdae5c733cec97f252f8eb35f5553cd253a05edf8420/bionty-0.9.0rc1.tar.gz
+[2023-06-10 21:16:51] INFO root fetch - processPackages [highcharts-gantt]: Downloading https://files.pythonhosted.org/packages/ad/ea/e70aa34e905bcc4935dc46956c6a186caeee661e4167e6d7a16a167510bc/highcharts_gantt-1.2.0.tar.gz
+[2023-06-10 21:16:51] INFO root fetch - processPackages [ogc-na]: executing diffoscope
+[2023-06-10 21:16:51] INFO root fetch - processPackages [ogc-na]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ogc_na-0.2.8.tar.gz tmp/ogc_na-0.2.9.tar.gz --markdown 20230610/o/ogc-na/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-10 21:16:51] WARNING root fetch - processPackages [highcharts-gantt]: Skipping package: exceeds size limit 11104999>=10485760
+[2023-06-10 21:16:51] INFO root fetch - processPackages [AoiPy]: executing diffoscope
+[2023-06-10 21:16:51] INFO root fetch - main [MainThread]: End processing [highcharts-gantt] error
+[2023-06-10 21:16:51] INFO root fetch - processPackages [AoiPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AoiPy-0.9.17-py3-none-any.whl.zip tmp/AoiPy-0.9.18-py3-none-any.whl.zip --markdown 20230610/A/AoiPy/0.9.17-0.9.18/diff.md --exclude *.pyd
+[2023-06-10 21:16:51] INFO root fetch - processPackages [bionty]: executing diffoscope
+[2023-06-10 21:16:51] INFO root fetch - processPackages [bionty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bionty-0.9.0.tar.gz tmp/bionty-0.9.0rc1.tar.gz --markdown 20230610/b/bionty/0.9.0-0.9.0rc1/diff.md --exclude *.pyd
+[2023-06-10 21:16:51] INFO root fetch - processPackages [lnschema_bionty]: Downloading https://files.pythonhosted.org/packages/ed/64/d2babdba858b56f5825e7ac3e2d375cf42dcf278f3c6ad9daf179e40b556/lnschema_bionty-0.9.0.tar.gz
+[2023-06-10 21:16:51] INFO root fetch - processPackages [py-agua-iot]: Downloading https://files.pythonhosted.org/packages/ee/53/3d8d5459d9b2422c509d1325061f9ffac3cc8bc21af0d44073fb8911b15c/py-agua-iot-0.0.8.tar.gz
+[2023-06-10 21:16:51] INFO root fetch - processPackages [lnschema_bionty]: executing diffoscope
+[2023-06-10 21:16:51] INFO root fetch - processPackages [lnschema_bionty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnschema_bionty-0.8.1.tar.gz tmp/lnschema_bionty-0.9.0.tar.gz --markdown 20230610/l/lnschema_bionty/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-06-10 21:16:52] INFO root fetch - processPackages [py-agua-iot]: executing diffoscope
+[2023-06-10 21:16:52] INFO root fetch - processPackages [py-agua-iot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-agua-iot-0.0.7.tar.gz tmp/py-agua-iot-0.0.8.tar.gz --markdown 20230610/p/py-agua-iot/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-10 21:16:52] INFO root fetch - processPackages [AoiPy]: Remove: archive file [/home/abi/fetcher/tmp/AoiPy-0.9.17-py3-none-any.whl.zip]
+[2023-06-10 21:16:52] INFO root fetch - processPackages [AoiPy]: Remove: archive file [/home/abi/fetcher/tmp/AoiPy-0.9.18-py3-none-any.whl.zip]
+[2023-06-10 21:16:52] INFO root fetch - main [MainThread]: End processing [AoiPy]: success
+[2023-06-10 21:16:52] INFO root fetch - processPackages [lnschema_bionty]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_bionty-0.8.1.tar.gz]
+[2023-06-10 21:16:52] INFO root fetch - processPackages [lnschema_bionty]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_bionty-0.9.0.tar.gz]
+[2023-06-10 21:16:52] INFO root fetch - main [MainThread]: End processing [lnschema_bionty]: success
+[2023-06-10 21:16:52] INFO root fetch - processPackages [bionty]: Remove: archive file [/home/abi/fetcher/tmp/bionty-0.9.0.tar.gz]
+[2023-06-10 21:16:52] INFO root fetch - processPackages [bionty]: Remove: archive file [/home/abi/fetcher/tmp/bionty-0.9.0rc1.tar.gz]
+[2023-06-10 21:16:52] INFO root fetch - main [MainThread]: End processing [bionty]: success
+[2023-06-10 21:16:52] INFO root fetch - processPackages [ogc-na]: Remove: archive file [/home/abi/fetcher/tmp/ogc_na-0.2.8.tar.gz]
+[2023-06-10 21:16:52] INFO root fetch - processPackages [ogc-na]: Remove: archive file [/home/abi/fetcher/tmp/ogc_na-0.2.9.tar.gz]
+[2023-06-10 21:16:52] INFO root fetch - main [MainThread]: End processing [ogc-na]: success
+[2023-06-10 21:16:53] INFO root fetch - processPackages [py-agua-iot]: Remove: archive file [/home/abi/fetcher/tmp/py-agua-iot-0.0.7.tar.gz]
+[2023-06-10 21:16:53] INFO root fetch - processPackages [py-agua-iot]: Remove: archive file [/home/abi/fetcher/tmp/py-agua-iot-0.0.8.tar.gz]
+[2023-06-10 21:16:53] INFO root fetch - main [MainThread]: End processing [py-agua-iot]: success
+[2023-06-10 21:16:53] INFO root fetch - main [MainThread]: Store serial: [18453210]
