@@ -7817,3 +7817,33 @@ EOFError: EOF read where object expected
 [2023-06-10 06:57:13] INFO root fetch - processPackages [odoo12-addon-sale-blanket-order]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_sale_blanket_order-12.0.1.0.2.99.dev9-py3-none-any.whl.zip]
 [2023-06-10 06:57:13] INFO root fetch - main [MainThread]: End processing [odoo12-addon-sale-blanket-order]: success
 [2023-06-10 06:57:13] INFO root fetch - main [MainThread]: Store serial: [18448666]
+[2023-06-10 07:02:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18448666]
+[2023-06-10 07:02:22] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-10 07:02:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyhOn
+[2023-06-10 07:02:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: neuprint-python
+[2023-06-10 07:02:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wildered
+[2023-06-10 07:02:22] INFO root fetch - processPackages [wildered]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-10 07:02:22] INFO root fetch - processPackages [neuprint-python]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-06-10 07:02:22] INFO root fetch - processPackages [pyhOn]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-10 07:02:22] INFO root fetch - processPackages [wildered]: Downloading https://files.pythonhosted.org/packages/49/f7/29e0a51dedcefd8267c3d42bf69c92f3bc0272ec916829af607cd1c6a771/wildered-0.1.1.tar.gz
+[2023-06-10 07:02:22] INFO root fetch - processPackages [pyhOn]: Downloading https://files.pythonhosted.org/packages/ea/21/a02ec05f27736d84fc536a77e7d8d4bff64042649263f7f166eb347f645e/pyhOn-0.9.0.tar.gz
+[2023-06-10 07:02:22] INFO root fetch - processPackages [neuprint-python]: Downloading https://files.pythonhosted.org/packages/46/f4/a8b9cff89e3c98c473d753a1aac1c98a6e1d027f520530e611e839008253/neuprint-python-0.4.8.tar.gz
+[2023-06-10 07:02:22] INFO root fetch - processPackages [wildered]: Downloading https://files.pythonhosted.org/packages/a8/78/cf2ceac0d0d0ce7f011cdefa68f77b2bd029c701d61aafcbd6728f2a447b/wildered-0.1.2.tar.gz
+[2023-06-10 07:02:22] INFO root fetch - processPackages [wildered]: executing diffoscope
+[2023-06-10 07:02:22] INFO root fetch - processPackages [wildered]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wildered-0.1.1.tar.gz tmp/wildered-0.1.2.tar.gz --markdown 20230610/w/wildered/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-10 07:02:22] INFO root fetch - processPackages [pyhOn]: Downloading https://files.pythonhosted.org/packages/bd/8e/c3ca4f478da222a67df9747f74292644f871e32df734b2eaaef829814af5/pyhOn-0.9.1.tar.gz
+[2023-06-10 07:02:22] INFO root fetch - processPackages [pyhOn]: executing diffoscope
+[2023-06-10 07:02:22] INFO root fetch - processPackages [pyhOn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhOn-0.9.0.tar.gz tmp/pyhOn-0.9.1.tar.gz --markdown 20230610/p/pyhOn/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-10 07:02:23] INFO root fetch - processPackages [neuprint-python]: Downloading https://files.pythonhosted.org/packages/46/be/f71df533737eba9f2d12512a06fc2f53a22cecc539fd17fce634d5ecb890/neuprint-python-0.4.9.tar.gz
+[2023-06-10 07:02:23] INFO root fetch - processPackages [neuprint-python]: executing diffoscope
+[2023-06-10 07:02:23] INFO root fetch - processPackages [neuprint-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuprint-python-0.4.8.tar.gz tmp/neuprint-python-0.4.9.tar.gz --markdown 20230610/n/neuprint-python/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-06-10 07:02:23] INFO root fetch - processPackages [wildered]: Remove: archive file [/home/abi/fetcher/tmp/wildered-0.1.1.tar.gz]
+[2023-06-10 07:02:23] INFO root fetch - processPackages [wildered]: Remove: archive file [/home/abi/fetcher/tmp/wildered-0.1.2.tar.gz]
+[2023-06-10 07:02:23] INFO root fetch - main [MainThread]: End processing [wildered]: success
+[2023-06-10 07:02:23] INFO root fetch - processPackages [pyhOn]: Remove: archive file [/home/abi/fetcher/tmp/pyhOn-0.9.0.tar.gz]
+[2023-06-10 07:02:23] INFO root fetch - processPackages [pyhOn]: Remove: archive file [/home/abi/fetcher/tmp/pyhOn-0.9.1.tar.gz]
+[2023-06-10 07:02:23] INFO root fetch - main [MainThread]: End processing [pyhOn]: success
+[2023-06-10 07:02:24] INFO root fetch - processPackages [neuprint-python]: Remove: archive file [/home/abi/fetcher/tmp/neuprint-python-0.4.8.tar.gz]
+[2023-06-10 07:02:24] INFO root fetch - processPackages [neuprint-python]: Remove: archive file [/home/abi/fetcher/tmp/neuprint-python-0.4.9.tar.gz]
+[2023-06-10 07:02:24] INFO root fetch - main [MainThread]: End processing [neuprint-python]: success
+[2023-06-10 07:02:24] INFO root fetch - main [MainThread]: Store serial: [18448676]
