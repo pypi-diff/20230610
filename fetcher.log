@@ -9294,3 +9294,30 @@ EOFError: EOF read where object expected
 [2023-06-10 10:05:22] INFO root fetch - processPackages [llama-hub]: Remove: archive file [/home/abi/fetcher/tmp/llama_hub-0.0.3.tar.gz]
 [2023-06-10 10:05:22] INFO root fetch - main [MainThread]: End processing [llama-hub]: success
 [2023-06-10 10:05:22] INFO root fetch - main [MainThread]: Store serial: [18449490]
+[2023-06-10 10:10:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18449490]
+[2023-06-10 10:10:31] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-10 10:10:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Nidhipdf
+[2023-06-10 10:10:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Lopster
+[2023-06-10 10:10:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyglove
+[2023-06-10 10:10:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: difftk
+[2023-06-10 10:10:31] INFO root fetch - processPackages [Lopster]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-10 10:10:31] WARNING root fetch - processPackages [Nidhipdf]: Skipping, unable to determine old version
+[2023-06-10 10:10:31] INFO root fetch - main [MainThread]: End processing [Nidhipdf] error
+[2023-06-10 10:10:31] WARNING root fetch - processPackages [difftk]: Skipping, unable to determine old version
+[2023-06-10 10:10:31] INFO root fetch - main [MainThread]: End processing [difftk] error
+[2023-06-10 10:10:31] INFO root fetch - processPackages [pyglove]: New version: [0.3.1.dev20230610] Old Version: [0.3.1.dev20230609]
+[2023-06-10 10:10:31] INFO root fetch - processPackages [Lopster]: Downloading https://files.pythonhosted.org/packages/c4/15/1fddb5797497b60ec6c6c0e216cfbbd0d62d4c215f12431c559b05f9def0/Lopster-0.1.1.tar.gz
+[2023-06-10 10:10:31] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/29/be/9fc3abbbf0ed909cae65992ba178521756da0d12fca50f6470c82a898002/pyglove-0.3.1.dev20230609.tar.gz
+[2023-06-10 10:10:32] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/af/c6/aacbabf43c1d32d696519391abe072039dad4c220c8a1bd79279910c998f/pyglove-0.3.1.dev20230610.tar.gz
+[2023-06-10 10:10:32] INFO root fetch - processPackages [Lopster]: Downloading https://files.pythonhosted.org/packages/e1/b9/4e0c4af46050001202dabdc6df777d9676c942c4198bdd82c95ae76b1af4/Lopster-0.1.2.tar.gz
+[2023-06-10 10:10:32] INFO root fetch - processPackages [Lopster]: executing diffoscope
+[2023-06-10 10:10:32] INFO root fetch - processPackages [Lopster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Lopster-0.1.1.tar.gz tmp/Lopster-0.1.2.tar.gz --markdown 20230610/L/Lopster/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-10 10:10:32] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2023-06-10 10:10:32] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.3.1.dev20230609.tar.gz tmp/pyglove-0.3.1.dev20230610.tar.gz --markdown 20230610/p/pyglove/0.3.1.dev20230609-0.3.1.dev20230610/diff.md --exclude *.pyd
+[2023-06-10 10:10:33] INFO root fetch - processPackages [Lopster]: Remove: archive file [/home/abi/fetcher/tmp/Lopster-0.1.1.tar.gz]
+[2023-06-10 10:10:33] INFO root fetch - processPackages [Lopster]: Remove: archive file [/home/abi/fetcher/tmp/Lopster-0.1.2.tar.gz]
+[2023-06-10 10:10:33] INFO root fetch - main [MainThread]: End processing [Lopster]: success
+[2023-06-10 10:10:34] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.3.1.dev20230609.tar.gz]
+[2023-06-10 10:10:34] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.3.1.dev20230610.tar.gz]
+[2023-06-10 10:10:34] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2023-06-10 10:10:34] INFO root fetch - main [MainThread]: Store serial: [18449505]
