@@ -11586,3 +11586,41 @@ EOFError: EOF read where object expected
 [2023-06-10 14:19:29] INFO root fetch - processPackages [gfs-dynamical-core]: Remove: archive file [/home/abi/fetcher/tmp/gfs_dynamical_core-0.1.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-06-10 14:19:29] INFO root fetch - main [MainThread]: End processing [gfs-dynamical-core]: success
 [2023-06-10 14:19:29] INFO root fetch - main [MainThread]: Store serial: [18450474]
+[2023-06-10 14:24:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18450474]
+[2023-06-10 14:24:46] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-10 14:24:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: OpenGeode-core
+[2023-06-10 14:24:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyTableWiz
+[2023-06-10 14:24:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: unasyncd
+[2023-06-10 14:24:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cibuildwheel
+[2023-06-10 14:24:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: invesyservertools
+[2023-06-10 14:24:46] WARNING root fetch - processPackages [PyTableWiz]: Skipping, unable to determine old version
+[2023-06-10 14:24:46] INFO root fetch - main [MainThread]: End processing [PyTableWiz] error
+[2023-06-10 14:24:46] INFO root fetch - processPackages [unasyncd]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-10 14:24:46] INFO root fetch - processPackages [invesyservertools]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-10 14:24:46] INFO root fetch - processPackages [OpenGeode-core]: New version: [9.10.4] Old Version: [14.3.1rc5]
+[2023-06-10 14:24:46] INFO root fetch - processPackages [cibuildwheel]: New version: [2.9.0] Old Version: [2.8.1]
+[2023-06-10 14:24:46] INFO root fetch - processPackages [unasyncd]: Downloading https://files.pythonhosted.org/packages/a3/4e/609b37d952a6fe72fee600f4a3f4e6cf8d385c18f42baae5e8e48b9ffef3/unasyncd-0.2.0.tar.gz
+[2023-06-10 14:24:46] INFO root fetch - processPackages [invesyservertools]: Downloading https://files.pythonhosted.org/packages/40/46/15f09c9967c907bea7e1b5e54a4155b792b9ddaa10991de28dc82879433c/invesyservertools-0.0.7.tar.gz
+[2023-06-10 14:24:46] INFO root fetch - processPackages [OpenGeode-core]: Downloading https://files.pythonhosted.org/packages/20/c2/0f342528b51b606cc4d279d7aa74385d60aa7e66742efdd489ff223d9439/OpenGeode_core-14.3.1rc5-cp39-cp39-win_amd64.whl
+[2023-06-10 14:24:46] INFO root fetch - processPackages [cibuildwheel]: Downloading https://files.pythonhosted.org/packages/38/cb/e51b06f669cf1270d8ff52b63a58fa70b728147520c18d5c5b1b7ae3b2e7/cibuildwheel-2.8.1.tar.gz
+[2023-06-10 14:24:46] WARNING root fetch - processPackages [OpenGeode-core]: Skipping package: exceeds size limit 17546433>=10485760
+[2023-06-10 14:24:46] INFO root fetch - main [MainThread]: End processing [OpenGeode-core] error
+[2023-06-10 14:24:46] INFO root fetch - processPackages [unasyncd]: Downloading https://files.pythonhosted.org/packages/11/f0/64d7a7fa5ee5f742dda5888e064f68f2e5a1d3fcc0a2a9a8d4742b725c75/unasyncd-0.2.1.tar.gz
+[2023-06-10 14:24:46] INFO root fetch - processPackages [invesyservertools]: Downloading https://files.pythonhosted.org/packages/cb/86/bdcda4d214a804a0ec5dc9057a4e7cf974545197d27ce566d74b4d80199c/invesyservertools-0.0.8.tar.gz
+[2023-06-10 14:24:46] INFO root fetch - processPackages [unasyncd]: executing diffoscope
+[2023-06-10 14:24:46] INFO root fetch - processPackages [unasyncd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unasyncd-0.2.0.tar.gz tmp/unasyncd-0.2.1.tar.gz --markdown 20230610/u/unasyncd/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-10 14:24:46] INFO root fetch - processPackages [invesyservertools]: executing diffoscope
+[2023-06-10 14:24:46] INFO root fetch - processPackages [invesyservertools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invesyservertools-0.0.7.tar.gz tmp/invesyservertools-0.0.8.tar.gz --markdown 20230610/i/invesyservertools/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-10 14:24:46] INFO root fetch - processPackages [cibuildwheel]: Downloading https://files.pythonhosted.org/packages/1b/a1/1bcea94b340d553572bbd3c11f610982abe7c36492296bc0ad16660d181c/cibuildwheel-2.9.0.tar.gz
+[2023-06-10 14:24:47] INFO root fetch - processPackages [cibuildwheel]: executing diffoscope
+[2023-06-10 14:24:47] INFO root fetch - processPackages [cibuildwheel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cibuildwheel-2.8.1.tar.gz tmp/cibuildwheel-2.9.0.tar.gz --markdown 20230610/c/cibuildwheel/2.8.1-2.9.0/diff.md --exclude *.pyd
+[2023-06-10 14:24:47] INFO root fetch - processPackages [unasyncd]: Remove: archive file [/home/abi/fetcher/tmp/unasyncd-0.2.0.tar.gz]
+[2023-06-10 14:24:47] INFO root fetch - processPackages [unasyncd]: Remove: archive file [/home/abi/fetcher/tmp/unasyncd-0.2.1.tar.gz]
+[2023-06-10 14:24:47] INFO root fetch - main [MainThread]: End processing [unasyncd]: success
+[2023-06-10 14:24:47] INFO root fetch - processPackages [invesyservertools]: Remove: archive file [/home/abi/fetcher/tmp/invesyservertools-0.0.7.tar.gz]
+[2023-06-10 14:24:47] INFO root fetch - processPackages [invesyservertools]: Remove: archive file [/home/abi/fetcher/tmp/invesyservertools-0.0.8.tar.gz]
+[2023-06-10 14:24:47] INFO root fetch - main [MainThread]: End processing [invesyservertools]: success
+[2023-06-10 14:24:48] INFO root fetch - processPackages [cibuildwheel]: Remove: archive file [/home/abi/fetcher/tmp/cibuildwheel-2.8.1.tar.gz]
+[2023-06-10 14:24:48] INFO root fetch - processPackages [cibuildwheel]: Remove: archive file [/home/abi/fetcher/tmp/cibuildwheel-2.9.0.tar.gz]
+[2023-06-10 14:24:48] INFO root fetch - main [MainThread]: End processing [cibuildwheel]: success
+[2023-06-10 14:24:48] INFO root fetch - main [MainThread]: Store serial: [18450499]
