@@ -14812,3 +14812,42 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-10 18:21:04] INFO root fetch - processPackages [omniplate]: Remove: archive file [/home/abi/fetcher/tmp/omniplate-0.9.91.tar.gz]
 [2023-06-10 18:21:04] INFO root fetch - main [MainThread]: End processing [omniplate]: success
 [2023-06-10 18:21:04] INFO root fetch - main [MainThread]: Store serial: [18452083]
+[2023-06-10 18:26:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18452083]
+[2023-06-10 18:26:14] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-10 18:26:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mwxlib
+[2023-06-10 18:26:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kdslibs
+[2023-06-10 18:26:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: label-noise-correction
+[2023-06-10 18:26:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: computing-toolbox
+[2023-06-10 18:26:14] INFO root fetch - processPackages [computing-toolbox]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-06-10 18:26:14] INFO root fetch - processPackages [kdslibs]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-10 18:26:14] INFO root fetch - processPackages [label-noise-correction]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-10 18:26:14] INFO root fetch - processPackages [mwxlib]: New version: [0.85.2] Old Version: [0.85.0]
+[2023-06-10 18:26:14] INFO root fetch - processPackages [kdslibs]: Downloading https://files.pythonhosted.org/packages/2c/60/6434754a0e2a362fb8958db240b343f51c8727471d6f00c33d3eaa71e5b3/kdslibs-0.0.4.tar.gz
+[2023-06-10 18:26:14] INFO root fetch - processPackages [computing-toolbox]: Downloading https://files.pythonhosted.org/packages/8d/7f/ad808c526ed5ddca3acd8c2dfc61ed734f4151462db64c2e31963e0f3578/computing-toolbox-0.5.0.tar.gz
+[2023-06-10 18:26:14] INFO root fetch - processPackages [mwxlib]: Downloading https://files.pythonhosted.org/packages/fc/89/ff6b72b2324a1e6d07c9adfe5523160b6e3e96c2a398812ebd9e99ba2128/mwxlib-0.85.0-py3-none-any.whl
+[2023-06-10 18:26:14] INFO root fetch - processPackages [label-noise-correction]: Downloading https://files.pythonhosted.org/packages/1a/93/786ca8db0933528b0951c5f480b79a262fa86359ed082858aaa4fc5df71f/label_noise_correction-0.0.1.tar.gz
+[2023-06-10 18:26:14] INFO root fetch - processPackages [kdslibs]: Downloading https://files.pythonhosted.org/packages/d8/bf/3b507d62ba396983dfff0c9abdf2023dd0786f1e65baf682be69ff6000b1/kdslibs-0.0.5.tar.gz
+[2023-06-10 18:26:14] INFO root fetch - processPackages [computing-toolbox]: Downloading https://files.pythonhosted.org/packages/61/5f/ac82401c5cebb2180a189add7cd857cc3d1a6997876c883a3e30ac14cf1d/computing-toolbox-0.5.1.tar.gz
+[2023-06-10 18:26:14] INFO root fetch - processPackages [kdslibs]: executing diffoscope
+[2023-06-10 18:26:14] INFO root fetch - processPackages [kdslibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kdslibs-0.0.4.tar.gz tmp/kdslibs-0.0.5.tar.gz --markdown 20230610/k/kdslibs/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-10 18:26:14] INFO root fetch - processPackages [mwxlib]: Downloading https://files.pythonhosted.org/packages/36/f9/f3553dcc511d3e86a56e4197edc65a23095f6fa6172c379e0f1f819be67b/mwxlib-0.85.2-py3-none-any.whl
+[2023-06-10 18:26:14] INFO root fetch - processPackages [label-noise-correction]: Downloading https://files.pythonhosted.org/packages/79/d6/7bddf13ddfdff0447b2803986041dc0d5e6457ed56077c967313480a05b7/label_noise_correction-0.0.2.tar.gz
+[2023-06-10 18:26:14] INFO root fetch - processPackages [computing-toolbox]: executing diffoscope
+[2023-06-10 18:26:14] INFO root fetch - processPackages [computing-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/computing-toolbox-0.5.0.tar.gz tmp/computing-toolbox-0.5.1.tar.gz --markdown 20230610/c/computing-toolbox/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-06-10 18:26:14] INFO root fetch - processPackages [label-noise-correction]: executing diffoscope
+[2023-06-10 18:26:14] INFO root fetch - processPackages [label-noise-correction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/label_noise_correction-0.0.1.tar.gz tmp/label_noise_correction-0.0.2.tar.gz --markdown 20230610/l/label-noise-correction/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-10 18:26:14] INFO root fetch - processPackages [mwxlib]: executing diffoscope
+[2023-06-10 18:26:14] INFO root fetch - processPackages [mwxlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mwxlib-0.85.0-py3-none-any.whl.zip tmp/mwxlib-0.85.2-py3-none-any.whl.zip --markdown 20230610/m/mwxlib/0.85.0-0.85.2/diff.md --exclude *.pyd
+[2023-06-10 18:26:15] INFO root fetch - processPackages [kdslibs]: Remove: archive file [/home/abi/fetcher/tmp/kdslibs-0.0.4.tar.gz]
+[2023-06-10 18:26:15] INFO root fetch - processPackages [kdslibs]: Remove: archive file [/home/abi/fetcher/tmp/kdslibs-0.0.5.tar.gz]
+[2023-06-10 18:26:15] INFO root fetch - main [MainThread]: End processing [kdslibs]: success
+[2023-06-10 18:26:15] INFO root fetch - processPackages [computing-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/computing-toolbox-0.5.0.tar.gz]
+[2023-06-10 18:26:15] INFO root fetch - processPackages [computing-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/computing-toolbox-0.5.1.tar.gz]
+[2023-06-10 18:26:15] INFO root fetch - main [MainThread]: End processing [computing-toolbox]: success
+[2023-06-10 18:26:15] INFO root fetch - processPackages [label-noise-correction]: Remove: archive file [/home/abi/fetcher/tmp/label_noise_correction-0.0.1.tar.gz]
+[2023-06-10 18:26:15] INFO root fetch - processPackages [label-noise-correction]: Remove: archive file [/home/abi/fetcher/tmp/label_noise_correction-0.0.2.tar.gz]
+[2023-06-10 18:26:15] INFO root fetch - main [MainThread]: End processing [label-noise-correction]: success
+[2023-06-10 18:26:16] INFO root fetch - processPackages [mwxlib]: Remove: archive file [/home/abi/fetcher/tmp/mwxlib-0.85.0-py3-none-any.whl.zip]
+[2023-06-10 18:26:16] INFO root fetch - processPackages [mwxlib]: Remove: archive file [/home/abi/fetcher/tmp/mwxlib-0.85.2-py3-none-any.whl.zip]
+[2023-06-10 18:26:16] INFO root fetch - main [MainThread]: End processing [mwxlib]: success
+[2023-06-10 18:26:16] INFO root fetch - main [MainThread]: Store serial: [18452094]
