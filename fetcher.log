@@ -18166,3 +18166,153 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-10 22:50:08] INFO root fetch - processPackages [printbuddies]: Remove: archive file [/home/abi/fetcher/tmp/printbuddies-1.3.1.tar.gz]
 [2023-06-10 22:50:08] INFO root fetch - main [MainThread]: End processing [printbuddies]: success
 [2023-06-10 22:50:08] INFO root fetch - main [MainThread]: Store serial: [18453800]
+[2023-06-10 22:55:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18453800]
+[2023-06-10 22:55:17] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-10 22:55:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: remla23-team10-preprocessing
+[2023-06-10 22:55:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: datoso-seed-redump
+[2023-06-10 22:55:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: datoso-seed-sfc-msu1
+[2023-06-10 22:55:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sqlite-xsv
+[2023-06-10 22:55:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: datoso-seed-translatedenglish
+[2023-06-10 22:55:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyequations
+[2023-06-10 22:55:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: datasette-sqlite-regex
+[2023-06-10 22:55:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: argcomplete
+[2023-06-10 22:55:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sqlite-regex
+[2023-06-10 22:55:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: remla23-team10-preprocessing
+[2023-06-10 22:55:17] INFO root fetch - processPackages [remla23-team10-preprocessing]: New version: [1.1.1] Old Version: [1.0.0]
+[2023-06-10 22:55:17] INFO root fetch - processPackages [remla23-team10-preprocessing]: Downloading https://files.pythonhosted.org/packages/cc/97/dbd2cd064f53fc445a0b0c82acc93102b34e985acd4cdfe8ec32ddaeb3cb/remla23-team10-preprocessing-1.0.0.tar.gz
+[2023-06-10 22:55:17] INFO root fetch - processPackages [datoso-seed-sfc-msu1]: New version: [0.3.0] Old Version: [0.2.3]
+[2023-06-10 22:55:17] INFO root fetch - processPackages [remla23-team10-preprocessing]: New version: [1.2.0] Old Version: [1.1.2]
+[2023-06-10 22:55:17] INFO root fetch - processPackages [sqlite-xsv]: New version: [0.2.1a8] Old Version: [0.2.1a7]
+[2023-06-10 22:55:17] INFO root fetch - processPackages [datasette-sqlite-regex]: New version: [0.2.3a8] Old Version: [0.2.3a7]
+[2023-06-10 22:55:17] INFO root fetch - processPackages [pyequations]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-10 22:55:17] INFO root fetch - processPackages [datoso-seed-translatedenglish]: New version: [0.3.0] Old Version: [0.2.3]
+[2023-06-10 22:55:17] INFO root fetch - processPackages [sqlite-regex]: New version: [0.2.3a8] Old Version: [0.2.3a7]
+[2023-06-10 22:55:17] INFO root fetch - processPackages [datoso-seed-redump]: New version: [0.3.0] Old Version: [0.2.3]
+[2023-06-10 22:55:17] INFO root fetch - processPackages [argcomplete]: New version: [3.1.0] Old Version: [3.0.8]
+[2023-06-10 22:55:17] INFO root fetch - processPackages [remla23-team10-preprocessing]: Downloading https://files.pythonhosted.org/packages/6c/52/a638612fdfd72ad17c53c4dd1057ac1dac9ccd0ac18f7ec2057f0922d8eb/remla23-team10-preprocessing-1.1.1.tar.gz
+[2023-06-10 22:55:17] INFO root fetch - processPackages [remla23-team10-preprocessing]: Downloading https://files.pythonhosted.org/packages/12/db/f94946f71d496dcc54d4fa761ec8c5ff85a88514ab42f86b229f0abad740/remla23-team10-preprocessing-1.1.2.tar.gz
+[2023-06-10 22:55:17] INFO root fetch - processPackages [datoso-seed-translatedenglish]: Downloading https://files.pythonhosted.org/packages/59/4f/becb068ce941b1b007bee45def51ec9ed228abf836badf5a890e19f70d42/datoso_seed_translatedenglish-0.2.3.tar.gz
+[2023-06-10 22:55:17] INFO root fetch - processPackages [datasette-sqlite-regex]: Downloading https://files.pythonhosted.org/packages/23/d4/83b2ecda3b1309f1b9ab5a4f41f842f70e60e8b04f801ca47a8cdb2ec583/datasette_sqlite_regex-0.2.3a7-py3-none-any.whl
+[2023-06-10 22:55:17] INFO root fetch - processPackages [argcomplete]: Downloading https://files.pythonhosted.org/packages/42/cd/fdb872d826b76b65b23147e83b1ca4c033445bbff59f8836a118657dd050/argcomplete-3.0.8.tar.gz
+[2023-06-10 22:55:17] INFO root fetch - processPackages [datoso-seed-sfc-msu1]: Downloading https://files.pythonhosted.org/packages/fe/9f/63321d507466aabc0398b68e12a209e93459c179500f78974b75af2a359f/datoso_seed_sfc_msu1-0.2.3.tar.gz
+[2023-06-10 22:55:17] INFO root fetch - processPackages [datoso-seed-redump]: Downloading https://files.pythonhosted.org/packages/6c/48/ecd95ca95f15457ee4db1592a09d60d8c838884845113425e4ca9decb242/datoso_seed_redump-0.2.3.tar.gz
+[2023-06-10 22:55:17] INFO root fetch - processPackages [sqlite-regex]: Downloading https://files.pythonhosted.org/packages/75/bc/adfa62e128ebd439845b0a58f0022799af6e2e7067fc0eb4cd736b4d830c/sqlite_regex-0.2.3a7-py3-none-win_amd64.whl
+[2023-06-10 22:55:18] INFO root fetch - processPackages [remla23-team10-preprocessing]: executing diffoscope
+[2023-06-10 22:55:18] INFO root fetch - processPackages [remla23-team10-preprocessing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remla23-team10-preprocessing-1.0.0.tar.gz tmp/remla23-team10-preprocessing-1.1.1.tar.gz --markdown 20230610/r/remla23-team10-preprocessing/1.0.0-1.1.1/diff.md --exclude *.pyd
+[2023-06-10 22:55:18] INFO root fetch - processPackages [pyequations]: Downloading https://files.pythonhosted.org/packages/70/45/cf5c02d75c8e44949e55560b72a77cf08bb704293794fb2b52cd289778b8/pyequations-0.1.0.tar.gz
+[2023-06-10 22:55:18] INFO root fetch - processPackages [sqlite-xsv]: Downloading https://files.pythonhosted.org/packages/d1/8e/178d78b1dc7f55322d75ea7b3f4fb34837f4a9857c3cfeda8f9e4ed05826/sqlite_xsv-0.2.1a7-py3-none-win_amd64.whl
+[2023-06-10 22:55:18] INFO root fetch - processPackages [datasette-sqlite-regex]: Downloading https://files.pythonhosted.org/packages/b1/06/4db5ebce60a3f07d4b77c213ae069b036967a9583cb894c9d0a27f5e18ac/datasette_sqlite_regex-0.2.3a8-py3-none-any.whl
+[2023-06-10 22:55:18] INFO root fetch - processPackages [datoso-seed-translatedenglish]: Downloading https://files.pythonhosted.org/packages/9c/c0/48d23699c18ade97f70535470e66fe77cb1e38a999aabca83a8b24872c22/datoso_seed_translatedenglish-0.3.0.tar.gz
+[2023-06-10 22:55:18] INFO root fetch - processPackages [datoso-seed-sfc-msu1]: Downloading https://files.pythonhosted.org/packages/64/4d/f69213c783e13f8fb27b700283cd07744c958ae1b719da61a47432a7ca6f/datoso_seed_sfc_msu1-0.3.0.tar.gz
+[2023-06-10 22:55:18] INFO root fetch - processPackages [argcomplete]: Downloading https://files.pythonhosted.org/packages/43/30/09472981132ae3783d43367cbda65abec3e04aa233593877bc9e8982ff41/argcomplete-3.1.0.tar.gz
+[2023-06-10 22:55:18] INFO root fetch - processPackages [pyequations]: Downloading https://files.pythonhosted.org/packages/3d/b1/c92c5f99f2c26c5982b24673dd5499bf7fa8bc83f28d1014b7320d24d4f2/pyequations-0.1.1.tar.gz
+[2023-06-10 22:55:18] INFO root fetch - processPackages [remla23-team10-preprocessing]: Downloading https://files.pythonhosted.org/packages/52/5f/0826a02f8c3963b16d40c35fd9f3d565d7060ab01f37b74275520ee687ee/remla23-team10-preprocessing-1.2.0.tar.gz
+[2023-06-10 22:55:18] INFO root fetch - processPackages [sqlite-regex]: Downloading https://files.pythonhosted.org/packages/25/c5/7c63d35ee5f41a41d5d94b797a0545e2d77df72f6d7d15640fd9693b2911/sqlite_regex-0.2.3a8-py3-none-win_amd64.whl
+[2023-06-10 22:55:18] INFO root fetch - processPackages [datasette-sqlite-regex]: executing diffoscope
+[2023-06-10 22:55:18] INFO root fetch - processPackages [datasette-sqlite-regex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasette_sqlite_regex-0.2.3a7-py3-none-any.whl.zip tmp/datasette_sqlite_regex-0.2.3a8-py3-none-any.whl.zip --markdown 20230610/d/datasette-sqlite-regex/0.2.3a7-0.2.3a8/diff.md --exclude *.pyd
+[2023-06-10 22:55:18] INFO root fetch - processPackages [datoso-seed-sfc-msu1]: executing diffoscope
+[2023-06-10 22:55:18] INFO root fetch - processPackages [datoso-seed-sfc-msu1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datoso_seed_sfc_msu1-0.2.3.tar.gz tmp/datoso_seed_sfc_msu1-0.3.0.tar.gz --markdown 20230610/d/datoso-seed-sfc-msu1/0.2.3-0.3.0/diff.md --exclude *.pyd
+[2023-06-10 22:55:18] INFO root fetch - processPackages [sqlite-xsv]: Downloading https://files.pythonhosted.org/packages/80/c1/00186b71f75a0e4e88919ae0639f9a942abdf521ca8d7e40c9115543d682/sqlite_xsv-0.2.1a8-py3-none-win_amd64.whl
+[2023-06-10 22:55:18] INFO root fetch - processPackages [datoso-seed-redump]: Downloading https://files.pythonhosted.org/packages/d7/54/31d95ac3bf30f9d3aef4e859194904f6e2f55022a224395d2f1667098928/datoso_seed_redump-0.3.0.tar.gz
+[2023-06-10 22:55:18] INFO root fetch - processPackages [datoso-seed-translatedenglish]: executing diffoscope
+[2023-06-10 22:55:18] INFO root fetch - processPackages [datoso-seed-translatedenglish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datoso_seed_translatedenglish-0.2.3.tar.gz tmp/datoso_seed_translatedenglish-0.3.0.tar.gz --markdown 20230610/d/datoso-seed-translatedenglish/0.2.3-0.3.0/diff.md --exclude *.pyd
+[2023-06-10 22:55:18] INFO root fetch - processPackages [pyequations]: executing diffoscope
+[2023-06-10 22:55:18] INFO root fetch - processPackages [pyequations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyequations-0.1.0.tar.gz tmp/pyequations-0.1.1.tar.gz --markdown 20230610/p/pyequations/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-10 22:55:18] INFO root fetch - processPackages [sqlite-regex]: executing diffoscope
+[2023-06-10 22:55:18] INFO root fetch - processPackages [sqlite-regex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite_regex-0.2.3a7-py3-none-win_amd64.whl.zip tmp/sqlite_regex-0.2.3a8-py3-none-win_amd64.whl.zip --markdown 20230610/s/sqlite-regex/0.2.3a7-0.2.3a8/diff.md --exclude *.pyd
+[2023-06-10 22:55:18] INFO root fetch - processPackages [datoso-seed-redump]: executing diffoscope
+[2023-06-10 22:55:18] INFO root fetch - processPackages [datoso-seed-redump]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datoso_seed_redump-0.2.3.tar.gz tmp/datoso_seed_redump-0.3.0.tar.gz --markdown 20230610/d/datoso-seed-redump/0.2.3-0.3.0/diff.md --exclude *.pyd
+[2023-06-10 22:55:18] INFO root fetch - processPackages [remla23-team10-preprocessing]: executing diffoscope
+[2023-06-10 22:55:18] INFO root fetch - processPackages [remla23-team10-preprocessing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remla23-team10-preprocessing-1.1.2.tar.gz tmp/remla23-team10-preprocessing-1.2.0.tar.gz --markdown 20230610/r/remla23-team10-preprocessing/1.1.2-1.2.0/diff.md --exclude *.pyd
+[2023-06-10 22:55:18] INFO root fetch - processPackages [sqlite-xsv]: executing diffoscope
+[2023-06-10 22:55:18] INFO root fetch - processPackages [sqlite-xsv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite_xsv-0.2.1a7-py3-none-win_amd64.whl.zip tmp/sqlite_xsv-0.2.1a8-py3-none-win_amd64.whl.zip --markdown 20230610/s/sqlite-xsv/0.2.1a7-0.2.1a8/diff.md --exclude *.pyd
+[2023-06-10 22:55:18] INFO root fetch - processPackages [argcomplete]: executing diffoscope
+[2023-06-10 22:55:18] INFO root fetch - processPackages [argcomplete]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/argcomplete-3.0.8.tar.gz tmp/argcomplete-3.1.0.tar.gz --markdown 20230610/a/argcomplete/3.0.8-3.1.0/diff.md --exclude *.pyd
+[2023-06-10 22:55:19] INFO root fetch - processPackages [remla23-team10-preprocessing]: Remove: archive file [/home/abi/fetcher/tmp/remla23-team10-preprocessing-1.0.0.tar.gz]
+[2023-06-10 22:55:19] INFO root fetch - processPackages [remla23-team10-preprocessing]: Remove: archive file [/home/abi/fetcher/tmp/remla23-team10-preprocessing-1.1.1.tar.gz]
+[2023-06-10 22:55:19] INFO root fetch - processPackages [remla23-team10-preprocessing]: Start processing: datoso-seed-vpinmame
+[2023-06-10 22:55:19] INFO root fetch - main [MainThread]: End processing [remla23-team10-preprocessing]: success
+[2023-06-10 22:55:19] INFO root fetch - processPackages [datoso-seed-vpinmame]: New version: [0.3.0] Old Version: [0.2.8]
+[2023-06-10 22:55:19] INFO root fetch - processPackages [datoso-seed-vpinmame]: Downloading https://files.pythonhosted.org/packages/f5/36/094945977c979a7ffbb21e36827eb7695375bf4e71d48e033194bf060eb4/datoso_seed_vpinmame-0.2.8.tar.gz
+[2023-06-10 22:55:19] INFO root fetch - processPackages [datasette-sqlite-regex]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_regex-0.2.3a7-py3-none-any.whl.zip]
+[2023-06-10 22:55:19] INFO root fetch - processPackages [datasette-sqlite-regex]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_regex-0.2.3a8-py3-none-any.whl.zip]
+[2023-06-10 22:55:19] INFO root fetch - processPackages [datasette-sqlite-regex]: Start processing: pybinary
+[2023-06-10 22:55:19] INFO root fetch - main [MainThread]: End processing [datasette-sqlite-regex]: success
+[2023-06-10 22:55:19] INFO root fetch - processPackages [datoso-seed-sfc-msu1]: Remove: archive file [/home/abi/fetcher/tmp/datoso_seed_sfc_msu1-0.2.3.tar.gz]
+[2023-06-10 22:55:19] INFO root fetch - processPackages [datoso-seed-sfc-msu1]: Remove: archive file [/home/abi/fetcher/tmp/datoso_seed_sfc_msu1-0.3.0.tar.gz]
+[2023-06-10 22:55:19] INFO root fetch - processPackages [datoso-seed-sfc-msu1]: Start processing: elevenlabslib
+[2023-06-10 22:55:19] INFO root fetch - main [MainThread]: End processing [datoso-seed-sfc-msu1]: success
+[2023-06-10 22:55:19] WARNING root fetch - processPackages [pybinary]: Skipping, unable to determine old version
+[2023-06-10 22:55:19] INFO root fetch - processPackages [pybinary]: Start processing: datasette-sqlite-ulid
+[2023-06-10 22:55:19] INFO root fetch - main [MainThread]: End processing [pybinary] error
+[2023-06-10 22:55:19] INFO root fetch - processPackages [datoso-seed-translatedenglish]: Remove: archive file [/home/abi/fetcher/tmp/datoso_seed_translatedenglish-0.2.3.tar.gz]
+[2023-06-10 22:55:19] INFO root fetch - processPackages [datoso-seed-translatedenglish]: Remove: archive file [/home/abi/fetcher/tmp/datoso_seed_translatedenglish-0.3.0.tar.gz]
+[2023-06-10 22:55:19] INFO root fetch - processPackages [datoso-seed-translatedenglish]: Start processing: sqlite-ulid
+[2023-06-10 22:55:19] INFO root fetch - main [MainThread]: End processing [datoso-seed-translatedenglish]: success
+[2023-06-10 22:55:19] INFO root fetch - processPackages [datoso-seed-vpinmame]: Downloading https://files.pythonhosted.org/packages/dc/cf/a916f5fa1988443f41f04b0c38b4f10ada89f11dc33f55ba13aba954cec3/datoso_seed_vpinmame-0.3.0.tar.gz
+[2023-06-10 22:55:19] INFO root fetch - processPackages [elevenlabslib]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-10 22:55:19] INFO root fetch - processPackages [datasette-sqlite-ulid]: New version: [0.2.1a9] Old Version: [0.2.1a8]
+[2023-06-10 22:55:19] INFO root fetch - processPackages [remla23-team10-preprocessing]: Remove: archive file [/home/abi/fetcher/tmp/remla23-team10-preprocessing-1.1.2.tar.gz]
+[2023-06-10 22:55:19] INFO root fetch - processPackages [remla23-team10-preprocessing]: Remove: archive file [/home/abi/fetcher/tmp/remla23-team10-preprocessing-1.2.0.tar.gz]
+[2023-06-10 22:55:19] INFO root fetch - processPackages [remla23-team10-preprocessing]: Start processing: atckit
+[2023-06-10 22:55:19] INFO root fetch - main [MainThread]: End processing [remla23-team10-preprocessing]: success
+[2023-06-10 22:55:19] INFO root fetch - processPackages [sqlite-ulid]: New version: [0.2.1a9] Old Version: [0.2.1a8]
+[2023-06-10 22:55:19] INFO root fetch - processPackages [datoso-seed-vpinmame]: executing diffoscope
+[2023-06-10 22:55:19] INFO root fetch - processPackages [datoso-seed-vpinmame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datoso_seed_vpinmame-0.2.8.tar.gz tmp/datoso_seed_vpinmame-0.3.0.tar.gz --markdown 20230610/d/datoso-seed-vpinmame/0.2.8-0.3.0/diff.md --exclude *.pyd
+[2023-06-10 22:55:20] INFO root fetch - processPackages [pyequations]: Remove: archive file [/home/abi/fetcher/tmp/pyequations-0.1.0.tar.gz]
+[2023-06-10 22:55:20] INFO root fetch - processPackages [pyequations]: Remove: archive file [/home/abi/fetcher/tmp/pyequations-0.1.1.tar.gz]
+[2023-06-10 22:55:20] INFO root fetch - processPackages [pyequations]: Start processing: mcfonts
+[2023-06-10 22:55:20] INFO root fetch - main [MainThread]: End processing [pyequations]: success
+[2023-06-10 22:55:20] INFO root fetch - processPackages [atckit]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-10 22:55:20] INFO root fetch - processPackages [datoso-seed-redump]: Remove: archive file [/home/abi/fetcher/tmp/datoso_seed_redump-0.2.3.tar.gz]
+[2023-06-10 22:55:20] INFO root fetch - processPackages [datoso-seed-redump]: Remove: archive file [/home/abi/fetcher/tmp/datoso_seed_redump-0.3.0.tar.gz]
+[2023-06-10 22:55:20] INFO root fetch - main [MainThread]: End processing [datoso-seed-redump]: success
+[2023-06-10 22:55:20] INFO root fetch - processPackages [mcfonts]: New version: [0.6] Old Version: [0.5.2]
+[2023-06-10 22:55:20] INFO root fetch - processPackages [elevenlabslib]: Downloading https://files.pythonhosted.org/packages/fb/26/859985244d4ecebaa3ba5acc5384eb972a29e9d032a5e375c55b5ba68852/elevenlabslib-0.9.1.tar.gz
+[2023-06-10 22:55:20] INFO root fetch - processPackages [mcfonts]: Downloading https://files.pythonhosted.org/packages/ad/99/7cc74e67b124c8fdac15606b669a05ecbbc278574388f4e99f8d2988df47/mcfonts-0.5.2.tar.gz
+[2023-06-10 22:55:20] INFO root fetch - processPackages [datasette-sqlite-ulid]: Downloading https://files.pythonhosted.org/packages/fb/75/84772c7d22f6331c21be9e6e44aa4d0e7bc9a093ec1efae29447e06afe1b/datasette_sqlite_ulid-0.2.1a8-py3-none-any.whl
+[2023-06-10 22:55:20] INFO root fetch - processPackages [sqlite-ulid]: Downloading https://files.pythonhosted.org/packages/39/9c/3b1b12e0230189f953e9f6fa50b27a1f41b55d46b4d30faf5ba7bfdf28a6/sqlite_ulid-0.2.1a8-py3-none-win_amd64.whl
+[2023-06-10 22:55:20] INFO root fetch - processPackages [atckit]: Downloading https://files.pythonhosted.org/packages/5c/70/13096e1346c4a1ba522f8f1b6fec760ccdf26db8be885f7e4c9f8d95fb54/atckit-1.0.1.tar.gz
+[2023-06-10 22:55:20] INFO root fetch - processPackages [mcfonts]: Downloading https://files.pythonhosted.org/packages/79/6c/8eff7a841beefcc2b93fc27a4b7f336a94299994cb701e5b6d7e8bd9c0c5/mcfonts-0.6.tar.gz
+[2023-06-10 22:55:20] INFO root fetch - processPackages [elevenlabslib]: Downloading https://files.pythonhosted.org/packages/58/c9/ca420f687f3afaf60c9465ee0c9d1210ee013c01544dca9a656cec6a41d8/elevenlabslib-0.9.2.tar.gz
+[2023-06-10 22:55:20] INFO root fetch - processPackages [mcfonts]: executing diffoscope
+[2023-06-10 22:55:20] INFO root fetch - processPackages [mcfonts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mcfonts-0.5.2.tar.gz tmp/mcfonts-0.6.tar.gz --markdown 20230610/m/mcfonts/0.5.2-0.6/diff.md --exclude *.pyd
+[2023-06-10 22:55:20] INFO root fetch - processPackages [elevenlabslib]: executing diffoscope
+[2023-06-10 22:55:20] INFO root fetch - processPackages [elevenlabslib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elevenlabslib-0.9.1.tar.gz tmp/elevenlabslib-0.9.2.tar.gz --markdown 20230610/e/elevenlabslib/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-10 22:55:20] INFO root fetch - processPackages [datasette-sqlite-ulid]: Downloading https://files.pythonhosted.org/packages/ab/3b/187b961948c84ee89a9df49535537d0cef20be60d541c6153ec33f55b5eb/datasette_sqlite_ulid-0.2.1a9-py3-none-any.whl
+[2023-06-10 22:55:20] INFO root fetch - processPackages [sqlite-ulid]: Downloading https://files.pythonhosted.org/packages/79/88/62ad933ff780becc4cc2adda47c01876102f548edb36ed1d727d10bcbb81/sqlite_ulid-0.2.1a9-py3-none-win_amd64.whl
+[2023-06-10 22:55:20] INFO root fetch - processPackages [atckit]: Downloading https://files.pythonhosted.org/packages/24/9e/58a44e197fde1b6c5b6c4260e86b11dbdd04e120ef98cc9f14775c7d8994/atckit-1.0.2.tar.gz
+[2023-06-10 22:55:20] INFO root fetch - processPackages [sqlite-ulid]: executing diffoscope
+[2023-06-10 22:55:20] INFO root fetch - processPackages [sqlite-ulid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite_ulid-0.2.1a8-py3-none-win_amd64.whl.zip tmp/sqlite_ulid-0.2.1a9-py3-none-win_amd64.whl.zip --markdown 20230610/s/sqlite-ulid/0.2.1a8-0.2.1a9/diff.md --exclude *.pyd
+[2023-06-10 22:55:20] INFO root fetch - processPackages [datasette-sqlite-ulid]: executing diffoscope
+[2023-06-10 22:55:20] INFO root fetch - processPackages [datasette-sqlite-ulid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasette_sqlite_ulid-0.2.1a8-py3-none-any.whl.zip tmp/datasette_sqlite_ulid-0.2.1a9-py3-none-any.whl.zip --markdown 20230610/d/datasette-sqlite-ulid/0.2.1a8-0.2.1a9/diff.md --exclude *.pyd
+[2023-06-10 22:55:20] INFO root fetch - processPackages [atckit]: executing diffoscope
+[2023-06-10 22:55:20] INFO root fetch - processPackages [atckit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atckit-1.0.1.tar.gz tmp/atckit-1.0.2.tar.gz --markdown 20230610/a/atckit/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-10 22:55:20] INFO root fetch - processPackages [datoso-seed-vpinmame]: Remove: archive file [/home/abi/fetcher/tmp/datoso_seed_vpinmame-0.2.8.tar.gz]
+[2023-06-10 22:55:20] INFO root fetch - processPackages [datoso-seed-vpinmame]: Remove: archive file [/home/abi/fetcher/tmp/datoso_seed_vpinmame-0.3.0.tar.gz]
+[2023-06-10 22:55:20] INFO root fetch - main [MainThread]: End processing [datoso-seed-vpinmame]: success
+[2023-06-10 22:55:21] INFO root fetch - processPackages [elevenlabslib]: Remove: archive file [/home/abi/fetcher/tmp/elevenlabslib-0.9.1.tar.gz]
+[2023-06-10 22:55:21] INFO root fetch - processPackages [elevenlabslib]: Remove: archive file [/home/abi/fetcher/tmp/elevenlabslib-0.9.2.tar.gz]
+[2023-06-10 22:55:21] INFO root fetch - main [MainThread]: End processing [elevenlabslib]: success
+[2023-06-10 22:55:21] INFO root fetch - processPackages [datasette-sqlite-ulid]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_ulid-0.2.1a8-py3-none-any.whl.zip]
+[2023-06-10 22:55:21] INFO root fetch - processPackages [datasette-sqlite-ulid]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_ulid-0.2.1a9-py3-none-any.whl.zip]
+[2023-06-10 22:55:21] INFO root fetch - main [MainThread]: End processing [datasette-sqlite-ulid]: success
+[2023-06-10 22:55:21] INFO root fetch - processPackages [argcomplete]: Remove: archive file [/home/abi/fetcher/tmp/argcomplete-3.0.8.tar.gz]
+[2023-06-10 22:55:21] INFO root fetch - processPackages [argcomplete]: Remove: archive file [/home/abi/fetcher/tmp/argcomplete-3.1.0.tar.gz]
+[2023-06-10 22:55:21] INFO root fetch - main [MainThread]: End processing [argcomplete]: success
+[2023-06-10 22:55:21] INFO root fetch - processPackages [atckit]: Remove: archive file [/home/abi/fetcher/tmp/atckit-1.0.1.tar.gz]
+[2023-06-10 22:55:21] INFO root fetch - processPackages [atckit]: Remove: archive file [/home/abi/fetcher/tmp/atckit-1.0.2.tar.gz]
+[2023-06-10 22:55:21] INFO root fetch - main [MainThread]: End processing [atckit]: success
+[2023-06-10 22:55:22] INFO root fetch - processPackages [mcfonts]: Remove: archive file [/home/abi/fetcher/tmp/mcfonts-0.5.2.tar.gz]
+[2023-06-10 22:55:22] INFO root fetch - processPackages [mcfonts]: Remove: archive file [/home/abi/fetcher/tmp/mcfonts-0.6.tar.gz]
+[2023-06-10 22:55:22] INFO root fetch - main [MainThread]: End processing [mcfonts]: success
+[2023-06-10 22:55:25] INFO root fetch - processPackages [sqlite-ulid]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_ulid-0.2.1a8-py3-none-win_amd64.whl.zip]
+[2023-06-10 22:55:25] INFO root fetch - processPackages [sqlite-ulid]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_ulid-0.2.1a9-py3-none-win_amd64.whl.zip]
+[2023-06-10 22:55:25] INFO root fetch - main [MainThread]: End processing [sqlite-ulid]: success
+[2023-06-10 22:55:30] INFO root fetch - processPackages [sqlite-xsv]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_xsv-0.2.1a7-py3-none-win_amd64.whl.zip]
+[2023-06-10 22:55:30] INFO root fetch - processPackages [sqlite-xsv]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_xsv-0.2.1a8-py3-none-win_amd64.whl.zip]
+[2023-06-10 22:55:30] INFO root fetch - main [MainThread]: End processing [sqlite-xsv]: success
+[2023-06-10 22:55:30] INFO root fetch - processPackages [sqlite-regex]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_regex-0.2.3a7-py3-none-win_amd64.whl.zip]
+[2023-06-10 22:55:30] INFO root fetch - processPackages [sqlite-regex]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_regex-0.2.3a8-py3-none-win_amd64.whl.zip]
+[2023-06-10 22:55:30] INFO root fetch - main [MainThread]: End processing [sqlite-regex]: success
+[2023-06-10 22:55:30] INFO root fetch - main [MainThread]: Store serial: [18453858]
