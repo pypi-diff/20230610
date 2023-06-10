@@ -9384,3 +9384,42 @@ EOFError: EOF read where object expected
 [2023-06-10 10:15:46] INFO root fetch - processPackages [convert-labse-tf-pt]: Remove: archive file [/home/abi/fetcher/tmp/convert_labse_tf_pt-3.0.0.tar.gz]
 [2023-06-10 10:15:46] INFO root fetch - main [MainThread]: End processing [convert-labse-tf-pt]: success
 [2023-06-10 10:15:46] INFO root fetch - main [MainThread]: Store serial: [18449539]
+[2023-06-10 10:20:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18449539]
+[2023-06-10 10:20:55] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-10 10:20:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xtdb
+[2023-06-10 10:20:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: funga-eth
+[2023-06-10 10:20:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: clust-learn
+[2023-06-10 10:20:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chainlib-eth
+[2023-06-10 10:20:55] INFO root fetch - processPackages [chainlib-eth]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-06-10 10:20:55] INFO root fetch - processPackages [funga-eth]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-06-10 10:20:55] INFO root fetch - processPackages [xtdb]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-06-10 10:20:55] INFO root fetch - processPackages [clust-learn]: New version: [0.2.0b0] Old Version: [0.2.0.7]
+[2023-06-10 10:20:55] INFO root fetch - processPackages [funga-eth]: Downloading https://files.pythonhosted.org/packages/c7/5f/89d86b594f992799996706b06f719638cd89daab7c2d2e4a5819470761ee/funga-eth-0.7.1.tar.gz
+[2023-06-10 10:20:55] INFO root fetch - processPackages [clust-learn]: Downloading https://files.pythonhosted.org/packages/65/10/ea981afcf22b8b3cf9ce7138a2af0ca2a010c4e0ec06523f56bd02c94124/clust-learn-0.2.0.7.tar.gz
+[2023-06-10 10:20:55] INFO root fetch - processPackages [xtdb]: Downloading https://files.pythonhosted.org/packages/de/5f/a3e4e011061bc89b3cec8ed8056e35fd400c9356d2f531834d9315477908/xtdb-0.5.0.tar.gz
+[2023-06-10 10:20:55] INFO root fetch - processPackages [chainlib-eth]: Downloading https://files.pythonhosted.org/packages/15/bf/7468f57041acb7aafab4d3243c04a9a948f92151615d8e5a5d3c464fe6b0/chainlib-eth-0.4.8.tar.gz
+[2023-06-10 10:20:55] INFO root fetch - processPackages [funga-eth]: Downloading https://files.pythonhosted.org/packages/91/7c/030c911c770dcf9ce371f2b70cc32429b6fa54484daec1d99deeacf2e2e4/funga-eth-0.7.2.tar.gz
+[2023-06-10 10:20:55] INFO root fetch - processPackages [xtdb]: Downloading https://files.pythonhosted.org/packages/7a/9b/99cda3e23ffff621721f531052ac2ce4c4b721e1461d5bafa9149114c012/xtdb-0.6.0.tar.gz
+[2023-06-10 10:20:55] INFO root fetch - processPackages [clust-learn]: Downloading https://files.pythonhosted.org/packages/c6/c8/b18bdbd40954b4bd9be87b5105c7b58f94556fc18f3c5cb3d5f62e349c09/clust-learn-0.2.0b0.tar.gz
+[2023-06-10 10:20:55] INFO root fetch - processPackages [xtdb]: executing diffoscope
+[2023-06-10 10:20:55] INFO root fetch - processPackages [xtdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xtdb-0.5.0.tar.gz tmp/xtdb-0.6.0.tar.gz --markdown 20230610/x/xtdb/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-06-10 10:20:55] INFO root fetch - processPackages [funga-eth]: executing diffoscope
+[2023-06-10 10:20:55] INFO root fetch - processPackages [funga-eth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funga-eth-0.7.1.tar.gz tmp/funga-eth-0.7.2.tar.gz --markdown 20230610/f/funga-eth/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-06-10 10:20:56] INFO root fetch - processPackages [chainlib-eth]: Downloading https://files.pythonhosted.org/packages/93/29/d66b795b7ad41d9cec3c9bf4bd862baefb08813ac813b30e268f14d56db7/chainlib-eth-0.4.9.tar.gz
+[2023-06-10 10:20:56] INFO root fetch - processPackages [clust-learn]: executing diffoscope
+[2023-06-10 10:20:56] INFO root fetch - processPackages [clust-learn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clust-learn-0.2.0.7.tar.gz tmp/clust-learn-0.2.0b0.tar.gz --markdown 20230610/c/clust-learn/0.2.0.7-0.2.0b0/diff.md --exclude *.pyd
+[2023-06-10 10:20:56] INFO root fetch - processPackages [chainlib-eth]: executing diffoscope
+[2023-06-10 10:20:56] INFO root fetch - processPackages [chainlib-eth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chainlib-eth-0.4.8.tar.gz tmp/chainlib-eth-0.4.9.tar.gz --markdown 20230610/c/chainlib-eth/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-06-10 10:20:56] INFO root fetch - processPackages [xtdb]: Remove: archive file [/home/abi/fetcher/tmp/xtdb-0.5.0.tar.gz]
+[2023-06-10 10:20:56] INFO root fetch - processPackages [xtdb]: Remove: archive file [/home/abi/fetcher/tmp/xtdb-0.6.0.tar.gz]
+[2023-06-10 10:20:56] INFO root fetch - main [MainThread]: End processing [xtdb]: success
+[2023-06-10 10:20:57] INFO root fetch - processPackages [funga-eth]: Remove: archive file [/home/abi/fetcher/tmp/funga-eth-0.7.1.tar.gz]
+[2023-06-10 10:20:57] INFO root fetch - processPackages [funga-eth]: Remove: archive file [/home/abi/fetcher/tmp/funga-eth-0.7.2.tar.gz]
+[2023-06-10 10:20:57] INFO root fetch - main [MainThread]: End processing [funga-eth]: success
+[2023-06-10 10:20:57] INFO root fetch - processPackages [clust-learn]: Remove: archive file [/home/abi/fetcher/tmp/clust-learn-0.2.0.7.tar.gz]
+[2023-06-10 10:20:57] INFO root fetch - processPackages [clust-learn]: Remove: archive file [/home/abi/fetcher/tmp/clust-learn-0.2.0b0.tar.gz]
+[2023-06-10 10:20:57] INFO root fetch - main [MainThread]: End processing [clust-learn]: success
+[2023-06-10 10:20:57] INFO root fetch - processPackages [chainlib-eth]: Remove: archive file [/home/abi/fetcher/tmp/chainlib-eth-0.4.8.tar.gz]
+[2023-06-10 10:20:57] INFO root fetch - processPackages [chainlib-eth]: Remove: archive file [/home/abi/fetcher/tmp/chainlib-eth-0.4.9.tar.gz]
+[2023-06-10 10:20:57] INFO root fetch - main [MainThread]: End processing [chainlib-eth]: success
+[2023-06-10 10:20:57] INFO root fetch - main [MainThread]: Store serial: [18449549]
