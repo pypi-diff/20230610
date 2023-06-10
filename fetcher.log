@@ -16329,3 +16329,66 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-10 20:23:20] INFO root fetch - processPackages [rxctl]: Remove: archive file [/home/abi/fetcher/tmp/rxctl-1.0.1.tar.gz]
 [2023-06-10 20:23:20] INFO root fetch - main [MainThread]: End processing [rxctl]: success
 [2023-06-10 20:23:20] INFO root fetch - main [MainThread]: Store serial: [18452894]
+[2023-06-10 20:28:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18452894]
+[2023-06-10 20:28:28] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-10 20:28:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: confattr
+[2023-06-10 20:28:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dvc-data
+[2023-06-10 20:28:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: autobricks
+[2023-06-10 20:28:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: needed-libs
+[2023-06-10 20:28:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: novel-swarms
+[2023-06-10 20:28:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: flask-useful
+[2023-06-10 20:28:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: brainfk
+[2023-06-10 20:28:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: privategpt
+[2023-06-10 20:28:28] INFO root fetch - processPackages [confattr]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-10 20:28:28] INFO root fetch - processPackages [brainfk]: New version: [1.0.0] Old Version: [0.0.3]
+[2023-06-10 20:28:28] INFO root fetch - processPackages [autobricks]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-10 20:28:28] WARNING root fetch - processPackages [needed-libs]: Skipping, unable to determine old version
+[2023-06-10 20:28:28] INFO root fetch - main [MainThread]: End processing [needed-libs] error
+[2023-06-10 20:28:28] INFO root fetch - processPackages [flask-useful]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-06-10 20:28:28] INFO root fetch - processPackages [dvc-data]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-06-10 20:28:28] ERROR root fetch - processPackages [privategpt]: Unable to get metadata: No such project 'privategpt'
+[2023-06-10 20:28:28] INFO root fetch - main [MainThread]: End processing [privategpt] error
+[2023-06-10 20:28:28] INFO root fetch - processPackages [novel-swarms]: New version: [0.1.7a0] Old Version: [0.1.6a0]
+[2023-06-10 20:28:28] INFO root fetch - processPackages [brainfk]: Downloading https://files.pythonhosted.org/packages/44/3c/bc34b13048240a4540df5ff5a5cb0bc13e12123c7421a2d5027552607e84/brainfk-0.0.3.tar.gz
+[2023-06-10 20:28:29] INFO root fetch - processPackages [confattr]: Downloading https://files.pythonhosted.org/packages/e0/3d/676c9829500ccdbc350423ed2b5e28aba80e42d64a6226d75cca28e78178/confattr-0.9.0.tar.gz
+[2023-06-10 20:28:29] INFO root fetch - processPackages [dvc-data]: Downloading https://files.pythonhosted.org/packages/ba/78/3a1ebd074f0fbc2f4ed0f02916d29743579a8ec732a44379ae9d11b3239b/dvc-data-1.1.0.tar.gz
+[2023-06-10 20:28:29] INFO root fetch - processPackages [autobricks]: Downloading https://files.pythonhosted.org/packages/bb/24/e9e22469136ed2dde49ee3e3d60a37d04d8fec40f8317c0e15c5b2fa76fe/autobricks-0.8.0.tar.gz
+[2023-06-10 20:28:29] INFO root fetch - processPackages [flask-useful]: Downloading https://files.pythonhosted.org/packages/df/6b/b8bc2f8aef71a861cf67102bccccb2d87f65f18327366463911b0f319ef2/flask-useful-0.2.4.tar.gz
+[2023-06-10 20:28:29] INFO root fetch - processPackages [novel-swarms]: Downloading https://files.pythonhosted.org/packages/48/e8/4ef9c04d24451d62f4f265cf0b319313094719e5f5b428183f65b31b613d/novel_swarms-0.1.6a0.tar.gz
+[2023-06-10 20:28:29] INFO root fetch - processPackages [brainfk]: Downloading https://files.pythonhosted.org/packages/4d/e0/dcb2a3c639c36104c241dd61571e5fa879bbab7013c087aa9c47388d00a4/brainfk-1.0.0.tar.gz
+[2023-06-10 20:28:29] INFO root fetch - processPackages [brainfk]: executing diffoscope
+[2023-06-10 20:28:29] INFO root fetch - processPackages [brainfk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brainfk-0.0.3.tar.gz tmp/brainfk-1.0.0.tar.gz --markdown 20230610/b/brainfk/0.0.3-1.0.0/diff.md --exclude *.pyd
+[2023-06-10 20:28:29] INFO root fetch - processPackages [flask-useful]: Downloading https://files.pythonhosted.org/packages/b3/43/0a2719992fa173e5c4470879e9af42e766a1d38539bcbb237a3c25aca76a/flask-useful-0.2.5.tar.gz
+[2023-06-10 20:28:29] INFO root fetch - processPackages [dvc-data]: Downloading https://files.pythonhosted.org/packages/7a/79/e1459b54f7b2b38bfea47374e770a133db6adcd0a3e0b85b4e04586b76cf/dvc-data-1.2.0.tar.gz
+[2023-06-10 20:28:29] INFO root fetch - processPackages [novel-swarms]: Downloading https://files.pythonhosted.org/packages/6f/3c/ce5d575fed487b9ebb44a55dc3b162fbff54f26d25b23c123897a071cfa3/novel_swarms-0.1.7a0.tar.gz
+[2023-06-10 20:28:29] INFO root fetch - processPackages [autobricks]: Downloading https://files.pythonhosted.org/packages/54/a7/31bb592ae91e9a215ba2a98c74bd2e211cac6f8a76013d7ba8c9114e0dee/autobricks-0.9.0.tar.gz
+[2023-06-10 20:28:29] INFO root fetch - processPackages [flask-useful]: executing diffoscope
+[2023-06-10 20:28:29] INFO root fetch - processPackages [flask-useful]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask-useful-0.2.4.tar.gz tmp/flask-useful-0.2.5.tar.gz --markdown 20230610/f/flask-useful/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-06-10 20:28:29] INFO root fetch - processPackages [autobricks]: executing diffoscope
+[2023-06-10 20:28:29] INFO root fetch - processPackages [autobricks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autobricks-0.8.0.tar.gz tmp/autobricks-0.9.0.tar.gz --markdown 20230610/a/autobricks/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-10 20:28:29] INFO root fetch - processPackages [dvc-data]: executing diffoscope
+[2023-06-10 20:28:29] INFO root fetch - processPackages [dvc-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvc-data-1.1.0.tar.gz tmp/dvc-data-1.2.0.tar.gz --markdown 20230610/d/dvc-data/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-06-10 20:28:29] INFO root fetch - processPackages [novel-swarms]: executing diffoscope
+[2023-06-10 20:28:29] INFO root fetch - processPackages [novel-swarms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/novel_swarms-0.1.6a0.tar.gz tmp/novel_swarms-0.1.7a0.tar.gz --markdown 20230610/n/novel-swarms/0.1.6a0-0.1.7a0/diff.md --exclude *.pyd
+[2023-06-10 20:28:30] INFO root fetch - processPackages [brainfk]: Remove: archive file [/home/abi/fetcher/tmp/brainfk-0.0.3.tar.gz]
+[2023-06-10 20:28:30] INFO root fetch - processPackages [brainfk]: Remove: archive file [/home/abi/fetcher/tmp/brainfk-1.0.0.tar.gz]
+[2023-06-10 20:28:30] INFO root fetch - main [MainThread]: End processing [brainfk]: success
+[2023-06-10 20:28:30] INFO root fetch - processPackages [confattr]: Downloading https://files.pythonhosted.org/packages/a6/17/73ce7e383a16ae83a2768ebc6e64315ac4a7ece6c6cd12952e99e107efe8/confattr-0.9.1.tar.gz
+[2023-06-10 20:28:30] INFO root fetch - processPackages [flask-useful]: Remove: archive file [/home/abi/fetcher/tmp/flask-useful-0.2.4.tar.gz]
+[2023-06-10 20:28:30] INFO root fetch - processPackages [flask-useful]: Remove: archive file [/home/abi/fetcher/tmp/flask-useful-0.2.5.tar.gz]
+[2023-06-10 20:28:30] INFO root fetch - main [MainThread]: End processing [flask-useful]: success
+[2023-06-10 20:28:30] INFO root fetch - processPackages [autobricks]: Remove: archive file [/home/abi/fetcher/tmp/autobricks-0.8.0.tar.gz]
+[2023-06-10 20:28:30] INFO root fetch - processPackages [autobricks]: Remove: archive file [/home/abi/fetcher/tmp/autobricks-0.9.0.tar.gz]
+[2023-06-10 20:28:30] INFO root fetch - main [MainThread]: End processing [autobricks]: success
+[2023-06-10 20:28:30] INFO root fetch - processPackages [dvc-data]: Remove: archive file [/home/abi/fetcher/tmp/dvc-data-1.1.0.tar.gz]
+[2023-06-10 20:28:30] INFO root fetch - processPackages [dvc-data]: Remove: archive file [/home/abi/fetcher/tmp/dvc-data-1.2.0.tar.gz]
+[2023-06-10 20:28:30] INFO root fetch - main [MainThread]: End processing [dvc-data]: success
+[2023-06-10 20:28:31] INFO root fetch - processPackages [novel-swarms]: Remove: archive file [/home/abi/fetcher/tmp/novel_swarms-0.1.6a0.tar.gz]
+[2023-06-10 20:28:31] INFO root fetch - processPackages [novel-swarms]: Remove: archive file [/home/abi/fetcher/tmp/novel_swarms-0.1.7a0.tar.gz]
+[2023-06-10 20:28:31] INFO root fetch - main [MainThread]: End processing [novel-swarms]: success
+[2023-06-10 20:28:31] INFO root fetch - processPackages [confattr]: executing diffoscope
+[2023-06-10 20:28:31] INFO root fetch - processPackages [confattr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/confattr-0.9.0.tar.gz tmp/confattr-0.9.1.tar.gz --markdown 20230610/c/confattr/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-10 20:28:35] INFO root fetch - processPackages [confattr]: Remove: archive file [/home/abi/fetcher/tmp/confattr-0.9.0.tar.gz]
+[2023-06-10 20:28:35] INFO root fetch - processPackages [confattr]: Remove: archive file [/home/abi/fetcher/tmp/confattr-0.9.1.tar.gz]
+[2023-06-10 20:28:35] INFO root fetch - main [MainThread]: End processing [confattr]: success
+[2023-06-10 20:28:35] INFO root fetch - main [MainThread]: Store serial: [18452926]
