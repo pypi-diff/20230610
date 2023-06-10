@@ -7653,3 +7653,18 @@ EOFError: EOF read where object expected
 [2023-06-10 06:31:17] INFO root fetch - processPackages [odoo14-addon-base-product-mass-addition]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_base_product_mass_addition-14.0.1.2.1.dev2-py3-none-any.whl.zip]
 [2023-06-10 06:31:17] INFO root fetch - main [MainThread]: End processing [odoo14-addon-base-product-mass-addition]: success
 [2023-06-10 06:31:17] INFO root fetch - main [MainThread]: Store serial: [18448604]
+[2023-06-10 06:36:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18448604]
+[2023-06-10 06:36:26] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-06-10 06:36:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-product-manufacturer
+[2023-06-10 06:36:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dagma
+[2023-06-10 06:36:26] INFO root fetch - processPackages [odoo14-addon-product-manufacturer]: New version: [14.0.1.0.3.dev3] Old Version: [14.0.1.0.3.dev2]
+[2023-06-10 06:36:26] WARNING root fetch - processPackages [dagma]: Skipping, unable to determine old version
+[2023-06-10 06:36:26] INFO root fetch - main [MainThread]: End processing [dagma] error
+[2023-06-10 06:36:26] INFO root fetch - processPackages [odoo14-addon-product-manufacturer]: Downloading https://files.pythonhosted.org/packages/de/90/a01a46e31be783467dafe0d9ffe5cae0c61cf1b5ef3008b4341b06ccec39/odoo14_addon_product_manufacturer-14.0.1.0.3.dev2-py3-none-any.whl
+[2023-06-10 06:36:26] INFO root fetch - processPackages [odoo14-addon-product-manufacturer]: Downloading https://files.pythonhosted.org/packages/a4/78/388de79f0f4b73d877fa9328654a4990ab6301e28f2fd2b8c24c3015656a/odoo14_addon_product_manufacturer-14.0.1.0.3.dev3-py3-none-any.whl
+[2023-06-10 06:36:26] INFO root fetch - processPackages [odoo14-addon-product-manufacturer]: executing diffoscope
+[2023-06-10 06:36:26] INFO root fetch - processPackages [odoo14-addon-product-manufacturer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_product_manufacturer-14.0.1.0.3.dev2-py3-none-any.whl.zip tmp/odoo14_addon_product_manufacturer-14.0.1.0.3.dev3-py3-none-any.whl.zip --markdown 20230610/o/odoo14-addon-product-manufacturer/14.0.1.0.3.dev2-14.0.1.0.3.dev3/diff.md --exclude *.pyd
+[2023-06-10 06:36:28] INFO root fetch - processPackages [odoo14-addon-product-manufacturer]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_product_manufacturer-14.0.1.0.3.dev2-py3-none-any.whl.zip]
+[2023-06-10 06:36:28] INFO root fetch - processPackages [odoo14-addon-product-manufacturer]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_product_manufacturer-14.0.1.0.3.dev3-py3-none-any.whl.zip]
+[2023-06-10 06:36:28] INFO root fetch - main [MainThread]: End processing [odoo14-addon-product-manufacturer]: success
+[2023-06-10 06:36:28] INFO root fetch - main [MainThread]: Store serial: [18448613]
