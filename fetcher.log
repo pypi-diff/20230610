@@ -11299,3 +11299,72 @@ EOFError: EOF read where object expected
 [2023-06-10 13:56:48] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-3.1.9.tar.gz]
 [2023-06-10 13:56:48] INFO root fetch - main [MainThread]: End processing [ccxt]: success
 [2023-06-10 13:56:48] INFO root fetch - main [MainThread]: Store serial: [18450343]
+[2023-06-10 14:01:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18450343]
+[2023-06-10 14:01:57] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-10 14:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bigdl-serving
+[2023-06-10 14:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sparta-spanner
+[2023-06-10 14:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: savant-rs
+[2023-06-10 14:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cbpi4
+[2023-06-10 14:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: motulator
+[2023-06-10 14:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kaiju-tasks
+[2023-06-10 14:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mfhpo-benchmark-api
+[2023-06-10 14:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: savant-rs-etcd-dynamic-state
+[2023-06-10 14:01:57] INFO root fetch - processPackages [sparta-spanner]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-10 14:01:57] INFO root fetch - processPackages [bigdl-serving]: New version: [2.4.0b20230610] Old Version: [2.4.0b20230609]
+[2023-06-10 14:01:57] INFO root fetch - processPackages [cbpi4]: New version: [4.1.7rc1] Old Version: [4.1.7]
+[2023-06-10 14:01:57] INFO root fetch - processPackages [kaiju-tasks]: New version: [2.1.0] Old Version: [2.0.12]
+[2023-06-10 14:01:57] INFO root fetch - processPackages [mfhpo-benchmark-api]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-10 14:01:57] INFO root fetch - processPackages [motulator]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-10 14:01:57] INFO root fetch - processPackages [savant-rs]: New version: [0.1.9] Old Version: [0.1.7]
+[2023-06-10 14:01:57] INFO root fetch - processPackages [sparta-spanner]: Downloading https://files.pythonhosted.org/packages/70/1d/54cfb9e6340dcade8764e8805d0e20c727784fdfb4c2a5026a0dc9cb809a/sparta-spanner-0.0.6.tar.gz
+[2023-06-10 14:01:57] INFO root fetch - processPackages [mfhpo-benchmark-api]: Downloading https://files.pythonhosted.org/packages/ad/54/49312f51edac441f45422375cdeafa31905afa4586947452039a14acbfda/mfhpo_benchmark_api-1.0.2-py3-none-any.whl
+[2023-06-10 14:01:57] WARNING root fetch - processPackages [savant-rs-etcd-dynamic-state]: Skipping, unable to determine old version
+[2023-06-10 14:01:57] INFO root fetch - main [MainThread]: End processing [savant-rs-etcd-dynamic-state] error
+[2023-06-10 14:01:57] INFO root fetch - processPackages [bigdl-serving]: Downloading https://files.pythonhosted.org/packages/48/aa/48bf7e547119a2763bde61fb03d2f9db46ff245d3bedab6d34cb1b407b27/bigdl_serving-2.4.0b20230609-py2.py3-none-any.whl
+[2023-06-10 14:01:57] INFO root fetch - processPackages [cbpi4]: Downloading https://files.pythonhosted.org/packages/c4/5c/41f20d108393c32ee8f24c1a72ff53b7475ed5e8465ebbcdbaaff9be15c4/cbpi4-4.1.7.tar.gz
+[2023-06-10 14:01:57] INFO root fetch - processPackages [kaiju-tasks]: Downloading https://files.pythonhosted.org/packages/6a/b0/85251a96d58d5f61cbc3bafd75e4a9eb768cb5d842512e2df25ba597094b/kaiju_tasks-2.0.12-py3-none-any.whl
+[2023-06-10 14:01:57] INFO root fetch - processPackages [savant-rs]: Downloading https://files.pythonhosted.org/packages/c4/00/2644997dc31784c2debfbda253c475ca3463024586165f400ebc3871aaba/savant_rs-0.1.7.tar.gz
+[2023-06-10 14:01:57] INFO root fetch - processPackages [motulator]: Downloading https://files.pythonhosted.org/packages/89/d3/2a62ce9846147d2b2292c1fc9a6495110063c29f3acf546eed2a160d9944/motulator-0.1.5.tar.gz
+[2023-06-10 14:01:57] INFO root fetch - processPackages [sparta-spanner]: Downloading https://files.pythonhosted.org/packages/cb/5a/9c2fa51d6e514f216cb9e238f6cce4f2b2aaa825c3500696f9d477d3f140/sparta-spanner-0.0.7.tar.gz
+[2023-06-10 14:01:57] INFO root fetch - processPackages [mfhpo-benchmark-api]: Downloading https://files.pythonhosted.org/packages/91/fd/375ebfaea1d059fec3bbd8912e20166cedb62d4f2befe1a7864277da2733/mfhpo_benchmark_api-1.0.3-py3-none-any.whl
+[2023-06-10 14:01:57] INFO root fetch - processPackages [bigdl-serving]: Downloading https://files.pythonhosted.org/packages/e7/84/4127fb56287b4dea7fe5ce6b1320f7fd503aa2c2c0d124584cc0e970298b/bigdl_serving-2.4.0b20230610-py2.py3-none-any.whl
+[2023-06-10 14:01:57] INFO root fetch - processPackages [kaiju-tasks]: Downloading https://files.pythonhosted.org/packages/09/ab/11d04f46787269068043c355be9bc1e4e8aab8ff809983f06c064f52a73e/kaiju_tasks-2.1.0-py3-none-any.whl
+[2023-06-10 14:01:57] INFO root fetch - processPackages [sparta-spanner]: executing diffoscope
+[2023-06-10 14:01:57] INFO root fetch - processPackages [sparta-spanner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparta-spanner-0.0.6.tar.gz tmp/sparta-spanner-0.0.7.tar.gz --markdown 20230610/s/sparta-spanner/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-10 14:01:57] INFO root fetch - processPackages [savant-rs]: Downloading https://files.pythonhosted.org/packages/14/6f/20424ad55aaad55bea7d3a27e5a0cc5fe726f0b4507b2b6f406d79e8015a/savant_rs-0.1.9.tar.gz
+[2023-06-10 14:01:57] INFO root fetch - processPackages [mfhpo-benchmark-api]: executing diffoscope
+[2023-06-10 14:01:57] INFO root fetch - processPackages [mfhpo-benchmark-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mfhpo_benchmark_api-1.0.2-py3-none-any.whl.zip tmp/mfhpo_benchmark_api-1.0.3-py3-none-any.whl.zip --markdown 20230610/m/mfhpo-benchmark-api/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-10 14:01:57] INFO root fetch - processPackages [motulator]: Downloading https://files.pythonhosted.org/packages/02/bc/6ec98d087afdacfd3edfacca32bf28cf945af0b46a11e6611faeb133cc1b/motulator-0.1.6.tar.gz
+[2023-06-10 14:01:57] INFO root fetch - processPackages [bigdl-serving]: executing diffoscope
+[2023-06-10 14:01:57] INFO root fetch - processPackages [bigdl-serving]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_serving-2.4.0b20230609-py2.py3-none-any.whl.zip tmp/bigdl_serving-2.4.0b20230610-py2.py3-none-any.whl.zip --markdown 20230610/b/bigdl-serving/2.4.0b20230609-2.4.0b20230610/diff.md --exclude *.pyd
+[2023-06-10 14:01:58] INFO root fetch - processPackages [motulator]: executing diffoscope
+[2023-06-10 14:01:58] INFO root fetch - processPackages [motulator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/motulator-0.1.5.tar.gz tmp/motulator-0.1.6.tar.gz --markdown 20230610/m/motulator/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-10 14:01:58] INFO root fetch - processPackages [kaiju-tasks]: executing diffoscope
+[2023-06-10 14:01:58] INFO root fetch - processPackages [kaiju-tasks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kaiju_tasks-2.0.12-py3-none-any.whl.zip tmp/kaiju_tasks-2.1.0-py3-none-any.whl.zip --markdown 20230610/k/kaiju-tasks/2.0.12-2.1.0/diff.md --exclude *.pyd
+[2023-06-10 14:01:58] INFO root fetch - processPackages [savant-rs]: executing diffoscope
+[2023-06-10 14:01:58] INFO root fetch - processPackages [savant-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/savant_rs-0.1.7.tar.gz tmp/savant_rs-0.1.9.tar.gz --markdown 20230610/s/savant-rs/0.1.7-0.1.9/diff.md --exclude *.pyd
+[2023-06-10 14:01:59] INFO root fetch - processPackages [sparta-spanner]: Remove: archive file [/home/abi/fetcher/tmp/sparta-spanner-0.0.6.tar.gz]
+[2023-06-10 14:01:59] INFO root fetch - processPackages [sparta-spanner]: Remove: archive file [/home/abi/fetcher/tmp/sparta-spanner-0.0.7.tar.gz]
+[2023-06-10 14:01:59] INFO root fetch - main [MainThread]: End processing [sparta-spanner]: success
+[2023-06-10 14:01:59] INFO root fetch - processPackages [mfhpo-benchmark-api]: Remove: archive file [/home/abi/fetcher/tmp/mfhpo_benchmark_api-1.0.2-py3-none-any.whl.zip]
+[2023-06-10 14:01:59] INFO root fetch - processPackages [mfhpo-benchmark-api]: Remove: archive file [/home/abi/fetcher/tmp/mfhpo_benchmark_api-1.0.3-py3-none-any.whl.zip]
+[2023-06-10 14:01:59] INFO root fetch - main [MainThread]: End processing [mfhpo-benchmark-api]: success
+[2023-06-10 14:01:59] INFO root fetch - processPackages [bigdl-serving]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_serving-2.4.0b20230609-py2.py3-none-any.whl.zip]
+[2023-06-10 14:01:59] INFO root fetch - processPackages [bigdl-serving]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_serving-2.4.0b20230610-py2.py3-none-any.whl.zip]
+[2023-06-10 14:01:59] INFO root fetch - main [MainThread]: End processing [bigdl-serving]: success
+[2023-06-10 14:01:59] INFO root fetch - processPackages [cbpi4]: Downloading https://files.pythonhosted.org/packages/21/eb/15dd42d16073469bf1fc2fb44c647828cebedeacf917461aa3cd400a5f7c/cbpi4-4.1.7rc1.tar.gz
+[2023-06-10 14:01:59] INFO root fetch - processPackages [motulator]: Remove: archive file [/home/abi/fetcher/tmp/motulator-0.1.5.tar.gz]
+[2023-06-10 14:01:59] INFO root fetch - processPackages [motulator]: Remove: archive file [/home/abi/fetcher/tmp/motulator-0.1.6.tar.gz]
+[2023-06-10 14:01:59] INFO root fetch - main [MainThread]: End processing [motulator]: success
+[2023-06-10 14:01:59] INFO root fetch - processPackages [kaiju-tasks]: Remove: archive file [/home/abi/fetcher/tmp/kaiju_tasks-2.0.12-py3-none-any.whl.zip]
+[2023-06-10 14:01:59] INFO root fetch - processPackages [kaiju-tasks]: Remove: archive file [/home/abi/fetcher/tmp/kaiju_tasks-2.1.0-py3-none-any.whl.zip]
+[2023-06-10 14:01:59] INFO root fetch - main [MainThread]: End processing [kaiju-tasks]: success
+[2023-06-10 14:01:59] INFO root fetch - processPackages [savant-rs]: Remove: archive file [/home/abi/fetcher/tmp/savant_rs-0.1.7.tar.gz]
+[2023-06-10 14:01:59] INFO root fetch - processPackages [savant-rs]: Remove: archive file [/home/abi/fetcher/tmp/savant_rs-0.1.9.tar.gz]
+[2023-06-10 14:01:59] INFO root fetch - main [MainThread]: End processing [savant-rs]: success
+[2023-06-10 14:02:00] INFO root fetch - processPackages [cbpi4]: executing diffoscope
+[2023-06-10 14:02:00] INFO root fetch - processPackages [cbpi4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cbpi4-4.1.7.tar.gz tmp/cbpi4-4.1.7rc1.tar.gz --markdown 20230610/c/cbpi4/4.1.7-4.1.7rc1/diff.md --exclude *.pyd
+[2023-06-10 14:02:03] INFO root fetch - processPackages [cbpi4]: Remove: archive file [/home/abi/fetcher/tmp/cbpi4-4.1.7.tar.gz]
+[2023-06-10 14:02:03] INFO root fetch - processPackages [cbpi4]: Remove: archive file [/home/abi/fetcher/tmp/cbpi4-4.1.7rc1.tar.gz]
+[2023-06-10 14:02:03] INFO root fetch - main [MainThread]: End processing [cbpi4]: success
+[2023-06-10 14:02:03] INFO root fetch - main [MainThread]: Store serial: [18450404]
