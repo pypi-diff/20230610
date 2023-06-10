@@ -14108,3 +14108,36 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-10 17:06:47] INFO root fetch - processPackages [odoo12-addon-l10n-br-fiscal]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_l10n_br_fiscal-12.0.9.0.0-py3-none-any.whl.zip]
 [2023-06-10 17:06:47] INFO root fetch - main [MainThread]: End processing [odoo12-addon-l10n-br-fiscal]: success
 [2023-06-10 17:06:47] INFO root fetch - main [MainThread]: Store serial: [18451692]
+[2023-06-10 17:11:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18451692]
+[2023-06-10 17:11:57] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-10 17:11:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tictactoe-enhanced
+[2023-06-10 17:11:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rabbitizer
+[2023-06-10 17:11:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lib-dzne-analyze-seq-further
+[2023-06-10 17:11:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: matgl
+[2023-06-10 17:11:57] INFO root fetch - processPackages [lib-dzne-analyze-seq-further]: New version: [0.1.2] Old Version: [0.1.0]
+[2023-06-10 17:11:57] INFO root fetch - processPackages [matgl]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-06-10 17:11:57] WARNING root fetch - processPackages [tictactoe-enhanced]: Skipping, unable to determine old version
+[2023-06-10 17:11:57] INFO root fetch - main [MainThread]: End processing [tictactoe-enhanced] error
+[2023-06-10 17:11:57] INFO root fetch - processPackages [rabbitizer]: New version: [1.7.3] Old Version: [1.7.2]
+[2023-06-10 17:11:57] INFO root fetch - processPackages [matgl]: Downloading https://files.pythonhosted.org/packages/4d/e9/8c089d80781259bfbcec649b2ed903d9f06f88edce19a2bc7bcd0492337f/matgl-0.5.1.tar.gz
+[2023-06-10 17:11:57] INFO root fetch - processPackages [rabbitizer]: Downloading https://files.pythonhosted.org/packages/09/63/2e7d2623ef269b1520b6dfe0f3a5c8890a44ba22613bd0dbefa99f026ee9/rabbitizer-1.7.2.tar.gz
+[2023-06-10 17:11:57] INFO root fetch - processPackages [lib-dzne-analyze-seq-further]: Downloading https://files.pythonhosted.org/packages/36/19/8956f13dbaea883803ec241b3cb353d56e966b3926b7a99a9d3bfeed1db6/lib-dzne-analyze-seq-further-0.1.0.tar.gz
+[2023-06-10 17:11:57] INFO root fetch - processPackages [matgl]: Downloading https://files.pythonhosted.org/packages/19/18/dcd9c18413ca1c8d38a8bcdc47caa51cc49f48942b3d8aba750a57d70fca/matgl-0.5.2.tar.gz
+[2023-06-10 17:11:57] INFO root fetch - processPackages [matgl]: executing diffoscope
+[2023-06-10 17:11:57] INFO root fetch - processPackages [matgl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matgl-0.5.1.tar.gz tmp/matgl-0.5.2.tar.gz --markdown 20230610/m/matgl/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-06-10 17:11:57] INFO root fetch - processPackages [rabbitizer]: Downloading https://files.pythonhosted.org/packages/5f/e6/59205b118de35593fc60fdd89f0c8ffe860d25c2c6957e2edf22dbbed445/rabbitizer-1.7.3.tar.gz
+[2023-06-10 17:11:57] INFO root fetch - processPackages [lib-dzne-analyze-seq-further]: Downloading https://files.pythonhosted.org/packages/23/80/e3f41c6a119008b68a09141ac01bd26f73c38da2c037262dad51f54dc6bc/lib-dzne-analyze-seq-further-0.1.2.tar.gz
+[2023-06-10 17:11:57] INFO root fetch - processPackages [lib-dzne-analyze-seq-further]: executing diffoscope
+[2023-06-10 17:11:57] INFO root fetch - processPackages [lib-dzne-analyze-seq-further]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lib-dzne-analyze-seq-further-0.1.0.tar.gz tmp/lib-dzne-analyze-seq-further-0.1.2.tar.gz --markdown 20230610/l/lib-dzne-analyze-seq-further/0.1.0-0.1.2/diff.md --exclude *.pyd
+[2023-06-10 17:11:57] INFO root fetch - processPackages [rabbitizer]: executing diffoscope
+[2023-06-10 17:11:57] INFO root fetch - processPackages [rabbitizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rabbitizer-1.7.2.tar.gz tmp/rabbitizer-1.7.3.tar.gz --markdown 20230610/r/rabbitizer/1.7.2-1.7.3/diff.md --exclude *.pyd
+[2023-06-10 17:11:58] INFO root fetch - processPackages [lib-dzne-analyze-seq-further]: Remove: archive file [/home/abi/fetcher/tmp/lib-dzne-analyze-seq-further-0.1.0.tar.gz]
+[2023-06-10 17:11:58] INFO root fetch - processPackages [lib-dzne-analyze-seq-further]: Remove: archive file [/home/abi/fetcher/tmp/lib-dzne-analyze-seq-further-0.1.2.tar.gz]
+[2023-06-10 17:11:58] INFO root fetch - main [MainThread]: End processing [lib-dzne-analyze-seq-further]: success
+[2023-06-10 17:11:59] INFO root fetch - processPackages [matgl]: Remove: archive file [/home/abi/fetcher/tmp/matgl-0.5.1.tar.gz]
+[2023-06-10 17:11:59] INFO root fetch - processPackages [matgl]: Remove: archive file [/home/abi/fetcher/tmp/matgl-0.5.2.tar.gz]
+[2023-06-10 17:11:59] INFO root fetch - main [MainThread]: End processing [matgl]: success
+[2023-06-10 17:12:00] INFO root fetch - processPackages [rabbitizer]: Remove: archive file [/home/abi/fetcher/tmp/rabbitizer-1.7.2.tar.gz]
+[2023-06-10 17:12:00] INFO root fetch - processPackages [rabbitizer]: Remove: archive file [/home/abi/fetcher/tmp/rabbitizer-1.7.3.tar.gz]
+[2023-06-10 17:12:00] INFO root fetch - main [MainThread]: End processing [rabbitizer]: success
+[2023-06-10 17:12:00] INFO root fetch - main [MainThread]: Store serial: [18451760]
