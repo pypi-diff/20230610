@@ -15359,3 +15359,66 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-10 18:53:18] INFO root fetch - processPackages [watchmen-indicator-surface]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_indicator_surface-16.5.9.tar.gz]
 [2023-06-10 18:53:18] INFO root fetch - main [MainThread]: End processing [watchmen-indicator-surface]: success
 [2023-06-10 18:53:18] INFO root fetch - main [MainThread]: Store serial: [18452364]
+[2023-06-10 18:58:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18452364]
+[2023-06-10 18:58:28] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-10 18:58:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: docleaf
+[2023-06-10 18:58:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pystorz
+[2023-06-10 18:58:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: discord-qalib
+[2023-06-10 18:58:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ssapi
+[2023-06-10 18:58:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tiafork
+[2023-06-10 18:58:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rofunc
+[2023-06-10 18:58:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: clean-workspace
+[2023-06-10 18:58:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ssapi
+[2023-06-10 18:58:28] INFO root fetch - processPackages [ssapi]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-10 18:58:28] INFO root fetch - processPackages [tiafork]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-06-10 18:58:28] INFO root fetch - processPackages [docleaf]: New version: [0.3.0] Old Version: [0.2.0a0]
+[2023-06-10 18:58:28] INFO root fetch - processPackages [pystorz]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-06-10 18:58:28] INFO root fetch - processPackages [rofunc]: New version: [0.0.1b0] Old Version: [0.0.1.9.1]
+[2023-06-10 18:58:28] INFO root fetch - processPackages [ssapi]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-10 18:58:28] INFO root fetch - processPackages [discord-qalib]: New version: [2.4.0] Old Version: [2.3.0]
+[2023-06-10 18:58:28] INFO root fetch - processPackages [ssapi]: Downloading https://files.pythonhosted.org/packages/0d/27/0ca40fb05a7895ca75326bc922adb0f2b24b7e78e8f6f3f4460ec2bcd68b/ssapi-0.4.0.tar.gz
+[2023-06-10 18:58:28] INFO root fetch - processPackages [pystorz]: Downloading https://files.pythonhosted.org/packages/f7/20/f5cb7010d7cd5879f09cccedec12d4ff0b7be44dc911789e0cfe37a3641f/pystorz-0.3.3.tar.gz
+[2023-06-10 18:58:28] WARNING root fetch - processPackages [clean-workspace]: Skipping, unable to determine old version
+[2023-06-10 18:58:28] INFO root fetch - main [MainThread]: End processing [clean-workspace] error
+[2023-06-10 18:58:28] INFO root fetch - processPackages [tiafork]: Downloading https://files.pythonhosted.org/packages/72/28/a3d0197b939a54c2ea98363bf9c6ba23a40f6084841a95d4478ed7883785/tiafork-1.2.1.tar.gz
+[2023-06-10 18:58:28] INFO root fetch - processPackages [ssapi]: Downloading https://files.pythonhosted.org/packages/0d/27/0ca40fb05a7895ca75326bc922adb0f2b24b7e78e8f6f3f4460ec2bcd68b/ssapi-0.4.0.tar.gz
+[2023-06-10 18:58:28] INFO root fetch - processPackages [rofunc]: Downloading https://files.pythonhosted.org/packages/e7/02/9e42e7edb1ef3be6d65900077237204084ae127ff315332fca886ad30956/rofunc-0.0.1.9.1.tar.gz
+[2023-06-10 18:58:28] INFO root fetch - processPackages [docleaf]: Downloading https://files.pythonhosted.org/packages/4e/7b/1d0a2302b6563819c95f093ef19ec08ed6d9afa64987a87abc86b035eeb8/docleaf-0.2.0a0-cp39-none-win_amd64.whl
+[2023-06-10 18:58:28] INFO root fetch - processPackages [discord-qalib]: Downloading https://files.pythonhosted.org/packages/eb/bd/20473a1eb0e2c73f93c4bcd72b4afae175c81cf58100986f4b7a11d8311b/discord-qalib-2.3.0.tar.gz
+[2023-06-10 18:58:28] WARNING root fetch - processPackages [rofunc]: Skipping package: exceeds size limit 99263091>=10485760
+[2023-06-10 18:58:28] INFO root fetch - main [MainThread]: End processing [rofunc] error
+[2023-06-10 18:58:28] INFO root fetch - processPackages [pystorz]: Downloading https://files.pythonhosted.org/packages/f0/7a/580159166a3cfb00b7773b392d6fa93666e82db6ea2a81cbaba9e2ce99a4/pystorz-0.3.4.tar.gz
+[2023-06-10 18:58:28] INFO root fetch - processPackages [ssapi]: Downloading https://files.pythonhosted.org/packages/f9/dc/f5fb8364880aca0207a53d3c5472ade5fca85ae21d6a703086a4e48a071c/ssapi-0.4.1.tar.gz
+[2023-06-10 18:58:28] INFO root fetch - processPackages [ssapi]: Downloading https://files.pythonhosted.org/packages/f9/dc/f5fb8364880aca0207a53d3c5472ade5fca85ae21d6a703086a4e48a071c/ssapi-0.4.1.tar.gz
+[2023-06-10 18:58:28] INFO root fetch - processPackages [tiafork]: Downloading https://files.pythonhosted.org/packages/37/22/795a4a5d233f17ee6c7170f6dd7b7d74a40de67bd27843a9710e0fecc806/tiafork-1.2.2.tar.gz
+[2023-06-10 18:58:28] INFO root fetch - processPackages [ssapi]: executing diffoscope
+[2023-06-10 18:58:28] INFO root fetch - processPackages [ssapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssapi-0.4.0.tar.gz tmp/ssapi-0.4.1.tar.gz --markdown 20230610/s/ssapi/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-10 18:58:28] INFO root fetch - processPackages [ssapi]: executing diffoscope
+[2023-06-10 18:58:28] INFO root fetch - processPackages [ssapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssapi-0.4.0.tar.gz tmp/ssapi-0.4.1.tar.gz --markdown 20230610/s/ssapi/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-10 18:58:28] INFO root fetch - processPackages [discord-qalib]: Downloading https://files.pythonhosted.org/packages/2b/e2/e25d7f7d87883ae4b4435912bf479d5769dc76a47c76fd8d5c9daaa067a3/discord-qalib-2.4.0.tar.gz
+[2023-06-10 18:58:28] INFO root fetch - processPackages [tiafork]: executing diffoscope
+[2023-06-10 18:58:28] INFO root fetch - processPackages [tiafork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tiafork-1.2.1.tar.gz tmp/tiafork-1.2.2.tar.gz --markdown 20230610/t/tiafork/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-06-10 18:58:28] INFO root fetch - processPackages [pystorz]: executing diffoscope
+[2023-06-10 18:58:28] INFO root fetch - processPackages [pystorz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystorz-0.3.3.tar.gz tmp/pystorz-0.3.4.tar.gz --markdown 20230610/p/pystorz/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-06-10 18:58:28] INFO root fetch - processPackages [docleaf]: Downloading https://files.pythonhosted.org/packages/44/9f/acc489bf73449dace61f554dc4c3e12dc1b75c1ce08763a802386c7caf39/docleaf-0.3.0-cp39-none-win_amd64.whl
+[2023-06-10 18:58:28] INFO root fetch - processPackages [discord-qalib]: executing diffoscope
+[2023-06-10 18:58:28] INFO root fetch - processPackages [discord-qalib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discord-qalib-2.3.0.tar.gz tmp/discord-qalib-2.4.0.tar.gz --markdown 20230610/d/discord-qalib/2.3.0-2.4.0/diff.md --exclude *.pyd
+[2023-06-10 18:58:29] INFO root fetch - processPackages [docleaf]: executing diffoscope
+[2023-06-10 18:58:29] INFO root fetch - processPackages [docleaf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docleaf-0.2.0a0-cp39-none-win_amd64.whl.zip tmp/docleaf-0.3.0-cp39-none-win_amd64.whl.zip --markdown 20230610/d/docleaf/0.2.0a0-0.3.0/diff.md --exclude *.pyd
+[2023-06-10 18:58:29] INFO root fetch - processPackages [ssapi]: Remove: archive file [/home/abi/fetcher/tmp/ssapi-0.4.0.tar.gz]
+[2023-06-10 18:58:29] INFO root fetch - processPackages [ssapi]: Remove: archive file [/home/abi/fetcher/tmp/ssapi-0.4.1.tar.gz]
+[2023-06-10 18:58:29] INFO root fetch - main [MainThread]: End processing [ssapi]: success
+[2023-06-10 18:58:29] INFO root fetch - main [MainThread]: End processing [ssapi]: success
+[2023-06-10 18:58:30] INFO root fetch - processPackages [docleaf]: Remove: archive file [/home/abi/fetcher/tmp/docleaf-0.2.0a0-cp39-none-win_amd64.whl.zip]
+[2023-06-10 18:58:30] INFO root fetch - processPackages [docleaf]: Remove: archive file [/home/abi/fetcher/tmp/docleaf-0.3.0-cp39-none-win_amd64.whl.zip]
+[2023-06-10 18:58:30] INFO root fetch - main [MainThread]: End processing [docleaf]: success
+[2023-06-10 18:58:30] INFO root fetch - processPackages [discord-qalib]: Remove: archive file [/home/abi/fetcher/tmp/discord-qalib-2.3.0.tar.gz]
+[2023-06-10 18:58:30] INFO root fetch - processPackages [discord-qalib]: Remove: archive file [/home/abi/fetcher/tmp/discord-qalib-2.4.0.tar.gz]
+[2023-06-10 18:58:30] INFO root fetch - main [MainThread]: End processing [discord-qalib]: success
+[2023-06-10 18:58:30] INFO root fetch - processPackages [pystorz]: Remove: archive file [/home/abi/fetcher/tmp/pystorz-0.3.3.tar.gz]
+[2023-06-10 18:58:30] INFO root fetch - processPackages [pystorz]: Remove: archive file [/home/abi/fetcher/tmp/pystorz-0.3.4.tar.gz]
+[2023-06-10 18:58:30] INFO root fetch - main [MainThread]: End processing [pystorz]: success
+[2023-06-10 18:58:31] INFO root fetch - processPackages [tiafork]: Remove: archive file [/home/abi/fetcher/tmp/tiafork-1.2.1.tar.gz]
+[2023-06-10 18:58:31] INFO root fetch - processPackages [tiafork]: Remove: archive file [/home/abi/fetcher/tmp/tiafork-1.2.2.tar.gz]
+[2023-06-10 18:58:31] INFO root fetch - main [MainThread]: End processing [tiafork]: success
+[2023-06-10 18:58:31] INFO root fetch - main [MainThread]: Store serial: [18452415]
