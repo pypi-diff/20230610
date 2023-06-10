@@ -11389,3 +11389,108 @@ EOFError: EOF read where object expected
 [2023-06-10 14:08:41] INFO root fetch - processPackages [cbpi4gui]: Remove: archive file [/home/abi/fetcher/tmp/cbpi4gui-0.3.6.tar.gz]
 [2023-06-10 14:08:41] INFO root fetch - main [MainThread]: End processing [cbpi4gui]: success
 [2023-06-10 14:08:41] INFO root fetch - main [MainThread]: Store serial: [18450408]
+[2023-06-10 14:13:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18450408]
+[2023-06-10 14:13:51] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-10 14:13:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cbpi4-system
+[2023-06-10 14:13:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pywnp
+[2023-06-10 14:13:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: progress-table
+[2023-06-10 14:13:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nfonistaxx
+[2023-06-10 14:13:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: libretrofuzz
+[2023-06-10 14:13:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cbpi4-buzzer
+[2023-06-10 14:13:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: h5viewer
+[2023-06-10 14:13:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: invesyservertools
+[2023-06-10 14:13:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cbpi4-PushOver
+[2023-06-10 14:13:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: warframe.py
+[2023-06-10 14:13:52] INFO root fetch - processPackages [pywnp]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-06-10 14:13:52] INFO root fetch - processPackages [progress-table]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-10 14:13:52] WARNING root fetch - processPackages [nfonistaxx]: Skipping, unable to determine old version
+[2023-06-10 14:13:52] INFO root fetch - processPackages [nfonistaxx]: Start processing: az-st7735
+[2023-06-10 14:13:52] INFO root fetch - main [MainThread]: End processing [nfonistaxx] error
+[2023-06-10 14:13:52] INFO root fetch - processPackages [libretrofuzz]: New version: [3.0.7] Old Version: [3.0.6]
+[2023-06-10 14:13:52] INFO root fetch - processPackages [cbpi4-PushOver]: New version: [0.0.8rc1] Old Version: [0.0.8]
+[2023-06-10 14:13:52] INFO root fetch - processPackages [invesyservertools]: New version: [0.0.7] Old Version: [0.0.5]
+[2023-06-10 14:13:52] INFO root fetch - processPackages [cbpi4-buzzer]: New version: [0.0.6rc1] Old Version: [0.0.6]
+[2023-06-10 14:13:52] INFO root fetch - processPackages [h5viewer]: New version: [0.7.0] Old Version: [0.4.0]
+[2023-06-10 14:13:52] INFO root fetch - processPackages [warframe.py]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-10 14:13:52] INFO root fetch - processPackages [az-st7735]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-10 14:13:52] INFO root fetch - processPackages [cbpi4-system]: New version: [0.0.9rc1] Old Version: [0.0.9]
+[2023-06-10 14:13:52] INFO root fetch - processPackages [libretrofuzz]: Downloading https://files.pythonhosted.org/packages/e4/a5/0cceac1a1e9ec4b7ee4fa8229e6522f5420699b7935f2563972a00fedf52/libretrofuzz-3.0.6.tar.gz
+[2023-06-10 14:13:52] INFO root fetch - processPackages [cbpi4-PushOver]: Downloading https://files.pythonhosted.org/packages/03/8b/bdc9c821cdd96140f1305e851c210151fb81ac639a5cf3d98c884f4a87f9/cbpi4-PushOver-0.0.8.tar.gz
+[2023-06-10 14:13:52] INFO root fetch - processPackages [cbpi4-buzzer]: Downloading https://files.pythonhosted.org/packages/cc/44/523d7216d74db4e4fd0ef6acb7a400581cbdb44f37363c0826c0a745a084/cbpi4-buzzer-0.0.6.tar.gz
+[2023-06-10 14:13:52] INFO root fetch - processPackages [pywnp]: Downloading https://files.pythonhosted.org/packages/8e/fc/56dd50985f7d7d98081478409811e65498779e9277ea297f2765f2233667/pywnp-2.0.1.tar.gz
+[2023-06-10 14:13:52] INFO root fetch - processPackages [warframe.py]: Downloading https://files.pythonhosted.org/packages/9f/bb/4f9c81aedee7b3179301ecb6ed8a4648a38cd45084733faf21f2b36c3df1/warframe.py-0.3.0.tar.gz
+[2023-06-10 14:13:52] INFO root fetch - processPackages [progress-table]: Downloading https://files.pythonhosted.org/packages/88/d4/3eacb2c0de6ca4db9ca3e858c7305a16e7a40ec03d90bc2c626aafe4f27e/progress-table-0.1.8.tar.gz
+[2023-06-10 14:13:52] INFO root fetch - processPackages [cbpi4-system]: Downloading https://files.pythonhosted.org/packages/02/86/d61db76194255162234cbbc64de337e23d06130e092d7bc8e36d5c9d9c62/cbpi4-system-0.0.9.tar.gz
+[2023-06-10 14:13:52] INFO root fetch - processPackages [az-st7735]: Downloading https://files.pythonhosted.org/packages/a4/a5/b078f0a49086c327398dcc6ef9a5a13599f1ca2e5d0850d4bf77f1363772/az-st7735-0.1.0.tar.gz
+[2023-06-10 14:13:52] INFO root fetch - processPackages [invesyservertools]: Downloading https://files.pythonhosted.org/packages/2c/3c/e12a8981c4c7e18374a7e025e3792390f3f92d2b7e1f6d5ef840c4960426/invesyservertools-0.0.5.tar.gz
+[2023-06-10 14:13:52] INFO root fetch - processPackages [h5viewer]: Downloading https://files.pythonhosted.org/packages/ab/0e/b198542fc167257ab7db434ccb02aa3703ce353dfa77f1f843394682f465/h5viewer-0.4.0.tar.gz
+[2023-06-10 14:13:52] INFO root fetch - processPackages [libretrofuzz]: Downloading https://files.pythonhosted.org/packages/b6/b3/879bee0b4e0616a5a412aceb2dd2d233c8e46ce6c5afe8cc5d769c1c2078/libretrofuzz-3.0.7.tar.gz
+[2023-06-10 14:13:52] INFO root fetch - processPackages [pywnp]: Downloading https://files.pythonhosted.org/packages/ae/b2/4ffdc787489a2967a6456735134d1129b77adad0685f171de6dbda06c14b/pywnp-2.0.2.tar.gz
+[2023-06-10 14:13:52] INFO root fetch - processPackages [cbpi4-system]: Downloading https://files.pythonhosted.org/packages/66/70/8507a143f2530542476734f5ebda69d8b6b319ab69a1d57ad8c9cf8c28d8/cbpi4-system-0.0.9rc1.tar.gz
+[2023-06-10 14:13:52] INFO root fetch - processPackages [cbpi4-buzzer]: Downloading https://files.pythonhosted.org/packages/6f/67/d8b394d5e25552e152f5e22ef4eae1e1f0677dce36cc1f2f86c2fcaca78a/cbpi4-buzzer-0.0.6rc1.tar.gz
+[2023-06-10 14:13:52] INFO root fetch - processPackages [cbpi4-PushOver]: Downloading https://files.pythonhosted.org/packages/0a/5d/a2918121b5f7a21ee67284ecbe2d5526e67e38b1a7700dad3fb25f6e2c5a/cbpi4-PushOver-0.0.8rc1.tar.gz
+[2023-06-10 14:13:52] INFO root fetch - processPackages [progress-table]: Downloading https://files.pythonhosted.org/packages/c6/ba/d645d7da028f22453b5764cabbe5a732f9d783804a65e68719c632b70fd1/progress-table-0.1.9.tar.gz
+[2023-06-10 14:13:52] INFO root fetch - processPackages [az-st7735]: Downloading https://files.pythonhosted.org/packages/04/b4/0821c5494e18ea61a31990e7df0a45158560965fff52ec43e9ccf35d815b/az-st7735-0.1.1.tar.gz
+[2023-06-10 14:13:52] INFO root fetch - processPackages [libretrofuzz]: executing diffoscope
+[2023-06-10 14:13:52] INFO root fetch - processPackages [libretrofuzz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libretrofuzz-3.0.6.tar.gz tmp/libretrofuzz-3.0.7.tar.gz --markdown 20230610/l/libretrofuzz/3.0.6-3.0.7/diff.md --exclude *.pyd
+[2023-06-10 14:13:52] INFO root fetch - processPackages [invesyservertools]: Downloading https://files.pythonhosted.org/packages/40/46/15f09c9967c907bea7e1b5e54a4155b792b9ddaa10991de28dc82879433c/invesyservertools-0.0.7.tar.gz
+[2023-06-10 14:13:52] INFO root fetch - processPackages [warframe.py]: Downloading https://files.pythonhosted.org/packages/89/73/8726df4516040b7b87be4b6587f646d82336ca0762aa49c24d6a52badbcd/warframe.py-0.3.1.tar.gz
+[2023-06-10 14:13:52] INFO root fetch - processPackages [pywnp]: executing diffoscope
+[2023-06-10 14:13:52] INFO root fetch - processPackages [pywnp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywnp-2.0.1.tar.gz tmp/pywnp-2.0.2.tar.gz --markdown 20230610/p/pywnp/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-06-10 14:13:52] INFO root fetch - processPackages [h5viewer]: Downloading https://files.pythonhosted.org/packages/38/7b/a000c26f48f502c258384923027c022d098dc41235a4c68ba0f47ee785e9/h5viewer-0.7.0.tar.gz
+[2023-06-10 14:13:52] INFO root fetch - processPackages [cbpi4-system]: executing diffoscope
+[2023-06-10 14:13:52] INFO root fetch - processPackages [cbpi4-system]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cbpi4-system-0.0.9.tar.gz tmp/cbpi4-system-0.0.9rc1.tar.gz --markdown 20230610/c/cbpi4-system/0.0.9-0.0.9rc1/diff.md --exclude *.pyd
+[2023-06-10 14:13:52] INFO root fetch - processPackages [cbpi4-buzzer]: executing diffoscope
+[2023-06-10 14:13:52] INFO root fetch - processPackages [cbpi4-buzzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cbpi4-buzzer-0.0.6.tar.gz tmp/cbpi4-buzzer-0.0.6rc1.tar.gz --markdown 20230610/c/cbpi4-buzzer/0.0.6-0.0.6rc1/diff.md --exclude *.pyd
+[2023-06-10 14:13:52] INFO root fetch - processPackages [cbpi4-PushOver]: executing diffoscope
+[2023-06-10 14:13:52] INFO root fetch - processPackages [cbpi4-PushOver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cbpi4-PushOver-0.0.8.tar.gz tmp/cbpi4-PushOver-0.0.8rc1.tar.gz --markdown 20230610/c/cbpi4-PushOver/0.0.8-0.0.8rc1/diff.md --exclude *.pyd
+[2023-06-10 14:13:52] INFO root fetch - processPackages [invesyservertools]: executing diffoscope
+[2023-06-10 14:13:52] INFO root fetch - processPackages [invesyservertools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invesyservertools-0.0.5.tar.gz tmp/invesyservertools-0.0.7.tar.gz --markdown 20230610/i/invesyservertools/0.0.5-0.0.7/diff.md --exclude *.pyd
+[2023-06-10 14:13:52] INFO root fetch - processPackages [h5viewer]: executing diffoscope
+[2023-06-10 14:13:52] INFO root fetch - processPackages [h5viewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/h5viewer-0.4.0.tar.gz tmp/h5viewer-0.7.0.tar.gz --markdown 20230610/h/h5viewer/0.4.0-0.7.0/diff.md --exclude *.pyd
+[2023-06-10 14:13:52] INFO root fetch - processPackages [progress-table]: executing diffoscope
+[2023-06-10 14:13:52] INFO root fetch - processPackages [progress-table]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/progress-table-0.1.8.tar.gz tmp/progress-table-0.1.9.tar.gz --markdown 20230610/p/progress-table/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-10 14:13:52] INFO root fetch - processPackages [az-st7735]: executing diffoscope
+[2023-06-10 14:13:52] INFO root fetch - processPackages [az-st7735]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/az-st7735-0.1.0.tar.gz tmp/az-st7735-0.1.1.tar.gz --markdown 20230610/a/az-st7735/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-10 14:13:52] INFO root fetch - processPackages [warframe.py]: executing diffoscope
+[2023-06-10 14:13:52] INFO root fetch - processPackages [warframe.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/warframe.py-0.3.0.tar.gz tmp/warframe.py-0.3.1.tar.gz --markdown 20230610/w/warframe.py/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-10 14:13:54] INFO root fetch - processPackages [pywnp]: Remove: archive file [/home/abi/fetcher/tmp/pywnp-2.0.1.tar.gz]
+[2023-06-10 14:13:54] INFO root fetch - processPackages [pywnp]: Remove: archive file [/home/abi/fetcher/tmp/pywnp-2.0.2.tar.gz]
+[2023-06-10 14:13:54] INFO root fetch - processPackages [pywnp]: Start processing: cbpi4-scd30-CO2-Sensor
+[2023-06-10 14:13:54] INFO root fetch - main [MainThread]: End processing [pywnp]: success
+[2023-06-10 14:13:54] INFO root fetch - processPackages [cbpi4-scd30-CO2-Sensor]: New version: [0.0.6rc1] Old Version: [0.0.6]
+[2023-06-10 14:13:54] INFO root fetch - processPackages [cbpi4-PushOver]: Remove: archive file [/home/abi/fetcher/tmp/cbpi4-PushOver-0.0.8.tar.gz]
+[2023-06-10 14:13:54] INFO root fetch - processPackages [cbpi4-PushOver]: Remove: archive file [/home/abi/fetcher/tmp/cbpi4-PushOver-0.0.8rc1.tar.gz]
+[2023-06-10 14:13:54] INFO root fetch - main [MainThread]: End processing [cbpi4-PushOver]: success
+[2023-06-10 14:13:54] INFO root fetch - processPackages [cbpi4-scd30-CO2-Sensor]: Downloading https://files.pythonhosted.org/packages/7a/46/a10f22336cb0fb60c121319f685f4c7556f3e9c023e53a7058692f389692/cbpi4-scd30-CO2-Sensor-0.0.6.tar.gz
+[2023-06-10 14:13:54] INFO root fetch - processPackages [invesyservertools]: Remove: archive file [/home/abi/fetcher/tmp/invesyservertools-0.0.5.tar.gz]
+[2023-06-10 14:13:54] INFO root fetch - processPackages [invesyservertools]: Remove: archive file [/home/abi/fetcher/tmp/invesyservertools-0.0.7.tar.gz]
+[2023-06-10 14:13:54] INFO root fetch - main [MainThread]: End processing [invesyservertools]: success
+[2023-06-10 14:13:54] INFO root fetch - processPackages [libretrofuzz]: Remove: archive file [/home/abi/fetcher/tmp/libretrofuzz-3.0.6.tar.gz]
+[2023-06-10 14:13:54] INFO root fetch - processPackages [libretrofuzz]: Remove: archive file [/home/abi/fetcher/tmp/libretrofuzz-3.0.7.tar.gz]
+[2023-06-10 14:13:54] INFO root fetch - main [MainThread]: End processing [libretrofuzz]: success
+[2023-06-10 14:13:54] INFO root fetch - processPackages [cbpi4-system]: Remove: archive file [/home/abi/fetcher/tmp/cbpi4-system-0.0.9.tar.gz]
+[2023-06-10 14:13:54] INFO root fetch - processPackages [cbpi4-system]: Remove: archive file [/home/abi/fetcher/tmp/cbpi4-system-0.0.9rc1.tar.gz]
+[2023-06-10 14:13:54] INFO root fetch - main [MainThread]: End processing [cbpi4-system]: success
+[2023-06-10 14:13:54] INFO root fetch - processPackages [az-st7735]: Remove: archive file [/home/abi/fetcher/tmp/az-st7735-0.1.0.tar.gz]
+[2023-06-10 14:13:54] INFO root fetch - processPackages [az-st7735]: Remove: archive file [/home/abi/fetcher/tmp/az-st7735-0.1.1.tar.gz]
+[2023-06-10 14:13:54] INFO root fetch - main [MainThread]: End processing [az-st7735]: success
+[2023-06-10 14:13:54] INFO root fetch - processPackages [h5viewer]: Remove: archive file [/home/abi/fetcher/tmp/h5viewer-0.4.0.tar.gz]
+[2023-06-10 14:13:54] INFO root fetch - processPackages [h5viewer]: Remove: archive file [/home/abi/fetcher/tmp/h5viewer-0.7.0.tar.gz]
+[2023-06-10 14:13:54] INFO root fetch - main [MainThread]: End processing [h5viewer]: success
+[2023-06-10 14:13:54] INFO root fetch - processPackages [warframe.py]: Remove: archive file [/home/abi/fetcher/tmp/warframe.py-0.3.0.tar.gz]
+[2023-06-10 14:13:54] INFO root fetch - processPackages [warframe.py]: Remove: archive file [/home/abi/fetcher/tmp/warframe.py-0.3.1.tar.gz]
+[2023-06-10 14:13:54] INFO root fetch - main [MainThread]: End processing [warframe.py]: success
+[2023-06-10 14:13:54] INFO root fetch - processPackages [cbpi4-scd30-CO2-Sensor]: Downloading https://files.pythonhosted.org/packages/bc/69/0f37038c4e238407b3a9324f6642e13f01769e7e26d7cda5b5f1f79e0f8d/cbpi4-scd30-CO2-Sensor-0.0.6rc1.tar.gz
+[2023-06-10 14:13:54] INFO root fetch - processPackages [progress-table]: Remove: archive file [/home/abi/fetcher/tmp/progress-table-0.1.8.tar.gz]
+[2023-06-10 14:13:54] INFO root fetch - processPackages [progress-table]: Remove: archive file [/home/abi/fetcher/tmp/progress-table-0.1.9.tar.gz]
+[2023-06-10 14:13:54] INFO root fetch - main [MainThread]: End processing [progress-table]: success
+[2023-06-10 14:13:54] INFO root fetch - processPackages [cbpi4-scd30-CO2-Sensor]: executing diffoscope
+[2023-06-10 14:13:54] INFO root fetch - processPackages [cbpi4-scd30-CO2-Sensor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cbpi4-scd30-CO2-Sensor-0.0.6.tar.gz tmp/cbpi4-scd30-CO2-Sensor-0.0.6rc1.tar.gz --markdown 20230610/c/cbpi4-scd30-CO2-Sensor/0.0.6-0.0.6rc1/diff.md --exclude *.pyd
+[2023-06-10 14:13:54] INFO root fetch - processPackages [cbpi4-buzzer]: Remove: archive file [/home/abi/fetcher/tmp/cbpi4-buzzer-0.0.6.tar.gz]
+[2023-06-10 14:13:54] INFO root fetch - processPackages [cbpi4-buzzer]: Remove: archive file [/home/abi/fetcher/tmp/cbpi4-buzzer-0.0.6rc1.tar.gz]
+[2023-06-10 14:13:54] INFO root fetch - main [MainThread]: End processing [cbpi4-buzzer]: success
+[2023-06-10 14:13:55] INFO root fetch - processPackages [cbpi4-scd30-CO2-Sensor]: Remove: archive file [/home/abi/fetcher/tmp/cbpi4-scd30-CO2-Sensor-0.0.6.tar.gz]
+[2023-06-10 14:13:55] INFO root fetch - processPackages [cbpi4-scd30-CO2-Sensor]: Remove: archive file [/home/abi/fetcher/tmp/cbpi4-scd30-CO2-Sensor-0.0.6rc1.tar.gz]
+[2023-06-10 14:13:55] INFO root fetch - main [MainThread]: End processing [cbpi4-scd30-CO2-Sensor]: success
+[2023-06-10 14:13:55] INFO root fetch - main [MainThread]: Store serial: [18450440]
