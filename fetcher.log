@@ -16406,3 +16406,41 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-10 20:33:44] WARNING root fetch - processPackages [lollms]: Skipping package: exceeds size limit 17349845>=10485760
 [2023-06-10 20:33:44] INFO root fetch - main [MainThread]: End processing [lollms] error
 [2023-06-10 20:33:44] INFO root fetch - main [MainThread]: Store serial: [18452939]
+[2023-06-10 20:38:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18452939]
+[2023-06-10 20:38:53] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-10 20:38:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: localai
+[2023-06-10 20:38:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: txt2ebook
+[2023-06-10 20:38:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: modal-client
+[2023-06-10 20:38:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: modal
+[2023-06-10 20:38:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lollms
+[2023-06-10 20:38:53] INFO root fetch - processPackages [txt2ebook]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-10 20:38:53] INFO root fetch - processPackages [lollms]: New version: [1.1.9] Old Version: [1.1.7]
+[2023-06-10 20:38:53] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/3d/63/5860743c06fbd44180fc9469d6a01bbc0644f8be5bc965843b7c2864a173/lollms-1.1.7.tar.gz
+[2023-06-10 20:38:53] WARNING root fetch - processPackages [localai]: Skipping, unable to determine old version
+[2023-06-10 20:38:53] INFO root fetch - main [MainThread]: End processing [localai] error
+[2023-06-10 20:38:53] INFO root fetch - processPackages [modal]: New version: [0.49.2364] Old Version: [0.49.2348]
+[2023-06-10 20:38:53] INFO root fetch - processPackages [modal-client]: New version: [0.49.2364] Old Version: [0.49.2348]
+[2023-06-10 20:38:53] WARNING root fetch - processPackages [lollms]: Skipping package: exceeds size limit 17349845>=10485760
+[2023-06-10 20:38:53] INFO root fetch - main [MainThread]: End processing [lollms] error
+[2023-06-10 20:38:53] INFO root fetch - processPackages [txt2ebook]: Downloading https://files.pythonhosted.org/packages/7c/c4/d60a564f3da745273bfa35e59033388d7e8d9e9554261bd419d45d8071c7/txt2ebook-0.1.8.tar.gz
+[2023-06-10 20:38:53] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/b6/c0/f32db8efcb75088f475028fa24bff4b759d8d22794aab617374e1b5119c8/modal-0.49.2348-py3-none-any.whl
+[2023-06-10 20:38:53] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/a5/23/c47746f5a269db02baec6407462439f483fabd8d47b76d66a57963d5ce6a/modal_client-0.49.2348-py3-none-any.whl
+[2023-06-10 20:38:54] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/09/35/bee6b724b1df728b8aefaa73a9b1d7f20fc0f444fec910b653b6ea50a761/modal-0.49.2364-py3-none-any.whl
+[2023-06-10 20:38:54] INFO root fetch - processPackages [txt2ebook]: Downloading https://files.pythonhosted.org/packages/2a/b8/8ad395f87b8f7685da9b3f389de9870183f09446c9f0624dfed431e3b9b8/txt2ebook-0.1.9.tar.gz
+[2023-06-10 20:38:54] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/61/84/089e3b6459fb7dd8bea7992dc88866f6aa4a5c03f5cab49febed3f1813a8/modal_client-0.49.2364-py3-none-any.whl
+[2023-06-10 20:38:54] INFO root fetch - processPackages [modal]: executing diffoscope
+[2023-06-10 20:38:54] INFO root fetch - processPackages [modal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal-0.49.2348-py3-none-any.whl.zip tmp/modal-0.49.2364-py3-none-any.whl.zip --markdown 20230610/m/modal/0.49.2348-0.49.2364/diff.md --exclude *.pyd
+[2023-06-10 20:38:54] INFO root fetch - processPackages [txt2ebook]: executing diffoscope
+[2023-06-10 20:38:54] INFO root fetch - processPackages [txt2ebook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/txt2ebook-0.1.8.tar.gz tmp/txt2ebook-0.1.9.tar.gz --markdown 20230610/t/txt2ebook/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-10 20:38:54] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2023-06-10 20:38:54] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.49.2348-py3-none-any.whl.zip tmp/modal_client-0.49.2364-py3-none-any.whl.zip --markdown 20230610/m/modal-client/0.49.2348-0.49.2364/diff.md --exclude *.pyd
+[2023-06-10 20:38:55] INFO root fetch - processPackages [txt2ebook]: Remove: archive file [/home/abi/fetcher/tmp/txt2ebook-0.1.8.tar.gz]
+[2023-06-10 20:38:55] INFO root fetch - processPackages [txt2ebook]: Remove: archive file [/home/abi/fetcher/tmp/txt2ebook-0.1.9.tar.gz]
+[2023-06-10 20:38:55] INFO root fetch - main [MainThread]: End processing [txt2ebook]: success
+[2023-06-10 20:38:55] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.49.2348-py3-none-any.whl.zip]
+[2023-06-10 20:38:55] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.49.2364-py3-none-any.whl.zip]
+[2023-06-10 20:38:55] INFO root fetch - main [MainThread]: End processing [modal]: success
+[2023-06-10 20:38:56] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.49.2348-py3-none-any.whl.zip]
+[2023-06-10 20:38:56] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.49.2364-py3-none-any.whl.zip]
+[2023-06-10 20:38:56] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2023-06-10 20:38:56] INFO root fetch - main [MainThread]: Store serial: [18452957]
