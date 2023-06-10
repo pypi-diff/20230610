@@ -8669,3 +8669,9 @@ EOFError: EOF read where object expected
 [2023-06-10 08:50:11] INFO root fetch - processPackages [mybar]: Remove: archive file [/home/abi/fetcher/tmp/mybar-0.7.1.tar.gz]
 [2023-06-10 08:50:11] INFO root fetch - main [MainThread]: End processing [mybar]: success
 [2023-06-10 08:50:11] INFO root fetch - main [MainThread]: Store serial: [18449195]
+[2023-06-10 08:55:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18449195]
+[2023-06-10 08:55:20] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-06-10 08:55:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-dellavrite
+[2023-06-10 08:55:20] WARNING root fetch - processPackages [django-dellavrite]: Skipping, unable to determine old version
+[2023-06-10 08:55:20] INFO root fetch - main [MainThread]: End processing [django-dellavrite] error
+[2023-06-10 08:55:20] INFO root fetch - main [MainThread]: Store serial: [18449199]
