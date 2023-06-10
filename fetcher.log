@@ -7748,3 +7748,42 @@ EOFError: EOF read where object expected
 [2023-06-10 06:46:50] INFO root fetch - processPackages [basaran]: Remove: archive file [/home/abi/fetcher/tmp/basaran-0.19.0.tar.gz]
 [2023-06-10 06:46:50] INFO root fetch - main [MainThread]: End processing [basaran]: success
 [2023-06-10 06:46:50] INFO root fetch - main [MainThread]: Store serial: [18448647]
+[2023-06-10 06:51:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18448647]
+[2023-06-10 06:51:58] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-10 06:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yetl-framework
+[2023-06-10 06:51:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: covalent
+[2023-06-10 06:51:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: libretrofuzz
+[2023-06-10 06:51:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo8-addon-sale-change-price
+[2023-06-10 06:51:59] INFO root fetch - processPackages [yetl-framework]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-06-10 06:51:59] INFO root fetch - processPackages [odoo8-addon-sale-change-price]: New version: [8.0.1.0.0.99.dev8] Old Version: [8.0.1.0.0.99.dev7]
+[2023-06-10 06:51:59] INFO root fetch - processPackages [libretrofuzz]: New version: [3.0.6] Old Version: [3.0.4]
+[2023-06-10 06:51:59] INFO root fetch - processPackages [covalent]: New version: [0.226.0rc0] Old Version: [0.225.0rc0]
+[2023-06-10 06:51:59] INFO root fetch - processPackages [odoo8-addon-sale-change-price]: Downloading https://files.pythonhosted.org/packages/57/30/36a58e86376b65c601100642a399e59d6e5518cb4afa6905923176b47a48/odoo8_addon_sale_change_price-8.0.1.0.0.99.dev7-py2-none-any.whl
+[2023-06-10 06:51:59] INFO root fetch - processPackages [yetl-framework]: Downloading https://files.pythonhosted.org/packages/8b/f6/06420da98dc83038ecb8783d665b4f7cea12abf80b1ebaa76ecdacdc5c6b/yetl-framework-1.4.8.tar.gz
+[2023-06-10 06:51:59] INFO root fetch - processPackages [libretrofuzz]: Downloading https://files.pythonhosted.org/packages/00/d6/51cad444ea60270a09c74e30522959dbc00ef18114b5c8e782fa240a4704/libretrofuzz-3.0.4.tar.gz
+[2023-06-10 06:51:59] INFO root fetch - processPackages [covalent]: Downloading https://files.pythonhosted.org/packages/ed/82/d09c8f452bc9bd42ff6de0b6c184ac3e6389f07a6ce6ce24cccc45da9f2b/covalent-0.225.0rc0.tar.gz
+[2023-06-10 06:51:59] INFO root fetch - processPackages [odoo8-addon-sale-change-price]: Downloading https://files.pythonhosted.org/packages/c2/ae/ea044f06f03f070425e014c3bd735860f2eb859a335749bb346ef5079842/odoo8_addon_sale_change_price-8.0.1.0.0.99.dev8-py2-none-any.whl
+[2023-06-10 06:51:59] INFO root fetch - processPackages [yetl-framework]: Downloading https://files.pythonhosted.org/packages/16/41/f7c9468164ed6cbc7df78da25d7adbb6bd07f3f9bc65e9e360c33a09d3f7/yetl-framework-1.4.9.tar.gz
+[2023-06-10 06:51:59] INFO root fetch - processPackages [odoo8-addon-sale-change-price]: executing diffoscope
+[2023-06-10 06:51:59] INFO root fetch - processPackages [odoo8-addon-sale-change-price]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_sale_change_price-8.0.1.0.0.99.dev7-py2-none-any.whl.zip tmp/odoo8_addon_sale_change_price-8.0.1.0.0.99.dev8-py2-none-any.whl.zip --markdown 20230610/o/odoo8-addon-sale-change-price/8.0.1.0.0.99.dev7-8.0.1.0.0.99.dev8/diff.md --exclude *.pyd
+[2023-06-10 06:51:59] INFO root fetch - processPackages [libretrofuzz]: Downloading https://files.pythonhosted.org/packages/e4/a5/0cceac1a1e9ec4b7ee4fa8229e6522f5420699b7935f2563972a00fedf52/libretrofuzz-3.0.6.tar.gz
+[2023-06-10 06:51:59] INFO root fetch - processPackages [yetl-framework]: executing diffoscope
+[2023-06-10 06:51:59] INFO root fetch - processPackages [yetl-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yetl-framework-1.4.8.tar.gz tmp/yetl-framework-1.4.9.tar.gz --markdown 20230610/y/yetl-framework/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-06-10 06:51:59] INFO root fetch - processPackages [covalent]: Downloading https://files.pythonhosted.org/packages/e9/ac/fefeb038db1fef224d67c67a0a63b72321963d57555d5a26878b21c52da4/covalent-0.226.0rc0.tar.gz
+[2023-06-10 06:51:59] INFO root fetch - processPackages [libretrofuzz]: executing diffoscope
+[2023-06-10 06:51:59] INFO root fetch - processPackages [libretrofuzz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libretrofuzz-3.0.4.tar.gz tmp/libretrofuzz-3.0.6.tar.gz --markdown 20230610/l/libretrofuzz/3.0.4-3.0.6/diff.md --exclude *.pyd
+[2023-06-10 06:51:59] INFO root fetch - processPackages [covalent]: executing diffoscope
+[2023-06-10 06:51:59] INFO root fetch - processPackages [covalent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/covalent-0.225.0rc0.tar.gz tmp/covalent-0.226.0rc0.tar.gz --markdown 20230610/c/covalent/0.225.0rc0-0.226.0rc0/diff.md --exclude *.pyd
+[2023-06-10 06:52:00] INFO root fetch - processPackages [yetl-framework]: Remove: archive file [/home/abi/fetcher/tmp/yetl-framework-1.4.8.tar.gz]
+[2023-06-10 06:52:00] INFO root fetch - processPackages [yetl-framework]: Remove: archive file [/home/abi/fetcher/tmp/yetl-framework-1.4.9.tar.gz]
+[2023-06-10 06:52:00] INFO root fetch - main [MainThread]: End processing [yetl-framework]: success
+[2023-06-10 06:52:00] INFO root fetch - processPackages [libretrofuzz]: Remove: archive file [/home/abi/fetcher/tmp/libretrofuzz-3.0.4.tar.gz]
+[2023-06-10 06:52:00] INFO root fetch - processPackages [libretrofuzz]: Remove: archive file [/home/abi/fetcher/tmp/libretrofuzz-3.0.6.tar.gz]
+[2023-06-10 06:52:00] INFO root fetch - main [MainThread]: End processing [libretrofuzz]: success
+[2023-06-10 06:52:00] INFO root fetch - processPackages [odoo8-addon-sale-change-price]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_sale_change_price-8.0.1.0.0.99.dev7-py2-none-any.whl.zip]
+[2023-06-10 06:52:00] INFO root fetch - processPackages [odoo8-addon-sale-change-price]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_sale_change_price-8.0.1.0.0.99.dev8-py2-none-any.whl.zip]
+[2023-06-10 06:52:00] INFO root fetch - main [MainThread]: End processing [odoo8-addon-sale-change-price]: success
+[2023-06-10 06:52:02] INFO root fetch - processPackages [covalent]: Remove: archive file [/home/abi/fetcher/tmp/covalent-0.225.0rc0.tar.gz]
+[2023-06-10 06:52:02] INFO root fetch - processPackages [covalent]: Remove: archive file [/home/abi/fetcher/tmp/covalent-0.226.0rc0.tar.gz]
+[2023-06-10 06:52:02] INFO root fetch - main [MainThread]: End processing [covalent]: success
+[2023-06-10 06:52:02] INFO root fetch - main [MainThread]: Store serial: [18448659]
