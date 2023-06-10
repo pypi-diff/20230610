@@ -13449,3 +13449,157 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-10 16:19:21] INFO root fetch - processPackages [benchmark-runner]: Remove: archive file [/home/abi/fetcher/tmp/benchmark-runner-1.0.99.tar.gz]
 [2023-06-10 16:19:21] INFO root fetch - main [MainThread]: End processing [benchmark-runner]: success
 [2023-06-10 16:19:21] INFO root fetch - main [MainThread]: Store serial: [18451305]
+[2023-06-10 16:24:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18451305]
+[2023-06-10 16:24:30] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-10 16:24:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: getRoutersConfig
+[2023-06-10 16:24:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spanishconjugator
+[2023-06-10 16:24:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mapbot-frontend
+[2023-06-10 16:24:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: miniqc
+[2023-06-10 16:24:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spanishconjugator
+[2023-06-10 16:24:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nfonistaxx
+[2023-06-10 16:24:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vartex
+[2023-06-10 16:24:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyhard
+[2023-06-10 16:24:30] INFO root fetch - processPackages [nfonistaxx]: New version: [0.7] Old Version: [0.4]
+[2023-06-10 16:24:30] INFO root fetch - processPackages [mapbot-frontend]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-10 16:24:30] INFO root fetch - processPackages [getRoutersConfig]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-10 16:24:30] WARNING root fetch - processPackages [vartex]: Skipping, unable to determine old version
+[2023-06-10 16:24:30] INFO root fetch - processPackages [miniqc]: New version: [23.0.1] Old Version: [23.0.0]
+[2023-06-10 16:24:30] INFO root fetch - main [MainThread]: End processing [vartex] error
+[2023-06-10 16:24:30] INFO root fetch - processPackages [nfonistaxx]: Downloading https://files.pythonhosted.org/packages/34/27/c88ead0af8970dbe347f68b6808d532c8977c2371fc74dcf287f5e4439c8/nfonistaxx-0.4.tar.gz
+[2023-06-10 16:24:30] INFO root fetch - processPackages [mapbot-frontend]: Downloading https://files.pythonhosted.org/packages/c3/15/a76b10735e815f29e69252cfdf5844d8267526ca51d4be0ae611898cf761/mapbot_frontend-0.1.8.tar.gz
+[2023-06-10 16:24:30] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-06-10 16:24:30] INFO root fetch - processPackages [pyhard]: New version: [2.1.6] Old Version: [2.1.5]
+[2023-06-10 16:24:31] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-06-10 16:24:31] INFO root fetch - processPackages [getRoutersConfig]: Downloading https://files.pythonhosted.org/packages/07/ca/8b624255aedbaa280b36b59cbc7fc74d6c3c6713597fb999fe8e7fb04dcb/getRoutersConfig-0.0.4.tar.gz
+[2023-06-10 16:24:31] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-06-10 16:24:31] INFO root fetch - processPackages [miniqc]: Downloading https://files.pythonhosted.org/packages/b1/0e/d4deec038eabf7dc8e0b5bdd25d5872ff3b7a47136234589b3edb82bb84e/miniqc-23.0.0.tar.gz
+[2023-06-10 16:24:31] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-06-10 16:24:31] INFO root fetch - processPackages [nfonistaxx]: Downloading https://files.pythonhosted.org/packages/18/6e/dd3921cced8ec7518a746c724686dafd85faeab8870fd3da4a8988f37e1e/nfonistaxx-0.7.tar.gz
+[2023-06-10 16:24:31] INFO root fetch - processPackages [pyhard]: Downloading https://files.pythonhosted.org/packages/5c/ad/27db9a62e4e983610ced1080b22ec5746627afd2576eefa012781f8526cb/pyhard-2.1.5.tar.gz
+[2023-06-10 16:24:31] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-06-10 16:24:31] INFO root fetch - processPackages [nfonistaxx]: executing diffoscope
+[2023-06-10 16:24:31] INFO root fetch - processPackages [nfonistaxx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nfonistaxx-0.4.tar.gz tmp/nfonistaxx-0.7.tar.gz --markdown 20230610/n/nfonistaxx/0.4-0.7/diff.md --exclude *.pyd
+[2023-06-10 16:24:31] INFO root fetch - processPackages [mapbot-frontend]: Downloading https://files.pythonhosted.org/packages/2c/2b/65497a0d97cff1920b70e98b8c0780cb445ac34e1ebb2d6cf5ddf99b0ffc/mapbot_frontend-0.1.9.tar.gz
+[2023-06-10 16:24:31] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-06-10 16:24:31] INFO root fetch - processPackages [getRoutersConfig]: Downloading https://files.pythonhosted.org/packages/d6/99/76c65b42cc9424c40702461181a03fe3d4366029af5bab7a90aa968779b3/getRoutersConfig-0.0.5.tar.gz
+[2023-06-10 16:24:31] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-06-10 16:24:31] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230610/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-06-10 16:24:31] INFO root fetch - processPackages [miniqc]: Downloading https://files.pythonhosted.org/packages/73/59/3174a34aa42bd7805be355cf6ebce823d7193e2b87ff976fcae9e7cec640/miniqc-23.0.1.tar.gz
+[2023-06-10 16:24:31] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-06-10 16:24:31] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230610/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-06-10 16:24:31] INFO root fetch - processPackages [getRoutersConfig]: executing diffoscope
+[2023-06-10 16:24:31] INFO root fetch - processPackages [getRoutersConfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/getRoutersConfig-0.0.4.tar.gz tmp/getRoutersConfig-0.0.5.tar.gz --markdown 20230610/g/getRoutersConfig/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-10 16:24:31] INFO root fetch - processPackages [miniqc]: executing diffoscope
+[2023-06-10 16:24:31] INFO root fetch - processPackages [miniqc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miniqc-23.0.0.tar.gz tmp/miniqc-23.0.1.tar.gz --markdown 20230610/m/miniqc/23.0.0-23.0.1/diff.md --exclude *.pyd
+[2023-06-10 16:24:31] INFO root fetch - processPackages [mapbot-frontend]: executing diffoscope
+[2023-06-10 16:24:31] INFO root fetch - processPackages [mapbot-frontend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapbot_frontend-0.1.8.tar.gz tmp/mapbot_frontend-0.1.9.tar.gz --markdown 20230610/m/mapbot-frontend/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-10 16:24:31] INFO root fetch - processPackages [pyhard]: Downloading https://files.pythonhosted.org/packages/5c/d9/3cc83dbe85c64ccc6e4f0533d19bb05d1511d3dfa8e62970e8ebeb03cd94/pyhard-2.1.6.tar.gz
+[2023-06-10 16:24:32] INFO root fetch - processPackages [pyhard]: executing diffoscope
+[2023-06-10 16:24:32] INFO root fetch - processPackages [pyhard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhard-2.1.5.tar.gz tmp/pyhard-2.1.6.tar.gz --markdown 20230610/p/pyhard/2.1.5-2.1.6/diff.md --exclude *.pyd
+[2023-06-10 16:24:32] INFO root fetch - processPackages [nfonistaxx]: Remove: archive file [/home/abi/fetcher/tmp/nfonistaxx-0.4.tar.gz]
+[2023-06-10 16:24:32] INFO root fetch - processPackages [nfonistaxx]: Remove: archive file [/home/abi/fetcher/tmp/nfonistaxx-0.7.tar.gz]
+[2023-06-10 16:24:32] INFO root fetch - main [MainThread]: End processing [nfonistaxx]: success
+[2023-06-10 16:24:32] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-06-10 16:24:32] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-06-10 16:24:32] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-06-10 16:24:32] INFO root fetch - processPackages [miniqc]: Remove: archive file [/home/abi/fetcher/tmp/miniqc-23.0.0.tar.gz]
+[2023-06-10 16:24:32] INFO root fetch - processPackages [miniqc]: Remove: archive file [/home/abi/fetcher/tmp/miniqc-23.0.1.tar.gz]
+[2023-06-10 16:24:32] INFO root fetch - main [MainThread]: End processing [miniqc]: success
+[2023-06-10 16:24:33] INFO root fetch - processPackages [getRoutersConfig]: Remove: archive file [/home/abi/fetcher/tmp/getRoutersConfig-0.0.4.tar.gz]
+[2023-06-10 16:24:33] INFO root fetch - processPackages [getRoutersConfig]: Remove: archive file [/home/abi/fetcher/tmp/getRoutersConfig-0.0.5.tar.gz]
+[2023-06-10 16:24:33] INFO root fetch - main [MainThread]: End processing [getRoutersConfig]: success
+[2023-06-10 16:24:33] ERROR root fetch - processPackages [spanishconjugator]: Diffoscope failed: gzip: tmp/spanishconjugator-2.3.999.tar.gz: No such file or directory
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 131, in comparisons
+    other_members = OrderedDict(other.get_adjusted_members_sizes())
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 126, in get_adjusted_members_sizes
+    size = path_apparent_size(member.path)
+                              ^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/archive.py", line 114, in path
+    self._path = self.container.extract(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/tools.py", line 141, in tool_check
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/gzip.py", line 51, in extract
+    subprocess.check_call(
+  File "/usr/lib/python3.11/subprocess.py", line 413, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['gzip', '-d', '-c', 'tmp/spanishconjugator-2.3.999.tar.gz']' returned non-zero exit status 1.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 536, in compare
+    difference = self.compare_bytes(other, source=source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 395, in compare_bytes
+    return compare_binary_files(self, other, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 176, in compare_binary_files
+    return Difference.from_operation(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+[2023-06-10 16:24:33] INFO root fetch - main [MainThread]: End processing [spanishconjugator] error
+[2023-06-10 16:24:35] INFO root fetch - processPackages [mapbot-frontend]: Remove: archive file [/home/abi/fetcher/tmp/mapbot_frontend-0.1.8.tar.gz]
+[2023-06-10 16:24:35] INFO root fetch - processPackages [mapbot-frontend]: Remove: archive file [/home/abi/fetcher/tmp/mapbot_frontend-0.1.9.tar.gz]
+[2023-06-10 16:24:35] INFO root fetch - main [MainThread]: End processing [mapbot-frontend]: success
+[2023-06-10 16:24:37] INFO root fetch - processPackages [pyhard]: Remove: archive file [/home/abi/fetcher/tmp/pyhard-2.1.5.tar.gz]
+[2023-06-10 16:24:37] INFO root fetch - processPackages [pyhard]: Remove: archive file [/home/abi/fetcher/tmp/pyhard-2.1.6.tar.gz]
+[2023-06-10 16:24:37] INFO root fetch - main [MainThread]: End processing [pyhard]: success
+[2023-06-10 16:24:37] INFO root fetch - main [MainThread]: Store serial: [18451330]
