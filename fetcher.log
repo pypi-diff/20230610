@@ -12231,3 +12231,101 @@ EOFError: EOF read where object expected
 [2023-06-10 15:04:25] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2023.6.9-cp39-cp39-manylinux1_x86_64.whl.zip]
 [2023-06-10 15:04:25] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
 [2023-06-10 15:04:25] INFO root fetch - main [MainThread]: Store serial: [18450795]
+[2023-06-10 15:09:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18450795]
+[2023-06-10 15:09:34] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-10 15:09:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qm-sim
+[2023-06-10 15:09:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kcli
+[2023-06-10 15:09:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: libpymcr
+[2023-06-10 15:09:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nbdev-stdlib
+[2023-06-10 15:09:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: manhattan-manage
+[2023-06-10 15:09:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kfish
+[2023-06-10 15:09:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: obsub
+[2023-06-10 15:09:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: invesyservertools
+[2023-06-10 15:09:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nbdev-numpy
+[2023-06-10 15:09:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mapbot-frontend
+[2023-06-10 15:09:34] INFO root fetch - processPackages [qm-sim]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-10 15:09:34] INFO root fetch - processPackages [libpymcr]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-10 15:09:34] INFO root fetch - processPackages [kfish]: New version: [99.0.202306101307] Old Version: [99.0.202306100753]
+[2023-06-10 15:09:34] INFO root fetch - processPackages [invesyservertools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-10 15:09:34] INFO root fetch - processPackages [obsub]: New version: [0.2.1] Old Version: [0.2]
+[2023-06-10 15:09:34] INFO root fetch - processPackages [mapbot-frontend]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-10 15:09:34] INFO root fetch - processPackages [manhattan-manage]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-10 15:09:34] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-10 15:09:34] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-10 15:09:34] INFO root fetch - processPackages [mapbot-frontend]: Downloading https://files.pythonhosted.org/packages/c3/15/a76b10735e815f29e69252cfdf5844d8267526ca51d4be0ae611898cf761/mapbot_frontend-0.1.8.tar.gz
+[2023-06-10 15:09:34] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/65/c3/9a959f76e8fa69c5028df32f25a11b75aa2359e976ba6ff5f665a37b9aa5/kfish-99.0.202306100753-py3-none-any.whl
+[2023-06-10 15:09:34] INFO root fetch - processPackages [kcli]: New version: [99.0.202306101304] Old Version: [99.0.202306100751]
+[2023-06-10 15:09:35] INFO root fetch - processPackages [manhattan-manage]: Downloading https://files.pythonhosted.org/packages/91/33/ee17a7e38947eee2a48d91e83038f05c2d14f57fb8bc5a35fe4bc48aaaf5/manhattan_manage-0.9.8.tar.gz
+[2023-06-10 15:09:35] INFO root fetch - processPackages [invesyservertools]: Downloading https://files.pythonhosted.org/packages/cb/86/bdcda4d214a804a0ec5dc9057a4e7cf974545197d27ce566d74b4d80199c/invesyservertools-0.0.8.tar.gz
+[2023-06-10 15:09:35] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/e8/48/ed43dbfa0bd5ca86a6a3f6ae0500b0cffb413b2c3f118e82da24ef3488f1/nbdev-stdlib-0.0.98.tar.gz
+[2023-06-10 15:09:35] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/ca/f7/1031ca5f238d7d402ad684569b1c9dee994bdfe3bd8f36444bb448a89bc9/kcli-99.0.202306100751-py3-none-any.whl
+[2023-06-10 15:09:35] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/73/28/26429c7dd7dcf4c45025b55facc2688943de2ab2ec4851cc073f81f31e65/nbdev-numpy-0.0.98.tar.gz
+[2023-06-10 15:09:35] INFO root fetch - processPackages [qm-sim]: Downloading https://files.pythonhosted.org/packages/ea/18/164a73581db3de39e17c5bc7fab225a230cfb9df074e9df637ae65b92838/qm-sim-0.1.1.tar.gz
+[2023-06-10 15:09:35] INFO root fetch - processPackages [libpymcr]: Downloading https://files.pythonhosted.org/packages/4e/a2/3a6ce178e49a308d3157e5eb49574291efb7833be7befada9d9e4e93c12d/libpymcr-0.1.2-cp39-cp39-win_amd64.whl
+[2023-06-10 15:09:35] INFO root fetch - processPackages [obsub]: Downloading https://files.pythonhosted.org/packages/1b/82/5339a29db40d4457781cbe3ed8358794fca76476740d5951d1320ef3d448/obsub-0.2.tar.gz
+[2023-06-10 15:09:35] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/9b/0f/42944508859f820e43bf894814c5e9dbc7920a0caceef1828a31a9e5b599/nbdev-stdlib-0.0.99.tar.gz
+[2023-06-10 15:09:35] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/ea/78/0c0ef1d69ad517e7123dd810dda3cf8c0863af031c2cbb78ac3dae878b48/nbdev-numpy-0.0.99.tar.gz
+[2023-06-10 15:09:35] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/91/dc/c1dd04f205760bdd7e0a2c2496c1a4895d3cecfe1debf9ea6c7bead0e7fe/kfish-99.0.202306101307-py3-none-any.whl
+[2023-06-10 15:09:35] INFO root fetch - processPackages [manhattan-manage]: Downloading https://files.pythonhosted.org/packages/b4/ad/b633ac133de90b3a6cc0b64e8d039c2237a4e9a9f97d284434cff1048053/manhattan_manage-0.9.9.tar.gz
+[2023-06-10 15:09:35] INFO root fetch - processPackages [invesyservertools]: Downloading https://files.pythonhosted.org/packages/77/c8/b0e3865a5274f58a6a4912045647ac47703dfe2af79186142500d2031a3d/invesyservertools-0.0.9.tar.gz
+[2023-06-10 15:09:35] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-06-10 15:09:35] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230610/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-10 15:09:35] INFO root fetch - processPackages [mapbot-frontend]: Downloading https://files.pythonhosted.org/packages/2c/2b/65497a0d97cff1920b70e98b8c0780cb445ac34e1ebb2d6cf5ddf99b0ffc/mapbot_frontend-0.1.9.tar.gz
+[2023-06-10 15:09:35] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-06-10 15:09:35] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202306100753-py3-none-any.whl.zip tmp/kfish-99.0.202306101307-py3-none-any.whl.zip --markdown 20230610/k/kfish/99.0.202306100753-99.0.202306101307/diff.md --exclude *.pyd
+[2023-06-10 15:09:35] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/a5/d9/7621397128b8eb1e16794e170ea134962cf06b0c3f5465c49eb2497c64a6/kcli-99.0.202306101304-py3-none-any.whl
+[2023-06-10 15:09:35] INFO root fetch - processPackages [qm-sim]: Downloading https://files.pythonhosted.org/packages/a6/73/fe202b89863db7732b7830cb1474bc9d3579b64b41e7210f3eaaacc6b151/qm-sim-0.1.2.tar.gz
+[2023-06-10 15:09:35] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-06-10 15:09:35] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230610/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-10 15:09:35] INFO root fetch - processPackages [manhattan-manage]: executing diffoscope
+[2023-06-10 15:09:35] INFO root fetch - processPackages [manhattan-manage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manhattan_manage-0.9.8.tar.gz tmp/manhattan_manage-0.9.9.tar.gz --markdown 20230610/m/manhattan-manage/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-10 15:09:35] INFO root fetch - processPackages [obsub]: Downloading https://files.pythonhosted.org/packages/c0/1b/747913f5955c889040ab54138f5f2ad2193306c399f94457036bffb59d66/obsub-0.2.1.tar.gz
+[2023-06-10 15:09:35] INFO root fetch - processPackages [invesyservertools]: executing diffoscope
+[2023-06-10 15:09:35] INFO root fetch - processPackages [invesyservertools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invesyservertools-0.0.8.tar.gz tmp/invesyservertools-0.0.9.tar.gz --markdown 20230610/i/invesyservertools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-10 15:09:35] INFO root fetch - processPackages [qm-sim]: executing diffoscope
+[2023-06-10 15:09:35] INFO root fetch - processPackages [qm-sim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qm-sim-0.1.1.tar.gz tmp/qm-sim-0.1.2.tar.gz --markdown 20230610/q/qm-sim/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-10 15:09:35] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-06-10 15:09:35] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202306100751-py3-none-any.whl.zip tmp/kcli-99.0.202306101304-py3-none-any.whl.zip --markdown 20230610/k/kcli/99.0.202306100751-99.0.202306101304/diff.md --exclude *.pyd
+[2023-06-10 15:09:35] INFO root fetch - processPackages [obsub]: executing diffoscope
+[2023-06-10 15:09:35] INFO root fetch - processPackages [obsub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/obsub-0.2.tar.gz tmp/obsub-0.2.1.tar.gz --markdown 20230610/o/obsub/0.2-0.2.1/diff.md --exclude *.pyd
+[2023-06-10 15:09:35] INFO root fetch - processPackages [libpymcr]: Downloading https://files.pythonhosted.org/packages/39/61/c1753070dd92cdce080cf35bda3cb607608fcf2f60e73cbb6f466d57a1f3/libpymcr-0.1.3-cp39-cp39-win_amd64.whl
+[2023-06-10 15:09:35] INFO root fetch - processPackages [mapbot-frontend]: executing diffoscope
+[2023-06-10 15:09:35] INFO root fetch - processPackages [mapbot-frontend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapbot_frontend-0.1.8.tar.gz tmp/mapbot_frontend-0.1.9.tar.gz --markdown 20230610/m/mapbot-frontend/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-10 15:09:35] INFO root fetch - processPackages [libpymcr]: executing diffoscope
+[2023-06-10 15:09:35] INFO root fetch - processPackages [libpymcr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libpymcr-0.1.2-cp39-cp39-win_amd64.whl.zip tmp/libpymcr-0.1.3-cp39-cp39-win_amd64.whl.zip --markdown 20230610/l/libpymcr/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-10 15:09:36] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306100753-py3-none-any.whl.zip]
+[2023-06-10 15:09:36] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306101307-py3-none-any.whl.zip]
+[2023-06-10 15:09:36] INFO root fetch - processPackages [kfish]: Start processing: bigdl-dllib
+[2023-06-10 15:09:36] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-06-10 15:09:36] INFO root fetch - processPackages [bigdl-dllib]: New version: [2.4.0b20230610] Old Version: [2.4.0b20230609]
+[2023-06-10 15:09:36] INFO root fetch - processPackages [invesyservertools]: Remove: archive file [/home/abi/fetcher/tmp/invesyservertools-0.0.8.tar.gz]
+[2023-06-10 15:09:36] INFO root fetch - processPackages [invesyservertools]: Remove: archive file [/home/abi/fetcher/tmp/invesyservertools-0.0.9.tar.gz]
+[2023-06-10 15:09:36] INFO root fetch - main [MainThread]: End processing [invesyservertools]: success
+[2023-06-10 15:09:37] INFO root fetch - processPackages [bigdl-dllib]: Downloading https://files.pythonhosted.org/packages/fa/74/8384159028c9ea7d33e05a6ef98d9d11a86f30e037992fe1ca7d7f4e978f/bigdl-dllib-2.4.0b20230609.tar.gz
+[2023-06-10 15:09:37] WARNING root fetch - processPackages [bigdl-dllib]: Skipping package: exceeds size limit 53560725>=10485760
+[2023-06-10 15:09:37] INFO root fetch - main [MainThread]: End processing [bigdl-dllib] error
+[2023-06-10 15:09:37] INFO root fetch - processPackages [obsub]: Remove: archive file [/home/abi/fetcher/tmp/obsub-0.2.tar.gz]
+[2023-06-10 15:09:37] INFO root fetch - processPackages [obsub]: Remove: archive file [/home/abi/fetcher/tmp/obsub-0.2.1.tar.gz]
+[2023-06-10 15:09:37] INFO root fetch - main [MainThread]: End processing [obsub]: success
+[2023-06-10 15:09:37] INFO root fetch - processPackages [libpymcr]: Remove: archive file [/home/abi/fetcher/tmp/libpymcr-0.1.2-cp39-cp39-win_amd64.whl.zip]
+[2023-06-10 15:09:37] INFO root fetch - processPackages [libpymcr]: Remove: archive file [/home/abi/fetcher/tmp/libpymcr-0.1.3-cp39-cp39-win_amd64.whl.zip]
+[2023-06-10 15:09:37] INFO root fetch - main [MainThread]: End processing [libpymcr]: success
+[2023-06-10 15:09:37] INFO root fetch - processPackages [qm-sim]: Remove: archive file [/home/abi/fetcher/tmp/qm-sim-0.1.1.tar.gz]
+[2023-06-10 15:09:37] INFO root fetch - processPackages [qm-sim]: Remove: archive file [/home/abi/fetcher/tmp/qm-sim-0.1.2.tar.gz]
+[2023-06-10 15:09:37] INFO root fetch - main [MainThread]: End processing [qm-sim]: success
+[2023-06-10 15:09:37] INFO root fetch - processPackages [manhattan-manage]: Remove: archive file [/home/abi/fetcher/tmp/manhattan_manage-0.9.8.tar.gz]
+[2023-06-10 15:09:37] INFO root fetch - processPackages [manhattan-manage]: Remove: archive file [/home/abi/fetcher/tmp/manhattan_manage-0.9.9.tar.gz]
+[2023-06-10 15:09:37] INFO root fetch - main [MainThread]: End processing [manhattan-manage]: success
+[2023-06-10 15:09:37] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.98.tar.gz]
+[2023-06-10 15:09:37] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.99.tar.gz]
+[2023-06-10 15:09:37] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-06-10 15:09:38] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.98.tar.gz]
+[2023-06-10 15:09:38] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.99.tar.gz]
+[2023-06-10 15:09:38] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-06-10 15:09:39] INFO root fetch - processPackages [mapbot-frontend]: Remove: archive file [/home/abi/fetcher/tmp/mapbot_frontend-0.1.8.tar.gz]
+[2023-06-10 15:09:39] INFO root fetch - processPackages [mapbot-frontend]: Remove: archive file [/home/abi/fetcher/tmp/mapbot_frontend-0.1.9.tar.gz]
+[2023-06-10 15:09:39] INFO root fetch - main [MainThread]: End processing [mapbot-frontend]: success
+[2023-06-10 15:09:43] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306100751-py3-none-any.whl.zip]
+[2023-06-10 15:09:43] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306101304-py3-none-any.whl.zip]
+[2023-06-10 15:09:43] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-06-10 15:09:43] INFO root fetch - main [MainThread]: Store serial: [18450835]
