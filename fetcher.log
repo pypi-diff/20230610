@@ -17317,3 +17317,98 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-10 22:01:19] INFO root fetch - processPackages [honeybee-energy]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-energy-1.99.9.tar.gz]
 [2023-06-10 22:01:19] INFO root fetch - main [MainThread]: End processing [honeybee-energy]: success
 [2023-06-10 22:01:19] INFO root fetch - main [MainThread]: Store serial: [18453409]
+[2023-06-10 22:06:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18453409]
+[2023-06-10 22:06:28] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-10 22:06:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scratchattach
+[2023-06-10 22:06:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gamedetector
+[2023-06-10 22:06:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rubyvenv
+[2023-06-10 22:06:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: berhoelodf
+[2023-06-10 22:06:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: thoth-doc
+[2023-06-10 22:06:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyqrack
+[2023-06-10 22:06:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: SQLAlchemy
+[2023-06-10 22:06:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mynacode
+[2023-06-10 22:06:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aichat-cli
+[2023-06-10 22:06:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: moto-ext
+[2023-06-10 22:06:28] INFO root fetch - processPackages [rubyvenv]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-06-10 22:06:28] INFO root fetch - processPackages [scratchattach]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-06-10 22:06:28] INFO root fetch - processPackages [mynacode]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-06-10 22:06:28] INFO root fetch - processPackages [gamedetector]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-10 22:06:28] INFO root fetch - processPackages [aichat-cli]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-06-10 22:06:28] INFO root fetch - processPackages [berhoelodf]: New version: [0.2.5] Old Version: [0.2.3]
+[2023-06-10 22:06:28] INFO root fetch - processPackages [thoth-doc]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-10 22:06:28] INFO root fetch - processPackages [moto-ext]: New version: [4.1.9.post1] Old Version: [4.1.8.post1]
+[2023-06-10 22:06:28] INFO root fetch - processPackages [pyqrack]: New version: [1.9.6] Old Version: [1.9.5]
+[2023-06-10 22:06:28] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/1d/24/3d4ef0a0a267fb47bcbac68ff9b760a9b892095f2ee727874f0286d600c3/mynacode-1.0.98-py3-none-any.whl
+[2023-06-10 22:06:28] INFO root fetch - processPackages [SQLAlchemy]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-06-10 22:06:29] INFO root fetch - processPackages [gamedetector]: Downloading https://files.pythonhosted.org/packages/78/70/a38d8ec1ac1528a15fb559f205b2d6eed005f8c47b4fffa590f9c92ce94b/gamedetector-0.1.3.tar.gz
+[2023-06-10 22:06:29] INFO root fetch - processPackages [rubyvenv]: Downloading https://files.pythonhosted.org/packages/7d/69/4bbe83c55db1d7c84c9c99a6011955e309de4f832152c477cd5e4a605968/rubyvenv-1.2.0.tar.gz
+[2023-06-10 22:06:29] INFO root fetch - processPackages [scratchattach]: Downloading https://files.pythonhosted.org/packages/c1/a0/72f7feabd4a6a47d9e6c3f47631c10109b1062f63d7b0c636fe84e039814/scratchattach-1.2.1.tar.gz
+[2023-06-10 22:06:29] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/38/32/362f7abef6d28b78afa03843fa2eadc7bb1454ef66bde894a08e281d5bfb/mynacode-1.0.99-py3-none-any.whl
+[2023-06-10 22:06:29] INFO root fetch - processPackages [thoth-doc]: Downloading https://files.pythonhosted.org/packages/23/1c/1d0a5770c6ff50e992ec8dcf8e0f09fde8f8cf519992373603e1b0c76c29/thoth_doc-0.0.8.tar.gz
+[2023-06-10 22:06:29] INFO root fetch - processPackages [aichat-cli]: Downloading https://files.pythonhosted.org/packages/9c/2d/01ed51a4ab8fd854af4aa7784a1c5a7f0797d2d114d25b82f97b47e0a5a1/aichat-cli-0.4.4.tar.gz
+[2023-06-10 22:06:29] INFO root fetch - processPackages [berhoelodf]: Downloading https://files.pythonhosted.org/packages/7d/be/abcb7bec5da67cadfbe171c4bd105087ff400c2dc9ad18cab02a5813f520/berhoelODF-0.2.3.tar.gz
+[2023-06-10 22:06:29] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-06-10 22:06:29] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.98-py3-none-any.whl.zip tmp/mynacode-1.0.99-py3-none-any.whl.zip --markdown 20230610/m/mynacode/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-06-10 22:06:29] INFO root fetch - processPackages [moto-ext]: Downloading https://files.pythonhosted.org/packages/a2/e9/90d0a0ef27fc081d195aa7e083e10db0a80e96eaeb892b1ce2c3b114901b/moto-ext-4.1.8.post1.tar.gz
+[2023-06-10 22:06:29] INFO root fetch - processPackages [pyqrack]: Downloading https://files.pythonhosted.org/packages/28/29/f16cb84b71504321dc06c36eb231f91bd576824fb0425d18edef846c9e14/pyqrack-1.9.5.tar.gz
+[2023-06-10 22:06:29] INFO root fetch - processPackages [SQLAlchemy]: Downloading https://files.pythonhosted.org/packages/0f/73/b76a2c8dbe035791e54da29cefaa22c166f875b24da844dc0f16b66e47bb/SQLAlchemy-2.0.8.tar.gz
+[2023-06-10 22:06:29] INFO root fetch - processPackages [gamedetector]: Downloading https://files.pythonhosted.org/packages/b3/76/d750f7097d9f83727bfd63a43d07c3720bf98d2cb166cdcb366d3fba6f8b/gamedetector-0.1.4.tar.gz
+[2023-06-10 22:06:29] INFO root fetch - processPackages [scratchattach]: Downloading https://files.pythonhosted.org/packages/4f/70/ae0ff03903a2fb7df502f38e15b4352807970cd38db4e5330db52f55df70/scratchattach-1.2.2.tar.gz
+[2023-06-10 22:06:29] INFO root fetch - processPackages [thoth-doc]: Downloading https://files.pythonhosted.org/packages/51/0c/b567d6f92a61ecb98d2754a6c66395dd4b9c75ada9b882cca6c111b18b96/thoth_doc-0.0.9.tar.gz
+[2023-06-10 22:06:29] INFO root fetch - processPackages [gamedetector]: executing diffoscope
+[2023-06-10 22:06:29] INFO root fetch - processPackages [gamedetector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gamedetector-0.1.3.tar.gz tmp/gamedetector-0.1.4.tar.gz --markdown 20230610/g/gamedetector/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-10 22:06:29] INFO root fetch - processPackages [rubyvenv]: Downloading https://files.pythonhosted.org/packages/a3/2f/3a4f0f517b5630eec5d5ce549638ed6989ac619312ee77244f93ae774301/rubyvenv-1.2.1.tar.gz
+[2023-06-10 22:06:29] INFO root fetch - processPackages [thoth-doc]: executing diffoscope
+[2023-06-10 22:06:29] INFO root fetch - processPackages [thoth-doc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thoth_doc-0.0.8.tar.gz tmp/thoth_doc-0.0.9.tar.gz --markdown 20230610/t/thoth-doc/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-10 22:06:29] INFO root fetch - processPackages [scratchattach]: executing diffoscope
+[2023-06-10 22:06:29] INFO root fetch - processPackages [scratchattach]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scratchattach-1.2.1.tar.gz tmp/scratchattach-1.2.2.tar.gz --markdown 20230610/s/scratchattach/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-06-10 22:06:29] INFO root fetch - processPackages [berhoelodf]: Downloading https://files.pythonhosted.org/packages/ca/a5/09514cf427149e70a84c07aeaf4bb46046447c64feebd86f8629b689895c/berhoelodf-0.2.5.tar.gz
+[2023-06-10 22:06:29] INFO root fetch - processPackages [aichat-cli]: Downloading https://files.pythonhosted.org/packages/ba/20/a992ef726f7198eda3e9283c08fab7b4e698de1195c72935e1a892ffa6dd/aichat-cli-0.4.5.tar.gz
+[2023-06-10 22:06:29] INFO root fetch - processPackages [rubyvenv]: executing diffoscope
+[2023-06-10 22:06:29] INFO root fetch - processPackages [rubyvenv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rubyvenv-1.2.0.tar.gz tmp/rubyvenv-1.2.1.tar.gz --markdown 20230610/r/rubyvenv/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-06-10 22:06:29] INFO root fetch - processPackages [berhoelodf]: executing diffoscope
+[2023-06-10 22:06:29] INFO root fetch - processPackages [berhoelodf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/berhoelODF-0.2.3.tar.gz tmp/berhoelodf-0.2.5.tar.gz --markdown 20230610/b/berhoelodf/0.2.3-0.2.5/diff.md --exclude *.pyd
+[2023-06-10 22:06:29] INFO root fetch - processPackages [pyqrack]: Downloading https://files.pythonhosted.org/packages/34/a1/c6968107745c3dcebdaf556a582d8f63f49943f43c90a7d33e04b0397f53/pyqrack-1.9.6.tar.gz
+[2023-06-10 22:06:29] INFO root fetch - processPackages [aichat-cli]: executing diffoscope
+[2023-06-10 22:06:29] INFO root fetch - processPackages [aichat-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aichat-cli-0.4.4.tar.gz tmp/aichat-cli-0.4.5.tar.gz --markdown 20230610/a/aichat-cli/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-06-10 22:06:29] INFO root fetch - processPackages [pyqrack]: executing diffoscope
+[2023-06-10 22:06:29] INFO root fetch - processPackages [pyqrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqrack-1.9.5.tar.gz tmp/pyqrack-1.9.6.tar.gz --markdown 20230610/p/pyqrack/1.9.5-1.9.6/diff.md --exclude *.pyd
+[2023-06-10 22:06:30] INFO root fetch - processPackages [moto-ext]: Downloading https://files.pythonhosted.org/packages/a1/2c/103d5cb88114dc2ce6ed9a27dfbd66d1d31dca7b4a1fa2496bf3ae5ee96b/moto-ext-4.1.9.post1.tar.gz
+[2023-06-10 22:06:30] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.98-py3-none-any.whl.zip]
+[2023-06-10 22:06:30] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.99-py3-none-any.whl.zip]
+[2023-06-10 22:06:30] INFO root fetch - processPackages [mynacode]: Start processing: PyyPKG
+[2023-06-10 22:06:30] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-06-10 22:06:30] WARNING root fetch - processPackages [PyyPKG]: Skipping, unable to determine old version
+[2023-06-10 22:06:30] INFO root fetch - main [MainThread]: End processing [PyyPKG] error
+[2023-06-10 22:06:30] INFO root fetch - processPackages [gamedetector]: Remove: archive file [/home/abi/fetcher/tmp/gamedetector-0.1.3.tar.gz]
+[2023-06-10 22:06:30] INFO root fetch - processPackages [gamedetector]: Remove: archive file [/home/abi/fetcher/tmp/gamedetector-0.1.4.tar.gz]
+[2023-06-10 22:06:30] INFO root fetch - main [MainThread]: End processing [gamedetector]: success
+[2023-06-10 22:06:30] INFO root fetch - processPackages [thoth-doc]: Remove: archive file [/home/abi/fetcher/tmp/thoth_doc-0.0.8.tar.gz]
+[2023-06-10 22:06:30] INFO root fetch - processPackages [thoth-doc]: Remove: archive file [/home/abi/fetcher/tmp/thoth_doc-0.0.9.tar.gz]
+[2023-06-10 22:06:30] INFO root fetch - main [MainThread]: End processing [thoth-doc]: success
+[2023-06-10 22:06:30] INFO root fetch - processPackages [rubyvenv]: Remove: archive file [/home/abi/fetcher/tmp/rubyvenv-1.2.0.tar.gz]
+[2023-06-10 22:06:30] INFO root fetch - processPackages [rubyvenv]: Remove: archive file [/home/abi/fetcher/tmp/rubyvenv-1.2.1.tar.gz]
+[2023-06-10 22:06:30] INFO root fetch - main [MainThread]: End processing [rubyvenv]: success
+[2023-06-10 22:06:30] INFO root fetch - processPackages [aichat-cli]: Remove: archive file [/home/abi/fetcher/tmp/aichat-cli-0.4.4.tar.gz]
+[2023-06-10 22:06:30] INFO root fetch - processPackages [aichat-cli]: Remove: archive file [/home/abi/fetcher/tmp/aichat-cli-0.4.5.tar.gz]
+[2023-06-10 22:06:30] INFO root fetch - main [MainThread]: End processing [aichat-cli]: success
+[2023-06-10 22:06:30] INFO root fetch - processPackages [berhoelodf]: Remove: archive file [/home/abi/fetcher/tmp/berhoelODF-0.2.3.tar.gz]
+[2023-06-10 22:06:30] INFO root fetch - processPackages [berhoelodf]: Remove: archive file [/home/abi/fetcher/tmp/berhoelodf-0.2.5.tar.gz]
+[2023-06-10 22:06:30] INFO root fetch - main [MainThread]: End processing [berhoelodf]: success
+[2023-06-10 22:06:31] INFO root fetch - processPackages [pyqrack]: Remove: archive file [/home/abi/fetcher/tmp/pyqrack-1.9.5.tar.gz]
+[2023-06-10 22:06:31] INFO root fetch - processPackages [pyqrack]: Remove: archive file [/home/abi/fetcher/tmp/pyqrack-1.9.6.tar.gz]
+[2023-06-10 22:06:31] INFO root fetch - processPackages [SQLAlchemy]: Downloading https://files.pythonhosted.org/packages/74/2c/2316a7a0d8b03e34741b3763604d180423f79730010dd7ed61d0f2854d8d/SQLAlchemy-2.0.9.tar.gz
+[2023-06-10 22:06:31] INFO root fetch - main [MainThread]: End processing [pyqrack]: success
+[2023-06-10 22:06:31] INFO root fetch - processPackages [moto-ext]: executing diffoscope
+[2023-06-10 22:06:31] INFO root fetch - processPackages [moto-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-ext-4.1.8.post1.tar.gz tmp/moto-ext-4.1.9.post1.tar.gz --markdown 20230610/m/moto-ext/4.1.8.post1-4.1.9.post1/diff.md --exclude *.pyd
+[2023-06-10 22:06:31] INFO root fetch - processPackages [scratchattach]: Remove: archive file [/home/abi/fetcher/tmp/scratchattach-1.2.1.tar.gz]
+[2023-06-10 22:06:31] INFO root fetch - processPackages [scratchattach]: Remove: archive file [/home/abi/fetcher/tmp/scratchattach-1.2.2.tar.gz]
+[2023-06-10 22:06:31] INFO root fetch - main [MainThread]: End processing [scratchattach]: success
+[2023-06-10 22:06:32] INFO root fetch - processPackages [SQLAlchemy]: executing diffoscope
+[2023-06-10 22:06:32] INFO root fetch - processPackages [SQLAlchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SQLAlchemy-2.0.8.tar.gz tmp/SQLAlchemy-2.0.9.tar.gz --markdown 20230610/S/SQLAlchemy/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-06-10 22:07:31] INFO root fetch - processPackages [SQLAlchemy]: Remove: archive file [/home/abi/fetcher/tmp/SQLAlchemy-2.0.8.tar.gz]
+[2023-06-10 22:07:31] INFO root fetch - processPackages [SQLAlchemy]: Remove: archive file [/home/abi/fetcher/tmp/SQLAlchemy-2.0.9.tar.gz]
+[2023-06-10 22:07:31] INFO root fetch - main [MainThread]: End processing [SQLAlchemy]: success
+[2023-06-10 22:09:31] ERROR root fetch - processPackages [moto-ext]: Timeout during execution of pkgdiff
+[2023-06-10 22:09:31] INFO root fetch - main [MainThread]: End processing [moto-ext] error
+[2023-06-10 22:09:31] INFO root fetch - main [MainThread]: Store serial: [18453448]
