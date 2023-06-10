@@ -14562,3 +14562,66 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-10 18:00:04] INFO root fetch - processPackages [AeroSandbox]: Remove: archive file [/home/abi/fetcher/tmp/AeroSandbox-4.0.9.tar.gz]
 [2023-06-10 18:00:04] INFO root fetch - main [MainThread]: End processing [AeroSandbox]: success
 [2023-06-10 18:00:04] INFO root fetch - main [MainThread]: Store serial: [18451956]
+[2023-06-10 18:05:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18451956]
+[2023-06-10 18:05:20] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-10 18:05:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: guan
+[2023-06-10 18:05:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SomeTools
+[2023-06-10 18:05:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ultibi
+[2023-06-10 18:05:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tempora
+[2023-06-10 18:05:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-nepali
+[2023-06-10 18:05:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cvss-rescore
+[2023-06-10 18:05:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ab-test-toolkit
+[2023-06-10 18:05:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: wbimplicit
+[2023-06-10 18:05:20] INFO root fetch - processPackages [SomeTools]: New version: [0.1.40] Old Version: [0.1.39]
+[2023-06-10 18:05:20] INFO root fetch - processPackages [tempora]: New version: [5.3.0] Old Version: [5.2.2]
+[2023-06-10 18:05:20] INFO root fetch - processPackages [ab-test-toolkit]: New version: [0.0.5] Old Version: [0.0.3]
+[2023-06-10 18:05:20] WARNING root fetch - processPackages [django-nepali]: Skipping, unable to determine old version
+[2023-06-10 18:05:20] INFO root fetch - processPackages [cvss-rescore]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-10 18:05:20] INFO root fetch - main [MainThread]: End processing [django-nepali] error
+[2023-06-10 18:05:20] INFO root fetch - processPackages [ultibi]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-06-10 18:05:20] INFO root fetch - processPackages [guan]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-10 18:05:20] WARNING root fetch - processPackages [wbimplicit]: Skipping, unable to determine old version
+[2023-06-10 18:05:20] INFO root fetch - main [MainThread]: End processing [wbimplicit] error
+[2023-06-10 18:05:20] INFO root fetch - processPackages [SomeTools]: Downloading https://files.pythonhosted.org/packages/13/6a/df248d0dfa5c6f3ef80f59543b2cc49dcf7401ee9aa01cad5c1a39bf2ec9/SomeTools-0.1.39.tar.gz
+[2023-06-10 18:05:20] INFO root fetch - processPackages [ab-test-toolkit]: Downloading https://files.pythonhosted.org/packages/d0/a7/c89413d6ed5274be43042a4ba486913dcfd9504568bd288786ad137e11b4/ab-test-toolkit-0.0.3.tar.gz
+[2023-06-10 18:05:20] INFO root fetch - processPackages [cvss-rescore]: Downloading https://files.pythonhosted.org/packages/57/28/8599ffb2b4671d6b2dfe514395a427b1b86c494f1c6d023577d20a296c69/cvss_rescore-0.0.4.tar.gz
+[2023-06-10 18:05:20] INFO root fetch - processPackages [tempora]: Downloading https://files.pythonhosted.org/packages/1c/32/963e37d9ad64582b822b8bf3288ac135ede936e5c8fe1c71da74164f0974/tempora-5.2.2.tar.gz
+[2023-06-10 18:05:20] INFO root fetch - processPackages [guan]: Downloading https://files.pythonhosted.org/packages/2f/2f/64697ef1ce35181684112fb95641cbf3f56bca4e607502424176584c4e11/guan-0.0.98.tar.gz
+[2023-06-10 18:05:20] INFO root fetch - processPackages [SomeTools]: Downloading https://files.pythonhosted.org/packages/08/66/ede6ea49ccf937f86bd61190f2a10a5eff7837a628818dff7b7586856aab/SomeTools-0.1.40.tar.gz
+[2023-06-10 18:05:21] INFO root fetch - processPackages [ab-test-toolkit]: Downloading https://files.pythonhosted.org/packages/46/d7/4492c732e24cd199131deb4e43b5eaec990ab83fcc987f378e23db5cb9e6/ab-test-toolkit-0.0.5.tar.gz
+[2023-06-10 18:05:21] INFO root fetch - processPackages [SomeTools]: executing diffoscope
+[2023-06-10 18:05:21] INFO root fetch - processPackages [SomeTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SomeTools-0.1.39.tar.gz tmp/SomeTools-0.1.40.tar.gz --markdown 20230610/S/SomeTools/0.1.39-0.1.40/diff.md --exclude *.pyd
+[2023-06-10 18:05:21] INFO root fetch - processPackages [ab-test-toolkit]: executing diffoscope
+[2023-06-10 18:05:21] INFO root fetch - processPackages [tempora]: Downloading https://files.pythonhosted.org/packages/24/9e/fe5328123e2d416b39c5e790165074123c54e34e82aecca33473711dd439/tempora-5.3.0.tar.gz
+[2023-06-10 18:05:21] INFO root fetch - processPackages [ab-test-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ab-test-toolkit-0.0.3.tar.gz tmp/ab-test-toolkit-0.0.5.tar.gz --markdown 20230610/a/ab-test-toolkit/0.0.3-0.0.5/diff.md --exclude *.pyd
+[2023-06-10 18:05:21] INFO root fetch - processPackages [cvss-rescore]: Downloading https://files.pythonhosted.org/packages/5f/f4/3103bbe844b01c29915e29af687cd24ba92bceb96a90bd50978ab3e7f26f/cvss_rescore-0.0.5.tar.gz
+[2023-06-10 18:05:21] INFO root fetch - processPackages [guan]: Downloading https://files.pythonhosted.org/packages/73/bf/798860b195a9284a0cfef1c9cbd178ef81cae8f027e0fad0295fa8cf0fd3/guan-0.0.99.tar.gz
+[2023-06-10 18:05:21] INFO root fetch - processPackages [cvss-rescore]: executing diffoscope
+[2023-06-10 18:05:21] INFO root fetch - processPackages [cvss-rescore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvss_rescore-0.0.4.tar.gz tmp/cvss_rescore-0.0.5.tar.gz --markdown 20230610/c/cvss-rescore/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-10 18:05:21] INFO root fetch - processPackages [guan]: executing diffoscope
+[2023-06-10 18:05:21] INFO root fetch - processPackages [guan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/guan-0.0.98.tar.gz tmp/guan-0.0.99.tar.gz --markdown 20230610/g/guan/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-10 18:05:21] INFO root fetch - processPackages [tempora]: executing diffoscope
+[2023-06-10 18:05:21] INFO root fetch - processPackages [tempora]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tempora-5.2.2.tar.gz tmp/tempora-5.3.0.tar.gz --markdown 20230610/t/tempora/5.2.2-5.3.0/diff.md --exclude *.pyd
+[2023-06-10 18:05:21] INFO root fetch - processPackages [ultibi]: Downloading https://files.pythonhosted.org/packages/d1/59/870537ae22cba9703df57d4185fa8dcfc020ce15d6fb8323f38513a1ef8e/ultibi-0.3.2.tar.gz
+[2023-06-10 18:05:21] INFO root fetch - processPackages [ultibi]: Downloading https://files.pythonhosted.org/packages/e2/f8/6c7044bc50878bf750bdde68a0f00df46193dcfa691635de142e5eb2d8ea/ultibi-0.3.3.tar.gz
+[2023-06-10 18:05:21] INFO root fetch - processPackages [ultibi]: executing diffoscope
+[2023-06-10 18:05:21] INFO root fetch - processPackages [ultibi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultibi-0.3.2.tar.gz tmp/ultibi-0.3.3.tar.gz --markdown 20230610/u/ultibi/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-06-10 18:05:22] INFO root fetch - processPackages [ab-test-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/ab-test-toolkit-0.0.3.tar.gz]
+[2023-06-10 18:05:22] INFO root fetch - processPackages [ab-test-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/ab-test-toolkit-0.0.5.tar.gz]
+[2023-06-10 18:05:22] INFO root fetch - main [MainThread]: End processing [ab-test-toolkit]: success
+[2023-06-10 18:05:22] INFO root fetch - processPackages [SomeTools]: Remove: archive file [/home/abi/fetcher/tmp/SomeTools-0.1.39.tar.gz]
+[2023-06-10 18:05:22] INFO root fetch - processPackages [SomeTools]: Remove: archive file [/home/abi/fetcher/tmp/SomeTools-0.1.40.tar.gz]
+[2023-06-10 18:05:22] INFO root fetch - main [MainThread]: End processing [SomeTools]: success
+[2023-06-10 18:05:22] INFO root fetch - processPackages [cvss-rescore]: Remove: archive file [/home/abi/fetcher/tmp/cvss_rescore-0.0.4.tar.gz]
+[2023-06-10 18:05:22] INFO root fetch - processPackages [cvss-rescore]: Remove: archive file [/home/abi/fetcher/tmp/cvss_rescore-0.0.5.tar.gz]
+[2023-06-10 18:05:22] INFO root fetch - main [MainThread]: End processing [cvss-rescore]: success
+[2023-06-10 18:05:22] INFO root fetch - processPackages [tempora]: Remove: archive file [/home/abi/fetcher/tmp/tempora-5.2.2.tar.gz]
+[2023-06-10 18:05:22] INFO root fetch - processPackages [tempora]: Remove: archive file [/home/abi/fetcher/tmp/tempora-5.3.0.tar.gz]
+[2023-06-10 18:05:22] INFO root fetch - main [MainThread]: End processing [tempora]: success
+[2023-06-10 18:05:22] INFO root fetch - processPackages [guan]: Remove: archive file [/home/abi/fetcher/tmp/guan-0.0.98.tar.gz]
+[2023-06-10 18:05:22] INFO root fetch - processPackages [guan]: Remove: archive file [/home/abi/fetcher/tmp/guan-0.0.99.tar.gz]
+[2023-06-10 18:05:22] INFO root fetch - main [MainThread]: End processing [guan]: success
+[2023-06-10 18:05:24] INFO root fetch - processPackages [ultibi]: Remove: archive file [/home/abi/fetcher/tmp/ultibi-0.3.2.tar.gz]
+[2023-06-10 18:05:24] INFO root fetch - processPackages [ultibi]: Remove: archive file [/home/abi/fetcher/tmp/ultibi-0.3.3.tar.gz]
+[2023-06-10 18:05:24] INFO root fetch - main [MainThread]: End processing [ultibi]: success
+[2023-06-10 18:05:24] INFO root fetch - main [MainThread]: Store serial: [18451985]
