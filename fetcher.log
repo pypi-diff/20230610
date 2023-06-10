@@ -8392,3 +8392,35 @@ EOFError: EOF read where object expected
 [2023-06-10 07:58:25] INFO root fetch - processPackages [clickhouse-connect]: Remove: archive file [/home/abi/fetcher/tmp/clickhouse-connect-0.6.2.tar.gz]
 [2023-06-10 07:58:25] INFO root fetch - main [MainThread]: End processing [clickhouse-connect]: success
 [2023-06-10 07:58:25] INFO root fetch - main [MainThread]: Store serial: [18448953]
+[2023-06-10 08:03:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18448953]
+[2023-06-10 08:03:34] INFO root fetch - main [MainThread]: No changed packages found
+[2023-06-10 08:08:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18448954]
+[2023-06-10 08:08:40] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-10 08:08:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: prefai
+[2023-06-10 08:08:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyg-nightly
+[2023-06-10 08:08:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: omniplot
+[2023-06-10 08:08:40] INFO root fetch - processPackages [prefai]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-10 08:08:40] INFO root fetch - processPackages [omniplot]: New version: [0.4.8] Old Version: [0.4.7]
+[2023-06-10 08:08:40] INFO root fetch - processPackages [pyg-nightly]: New version: [2.4.0.dev20230609] Old Version: [2.4.0.dev20230608]
+[2023-06-10 08:08:40] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/4b/3b/5c52f2a05d799058deb70bdfd3b7e267371a50ced0da1f9658423a73c14e/pyg_nightly-2.4.0.dev20230608.tar.gz
+[2023-06-10 08:08:40] INFO root fetch - processPackages [prefai]: Downloading https://files.pythonhosted.org/packages/e8/95/4a737d7ddb456cfbf421f5d880e4ceeb53d71c224a592a331fd1fe769fe2/prefai-0.0.3.tar.gz
+[2023-06-10 08:08:40] INFO root fetch - processPackages [omniplot]: Downloading https://files.pythonhosted.org/packages/f0/a2/021b49cf640b4161c2720b72ed3eb1215f7d8d838fd8dc0129d4c57d06ef/omniplot-0.4.7.tar.gz
+[2023-06-10 08:08:41] INFO root fetch - processPackages [prefai]: Downloading https://files.pythonhosted.org/packages/dc/6b/eceedeada555cf6ff628916e938f37e3cd1def12ee39fa8e1b8dc855055c/prefai-0.0.4.tar.gz
+[2023-06-10 08:08:41] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/ef/b5/74325470820e0ee1cb63b50d71339600494ee7492109f2d607ae84adced6/pyg_nightly-2.4.0.dev20230609.tar.gz
+[2023-06-10 08:08:41] INFO root fetch - processPackages [omniplot]: Downloading https://files.pythonhosted.org/packages/ef/97/8a3b04ebd15e7d2a9dd5dade352126c7cc84155b05026d433db18342e79e/omniplot-0.4.8-py3-none-any.whl
+[2023-06-10 08:08:41] INFO root fetch - processPackages [prefai]: executing diffoscope
+[2023-06-10 08:08:41] INFO root fetch - processPackages [prefai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prefai-0.0.3.tar.gz tmp/prefai-0.0.4.tar.gz --markdown 20230610/p/prefai/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-10 08:08:41] INFO root fetch - processPackages [omniplot]: executing diffoscope
+[2023-06-10 08:08:41] INFO root fetch - processPackages [omniplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omniplot-0.4.7.tar.gz tmp/omniplot-0.4.8-py3-none-any.whl.zip --markdown 20230610/o/omniplot/0.4.7-0.4.8/diff.md --exclude *.pyd
+[2023-06-10 08:08:41] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2023-06-10 08:08:41] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg_nightly-2.4.0.dev20230608.tar.gz tmp/pyg_nightly-2.4.0.dev20230609.tar.gz --markdown 20230610/p/pyg-nightly/2.4.0.dev20230608-2.4.0.dev20230609/diff.md --exclude *.pyd
+[2023-06-10 08:08:42] INFO root fetch - processPackages [omniplot]: Remove: archive file [/home/abi/fetcher/tmp/omniplot-0.4.7.tar.gz]
+[2023-06-10 08:08:42] INFO root fetch - processPackages [omniplot]: Remove: archive file [/home/abi/fetcher/tmp/omniplot-0.4.8-py3-none-any.whl.zip]
+[2023-06-10 08:08:42] INFO root fetch - main [MainThread]: End processing [omniplot]: success
+[2023-06-10 08:08:42] INFO root fetch - processPackages [prefai]: Remove: archive file [/home/abi/fetcher/tmp/prefai-0.0.3.tar.gz]
+[2023-06-10 08:08:42] INFO root fetch - processPackages [prefai]: Remove: archive file [/home/abi/fetcher/tmp/prefai-0.0.4.tar.gz]
+[2023-06-10 08:08:42] INFO root fetch - main [MainThread]: End processing [prefai]: success
+[2023-06-10 08:08:46] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230608.tar.gz]
+[2023-06-10 08:08:46] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230609.tar.gz]
+[2023-06-10 08:08:46] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2023-06-10 08:08:46] INFO root fetch - main [MainThread]: Store serial: [18448964]
