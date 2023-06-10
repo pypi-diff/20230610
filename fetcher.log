@@ -14427,3 +14427,27 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-10 17:38:43] INFO root fetch - processPackages [clust-learn]: Remove: archive file [/home/abi/fetcher/tmp/clust-learn-0.2.0b0.tar.gz]
 [2023-06-10 17:38:43] INFO root fetch - main [MainThread]: End processing [clust-learn]: success
 [2023-06-10 17:38:43] INFO root fetch - main [MainThread]: Store serial: [18451894]
+[2023-06-10 17:43:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18451894]
+[2023-06-10 17:43:52] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-10 17:43:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jloader
+[2023-06-10 17:43:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: psychom-scanner
+[2023-06-10 17:43:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aioqui
+[2023-06-10 17:43:52] INFO root fetch - processPackages [aioqui]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-06-10 17:43:52] INFO root fetch - processPackages [jloader]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-10 17:43:52] WARNING root fetch - processPackages [psychom-scanner]: Skipping, unable to determine old version
+[2023-06-10 17:43:52] INFO root fetch - main [MainThread]: End processing [psychom-scanner] error
+[2023-06-10 17:43:52] INFO root fetch - processPackages [aioqui]: Downloading https://files.pythonhosted.org/packages/55/22/ac7bf60aa2d1c1b453a73c392a2e4b4e2789574e6251d092a835c3a644ea/aioqui-2.0.8.tar.gz
+[2023-06-10 17:43:53] INFO root fetch - processPackages [jloader]: Downloading https://files.pythonhosted.org/packages/fa/b6/8063ab18345ca0c31622132c20aa5f3c949abe84d30be499099318f563de/jloader-0.0.1.tar.gz
+[2023-06-10 17:43:53] INFO root fetch - processPackages [aioqui]: Downloading https://files.pythonhosted.org/packages/5f/a3/878ea6c452c6f5a46165cb98fbf724693d047dfd8e5f2cb7e6be6a993839/aioqui-2.0.9.tar.gz
+[2023-06-10 17:43:53] INFO root fetch - processPackages [aioqui]: executing diffoscope
+[2023-06-10 17:43:53] INFO root fetch - processPackages [aioqui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioqui-2.0.8.tar.gz tmp/aioqui-2.0.9.tar.gz --markdown 20230610/a/aioqui/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-06-10 17:43:53] INFO root fetch - processPackages [jloader]: Downloading https://files.pythonhosted.org/packages/11/df/4eb79ac5e9f9f0586b45f8991dff653f385d51114091f01bd51fe56d3e37/jloader-0.0.2.tar.gz
+[2023-06-10 17:43:53] INFO root fetch - processPackages [jloader]: executing diffoscope
+[2023-06-10 17:43:53] INFO root fetch - processPackages [jloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jloader-0.0.1.tar.gz tmp/jloader-0.0.2.tar.gz --markdown 20230610/j/jloader/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-10 17:43:54] INFO root fetch - processPackages [jloader]: Remove: archive file [/home/abi/fetcher/tmp/jloader-0.0.1.tar.gz]
+[2023-06-10 17:43:54] INFO root fetch - processPackages [jloader]: Remove: archive file [/home/abi/fetcher/tmp/jloader-0.0.2.tar.gz]
+[2023-06-10 17:43:54] INFO root fetch - main [MainThread]: End processing [jloader]: success
+[2023-06-10 17:43:55] INFO root fetch - processPackages [aioqui]: Remove: archive file [/home/abi/fetcher/tmp/aioqui-2.0.8.tar.gz]
+[2023-06-10 17:43:55] INFO root fetch - processPackages [aioqui]: Remove: archive file [/home/abi/fetcher/tmp/aioqui-2.0.9.tar.gz]
+[2023-06-10 17:43:55] INFO root fetch - main [MainThread]: End processing [aioqui]: success
+[2023-06-10 17:43:55] INFO root fetch - main [MainThread]: Store serial: [18451908]
