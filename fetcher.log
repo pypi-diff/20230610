@@ -11130,3 +11130,81 @@ EOFError: EOF read where object expected
 [2023-06-10 13:41:03] INFO root fetch - processPackages [bigdl-nano]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_nano-2.4.0b20230610-py3-none-win_amd64.whl.zip]
 [2023-06-10 13:41:03] INFO root fetch - main [MainThread]: End processing [bigdl-nano]: success
 [2023-06-10 13:41:03] INFO root fetch - main [MainThread]: Store serial: [18450283]
+[2023-06-10 13:46:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18450283]
+[2023-06-10 13:46:12] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-10 13:46:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: regpredict
+[2023-06-10 13:46:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: leuci-map
+[2023-06-10 13:46:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyTableWiz
+[2023-06-10 13:46:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pricehist
+[2023-06-10 13:46:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yulan-test-project
+[2023-06-10 13:46:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bigdl-llm
+[2023-06-10 13:46:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bigdl-chronos
+[2023-06-10 13:46:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: unihan-db
+[2023-06-10 13:46:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nonebot-plugin-bawiki
+[2023-06-10 13:46:12] WARNING root fetch - processPackages [PyTableWiz]: Skipping, unable to determine old version
+[2023-06-10 13:46:12] INFO root fetch - main [MainThread]: End processing [PyTableWiz] error
+[2023-06-10 13:46:12] INFO root fetch - processPackages [bigdl-llm]: New version: [2.4.0b20230610] Old Version: [2.4.0b20230609]
+[2023-06-10 13:46:12] INFO root fetch - processPackages [regpredict]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-10 13:46:12] INFO root fetch - processPackages [yulan-test-project]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-10 13:46:12] INFO root fetch - processPackages [leuci-map]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-10 13:46:12] INFO root fetch - processPackages [pricehist]: New version: [1.4.5] Old Version: [1.4.4]
+[2023-06-10 13:46:12] INFO root fetch - processPackages [unihan-db]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-10 13:46:12] INFO root fetch - processPackages [nonebot-plugin-bawiki]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-06-10 13:46:12] INFO root fetch - processPackages [bigdl-chronos]: New version: [2.4.0b20230610] Old Version: [2.4.0b20230609]
+[2023-06-10 13:46:12] INFO root fetch - processPackages [leuci-map]: Downloading https://files.pythonhosted.org/packages/d7/f9/d814c86bcb6551942e72559977ffd7788e9a2d159c055fc5698defcc15da/leuci-map-0.1.8.tar.gz
+[2023-06-10 13:46:12] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/fa/f8/a578d1c5c3a4d9885a2149a32f19d2726ae67743238acf3534a445459c37/bigdl_llm-2.4.0b20230609-py3-none-win_amd64.whl
+[2023-06-10 13:46:12] INFO root fetch - processPackages [regpredict]: Downloading https://files.pythonhosted.org/packages/0a/f5/db3a1fa69360930599889257d2545d57d75927c3650bf12743511ccef501/regpredict-0.0.8.tar.gz
+[2023-06-10 13:46:12] INFO root fetch - processPackages [pricehist]: Downloading https://files.pythonhosted.org/packages/1c/b1/a7c7af83f993d3bc27d638cc945e5d6233874d868367bf65ca9e12519867/pricehist-1.4.4.tar.gz
+[2023-06-10 13:46:12] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/3b/22/f3ba510b019b95612f1884e4b6e05949bd304e47ea199ea47c3e5471a35c/bigdl_chronos-2.4.0b20230609-py3-none-win_amd64.whl
+[2023-06-10 13:46:12] INFO root fetch - processPackages [unihan-db]: Downloading https://files.pythonhosted.org/packages/a9/6a/baaefbbad3d0d7ae92e9ba6835d5a53978431e5e35ed02aba25e1c50fef9/unihan_db-0.8.0.tar.gz
+[2023-06-10 13:46:12] INFO root fetch - processPackages [yulan-test-project]: Downloading https://files.pythonhosted.org/packages/e5/ce/3418f0a461bcfb092f7a4b47f7029cce97380167e5256042cf531abee7ce/yulan_test_project-0.0.1.tar.gz
+[2023-06-10 13:46:12] INFO root fetch - processPackages [nonebot-plugin-bawiki]: Downloading https://files.pythonhosted.org/packages/c4/3f/6dada9667bd7d1f38511d32379e3491f130bcaa81828c24bb1e8becbce34/nonebot_plugin_bawiki-0.7.8.tar.gz
+[2023-06-10 13:46:13] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/f6/a7/59f34279c80887e7c8292d0daaa2c1983b68e11200ad08d32b4966226d81/bigdl_llm-2.4.0b20230610-py3-none-win_amd64.whl
+[2023-06-10 13:46:13] INFO root fetch - processPackages [pricehist]: Downloading https://files.pythonhosted.org/packages/60/22/489b82415cd4b2984ca222893c92d3bca829a33771172ba803d3e6402bae/pricehist-1.4.5.tar.gz
+[2023-06-10 13:46:13] INFO root fetch - processPackages [yulan-test-project]: Downloading https://files.pythonhosted.org/packages/9a/09/fdd4ee558be2ac3c94177ec639fe914f00428c9c74e723f9c63a49730af6/yulan_test_project-0.0.2.tar.gz
+[2023-06-10 13:46:13] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/6b/57/8a0e27d01c9703be92e0b062e89f66bfd6f106933ceeb796c593d1667127/bigdl_chronos-2.4.0b20230610-py3-none-win_amd64.whl
+[2023-06-10 13:46:13] INFO root fetch - processPackages [leuci-map]: Downloading https://files.pythonhosted.org/packages/ef/bd/8215fa42b8399ed3a3bbe6d8cb906b7c7f4767bbb786d85e8172c4dbf877/leuci-map-0.1.9.tar.gz
+[2023-06-10 13:46:13] INFO root fetch - processPackages [pricehist]: executing diffoscope
+[2023-06-10 13:46:13] INFO root fetch - processPackages [pricehist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pricehist-1.4.4.tar.gz tmp/pricehist-1.4.5.tar.gz --markdown 20230610/p/pricehist/1.4.4-1.4.5/diff.md --exclude *.pyd
+[2023-06-10 13:46:13] INFO root fetch - processPackages [yulan-test-project]: executing diffoscope
+[2023-06-10 13:46:13] INFO root fetch - processPackages [yulan-test-project]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yulan_test_project-0.0.1.tar.gz tmp/yulan_test_project-0.0.2.tar.gz --markdown 20230610/y/yulan-test-project/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-10 13:46:13] INFO root fetch - processPackages [unihan-db]: Downloading https://files.pythonhosted.org/packages/4f/b9/0100cfe6f41e00f683f46dba03add5d65285f27520928706ade09e33a031/unihan_db-0.9.0.tar.gz
+[2023-06-10 13:46:13] INFO root fetch - processPackages [regpredict]: Downloading https://files.pythonhosted.org/packages/f1/2d/99f43cff649258e263b708870c40897d0e236ed1fb5ad32bc7c7fde634ab/regpredict-0.0.9.tar.gz
+[2023-06-10 13:46:13] INFO root fetch - processPackages [leuci-map]: executing diffoscope
+[2023-06-10 13:46:13] INFO root fetch - processPackages [leuci-map]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leuci-map-0.1.8.tar.gz tmp/leuci-map-0.1.9.tar.gz --markdown 20230610/l/leuci-map/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-10 13:46:13] INFO root fetch - processPackages [unihan-db]: executing diffoscope
+[2023-06-10 13:46:13] INFO root fetch - processPackages [unihan-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unihan_db-0.8.0.tar.gz tmp/unihan_db-0.9.0.tar.gz --markdown 20230610/u/unihan-db/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-10 13:46:13] INFO root fetch - processPackages [bigdl-chronos]: executing diffoscope
+[2023-06-10 13:46:13] INFO root fetch - processPackages [bigdl-chronos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos-2.4.0b20230609-py3-none-win_amd64.whl.zip tmp/bigdl_chronos-2.4.0b20230610-py3-none-win_amd64.whl.zip --markdown 20230610/b/bigdl-chronos/2.4.0b20230609-2.4.0b20230610/diff.md --exclude *.pyd
+[2023-06-10 13:46:13] INFO root fetch - processPackages [regpredict]: executing diffoscope
+[2023-06-10 13:46:13] INFO root fetch - processPackages [regpredict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/regpredict-0.0.8.tar.gz tmp/regpredict-0.0.9.tar.gz --markdown 20230610/r/regpredict/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-10 13:46:13] INFO root fetch - processPackages [bigdl-llm]: executing diffoscope
+[2023-06-10 13:46:13] INFO root fetch - processPackages [bigdl-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_llm-2.4.0b20230609-py3-none-win_amd64.whl.zip tmp/bigdl_llm-2.4.0b20230610-py3-none-win_amd64.whl.zip --markdown 20230610/b/bigdl-llm/2.4.0b20230609-2.4.0b20230610/diff.md --exclude *.pyd
+[2023-06-10 13:46:14] INFO root fetch - processPackages [nonebot-plugin-bawiki]: Downloading https://files.pythonhosted.org/packages/59/8d/40cdd8ac0e959ec490a041553bdd0c5a8cb4afbf6cf4e1f9fd9e8f72aa00/nonebot_plugin_bawiki-0.7.9.tar.gz
+[2023-06-10 13:46:14] INFO root fetch - processPackages [yulan-test-project]: Remove: archive file [/home/abi/fetcher/tmp/yulan_test_project-0.0.1.tar.gz]
+[2023-06-10 13:46:14] INFO root fetch - processPackages [yulan-test-project]: Remove: archive file [/home/abi/fetcher/tmp/yulan_test_project-0.0.2.tar.gz]
+[2023-06-10 13:46:14] INFO root fetch - main [MainThread]: End processing [yulan-test-project]: success
+[2023-06-10 13:46:14] INFO root fetch - processPackages [leuci-map]: Remove: archive file [/home/abi/fetcher/tmp/leuci-map-0.1.8.tar.gz]
+[2023-06-10 13:46:14] INFO root fetch - processPackages [leuci-map]: Remove: archive file [/home/abi/fetcher/tmp/leuci-map-0.1.9.tar.gz]
+[2023-06-10 13:46:14] INFO root fetch - main [MainThread]: End processing [leuci-map]: success
+[2023-06-10 13:46:14] INFO root fetch - processPackages [pricehist]: Remove: archive file [/home/abi/fetcher/tmp/pricehist-1.4.4.tar.gz]
+[2023-06-10 13:46:14] INFO root fetch - processPackages [pricehist]: Remove: archive file [/home/abi/fetcher/tmp/pricehist-1.4.5.tar.gz]
+[2023-06-10 13:46:14] INFO root fetch - main [MainThread]: End processing [pricehist]: success
+[2023-06-10 13:46:14] INFO root fetch - processPackages [unihan-db]: Remove: archive file [/home/abi/fetcher/tmp/unihan_db-0.8.0.tar.gz]
+[2023-06-10 13:46:14] INFO root fetch - processPackages [unihan-db]: Remove: archive file [/home/abi/fetcher/tmp/unihan_db-0.9.0.tar.gz]
+[2023-06-10 13:46:14] INFO root fetch - main [MainThread]: End processing [unihan-db]: success
+[2023-06-10 13:46:15] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.4.0b20230609-py3-none-win_amd64.whl.zip]
+[2023-06-10 13:46:15] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.4.0b20230610-py3-none-win_amd64.whl.zip]
+[2023-06-10 13:46:15] INFO root fetch - main [MainThread]: End processing [bigdl-llm]: success
+[2023-06-10 13:46:15] INFO root fetch - processPackages [regpredict]: Remove: archive file [/home/abi/fetcher/tmp/regpredict-0.0.8.tar.gz]
+[2023-06-10 13:46:15] INFO root fetch - processPackages [regpredict]: Remove: archive file [/home/abi/fetcher/tmp/regpredict-0.0.9.tar.gz]
+[2023-06-10 13:46:15] INFO root fetch - main [MainThread]: End processing [regpredict]: success
+[2023-06-10 13:46:15] INFO root fetch - processPackages [nonebot-plugin-bawiki]: executing diffoscope
+[2023-06-10 13:46:15] INFO root fetch - processPackages [nonebot-plugin-bawiki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_bawiki-0.7.8.tar.gz tmp/nonebot_plugin_bawiki-0.7.9.tar.gz --markdown 20230610/n/nonebot-plugin-bawiki/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-06-10 13:46:15] INFO root fetch - processPackages [bigdl-chronos]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos-2.4.0b20230609-py3-none-win_amd64.whl.zip]
+[2023-06-10 13:46:15] INFO root fetch - processPackages [bigdl-chronos]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos-2.4.0b20230610-py3-none-win_amd64.whl.zip]
+[2023-06-10 13:46:15] INFO root fetch - main [MainThread]: End processing [bigdl-chronos]: success
+[2023-06-10 13:46:16] INFO root fetch - processPackages [nonebot-plugin-bawiki]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bawiki-0.7.8.tar.gz]
+[2023-06-10 13:46:16] INFO root fetch - processPackages [nonebot-plugin-bawiki]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bawiki-0.7.9.tar.gz]
+[2023-06-10 13:46:16] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-bawiki]: success
+[2023-06-10 13:46:16] INFO root fetch - main [MainThread]: Store serial: [18450310]
