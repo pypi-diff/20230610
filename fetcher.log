@@ -15500,3 +15500,77 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-10 19:03:42] INFO root fetch - processPackages [hacs-frontend]: Remove: archive file [/home/abi/fetcher/tmp/hacs-frontend-9.tar.gz]
 [2023-06-10 19:03:42] INFO root fetch - main [MainThread]: End processing [hacs-frontend]: success
 [2023-06-10 19:03:42] INFO root fetch - main [MainThread]: Store serial: [18452443]
+[2023-06-10 19:08:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18452443]
+[2023-06-10 19:08:52] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-10 19:08:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nutorious
+[2023-06-10 19:08:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bantam
+[2023-06-10 19:08:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lollms
+[2023-06-10 19:08:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: py-fumen-util
+[2023-06-10 19:08:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: clust-learn
+[2023-06-10 19:08:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: scsd
+[2023-06-10 19:08:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: acb
+[2023-06-10 19:08:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: llvm-tools
+[2023-06-10 19:08:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: knx-frontend
+[2023-06-10 19:08:52] INFO root fetch - processPackages [lollms]: New version: [1.1.9] Old Version: [1.1.7]
+[2023-06-10 19:08:52] INFO root fetch - processPackages [bantam]: New version: [2.2.3] Old Version: [2.2.2]
+[2023-06-10 19:08:52] INFO root fetch - processPackages [nutorious]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-10 19:08:52] WARNING root fetch - processPackages [llvm-tools]: Skipping, unable to determine old version
+[2023-06-10 19:08:52] INFO root fetch - main [MainThread]: End processing [llvm-tools] error
+[2023-06-10 19:08:52] INFO root fetch - processPackages [clust-learn]: New version: [0.2.1] Old Version: [0.2.0b0]
+[2023-06-10 19:08:52] INFO root fetch - processPackages [scsd]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-10 19:08:52] INFO root fetch - processPackages [py-fumen-util]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-10 19:08:52] INFO root fetch - processPackages [knx-frontend]: New version: [2023.6.9.195839] Old Version: [2023.5.31.141540]
+[2023-06-10 19:08:52] INFO root fetch - processPackages [acb]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-10 19:08:52] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/3d/63/5860743c06fbd44180fc9469d6a01bbc0644f8be5bc965843b7c2864a173/lollms-1.1.7.tar.gz
+[2023-06-10 19:08:52] INFO root fetch - processPackages [scsd]: Downloading https://files.pythonhosted.org/packages/ac/17/337cb25f0f71ec432dbb4bf39eed6d2a4dafd21d01d2144a5cb8372c5985/scsd-0.0.7.tar.gz
+[2023-06-10 19:08:52] WARNING root fetch - processPackages [lollms]: Skipping package: exceeds size limit 17349845>=10485760
+[2023-06-10 19:08:52] INFO root fetch - main [MainThread]: End processing [lollms] error
+[2023-06-10 19:08:52] INFO root fetch - processPackages [clust-learn]: Downloading https://files.pythonhosted.org/packages/c6/c8/b18bdbd40954b4bd9be87b5105c7b58f94556fc18f3c5cb3d5f62e349c09/clust-learn-0.2.0b0.tar.gz
+[2023-06-10 19:08:52] INFO root fetch - processPackages [bantam]: Downloading https://files.pythonhosted.org/packages/a8/fd/75ee75ceaea3ccfcd053a6ee9e95eb2777be4dd28789747713f4c9aec27c/bantam-2.2.2.tar.gz
+[2023-06-10 19:08:52] INFO root fetch - processPackages [scsd]: Downloading https://files.pythonhosted.org/packages/73/23/a235ab52743256110c9399a7cd5232cd00d2be18aa57ea724b20fde057b3/scsd-0.0.8.tar.gz
+[2023-06-10 19:08:52] INFO root fetch - processPackages [nutorious]: Downloading https://files.pythonhosted.org/packages/37/ba/29f3f93b4ff7e72c9e4064d4b26aa8c5720fb94b9acd2ae60e0ba9216e69/nutorious-0.1.1.tar.gz
+[2023-06-10 19:08:52] INFO root fetch - processPackages [scsd]: executing diffoscope
+[2023-06-10 19:08:52] INFO root fetch - processPackages [scsd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scsd-0.0.7.tar.gz tmp/scsd-0.0.8.tar.gz --markdown 20230610/s/scsd/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-10 19:08:52] INFO root fetch - processPackages [py-fumen-util]: Downloading https://files.pythonhosted.org/packages/5f/3d/fa48fa17657e9f7f4ef929626afd7a880c4760399f70ebfa0442368f7427/py_fumen_util-0.1.0.tar.gz
+[2023-06-10 19:08:52] INFO root fetch - processPackages [acb]: Downloading https://files.pythonhosted.org/packages/7c/0e/9517188818cd544cc4ed17f284760144a1b7a39ef8158339128a2e692207/acb-0.1.5.tar.gz
+[2023-06-10 19:08:52] INFO root fetch - processPackages [knx-frontend]: Downloading https://files.pythonhosted.org/packages/34/21/fe8a55c7dc79e334cd6538a6879e6413c4e6985e29eb848198daf6ad2481/knx_frontend-2023.5.31.141540.tar.gz
+[2023-06-10 19:08:52] INFO root fetch - processPackages [bantam]: Downloading https://files.pythonhosted.org/packages/db/34/7edeaf21f25f1ecb3d79baab9a64a6726b902e133c4b55f04df4a3e1ad41/bantam-2.2.3.tar.gz
+[2023-06-10 19:08:52] INFO root fetch - processPackages [clust-learn]: Downloading https://files.pythonhosted.org/packages/fe/d0/406eeea701778072bdfba3a7c56d6b9fb4b2c9b508c96ca37947f9169a1d/clust-learn-0.2.1.tar.gz
+[2023-06-10 19:08:52] INFO root fetch - processPackages [py-fumen-util]: Downloading https://files.pythonhosted.org/packages/75/de/faf876ae74736c0bed39cb7ae8af06a2b9d2e1d657c1f4e3ab5731dc46b2/py_fumen_util-0.2.0.tar.gz
+[2023-06-10 19:08:52] INFO root fetch - processPackages [nutorious]: Downloading https://files.pythonhosted.org/packages/b1/67/0f9ba80f940f5f2c387d7bea22210857bc88a124aa87d172e09024322941/nutorious-0.1.2.tar.gz
+[2023-06-10 19:08:52] INFO root fetch - processPackages [bantam]: executing diffoscope
+[2023-06-10 19:08:52] INFO root fetch - processPackages [bantam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bantam-2.2.2.tar.gz tmp/bantam-2.2.3.tar.gz --markdown 20230610/b/bantam/2.2.2-2.2.3/diff.md --exclude *.pyd
+[2023-06-10 19:08:52] INFO root fetch - processPackages [nutorious]: executing diffoscope
+[2023-06-10 19:08:52] INFO root fetch - processPackages [nutorious]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nutorious-0.1.1.tar.gz tmp/nutorious-0.1.2.tar.gz --markdown 20230610/n/nutorious/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-10 19:08:52] INFO root fetch - processPackages [acb]: Downloading https://files.pythonhosted.org/packages/75/f1/0a0c11d548b4d81a52eba48b01ae51c5c41aed69ede6b5d528678a9122b9/acb-0.1.6.tar.gz
+[2023-06-10 19:08:52] INFO root fetch - processPackages [knx-frontend]: Downloading https://files.pythonhosted.org/packages/2d/b2/0c3bec3585eaae64e0e2860f29adcfc077b88ab72dbc6006f4fff5ca9c79/knx_frontend-2023.6.9.195839.tar.gz
+[2023-06-10 19:08:52] INFO root fetch - processPackages [clust-learn]: executing diffoscope
+[2023-06-10 19:08:52] INFO root fetch - processPackages [clust-learn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clust-learn-0.2.0b0.tar.gz tmp/clust-learn-0.2.1.tar.gz --markdown 20230610/c/clust-learn/0.2.0b0-0.2.1/diff.md --exclude *.pyd
+[2023-06-10 19:08:52] INFO root fetch - processPackages [py-fumen-util]: executing diffoscope
+[2023-06-10 19:08:52] INFO root fetch - processPackages [py-fumen-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_fumen_util-0.1.0.tar.gz tmp/py_fumen_util-0.2.0.tar.gz --markdown 20230610/p/py-fumen-util/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-10 19:08:52] INFO root fetch - processPackages [acb]: executing diffoscope
+[2023-06-10 19:08:52] INFO root fetch - processPackages [acb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acb-0.1.5.tar.gz tmp/acb-0.1.6.tar.gz --markdown 20230610/a/acb/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-10 19:08:52] INFO root fetch - processPackages [knx-frontend]: executing diffoscope
+[2023-06-10 19:08:52] INFO root fetch - processPackages [knx-frontend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/knx_frontend-2023.5.31.141540.tar.gz tmp/knx_frontend-2023.6.9.195839.tar.gz --markdown 20230610/k/knx-frontend/2023.5.31.141540-2023.6.9.195839/diff.md --exclude *.pyd
+[2023-06-10 19:08:53] INFO root fetch - processPackages [scsd]: Remove: archive file [/home/abi/fetcher/tmp/scsd-0.0.7.tar.gz]
+[2023-06-10 19:08:53] INFO root fetch - processPackages [scsd]: Remove: archive file [/home/abi/fetcher/tmp/scsd-0.0.8.tar.gz]
+[2023-06-10 19:08:53] INFO root fetch - main [MainThread]: End processing [scsd]: success
+[2023-06-10 19:08:53] INFO root fetch - processPackages [py-fumen-util]: Remove: archive file [/home/abi/fetcher/tmp/py_fumen_util-0.1.0.tar.gz]
+[2023-06-10 19:08:53] INFO root fetch - processPackages [py-fumen-util]: Remove: archive file [/home/abi/fetcher/tmp/py_fumen_util-0.2.0.tar.gz]
+[2023-06-10 19:08:53] INFO root fetch - main [MainThread]: End processing [py-fumen-util]: success
+[2023-06-10 19:08:53] INFO root fetch - processPackages [nutorious]: Remove: archive file [/home/abi/fetcher/tmp/nutorious-0.1.1.tar.gz]
+[2023-06-10 19:08:53] INFO root fetch - processPackages [nutorious]: Remove: archive file [/home/abi/fetcher/tmp/nutorious-0.1.2.tar.gz]
+[2023-06-10 19:08:53] INFO root fetch - main [MainThread]: End processing [nutorious]: success
+[2023-06-10 19:08:54] INFO root fetch - processPackages [acb]: Remove: archive file [/home/abi/fetcher/tmp/acb-0.1.5.tar.gz]
+[2023-06-10 19:08:54] INFO root fetch - processPackages [acb]: Remove: archive file [/home/abi/fetcher/tmp/acb-0.1.6.tar.gz]
+[2023-06-10 19:08:54] INFO root fetch - main [MainThread]: End processing [acb]: success
+[2023-06-10 19:08:54] INFO root fetch - processPackages [clust-learn]: Remove: archive file [/home/abi/fetcher/tmp/clust-learn-0.2.0b0.tar.gz]
+[2023-06-10 19:08:54] INFO root fetch - processPackages [clust-learn]: Remove: archive file [/home/abi/fetcher/tmp/clust-learn-0.2.1.tar.gz]
+[2023-06-10 19:08:54] INFO root fetch - main [MainThread]: End processing [clust-learn]: success
+[2023-06-10 19:08:54] INFO root fetch - processPackages [bantam]: Remove: archive file [/home/abi/fetcher/tmp/bantam-2.2.2.tar.gz]
+[2023-06-10 19:08:54] INFO root fetch - processPackages [bantam]: Remove: archive file [/home/abi/fetcher/tmp/bantam-2.2.3.tar.gz]
+[2023-06-10 19:08:54] INFO root fetch - main [MainThread]: End processing [bantam]: success
+[2023-06-10 19:09:08] INFO root fetch - processPackages [knx-frontend]: Remove: archive file [/home/abi/fetcher/tmp/knx_frontend-2023.5.31.141540.tar.gz]
+[2023-06-10 19:09:08] INFO root fetch - processPackages [knx-frontend]: Remove: archive file [/home/abi/fetcher/tmp/knx_frontend-2023.6.9.195839.tar.gz]
+[2023-06-10 19:09:08] INFO root fetch - main [MainThread]: End processing [knx-frontend]: success
+[2023-06-10 19:09:08] INFO root fetch - main [MainThread]: Store serial: [18452471]
