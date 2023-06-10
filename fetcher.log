@@ -17500,3 +17500,126 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-10 22:16:38] INFO root fetch - processPackages [flasgger]: Remove: archive file [/home/abi/fetcher/tmp/flasgger-0.9.7b2.tar.gz]
 [2023-06-10 22:16:38] INFO root fetch - main [MainThread]: End processing [flasgger]: success
 [2023-06-10 22:16:38] INFO root fetch - main [MainThread]: Store serial: [18453505]
+[2023-06-10 22:21:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18453505]
+[2023-06-10 22:21:49] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-10 22:21:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lbt-honeybee
+[2023-06-10 22:21:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: counterplots
+[2023-06-10 22:21:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gs-apps
+[2023-06-10 22:21:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kr8s
+[2023-06-10 22:21:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: coniferest
+[2023-06-10 22:21:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dragonfly-energy
+[2023-06-10 22:21:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyequations
+[2023-06-10 22:21:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: scicookie
+[2023-06-10 22:21:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fabric-message-bus
+[2023-06-10 22:21:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hyperfast-python-template
+[2023-06-10 22:21:49] INFO root fetch - processPackages [hyperfast-python-template]: New version: [0.8.7] Old Version: [0.8.6]
+[2023-06-10 22:21:49] INFO root fetch - processPackages [fabric-message-bus]: New version: [1.5.0b3] Old Version: [1.5.0b2]
+[2023-06-10 22:21:49] INFO root fetch - processPackages [hyperfast-python-template]: Downloading https://files.pythonhosted.org/packages/67/16/b47ca18a4d8a62995f7d764c6e0f19985a7776a1ff624c01558cab4a8f5e/hyperfast_python_template-0.8.6.tar.gz
+[2023-06-10 22:21:49] INFO root fetch - processPackages [fabric-message-bus]: Downloading https://files.pythonhosted.org/packages/05/57/67f7159dc75464a9ca5da08a051d2823223ae7e09c8573abe516bc05a00a/fabric-message-bus-1.5.0b2.tar.gz
+[2023-06-10 22:21:49] INFO root fetch - processPackages [counterplots]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-10 22:21:49] WARNING root fetch - processPackages [pyequations]: Skipping, unable to determine old version
+[2023-06-10 22:21:49] WARNING root fetch - processPackages [scicookie]: Skipping, unable to determine old version
+[2023-06-10 22:21:49] INFO root fetch - processPackages [pyequations]: Start processing: lbt-dragonfly
+[2023-06-10 22:21:49] INFO root fetch - main [MainThread]: End processing [pyequations] error
+[2023-06-10 22:21:49] INFO root fetch - processPackages [scicookie]: Start processing: docassemble
+[2023-06-10 22:21:49] INFO root fetch - main [MainThread]: End processing [scicookie] error
+[2023-06-10 22:21:49] INFO root fetch - processPackages [coniferest]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-10 22:21:49] INFO root fetch - processPackages [kr8s]: New version: [0.5.0] Old Version: [0.4.1]
+[2023-06-10 22:21:49] INFO root fetch - processPackages [gs-apps]: New version: [0.23.0a20230610] Old Version: [0.23.0a20230609]
+[2023-06-10 22:21:49] INFO root fetch - processPackages [lbt-honeybee]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-06-10 22:21:49] INFO root fetch - processPackages [counterplots]: Downloading https://files.pythonhosted.org/packages/47/56/685883b44ec4d001fe310848908e99161a4e6838945e6a983cf4928f620e/counterplots-0.0.3.tar.gz
+[2023-06-10 22:21:49] INFO root fetch - processPackages [docassemble]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-06-10 22:21:50] INFO root fetch - processPackages [dragonfly-energy]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-06-10 22:21:50] INFO root fetch - processPackages [hyperfast-python-template]: Downloading https://files.pythonhosted.org/packages/80/f4/2607e9ad262f64a6fa048f54da2aafb1b16671e642925b25fbd22c2c79c6/hyperfast_python_template-0.8.7.tar.gz
+[2023-06-10 22:21:50] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-06-10 22:21:50] INFO root fetch - processPackages [gs-apps]: Downloading https://files.pythonhosted.org/packages/43/17/2a2294de1da38ea0fc854a7184160e93a230b570d2e7b0d936c1aec12d1c/gs_apps-0.23.0a20230609-py2.py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-10 22:21:50] INFO root fetch - processPackages [kr8s]: Downloading https://files.pythonhosted.org/packages/b7/c3/1702db5d67c34604d2cc5466ed1de04eb4df463c617addf2d34204717b41/kr8s-0.4.1.tar.gz
+[2023-06-10 22:21:50] INFO root fetch - processPackages [fabric-message-bus]: Downloading https://files.pythonhosted.org/packages/f6/48/678e8d037e880caabfa3e0b4a3e9866a5c2773bf04cf17d8c03d85724777/fabric-message-bus-1.5.0b3.tar.gz
+[2023-06-10 22:21:50] INFO root fetch - processPackages [coniferest]: Downloading https://files.pythonhosted.org/packages/56/9a/160ce7863ff01224616d78ce00e9c6559b811bf041f102edf824556d3bea/coniferest-0.0.8.tar.gz
+[2023-06-10 22:21:50] INFO root fetch - processPackages [docassemble]: Downloading https://files.pythonhosted.org/packages/1b/b1/8cd8c51bc2b5aa0fa89d1528f73674a02f1202fc12d3696bb33172926993/docassemble-1.4.8.tar.gz
+[2023-06-10 22:21:50] WARNING root fetch - processPackages [gs-apps]: Skipping package: exceeds size limit 47061717>=10485760
+[2023-06-10 22:21:50] INFO root fetch - processPackages [gs-apps]: Start processing: docassemble.base
+[2023-06-10 22:21:50] INFO root fetch - main [MainThread]: End processing [gs-apps] error
+[2023-06-10 22:21:50] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/19/59/4901be09b4bc6b97917c58bf3279cb373aa222989b9501e53b4c43213a9e/lbt-honeybee-0.7.98.tar.gz
+[2023-06-10 22:21:50] WARNING root fetch - processPackages [coniferest]: Skipping package: exceeds size limit 19305432>=10485760
+[2023-06-10 22:21:50] INFO root fetch - processPackages [hyperfast-python-template]: executing diffoscope
+[2023-06-10 22:21:50] INFO root fetch - processPackages [coniferest]: Start processing: docassemble.demo
+[2023-06-10 22:21:50] INFO root fetch - processPackages [hyperfast-python-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperfast_python_template-0.8.6.tar.gz tmp/hyperfast_python_template-0.8.7.tar.gz --markdown 20230610/h/hyperfast-python-template/0.8.6-0.8.7/diff.md --exclude *.pyd
+[2023-06-10 22:21:50] INFO root fetch - main [MainThread]: End processing [coniferest] error
+[2023-06-10 22:21:50] INFO root fetch - processPackages [fabric-message-bus]: executing diffoscope
+[2023-06-10 22:21:50] INFO root fetch - processPackages [fabric-message-bus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fabric-message-bus-1.5.0b2.tar.gz tmp/fabric-message-bus-1.5.0b3.tar.gz --markdown 20230610/f/fabric-message-bus/1.5.0b2-1.5.0b3/diff.md --exclude *.pyd
+[2023-06-10 22:21:50] INFO root fetch - processPackages [dragonfly-energy]: Downloading https://files.pythonhosted.org/packages/20/4e/115840f938ee254b23bd515351ba786228441464717f8557431f914e75f4/dragonfly-energy-1.9.8.tar.gz
+[2023-06-10 22:21:50] INFO root fetch - processPackages [counterplots]: Downloading https://files.pythonhosted.org/packages/fb/45/be5ec21de3c8d3d37df8a60886d25a51c20801586811fee2c4d3320cb08b/counterplots-0.0.4.tar.gz
+[2023-06-10 22:21:50] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/be/ae/7267dfd241a0641f3fbadea4128db5ffa29609911cadb5fc4840656bb44a/lbt-dragonfly-0.9.98.tar.gz
+[2023-06-10 22:21:50] INFO root fetch - processPackages [docassemble.base]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-06-10 22:21:50] INFO root fetch - processPackages [docassemble.demo]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-06-10 22:21:50] INFO root fetch - processPackages [kr8s]: Downloading https://files.pythonhosted.org/packages/f7/0b/7fa3b1faf47a3f51ee6f330ac061bd64b624848a96a96026c39159056212/kr8s-0.5.0.tar.gz
+[2023-06-10 22:21:50] INFO root fetch - processPackages [counterplots]: executing diffoscope
+[2023-06-10 22:21:50] INFO root fetch - processPackages [counterplots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/counterplots-0.0.3.tar.gz tmp/counterplots-0.0.4.tar.gz --markdown 20230610/c/counterplots/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-10 22:21:50] INFO root fetch - processPackages [kr8s]: executing diffoscope
+[2023-06-10 22:21:50] INFO root fetch - processPackages [kr8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kr8s-0.4.1.tar.gz tmp/kr8s-0.5.0.tar.gz --markdown 20230610/k/kr8s/0.4.1-0.5.0/diff.md --exclude *.pyd
+[2023-06-10 22:21:50] INFO root fetch - processPackages [docassemble]: Downloading https://files.pythonhosted.org/packages/8b/4e/0fabe3ae223b84b73fa9a38526c3f22a21eab5f747f408034f5c0ba59e7d/docassemble-1.4.9.tar.gz
+[2023-06-10 22:21:50] INFO root fetch - processPackages [docassemble.base]: Downloading https://files.pythonhosted.org/packages/49/6f/c82f5b1b26e0b12bdf1e565f9218b862142854979a0f01ea54c864ac7770/docassemble.base-1.4.8.tar.gz
+[2023-06-10 22:21:50] INFO root fetch - processPackages [docassemble.demo]: Downloading https://files.pythonhosted.org/packages/12/65/72be3778d6c8df2fc0725932b11671c295cbe40fccf8e32f5fad392c226b/docassemble.demo-1.4.8.tar.gz
+[2023-06-10 22:21:50] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/a2/24/156ec161f44515db7966a68d9cc8aa62da7475128d138541e64b86dd4487/lbt-honeybee-0.7.99.tar.gz
+[2023-06-10 22:21:50] INFO root fetch - processPackages [docassemble]: executing diffoscope
+[2023-06-10 22:21:50] INFO root fetch - processPackages [docassemble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docassemble-1.4.8.tar.gz tmp/docassemble-1.4.9.tar.gz --markdown 20230610/d/docassemble/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-06-10 22:21:50] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/b4/08/0ca46e9f7eef7b2cce7f0c6110106c42aa35a79bd88110559177f64d733a/lbt-dragonfly-0.9.99.tar.gz
+[2023-06-10 22:21:50] WARNING root fetch - processPackages [docassemble.base]: Skipping package: exceeds size limit 10987248>=10485760
+[2023-06-10 22:21:50] INFO root fetch - processPackages [docassemble.base]: Start processing: docassemble.webapp
+[2023-06-10 22:21:50] INFO root fetch - main [MainThread]: End processing [docassemble.base] error
+[2023-06-10 22:21:50] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2023-06-10 22:21:50] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20230610/l/lbt-dragonfly/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-06-10 22:21:50] INFO root fetch - processPackages [docassemble.webapp]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-06-10 22:21:50] INFO root fetch - processPackages [dragonfly-energy]: Downloading https://files.pythonhosted.org/packages/09/b6/c12f13159c5beb3b855a32f792faef162ad37358d2e0d3311cbd68a969db/dragonfly-energy-1.9.9.tar.gz
+[2023-06-10 22:21:50] INFO root fetch - processPackages [lbt-honeybee]: executing diffoscope
+[2023-06-10 22:21:50] INFO root fetch - processPackages [lbt-honeybee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-honeybee-0.7.98.tar.gz tmp/lbt-honeybee-0.7.99.tar.gz --markdown 20230610/l/lbt-honeybee/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-06-10 22:21:51] INFO root fetch - processPackages [docassemble.webapp]: Downloading https://files.pythonhosted.org/packages/fe/48/4d304022057f0e254fc8916a718a52b355f0ae2843c22d86139803ae0020/docassemble.webapp-1.4.8.tar.gz
+[2023-06-10 22:21:51] INFO root fetch - processPackages [dragonfly-energy]: executing diffoscope
+[2023-06-10 22:21:51] INFO root fetch - processPackages [dragonfly-energy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-energy-1.9.8.tar.gz tmp/dragonfly-energy-1.9.9.tar.gz --markdown 20230610/d/dragonfly-energy/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-06-10 22:21:51] INFO root fetch - processPackages [hyperfast-python-template]: Remove: archive file [/home/abi/fetcher/tmp/hyperfast_python_template-0.8.6.tar.gz]
+[2023-06-10 22:21:51] INFO root fetch - processPackages [hyperfast-python-template]: Remove: archive file [/home/abi/fetcher/tmp/hyperfast_python_template-0.8.7.tar.gz]
+[2023-06-10 22:21:51] INFO root fetch - processPackages [hyperfast-python-template]: Start processing: spanishconjugator
+[2023-06-10 22:21:51] INFO root fetch - main [MainThread]: End processing [hyperfast-python-template]: success
+[2023-06-10 22:21:51] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-06-10 22:21:51] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-06-10 22:21:51] INFO root fetch - processPackages [counterplots]: Remove: archive file [/home/abi/fetcher/tmp/counterplots-0.0.3.tar.gz]
+[2023-06-10 22:21:51] INFO root fetch - processPackages [counterplots]: Remove: archive file [/home/abi/fetcher/tmp/counterplots-0.0.4.tar.gz]
+[2023-06-10 22:21:51] INFO root fetch - main [MainThread]: End processing [counterplots]: success
+[2023-06-10 22:21:51] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-06-10 22:21:51] INFO root fetch - processPackages [docassemble.demo]: Downloading https://files.pythonhosted.org/packages/ea/e2/301126e8ccea026042cf14b25646d8a8775d5bc90eaed08eb9da6c61421a/docassemble.demo-1.4.9.tar.gz
+[2023-06-10 22:21:51] INFO root fetch - processPackages [docassemble]: Remove: archive file [/home/abi/fetcher/tmp/docassemble-1.4.8.tar.gz]
+[2023-06-10 22:21:51] INFO root fetch - processPackages [docassemble]: Remove: archive file [/home/abi/fetcher/tmp/docassemble-1.4.9.tar.gz]
+[2023-06-10 22:21:51] INFO root fetch - main [MainThread]: End processing [docassemble]: success
+[2023-06-10 22:21:51] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-06-10 22:21:51] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230610/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-06-10 22:21:52] INFO root fetch - processPackages [kr8s]: Remove: archive file [/home/abi/fetcher/tmp/kr8s-0.4.1.tar.gz]
+[2023-06-10 22:21:52] INFO root fetch - processPackages [kr8s]: Remove: archive file [/home/abi/fetcher/tmp/kr8s-0.5.0.tar.gz]
+[2023-06-10 22:21:52] INFO root fetch - main [MainThread]: End processing [kr8s]: success
+[2023-06-10 22:21:52] INFO root fetch - processPackages [lbt-honeybee]: Remove: archive file [/home/abi/fetcher/tmp/lbt-honeybee-0.7.98.tar.gz]
+[2023-06-10 22:21:52] INFO root fetch - processPackages [lbt-honeybee]: Remove: archive file [/home/abi/fetcher/tmp/lbt-honeybee-0.7.99.tar.gz]
+[2023-06-10 22:21:52] INFO root fetch - main [MainThread]: End processing [lbt-honeybee]: success
+[2023-06-10 22:21:52] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.98.tar.gz]
+[2023-06-10 22:21:52] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.99.tar.gz]
+[2023-06-10 22:21:52] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2023-06-10 22:21:52] INFO root fetch - processPackages [docassemble.webapp]: Downloading https://files.pythonhosted.org/packages/ee/bd/035c358ae80b3b4826a36a17e6a993251ad2bb4c42b826fd879f02355d0e/docassemble.webapp-1.4.9.tar.gz
+[2023-06-10 22:21:52] INFO root fetch - processPackages [dragonfly-energy]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-energy-1.9.8.tar.gz]
+[2023-06-10 22:21:52] INFO root fetch - processPackages [dragonfly-energy]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-energy-1.9.9.tar.gz]
+[2023-06-10 22:21:52] INFO root fetch - main [MainThread]: End processing [dragonfly-energy]: success
+[2023-06-10 22:21:52] INFO root fetch - processPackages [fabric-message-bus]: Remove: archive file [/home/abi/fetcher/tmp/fabric-message-bus-1.5.0b2.tar.gz]
+[2023-06-10 22:21:52] INFO root fetch - processPackages [fabric-message-bus]: Remove: archive file [/home/abi/fetcher/tmp/fabric-message-bus-1.5.0b3.tar.gz]
+[2023-06-10 22:21:52] INFO root fetch - main [MainThread]: End processing [fabric-message-bus]: success
+[2023-06-10 22:21:52] INFO root fetch - processPackages [docassemble.demo]: executing diffoscope
+[2023-06-10 22:21:52] INFO root fetch - processPackages [docassemble.demo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docassemble.demo-1.4.8.tar.gz tmp/docassemble.demo-1.4.9.tar.gz --markdown 20230610/d/docassemble.demo/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-06-10 22:21:53] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-06-10 22:21:53] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-06-10 22:21:53] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-06-10 22:21:53] INFO root fetch - processPackages [docassemble.webapp]: executing diffoscope
+[2023-06-10 22:21:53] INFO root fetch - processPackages [docassemble.webapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docassemble.webapp-1.4.8.tar.gz tmp/docassemble.webapp-1.4.9.tar.gz --markdown 20230610/d/docassemble.webapp/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-06-10 22:21:59] INFO root fetch - processPackages [docassemble.demo]: Remove: archive file [/home/abi/fetcher/tmp/docassemble.demo-1.4.8.tar.gz]
+[2023-06-10 22:21:59] INFO root fetch - processPackages [docassemble.demo]: Remove: archive file [/home/abi/fetcher/tmp/docassemble.demo-1.4.9.tar.gz]
+[2023-06-10 22:21:59] INFO root fetch - main [MainThread]: End processing [docassemble.demo]: success
+[2023-06-10 22:22:02] INFO root fetch - processPackages [docassemble.webapp]: Remove: archive file [/home/abi/fetcher/tmp/docassemble.webapp-1.4.8.tar.gz]
+[2023-06-10 22:22:02] INFO root fetch - processPackages [docassemble.webapp]: Remove: archive file [/home/abi/fetcher/tmp/docassemble.webapp-1.4.9.tar.gz]
+[2023-06-10 22:22:02] INFO root fetch - main [MainThread]: End processing [docassemble.webapp]: success
+[2023-06-10 22:22:02] INFO root fetch - main [MainThread]: Store serial: [18453584]
