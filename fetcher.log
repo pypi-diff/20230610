@@ -16444,3 +16444,24 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-10 20:38:56] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.49.2364-py3-none-any.whl.zip]
 [2023-06-10 20:38:56] INFO root fetch - main [MainThread]: End processing [modal-client]: success
 [2023-06-10 20:38:56] INFO root fetch - main [MainThread]: Store serial: [18452957]
+[2023-06-10 20:44:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18452957]
+[2023-06-10 20:44:05] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-06-10 20:44:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scratchattach
+[2023-06-10 20:44:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: algeria
+[2023-06-10 20:44:05] INFO root fetch - processPackages [algeria]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-10 20:44:05] INFO root fetch - processPackages [scratchattach]: New version: [1.2.0] Old Version: [1.1.8]
+[2023-06-10 20:44:05] INFO root fetch - processPackages [algeria]: Downloading https://files.pythonhosted.org/packages/89/17/ee4b7f8faeb383c5b74ca23acc2e37eb21ee6595a0f936161b2f98f2abe7/algeria-0.1.0.tar.gz
+[2023-06-10 20:44:05] INFO root fetch - processPackages [scratchattach]: Downloading https://files.pythonhosted.org/packages/fb/e7/1d69d744b0d6b11f4d96ed8fcf7ea0a3d4ecbc28e64ff3565ea80a301cb1/scratchattach-1.1.8.tar.gz
+[2023-06-10 20:44:05] INFO root fetch - processPackages [algeria]: Downloading https://files.pythonhosted.org/packages/2d/74/459f6b2dea854ce83fd144e6f1036918744e8001bb95b47e7f7c7330a957/algeria-0.2.0.tar.gz
+[2023-06-10 20:44:05] INFO root fetch - processPackages [scratchattach]: Downloading https://files.pythonhosted.org/packages/4b/86/170af1887b6d289f21b1d584f69c73968b59e59fe4431893c3e7af6f51a7/scratchattach-1.2.0.tar.gz
+[2023-06-10 20:44:05] INFO root fetch - processPackages [algeria]: executing diffoscope
+[2023-06-10 20:44:05] INFO root fetch - processPackages [algeria]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/algeria-0.1.0.tar.gz tmp/algeria-0.2.0.tar.gz --markdown 20230610/a/algeria/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-10 20:44:06] INFO root fetch - processPackages [scratchattach]: executing diffoscope
+[2023-06-10 20:44:06] INFO root fetch - processPackages [scratchattach]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scratchattach-1.1.8.tar.gz tmp/scratchattach-1.2.0.tar.gz --markdown 20230610/s/scratchattach/1.1.8-1.2.0/diff.md --exclude *.pyd
+[2023-06-10 20:44:06] INFO root fetch - processPackages [algeria]: Remove: archive file [/home/abi/fetcher/tmp/algeria-0.1.0.tar.gz]
+[2023-06-10 20:44:06] INFO root fetch - processPackages [algeria]: Remove: archive file [/home/abi/fetcher/tmp/algeria-0.2.0.tar.gz]
+[2023-06-10 20:44:06] INFO root fetch - main [MainThread]: End processing [algeria]: success
+[2023-06-10 20:44:07] INFO root fetch - processPackages [scratchattach]: Remove: archive file [/home/abi/fetcher/tmp/scratchattach-1.1.8.tar.gz]
+[2023-06-10 20:44:07] INFO root fetch - processPackages [scratchattach]: Remove: archive file [/home/abi/fetcher/tmp/scratchattach-1.2.0.tar.gz]
+[2023-06-10 20:44:07] INFO root fetch - main [MainThread]: End processing [scratchattach]: success
+[2023-06-10 20:44:07] INFO root fetch - main [MainThread]: Store serial: [18452964]
