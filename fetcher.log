@@ -11494,3 +11494,95 @@ EOFError: EOF read where object expected
 [2023-06-10 14:13:55] INFO root fetch - processPackages [cbpi4-scd30-CO2-Sensor]: Remove: archive file [/home/abi/fetcher/tmp/cbpi4-scd30-CO2-Sensor-0.0.6rc1.tar.gz]
 [2023-06-10 14:13:55] INFO root fetch - main [MainThread]: End processing [cbpi4-scd30-CO2-Sensor]: success
 [2023-06-10 14:13:55] INFO root fetch - main [MainThread]: Store serial: [18450440]
+[2023-06-10 14:19:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18450440]
+[2023-06-10 14:19:05] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-10 14:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gfs-dynamical-core
+[2023-06-10 14:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PySocketLib
+[2023-06-10 14:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyjpt
+[2023-06-10 14:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cbpi4-PCF8574-GPIO
+[2023-06-10 14:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cbpi4-Flowmeter
+[2023-06-10 14:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mfhpo-benchmark-api
+[2023-06-10 14:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: coin-valid
+[2023-06-10 14:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: otpme
+[2023-06-10 14:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: netbox-cisco-maintenance
+[2023-06-10 14:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: misp-stix
+[2023-06-10 14:19:05] INFO root fetch - processPackages [pyjpt]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-10 14:19:05] WARNING root fetch - processPackages [PySocketLib]: Skipping, unable to determine old version
+[2023-06-10 14:19:05] INFO root fetch - processPackages [PySocketLib]: Start processing: Spider-Toolkit
+[2023-06-10 14:19:05] INFO root fetch - main [MainThread]: End processing [PySocketLib] error
+[2023-06-10 14:19:05] INFO root fetch - processPackages [gfs-dynamical-core]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-10 14:19:05] INFO root fetch - processPackages [misp-stix]: New version: [2.4.172] Old Version: [2.4.169]
+[2023-06-10 14:19:05] INFO root fetch - processPackages [mfhpo-benchmark-api]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-10 14:19:05] INFO root fetch - processPackages [coin-valid]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-10 14:19:05] INFO root fetch - processPackages [cbpi4-PCF8574-GPIO]: New version: [0.0.6rc1] Old Version: [0.0.6]
+[2023-06-10 14:19:05] INFO root fetch - processPackages [otpme]: New version: [0.3.0a9] Old Version: [0.3.0a8]
+[2023-06-10 14:19:05] INFO root fetch - processPackages [cbpi4-Flowmeter]: New version: [0.0.6rc1] Old Version: [0.0.6]
+[2023-06-10 14:19:05] INFO root fetch - processPackages [Spider-Toolkit]: New version: [23.0.3] Old Version: [23.0.2]
+[2023-06-10 14:19:05] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-10 14:19:05] INFO root fetch - processPackages [mfhpo-benchmark-api]: Downloading https://files.pythonhosted.org/packages/91/fd/375ebfaea1d059fec3bbd8912e20166cedb62d4f2befe1a7864277da2733/mfhpo_benchmark_api-1.0.3-py3-none-any.whl
+[2023-06-10 14:19:05] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/49/9b/a1c0c74911cdf52ff01e40ea24fa7dd8c615a41dbbdae40f076bf871e18c/netbox-cisco-maintenance-0.0.98.tar.gz
+[2023-06-10 14:19:05] INFO root fetch - processPackages [Spider-Toolkit]: Downloading https://files.pythonhosted.org/packages/37/55/c41aacdfbc69a111ce6d8432e0e55c184861b53b1d0b6d32c337180cd24a/Spider_Toolkit-23.0.2.tar.gz
+[2023-06-10 14:19:05] INFO root fetch - processPackages [cbpi4-PCF8574-GPIO]: Downloading https://files.pythonhosted.org/packages/99/57/a5655d42ec4c51e4e81db8a7901229fa62729f78a3f5736a4a8a9e8815da/cbpi4-PCF8574-GPIO-0.0.6.tar.gz
+[2023-06-10 14:19:05] INFO root fetch - processPackages [cbpi4-Flowmeter]: Downloading https://files.pythonhosted.org/packages/d8/58/d790a6982d839be5afbac6ad6c4c9233b07c9861db2f51a0d61841c449a4/cbpi4-Flowmeter-0.0.6.tar.gz
+[2023-06-10 14:19:05] INFO root fetch - processPackages [misp-stix]: Downloading https://files.pythonhosted.org/packages/3d/9a/46871c94b1cb40b3e00a01658817f92b42b8bb8b2512f1eed94b27f6f233/misp_stix-2.4.169.tar.gz
+[2023-06-10 14:19:05] INFO root fetch - processPackages [pyjpt]: Downloading https://files.pythonhosted.org/packages/c7/13/907cebdac0dad5d81112674adbea3b791d181e0141501a5a115b4fce12ba/pyjpt-0.1.8-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-10 14:19:05] INFO root fetch - processPackages [gfs-dynamical-core]: Downloading https://files.pythonhosted.org/packages/27/74/e6cedf4b9d67d1f39c455316d838b4f95ffc158a1b616090a659532dda1d/gfs_dynamical_core-0.1.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-10 14:19:05] INFO root fetch - processPackages [otpme]: Downloading https://files.pythonhosted.org/packages/98/1d/f05f73ea1e959973ab56f0abb892009528faf4a7f0da031af39371307de8/otpme-0.3.0a8.tar.gz
+[2023-06-10 14:19:05] INFO root fetch - processPackages [coin-valid]: Downloading https://files.pythonhosted.org/packages/66/b3/e17b4584e80e77b5ef5a34fc8b0b0587710a68de8e86f2397f462618d0a7/coin_valid-0.1.0.tar.gz
+[2023-06-10 14:19:05] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/36/61/db227025ce63809f803a3fe44062bf026321f24f9aa12a99bf348ae574ca/netbox-cisco-maintenance-0.0.99.tar.gz
+[2023-06-10 14:19:06] INFO root fetch - processPackages [Spider-Toolkit]: Downloading https://files.pythonhosted.org/packages/ed/e0/dce925fc762014ade1ca12c88543e0ac32ab434acc37df3a60d33d6b6e43/Spider_Toolkit-23.0.3.tar.gz
+[2023-06-10 14:19:06] INFO root fetch - processPackages [mfhpo-benchmark-api]: Downloading https://files.pythonhosted.org/packages/b2/de/a91f62173d990dd313aa32a3d6647fc9bc8ec48a2e324c8e5de1256395bd/mfhpo_benchmark_api-1.0.4-py3-none-any.whl
+[2023-06-10 14:19:06] WARNING root fetch - processPackages [misp-stix]: Skipping package: exceeds size limit 23001600>=10485760
+[2023-06-10 14:19:06] INFO root fetch - main [MainThread]: End processing [misp-stix] error
+[2023-06-10 14:19:06] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-06-10 14:19:06] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.98.tar.gz tmp/netbox-cisco-maintenance-0.0.99.tar.gz --markdown 20230610/n/netbox-cisco-maintenance/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-10 14:19:06] INFO root fetch - processPackages [cbpi4-Flowmeter]: Downloading https://files.pythonhosted.org/packages/bc/58/cc7be35a918d37f67160162131cd9f961d86af28d429724b81746cae5dd1/cbpi4-Flowmeter-0.0.6rc1.tar.gz
+[2023-06-10 14:19:06] INFO root fetch - processPackages [cbpi4-PCF8574-GPIO]: Downloading https://files.pythonhosted.org/packages/65/85/0c221b5cb96ac1750196be25f75dd66dc3d224851d5655cc38bc974b5b6f/cbpi4-PCF8574-GPIO-0.0.6rc1.tar.gz
+[2023-06-10 14:19:06] INFO root fetch - processPackages [mfhpo-benchmark-api]: executing diffoscope
+[2023-06-10 14:19:06] INFO root fetch - processPackages [mfhpo-benchmark-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mfhpo_benchmark_api-1.0.3-py3-none-any.whl.zip tmp/mfhpo_benchmark_api-1.0.4-py3-none-any.whl.zip --markdown 20230610/m/mfhpo-benchmark-api/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-10 14:19:06] INFO root fetch - processPackages [coin-valid]: Downloading https://files.pythonhosted.org/packages/c7/b9/4b01adbf721cb1461e7878eb088d730f97f1a2a7476b6aba43afc569b9b5/coin_valid-0.2.0-py3-none-any.whl
+[2023-06-10 14:19:06] INFO root fetch - processPackages [Spider-Toolkit]: executing diffoscope
+[2023-06-10 14:19:06] INFO root fetch - processPackages [Spider-Toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Spider_Toolkit-23.0.2.tar.gz tmp/Spider_Toolkit-23.0.3.tar.gz --markdown 20230610/S/Spider-Toolkit/23.0.2-23.0.3/diff.md --exclude *.pyd
+[2023-06-10 14:19:06] INFO root fetch - processPackages [otpme]: Downloading https://files.pythonhosted.org/packages/ec/d4/c2021c5284dad482e118317f65e7a59ea168655179a76dfae7cc25e67961/otpme-0.3.0a9.tar.gz
+[2023-06-10 14:19:06] INFO root fetch - processPackages [cbpi4-Flowmeter]: executing diffoscope
+[2023-06-10 14:19:06] INFO root fetch - processPackages [cbpi4-Flowmeter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cbpi4-Flowmeter-0.0.6.tar.gz tmp/cbpi4-Flowmeter-0.0.6rc1.tar.gz --markdown 20230610/c/cbpi4-Flowmeter/0.0.6-0.0.6rc1/diff.md --exclude *.pyd
+[2023-06-10 14:19:06] INFO root fetch - processPackages [cbpi4-PCF8574-GPIO]: executing diffoscope
+[2023-06-10 14:19:06] INFO root fetch - processPackages [cbpi4-PCF8574-GPIO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cbpi4-PCF8574-GPIO-0.0.6.tar.gz tmp/cbpi4-PCF8574-GPIO-0.0.6rc1.tar.gz --markdown 20230610/c/cbpi4-PCF8574-GPIO/0.0.6-0.0.6rc1/diff.md --exclude *.pyd
+[2023-06-10 14:19:06] INFO root fetch - processPackages [coin-valid]: executing diffoscope
+[2023-06-10 14:19:06] INFO root fetch - processPackages [coin-valid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coin_valid-0.1.0.tar.gz tmp/coin_valid-0.2.0-py3-none-any.whl.zip --markdown 20230610/c/coin-valid/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-10 14:19:06] INFO root fetch - processPackages [otpme]: executing diffoscope
+[2023-06-10 14:19:06] INFO root fetch - processPackages [otpme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otpme-0.3.0a8.tar.gz tmp/otpme-0.3.0a9.tar.gz --markdown 20230610/o/otpme/0.3.0a8-0.3.0a9/diff.md --exclude *.pyd
+[2023-06-10 14:19:07] INFO root fetch - processPackages [pyjpt]: Downloading https://files.pythonhosted.org/packages/68/d8/1cd9d8fa3a040ee3f1851f7a23274a54d62b69990c4523fe22d1c20fab64/pyjpt-0.1.9-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-10 14:19:07] INFO root fetch - processPackages [gfs-dynamical-core]: Downloading https://files.pythonhosted.org/packages/0e/54/969a86c8ebdf4ac854a47d8845bdcb970317a8a4a0c7ba1fb04fba0d705b/gfs_dynamical_core-0.1.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-10 14:19:07] INFO root fetch - processPackages [mfhpo-benchmark-api]: Remove: archive file [/home/abi/fetcher/tmp/mfhpo_benchmark_api-1.0.3-py3-none-any.whl.zip]
+[2023-06-10 14:19:07] INFO root fetch - processPackages [mfhpo-benchmark-api]: Remove: archive file [/home/abi/fetcher/tmp/mfhpo_benchmark_api-1.0.4-py3-none-any.whl.zip]
+[2023-06-10 14:19:07] INFO root fetch - main [MainThread]: End processing [mfhpo-benchmark-api]: success
+[2023-06-10 14:19:07] INFO root fetch - processPackages [pyjpt]: executing diffoscope
+[2023-06-10 14:19:07] INFO root fetch - processPackages [pyjpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyjpt-0.1.8-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/pyjpt-0.1.9-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230610/p/pyjpt/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-10 14:19:07] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.98.tar.gz]
+[2023-06-10 14:19:07] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.99.tar.gz]
+[2023-06-10 14:19:07] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-06-10 14:19:07] INFO root fetch - processPackages [coin-valid]: Remove: archive file [/home/abi/fetcher/tmp/coin_valid-0.1.0.tar.gz]
+[2023-06-10 14:19:07] INFO root fetch - processPackages [coin-valid]: Remove: archive file [/home/abi/fetcher/tmp/coin_valid-0.2.0-py3-none-any.whl.zip]
+[2023-06-10 14:19:07] INFO root fetch - main [MainThread]: End processing [coin-valid]: success
+[2023-06-10 14:19:07] INFO root fetch - processPackages [cbpi4-PCF8574-GPIO]: Remove: archive file [/home/abi/fetcher/tmp/cbpi4-PCF8574-GPIO-0.0.6.tar.gz]
+[2023-06-10 14:19:07] INFO root fetch - processPackages [cbpi4-PCF8574-GPIO]: Remove: archive file [/home/abi/fetcher/tmp/cbpi4-PCF8574-GPIO-0.0.6rc1.tar.gz]
+[2023-06-10 14:19:07] INFO root fetch - main [MainThread]: End processing [cbpi4-PCF8574-GPIO]: success
+[2023-06-10 14:19:07] INFO root fetch - processPackages [cbpi4-Flowmeter]: Remove: archive file [/home/abi/fetcher/tmp/cbpi4-Flowmeter-0.0.6.tar.gz]
+[2023-06-10 14:19:07] INFO root fetch - processPackages [cbpi4-Flowmeter]: Remove: archive file [/home/abi/fetcher/tmp/cbpi4-Flowmeter-0.0.6rc1.tar.gz]
+[2023-06-10 14:19:07] INFO root fetch - main [MainThread]: End processing [cbpi4-Flowmeter]: success
+[2023-06-10 14:19:07] INFO root fetch - processPackages [gfs-dynamical-core]: executing diffoscope
+[2023-06-10 14:19:07] INFO root fetch - processPackages [gfs-dynamical-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gfs_dynamical_core-0.1.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/gfs_dynamical_core-0.1.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230610/g/gfs-dynamical-core/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-10 14:19:07] INFO root fetch - processPackages [Spider-Toolkit]: Remove: archive file [/home/abi/fetcher/tmp/Spider_Toolkit-23.0.2.tar.gz]
+[2023-06-10 14:19:07] INFO root fetch - processPackages [Spider-Toolkit]: Remove: archive file [/home/abi/fetcher/tmp/Spider_Toolkit-23.0.3.tar.gz]
+[2023-06-10 14:19:07] INFO root fetch - main [MainThread]: End processing [Spider-Toolkit]: success
+[2023-06-10 14:19:12] INFO root fetch - processPackages [otpme]: Remove: archive file [/home/abi/fetcher/tmp/otpme-0.3.0a8.tar.gz]
+[2023-06-10 14:19:12] INFO root fetch - processPackages [otpme]: Remove: archive file [/home/abi/fetcher/tmp/otpme-0.3.0a9.tar.gz]
+[2023-06-10 14:19:12] INFO root fetch - main [MainThread]: End processing [otpme]: success
+[2023-06-10 14:19:19] INFO root fetch - processPackages [pyjpt]: Remove: archive file [/home/abi/fetcher/tmp/pyjpt-0.1.8-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-10 14:19:19] INFO root fetch - processPackages [pyjpt]: Remove: archive file [/home/abi/fetcher/tmp/pyjpt-0.1.9-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-10 14:19:19] INFO root fetch - main [MainThread]: End processing [pyjpt]: success
+[2023-06-10 14:19:29] INFO root fetch - processPackages [gfs-dynamical-core]: Remove: archive file [/home/abi/fetcher/tmp/gfs_dynamical_core-0.1.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-10 14:19:29] INFO root fetch - processPackages [gfs-dynamical-core]: Remove: archive file [/home/abi/fetcher/tmp/gfs_dynamical_core-0.1.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-10 14:19:29] INFO root fetch - main [MainThread]: End processing [gfs-dynamical-core]: success
+[2023-06-10 14:19:29] INFO root fetch - main [MainThread]: Store serial: [18450474]
