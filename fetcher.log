@@ -7447,3 +7447,54 @@ EOFError: EOF read where object expected
 [2023-06-10 05:53:56] INFO root fetch - processPackages [siat]: Remove: archive file [/home/abi/fetcher/tmp/siat-2.0.9-py3-none-any.whl.zip]
 [2023-06-10 05:53:56] INFO root fetch - main [MainThread]: End processing [siat]: success
 [2023-06-10 05:53:56] INFO root fetch - main [MainThread]: Store serial: [18448519]
+[2023-06-10 05:59:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18448519]
+[2023-06-10 05:59:06] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-10 05:59:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: winloop
+[2023-06-10 05:59:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-l10n-es-aeat-mod190
+[2023-06-10 05:59:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-l10n-es-pos-by-device
+[2023-06-10 05:59:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addons-oca-l10n-spain
+[2023-06-10 05:59:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pynecone
+[2023-06-10 05:59:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addons-oca-l10n-spain
+[2023-06-10 05:59:06] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod190]: New version: [15.0.1.0.0.7] Old Version: [15.0.1.0.0.5]
+[2023-06-10 05:59:06] WARNING root fetch - processPackages [odoo-addon-l10n-es-pos-by-device]: Skipping, unable to determine old version
+[2023-06-10 05:59:06] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-pos-by-device] error
+[2023-06-10 05:59:06] INFO root fetch - processPackages [winloop]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-10 05:59:06] INFO root fetch - processPackages [pynecone]: New version: [0.1.33a4] Old Version: [0.1.33a3]
+[2023-06-10 05:59:06] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod190]: Downloading https://files.pythonhosted.org/packages/6b/dc/d5690e892528be2b31137553ebd44244e8c8c74fffc5f49d6ab46d49523f/odoo_addon_l10n_es_aeat_mod190-15.0.1.0.0.5-py3-none-any.whl
+[2023-06-10 05:59:06] INFO root fetch - processPackages [winloop]: Downloading https://files.pythonhosted.org/packages/f5/b8/808a1dd5600845559757abd984e3ae208df901924e8a943333587f8c2ad5/winloop-0.0.3.tar.gz
+[2023-06-10 05:59:06] INFO root fetch - processPackages [odoo14-addons-oca-l10n-spain]: New version: [14.0.20230609.0] Old Version: [14.0.20230318.0]
+[2023-06-10 05:59:06] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: New version: [16.0.20230607.0] Old Version: [16.0.20230606.1]
+[2023-06-10 05:59:06] INFO root fetch - processPackages [pynecone]: Downloading https://files.pythonhosted.org/packages/12/16/cc138b9ceaf7a71db83a88648a824ea8438acde5cf5d83f15b92bedfd321/pynecone-0.1.33a3.tar.gz
+[2023-06-10 05:59:06] INFO root fetch - processPackages [winloop]: Downloading https://files.pythonhosted.org/packages/27/9e/ca0938e1e2b72976be39d264b42ca1404a64a30274ee43ca378dc3f632d0/winloop-0.0.4.tar.gz
+[2023-06-10 05:59:06] INFO root fetch - processPackages [winloop]: executing diffoscope
+[2023-06-10 05:59:06] INFO root fetch - processPackages [winloop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/winloop-0.0.3.tar.gz tmp/winloop-0.0.4.tar.gz --markdown 20230610/w/winloop/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-10 05:59:06] INFO root fetch - processPackages [odoo14-addons-oca-l10n-spain]: Downloading https://files.pythonhosted.org/packages/e4/c1/e6060da32415bc7957badcb8fc653b36435363bb6fca8a299d9ef2a519be/odoo14_addons_oca_l10n_spain-14.0.20230318.0-py3-none-any.whl
+[2023-06-10 05:59:06] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: Downloading https://files.pythonhosted.org/packages/d8/dd/0b11d622f161fa9914852f29f618d5c498592f5cfca82820c90a00d85c41/odoo_addons_oca_l10n_spain-16.0.20230606.1-py3-none-any.whl
+[2023-06-10 05:59:06] INFO root fetch - processPackages [pynecone]: Downloading https://files.pythonhosted.org/packages/7a/22/d8d85a36ed16fd9efa024de29ce6d951b74733cfb29dfe758a734c4f4dee/pynecone-0.1.33a4.tar.gz
+[2023-06-10 05:59:06] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod190]: Downloading https://files.pythonhosted.org/packages/5c/7f/ee0784ea07c1a8c50b4a45d2df26ea07088ee21d9ed64d8db8a24c73b074/odoo_addon_l10n_es_aeat_mod190-15.0.1.0.0.7-py3-none-any.whl
+[2023-06-10 05:59:07] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod190]: executing diffoscope
+[2023-06-10 05:59:07] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod190]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_aeat_mod190-15.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_aeat_mod190-15.0.1.0.0.7-py3-none-any.whl.zip --markdown 20230610/o/odoo-addon-l10n-es-aeat-mod190/15.0.1.0.0.5-15.0.1.0.0.7/diff.md --exclude *.pyd
+[2023-06-10 05:59:07] INFO root fetch - processPackages [pynecone]: executing diffoscope
+[2023-06-10 05:59:07] INFO root fetch - processPackages [pynecone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynecone-0.1.33a3.tar.gz tmp/pynecone-0.1.33a4.tar.gz --markdown 20230610/p/pynecone/0.1.33a3-0.1.33a4/diff.md --exclude *.pyd
+[2023-06-10 05:59:07] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: Downloading https://files.pythonhosted.org/packages/c7/3d/b7143dc0361fc18e9f509d3e7c55e45db7425d90bbfcb4f16b6158281b7e/odoo_addons_oca_l10n_spain-16.0.20230607.0-py3-none-any.whl
+[2023-06-10 05:59:07] INFO root fetch - processPackages [odoo14-addons-oca-l10n-spain]: Downloading https://files.pythonhosted.org/packages/08/d5/16830597f0ed17d09bd05859bab6db8cfb4d4d5e7242b74f9594191dd0e4/odoo14_addons_oca_l10n_spain-14.0.20230609.0-py3-none-any.whl
+[2023-06-10 05:59:07] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: executing diffoscope
+[2023-06-10 05:59:07] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_l10n_spain-16.0.20230606.1-py3-none-any.whl.zip tmp/odoo_addons_oca_l10n_spain-16.0.20230607.0-py3-none-any.whl.zip --markdown 20230610/o/odoo-addons-oca-l10n-spain/16.0.20230606.1-16.0.20230607.0/diff.md --exclude *.pyd
+[2023-06-10 05:59:07] INFO root fetch - processPackages [odoo14-addons-oca-l10n-spain]: executing diffoscope
+[2023-06-10 05:59:07] INFO root fetch - processPackages [odoo14-addons-oca-l10n-spain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_oca_l10n_spain-14.0.20230318.0-py3-none-any.whl.zip tmp/odoo14_addons_oca_l10n_spain-14.0.20230609.0-py3-none-any.whl.zip --markdown 20230610/o/odoo14-addons-oca-l10n-spain/14.0.20230318.0-14.0.20230609.0/diff.md --exclude *.pyd
+[2023-06-10 05:59:08] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_l10n_spain-16.0.20230606.1-py3-none-any.whl.zip]
+[2023-06-10 05:59:08] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_l10n_spain-16.0.20230607.0-py3-none-any.whl.zip]
+[2023-06-10 05:59:08] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-l10n-spain]: success
+[2023-06-10 05:59:08] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod190]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_mod190-15.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-06-10 05:59:08] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod190]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_mod190-15.0.1.0.0.7-py3-none-any.whl.zip]
+[2023-06-10 05:59:08] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat-mod190]: success
+[2023-06-10 05:59:08] INFO root fetch - processPackages [odoo14-addons-oca-l10n-spain]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_l10n_spain-14.0.20230318.0-py3-none-any.whl.zip]
+[2023-06-10 05:59:08] INFO root fetch - processPackages [odoo14-addons-oca-l10n-spain]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_l10n_spain-14.0.20230609.0-py3-none-any.whl.zip]
+[2023-06-10 05:59:08] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-l10n-spain]: success
+[2023-06-10 05:59:08] INFO root fetch - processPackages [pynecone]: Remove: archive file [/home/abi/fetcher/tmp/pynecone-0.1.33a3.tar.gz]
+[2023-06-10 05:59:08] INFO root fetch - processPackages [pynecone]: Remove: archive file [/home/abi/fetcher/tmp/pynecone-0.1.33a4.tar.gz]
+[2023-06-10 05:59:08] INFO root fetch - main [MainThread]: End processing [pynecone]: success
+[2023-06-10 05:59:09] INFO root fetch - processPackages [winloop]: Remove: archive file [/home/abi/fetcher/tmp/winloop-0.0.3.tar.gz]
+[2023-06-10 05:59:09] INFO root fetch - processPackages [winloop]: Remove: archive file [/home/abi/fetcher/tmp/winloop-0.0.4.tar.gz]
+[2023-06-10 05:59:09] INFO root fetch - main [MainThread]: End processing [winloop]: success
+[2023-06-10 05:59:09] INFO root fetch - main [MainThread]: Store serial: [18448533]
