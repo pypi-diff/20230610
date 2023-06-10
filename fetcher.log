@@ -10490,3 +10490,36 @@ EOFError: EOF read where object expected
 [2023-06-10 12:25:28] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.1.9.tar.gz]
 [2023-06-10 12:25:28] INFO root fetch - main [MainThread]: End processing [omnata-plugin-runtime]: success
 [2023-06-10 12:25:28] INFO root fetch - main [MainThread]: Store serial: [18450008]
+[2023-06-10 12:30:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18450008]
+[2023-06-10 12:30:38] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-10 12:30:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bludwig
+[2023-06-10 12:30:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: graphene-django-filter
+[2023-06-10 12:30:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mvm-smart-metering
+[2023-06-10 12:30:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: garmin-ace
+[2023-06-10 12:30:38] INFO root fetch - processPackages [mvm-smart-metering]: New version: [0.0.14] Old Version: [0.0.13]
+[2023-06-10 12:30:38] INFO root fetch - processPackages [graphene-django-filter]: New version: [0.6.5] Old Version: [0.6.4]
+[2023-06-10 12:30:38] INFO root fetch - processPackages [garmin-ace]: New version: [0.0.1a2] Old Version: [0.0.1a1]
+[2023-06-10 12:30:38] INFO root fetch - processPackages [garmin-ace]: Downloading https://files.pythonhosted.org/packages/e3/37/b3351e3c6141e5d0a2b35bb9b050e1b9e70ccccbbd8b45fe495689095deb/garmin_ace-0.0.1a1.tar.gz
+[2023-06-10 12:30:38] WARNING root fetch - processPackages [bludwig]: Skipping, unable to determine old version
+[2023-06-10 12:30:38] INFO root fetch - main [MainThread]: End processing [bludwig] error
+[2023-06-10 12:30:39] INFO root fetch - processPackages [graphene-django-filter]: Downloading https://files.pythonhosted.org/packages/a3/28/544f8bc3767ea1e3e80ab5ae4b25d88c2cadc893d19dacf38b54b1ea6587/graphene-django-filter-0.6.4.tar.gz
+[2023-06-10 12:30:39] INFO root fetch - processPackages [mvm-smart-metering]: Downloading https://files.pythonhosted.org/packages/97/18/65c77216238fec5fe036dfe6135e781d636d0aac4e2e04a274c44dbbe24e/mvm_smart_metering-0.0.13.tar.gz
+[2023-06-10 12:30:39] INFO root fetch - processPackages [garmin-ace]: Downloading https://files.pythonhosted.org/packages/93/73/b929f5c09ee8a7c0e2c34cbc73a67c4becdc7041e9d7d34f55d57a1d142c/garmin_ace-0.0.1a2.tar.gz
+[2023-06-10 12:30:39] INFO root fetch - processPackages [garmin-ace]: executing diffoscope
+[2023-06-10 12:30:39] INFO root fetch - processPackages [garmin-ace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garmin_ace-0.0.1a1.tar.gz tmp/garmin_ace-0.0.1a2.tar.gz --markdown 20230610/g/garmin-ace/0.0.1a1-0.0.1a2/diff.md --exclude *.pyd
+[2023-06-10 12:30:39] INFO root fetch - processPackages [graphene-django-filter]: Downloading https://files.pythonhosted.org/packages/c2/44/4d9a9bdf2ad428f61a7a79ec9438eaad01915284b01afabf1b26fb6a9667/graphene_django_filter-0.6.5.tar.gz
+[2023-06-10 12:30:39] INFO root fetch - processPackages [mvm-smart-metering]: Downloading https://files.pythonhosted.org/packages/2e/9d/d4c4428ad2c762fe8b3c919ee184f6e9cefe16d7654e113d9eed57488af8/mvm_smart_metering-0.0.14.tar.gz
+[2023-06-10 12:30:39] INFO root fetch - processPackages [mvm-smart-metering]: executing diffoscope
+[2023-06-10 12:30:39] INFO root fetch - processPackages [mvm-smart-metering]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mvm_smart_metering-0.0.13.tar.gz tmp/mvm_smart_metering-0.0.14.tar.gz --markdown 20230610/m/mvm-smart-metering/0.0.13-0.0.14/diff.md --exclude *.pyd
+[2023-06-10 12:30:39] INFO root fetch - processPackages [graphene-django-filter]: executing diffoscope
+[2023-06-10 12:30:39] INFO root fetch - processPackages [graphene-django-filter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphene-django-filter-0.6.4.tar.gz tmp/graphene_django_filter-0.6.5.tar.gz --markdown 20230610/g/graphene-django-filter/0.6.4-0.6.5/diff.md --exclude *.pyd
+[2023-06-10 12:30:40] INFO root fetch - processPackages [garmin-ace]: Remove: archive file [/home/abi/fetcher/tmp/garmin_ace-0.0.1a1.tar.gz]
+[2023-06-10 12:30:40] INFO root fetch - processPackages [garmin-ace]: Remove: archive file [/home/abi/fetcher/tmp/garmin_ace-0.0.1a2.tar.gz]
+[2023-06-10 12:30:40] INFO root fetch - main [MainThread]: End processing [garmin-ace]: success
+[2023-06-10 12:30:40] INFO root fetch - processPackages [mvm-smart-metering]: Remove: archive file [/home/abi/fetcher/tmp/mvm_smart_metering-0.0.13.tar.gz]
+[2023-06-10 12:30:40] INFO root fetch - processPackages [mvm-smart-metering]: Remove: archive file [/home/abi/fetcher/tmp/mvm_smart_metering-0.0.14.tar.gz]
+[2023-06-10 12:30:40] INFO root fetch - main [MainThread]: End processing [mvm-smart-metering]: success
+[2023-06-10 12:30:40] INFO root fetch - processPackages [graphene-django-filter]: Remove: archive file [/home/abi/fetcher/tmp/graphene-django-filter-0.6.4.tar.gz]
+[2023-06-10 12:30:40] INFO root fetch - processPackages [graphene-django-filter]: Remove: archive file [/home/abi/fetcher/tmp/graphene_django_filter-0.6.5.tar.gz]
+[2023-06-10 12:30:40] INFO root fetch - main [MainThread]: End processing [graphene-django-filter]: success
+[2023-06-10 12:30:40] INFO root fetch - main [MainThread]: Store serial: [18450024]
