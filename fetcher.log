@@ -15673,3 +15673,82 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-10 19:19:32] INFO root fetch - processPackages [aioqui]: Remove: archive file [/home/abi/fetcher/tmp/aioqui-2.1.3.tar.gz]
 [2023-06-10 19:19:32] INFO root fetch - main [MainThread]: End processing [aioqui]: success
 [2023-06-10 19:19:32] INFO root fetch - main [MainThread]: Store serial: [18452582]
+[2023-06-10 19:24:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18452582]
+[2023-06-10 19:24:42] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-10 19:24:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyhatching
+[2023-06-10 19:24:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: leuci-map
+[2023-06-10 19:24:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: latch
+[2023-06-10 19:24:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xia-git
+[2023-06-10 19:24:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spanishconjugator
+[2023-06-10 19:24:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spanishconjugator
+[2023-06-10 19:24:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: crackerjack
+[2023-06-10 19:24:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: leuci-map
+[2023-06-10 19:24:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: signway-sdk
+[2023-06-10 19:24:43] INFO root fetch - processPackages [pyhatching]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-10 19:24:43] INFO root fetch - processPackages [signway-sdk]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-10 19:24:43] INFO root fetch - processPackages [leuci-map]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-10 19:24:43] INFO root fetch - processPackages [xia-git]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-10 19:24:43] INFO root fetch - processPackages [crackerjack]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-06-10 19:24:43] INFO root fetch - processPackages [latch]: New version: [2.9.6] Old Version: [2.9.5]
+[2023-06-10 19:24:43] INFO root fetch - processPackages [leuci-map]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-10 19:24:43] INFO root fetch - processPackages [leuci-map]: Downloading https://files.pythonhosted.org/packages/d7/f9/d814c86bcb6551942e72559977ffd7788e9a2d159c055fc5698defcc15da/leuci-map-0.1.8.tar.gz
+[2023-06-10 19:24:43] INFO root fetch - processPackages [xia-git]: Downloading https://files.pythonhosted.org/packages/1e/0e/cb061f9056114f0ffbb34f293227c77f31c815d66e0e73bd6e81a89536a5/xia_git-0.0.8-cp39-none-win_amd64.whl
+[2023-06-10 19:24:43] INFO root fetch - processPackages [pyhatching]: Downloading https://files.pythonhosted.org/packages/8b/39/4a07eb1062f35756628f2a5980f42ebff932a13739c96aae37bc5d15a283/pyhatching-0.1.0.tar.gz
+[2023-06-10 19:24:43] INFO root fetch - processPackages [crackerjack]: Downloading https://files.pythonhosted.org/packages/1c/9e/ae990dcfeabcd78d8064387a5dd8e3163b189ddfce538afb1cb01118f4aa/crackerjack-0.2.5.tar.gz
+[2023-06-10 19:24:43] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-06-10 19:24:43] INFO root fetch - processPackages [leuci-map]: Downloading https://files.pythonhosted.org/packages/d7/f9/d814c86bcb6551942e72559977ffd7788e9a2d159c055fc5698defcc15da/leuci-map-0.1.8.tar.gz
+[2023-06-10 19:24:43] INFO root fetch - processPackages [signway-sdk]: Downloading https://files.pythonhosted.org/packages/b3/03/2e880fae1791d8e530c9d6d490d7cb083b304dbe6886fb5c9d23637b7310/signway_sdk-0.1.0.tar.gz
+[2023-06-10 19:24:43] INFO root fetch - processPackages [latch]: Downloading https://files.pythonhosted.org/packages/79/f7/1912dae713dbd539910745289141bab27e2ec23827c1f7112accaf98bdda/latch-2.9.5.tar.gz
+[2023-06-10 19:24:43] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-06-10 19:24:43] INFO root fetch - processPackages [leuci-map]: Downloading https://files.pythonhosted.org/packages/ef/bd/8215fa42b8399ed3a3bbe6d8cb906b7c7f4767bbb786d85e8172c4dbf877/leuci-map-0.1.9.tar.gz
+[2023-06-10 19:24:43] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-06-10 19:24:43] INFO root fetch - processPackages [xia-git]: Downloading https://files.pythonhosted.org/packages/ec/9c/473183c93858148e24e4fb727dcb81f1a6c3df46f16d72fa9f179cab7f67/xia_git-0.0.9-cp39-none-win_amd64.whl
+[2023-06-10 19:24:43] INFO root fetch - processPackages [pyhatching]: Downloading https://files.pythonhosted.org/packages/85/af/8dc725e5e3eaf1f5f350f8039eaca16a1b8d9bcaa7ec8e9e000ca27bfc61/pyhatching-0.2.0.tar.gz
+[2023-06-10 19:24:43] INFO root fetch - processPackages [leuci-map]: Downloading https://files.pythonhosted.org/packages/ef/bd/8215fa42b8399ed3a3bbe6d8cb906b7c7f4767bbb786d85e8172c4dbf877/leuci-map-0.1.9.tar.gz
+[2023-06-10 19:24:43] INFO root fetch - processPackages [leuci-map]: executing diffoscope
+[2023-06-10 19:24:43] INFO root fetch - processPackages [leuci-map]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leuci-map-0.1.8.tar.gz tmp/leuci-map-0.1.9.tar.gz --markdown 20230610/l/leuci-map/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-10 19:24:43] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-06-10 19:24:43] INFO root fetch - processPackages [crackerjack]: Downloading https://files.pythonhosted.org/packages/b1/a2/4d2c41590a7dc1bf1e03cd3b0c6d2d46bd8e6b194d2032cb69b62ba44588/crackerjack-0.2.6.tar.gz
+[2023-06-10 19:24:43] INFO root fetch - processPackages [xia-git]: executing diffoscope
+[2023-06-10 19:24:43] INFO root fetch - processPackages [xia-git]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_git-0.0.8-cp39-none-win_amd64.whl.zip tmp/xia_git-0.0.9-cp39-none-win_amd64.whl.zip --markdown 20230610/x/xia-git/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-10 19:24:43] INFO root fetch - processPackages [pyhatching]: executing diffoscope
+[2023-06-10 19:24:43] INFO root fetch - processPackages [pyhatching]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhatching-0.1.0.tar.gz tmp/pyhatching-0.2.0.tar.gz --markdown 20230610/p/pyhatching/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-10 19:24:43] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-06-10 19:24:43] INFO root fetch - processPackages [signway-sdk]: Downloading https://files.pythonhosted.org/packages/83/2b/0a0274d6b70d4dbbe3fb67d5332f74289aeffd5df6d32a2715906fe12687/signway_sdk-0.1.1.tar.gz
+[2023-06-10 19:24:43] INFO root fetch - processPackages [leuci-map]: executing diffoscope
+[2023-06-10 19:24:43] INFO root fetch - processPackages [leuci-map]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leuci-map-0.1.8.tar.gz tmp/leuci-map-0.1.9.tar.gz --markdown 20230610/l/leuci-map/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-10 19:24:43] INFO root fetch - processPackages [latch]: Downloading https://files.pythonhosted.org/packages/5e/5a/e91171b6eca0ba929f7259719a3d389fd86242408d94dbf266925a9f4d21/latch-2.9.6.tar.gz
+[2023-06-10 19:24:43] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-06-10 19:24:43] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230610/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-06-10 19:24:43] INFO root fetch - processPackages [signway-sdk]: executing diffoscope
+[2023-06-10 19:24:43] INFO root fetch - processPackages [signway-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/signway_sdk-0.1.0.tar.gz tmp/signway_sdk-0.1.1.tar.gz --markdown 20230610/s/signway-sdk/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-10 19:24:43] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-06-10 19:24:43] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230610/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-06-10 19:24:43] INFO root fetch - processPackages [crackerjack]: executing diffoscope
+[2023-06-10 19:24:43] INFO root fetch - processPackages [crackerjack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crackerjack-0.2.5.tar.gz tmp/crackerjack-0.2.6.tar.gz --markdown 20230610/c/crackerjack/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-06-10 19:24:43] INFO root fetch - processPackages [latch]: executing diffoscope
+[2023-06-10 19:24:43] INFO root fetch - processPackages [latch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/latch-2.9.5.tar.gz tmp/latch-2.9.6.tar.gz --markdown 20230610/l/latch/2.9.5-2.9.6/diff.md --exclude *.pyd
+[2023-06-10 19:24:44] INFO root fetch - processPackages [xia-git]: Remove: archive file [/home/abi/fetcher/tmp/xia_git-0.0.8-cp39-none-win_amd64.whl.zip]
+[2023-06-10 19:24:44] INFO root fetch - processPackages [xia-git]: Remove: archive file [/home/abi/fetcher/tmp/xia_git-0.0.9-cp39-none-win_amd64.whl.zip]
+[2023-06-10 19:24:44] INFO root fetch - main [MainThread]: End processing [xia-git]: success
+[2023-06-10 19:24:45] INFO root fetch - processPackages [pyhatching]: Remove: archive file [/home/abi/fetcher/tmp/pyhatching-0.1.0.tar.gz]
+[2023-06-10 19:24:45] INFO root fetch - processPackages [pyhatching]: Remove: archive file [/home/abi/fetcher/tmp/pyhatching-0.2.0.tar.gz]
+[2023-06-10 19:24:45] INFO root fetch - main [MainThread]: End processing [pyhatching]: success
+[2023-06-10 19:24:45] INFO root fetch - processPackages [signway-sdk]: Remove: archive file [/home/abi/fetcher/tmp/signway_sdk-0.1.0.tar.gz]
+[2023-06-10 19:24:45] INFO root fetch - processPackages [signway-sdk]: Remove: archive file [/home/abi/fetcher/tmp/signway_sdk-0.1.1.tar.gz]
+[2023-06-10 19:24:45] INFO root fetch - main [MainThread]: End processing [signway-sdk]: success
+[2023-06-10 19:24:45] INFO root fetch - processPackages [leuci-map]: Remove: archive file [/home/abi/fetcher/tmp/leuci-map-0.1.8.tar.gz]
+[2023-06-10 19:24:45] INFO root fetch - processPackages [leuci-map]: Remove: archive file [/home/abi/fetcher/tmp/leuci-map-0.1.9.tar.gz]
+[2023-06-10 19:24:45] INFO root fetch - main [MainThread]: End processing [leuci-map]: success
+[2023-06-10 19:24:45] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-06-10 19:24:45] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-06-10 19:24:45] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-06-10 19:24:45] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-06-10 19:24:45] INFO root fetch - main [MainThread]: End processing [leuci-map]: success
+[2023-06-10 19:24:45] INFO root fetch - processPackages [crackerjack]: Remove: archive file [/home/abi/fetcher/tmp/crackerjack-0.2.5.tar.gz]
+[2023-06-10 19:24:45] INFO root fetch - processPackages [crackerjack]: Remove: archive file [/home/abi/fetcher/tmp/crackerjack-0.2.6.tar.gz]
+[2023-06-10 19:24:45] INFO root fetch - main [MainThread]: End processing [crackerjack]: success
+[2023-06-10 19:24:46] INFO root fetch - processPackages [latch]: Remove: archive file [/home/abi/fetcher/tmp/latch-2.9.5.tar.gz]
+[2023-06-10 19:24:46] INFO root fetch - processPackages [latch]: Remove: archive file [/home/abi/fetcher/tmp/latch-2.9.6.tar.gz]
+[2023-06-10 19:24:46] INFO root fetch - main [MainThread]: End processing [latch]: success
+[2023-06-10 19:24:46] INFO root fetch - main [MainThread]: Store serial: [18452612]
