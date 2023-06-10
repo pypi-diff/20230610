@@ -8424,3 +8424,27 @@ EOFError: EOF read where object expected
 [2023-06-10 08:08:46] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230609.tar.gz]
 [2023-06-10 08:08:46] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
 [2023-06-10 08:08:46] INFO root fetch - main [MainThread]: Store serial: [18448964]
+[2023-06-10 08:13:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18448964]
+[2023-06-10 08:13:55] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-10 08:13:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nacos-sdk-rust-binding-py
+[2023-06-10 08:13:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: henipipe
+[2023-06-10 08:13:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-alipay-sdk
+[2023-06-10 08:13:55] WARNING root fetch - processPackages [nacos-sdk-rust-binding-py]: Skipping, unable to determine old version
+[2023-06-10 08:13:55] INFO root fetch - main [MainThread]: End processing [nacos-sdk-rust-binding-py] error
+[2023-06-10 08:13:55] INFO root fetch - processPackages [henipipe]: New version: [2.4.9] Old Version: [2.4.8]
+[2023-06-10 08:13:55] INFO root fetch - processPackages [python-alipay-sdk]: New version: [3.3.0] Old Version: [3.2.0]
+[2023-06-10 08:13:55] INFO root fetch - processPackages [henipipe]: Downloading https://files.pythonhosted.org/packages/1a/3c/a7772f6d85e24a88b6588662449af6e89f6e47cad7932500da296e608c92/henipipe-2.4.8.tar.gz
+[2023-06-10 08:13:55] INFO root fetch - processPackages [python-alipay-sdk]: Downloading https://files.pythonhosted.org/packages/0e/70/4400e8bc4b692ed2ef107bfb4080d9543951c34767349bcb39b626d75da3/python-alipay-sdk-3.2.0.tar.gz
+[2023-06-10 08:13:55] INFO root fetch - processPackages [henipipe]: Downloading https://files.pythonhosted.org/packages/31/ce/52f83823b639987d43cd65ee88905a8aa6c034d3d30c6059f832a13e388a/henipipe-2.4.9.tar.gz
+[2023-06-10 08:13:55] INFO root fetch - processPackages [henipipe]: executing diffoscope
+[2023-06-10 08:13:55] INFO root fetch - processPackages [henipipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/henipipe-2.4.8.tar.gz tmp/henipipe-2.4.9.tar.gz --markdown 20230610/h/henipipe/2.4.8-2.4.9/diff.md --exclude *.pyd
+[2023-06-10 08:13:55] INFO root fetch - processPackages [python-alipay-sdk]: Downloading https://files.pythonhosted.org/packages/c8/72/429d6fc158fb56573bf7197375d9d3220e6a63c532d337e891658e91e1f9/python-alipay-sdk-3.3.0.tar.gz
+[2023-06-10 08:13:56] INFO root fetch - processPackages [python-alipay-sdk]: executing diffoscope
+[2023-06-10 08:13:56] INFO root fetch - processPackages [python-alipay-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-alipay-sdk-3.2.0.tar.gz tmp/python-alipay-sdk-3.3.0.tar.gz --markdown 20230610/p/python-alipay-sdk/3.2.0-3.3.0/diff.md --exclude *.pyd
+[2023-06-10 08:13:57] INFO root fetch - processPackages [python-alipay-sdk]: Remove: archive file [/home/abi/fetcher/tmp/python-alipay-sdk-3.2.0.tar.gz]
+[2023-06-10 08:13:57] INFO root fetch - processPackages [python-alipay-sdk]: Remove: archive file [/home/abi/fetcher/tmp/python-alipay-sdk-3.3.0.tar.gz]
+[2023-06-10 08:13:57] INFO root fetch - main [MainThread]: End processing [python-alipay-sdk]: success
+[2023-06-10 08:13:57] INFO root fetch - processPackages [henipipe]: Remove: archive file [/home/abi/fetcher/tmp/henipipe-2.4.8.tar.gz]
+[2023-06-10 08:13:57] INFO root fetch - processPackages [henipipe]: Remove: archive file [/home/abi/fetcher/tmp/henipipe-2.4.9.tar.gz]
+[2023-06-10 08:13:57] INFO root fetch - main [MainThread]: End processing [henipipe]: success
+[2023-06-10 08:13:57] INFO root fetch - main [MainThread]: Store serial: [18449013]
