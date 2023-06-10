@@ -9480,3 +9480,24 @@ EOFError: EOF read where object expected
 [2023-06-10 10:31:19] INFO root fetch - processPackages [pipen-report]: Remove: archive file [/home/abi/fetcher/tmp/pipen_report-0.9.0.tar.gz]
 [2023-06-10 10:31:19] INFO root fetch - main [MainThread]: End processing [pipen-report]: success
 [2023-06-10 10:31:19] INFO root fetch - main [MainThread]: Store serial: [18449574]
+[2023-06-10 10:36:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18449574]
+[2023-06-10 10:36:28] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-06-10 10:36:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Flask-DigestAuth
+[2023-06-10 10:36:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: promptengine-catapult
+[2023-06-10 10:36:28] INFO root fetch - processPackages [promptengine-catapult]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-10 10:36:28] INFO root fetch - processPackages [Flask-DigestAuth]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-06-10 10:36:28] INFO root fetch - processPackages [Flask-DigestAuth]: Downloading https://files.pythonhosted.org/packages/ac/ff/464a2c74babffa8c1732433c07a3454a5015fed8b71d638eff046755f07b/Flask-DigestAuth-0.6.1.tar.gz
+[2023-06-10 10:36:28] INFO root fetch - processPackages [promptengine-catapult]: Downloading https://files.pythonhosted.org/packages/13/c6/747bc41470289791850e2c6976d14a4f3a3de499ffd4781c5ab0ec0cb6f3/promptengine_catapult-0.0.8.tar.gz
+[2023-06-10 10:36:28] INFO root fetch - processPackages [Flask-DigestAuth]: Downloading https://files.pythonhosted.org/packages/30/bb/52108c52da6d40e1b5e8ad68a34382912df8ff4538454ff4e0ee8989db58/Flask-DigestAuth-0.6.2.tar.gz
+[2023-06-10 10:36:28] INFO root fetch - processPackages [promptengine-catapult]: Downloading https://files.pythonhosted.org/packages/46/54/ca6515edb7a00fb4815d25cf94901ee27e31e19446a1afd1382b2991f89d/promptengine_catapult-0.0.9.tar.gz
+[2023-06-10 10:36:28] INFO root fetch - processPackages [Flask-DigestAuth]: executing diffoscope
+[2023-06-10 10:36:28] INFO root fetch - processPackages [Flask-DigestAuth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Flask-DigestAuth-0.6.1.tar.gz tmp/Flask-DigestAuth-0.6.2.tar.gz --markdown 20230610/F/Flask-DigestAuth/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-06-10 10:36:28] INFO root fetch - processPackages [promptengine-catapult]: executing diffoscope
+[2023-06-10 10:36:28] INFO root fetch - processPackages [promptengine-catapult]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptengine_catapult-0.0.8.tar.gz tmp/promptengine_catapult-0.0.9.tar.gz --markdown 20230610/p/promptengine-catapult/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-10 10:36:30] INFO root fetch - processPackages [promptengine-catapult]: Remove: archive file [/home/abi/fetcher/tmp/promptengine_catapult-0.0.8.tar.gz]
+[2023-06-10 10:36:30] INFO root fetch - processPackages [promptengine-catapult]: Remove: archive file [/home/abi/fetcher/tmp/promptengine_catapult-0.0.9.tar.gz]
+[2023-06-10 10:36:30] INFO root fetch - main [MainThread]: End processing [promptengine-catapult]: success
+[2023-06-10 10:36:30] INFO root fetch - processPackages [Flask-DigestAuth]: Remove: archive file [/home/abi/fetcher/tmp/Flask-DigestAuth-0.6.1.tar.gz]
+[2023-06-10 10:36:30] INFO root fetch - processPackages [Flask-DigestAuth]: Remove: archive file [/home/abi/fetcher/tmp/Flask-DigestAuth-0.6.2.tar.gz]
+[2023-06-10 10:36:30] INFO root fetch - main [MainThread]: End processing [Flask-DigestAuth]: success
+[2023-06-10 10:36:30] INFO root fetch - main [MainThread]: Store serial: [18449580]
