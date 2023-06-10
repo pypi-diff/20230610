@@ -8782,3 +8782,45 @@ EOFError: EOF read where object expected
 [2023-06-10 09:06:37] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220907.tar.gz]
 [2023-06-10 09:06:37] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
 [2023-06-10 09:06:37] INFO root fetch - main [MainThread]: Store serial: [18449238]
+[2023-06-10 09:11:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18449238]
+[2023-06-10 09:11:45] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-10 09:11:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bcsfe-discord
+[2023-06-10 09:11:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tf-hub-nightly
+[2023-06-10 09:11:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gpboost
+[2023-06-10 09:11:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: foreverbull
+[2023-06-10 09:11:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ansys-mapdl-reader
+[2023-06-10 09:11:46] INFO root fetch - processPackages [bcsfe-discord]: New version: [2.7.9] Old Version: [2.7.8]
+[2023-06-10 09:11:46] INFO root fetch - processPackages [tf-hub-nightly]: New version: [0.9.0.dev202008190006] Old Version: [0.9.0.dev202008180006]
+[2023-06-10 09:11:46] WARNING root fetch - processPackages [foreverbull]: Skipping, unable to determine old version
+[2023-06-10 09:11:46] INFO root fetch - main [MainThread]: End processing [foreverbull] error
+[2023-06-10 09:11:46] INFO root fetch - processPackages [gpboost]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-06-10 09:11:46] INFO root fetch - processPackages [ansys-mapdl-reader]: New version: [0.52.9] Old Version: [0.52.8]
+[2023-06-10 09:11:46] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/e8/6b/02811fcd79aec590e7355647130c822f1bd53092a205ce986e6df7364f52/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl
+[2023-06-10 09:11:46] INFO root fetch - processPackages [gpboost]: Downloading https://files.pythonhosted.org/packages/03/fc/0533efd81975d0ae3ae0c9540394d851f9afdb1d6a8c31b6b2e9dbf9e83f/gpboost-1.1.0.tar.gz
+[2023-06-10 09:11:46] INFO root fetch - processPackages [bcsfe-discord]: Downloading https://files.pythonhosted.org/packages/f8/96/06f4955f5ebb27d0ed680efed29e921b6e1f4ae17e0d472c868864782b93/bcsfe-discord-2.7.8.tar.gz
+[2023-06-10 09:11:46] INFO root fetch - processPackages [ansys-mapdl-reader]: Downloading https://files.pythonhosted.org/packages/20/51/22eefda22cb103d4b5084eace87b68e0bbb4fd6604542d7851206b42b131/ansys-mapdl-reader-0.52.8.tar.gz
+[2023-06-10 09:11:46] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/d1/9a/6b02d0906847e11386093420119d147f7306d7a9cad79e8e575a9d29ae76/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl
+[2023-06-10 09:11:46] INFO root fetch - processPackages [tf-hub-nightly]: executing diffoscope
+[2023-06-10 09:11:46] INFO root fetch - processPackages [tf-hub-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip --markdown 20230610/t/tf-hub-nightly/0.9.0.dev202008180006-0.9.0.dev202008190006/diff.md --exclude *.pyd
+[2023-06-10 09:11:46] INFO root fetch - processPackages [bcsfe-discord]: Downloading https://files.pythonhosted.org/packages/0a/a8/407cf9aa5ac882cd61a9b30eeaaa35a3a56f727904ad9cdaeb2dc2587e46/bcsfe-discord-2.7.9.tar.gz
+[2023-06-10 09:11:46] INFO root fetch - processPackages [gpboost]: Downloading https://files.pythonhosted.org/packages/8b/06/735291a7a8c1a60211fc589b9005239f91355098301d25e63a3818de1ca8/gpboost-1.2.0.tar.gz
+[2023-06-10 09:11:46] INFO root fetch - processPackages [ansys-mapdl-reader]: Downloading https://files.pythonhosted.org/packages/4e/81/374b1cc48191003b8370ce8390bfbffaca3018090a2f524209b4db588af6/ansys-mapdl-reader-0.52.9.tar.gz
+[2023-06-10 09:11:46] INFO root fetch - processPackages [bcsfe-discord]: executing diffoscope
+[2023-06-10 09:11:46] INFO root fetch - processPackages [bcsfe-discord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bcsfe-discord-2.7.8.tar.gz tmp/bcsfe-discord-2.7.9.tar.gz --markdown 20230610/b/bcsfe-discord/2.7.8-2.7.9/diff.md --exclude *.pyd
+[2023-06-10 09:11:46] INFO root fetch - processPackages [gpboost]: executing diffoscope
+[2023-06-10 09:11:46] INFO root fetch - processPackages [gpboost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpboost-1.1.0.tar.gz tmp/gpboost-1.2.0.tar.gz --markdown 20230610/g/gpboost/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-06-10 09:11:47] INFO root fetch - processPackages [ansys-mapdl-reader]: executing diffoscope
+[2023-06-10 09:11:47] INFO root fetch - processPackages [ansys-mapdl-reader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys-mapdl-reader-0.52.8.tar.gz tmp/ansys-mapdl-reader-0.52.9.tar.gz --markdown 20230610/a/ansys-mapdl-reader/0.52.8-0.52.9/diff.md --exclude *.pyd
+[2023-06-10 09:11:47] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip]
+[2023-06-10 09:11:47] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip]
+[2023-06-10 09:11:47] INFO root fetch - main [MainThread]: End processing [tf-hub-nightly]: success
+[2023-06-10 09:11:48] INFO root fetch - processPackages [bcsfe-discord]: Remove: archive file [/home/abi/fetcher/tmp/bcsfe-discord-2.7.8.tar.gz]
+[2023-06-10 09:11:48] INFO root fetch - processPackages [bcsfe-discord]: Remove: archive file [/home/abi/fetcher/tmp/bcsfe-discord-2.7.9.tar.gz]
+[2023-06-10 09:11:48] INFO root fetch - main [MainThread]: End processing [bcsfe-discord]: success
+[2023-06-10 09:11:48] INFO root fetch - processPackages [ansys-mapdl-reader]: Remove: archive file [/home/abi/fetcher/tmp/ansys-mapdl-reader-0.52.8.tar.gz]
+[2023-06-10 09:11:48] INFO root fetch - processPackages [ansys-mapdl-reader]: Remove: archive file [/home/abi/fetcher/tmp/ansys-mapdl-reader-0.52.9.tar.gz]
+[2023-06-10 09:11:48] INFO root fetch - main [MainThread]: End processing [ansys-mapdl-reader]: success
+[2023-06-10 09:12:00] INFO root fetch - processPackages [gpboost]: Remove: archive file [/home/abi/fetcher/tmp/gpboost-1.1.0.tar.gz]
+[2023-06-10 09:12:00] INFO root fetch - processPackages [gpboost]: Remove: archive file [/home/abi/fetcher/tmp/gpboost-1.2.0.tar.gz]
+[2023-06-10 09:12:00] INFO root fetch - main [MainThread]: End processing [gpboost]: success
+[2023-06-10 09:12:00] INFO root fetch - main [MainThread]: Store serial: [18449274]
