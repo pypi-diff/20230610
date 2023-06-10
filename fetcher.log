@@ -16597,3 +16597,63 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-10 20:54:49] INFO root fetch - processPackages [rwkv]: Remove: archive file [/home/abi/fetcher/tmp/rwkv-0.7.5.tar.gz]
 [2023-06-10 20:54:49] INFO root fetch - main [MainThread]: End processing [rwkv]: success
 [2023-06-10 20:54:49] INFO root fetch - main [MainThread]: Store serial: [18453064]
+[2023-06-10 20:59:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18453064]
+[2023-06-10 20:59:58] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-10 20:59:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: iggcli
+[2023-06-10 20:59:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: FairDynamicRec
+[2023-06-10 20:59:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-nats-client
+[2023-06-10 20:59:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: capypdf
+[2023-06-10 20:59:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: needed-libs
+[2023-06-10 20:59:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PyBADS
+[2023-06-10 20:59:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flask-fullstack
+[2023-06-10 20:59:58] INFO root fetch - processPackages [iggcli]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-10 20:59:58] WARNING root fetch - processPackages [capypdf]: Skipping, unable to determine old version
+[2023-06-10 20:59:58] INFO root fetch - main [MainThread]: End processing [capypdf] error
+[2023-06-10 20:59:58] INFO root fetch - processPackages [django-nats-client]: New version: [0.4.0] Old Version: [0.3.5]
+[2023-06-10 20:59:58] INFO root fetch - processPackages [needed-libs]: New version: [0.4] Old Version: [0.3]
+[2023-06-10 20:59:58] INFO root fetch - processPackages [flask-fullstack]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-06-10 20:59:58] INFO root fetch - processPackages [PyBADS]: New version: [1.0.0] Old Version: [0.8.2]
+[2023-06-10 20:59:58] INFO root fetch - processPackages [FairDynamicRec]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-10 20:59:58] INFO root fetch - processPackages [iggcli]: Downloading https://files.pythonhosted.org/packages/1e/2e/6a04155b0a6256b132ceccb2b5881856d724bc175eb61631df27da6edfa9/iggcli-0.1.0.tar.gz
+[2023-06-10 20:59:58] INFO root fetch - processPackages [django-nats-client]: Downloading https://files.pythonhosted.org/packages/07/08/0083c6f41840dc31a41b541e23cc287ad8dc9ae0a9353e6513a14a1d2774/django_nats_client-0.3.5.tar.gz
+[2023-06-10 20:59:59] INFO root fetch - processPackages [needed-libs]: Downloading https://files.pythonhosted.org/packages/b9/3f/091b1fcd878ac05cdb5ad299d16b086dadbb4491834b24eebe97b73e3cea/needed-libs-0.3.tar.gz
+[2023-06-10 20:59:59] INFO root fetch - processPackages [FairDynamicRec]: Downloading https://files.pythonhosted.org/packages/5d/b7/0a6c7ebde474948885ba888d63dc08a38814d289f5ec95dc9a06d7ff1e8a/FairDynamicRec-0.0.98.tar.gz
+[2023-06-10 20:59:59] INFO root fetch - processPackages [flask-fullstack]: Downloading https://files.pythonhosted.org/packages/5f/ee/a3bfcf42b8fa551df69d8695e06a2af1e1ac9d1c3b5edf58306fe2b3b52d/flask-fullstack-0.4.8.tar.gz
+[2023-06-10 20:59:59] INFO root fetch - processPackages [PyBADS]: Downloading https://files.pythonhosted.org/packages/69/7d/4507fa29184fc3cad0b9f1e7010625b3e3c5cf099887b52b3535944316bc/PyBADS-0.8.2.tar.gz
+[2023-06-10 20:59:59] INFO root fetch - processPackages [iggcli]: Downloading https://files.pythonhosted.org/packages/3b/50/b5fff1d47e61a2667f05cbcbf784d5a30b8ea360ecf8a757b031403f5df6/iggcli-0.1.1.tar.gz
+[2023-06-10 20:59:59] INFO root fetch - processPackages [PyBADS]: Downloading https://files.pythonhosted.org/packages/96/25/0848537d52173441f6d335116fe9cc8760a4102acda0404a8277f7c977cc/PyBADS-1.0.0.tar.gz
+[2023-06-10 20:59:59] INFO root fetch - processPackages [needed-libs]: Downloading https://files.pythonhosted.org/packages/b4/7b/9141c0dae38585dead590e87bec592be68274d64ac653da3c9b1dbecdd2b/needed-libs-0.4.tar.gz
+[2023-06-10 20:59:59] INFO root fetch - processPackages [django-nats-client]: Downloading https://files.pythonhosted.org/packages/4e/aa/a565b92387cf309b999dfbc5486208ecf5a62d93d68f837d92b067acf988/django_nats_client-0.4.0.tar.gz
+[2023-06-10 20:59:59] INFO root fetch - processPackages [iggcli]: executing diffoscope
+[2023-06-10 20:59:59] INFO root fetch - processPackages [iggcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iggcli-0.1.0.tar.gz tmp/iggcli-0.1.1.tar.gz --markdown 20230610/i/iggcli/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-10 20:59:59] INFO root fetch - processPackages [needed-libs]: executing diffoscope
+[2023-06-10 20:59:59] INFO root fetch - processPackages [needed-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/needed-libs-0.3.tar.gz tmp/needed-libs-0.4.tar.gz --markdown 20230610/n/needed-libs/0.3-0.4/diff.md --exclude *.pyd
+[2023-06-10 20:59:59] INFO root fetch - processPackages [PyBADS]: executing diffoscope
+[2023-06-10 20:59:59] INFO root fetch - processPackages [PyBADS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyBADS-0.8.2.tar.gz tmp/PyBADS-1.0.0.tar.gz --markdown 20230610/P/PyBADS/0.8.2-1.0.0/diff.md --exclude *.pyd
+[2023-06-10 20:59:59] INFO root fetch - processPackages [django-nats-client]: executing diffoscope
+[2023-06-10 20:59:59] INFO root fetch - processPackages [django-nats-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_nats_client-0.3.5.tar.gz tmp/django_nats_client-0.4.0.tar.gz --markdown 20230610/d/django-nats-client/0.3.5-0.4.0/diff.md --exclude *.pyd
+[2023-06-10 20:59:59] INFO root fetch - processPackages [flask-fullstack]: Downloading https://files.pythonhosted.org/packages/c8/05/c3c2dd7945e0bd92255c1ee473cf4468a739a710ef16f06922f7d2678c85/flask-fullstack-0.4.9.tar.gz
+[2023-06-10 21:00:00] INFO root fetch - processPackages [flask-fullstack]: executing diffoscope
+[2023-06-10 21:00:00] INFO root fetch - processPackages [flask-fullstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask-fullstack-0.4.8.tar.gz tmp/flask-fullstack-0.4.9.tar.gz --markdown 20230610/f/flask-fullstack/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-06-10 21:00:00] INFO root fetch - processPackages [iggcli]: Remove: archive file [/home/abi/fetcher/tmp/iggcli-0.1.0.tar.gz]
+[2023-06-10 21:00:00] INFO root fetch - processPackages [iggcli]: Remove: archive file [/home/abi/fetcher/tmp/iggcli-0.1.1.tar.gz]
+[2023-06-10 21:00:00] INFO root fetch - main [MainThread]: End processing [iggcli]: success
+[2023-06-10 21:00:00] INFO root fetch - processPackages [needed-libs]: Remove: archive file [/home/abi/fetcher/tmp/needed-libs-0.3.tar.gz]
+[2023-06-10 21:00:00] INFO root fetch - processPackages [needed-libs]: Remove: archive file [/home/abi/fetcher/tmp/needed-libs-0.4.tar.gz]
+[2023-06-10 21:00:00] INFO root fetch - main [MainThread]: End processing [needed-libs]: success
+[2023-06-10 21:00:00] INFO root fetch - processPackages [django-nats-client]: Remove: archive file [/home/abi/fetcher/tmp/django_nats_client-0.3.5.tar.gz]
+[2023-06-10 21:00:00] INFO root fetch - processPackages [django-nats-client]: Remove: archive file [/home/abi/fetcher/tmp/django_nats_client-0.4.0.tar.gz]
+[2023-06-10 21:00:00] INFO root fetch - main [MainThread]: End processing [django-nats-client]: success
+[2023-06-10 21:00:01] INFO root fetch - processPackages [FairDynamicRec]: Downloading https://files.pythonhosted.org/packages/83/63/c6137ab0913afef21e2751c395ace9e2696ac32c771145c8a208c41bbfe1/FairDynamicRec-0.0.99.tar.gz
+[2023-06-10 21:00:01] INFO root fetch - processPackages [PyBADS]: Remove: archive file [/home/abi/fetcher/tmp/PyBADS-0.8.2.tar.gz]
+[2023-06-10 21:00:01] INFO root fetch - processPackages [PyBADS]: Remove: archive file [/home/abi/fetcher/tmp/PyBADS-1.0.0.tar.gz]
+[2023-06-10 21:00:01] INFO root fetch - main [MainThread]: End processing [PyBADS]: success
+[2023-06-10 21:00:02] INFO root fetch - processPackages [FairDynamicRec]: executing diffoscope
+[2023-06-10 21:00:02] INFO root fetch - processPackages [FairDynamicRec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FairDynamicRec-0.0.98.tar.gz tmp/FairDynamicRec-0.0.99.tar.gz --markdown 20230610/F/FairDynamicRec/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-10 21:00:04] INFO root fetch - processPackages [FairDynamicRec]: Remove: archive file [/home/abi/fetcher/tmp/FairDynamicRec-0.0.98.tar.gz]
+[2023-06-10 21:00:04] INFO root fetch - processPackages [FairDynamicRec]: Remove: archive file [/home/abi/fetcher/tmp/FairDynamicRec-0.0.99.tar.gz]
+[2023-06-10 21:00:04] INFO root fetch - main [MainThread]: End processing [FairDynamicRec]: success
+[2023-06-10 21:00:52] INFO root fetch - processPackages [flask-fullstack]: Remove: archive file [/home/abi/fetcher/tmp/flask-fullstack-0.4.8.tar.gz]
+[2023-06-10 21:00:52] INFO root fetch - processPackages [flask-fullstack]: Remove: archive file [/home/abi/fetcher/tmp/flask-fullstack-0.4.9.tar.gz]
+[2023-06-10 21:00:52] INFO root fetch - main [MainThread]: End processing [flask-fullstack]: success
+[2023-06-10 21:00:52] INFO root fetch - main [MainThread]: Store serial: [18453095]
