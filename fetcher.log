@@ -9062,3 +9062,36 @@ EOFError: EOF read where object expected
 [2023-06-10 09:38:18] INFO root fetch - processPackages [PyVolSuggester]: Remove: archive file [/home/abi/fetcher/tmp/pyvolsuggester-0.0.6.tar.gz]
 [2023-06-10 09:38:18] INFO root fetch - main [MainThread]: End processing [PyVolSuggester]: success
 [2023-06-10 09:38:18] INFO root fetch - main [MainThread]: Store serial: [18449377]
+[2023-06-10 09:43:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18449377]
+[2023-06-10 09:43:27] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-10 09:43:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: krx-holidays
+[2023-06-10 09:43:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: testttttt312312tt
+[2023-06-10 09:43:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: relint
+[2023-06-10 09:43:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytest-typhoon-xray
+[2023-06-10 09:43:27] INFO root fetch - processPackages [krx-holidays]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-10 09:43:27] INFO root fetch - processPackages [relint]: New version: [3.1.0] Old Version: [3.0.0]
+[2023-06-10 09:43:27] INFO root fetch - processPackages [pytest-typhoon-xray]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-10 09:43:27] WARNING root fetch - processPackages [testttttt312312tt]: Skipping, unable to determine old version
+[2023-06-10 09:43:27] INFO root fetch - main [MainThread]: End processing [testttttt312312tt] error
+[2023-06-10 09:43:27] INFO root fetch - processPackages [pytest-typhoon-xray]: Downloading https://files.pythonhosted.org/packages/e7/1d/59bc2cb3574a132595557ca1f585aff6320c1df9e3d465e8bada245e73f4/pytest-typhoon-xray-1.0.0.tar.gz
+[2023-06-10 09:43:27] INFO root fetch - processPackages [krx-holidays]: Downloading https://files.pythonhosted.org/packages/80/00/f15c673269de0ad319732473f9b945b2d8015d97802c95455c868bede61b/krx_holidays-0.0.1.tar.gz
+[2023-06-10 09:43:27] INFO root fetch - processPackages [relint]: Downloading https://files.pythonhosted.org/packages/d1/e5/ed6cecf2c6aef26ea0316981a87a73dd4fe7e597659264bd730cde3111fa/relint-3.0.0.tar.gz
+[2023-06-10 09:43:27] INFO root fetch - processPackages [pytest-typhoon-xray]: Downloading https://files.pythonhosted.org/packages/78/7b/8002982c09855e1b2a7c8f4639ffd4abbaa67bd840055297d0e0240578cc/pytest-typhoon-xray-1.0.1.tar.gz
+[2023-06-10 09:43:27] INFO root fetch - processPackages [pytest-typhoon-xray]: executing diffoscope
+[2023-06-10 09:43:27] INFO root fetch - processPackages [pytest-typhoon-xray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-typhoon-xray-1.0.0.tar.gz tmp/pytest-typhoon-xray-1.0.1.tar.gz --markdown 20230610/p/pytest-typhoon-xray/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-10 09:43:27] INFO root fetch - processPackages [krx-holidays]: Downloading https://files.pythonhosted.org/packages/aa/25/cd28db74403ac4e5b7f9f65198b768caa73ccf0c51abb5806ed95f795e44/krx_holidays-0.0.2.tar.gz
+[2023-06-10 09:43:27] INFO root fetch - processPackages [relint]: Downloading https://files.pythonhosted.org/packages/da/32/8b7c058eee6943a11dd07f9b4bc40f227f5e36af544bdd6666ee568ae03e/relint-3.1.0.tar.gz
+[2023-06-10 09:43:27] INFO root fetch - processPackages [krx-holidays]: executing diffoscope
+[2023-06-10 09:43:27] INFO root fetch - processPackages [krx-holidays]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/krx_holidays-0.0.1.tar.gz tmp/krx_holidays-0.0.2.tar.gz --markdown 20230610/k/krx-holidays/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-10 09:43:27] INFO root fetch - processPackages [relint]: executing diffoscope
+[2023-06-10 09:43:27] INFO root fetch - processPackages [relint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/relint-3.0.0.tar.gz tmp/relint-3.1.0.tar.gz --markdown 20230610/r/relint/3.0.0-3.1.0/diff.md --exclude *.pyd
+[2023-06-10 09:43:28] INFO root fetch - processPackages [pytest-typhoon-xray]: Remove: archive file [/home/abi/fetcher/tmp/pytest-typhoon-xray-1.0.0.tar.gz]
+[2023-06-10 09:43:28] INFO root fetch - processPackages [pytest-typhoon-xray]: Remove: archive file [/home/abi/fetcher/tmp/pytest-typhoon-xray-1.0.1.tar.gz]
+[2023-06-10 09:43:28] INFO root fetch - main [MainThread]: End processing [pytest-typhoon-xray]: success
+[2023-06-10 09:43:28] INFO root fetch - processPackages [krx-holidays]: Remove: archive file [/home/abi/fetcher/tmp/krx_holidays-0.0.1.tar.gz]
+[2023-06-10 09:43:28] INFO root fetch - processPackages [krx-holidays]: Remove: archive file [/home/abi/fetcher/tmp/krx_holidays-0.0.2.tar.gz]
+[2023-06-10 09:43:28] INFO root fetch - main [MainThread]: End processing [krx-holidays]: success
+[2023-06-10 09:43:28] INFO root fetch - processPackages [relint]: Remove: archive file [/home/abi/fetcher/tmp/relint-3.0.0.tar.gz]
+[2023-06-10 09:43:28] INFO root fetch - processPackages [relint]: Remove: archive file [/home/abi/fetcher/tmp/relint-3.1.0.tar.gz]
+[2023-06-10 09:43:28] INFO root fetch - main [MainThread]: End processing [relint]: success
+[2023-06-10 09:43:28] INFO root fetch - main [MainThread]: Store serial: [18449409]
