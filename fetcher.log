@@ -9023,3 +9023,42 @@ EOFError: EOF read where object expected
 [2023-06-10 09:33:06] INFO root fetch - processPackages [gdsfactory]: Remove: archive file [/home/abi/fetcher/tmp/gdsfactory-6.99.0.tar.gz]
 [2023-06-10 09:33:06] INFO root fetch - main [MainThread]: End processing [gdsfactory]: success
 [2023-06-10 09:33:06] INFO root fetch - main [MainThread]: Store serial: [18449362]
+[2023-06-10 09:38:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18449362]
+[2023-06-10 09:38:16] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-10 09:38:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pautobot
+[2023-06-10 09:38:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aws-ecs-exec
+[2023-06-10 09:38:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyVolSuggester
+[2023-06-10 09:38:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: isar
+[2023-06-10 09:38:16] INFO root fetch - processPackages [PyVolSuggester]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-10 09:38:16] INFO root fetch - processPackages [pautobot]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-10 09:38:16] INFO root fetch - processPackages [aws-ecs-exec]: New version: [0.1.0rc2] Old Version: [0.1.0rc1]
+[2023-06-10 09:38:16] INFO root fetch - processPackages [isar]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-06-10 09:38:16] INFO root fetch - processPackages [pautobot]: Downloading https://files.pythonhosted.org/packages/9f/52/faeb139fbabfe65ff760254fa31f131fbb53bf96f7676f890b72a8b89175/pautobot-0.0.8.tar.gz
+[2023-06-10 09:38:16] INFO root fetch - processPackages [aws-ecs-exec]: Downloading https://files.pythonhosted.org/packages/e5/98/a5e7da2f99c7fcbcb1781a89f3fa083d49996a30c71805e30cd4b3bab5f4/aws_ecs_exec-0.1.0rc1.tar.gz
+[2023-06-10 09:38:16] INFO root fetch - processPackages [PyVolSuggester]: Downloading https://files.pythonhosted.org/packages/70/6a/0d35f83d36a8e3e9b5e96f44463dbda27ee50835d0f26184f7f57190eda7/pyvolsuggester-0.0.5.tar.gz
+[2023-06-10 09:38:16] INFO root fetch - processPackages [isar]: Downloading https://files.pythonhosted.org/packages/24/9e/a40ae5538b353dd0f94cbf122f8b47de58d34ffca0b2e4633c259740b079/isar-1.9.1.tar.gz
+[2023-06-10 09:38:16] INFO root fetch - processPackages [pautobot]: Downloading https://files.pythonhosted.org/packages/f4/f6/5ec6aeb2fd8851a6cc459db4ba7278878ac6e26fb247f3e18b9d99d1c394/pautobot-0.0.9.tar.gz
+[2023-06-10 09:38:16] INFO root fetch - processPackages [aws-ecs-exec]: Downloading https://files.pythonhosted.org/packages/cf/7e/60435881e5cf40e9a69c8d082f3e2ca41e53db909cc96e4e1be8125e54e9/aws_ecs_exec-0.1.0rc2.tar.gz
+[2023-06-10 09:38:16] INFO root fetch - processPackages [pautobot]: executing diffoscope
+[2023-06-10 09:38:16] INFO root fetch - processPackages [pautobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pautobot-0.0.8.tar.gz tmp/pautobot-0.0.9.tar.gz --markdown 20230610/p/pautobot/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-10 09:38:16] INFO root fetch - processPackages [isar]: Downloading https://files.pythonhosted.org/packages/0c/bd/c87b8c89cd96667a2dc47e515d33dc70dc401f8319ab1c440d614490ed4d/isar-1.9.2.tar.gz
+[2023-06-10 09:38:16] INFO root fetch - processPackages [aws-ecs-exec]: executing diffoscope
+[2023-06-10 09:38:16] INFO root fetch - processPackages [aws-ecs-exec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_ecs_exec-0.1.0rc1.tar.gz tmp/aws_ecs_exec-0.1.0rc2.tar.gz --markdown 20230610/a/aws-ecs-exec/0.1.0rc1-0.1.0rc2/diff.md --exclude *.pyd
+[2023-06-10 09:38:16] INFO root fetch - processPackages [isar]: executing diffoscope
+[2023-06-10 09:38:16] INFO root fetch - processPackages [isar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/isar-1.9.1.tar.gz tmp/isar-1.9.2.tar.gz --markdown 20230610/i/isar/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-06-10 09:38:17] INFO root fetch - processPackages [PyVolSuggester]: Downloading https://files.pythonhosted.org/packages/77/8d/4c2abe5c96665186e74f913861e6ed7a748f90f3d89a63658b5815f2720e/pyvolsuggester-0.0.6.tar.gz
+[2023-06-10 09:38:17] INFO root fetch - processPackages [PyVolSuggester]: executing diffoscope
+[2023-06-10 09:38:17] INFO root fetch - processPackages [PyVolSuggester]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvolsuggester-0.0.5.tar.gz tmp/pyvolsuggester-0.0.6.tar.gz --markdown 20230610/P/PyVolSuggester/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-10 09:38:17] INFO root fetch - processPackages [aws-ecs-exec]: Remove: archive file [/home/abi/fetcher/tmp/aws_ecs_exec-0.1.0rc1.tar.gz]
+[2023-06-10 09:38:17] INFO root fetch - processPackages [aws-ecs-exec]: Remove: archive file [/home/abi/fetcher/tmp/aws_ecs_exec-0.1.0rc2.tar.gz]
+[2023-06-10 09:38:17] INFO root fetch - main [MainThread]: End processing [aws-ecs-exec]: success
+[2023-06-10 09:38:17] INFO root fetch - processPackages [pautobot]: Remove: archive file [/home/abi/fetcher/tmp/pautobot-0.0.8.tar.gz]
+[2023-06-10 09:38:17] INFO root fetch - processPackages [pautobot]: Remove: archive file [/home/abi/fetcher/tmp/pautobot-0.0.9.tar.gz]
+[2023-06-10 09:38:17] INFO root fetch - main [MainThread]: End processing [pautobot]: success
+[2023-06-10 09:38:18] INFO root fetch - processPackages [isar]: Remove: archive file [/home/abi/fetcher/tmp/isar-1.9.1.tar.gz]
+[2023-06-10 09:38:18] INFO root fetch - processPackages [isar]: Remove: archive file [/home/abi/fetcher/tmp/isar-1.9.2.tar.gz]
+[2023-06-10 09:38:18] INFO root fetch - main [MainThread]: End processing [isar]: success
+[2023-06-10 09:38:18] INFO root fetch - processPackages [PyVolSuggester]: Remove: archive file [/home/abi/fetcher/tmp/pyvolsuggester-0.0.5.tar.gz]
+[2023-06-10 09:38:18] INFO root fetch - processPackages [PyVolSuggester]: Remove: archive file [/home/abi/fetcher/tmp/pyvolsuggester-0.0.6.tar.gz]
+[2023-06-10 09:38:18] INFO root fetch - main [MainThread]: End processing [PyVolSuggester]: success
+[2023-06-10 09:38:18] INFO root fetch - main [MainThread]: Store serial: [18449377]
