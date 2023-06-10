@@ -14940,3 +14940,62 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-10 18:37:33] INFO root fetch - processPackages [tkintertools-dev]: Remove: archive file [/home/abi/fetcher/tmp/tkintertools-dev-2.6.4.tar.gz]
 [2023-06-10 18:37:33] INFO root fetch - main [MainThread]: End processing [tkintertools-dev]: success
 [2023-06-10 18:37:33] INFO root fetch - main [MainThread]: Store serial: [18452131]
+[2023-06-10 18:42:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18452131]
+[2023-06-10 18:42:41] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-10 18:42:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rofunc
+[2023-06-10 18:42:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ssapi
+[2023-06-10 18:42:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: signway-sdk
+[2023-06-10 18:42:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cross-process-bridge
+[2023-06-10 18:42:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pydantic-core
+[2023-06-10 18:42:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gyver
+[2023-06-10 18:42:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nfonistaxxx
+[2023-06-10 18:42:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: deepsensor
+[2023-06-10 18:42:41] INFO root fetch - processPackages [rofunc]: New version: [0.0.1b0] Old Version: [0.0.1.9]
+[2023-06-10 18:42:41] WARNING root fetch - processPackages [signway-sdk]: Skipping, unable to determine old version
+[2023-06-10 18:42:41] INFO root fetch - main [MainThread]: End processing [signway-sdk] error
+[2023-06-10 18:42:42] INFO root fetch - processPackages [deepsensor]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-10 18:42:42] INFO root fetch - processPackages [ssapi]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-06-10 18:42:42] INFO root fetch - processPackages [cross-process-bridge]: New version: [1.0.0] Old Version: [0.0.1]
+[2023-06-10 18:42:42] WARNING root fetch - processPackages [nfonistaxxx]: Skipping, unable to determine old version
+[2023-06-10 18:42:42] INFO root fetch - main [MainThread]: End processing [nfonistaxxx] error
+[2023-06-10 18:42:42] INFO root fetch - processPackages [gyver]: New version: [2.1.3] Old Version: [2.1.2]
+[2023-06-10 18:42:42] INFO root fetch - processPackages [pydantic-core]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-06-10 18:42:42] INFO root fetch - processPackages [rofunc]: Downloading https://files.pythonhosted.org/packages/a0/37/39280dd71425d1c310c598954746e82f91b45276df600c85c33e1796949f/rofunc-0.0.1.9.tar.gz
+[2023-06-10 18:42:42] INFO root fetch - processPackages [ssapi]: Downloading https://files.pythonhosted.org/packages/51/80/6de397193ebfaa13238b5522752820177984c8ac77f163f54410400ad688/ssapi-0.3.0.tar.gz
+[2023-06-10 18:42:42] INFO root fetch - processPackages [deepsensor]: Downloading https://files.pythonhosted.org/packages/8a/9b/aae2ea9f6b8d0e0d7b3ea7a4f9e6eeb9fe4f25201e9590bb8699f75bdcbb/deepsensor-0.1.0.tar.gz
+[2023-06-10 18:42:42] WARNING root fetch - processPackages [rofunc]: Skipping package: exceeds size limit 99261483>=10485760
+[2023-06-10 18:42:42] INFO root fetch - main [MainThread]: End processing [rofunc] error
+[2023-06-10 18:42:42] INFO root fetch - processPackages [cross-process-bridge]: Downloading https://files.pythonhosted.org/packages/3f/4e/ee3a98ba42e1703f8148d9b452ed2f0e89396ae50b5580007065f27d2177/cross_process_bridge-0.0.1.tar.gz
+[2023-06-10 18:42:42] INFO root fetch - processPackages [gyver]: Downloading https://files.pythonhosted.org/packages/cc/cc/e08bbef9cd7e73130ac8f6bac3fd4061b4921ee28bba9ceb0cf82160ccda/gyver-2.1.2.tar.gz
+[2023-06-10 18:42:42] INFO root fetch - processPackages [pydantic-core]: Downloading https://files.pythonhosted.org/packages/ec/21/c8889a7018bc7a93463884087ac6e4cc1af5a54f974b442c9b7a8f26829f/pydantic_core-0.8.2.tar.gz
+[2023-06-10 18:42:42] INFO root fetch - processPackages [ssapi]: Downloading https://files.pythonhosted.org/packages/0d/27/0ca40fb05a7895ca75326bc922adb0f2b24b7e78e8f6f3f4460ec2bcd68b/ssapi-0.4.0.tar.gz
+[2023-06-10 18:42:42] INFO root fetch - processPackages [deepsensor]: Downloading https://files.pythonhosted.org/packages/01/22/2ffe205da5a51567c44f7d9ab03e9733263bb9cbf665625d0c386feb910b/deepsensor-0.1.1-py3-none-any.whl
+[2023-06-10 18:42:42] INFO root fetch - processPackages [ssapi]: executing diffoscope
+[2023-06-10 18:42:42] INFO root fetch - processPackages [ssapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssapi-0.3.0.tar.gz tmp/ssapi-0.4.0.tar.gz --markdown 20230610/s/ssapi/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-06-10 18:42:42] INFO root fetch - processPackages [deepsensor]: executing diffoscope
+[2023-06-10 18:42:42] INFO root fetch - processPackages [deepsensor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepsensor-0.1.0.tar.gz tmp/deepsensor-0.1.1-py3-none-any.whl.zip --markdown 20230610/d/deepsensor/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-10 18:42:42] INFO root fetch - processPackages [cross-process-bridge]: Downloading https://files.pythonhosted.org/packages/12/61/6ac3d00cc422b9b358e7df61c9a94662dbbc33c62d3afbdc2d4be779c42d/cross_process_bridge-1.0.0.tar.gz
+[2023-06-10 18:42:42] INFO root fetch - processPackages [gyver]: Downloading https://files.pythonhosted.org/packages/5c/65/be07d2eb120f27b7c26783f6351a0f86fd0b4797e1c9304d0c349ec25269/gyver-2.1.3.tar.gz
+[2023-06-10 18:42:42] INFO root fetch - processPackages [cross-process-bridge]: executing diffoscope
+[2023-06-10 18:42:42] INFO root fetch - processPackages [cross-process-bridge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cross_process_bridge-0.0.1.tar.gz tmp/cross_process_bridge-1.0.0.tar.gz --markdown 20230610/c/cross-process-bridge/0.0.1-1.0.0/diff.md --exclude *.pyd
+[2023-06-10 18:42:42] INFO root fetch - processPackages [gyver]: executing diffoscope
+[2023-06-10 18:42:42] INFO root fetch - processPackages [gyver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gyver-2.1.2.tar.gz tmp/gyver-2.1.3.tar.gz --markdown 20230610/g/gyver/2.1.2-2.1.3/diff.md --exclude *.pyd
+[2023-06-10 18:42:42] INFO root fetch - processPackages [pydantic-core]: Downloading https://files.pythonhosted.org/packages/73/d2/71067fc29dbd97ad9dc288b715da55c8dfaa72d17617642f96c30d880981/pydantic_core-0.9.0.tar.gz
+[2023-06-10 18:42:43] INFO root fetch - processPackages [pydantic-core]: executing diffoscope
+[2023-06-10 18:42:43] INFO root fetch - processPackages [pydantic-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_core-0.8.2.tar.gz tmp/pydantic_core-0.9.0.tar.gz --markdown 20230610/p/pydantic-core/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-06-10 18:42:43] INFO root fetch - processPackages [deepsensor]: Remove: archive file [/home/abi/fetcher/tmp/deepsensor-0.1.0.tar.gz]
+[2023-06-10 18:42:43] INFO root fetch - processPackages [deepsensor]: Remove: archive file [/home/abi/fetcher/tmp/deepsensor-0.1.1-py3-none-any.whl.zip]
+[2023-06-10 18:42:43] INFO root fetch - main [MainThread]: End processing [deepsensor]: success
+[2023-06-10 18:42:43] INFO root fetch - processPackages [ssapi]: Remove: archive file [/home/abi/fetcher/tmp/ssapi-0.3.0.tar.gz]
+[2023-06-10 18:42:43] INFO root fetch - processPackages [ssapi]: Remove: archive file [/home/abi/fetcher/tmp/ssapi-0.4.0.tar.gz]
+[2023-06-10 18:42:43] INFO root fetch - main [MainThread]: End processing [ssapi]: success
+[2023-06-10 18:42:43] INFO root fetch - processPackages [cross-process-bridge]: Remove: archive file [/home/abi/fetcher/tmp/cross_process_bridge-0.0.1.tar.gz]
+[2023-06-10 18:42:43] INFO root fetch - processPackages [cross-process-bridge]: Remove: archive file [/home/abi/fetcher/tmp/cross_process_bridge-1.0.0.tar.gz]
+[2023-06-10 18:42:43] INFO root fetch - main [MainThread]: End processing [cross-process-bridge]: success
+[2023-06-10 18:42:43] INFO root fetch - processPackages [gyver]: Remove: archive file [/home/abi/fetcher/tmp/gyver-2.1.2.tar.gz]
+[2023-06-10 18:42:43] INFO root fetch - processPackages [gyver]: Remove: archive file [/home/abi/fetcher/tmp/gyver-2.1.3.tar.gz]
+[2023-06-10 18:42:43] INFO root fetch - main [MainThread]: End processing [gyver]: success
+[2023-06-10 18:42:45] INFO root fetch - processPackages [pydantic-core]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_core-0.8.2.tar.gz]
+[2023-06-10 18:42:45] INFO root fetch - processPackages [pydantic-core]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_core-0.9.0.tar.gz]
+[2023-06-10 18:42:45] INFO root fetch - main [MainThread]: End processing [pydantic-core]: success
+[2023-06-10 18:42:45] INFO root fetch - main [MainThread]: Store serial: [18452243]
