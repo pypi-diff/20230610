@@ -8042,3 +8042,105 @@ EOFError: EOF read where object expected
 [2023-06-10 07:15:46] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230610.tar.gz]
 [2023-06-10 07:15:46] INFO root fetch - main [MainThread]: End processing [dask-cuda]: success
 [2023-06-10 07:15:46] INFO root fetch - main [MainThread]: Store serial: [18448758]
+[2023-06-10 07:20:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18448758]
+[2023-06-10 07:20:55] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-10 07:20:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo9-addon-stock-reserve
+[2023-06-10 07:20:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo8-addon-stock-reserve
+[2023-06-10 07:20:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: archs4py
+[2023-06-10 07:20:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo10-addon-stock-reserve
+[2023-06-10 07:20:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo13-addon-stock-reserve
+[2023-06-10 07:20:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: asp-chef-cli
+[2023-06-10 07:20:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rai-test-utils
+[2023-06-10 07:20:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tflite-runtime-nightly
+[2023-06-10 07:20:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-stock-reserve
+[2023-06-10 07:20:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo14-addon-stock-reserve
+[2023-06-10 07:20:55] INFO root fetch - processPackages [archs4py]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-06-10 07:20:55] INFO root fetch - processPackages [odoo10-addon-stock-reserve]: New version: [10.0.1.0.1.99.dev7] Old Version: [10.0.1.0.1.99.dev6]
+[2023-06-10 07:20:55] INFO root fetch - processPackages [odoo8-addon-stock-reserve]: New version: [8.0.0.2.0.99.dev9] Old Version: [8.0.0.2.0.99.dev49]
+[2023-06-10 07:20:55] INFO root fetch - processPackages [asp-chef-cli]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-10 07:20:55] INFO root fetch - processPackages [rai-test-utils]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-10 07:20:55] INFO root fetch - processPackages [odoo13-addon-stock-reserve]: New version: [13.0.1.0.1.dev9] Old Version: [13.0.1.0.1.dev8]
+[2023-06-10 07:20:55] INFO root fetch - processPackages [archs4py]: Downloading https://files.pythonhosted.org/packages/b1/61/d1b165be18ffdb7583fa265e7855139e24a944f2c578a419b51bedc6b5fe/archs4py-0.2.5.tar.gz
+[2023-06-10 07:20:55] INFO root fetch - processPackages [odoo9-addon-stock-reserve]: New version: [9.0.1.0.0.99.dev9] Old Version: [9.0.1.0.0.99.dev8]
+[2023-06-10 07:20:55] INFO root fetch - processPackages [odoo14-addon-stock-reserve]: New version: [14.0.2.0.1.dev9] Old Version: [14.0.2.0.1.dev7]
+[2023-06-10 07:20:55] INFO root fetch - processPackages [odoo-addon-stock-reserve]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2023-06-10 07:20:55] INFO root fetch - processPackages [tflite-runtime-nightly]: New version: [2.14.0.dev20230609] Old Version: [2.14.0.dev20230607]
+[2023-06-10 07:20:55] INFO root fetch - processPackages [odoo8-addon-stock-reserve]: Downloading https://files.pythonhosted.org/packages/37/c6/ade6a4547e6f67022ec0599ed528523eaf94b4d37457a5d9d1cf7425de43/odoo8_addon_stock_reserve-8.0.0.2.0.99.dev49-py2-none-any.whl
+[2023-06-10 07:20:55] INFO root fetch - processPackages [odoo10-addon-stock-reserve]: Downloading https://files.pythonhosted.org/packages/a9/2a/800766ac4f7c7c8216f5ad8b92e038f1509905403afbd66bfe8dcf0c96bd/odoo10_addon_stock_reserve-10.0.1.0.1.99.dev6-py2-none-any.whl
+[2023-06-10 07:20:55] INFO root fetch - processPackages [odoo9-addon-stock-reserve]: Downloading https://files.pythonhosted.org/packages/ed/fe/dd5f4504690076d4e9233b0dba66b9c0b54b1add8be14210392c74bcdc8a/odoo9_addon_stock_reserve-9.0.1.0.0.99.dev8-py2-none-any.whl
+[2023-06-10 07:20:55] INFO root fetch - processPackages [rai-test-utils]: Downloading https://files.pythonhosted.org/packages/fc/02/312d1eddfd781cbc5b16e47664a96ef38df809d54072419057e0fb832890/rai_test_utils-0.2.0.tar.gz
+[2023-06-10 07:20:55] INFO root fetch - processPackages [asp-chef-cli]: Downloading https://files.pythonhosted.org/packages/3f/cf/5263982e870c4674245e56d23ab850d1b23abf8fcbb15922521237375ae4/asp_chef_cli-0.1.3.tar.gz
+[2023-06-10 07:20:55] INFO root fetch - processPackages [odoo13-addon-stock-reserve]: Downloading https://files.pythonhosted.org/packages/a9/0a/9d68213937f944f2af055a5c12ad0b8b5545a001237130fd2cd4a0e1fc70/odoo13_addon_stock_reserve-13.0.1.0.1.dev8-py3-none-any.whl
+[2023-06-10 07:20:55] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/74/2c/b4df2f63ab168e6cfa1e156d48cbb9810d9572bcc91afcb88b7391a97b66/tflite_runtime_nightly-2.14.0.dev20230607-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-10 07:20:55] INFO root fetch - processPackages [odoo14-addon-stock-reserve]: Downloading https://files.pythonhosted.org/packages/0c/0e/9160a03469c2d6b50e9877ca96467fa6eeab0047917a9c0b388f330efb00/odoo14_addon_stock_reserve-14.0.2.0.1.dev7-py3-none-any.whl
+[2023-06-10 07:20:55] INFO root fetch - processPackages [odoo-addon-stock-reserve]: Downloading https://files.pythonhosted.org/packages/46/03/e11887ace390934dc27599897820694108e6f1304b7da6a46f7be631e43d/odoo_addon_stock_reserve-16.0.1.0.0.2-py3-none-any.whl
+[2023-06-10 07:20:55] INFO root fetch - processPackages [archs4py]: Downloading https://files.pythonhosted.org/packages/61/22/92ff4eb2e562a81e579da86afb3b2511750a817b38b89bf5ba4f66041804/archs4py-0.2.6.tar.gz
+[2023-06-10 07:20:56] INFO root fetch - processPackages [rai-test-utils]: Downloading https://files.pythonhosted.org/packages/57/b8/279c08e8bbfb571f10be2be64a25611189e5e230f4554fc4fd221dd79d4d/rai_test_utils-0.3.0.tar.gz
+[2023-06-10 07:20:56] INFO root fetch - processPackages [odoo9-addon-stock-reserve]: Downloading https://files.pythonhosted.org/packages/97/33/7df26a1754dc584040c91af70743933147c2d918ded51b72d89070bfa7c1/odoo9_addon_stock_reserve-9.0.1.0.0.99.dev9-py2-none-any.whl
+[2023-06-10 07:20:56] INFO root fetch - processPackages [asp-chef-cli]: Downloading https://files.pythonhosted.org/packages/f0/d4/7d842ee331d608dea612cfb0e1cf4c44c99385f26793e5df7ac1e0c1fbce/asp_chef_cli-0.1.4.tar.gz
+[2023-06-10 07:20:56] INFO root fetch - processPackages [archs4py]: executing diffoscope
+[2023-06-10 07:20:56] INFO root fetch - processPackages [archs4py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/archs4py-0.2.5.tar.gz tmp/archs4py-0.2.6.tar.gz --markdown 20230610/a/archs4py/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-06-10 07:20:56] INFO root fetch - processPackages [odoo13-addon-stock-reserve]: Downloading https://files.pythonhosted.org/packages/c2/3c/13e28e0348adf1e2a1e7d7812e286cd28ef19752c7f51e5a8f75543ff083/odoo13_addon_stock_reserve-13.0.1.0.1.dev9-py3-none-any.whl
+[2023-06-10 07:20:56] INFO root fetch - processPackages [odoo8-addon-stock-reserve]: Downloading https://files.pythonhosted.org/packages/2b/fc/52a18db18c4d8e7fe2c33533caadcdf30cf9c5c0d007edd575bb1cf90fd2/odoo8_addon_stock_reserve-8.0.0.2.0.99.dev9-py2-none-any.whl
+[2023-06-10 07:20:56] INFO root fetch - processPackages [odoo10-addon-stock-reserve]: Downloading https://files.pythonhosted.org/packages/b0/3d/f314619ebb82ff732bf892c25c8c0a523b86382cd6de8fd34326d103bc74/odoo10_addon_stock_reserve-10.0.1.0.1.99.dev7-py2-none-any.whl
+[2023-06-10 07:20:56] INFO root fetch - processPackages [rai-test-utils]: executing diffoscope
+[2023-06-10 07:20:56] INFO root fetch - processPackages [rai-test-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rai_test_utils-0.2.0.tar.gz tmp/rai_test_utils-0.3.0.tar.gz --markdown 20230610/r/rai-test-utils/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-10 07:20:56] INFO root fetch - processPackages [asp-chef-cli]: executing diffoscope
+[2023-06-10 07:20:56] INFO root fetch - processPackages [asp-chef-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asp_chef_cli-0.1.3.tar.gz tmp/asp_chef_cli-0.1.4.tar.gz --markdown 20230610/a/asp-chef-cli/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-10 07:20:56] INFO root fetch - processPackages [odoo14-addon-stock-reserve]: Downloading https://files.pythonhosted.org/packages/56/6d/837cc14e92f32d6c4c7808334546c9f01f1be45a9c48a7d62f61fc085564/odoo14_addon_stock_reserve-14.0.2.0.1.dev9-py3-none-any.whl
+[2023-06-10 07:20:56] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/0c/7f/ad81b255163be5e5889a7e80d2e2824f72a27610e6dc2fe89bfccea8bfa0/tflite_runtime_nightly-2.14.0.dev20230609-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-10 07:20:56] INFO root fetch - processPackages [odoo13-addon-stock-reserve]: executing diffoscope
+[2023-06-10 07:20:56] INFO root fetch - processPackages [odoo13-addon-stock-reserve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_stock_reserve-13.0.1.0.1.dev8-py3-none-any.whl.zip tmp/odoo13_addon_stock_reserve-13.0.1.0.1.dev9-py3-none-any.whl.zip --markdown 20230610/o/odoo13-addon-stock-reserve/13.0.1.0.1.dev8-13.0.1.0.1.dev9/diff.md --exclude *.pyd
+[2023-06-10 07:20:56] INFO root fetch - processPackages [odoo-addon-stock-reserve]: Downloading https://files.pythonhosted.org/packages/ce/96/d7cd5133ab9ad17a8062ec05540cbae5b00f02231c233545152b724f7481/odoo_addon_stock_reserve-16.0.1.0.0.3-py3-none-any.whl
+[2023-06-10 07:20:56] INFO root fetch - processPackages [odoo10-addon-stock-reserve]: executing diffoscope
+[2023-06-10 07:20:56] INFO root fetch - processPackages [odoo10-addon-stock-reserve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo10_addon_stock_reserve-10.0.1.0.1.99.dev6-py2-none-any.whl.zip tmp/odoo10_addon_stock_reserve-10.0.1.0.1.99.dev7-py2-none-any.whl.zip --markdown 20230610/o/odoo10-addon-stock-reserve/10.0.1.0.1.99.dev6-10.0.1.0.1.99.dev7/diff.md --exclude *.pyd
+[2023-06-10 07:20:56] INFO root fetch - processPackages [odoo14-addon-stock-reserve]: executing diffoscope
+[2023-06-10 07:20:56] INFO root fetch - processPackages [odoo14-addon-stock-reserve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_stock_reserve-14.0.2.0.1.dev7-py3-none-any.whl.zip tmp/odoo14_addon_stock_reserve-14.0.2.0.1.dev9-py3-none-any.whl.zip --markdown 20230610/o/odoo14-addon-stock-reserve/14.0.2.0.1.dev7-14.0.2.0.1.dev9/diff.md --exclude *.pyd
+[2023-06-10 07:20:56] INFO root fetch - processPackages [odoo-addon-stock-reserve]: executing diffoscope
+[2023-06-10 07:20:56] INFO root fetch - processPackages [odoo-addon-stock-reserve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_reserve-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_stock_reserve-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230610/o/odoo-addon-stock-reserve/16.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-06-10 07:20:56] INFO root fetch - processPackages [odoo9-addon-stock-reserve]: executing diffoscope
+[2023-06-10 07:20:56] INFO root fetch - processPackages [odoo9-addon-stock-reserve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_stock_reserve-9.0.1.0.0.99.dev8-py2-none-any.whl.zip tmp/odoo9_addon_stock_reserve-9.0.1.0.0.99.dev9-py2-none-any.whl.zip --markdown 20230610/o/odoo9-addon-stock-reserve/9.0.1.0.0.99.dev8-9.0.1.0.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-10 07:20:56] INFO root fetch - processPackages [tflite-runtime-nightly]: executing diffoscope
+[2023-06-10 07:20:56] INFO root fetch - processPackages [tflite-runtime-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite_runtime_nightly-2.14.0.dev20230607-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/tflite_runtime_nightly-2.14.0.dev20230609-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230610/t/tflite-runtime-nightly/2.14.0.dev20230607-2.14.0.dev20230609/diff.md --exclude *.pyd
+[2023-06-10 07:20:56] INFO root fetch - processPackages [odoo8-addon-stock-reserve]: executing diffoscope
+[2023-06-10 07:20:56] INFO root fetch - processPackages [odoo8-addon-stock-reserve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_stock_reserve-8.0.0.2.0.99.dev49-py2-none-any.whl.zip tmp/odoo8_addon_stock_reserve-8.0.0.2.0.99.dev9-py2-none-any.whl.zip --markdown 20230610/o/odoo8-addon-stock-reserve/8.0.0.2.0.99.dev49-8.0.0.2.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-10 07:20:57] INFO root fetch - processPackages [rai-test-utils]: Remove: archive file [/home/abi/fetcher/tmp/rai_test_utils-0.2.0.tar.gz]
+[2023-06-10 07:20:57] INFO root fetch - processPackages [rai-test-utils]: Remove: archive file [/home/abi/fetcher/tmp/rai_test_utils-0.3.0.tar.gz]
+[2023-06-10 07:20:57] INFO root fetch - processPackages [rai-test-utils]: Start processing: syncdsgen
+[2023-06-10 07:20:57] INFO root fetch - main [MainThread]: End processing [rai-test-utils]: success
+[2023-06-10 07:20:57] INFO root fetch - processPackages [asp-chef-cli]: Remove: archive file [/home/abi/fetcher/tmp/asp_chef_cli-0.1.3.tar.gz]
+[2023-06-10 07:20:57] INFO root fetch - processPackages [asp-chef-cli]: Remove: archive file [/home/abi/fetcher/tmp/asp_chef_cli-0.1.4.tar.gz]
+[2023-06-10 07:20:57] INFO root fetch - main [MainThread]: End processing [asp-chef-cli]: success
+[2023-06-10 07:20:57] INFO root fetch - processPackages [syncdsgen]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-10 07:20:57] INFO root fetch - processPackages [syncdsgen]: Downloading https://files.pythonhosted.org/packages/42/f5/fcbc3d356829430ae9e4072dff1b760a52e840dc340cdfcb877efde987b5/syncdsgen-0.0.8.tar.gz
+[2023-06-10 07:20:57] INFO root fetch - processPackages [archs4py]: Remove: archive file [/home/abi/fetcher/tmp/archs4py-0.2.5.tar.gz]
+[2023-06-10 07:20:57] INFO root fetch - processPackages [archs4py]: Remove: archive file [/home/abi/fetcher/tmp/archs4py-0.2.6.tar.gz]
+[2023-06-10 07:20:57] INFO root fetch - main [MainThread]: End processing [archs4py]: success
+[2023-06-10 07:20:57] INFO root fetch - processPackages [syncdsgen]: Downloading https://files.pythonhosted.org/packages/67/ce/38dc0121eb6b4b76ef65cafd686d5796945e1a2d3d60e2a866236ef16775/syncdsgen-0.0.9.tar.gz
+[2023-06-10 07:20:58] INFO root fetch - processPackages [syncdsgen]: executing diffoscope
+[2023-06-10 07:20:58] INFO root fetch - processPackages [syncdsgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syncdsgen-0.0.8.tar.gz tmp/syncdsgen-0.0.9.tar.gz --markdown 20230610/s/syncdsgen/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-10 07:20:58] INFO root fetch - processPackages [odoo13-addon-stock-reserve]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_stock_reserve-13.0.1.0.1.dev8-py3-none-any.whl.zip]
+[2023-06-10 07:20:58] INFO root fetch - processPackages [odoo13-addon-stock-reserve]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_stock_reserve-13.0.1.0.1.dev9-py3-none-any.whl.zip]
+[2023-06-10 07:20:58] INFO root fetch - main [MainThread]: End processing [odoo13-addon-stock-reserve]: success
+[2023-06-10 07:20:58] INFO root fetch - processPackages [odoo10-addon-stock-reserve]: Remove: archive file [/home/abi/fetcher/tmp/odoo10_addon_stock_reserve-10.0.1.0.1.99.dev6-py2-none-any.whl.zip]
+[2023-06-10 07:20:58] INFO root fetch - processPackages [odoo10-addon-stock-reserve]: Remove: archive file [/home/abi/fetcher/tmp/odoo10_addon_stock_reserve-10.0.1.0.1.99.dev7-py2-none-any.whl.zip]
+[2023-06-10 07:20:58] INFO root fetch - main [MainThread]: End processing [odoo10-addon-stock-reserve]: success
+[2023-06-10 07:20:58] INFO root fetch - processPackages [odoo8-addon-stock-reserve]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_stock_reserve-8.0.0.2.0.99.dev49-py2-none-any.whl.zip]
+[2023-06-10 07:20:58] INFO root fetch - processPackages [odoo8-addon-stock-reserve]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_stock_reserve-8.0.0.2.0.99.dev9-py2-none-any.whl.zip]
+[2023-06-10 07:20:58] INFO root fetch - main [MainThread]: End processing [odoo8-addon-stock-reserve]: success
+[2023-06-10 07:20:58] INFO root fetch - processPackages [odoo9-addon-stock-reserve]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_stock_reserve-9.0.1.0.0.99.dev8-py2-none-any.whl.zip]
+[2023-06-10 07:20:58] INFO root fetch - processPackages [odoo9-addon-stock-reserve]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_stock_reserve-9.0.1.0.0.99.dev9-py2-none-any.whl.zip]
+[2023-06-10 07:20:58] INFO root fetch - main [MainThread]: End processing [odoo9-addon-stock-reserve]: success
+[2023-06-10 07:20:59] INFO root fetch - processPackages [syncdsgen]: Remove: archive file [/home/abi/fetcher/tmp/syncdsgen-0.0.8.tar.gz]
+[2023-06-10 07:20:59] INFO root fetch - processPackages [syncdsgen]: Remove: archive file [/home/abi/fetcher/tmp/syncdsgen-0.0.9.tar.gz]
+[2023-06-10 07:20:59] INFO root fetch - main [MainThread]: End processing [syncdsgen]: success
+[2023-06-10 07:20:59] INFO root fetch - processPackages [odoo14-addon-stock-reserve]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_stock_reserve-14.0.2.0.1.dev7-py3-none-any.whl.zip]
+[2023-06-10 07:20:59] INFO root fetch - processPackages [odoo14-addon-stock-reserve]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_stock_reserve-14.0.2.0.1.dev9-py3-none-any.whl.zip]
+[2023-06-10 07:20:59] INFO root fetch - main [MainThread]: End processing [odoo14-addon-stock-reserve]: success
+[2023-06-10 07:20:59] INFO root fetch - processPackages [odoo-addon-stock-reserve]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_reserve-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-10 07:20:59] INFO root fetch - processPackages [odoo-addon-stock-reserve]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_reserve-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-06-10 07:20:59] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-reserve]: success
+[2023-06-10 07:21:30] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.14.0.dev20230607-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-06-10 07:21:30] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.14.0.dev20230609-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-06-10 07:21:30] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
+[2023-06-10 07:21:30] INFO root fetch - main [MainThread]: Store serial: [18448791]
