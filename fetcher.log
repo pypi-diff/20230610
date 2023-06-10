@@ -7298,3 +7298,53 @@ EOFError: EOF read where object expected
 [2023-06-10 05:37:28] INFO root fetch - processPackages [llama-cpp-python]: Remove: archive file [/home/abi/fetcher/tmp/llama_cpp_python-0.1.9.tar.gz]
 [2023-06-10 05:37:28] INFO root fetch - main [MainThread]: End processing [llama-cpp-python]: success
 [2023-06-10 05:37:28] INFO root fetch - main [MainThread]: Store serial: [18448457]
+[2023-06-10 05:42:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18448457]
+[2023-06-10 05:42:36] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-10 05:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: darwinio
+[2023-06-10 05:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: opencv-python-rolling
+[2023-06-10 05:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: opencv-contrib-python-rolling
+[2023-06-10 05:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: opencv-python-headless-rolling
+[2023-06-10 05:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: opencv-contrib-python-headless-rolling
+[2023-06-10 05:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: henipipe
+[2023-06-10 05:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: multibot
+[2023-06-10 05:42:36] INFO root fetch - processPackages [darwinio]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-10 05:42:36] INFO root fetch - processPackages [opencv-python-rolling]: New version: [5.0.0.20221015] Old Version: [5.0.0.20221008]
+[2023-06-10 05:42:36] INFO root fetch - processPackages [opencv-contrib-python-headless-rolling]: New version: [5.0.0.20221015] Old Version: [5.0.0.20221008]
+[2023-06-10 05:42:36] INFO root fetch - processPackages [opencv-python-headless-rolling]: New version: [5.0.0.20221015] Old Version: [5.0.0.20221008]
+[2023-06-10 05:42:36] INFO root fetch - processPackages [opencv-contrib-python-rolling]: New version: [5.0.0.20221015] Old Version: [5.0.0.20221008]
+[2023-06-10 05:42:36] INFO root fetch - processPackages [multibot]: New version: [1.9.3] Old Version: [1.9.2]
+[2023-06-10 05:42:36] INFO root fetch - processPackages [henipipe]: New version: [2.4.8] Old Version: [2.4.7]
+[2023-06-10 05:42:36] INFO root fetch - processPackages [darwinio]: Downloading https://files.pythonhosted.org/packages/28/e1/58074fe4307a6e3dee8a9ddaaea178b2554ffab4a2992b212b95925fc9ce/darwinio-0.0.4.tar.gz
+[2023-06-10 05:42:36] INFO root fetch - processPackages [opencv-python-rolling]: Downloading https://files.pythonhosted.org/packages/32/6b/7a25c64d9114c7637e2850826c668c26d8ede5a8c04b15aa282508321da4/opencv_python_rolling-5.0.0.20221008-cp37-abi3-macosx_11_0_arm64.whl
+[2023-06-10 05:42:36] INFO root fetch - processPackages [opencv-contrib-python-rolling]: Downloading https://files.pythonhosted.org/packages/a3/97/2ea0710c3f154811d2c12291ed7a678dfa7a588f7a9e27440b9f9372a38a/opencv_contrib_python_rolling-5.0.0.20221008-cp37-abi3-macosx_11_0_arm64.whl
+[2023-06-10 05:42:36] INFO root fetch - processPackages [opencv-python-headless-rolling]: Downloading https://files.pythonhosted.org/packages/7f/d0/e5b36f57680408f36da0f3aa7615e343b05d5b08ec0548429a4cbcd9665b/opencv_python_headless_rolling-5.0.0.20221008-cp37-abi3-macosx_11_0_arm64.whl
+[2023-06-10 05:42:36] INFO root fetch - processPackages [opencv-contrib-python-headless-rolling]: Downloading https://files.pythonhosted.org/packages/52/d9/7ef539a10bce311d1e398e2ef46180316e0709bb45fe3c96989015f61412/opencv_contrib_python_headless_rolling-5.0.0.20221008-cp37-abi3-macosx_11_0_arm64.whl
+[2023-06-10 05:42:36] WARNING root fetch - processPackages [opencv-python-rolling]: Skipping package: exceeds size limit 32729233>=10485760
+[2023-06-10 05:42:36] INFO root fetch - main [MainThread]: End processing [opencv-python-rolling] error
+[2023-06-10 05:42:37] INFO root fetch - processPackages [henipipe]: Downloading https://files.pythonhosted.org/packages/6a/24/bb7cb8a90d8fd0f9939e4306646737f6c0cb7f65e407d4091a65c538f6fb/henipipe-2.4.7.tar.gz
+[2023-06-10 05:42:37] INFO root fetch - processPackages [multibot]: Downloading https://files.pythonhosted.org/packages/4b/30/070675161ed1061b65bae5e6435bd382fc17bc71f276288b164e2ea3b711/multibot-1.9.2.tar.gz
+[2023-06-10 05:42:37] INFO root fetch - processPackages [darwinio]: Downloading https://files.pythonhosted.org/packages/ba/e3/504348b7e78bfccd5c7e63460e2acde28cab5df883489e0faded46ef8fdf/darwinio-0.0.5.tar.gz
+[2023-06-10 05:42:37] INFO root fetch - processPackages [darwinio]: executing diffoscope
+[2023-06-10 05:42:37] INFO root fetch - processPackages [darwinio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/darwinio-0.0.4.tar.gz tmp/darwinio-0.0.5.tar.gz --markdown 20230610/d/darwinio/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-10 05:42:37] INFO root fetch - processPackages [henipipe]: Downloading https://files.pythonhosted.org/packages/1a/3c/a7772f6d85e24a88b6588662449af6e89f6e47cad7932500da296e608c92/henipipe-2.4.8.tar.gz
+[2023-06-10 05:42:37] INFO root fetch - processPackages [multibot]: Downloading https://files.pythonhosted.org/packages/7b/ad/68e4553af23b2912f9c0e0610affef340221e49979359e823b97b395b5af/multibot-1.9.3.tar.gz
+[2023-06-10 05:42:37] WARNING root fetch - processPackages [opencv-python-headless-rolling]: Skipping package: exceeds size limit 32729352>=10485760
+[2023-06-10 05:42:37] INFO root fetch - main [MainThread]: End processing [opencv-python-headless-rolling] error
+[2023-06-10 05:42:37] WARNING root fetch - processPackages [opencv-contrib-python-rolling]: Skipping package: exceeds size limit 43085134>=10485760
+[2023-06-10 05:42:37] INFO root fetch - main [MainThread]: End processing [opencv-contrib-python-rolling] error
+[2023-06-10 05:42:37] INFO root fetch - processPackages [henipipe]: executing diffoscope
+[2023-06-10 05:42:37] INFO root fetch - processPackages [henipipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/henipipe-2.4.7.tar.gz tmp/henipipe-2.4.8.tar.gz --markdown 20230610/h/henipipe/2.4.7-2.4.8/diff.md --exclude *.pyd
+[2023-06-10 05:42:37] INFO root fetch - processPackages [multibot]: executing diffoscope
+[2023-06-10 05:42:37] INFO root fetch - processPackages [multibot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multibot-1.9.2.tar.gz tmp/multibot-1.9.3.tar.gz --markdown 20230610/m/multibot/1.9.2-1.9.3/diff.md --exclude *.pyd
+[2023-06-10 05:42:37] WARNING root fetch - processPackages [opencv-contrib-python-headless-rolling]: Skipping package: exceeds size limit 42759572>=10485760
+[2023-06-10 05:42:37] INFO root fetch - main [MainThread]: End processing [opencv-contrib-python-headless-rolling] error
+[2023-06-10 05:42:38] INFO root fetch - processPackages [henipipe]: Remove: archive file [/home/abi/fetcher/tmp/henipipe-2.4.7.tar.gz]
+[2023-06-10 05:42:38] INFO root fetch - processPackages [henipipe]: Remove: archive file [/home/abi/fetcher/tmp/henipipe-2.4.8.tar.gz]
+[2023-06-10 05:42:38] INFO root fetch - main [MainThread]: End processing [henipipe]: success
+[2023-06-10 05:42:38] INFO root fetch - processPackages [multibot]: Remove: archive file [/home/abi/fetcher/tmp/multibot-1.9.2.tar.gz]
+[2023-06-10 05:42:38] INFO root fetch - processPackages [multibot]: Remove: archive file [/home/abi/fetcher/tmp/multibot-1.9.3.tar.gz]
+[2023-06-10 05:42:38] INFO root fetch - main [MainThread]: End processing [multibot]: success
+[2023-06-10 05:43:32] INFO root fetch - processPackages [darwinio]: Remove: archive file [/home/abi/fetcher/tmp/darwinio-0.0.4.tar.gz]
+[2023-06-10 05:43:32] INFO root fetch - processPackages [darwinio]: Remove: archive file [/home/abi/fetcher/tmp/darwinio-0.0.5.tar.gz]
+[2023-06-10 05:43:32] INFO root fetch - main [MainThread]: End processing [darwinio]: success
+[2023-06-10 05:43:32] INFO root fetch - main [MainThread]: Store serial: [18448484]
