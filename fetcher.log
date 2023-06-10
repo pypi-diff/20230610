@@ -9609,3 +9609,72 @@ EOFError: EOF read where object expected
 [2023-06-10 10:47:34] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
 [2023-06-10 10:47:34] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
 [2023-06-10 10:47:34] INFO root fetch - main [MainThread]: Store serial: [18449613]
+[2023-06-10 10:52:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18449613]
+[2023-06-10 10:52:43] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-10 10:52:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tf-nightly
+[2023-06-10 10:52:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pipeline-feature
+[2023-06-10 10:52:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: llama-index
+[2023-06-10 10:52:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pipe21
+[2023-06-10 10:52:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gpt-index
+[2023-06-10 10:52:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pipeline-feature
+[2023-06-10 10:52:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: promptengine-catapult
+[2023-06-10 10:52:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: chatdocs
+[2023-06-10 10:52:43] INFO root fetch - processPackages [promptengine-catapult]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-06-10 10:52:43] INFO root fetch - processPackages [pipeline-feature]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-10 10:52:43] INFO root fetch - processPackages [llama-index]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-10 10:52:43] INFO root fetch - processPackages [pipe21]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-10 10:52:43] INFO root fetch - processPackages [chatdocs]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-10 10:52:43] INFO root fetch - processPackages [pipeline-feature]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-10 10:52:43] INFO root fetch - processPackages [gpt-index]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-10 10:52:43] INFO root fetch - processPackages [promptengine-catapult]: Downloading https://files.pythonhosted.org/packages/46/54/ca6515edb7a00fb4815d25cf94901ee27e31e19446a1afd1382b2991f89d/promptengine_catapult-0.0.9.tar.gz
+[2023-06-10 10:52:43] INFO root fetch - processPackages [pipeline-feature]: Downloading https://files.pythonhosted.org/packages/f3/4a/2e80d65029b16741c3837546037e85683a420fa8ed5653d5378655998e68/pipeline-feature-0.0.8.tar.gz
+[2023-06-10 10:52:43] INFO root fetch - processPackages [pipeline-feature]: Downloading https://files.pythonhosted.org/packages/f3/4a/2e80d65029b16741c3837546037e85683a420fa8ed5653d5378655998e68/pipeline-feature-0.0.8.tar.gz
+[2023-06-10 10:52:43] INFO root fetch - processPackages [pipe21]: Downloading https://files.pythonhosted.org/packages/51/39/24c442c6db5e924109871bfd746531a14c6069a8f9b3e456e72c8efa05cd/pipe21-1.8.0.tar.gz
+[2023-06-10 10:52:43] INFO root fetch - processPackages [tf-nightly]: New version: [2.14.0.dev20230610] Old Version: [2.14.0.dev20230609]
+[2023-06-10 10:52:43] INFO root fetch - processPackages [pipeline-feature]: Downloading https://files.pythonhosted.org/packages/2d/7d/8d87cbdf414b1b7a2a9cc9b2bd5f360572b7da334ce7f3ff61009413e3d6/pipeline-feature-0.0.9.tar.gz
+[2023-06-10 10:52:43] INFO root fetch - processPackages [llama-index]: Downloading https://files.pythonhosted.org/packages/f3/a4/8fcac26c887b38aa528079ee4a511159fe89337c438c32c575ef70afe1dc/llama_index-0.6.8.tar.gz
+[2023-06-10 10:52:43] INFO root fetch - processPackages [pipeline-feature]: executing diffoscope
+[2023-06-10 10:52:43] INFO root fetch - processPackages [pipeline-feature]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipeline-feature-0.0.8.tar.gz tmp/pipeline-feature-0.0.9.tar.gz --markdown 20230610/p/pipeline-feature/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-10 10:52:43] INFO root fetch - processPackages [pipeline-feature]: executing diffoscope
+[2023-06-10 10:52:43] INFO root fetch - processPackages [pipeline-feature]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipeline-feature-0.0.8.tar.gz tmp/pipeline-feature-0.0.9.tar.gz --markdown 20230610/p/pipeline-feature/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-10 10:52:43] INFO root fetch - processPackages [gpt-index]: Downloading https://files.pythonhosted.org/packages/39/ed/965dee00b18d04a9e723c02a028442b257e1b226780861f81ac52cd324ba/gpt_index-0.6.8.tar.gz
+[2023-06-10 10:52:43] INFO root fetch - processPackages [pipe21]: Downloading https://files.pythonhosted.org/packages/06/d2/ce18067a3e0d49128faaaa14a4a4c575a2c94bb1d4faf3fdbfec1625ee96/pipe21-1.9.0.tar.gz
+[2023-06-10 10:52:43] INFO root fetch - processPackages [chatdocs]: Downloading https://files.pythonhosted.org/packages/4b/08/c8de5aca22b7674d8bab0793a55ad319ce1d4f08c28b6cdc3850de6d6526/chatdocs-0.2.2.tar.gz
+[2023-06-10 10:52:43] INFO root fetch - processPackages [pipe21]: executing diffoscope
+[2023-06-10 10:52:43] INFO root fetch - processPackages [pipe21]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipe21-1.8.0.tar.gz tmp/pipe21-1.9.0.tar.gz --markdown 20230610/p/pipe21/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-10 10:52:43] INFO root fetch - processPackages [promptengine-catapult]: Downloading https://files.pythonhosted.org/packages/4b/6c/5b379d0a9de72d458002541f2d0675f4de6ffbad663172255d2680e6df0f/promptengine_catapult-0.1.0.tar.gz
+[2023-06-10 10:52:43] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/90/37/c5acdab704c3b72a2e677c136b070ace36041c5298dc310bda752713d9ff/tf_nightly-2.14.0.dev20230609-cp39-cp39-win_amd64.whl
+[2023-06-10 10:52:43] INFO root fetch - processPackages [promptengine-catapult]: executing diffoscope
+[2023-06-10 10:52:43] INFO root fetch - processPackages [promptengine-catapult]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptengine_catapult-0.0.9.tar.gz tmp/promptengine_catapult-0.1.0.tar.gz --markdown 20230610/p/promptengine-catapult/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-06-10 10:52:43] INFO root fetch - processPackages [gpt-index]: Downloading https://files.pythonhosted.org/packages/fd/af/29feddbce0290a3ddaa8adad399a5fa0c83d3d4d9637bf47751161c55d5c/gpt_index-0.6.9.tar.gz
+[2023-06-10 10:52:43] INFO root fetch - processPackages [chatdocs]: Downloading https://files.pythonhosted.org/packages/0a/7f/02cb3fcbea81c3afac12adb9c5e57732d377a77a6a1f8dc293bf50165a8d/chatdocs-0.2.3.tar.gz
+[2023-06-10 10:52:44] INFO root fetch - processPackages [chatdocs]: executing diffoscope
+[2023-06-10 10:52:44] INFO root fetch - processPackages [chatdocs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatdocs-0.2.2.tar.gz tmp/chatdocs-0.2.3.tar.gz --markdown 20230610/c/chatdocs/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-10 10:52:44] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/c4/d5/6403e07efe90bd1c32b15c41c6d2768c85f629561ec6eabd745598d3889d/tf_nightly-2.14.0.dev20230610-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-10 10:52:44] INFO root fetch - processPackages [gpt-index]: executing diffoscope
+[2023-06-10 10:52:44] INFO root fetch - processPackages [gpt-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_index-0.6.8.tar.gz tmp/gpt_index-0.6.9.tar.gz --markdown 20230610/g/gpt-index/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-06-10 10:52:44] WARNING root fetch - processPackages [tf-nightly]: Skipping package: exceeds size limit 490787922>=10485760
+[2023-06-10 10:52:44] INFO root fetch - main [MainThread]: End processing [tf-nightly] error
+[2023-06-10 10:52:44] INFO root fetch - processPackages [llama-index]: Downloading https://files.pythonhosted.org/packages/9c/96/62b5a23720114f0ce0f6331a1c6f89c27b66d44db7187a5632221f0d6f27/llama_index-0.6.9.tar.gz
+[2023-06-10 10:52:44] INFO root fetch - processPackages [llama-index]: executing diffoscope
+[2023-06-10 10:52:44] INFO root fetch - processPackages [llama-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index-0.6.8.tar.gz tmp/llama_index-0.6.9.tar.gz --markdown 20230610/l/llama-index/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-06-10 10:52:44] INFO root fetch - processPackages [pipeline-feature]: Remove: archive file [/home/abi/fetcher/tmp/pipeline-feature-0.0.8.tar.gz]
+[2023-06-10 10:52:44] INFO root fetch - processPackages [pipeline-feature]: Remove: archive file [/home/abi/fetcher/tmp/pipeline-feature-0.0.9.tar.gz]
+[2023-06-10 10:52:44] INFO root fetch - main [MainThread]: End processing [pipeline-feature]: success
+[2023-06-10 10:52:44] INFO root fetch - main [MainThread]: End processing [pipeline-feature]: success
+[2023-06-10 10:52:45] INFO root fetch - processPackages [promptengine-catapult]: Remove: archive file [/home/abi/fetcher/tmp/promptengine_catapult-0.0.9.tar.gz]
+[2023-06-10 10:52:45] INFO root fetch - processPackages [promptengine-catapult]: Remove: archive file [/home/abi/fetcher/tmp/promptengine_catapult-0.1.0.tar.gz]
+[2023-06-10 10:52:45] INFO root fetch - main [MainThread]: End processing [promptengine-catapult]: success
+[2023-06-10 10:52:45] INFO root fetch - processPackages [pipe21]: Remove: archive file [/home/abi/fetcher/tmp/pipe21-1.8.0.tar.gz]
+[2023-06-10 10:52:45] INFO root fetch - processPackages [pipe21]: Remove: archive file [/home/abi/fetcher/tmp/pipe21-1.9.0.tar.gz]
+[2023-06-10 10:52:45] INFO root fetch - main [MainThread]: End processing [pipe21]: success
+[2023-06-10 10:52:45] INFO root fetch - processPackages [chatdocs]: Remove: archive file [/home/abi/fetcher/tmp/chatdocs-0.2.2.tar.gz]
+[2023-06-10 10:52:45] INFO root fetch - processPackages [chatdocs]: Remove: archive file [/home/abi/fetcher/tmp/chatdocs-0.2.3.tar.gz]
+[2023-06-10 10:52:45] INFO root fetch - main [MainThread]: End processing [chatdocs]: success
+[2023-06-10 10:52:48] INFO root fetch - processPackages [gpt-index]: Remove: archive file [/home/abi/fetcher/tmp/gpt_index-0.6.8.tar.gz]
+[2023-06-10 10:52:48] INFO root fetch - processPackages [gpt-index]: Remove: archive file [/home/abi/fetcher/tmp/gpt_index-0.6.9.tar.gz]
+[2023-06-10 10:52:48] INFO root fetch - main [MainThread]: End processing [gpt-index]: success
+[2023-06-10 10:52:48] INFO root fetch - processPackages [llama-index]: Remove: archive file [/home/abi/fetcher/tmp/llama_index-0.6.8.tar.gz]
+[2023-06-10 10:52:48] INFO root fetch - processPackages [llama-index]: Remove: archive file [/home/abi/fetcher/tmp/llama_index-0.6.9.tar.gz]
+[2023-06-10 10:52:48] INFO root fetch - main [MainThread]: End processing [llama-index]: success
+[2023-06-10 10:52:48] INFO root fetch - main [MainThread]: Store serial: [18449636]
