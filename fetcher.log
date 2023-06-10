@@ -10846,3 +10846,45 @@ EOFError: EOF read where object expected
 [2023-06-10 13:20:04] INFO root fetch - processPackages [aliyun-python-sdk-market]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-market-2.0.24.tar.gz]
 [2023-06-10 13:20:04] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-market]: success
 [2023-06-10 13:20:04] INFO root fetch - main [MainThread]: Store serial: [18450178]
+[2023-06-10 13:25:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18450178]
+[2023-06-10 13:25:13] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-10 13:25:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: paper-qa
+[2023-06-10 13:25:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tb-nightly
+[2023-06-10 13:25:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hypha
+[2023-06-10 13:25:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: DefyDatabase
+[2023-06-10 13:25:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pautobot
+[2023-06-10 13:25:13] WARNING root fetch - processPackages [DefyDatabase]: Skipping, unable to determine old version
+[2023-06-10 13:25:13] INFO root fetch - main [MainThread]: End processing [DefyDatabase] error
+[2023-06-10 13:25:13] INFO root fetch - processPackages [pautobot]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-10 13:25:13] INFO root fetch - processPackages [hypha]: New version: [0.15.8] Old Version: [0.15.7]
+[2023-06-10 13:25:13] INFO root fetch - processPackages [paper-qa]: New version: [3.0.0.dev1] Old Version: [3.0.0.dev0]
+[2023-06-10 13:25:13] INFO root fetch - processPackages [tb-nightly]: New version: [2.9.0a20220502] Old Version: [2.9.0a20220501]
+[2023-06-10 13:25:13] INFO root fetch - processPackages [pautobot]: Downloading https://files.pythonhosted.org/packages/9f/52/faeb139fbabfe65ff760254fa31f131fbb53bf96f7676f890b72a8b89175/pautobot-0.0.8.tar.gz
+[2023-06-10 13:25:13] INFO root fetch - processPackages [hypha]: Downloading https://files.pythonhosted.org/packages/3b/1c/2587650834b82f5294e81891a15c92e1504fc26a7cb3ea08be1d64f1236a/hypha-0.15.7.tar.gz
+[2023-06-10 13:25:13] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/cc/bf/76bb32cf070e37f4b777ed5596c5d082fb60a1bfc06e9463401d07021a8a/tb_nightly-2.9.0a20220501-py3-none-any.whl
+[2023-06-10 13:25:13] INFO root fetch - processPackages [paper-qa]: Downloading https://files.pythonhosted.org/packages/07/4d/55dcc099034f935b5773debc0bbaf38b867fddaed963a2d0c2b4250d92b5/paper-qa-3.0.0.dev0.tar.gz
+[2023-06-10 13:25:13] INFO root fetch - processPackages [pautobot]: Downloading https://files.pythonhosted.org/packages/f4/f6/5ec6aeb2fd8851a6cc459db4ba7278878ac6e26fb247f3e18b9d99d1c394/pautobot-0.0.9.tar.gz
+[2023-06-10 13:25:13] INFO root fetch - processPackages [hypha]: Downloading https://files.pythonhosted.org/packages/5f/f5/974dbcd4812824cf3f90d85490f8c6b7df7931f35b4ea2b5bdb8cd72cdbf/hypha-0.15.8.tar.gz
+[2023-06-10 13:25:14] INFO root fetch - processPackages [hypha]: executing diffoscope
+[2023-06-10 13:25:14] INFO root fetch - processPackages [hypha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypha-0.15.7.tar.gz tmp/hypha-0.15.8.tar.gz --markdown 20230610/h/hypha/0.15.7-0.15.8/diff.md --exclude *.pyd
+[2023-06-10 13:25:14] INFO root fetch - processPackages [pautobot]: executing diffoscope
+[2023-06-10 13:25:14] INFO root fetch - processPackages [pautobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pautobot-0.0.8.tar.gz tmp/pautobot-0.0.9.tar.gz --markdown 20230610/p/pautobot/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-10 13:25:14] INFO root fetch - processPackages [paper-qa]: Downloading https://files.pythonhosted.org/packages/be/50/d2bcdb2a22c8333fdccbd96c98dc7a8a83d2ff19eebef7fb763ac761bf5c/paper-qa-3.0.0.dev1.tar.gz
+[2023-06-10 13:25:14] INFO root fetch - processPackages [paper-qa]: executing diffoscope
+[2023-06-10 13:25:14] INFO root fetch - processPackages [paper-qa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paper-qa-3.0.0.dev0.tar.gz tmp/paper-qa-3.0.0.dev1.tar.gz --markdown 20230610/p/paper-qa/3.0.0.dev0-3.0.0.dev1/diff.md --exclude *.pyd
+[2023-06-10 13:25:15] INFO root fetch - processPackages [hypha]: Remove: archive file [/home/abi/fetcher/tmp/hypha-0.15.7.tar.gz]
+[2023-06-10 13:25:15] INFO root fetch - processPackages [hypha]: Remove: archive file [/home/abi/fetcher/tmp/hypha-0.15.8.tar.gz]
+[2023-06-10 13:25:15] INFO root fetch - main [MainThread]: End processing [hypha]: success
+[2023-06-10 13:25:15] INFO root fetch - processPackages [paper-qa]: Remove: archive file [/home/abi/fetcher/tmp/paper-qa-3.0.0.dev0.tar.gz]
+[2023-06-10 13:25:15] INFO root fetch - processPackages [paper-qa]: Remove: archive file [/home/abi/fetcher/tmp/paper-qa-3.0.0.dev1.tar.gz]
+[2023-06-10 13:25:15] INFO root fetch - main [MainThread]: End processing [paper-qa]: success
+[2023-06-10 13:25:15] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/68/8e/03bca092830a4abf26a80c7387b02478c5f948656cb79d63c1bffab65c00/tb_nightly-2.9.0a20220502-py3-none-any.whl
+[2023-06-10 13:25:15] INFO root fetch - processPackages [pautobot]: Remove: archive file [/home/abi/fetcher/tmp/pautobot-0.0.8.tar.gz]
+[2023-06-10 13:25:15] INFO root fetch - processPackages [pautobot]: Remove: archive file [/home/abi/fetcher/tmp/pautobot-0.0.9.tar.gz]
+[2023-06-10 13:25:15] INFO root fetch - main [MainThread]: End processing [pautobot]: success
+[2023-06-10 13:25:16] INFO root fetch - processPackages [tb-nightly]: executing diffoscope
+[2023-06-10 13:25:16] INFO root fetch - processPackages [tb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip --markdown 20230610/t/tb-nightly/2.9.0a20220501-2.9.0a20220502/diff.md --exclude *.pyd
+[2023-06-10 13:25:20] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip]
+[2023-06-10 13:25:20] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
+[2023-06-10 13:25:20] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
+[2023-06-10 13:25:20] INFO root fetch - main [MainThread]: Store serial: [18450193]
