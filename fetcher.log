@@ -17758,3 +17758,78 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-10 22:32:25] INFO root fetch - processPackages [add-trailing-comma]: Remove: archive file [/home/abi/fetcher/tmp/add_trailing_comma-2.5.0.tar.gz]
 [2023-06-10 22:32:25] INFO root fetch - main [MainThread]: End processing [add-trailing-comma]: success
 [2023-06-10 22:32:25] INFO root fetch - main [MainThread]: Store serial: [18453662]
+[2023-06-10 22:37:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18453662]
+[2023-06-10 22:37:34] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-10 22:37:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spotPython
+[2023-06-10 22:37:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: irvy
+[2023-06-10 22:37:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yesqa
+[2023-06-10 22:37:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: optimuslib
+[2023-06-10 22:37:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aioworkers-prometheus
+[2023-06-10 22:37:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tokenize-rt
+[2023-06-10 22:37:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: datoso
+[2023-06-10 22:37:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyeasee
+[2023-06-10 22:37:34] INFO root fetch - processPackages [spotPython]: New version: [0.2.9] Old Version: [0.2.7]
+[2023-06-10 22:37:34] INFO root fetch - processPackages [irvy]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-10 22:37:34] INFO root fetch - processPackages [yesqa]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-06-10 22:37:34] INFO root fetch - processPackages [aioworkers-prometheus]: New version: [0.6a1] Old Version: [0.5b5]
+[2023-06-10 22:37:34] INFO root fetch - processPackages [optimuslib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-10 22:37:34] INFO root fetch - processPackages [tokenize-rt]: New version: [5.1.0] Old Version: [5.0.0]
+[2023-06-10 22:37:34] INFO root fetch - processPackages [datoso]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-10 22:37:34] INFO root fetch - processPackages [pyeasee]: New version: [0.7.53] Old Version: [0.7.52]
+[2023-06-10 22:37:34] INFO root fetch - processPackages [irvy]: Downloading https://files.pythonhosted.org/packages/3b/49/27bce34319406832520606e30f51f9e359c749f8626c2b09410a40a22a1d/irvy-1.0.1.tar.gz
+[2023-06-10 22:37:34] INFO root fetch - processPackages [yesqa]: Downloading https://files.pythonhosted.org/packages/3e/95/1b860c569a9d2c23c0fa5a12426e1522776c4cb7cf1e3efc7e6f4f7749b7/yesqa-1.4.0.tar.gz
+[2023-06-10 22:37:34] INFO root fetch - processPackages [spotPython]: Downloading https://files.pythonhosted.org/packages/e0/e8/66abc5ef55725dff58c177d37db719ddbb6e37303ad19de0c22e9499aada/spotPython-0.2.7.tar.gz
+[2023-06-10 22:37:34] INFO root fetch - processPackages [optimuslib]: Downloading https://files.pythonhosted.org/packages/57/20/e8e01ccdf9190f201291d67ffef425d64270fcd7068a74d555a998548eef/optimuslib-0.0.8.tar.gz
+[2023-06-10 22:37:34] INFO root fetch - processPackages [tokenize-rt]: Downloading https://files.pythonhosted.org/packages/40/01/fb40ea8c465f680bf7aa3f5bee39c62ba8b7f52c38048c27aa95aff4f779/tokenize_rt-5.0.0.tar.gz
+[2023-06-10 22:37:34] INFO root fetch - processPackages [datoso]: Downloading https://files.pythonhosted.org/packages/b7/ad/96aea278ba47adbf72c8792e91da57a8e208920f25d90f01dc407b4f8598/datoso-0.3.0.tar.gz
+[2023-06-10 22:37:35] INFO root fetch - processPackages [pyeasee]: Downloading https://files.pythonhosted.org/packages/0f/93/448f73a88c2e386c95afb48dba97a2f42ace9589778531bcc471918ceb9d/pyeasee-0.7.52.tar.gz
+[2023-06-10 22:37:35] INFO root fetch - processPackages [aioworkers-prometheus]: Downloading https://files.pythonhosted.org/packages/93/af/56d612d2511b80e9debb963e33b573946f306add22b7db7ec6becc6ee02b/aioworkers-prometheus-0.5b5.tar.gz
+[2023-06-10 22:37:35] INFO root fetch - processPackages [yesqa]: Downloading https://files.pythonhosted.org/packages/9e/14/20b1afffaea2fe0259f40fcd489670496b86f76777db26b690f6042d38ff/yesqa-1.5.0.tar.gz
+[2023-06-10 22:37:35] INFO root fetch - processPackages [tokenize-rt]: Downloading https://files.pythonhosted.org/packages/73/07/fe750a9c98b1449fc11f9f2893bff3cd093ddf966441bc126c8ffc75c6f0/tokenize_rt-5.1.0.tar.gz
+[2023-06-10 22:37:35] INFO root fetch - processPackages [optimuslib]: Downloading https://files.pythonhosted.org/packages/0d/41/841c782b1a05dfdd5a62448da91fbf89069618daef1f764d05c3bc621557/optimuslib-0.0.9.tar.gz
+[2023-06-10 22:37:35] INFO root fetch - processPackages [datoso]: Downloading https://files.pythonhosted.org/packages/b3/8c/5164626a2af14b189f79401f5b032bacb1ba760ea334d62d86d24ef436c5/datoso-0.3.1.tar.gz
+[2023-06-10 22:37:35] INFO root fetch - processPackages [aioworkers-prometheus]: Downloading https://files.pythonhosted.org/packages/a4/97/d8a5e34b368a37ece234815a5ac7eb786def42757febabf6094e1649a66d/aioworkers_prometheus-0.6a1.tar.gz
+[2023-06-10 22:37:35] INFO root fetch - processPackages [irvy]: Downloading https://files.pythonhosted.org/packages/41/9f/9f1662fb9cf5f57354257223dc8b9061f8ff01a2bf02b18bbacb4b8d7361/irvy-1.0.2.tar.gz
+[2023-06-10 22:37:35] INFO root fetch - processPackages [yesqa]: executing diffoscope
+[2023-06-10 22:37:35] INFO root fetch - processPackages [yesqa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yesqa-1.4.0.tar.gz tmp/yesqa-1.5.0.tar.gz --markdown 20230610/y/yesqa/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-06-10 22:37:35] INFO root fetch - processPackages [pyeasee]: Downloading https://files.pythonhosted.org/packages/a8/5f/adecdc8bf6c365e1570aab4fefea1be79c780d49671ddac594f34b9a6a07/pyeasee-0.7.53.tar.gz
+[2023-06-10 22:37:35] INFO root fetch - processPackages [datoso]: executing diffoscope
+[2023-06-10 22:37:35] INFO root fetch - processPackages [datoso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datoso-0.3.0.tar.gz tmp/datoso-0.3.1.tar.gz --markdown 20230610/d/datoso/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-10 22:37:35] INFO root fetch - processPackages [optimuslib]: executing diffoscope
+[2023-06-10 22:37:35] INFO root fetch - processPackages [optimuslib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optimuslib-0.0.8.tar.gz tmp/optimuslib-0.0.9.tar.gz --markdown 20230610/o/optimuslib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-10 22:37:35] INFO root fetch - processPackages [tokenize-rt]: executing diffoscope
+[2023-06-10 22:37:35] INFO root fetch - processPackages [tokenize-rt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tokenize_rt-5.0.0.tar.gz tmp/tokenize_rt-5.1.0.tar.gz --markdown 20230610/t/tokenize-rt/5.0.0-5.1.0/diff.md --exclude *.pyd
+[2023-06-10 22:37:35] INFO root fetch - processPackages [irvy]: executing diffoscope
+[2023-06-10 22:37:35] INFO root fetch - processPackages [irvy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irvy-1.0.1.tar.gz tmp/irvy-1.0.2.tar.gz --markdown 20230610/i/irvy/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-10 22:37:35] INFO root fetch - processPackages [aioworkers-prometheus]: executing diffoscope
+[2023-06-10 22:37:35] INFO root fetch - processPackages [aioworkers-prometheus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioworkers-prometheus-0.5b5.tar.gz tmp/aioworkers_prometheus-0.6a1.tar.gz --markdown 20230610/a/aioworkers-prometheus/0.5b5-0.6a1/diff.md --exclude *.pyd
+[2023-06-10 22:37:35] INFO root fetch - processPackages [spotPython]: Downloading https://files.pythonhosted.org/packages/69/84/9402cf387c9dac34b67ddeb1b709382852df04dd7b304e52275a288c4f8c/spotPython-0.2.9.tar.gz
+[2023-06-10 22:37:35] INFO root fetch - processPackages [pyeasee]: executing diffoscope
+[2023-06-10 22:37:35] INFO root fetch - processPackages [pyeasee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyeasee-0.7.52.tar.gz tmp/pyeasee-0.7.53.tar.gz --markdown 20230610/p/pyeasee/0.7.52-0.7.53/diff.md --exclude *.pyd
+[2023-06-10 22:37:35] INFO root fetch - processPackages [spotPython]: executing diffoscope
+[2023-06-10 22:37:35] INFO root fetch - processPackages [spotPython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotPython-0.2.7.tar.gz tmp/spotPython-0.2.9.tar.gz --markdown 20230610/s/spotPython/0.2.7-0.2.9/diff.md --exclude *.pyd
+[2023-06-10 22:37:36] INFO root fetch - processPackages [optimuslib]: Remove: archive file [/home/abi/fetcher/tmp/optimuslib-0.0.8.tar.gz]
+[2023-06-10 22:37:36] INFO root fetch - processPackages [optimuslib]: Remove: archive file [/home/abi/fetcher/tmp/optimuslib-0.0.9.tar.gz]
+[2023-06-10 22:37:36] INFO root fetch - main [MainThread]: End processing [optimuslib]: success
+[2023-06-10 22:37:36] INFO root fetch - processPackages [yesqa]: Remove: archive file [/home/abi/fetcher/tmp/yesqa-1.4.0.tar.gz]
+[2023-06-10 22:37:36] INFO root fetch - processPackages [yesqa]: Remove: archive file [/home/abi/fetcher/tmp/yesqa-1.5.0.tar.gz]
+[2023-06-10 22:37:36] INFO root fetch - main [MainThread]: End processing [yesqa]: success
+[2023-06-10 22:37:36] INFO root fetch - processPackages [aioworkers-prometheus]: Remove: archive file [/home/abi/fetcher/tmp/aioworkers-prometheus-0.5b5.tar.gz]
+[2023-06-10 22:37:36] INFO root fetch - processPackages [aioworkers-prometheus]: Remove: archive file [/home/abi/fetcher/tmp/aioworkers_prometheus-0.6a1.tar.gz]
+[2023-06-10 22:37:36] INFO root fetch - main [MainThread]: End processing [aioworkers-prometheus]: success
+[2023-06-10 22:37:36] INFO root fetch - processPackages [tokenize-rt]: Remove: archive file [/home/abi/fetcher/tmp/tokenize_rt-5.0.0.tar.gz]
+[2023-06-10 22:37:37] INFO root fetch - processPackages [tokenize-rt]: Remove: archive file [/home/abi/fetcher/tmp/tokenize_rt-5.1.0.tar.gz]
+[2023-06-10 22:37:37] INFO root fetch - main [MainThread]: End processing [tokenize-rt]: success
+[2023-06-10 22:37:37] INFO root fetch - processPackages [irvy]: Remove: archive file [/home/abi/fetcher/tmp/irvy-1.0.1.tar.gz]
+[2023-06-10 22:37:37] INFO root fetch - processPackages [irvy]: Remove: archive file [/home/abi/fetcher/tmp/irvy-1.0.2.tar.gz]
+[2023-06-10 22:37:37] INFO root fetch - main [MainThread]: End processing [irvy]: success
+[2023-06-10 22:37:37] INFO root fetch - processPackages [pyeasee]: Remove: archive file [/home/abi/fetcher/tmp/pyeasee-0.7.52.tar.gz]
+[2023-06-10 22:37:37] INFO root fetch - processPackages [pyeasee]: Remove: archive file [/home/abi/fetcher/tmp/pyeasee-0.7.53.tar.gz]
+[2023-06-10 22:37:37] INFO root fetch - main [MainThread]: End processing [pyeasee]: success
+[2023-06-10 22:37:37] INFO root fetch - processPackages [datoso]: Remove: archive file [/home/abi/fetcher/tmp/datoso-0.3.0.tar.gz]
+[2023-06-10 22:37:37] INFO root fetch - processPackages [datoso]: Remove: archive file [/home/abi/fetcher/tmp/datoso-0.3.1.tar.gz]
+[2023-06-10 22:37:37] INFO root fetch - main [MainThread]: End processing [datoso]: success
+[2023-06-10 22:37:47] INFO root fetch - processPackages [spotPython]: Remove: archive file [/home/abi/fetcher/tmp/spotPython-0.2.7.tar.gz]
+[2023-06-10 22:37:47] INFO root fetch - processPackages [spotPython]: Remove: archive file [/home/abi/fetcher/tmp/spotPython-0.2.9.tar.gz]
+[2023-06-10 22:37:47] INFO root fetch - main [MainThread]: End processing [spotPython]: success
+[2023-06-10 22:37:47] INFO root fetch - main [MainThread]: Store serial: [18453693]
