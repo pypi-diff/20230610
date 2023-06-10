@@ -7585,3 +7585,50 @@ EOFError: EOF read where object expected
 [2023-06-10 06:20:53] INFO root fetch - processPackages [odoo12-addon-sale-multi-operating-unit]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_sale_multi_operating_unit-12.0.1.0.0.99.dev34-py3-none-any.whl.zip]
 [2023-06-10 06:20:53] INFO root fetch - main [MainThread]: End processing [odoo12-addon-sale-multi-operating-unit]: success
 [2023-06-10 06:20:53] INFO root fetch - main [MainThread]: Store serial: [18448553]
+[2023-06-10 06:25:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18448553]
+[2023-06-10 06:26:02] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-10 06:26:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fofa-workflow
+[2023-06-10 06:26:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: circuitpython-cst816
+[2023-06-10 06:26:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pbt
+[2023-06-10 06:26:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: quickstart-vdk
+[2023-06-10 06:26:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdktf-cdktf-provider-azurerm
+[2023-06-10 06:26:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: henipipe
+[2023-06-10 06:26:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: table-rl
+[2023-06-10 06:26:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: samplehello
+[2023-06-10 06:26:02] WARNING root fetch - processPackages [fofa-workflow]: Skipping, unable to determine old version
+[2023-06-10 06:26:02] INFO root fetch - main [MainThread]: End processing [fofa-workflow] error
+[2023-06-10 06:26:02] WARNING root fetch - processPackages [circuitpython-cst816]: Skipping, unable to determine old version
+[2023-06-10 06:26:02] INFO root fetch - main [MainThread]: End processing [circuitpython-cst816] error
+[2023-06-10 06:26:02] INFO root fetch - processPackages [pbt]: New version: [2.9.4] Old Version: [2.9.3]
+[2023-06-10 06:26:02] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.895757559.dev11276] Old Version: [0.2.894599572.dev11255]
+[2023-06-10 06:26:02] INFO root fetch - processPackages [cdktf-cdktf-provider-azurerm]: New version: [7.0.9] Old Version: [7.0.8]
+[2023-06-10 06:26:02] INFO root fetch - processPackages [henipipe]: New version: [2.4.9] Old Version: [2.4.8]
+[2023-06-10 06:26:02] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/9b/87/21247886757125c5d16556fb577fb307e707741c72d7d2df55e46a66fd5b/quickstart-vdk-0.2.894599572.dev11255.tar.gz
+[2023-06-10 06:26:02] WARNING root fetch - processPackages [samplehello]: Skipping, unable to determine old version
+[2023-06-10 06:26:02] INFO root fetch - main [MainThread]: End processing [samplehello] error
+[2023-06-10 06:26:02] INFO root fetch - processPackages [henipipe]: Downloading https://files.pythonhosted.org/packages/1a/3c/a7772f6d85e24a88b6588662449af6e89f6e47cad7932500da296e608c92/henipipe-2.4.8.tar.gz
+[2023-06-10 06:26:02] WARNING root fetch - processPackages [table-rl]: Skipping, unable to determine old version
+[2023-06-10 06:26:02] INFO root fetch - main [MainThread]: End processing [table-rl] error
+[2023-06-10 06:26:02] INFO root fetch - processPackages [pbt]: Downloading https://files.pythonhosted.org/packages/5c/6b/f41552dfdddd6270fb8f02586752201bdef15b5649ec8fdb6fca7b4f3a00/pbt-2.9.3.tar.gz
+[2023-06-10 06:26:02] INFO root fetch - processPackages [cdktf-cdktf-provider-azurerm]: Downloading https://files.pythonhosted.org/packages/95/f4/fabac55384c634245d0d22f256da62857b953aff40391c1e72258a024d88/cdktf-cdktf-provider-azurerm-7.0.8.tar.gz
+[2023-06-10 06:26:03] WARNING root fetch - processPackages [cdktf-cdktf-provider-azurerm]: Skipping package: exceeds size limit 30630616>=10485760
+[2023-06-10 06:26:03] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-azurerm] error
+[2023-06-10 06:26:03] INFO root fetch - processPackages [henipipe]: Downloading https://files.pythonhosted.org/packages/31/ce/52f83823b639987d43cd65ee88905a8aa6c034d3d30c6059f832a13e388a/henipipe-2.4.9.tar.gz
+[2023-06-10 06:26:03] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/54/8e/0d6f4d8f61c25949d2f0665c95cd6dcc98d8d1122d14f696593197447d5a/quickstart-vdk-0.2.895757559.dev11276.tar.gz
+[2023-06-10 06:26:03] INFO root fetch - processPackages [pbt]: Downloading https://files.pythonhosted.org/packages/82/35/7e5c8e112f41c956e411dae99953fd41213c914e310da341f2eb524a15a7/pbt-2.9.4.tar.gz
+[2023-06-10 06:26:03] INFO root fetch - processPackages [henipipe]: executing diffoscope
+[2023-06-10 06:26:03] INFO root fetch - processPackages [henipipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/henipipe-2.4.8.tar.gz tmp/henipipe-2.4.9.tar.gz --markdown 20230610/h/henipipe/2.4.8-2.4.9/diff.md --exclude *.pyd
+[2023-06-10 06:26:03] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2023-06-10 06:26:03] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.894599572.dev11255.tar.gz tmp/quickstart-vdk-0.2.895757559.dev11276.tar.gz --markdown 20230610/q/quickstart-vdk/0.2.894599572.dev11255-0.2.895757559.dev11276/diff.md --exclude *.pyd
+[2023-06-10 06:26:03] INFO root fetch - processPackages [pbt]: executing diffoscope
+[2023-06-10 06:26:03] INFO root fetch - processPackages [pbt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pbt-2.9.3.tar.gz tmp/pbt-2.9.4.tar.gz --markdown 20230610/p/pbt/2.9.3-2.9.4/diff.md --exclude *.pyd
+[2023-06-10 06:26:04] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.894599572.dev11255.tar.gz]
+[2023-06-10 06:26:04] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.895757559.dev11276.tar.gz]
+[2023-06-10 06:26:04] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2023-06-10 06:26:04] INFO root fetch - processPackages [henipipe]: Remove: archive file [/home/abi/fetcher/tmp/henipipe-2.4.8.tar.gz]
+[2023-06-10 06:26:04] INFO root fetch - processPackages [henipipe]: Remove: archive file [/home/abi/fetcher/tmp/henipipe-2.4.9.tar.gz]
+[2023-06-10 06:26:04] INFO root fetch - main [MainThread]: End processing [henipipe]: success
+[2023-06-10 06:26:05] INFO root fetch - processPackages [pbt]: Remove: archive file [/home/abi/fetcher/tmp/pbt-2.9.3.tar.gz]
+[2023-06-10 06:26:05] INFO root fetch - processPackages [pbt]: Remove: archive file [/home/abi/fetcher/tmp/pbt-2.9.4.tar.gz]
+[2023-06-10 06:26:05] INFO root fetch - main [MainThread]: End processing [pbt]: success
+[2023-06-10 06:26:05] INFO root fetch - main [MainThread]: Store serial: [18448595]
