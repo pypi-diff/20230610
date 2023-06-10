@@ -18770,3 +18770,53 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-10 23:42:18] INFO root fetch - processPackages [flasgger]: Remove: archive file [/home/abi/fetcher/tmp/flasgger-0.9.7b2.tar.gz]
 [2023-06-10 23:42:18] INFO root fetch - main [MainThread]: End processing [flasgger]: success
 [2023-06-10 23:42:18] INFO root fetch - main [MainThread]: Store serial: [18454128]
+[2023-06-10 23:47:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18454128]
+[2023-06-10 23:47:29] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-10 23:47:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyfiredb
+[2023-06-10 23:47:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lovelanguage
+[2023-06-10 23:47:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: datasette-sqlite-fastrand
+[2023-06-10 23:47:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sqlite-fastrand
+[2023-06-10 23:47:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: certora-cli-alpha-master
+[2023-06-10 23:47:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: html-report-line-profiler
+[2023-06-10 23:47:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: regridding
+[2023-06-10 23:47:29] INFO root fetch - processPackages [pyfiredb]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-10 23:47:29] INFO root fetch - processPackages [html-report-line-profiler]: New version: [0.1.1a0] Old Version: [0.1.1]
+[2023-06-10 23:47:29] INFO root fetch - processPackages [sqlite-fastrand]: New version: [0.2.1a9] Old Version: [0.2.1a8]
+[2023-06-10 23:47:29] WARNING root fetch - processPackages [regridding]: Skipping, unable to determine old version
+[2023-06-10 23:47:29] INFO root fetch - main [MainThread]: End processing [regridding] error
+[2023-06-10 23:47:29] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230610.21.45.76802] Old Version: [20230609.22.22.868292]
+[2023-06-10 23:47:29] INFO root fetch - processPackages [datasette-sqlite-fastrand]: New version: [0.2.1a9] Old Version: [0.2.1a8]
+[2023-06-10 23:47:29] WARNING root fetch - processPackages [lovelanguage]: Skipping, unable to determine old version
+[2023-06-10 23:47:29] INFO root fetch - main [MainThread]: End processing [lovelanguage] error
+[2023-06-10 23:47:29] INFO root fetch - processPackages [datasette-sqlite-fastrand]: Downloading https://files.pythonhosted.org/packages/02/8b/c548eca77b1609b0705a2a62ac74dc85a30edd9aefe663f46e207a2ba40a/datasette_sqlite_fastrand-0.2.1a8-py3-none-any.whl
+[2023-06-10 23:47:29] INFO root fetch - processPackages [sqlite-fastrand]: Downloading https://files.pythonhosted.org/packages/36/9b/b399eb72bb3bfef3cec61a12ecd8039bbd15e7118122b99815bf69fe2a01/sqlite_fastrand-0.2.1a8-py3-none-win_amd64.whl
+[2023-06-10 23:47:29] INFO root fetch - processPackages [html-report-line-profiler]: Downloading https://files.pythonhosted.org/packages/ad/74/3e1e4189fe2ee332fba4d38d4e9979d4639154fa62f92cf608e7464d2865/html_report_line_profiler-0.1.1.tar.gz
+[2023-06-10 23:47:29] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/c9/98/3bd29a4174b7e6ff76786c87b0e011566000b0813490b93bda416cf4b05f/certora-cli-alpha-master-20230609.22.22.868292.tar.gz
+[2023-06-10 23:47:29] INFO root fetch - processPackages [pyfiredb]: Downloading https://files.pythonhosted.org/packages/b3/b6/f60aee3f32381bc28b8e5a737c4090be902aa55b851481791ffca460fe7a/pyfiredb-0.0.1.tar.gz
+[2023-06-10 23:47:29] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 39325662>=10485760
+[2023-06-10 23:47:29] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-06-10 23:47:29] INFO root fetch - processPackages [datasette-sqlite-fastrand]: Downloading https://files.pythonhosted.org/packages/59/a7/1f9b3dc45fd0c3e59a2d2014b1e475a4d9cd5ad94be2efd884665cc73301/datasette_sqlite_fastrand-0.2.1a9-py3-none-any.whl
+[2023-06-10 23:47:29] INFO root fetch - processPackages [sqlite-fastrand]: Downloading https://files.pythonhosted.org/packages/3c/6e/ce8f2bcc325f3fac97e122779f8c31aa2d98da0e1d3fac1fc32c6c1df7d0/sqlite_fastrand-0.2.1a9-py3-none-win_amd64.whl
+[2023-06-10 23:47:29] INFO root fetch - processPackages [html-report-line-profiler]: Downloading https://files.pythonhosted.org/packages/a7/9c/c28625b3cc43fbf897b49c97ae0c70aafcce72eb6d44497353e7055470f0/html_report_line_profiler-0.1.1a0.tar.gz
+[2023-06-10 23:47:29] INFO root fetch - processPackages [datasette-sqlite-fastrand]: executing diffoscope
+[2023-06-10 23:47:29] INFO root fetch - processPackages [datasette-sqlite-fastrand]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasette_sqlite_fastrand-0.2.1a8-py3-none-any.whl.zip tmp/datasette_sqlite_fastrand-0.2.1a9-py3-none-any.whl.zip --markdown 20230610/d/datasette-sqlite-fastrand/0.2.1a8-0.2.1a9/diff.md --exclude *.pyd
+[2023-06-10 23:47:29] INFO root fetch - processPackages [pyfiredb]: Downloading https://files.pythonhosted.org/packages/a5/fd/ea278da89553927cfef2294c927e78d01b5e1fdbf746b3236f18d79c0f26/pyfiredb-0.0.2.tar.gz
+[2023-06-10 23:47:29] INFO root fetch - processPackages [html-report-line-profiler]: executing diffoscope
+[2023-06-10 23:47:29] INFO root fetch - processPackages [html-report-line-profiler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/html_report_line_profiler-0.1.1.tar.gz tmp/html_report_line_profiler-0.1.1a0.tar.gz --markdown 20230610/h/html-report-line-profiler/0.1.1-0.1.1a0/diff.md --exclude *.pyd
+[2023-06-10 23:47:29] INFO root fetch - processPackages [pyfiredb]: executing diffoscope
+[2023-06-10 23:47:29] INFO root fetch - processPackages [pyfiredb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfiredb-0.0.1.tar.gz tmp/pyfiredb-0.0.2.tar.gz --markdown 20230610/p/pyfiredb/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-10 23:47:30] INFO root fetch - processPackages [sqlite-fastrand]: executing diffoscope
+[2023-06-10 23:47:30] INFO root fetch - processPackages [sqlite-fastrand]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite_fastrand-0.2.1a8-py3-none-win_amd64.whl.zip tmp/sqlite_fastrand-0.2.1a9-py3-none-win_amd64.whl.zip --markdown 20230610/s/sqlite-fastrand/0.2.1a8-0.2.1a9/diff.md --exclude *.pyd
+[2023-06-10 23:47:30] INFO root fetch - processPackages [datasette-sqlite-fastrand]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_fastrand-0.2.1a8-py3-none-any.whl.zip]
+[2023-06-10 23:47:30] INFO root fetch - processPackages [datasette-sqlite-fastrand]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_fastrand-0.2.1a9-py3-none-any.whl.zip]
+[2023-06-10 23:47:30] INFO root fetch - main [MainThread]: End processing [datasette-sqlite-fastrand]: success
+[2023-06-10 23:47:30] INFO root fetch - processPackages [html-report-line-profiler]: Remove: archive file [/home/abi/fetcher/tmp/html_report_line_profiler-0.1.1.tar.gz]
+[2023-06-10 23:47:30] INFO root fetch - processPackages [html-report-line-profiler]: Remove: archive file [/home/abi/fetcher/tmp/html_report_line_profiler-0.1.1a0.tar.gz]
+[2023-06-10 23:47:30] INFO root fetch - main [MainThread]: End processing [html-report-line-profiler]: success
+[2023-06-10 23:47:30] INFO root fetch - processPackages [pyfiredb]: Remove: archive file [/home/abi/fetcher/tmp/pyfiredb-0.0.1.tar.gz]
+[2023-06-10 23:47:30] INFO root fetch - processPackages [pyfiredb]: Remove: archive file [/home/abi/fetcher/tmp/pyfiredb-0.0.2.tar.gz]
+[2023-06-10 23:47:30] INFO root fetch - main [MainThread]: End processing [pyfiredb]: success
+[2023-06-10 23:47:34] INFO root fetch - processPackages [sqlite-fastrand]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_fastrand-0.2.1a8-py3-none-win_amd64.whl.zip]
+[2023-06-10 23:47:34] INFO root fetch - processPackages [sqlite-fastrand]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_fastrand-0.2.1a9-py3-none-win_amd64.whl.zip]
+[2023-06-10 23:47:34] INFO root fetch - main [MainThread]: End processing [sqlite-fastrand]: success
+[2023-06-10 23:47:34] INFO root fetch - main [MainThread]: Store serial: [18454153]
