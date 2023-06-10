@@ -10115,3 +10115,52 @@ EOFError: EOF read where object expected
 [2023-06-10 11:41:47] INFO root fetch - processPackages [fastapi-amis-admin-cli]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_amis_admin_cli-0.1.2.tar.gz]
 [2023-06-10 11:41:47] INFO root fetch - main [MainThread]: End processing [fastapi-amis-admin-cli]: success
 [2023-06-10 11:41:47] INFO root fetch - main [MainThread]: Store serial: [18449820]
+[2023-06-10 11:46:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18449820]
+[2023-06-10 11:46:57] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-10 11:46:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: honkairail
+[2023-06-10 11:46:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: foreverbull
+[2023-06-10 11:46:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: solax
+[2023-06-10 11:46:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mml-qae
+[2023-06-10 11:46:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: foreverbull
+[2023-06-10 11:46:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bitcoin-p2p
+[2023-06-10 11:46:57] INFO root fetch - processPackages [honkairail]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-10 11:46:57] INFO root fetch - processPackages [mml-qae]: New version: [1.0.2.12] Old Version: [1.0.2.10]
+[2023-06-10 11:46:57] INFO root fetch - processPackages [solax]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-10 11:46:57] INFO root fetch - processPackages [foreverbull]: New version: [0.0.0.92] Old Version: [0.0.0.1]
+[2023-06-10 11:46:57] INFO root fetch - processPackages [foreverbull]: New version: [0.0.0.92] Old Version: [0.0.0.1]
+[2023-06-10 11:46:57] INFO root fetch - processPackages [mml-qae]: Downloading https://files.pythonhosted.org/packages/fe/98/daab07c77e1ab47797cdb71bc2b759a1b587a9a6bbe29f4705f725b9ebf9/mml_qae-1.0.2.10.tar.gz
+[2023-06-10 11:46:57] WARNING root fetch - processPackages [bitcoin-p2p]: Skipping, unable to determine old version
+[2023-06-10 11:46:57] INFO root fetch - main [MainThread]: End processing [bitcoin-p2p] error
+[2023-06-10 11:46:57] INFO root fetch - processPackages [honkairail]: Downloading https://files.pythonhosted.org/packages/4f/75/f3387cbb16e8754221eedb83a195c25d12545c63688dcdeb8ce357b34fc7/honkairail-1.0.0.tar.gz
+[2023-06-10 11:46:57] INFO root fetch - processPackages [solax]: Downloading https://files.pythonhosted.org/packages/89/bb/4b52b9624cc0076891e0f10305579d99504ff3d022bedf8bb8608b77edb2/solax-0.3.1.tar.gz
+[2023-06-10 11:46:57] INFO root fetch - processPackages [foreverbull]: Downloading https://files.pythonhosted.org/packages/77/26/aeaa7a1ac89f3e9507ceca08e1081304d274de79ae43552835f6f30f11ab/foreverbull-0.0.0.1.tar.gz
+[2023-06-10 11:46:57] INFO root fetch - processPackages [foreverbull]: Downloading https://files.pythonhosted.org/packages/77/26/aeaa7a1ac89f3e9507ceca08e1081304d274de79ae43552835f6f30f11ab/foreverbull-0.0.0.1.tar.gz
+[2023-06-10 11:46:57] INFO root fetch - processPackages [mml-qae]: Downloading https://files.pythonhosted.org/packages/8f/e8/5c0ddb44db636397cc3aeca7380e54f98a2bf0617817bf8eb165a4b8cdc0/mml_qae-1.0.2.12.tar.gz
+[2023-06-10 11:46:57] INFO root fetch - processPackages [honkairail]: Downloading https://files.pythonhosted.org/packages/03/ba/d07d92f75845ab8f9f76510425947da22d0d65dc1e322c6d8c423359cc6a/honkairail-1.0.1.tar.gz
+[2023-06-10 11:46:57] INFO root fetch - processPackages [mml-qae]: executing diffoscope
+[2023-06-10 11:46:57] INFO root fetch - processPackages [mml-qae]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mml_qae-1.0.2.10.tar.gz tmp/mml_qae-1.0.2.12.tar.gz --markdown 20230610/m/mml-qae/1.0.2.10-1.0.2.12/diff.md --exclude *.pyd
+[2023-06-10 11:46:57] INFO root fetch - processPackages [solax]: Downloading https://files.pythonhosted.org/packages/ad/a8/5f5763688f2c1464337193175604db6da6abfc2b434933e08e69ea1c2f43/solax-0.3.2.tar.gz
+[2023-06-10 11:46:57] INFO root fetch - processPackages [foreverbull]: Downloading https://files.pythonhosted.org/packages/83/5e/402b3d8e197a33b59ae5994459465f8027f487cad42df3747b300fe53dc4/foreverbull-0.0.0.92.tar.gz
+[2023-06-10 11:46:57] INFO root fetch - processPackages [honkairail]: executing diffoscope
+[2023-06-10 11:46:57] INFO root fetch - processPackages [honkairail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honkairail-1.0.0.tar.gz tmp/honkairail-1.0.1.tar.gz --markdown 20230610/h/honkairail/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-10 11:46:57] INFO root fetch - processPackages [foreverbull]: Downloading https://files.pythonhosted.org/packages/83/5e/402b3d8e197a33b59ae5994459465f8027f487cad42df3747b300fe53dc4/foreverbull-0.0.0.92.tar.gz
+[2023-06-10 11:46:57] INFO root fetch - processPackages [foreverbull]: executing diffoscope
+[2023-06-10 11:46:57] INFO root fetch - processPackages [foreverbull]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foreverbull-0.0.0.1.tar.gz tmp/foreverbull-0.0.0.92.tar.gz --markdown 20230610/f/foreverbull/0.0.0.1-0.0.0.92/diff.md --exclude *.pyd
+[2023-06-10 11:46:57] INFO root fetch - processPackages [solax]: executing diffoscope
+[2023-06-10 11:46:57] INFO root fetch - processPackages [solax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solax-0.3.1.tar.gz tmp/solax-0.3.2.tar.gz --markdown 20230610/s/solax/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-10 11:46:57] INFO root fetch - processPackages [foreverbull]: executing diffoscope
+[2023-06-10 11:46:57] INFO root fetch - processPackages [foreverbull]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foreverbull-0.0.0.1.tar.gz tmp/foreverbull-0.0.0.92.tar.gz --markdown 20230610/f/foreverbull/0.0.0.1-0.0.0.92/diff.md --exclude *.pyd
+[2023-06-10 11:46:58] INFO root fetch - processPackages [mml-qae]: Remove: archive file [/home/abi/fetcher/tmp/mml_qae-1.0.2.10.tar.gz]
+[2023-06-10 11:46:58] INFO root fetch - processPackages [mml-qae]: Remove: archive file [/home/abi/fetcher/tmp/mml_qae-1.0.2.12.tar.gz]
+[2023-06-10 11:46:58] INFO root fetch - main [MainThread]: End processing [mml-qae]: success
+[2023-06-10 11:46:59] INFO root fetch - processPackages [honkairail]: Remove: archive file [/home/abi/fetcher/tmp/honkairail-1.0.0.tar.gz]
+[2023-06-10 11:46:59] INFO root fetch - processPackages [honkairail]: Remove: archive file [/home/abi/fetcher/tmp/honkairail-1.0.1.tar.gz]
+[2023-06-10 11:46:59] INFO root fetch - main [MainThread]: End processing [honkairail]: success
+[2023-06-10 11:46:59] INFO root fetch - processPackages [foreverbull]: Remove: archive file [/home/abi/fetcher/tmp/foreverbull-0.0.0.1.tar.gz]
+[2023-06-10 11:46:59] INFO root fetch - processPackages [foreverbull]: Remove: archive file [/home/abi/fetcher/tmp/foreverbull-0.0.0.92.tar.gz]
+[2023-06-10 11:46:59] INFO root fetch - main [MainThread]: End processing [foreverbull]: success
+[2023-06-10 11:46:59] INFO root fetch - main [MainThread]: End processing [foreverbull]: success
+[2023-06-10 11:47:52] INFO root fetch - processPackages [solax]: Remove: archive file [/home/abi/fetcher/tmp/solax-0.3.1.tar.gz]
+[2023-06-10 11:47:52] INFO root fetch - processPackages [solax]: Remove: archive file [/home/abi/fetcher/tmp/solax-0.3.2.tar.gz]
+[2023-06-10 11:47:52] INFO root fetch - main [MainThread]: End processing [solax]: success
+[2023-06-10 11:47:52] INFO root fetch - main [MainThread]: Store serial: [18449842]
