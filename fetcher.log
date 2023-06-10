@@ -15422,3 +15422,81 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-10 18:58:31] INFO root fetch - processPackages [tiafork]: Remove: archive file [/home/abi/fetcher/tmp/tiafork-1.2.2.tar.gz]
 [2023-06-10 18:58:31] INFO root fetch - main [MainThread]: End processing [tiafork]: success
 [2023-06-10 18:58:31] INFO root fetch - main [MainThread]: Store serial: [18452415]
+[2023-06-10 19:03:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18452415]
+[2023-06-10 19:03:40] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-10 19:03:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: crackerjack
+[2023-06-10 19:03:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kdslibs
+[2023-06-10 19:03:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: httpanalyzer
+[2023-06-10 19:03:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lintrunner-adapters
+[2023-06-10 19:03:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: frankAllSkyCam
+[2023-06-10 19:03:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nfonistax7
+[2023-06-10 19:03:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PyProcar
+[2023-06-10 19:03:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hacs-frontend
+[2023-06-10 19:03:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: plutous-trade-crypto
+[2023-06-10 19:03:40] INFO root fetch - processPackages [kdslibs]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-10 19:03:40] INFO root fetch - processPackages [crackerjack]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-06-10 19:03:40] INFO root fetch - processPackages [frankAllSkyCam]: New version: [8.3] Old Version: [8.2]
+[2023-06-10 19:03:40] WARNING root fetch - processPackages [nfonistax7]: Skipping, unable to determine old version
+[2023-06-10 19:03:40] INFO root fetch - main [MainThread]: End processing [nfonistax7] error
+[2023-06-10 19:03:40] INFO root fetch - processPackages [httpanalyzer]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-10 19:03:40] INFO root fetch - processPackages [lintrunner-adapters]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-10 19:03:40] INFO root fetch - processPackages [PyProcar]: New version: [6.0.0] Old Version: [5.6.6]
+[2023-06-10 19:03:40] INFO root fetch - processPackages [plutous-trade-crypto]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-10 19:03:40] INFO root fetch - processPackages [hacs-frontend]: New version: [9] Old Version: [8]
+[2023-06-10 19:03:40] INFO root fetch - processPackages [kdslibs]: Downloading https://files.pythonhosted.org/packages/d8/bf/3b507d62ba396983dfff0c9abdf2023dd0786f1e65baf682be69ff6000b1/kdslibs-0.0.5.tar.gz
+[2023-06-10 19:03:40] INFO root fetch - processPackages [plutous-trade-crypto]: Downloading https://files.pythonhosted.org/packages/e3/db/d32a1544d7f944ad8af411383551ea4aa42adfdd0f238ff44a5a3edaa00e/plutous_trade_crypto-0.0.8.tar.gz
+[2023-06-10 19:03:40] INFO root fetch - processPackages [plutous-trade-crypto]: Downloading https://files.pythonhosted.org/packages/b4/a4/200ca398a36203e8bd51a034e50c51963506316cbf5e7a47866700accaee/plutous_trade_crypto-0.0.9.tar.gz
+[2023-06-10 19:03:40] INFO root fetch - processPackages [PyProcar]: Downloading https://files.pythonhosted.org/packages/53/af/e00c44f1016f5da98c924d3308b4798d94136ae0267572fbab76035a7399/PyProcar-5.6.6.tar.gz
+[2023-06-10 19:03:40] INFO root fetch - processPackages [plutous-trade-crypto]: executing diffoscope
+[2023-06-10 19:03:40] INFO root fetch - processPackages [plutous-trade-crypto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plutous_trade_crypto-0.0.8.tar.gz tmp/plutous_trade_crypto-0.0.9.tar.gz --markdown 20230610/p/plutous-trade-crypto/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-10 19:03:40] INFO root fetch - processPackages [frankAllSkyCam]: Downloading https://files.pythonhosted.org/packages/0f/6e/767de529fea15e47522b5e811285908388bbd1b22bab78bde24831aefdf8/frankAllSkyCam-8.2.tar.gz
+[2023-06-10 19:03:40] INFO root fetch - processPackages [crackerjack]: Downloading https://files.pythonhosted.org/packages/b3/98/7c7c2b50e1946cc03136090bce8df77714442b7b561d533d5ee93d5cedd3/crackerjack-0.2.4.tar.gz
+[2023-06-10 19:03:40] INFO root fetch - processPackages [httpanalyzer]: Downloading https://files.pythonhosted.org/packages/b8/ba/af2fefd25453dfa1568fbe6d3f228528d1eb949df54e19d30e3c702926a5/httpanalyzer-0.1.5.tar.gz
+[2023-06-10 19:03:40] INFO root fetch - processPackages [hacs-frontend]: Downloading https://files.pythonhosted.org/packages/4b/54/4a6311d8b103f58145787acb710d11417db7aa8446ae2bec85633213f873/hacs-frontend-8.tar.gz
+[2023-06-10 19:03:40] INFO root fetch - processPackages [lintrunner-adapters]: Downloading https://files.pythonhosted.org/packages/09/02/ba01f7574fbdbd2bb120385d5f01335971a78c0392c69c7b176b0d76371a/lintrunner_adapters-0.8.0.tar.gz
+[2023-06-10 19:03:40] INFO root fetch - processPackages [kdslibs]: Downloading https://files.pythonhosted.org/packages/72/b4/a6332783502e5709e4d1d5764ff7b459c7917df5e90e64624c2490a9418e/kdslibs-0.0.6.tar.gz
+[2023-06-10 19:03:40] INFO root fetch - processPackages [kdslibs]: executing diffoscope
+[2023-06-10 19:03:40] INFO root fetch - processPackages [kdslibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kdslibs-0.0.5.tar.gz tmp/kdslibs-0.0.6.tar.gz --markdown 20230610/k/kdslibs/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-10 19:03:40] INFO root fetch - processPackages [frankAllSkyCam]: Downloading https://files.pythonhosted.org/packages/75/f0/06ab423b929beeead9ad630b4347ba20d8495b97170f2c11379cab30587a/frankAllSkyCam-8.3.tar.gz
+[2023-06-10 19:03:40] INFO root fetch - processPackages [PyProcar]: Downloading https://files.pythonhosted.org/packages/b7/98/580d4e8ae9184de12b3126a0374c8204848016aa46e847e2c3219cdb875d/PyProcar-6.0.0.tar.gz
+[2023-06-10 19:03:40] INFO root fetch - processPackages [crackerjack]: Downloading https://files.pythonhosted.org/packages/1c/9e/ae990dcfeabcd78d8064387a5dd8e3163b189ddfce538afb1cb01118f4aa/crackerjack-0.2.5.tar.gz
+[2023-06-10 19:03:40] INFO root fetch - processPackages [httpanalyzer]: Downloading https://files.pythonhosted.org/packages/c5/d0/f55b5826fcc3418ed00da1f85007f90ffee003cb62d0b25372bf990c2095/httpanalyzer-0.1.6.tar.gz
+[2023-06-10 19:03:40] INFO root fetch - processPackages [lintrunner-adapters]: Downloading https://files.pythonhosted.org/packages/bc/f5/581c1eacc284f89c233cabb5f1e8e0a8bffa6cde6ba3bb7461523f2e57af/lintrunner_adapters-0.9.0.tar.gz
+[2023-06-10 19:03:40] INFO root fetch - processPackages [crackerjack]: executing diffoscope
+[2023-06-10 19:03:40] INFO root fetch - processPackages [crackerjack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crackerjack-0.2.4.tar.gz tmp/crackerjack-0.2.5.tar.gz --markdown 20230610/c/crackerjack/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-06-10 19:03:40] INFO root fetch - processPackages [hacs-frontend]: Downloading https://files.pythonhosted.org/packages/27/64/99fc7d5e575ed7ac25aaf6fa2230eea1499ac447c06f0c88af1a96d19d69/hacs-frontend-9.tar.gz
+[2023-06-10 19:03:40] INFO root fetch - processPackages [frankAllSkyCam]: executing diffoscope
+[2023-06-10 19:03:40] INFO root fetch - processPackages [frankAllSkyCam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frankAllSkyCam-8.2.tar.gz tmp/frankAllSkyCam-8.3.tar.gz --markdown 20230610/f/frankAllSkyCam/8.2-8.3/diff.md --exclude *.pyd
+[2023-06-10 19:03:40] INFO root fetch - processPackages [PyProcar]: executing diffoscope
+[2023-06-10 19:03:40] INFO root fetch - processPackages [PyProcar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyProcar-5.6.6.tar.gz tmp/PyProcar-6.0.0.tar.gz --markdown 20230610/P/PyProcar/5.6.6-6.0.0/diff.md --exclude *.pyd
+[2023-06-10 19:03:40] INFO root fetch - processPackages [httpanalyzer]: executing diffoscope
+[2023-06-10 19:03:40] INFO root fetch - processPackages [httpanalyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/httpanalyzer-0.1.5.tar.gz tmp/httpanalyzer-0.1.6.tar.gz --markdown 20230610/h/httpanalyzer/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-10 19:03:40] INFO root fetch - processPackages [lintrunner-adapters]: executing diffoscope
+[2023-06-10 19:03:40] INFO root fetch - processPackages [lintrunner-adapters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lintrunner_adapters-0.8.0.tar.gz tmp/lintrunner_adapters-0.9.0.tar.gz --markdown 20230610/l/lintrunner-adapters/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-10 19:03:41] INFO root fetch - processPackages [hacs-frontend]: executing diffoscope
+[2023-06-10 19:03:41] INFO root fetch - processPackages [hacs-frontend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hacs-frontend-8.tar.gz tmp/hacs-frontend-9.tar.gz --markdown 20230610/h/hacs-frontend/8-9/diff.md --exclude *.pyd
+[2023-06-10 19:03:41] INFO root fetch - processPackages [kdslibs]: Remove: archive file [/home/abi/fetcher/tmp/kdslibs-0.0.5.tar.gz]
+[2023-06-10 19:03:41] INFO root fetch - processPackages [kdslibs]: Remove: archive file [/home/abi/fetcher/tmp/kdslibs-0.0.6.tar.gz]
+[2023-06-10 19:03:41] INFO root fetch - main [MainThread]: End processing [kdslibs]: success
+[2023-06-10 19:03:41] INFO root fetch - processPackages [plutous-trade-crypto]: Remove: archive file [/home/abi/fetcher/tmp/plutous_trade_crypto-0.0.8.tar.gz]
+[2023-06-10 19:03:41] INFO root fetch - processPackages [plutous-trade-crypto]: Remove: archive file [/home/abi/fetcher/tmp/plutous_trade_crypto-0.0.9.tar.gz]
+[2023-06-10 19:03:41] INFO root fetch - main [MainThread]: End processing [plutous-trade-crypto]: success
+[2023-06-10 19:03:42] INFO root fetch - processPackages [httpanalyzer]: Remove: archive file [/home/abi/fetcher/tmp/httpanalyzer-0.1.5.tar.gz]
+[2023-06-10 19:03:42] INFO root fetch - processPackages [httpanalyzer]: Remove: archive file [/home/abi/fetcher/tmp/httpanalyzer-0.1.6.tar.gz]
+[2023-06-10 19:03:42] INFO root fetch - main [MainThread]: End processing [httpanalyzer]: success
+[2023-06-10 19:03:42] INFO root fetch - processPackages [crackerjack]: Remove: archive file [/home/abi/fetcher/tmp/crackerjack-0.2.4.tar.gz]
+[2023-06-10 19:03:42] INFO root fetch - processPackages [crackerjack]: Remove: archive file [/home/abi/fetcher/tmp/crackerjack-0.2.5.tar.gz]
+[2023-06-10 19:03:42] INFO root fetch - main [MainThread]: End processing [crackerjack]: success
+[2023-06-10 19:03:42] INFO root fetch - processPackages [lintrunner-adapters]: Remove: archive file [/home/abi/fetcher/tmp/lintrunner_adapters-0.8.0.tar.gz]
+[2023-06-10 19:03:42] INFO root fetch - processPackages [lintrunner-adapters]: Remove: archive file [/home/abi/fetcher/tmp/lintrunner_adapters-0.9.0.tar.gz]
+[2023-06-10 19:03:42] INFO root fetch - main [MainThread]: End processing [lintrunner-adapters]: success
+[2023-06-10 19:03:42] INFO root fetch - processPackages [frankAllSkyCam]: Remove: archive file [/home/abi/fetcher/tmp/frankAllSkyCam-8.2.tar.gz]
+[2023-06-10 19:03:42] INFO root fetch - processPackages [frankAllSkyCam]: Remove: archive file [/home/abi/fetcher/tmp/frankAllSkyCam-8.3.tar.gz]
+[2023-06-10 19:03:42] INFO root fetch - main [MainThread]: End processing [frankAllSkyCam]: success
+[2023-06-10 19:03:42] INFO root fetch - processPackages [PyProcar]: Remove: archive file [/home/abi/fetcher/tmp/PyProcar-5.6.6.tar.gz]
+[2023-06-10 19:03:42] INFO root fetch - processPackages [PyProcar]: Remove: archive file [/home/abi/fetcher/tmp/PyProcar-6.0.0.tar.gz]
+[2023-06-10 19:03:42] INFO root fetch - main [MainThread]: End processing [PyProcar]: success
+[2023-06-10 19:03:42] INFO root fetch - processPackages [hacs-frontend]: Remove: archive file [/home/abi/fetcher/tmp/hacs-frontend-8.tar.gz]
+[2023-06-10 19:03:42] INFO root fetch - processPackages [hacs-frontend]: Remove: archive file [/home/abi/fetcher/tmp/hacs-frontend-9.tar.gz]
+[2023-06-10 19:03:42] INFO root fetch - main [MainThread]: End processing [hacs-frontend]: success
+[2023-06-10 19:03:42] INFO root fetch - main [MainThread]: Store serial: [18452443]
