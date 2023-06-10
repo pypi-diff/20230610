@@ -14141,3 +14141,99 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-10 17:12:00] INFO root fetch - processPackages [rabbitizer]: Remove: archive file [/home/abi/fetcher/tmp/rabbitizer-1.7.3.tar.gz]
 [2023-06-10 17:12:00] INFO root fetch - main [MainThread]: End processing [rabbitizer]: success
 [2023-06-10 17:12:00] INFO root fetch - main [MainThread]: Store serial: [18451760]
+[2023-06-10 17:17:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18451760]
+[2023-06-10 17:17:09] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-10 17:17:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: image2gcode
+[2023-06-10 17:17:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tensorflow-text-nightly
+[2023-06-10 17:17:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: google-nest-sdm
+[2023-06-10 17:17:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cyberdrop-dl
+[2023-06-10 17:17:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hagrid
+[2023-06-10 17:17:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: seedot
+[2023-06-10 17:17:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nvfuser-cu121
+[2023-06-10 17:17:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bookio-fetchfox
+[2023-06-10 17:17:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sinabs
+[2023-06-10 17:17:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nvfuser-cu118
+[2023-06-10 17:17:09] WARNING root fetch - processPackages [image2gcode]: Skipping, unable to determine old version
+[2023-06-10 17:17:09] INFO root fetch - processPackages [image2gcode]: Start processing: nvfuser-cu117
+[2023-06-10 17:17:09] INFO root fetch - main [MainThread]: End processing [image2gcode] error
+[2023-06-10 17:17:09] INFO root fetch - processPackages [google-nest-sdm]: New version: [2.2.5] Old Version: [2.2.4]
+[2023-06-10 17:17:09] INFO root fetch - processPackages [nvfuser-cu118]: New version: [0.0.9.dev20230515] Old Version: [0.0.9.dev20230514]
+[2023-06-10 17:17:09] INFO root fetch - processPackages [seedot]: New version: [2.0] Old Version: [1.4]
+[2023-06-10 17:17:09] INFO root fetch - processPackages [sinabs]: New version: [1.2.6.dev2] Old Version: [1.2.6.dev10]
+[2023-06-10 17:17:09] INFO root fetch - processPackages [bookio-fetchfox]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-06-10 17:17:09] INFO root fetch - processPackages [nvfuser-cu121]: New version: [0.0.9.dev20230515] Old Version: [0.0.9.dev20230514]
+[2023-06-10 17:17:09] INFO root fetch - processPackages [nvfuser-cu117]: New version: [0.0.9.dev20230515] Old Version: [0.0.9.dev20230514]
+[2023-06-10 17:17:09] INFO root fetch - processPackages [hagrid]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-10 17:17:09] INFO root fetch - processPackages [cyberdrop-dl]: New version: [4.2.94] Old Version: [4.2.93]
+[2023-06-10 17:17:09] INFO root fetch - processPackages [bookio-fetchfox]: Downloading https://files.pythonhosted.org/packages/d9/d2/33c28476c761ff29bdb2b155f40d10ff8b95380f2673256365f7f2a95907/bookio_fetchfox-0.7.1.tar.gz
+[2023-06-10 17:17:09] INFO root fetch - processPackages [tensorflow-text-nightly]: New version: [2.14.0.dev20230610] Old Version: [2.14.0.dev20230609]
+[2023-06-10 17:17:09] INFO root fetch - processPackages [sinabs]: Downloading https://files.pythonhosted.org/packages/d8/d5/e7e5304452e3b67cc81fa2b24d0821940af4295078a0d62afc124a17e6f3/sinabs-1.2.6.dev10.tar.gz
+[2023-06-10 17:17:09] INFO root fetch - processPackages [seedot]: Downloading https://files.pythonhosted.org/packages/ac/eb/e337fe35457428f6d51947335bbcbc22c28e55bdbf9aa33139162f48d9e2/seedot-1.4.tar.gz
+[2023-06-10 17:17:09] INFO root fetch - processPackages [google-nest-sdm]: Downloading https://files.pythonhosted.org/packages/f5/26/c5a5a777bd67e344728e315d4bbc2e0e285b3c36ac76fea40b0626ed2357/google_nest_sdm-2.2.4.tar.gz
+[2023-06-10 17:17:09] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/b3/bf/667bd4aad6c776a5e62ad2f63da6dd5bb51f013f1ff3284d04efbf109991/nvfuser_cu121-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-10 17:17:09] INFO root fetch - processPackages [hagrid]: Downloading https://files.pythonhosted.org/packages/63/8f/f6b3f8daafd8bb51dd59ed15dee9f83776e53b4bd4f460239542b391169f/hagrid-0.3.8.tar.gz
+[2023-06-10 17:17:09] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/4b/cd/4c428ce97d9be97932eb85eb49ce89f8833a6daf4081080607d7a4dd07d9/nvfuser_cu118-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-10 17:17:09] INFO root fetch - processPackages [nvfuser-cu117]: Downloading https://files.pythonhosted.org/packages/97/5f/a04da4d60f1816efafaa93531502bc7956df43f23ed210d62d175d8ae006/nvfuser_cu117-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-10 17:17:09] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/23/4b/c2d2f29c8c23b564fe90846abae5cc359d2225e8a1fac3429f07f2ceee96/cyberdrop-dl-4.2.93.tar.gz
+[2023-06-10 17:17:09] INFO root fetch - processPackages [tensorflow-text-nightly]: Downloading https://files.pythonhosted.org/packages/aa/77/409515bc90a182d7447dc5a103881ade7be75ca594dde5226ab85cdf5678/tensorflow_text_nightly-2.14.0.dev20230609-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-10 17:17:09] INFO root fetch - processPackages [bookio-fetchfox]: Downloading https://files.pythonhosted.org/packages/fc/86/07253952ad79483c6f72853a87ca68010f24490e7c587c6943b5837b31ca/bookio_fetchfox-0.7.2.tar.gz
+[2023-06-10 17:17:09] INFO root fetch - processPackages [seedot]: Downloading https://files.pythonhosted.org/packages/63/e7/8de3165daa77648459c6e1ac061ef32e6b739c9bf521c36f1c797236c20f/seedot-2.0.tar.gz
+[2023-06-10 17:17:09] INFO root fetch - processPackages [bookio-fetchfox]: executing diffoscope
+[2023-06-10 17:17:09] INFO root fetch - processPackages [bookio-fetchfox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bookio_fetchfox-0.7.1.tar.gz tmp/bookio_fetchfox-0.7.2.tar.gz --markdown 20230610/b/bookio-fetchfox/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-06-10 17:17:09] INFO root fetch - processPackages [google-nest-sdm]: Downloading https://files.pythonhosted.org/packages/77/2f/5e5ca117da6b8da7160ae4d480b48ca7ffa24aca63afe8a03fd916fa76c5/google_nest_sdm-2.2.5.tar.gz
+[2023-06-10 17:17:09] INFO root fetch - processPackages [sinabs]: Downloading https://files.pythonhosted.org/packages/04/bf/9c97c443e05093f057f202e4f1ce2ab94f43f3fb4a0957d585ffc9057ca9/sinabs-1.2.6.dev2.tar.gz
+[2023-06-10 17:17:09] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/ad/da/63a4c2142b6cd31138a68c52df7779de3214f58d80f5dde9dac017be4791/cyberdrop-dl-4.2.94.tar.gz
+[2023-06-10 17:17:09] INFO root fetch - processPackages [hagrid]: Downloading https://files.pythonhosted.org/packages/93/62/db70dc46e40b49bc26e4074bed1920230e6deffcc964b82b28bdc7cfccdc/hagrid-0.3.9.tar.gz
+[2023-06-10 17:17:09] INFO root fetch - processPackages [seedot]: executing diffoscope
+[2023-06-10 17:17:09] INFO root fetch - processPackages [seedot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seedot-1.4.tar.gz tmp/seedot-2.0.tar.gz --markdown 20230610/s/seedot/1.4-2.0/diff.md --exclude *.pyd
+[2023-06-10 17:17:10] INFO root fetch - processPackages [google-nest-sdm]: executing diffoscope
+[2023-06-10 17:17:10] INFO root fetch - processPackages [google-nest-sdm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google_nest_sdm-2.2.4.tar.gz tmp/google_nest_sdm-2.2.5.tar.gz --markdown 20230610/g/google-nest-sdm/2.2.4-2.2.5/diff.md --exclude *.pyd
+[2023-06-10 17:17:10] INFO root fetch - processPackages [sinabs]: executing diffoscope
+[2023-06-10 17:17:10] INFO root fetch - processPackages [sinabs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sinabs-1.2.6.dev10.tar.gz tmp/sinabs-1.2.6.dev2.tar.gz --markdown 20230610/s/sinabs/1.2.6.dev10-1.2.6.dev2/diff.md --exclude *.pyd
+[2023-06-10 17:17:10] INFO root fetch - processPackages [cyberdrop-dl]: executing diffoscope
+[2023-06-10 17:17:10] INFO root fetch - processPackages [cyberdrop-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyberdrop-dl-4.2.93.tar.gz tmp/cyberdrop-dl-4.2.94.tar.gz --markdown 20230610/c/cyberdrop-dl/4.2.93-4.2.94/diff.md --exclude *.pyd
+[2023-06-10 17:17:10] INFO root fetch - processPackages [tensorflow-text-nightly]: Downloading https://files.pythonhosted.org/packages/bc/27/5c04ac26e937185a03a713541634a727fae34e79f2c05415e9a4eb3f6e9a/tensorflow_text_nightly-2.14.0.dev20230610-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-10 17:17:10] INFO root fetch - processPackages [hagrid]: executing diffoscope
+[2023-06-10 17:17:10] INFO root fetch - processPackages [hagrid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hagrid-0.3.8.tar.gz tmp/hagrid-0.3.9.tar.gz --markdown 20230610/h/hagrid/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-10 17:17:10] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/b4/43/b31a00b4452d0b5904b6a1613a4dc7aa7a262ccdc4d4f61614f466008980/nvfuser_cu118-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-10 17:17:10] INFO root fetch - processPackages [nvfuser-cu118]: executing diffoscope
+[2023-06-10 17:17:10] INFO root fetch - processPackages [nvfuser-cu118]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu118-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nvfuser_cu118-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230610/n/nvfuser-cu118/0.0.9.dev20230514-0.0.9.dev20230515/diff.md --exclude *.pyd
+[2023-06-10 17:17:10] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/05/3d/6c84b5f07a9f69349df1b20f64065b4cbd84158521710f47bb31051a8ee9/nvfuser_cu121-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-10 17:17:10] INFO root fetch - processPackages [nvfuser-cu117]: Downloading https://files.pythonhosted.org/packages/74/50/be3d462491ae9f70d80293010b36c2a163fbf4cce3cab00d4fd749c345ce/nvfuser_cu117-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-10 17:17:11] INFO root fetch - processPackages [tensorflow-text-nightly]: executing diffoscope
+[2023-06-10 17:17:11] INFO root fetch - processPackages [tensorflow-text-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorflow_text_nightly-2.14.0.dev20230609-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/tensorflow_text_nightly-2.14.0.dev20230610-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230610/t/tensorflow-text-nightly/2.14.0.dev20230609-2.14.0.dev20230610/diff.md --exclude *.pyd
+[2023-06-10 17:17:11] INFO root fetch - processPackages [seedot]: Remove: archive file [/home/abi/fetcher/tmp/seedot-1.4.tar.gz]
+[2023-06-10 17:17:11] INFO root fetch - processPackages [seedot]: Remove: archive file [/home/abi/fetcher/tmp/seedot-2.0.tar.gz]
+[2023-06-10 17:17:11] INFO root fetch - main [MainThread]: End processing [seedot]: success
+[2023-06-10 17:17:11] INFO root fetch - processPackages [google-nest-sdm]: Remove: archive file [/home/abi/fetcher/tmp/google_nest_sdm-2.2.4.tar.gz]
+[2023-06-10 17:17:11] INFO root fetch - processPackages [google-nest-sdm]: Remove: archive file [/home/abi/fetcher/tmp/google_nest_sdm-2.2.5.tar.gz]
+[2023-06-10 17:17:11] INFO root fetch - main [MainThread]: End processing [google-nest-sdm]: success
+[2023-06-10 17:17:11] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop-dl-4.2.93.tar.gz]
+[2023-06-10 17:17:11] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop-dl-4.2.94.tar.gz]
+[2023-06-10 17:17:11] INFO root fetch - main [MainThread]: End processing [cyberdrop-dl]: success
+[2023-06-10 17:17:11] INFO root fetch - processPackages [bookio-fetchfox]: Remove: archive file [/home/abi/fetcher/tmp/bookio_fetchfox-0.7.1.tar.gz]
+[2023-06-10 17:17:11] INFO root fetch - processPackages [bookio-fetchfox]: Remove: archive file [/home/abi/fetcher/tmp/bookio_fetchfox-0.7.2.tar.gz]
+[2023-06-10 17:17:11] INFO root fetch - main [MainThread]: End processing [bookio-fetchfox]: success
+[2023-06-10 17:17:11] INFO root fetch - processPackages [hagrid]: Remove: archive file [/home/abi/fetcher/tmp/hagrid-0.3.8.tar.gz]
+[2023-06-10 17:17:11] INFO root fetch - processPackages [hagrid]: Remove: archive file [/home/abi/fetcher/tmp/hagrid-0.3.9.tar.gz]
+[2023-06-10 17:17:11] INFO root fetch - main [MainThread]: End processing [hagrid]: success
+[2023-06-10 17:17:11] INFO root fetch - processPackages [sinabs]: Remove: archive file [/home/abi/fetcher/tmp/sinabs-1.2.6.dev10.tar.gz]
+[2023-06-10 17:17:11] INFO root fetch - processPackages [sinabs]: Remove: archive file [/home/abi/fetcher/tmp/sinabs-1.2.6.dev2.tar.gz]
+[2023-06-10 17:17:11] INFO root fetch - main [MainThread]: End processing [sinabs]: success
+[2023-06-10 17:17:12] INFO root fetch - processPackages [nvfuser-cu121]: executing diffoscope
+[2023-06-10 17:17:12] INFO root fetch - processPackages [nvfuser-cu121]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu121-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nvfuser_cu121-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230610/n/nvfuser-cu121/0.0.9.dev20230514-0.0.9.dev20230515/diff.md --exclude *.pyd
+[2023-06-10 17:17:12] INFO root fetch - processPackages [nvfuser-cu117]: executing diffoscope
+[2023-06-10 17:17:12] INFO root fetch - processPackages [nvfuser-cu117]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu117-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nvfuser_cu117-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230610/n/nvfuser-cu117/0.0.9.dev20230514-0.0.9.dev20230515/diff.md --exclude *.pyd
+[2023-06-10 17:17:12] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-10 17:17:12] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-10 17:17:12] INFO root fetch - main [MainThread]: End processing [nvfuser-cu118]: success
+[2023-06-10 17:17:13] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-10 17:17:13] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-10 17:17:13] INFO root fetch - main [MainThread]: End processing [nvfuser-cu121]: success
+[2023-06-10 17:17:13] INFO root fetch - processPackages [nvfuser-cu117]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu117-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-10 17:17:13] INFO root fetch - processPackages [nvfuser-cu117]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu117-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-10 17:17:13] INFO root fetch - main [MainThread]: End processing [nvfuser-cu117]: success
+[2023-06-10 17:17:29] INFO root fetch - processPackages [tensorflow-text-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow_text_nightly-2.14.0.dev20230609-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-10 17:17:29] INFO root fetch - processPackages [tensorflow-text-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow_text_nightly-2.14.0.dev20230610-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-10 17:17:29] INFO root fetch - main [MainThread]: End processing [tensorflow-text-nightly]: success
+[2023-06-10 17:17:29] INFO root fetch - main [MainThread]: Store serial: [18451795]
