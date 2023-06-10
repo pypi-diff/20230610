@@ -2171,3 +2171,45 @@ EOFError: EOF read where object expected
 [2023-06-10 02:38:09] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-enterprise-iac-0.0.99.tar.gz]
 [2023-06-10 02:38:09] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-enterprise-iac]: success
 [2023-06-10 02:38:09] INFO root fetch - main [MainThread]: Store serial: [18446624]
+[2023-06-10 02:43:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18446624]
+[2023-06-10 02:43:19] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-10 02:43:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sphinx-xournal
+[2023-06-10 02:43:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: recognize
+[2023-06-10 02:43:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mo-imports
+[2023-06-10 02:43:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: craft-parts
+[2023-06-10 02:43:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyncm-async
+[2023-06-10 02:43:19] INFO root fetch - processPackages [sphinx-xournal]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-10 02:43:19] INFO root fetch - processPackages [craft-parts]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-06-10 02:43:19] INFO root fetch - processPackages [mo-imports]: New version: [7.408.23161] Old Version: [7.401.23144]
+[2023-06-10 02:43:19] INFO root fetch - processPackages [recognize]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-10 02:43:19] INFO root fetch - processPackages [sphinx-xournal]: Downloading https://files.pythonhosted.org/packages/19/88/232035ac20d0763210c5f3fbe5918a283beba57a3c6a1e82f7b65ab0aff1/sphinx_xournal-0.1.0.tar.gz
+[2023-06-10 02:43:19] WARNING root fetch - processPackages [pyncm-async]: Skipping, unable to determine old version
+[2023-06-10 02:43:19] INFO root fetch - main [MainThread]: End processing [pyncm-async] error
+[2023-06-10 02:43:19] INFO root fetch - processPackages [craft-parts]: Downloading https://files.pythonhosted.org/packages/a9/30/acf8d141cef6861894bdfdbfda10ea7293e1b2a90ee87f01f1ea8e8de4ff/craft-parts-1.8.1.tar.gz
+[2023-06-10 02:43:19] INFO root fetch - processPackages [mo-imports]: Downloading https://files.pythonhosted.org/packages/b9/49/7115a54802ada1c43194d293b0c36407311558878ca4295368e8cd30adf9/mo_imports-7.401.23144-py2.py3-none-any.whl
+[2023-06-10 02:43:19] INFO root fetch - processPackages [recognize]: Downloading https://files.pythonhosted.org/packages/40/75/963960f9236ff152d95ce8541330a5c1c55a1023a23c60d5e6d8cadd5cbb/recognize-0.1.8.tar.gz
+[2023-06-10 02:43:19] INFO root fetch - processPackages [sphinx-xournal]: Downloading https://files.pythonhosted.org/packages/f2/26/93538f4f80fdfee970ae607b51bf702b05bfa5885a66e6db2210fa6d5385/sphinx_xournal-0.1.1.tar.gz
+[2023-06-10 02:43:19] INFO root fetch - processPackages [sphinx-xournal]: executing diffoscope
+[2023-06-10 02:43:19] INFO root fetch - processPackages [sphinx-xournal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx_xournal-0.1.0.tar.gz tmp/sphinx_xournal-0.1.1.tar.gz --markdown 20230610/s/sphinx-xournal/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-10 02:43:19] INFO root fetch - processPackages [craft-parts]: Downloading https://files.pythonhosted.org/packages/b3/85/446d9b8eb87bca455449628cf0d7e85338a6d6b4de255aeacd095d7565b2/craft-parts-1.9.0.tar.gz
+[2023-06-10 02:43:19] INFO root fetch - processPackages [recognize]: Downloading https://files.pythonhosted.org/packages/90/11/44165d25dc6f6929091933caec158f7e7a1da9f6e2594a3b2c9180d8d7e3/recognize-0.1.9.tar.gz
+[2023-06-10 02:43:19] INFO root fetch - processPackages [mo-imports]: Downloading https://files.pythonhosted.org/packages/ed/d6/5d1673e47f2ed46e942311180a35a71023c79d6d6e6727a9c9e824ccfd51/mo_imports-7.408.23161-py2.py3-none-any.whl
+[2023-06-10 02:43:19] INFO root fetch - processPackages [craft-parts]: executing diffoscope
+[2023-06-10 02:43:19] INFO root fetch - processPackages [craft-parts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/craft-parts-1.8.1.tar.gz tmp/craft-parts-1.9.0.tar.gz --markdown 20230610/c/craft-parts/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-06-10 02:43:19] INFO root fetch - processPackages [recognize]: executing diffoscope
+[2023-06-10 02:43:19] INFO root fetch - processPackages [recognize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recognize-0.1.8.tar.gz tmp/recognize-0.1.9.tar.gz --markdown 20230610/r/recognize/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-10 02:43:19] INFO root fetch - processPackages [mo-imports]: executing diffoscope
+[2023-06-10 02:43:19] INFO root fetch - processPackages [mo-imports]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_imports-7.401.23144-py2.py3-none-any.whl.zip tmp/mo_imports-7.408.23161-py2.py3-none-any.whl.zip --markdown 20230610/m/mo-imports/7.401.23144-7.408.23161/diff.md --exclude *.pyd
+[2023-06-10 02:43:20] INFO root fetch - processPackages [sphinx-xournal]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_xournal-0.1.0.tar.gz]
+[2023-06-10 02:43:20] INFO root fetch - processPackages [sphinx-xournal]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_xournal-0.1.1.tar.gz]
+[2023-06-10 02:43:20] INFO root fetch - main [MainThread]: End processing [sphinx-xournal]: success
+[2023-06-10 02:43:20] INFO root fetch - processPackages [recognize]: Remove: archive file [/home/abi/fetcher/tmp/recognize-0.1.8.tar.gz]
+[2023-06-10 02:43:20] INFO root fetch - processPackages [recognize]: Remove: archive file [/home/abi/fetcher/tmp/recognize-0.1.9.tar.gz]
+[2023-06-10 02:43:20] INFO root fetch - main [MainThread]: End processing [recognize]: success
+[2023-06-10 02:43:20] INFO root fetch - processPackages [mo-imports]: Remove: archive file [/home/abi/fetcher/tmp/mo_imports-7.401.23144-py2.py3-none-any.whl.zip]
+[2023-06-10 02:43:20] INFO root fetch - processPackages [mo-imports]: Remove: archive file [/home/abi/fetcher/tmp/mo_imports-7.408.23161-py2.py3-none-any.whl.zip]
+[2023-06-10 02:43:20] INFO root fetch - main [MainThread]: End processing [mo-imports]: success
+[2023-06-10 02:43:21] INFO root fetch - processPackages [craft-parts]: Remove: archive file [/home/abi/fetcher/tmp/craft-parts-1.8.1.tar.gz]
+[2023-06-10 02:43:21] INFO root fetch - processPackages [craft-parts]: Remove: archive file [/home/abi/fetcher/tmp/craft-parts-1.9.0.tar.gz]
+[2023-06-10 02:43:21] INFO root fetch - main [MainThread]: End processing [craft-parts]: success
+[2023-06-10 02:43:21] INFO root fetch - main [MainThread]: Store serial: [18446640]
