@@ -7498,3 +7498,33 @@ EOFError: EOF read where object expected
 [2023-06-10 05:59:09] INFO root fetch - processPackages [winloop]: Remove: archive file [/home/abi/fetcher/tmp/winloop-0.0.4.tar.gz]
 [2023-06-10 05:59:09] INFO root fetch - main [MainThread]: End processing [winloop]: success
 [2023-06-10 05:59:09] INFO root fetch - main [MainThread]: Store serial: [18448533]
+[2023-06-10 06:04:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18448533]
+[2023-06-10 06:04:17] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-10 06:04:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo11-addon-maintenance-team-hierarchy
+[2023-06-10 06:04:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yandexcloud
+[2023-06-10 06:04:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-maintenance-team-hierarchy
+[2023-06-10 06:04:18] INFO root fetch - processPackages [odoo11-addon-maintenance-team-hierarchy]: New version: [11.0.1.0.0.99.dev8] Old Version: [11.0.1.0.0.99.dev7]
+[2023-06-10 06:04:18] INFO root fetch - processPackages [yandexcloud]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-06-10 06:04:18] INFO root fetch - processPackages [odoo14-addon-maintenance-team-hierarchy]: New version: [14.0.1.0.1.dev4] Old Version: [14.0.1.0.1.dev3]
+[2023-06-10 06:04:18] INFO root fetch - processPackages [odoo11-addon-maintenance-team-hierarchy]: Downloading https://files.pythonhosted.org/packages/ab/ff/31341d21b3b2e4e358b95bcfac19ab6a3d539f25fccd6397da4d0a479b69/odoo11_addon_maintenance_team_hierarchy-11.0.1.0.0.99.dev7-py2.py3-none-any.whl
+[2023-06-10 06:04:18] INFO root fetch - processPackages [yandexcloud]: Downloading https://files.pythonhosted.org/packages/76/3b/1649bfb2078286e8152c6e1bba2e34340ec1d2135c6ede304fed08ff6f42/yandexcloud-0.98.0.tar.gz
+[2023-06-10 06:04:18] INFO root fetch - processPackages [odoo14-addon-maintenance-team-hierarchy]: Downloading https://files.pythonhosted.org/packages/d0/47/6c33dab5426e259c3fcacde1e1a9a9ee7c5569be6bdb2190a33236acd852/odoo14_addon_maintenance_team_hierarchy-14.0.1.0.1.dev3-py3-none-any.whl
+[2023-06-10 06:04:18] INFO root fetch - processPackages [odoo11-addon-maintenance-team-hierarchy]: Downloading https://files.pythonhosted.org/packages/08/c1/9c28d1bca96decc21039271b4676e4f6ce062183dc1f7e93eec31a2b5b41/odoo11_addon_maintenance_team_hierarchy-11.0.1.0.0.99.dev8-py2.py3-none-any.whl
+[2023-06-10 06:04:18] INFO root fetch - processPackages [odoo14-addon-maintenance-team-hierarchy]: Downloading https://files.pythonhosted.org/packages/88/bc/e2d21c2a2a252ad4544fff0d65090c50b7c7e7aa9bce72ebe5499487e2cf/odoo14_addon_maintenance_team_hierarchy-14.0.1.0.1.dev4-py3-none-any.whl
+[2023-06-10 06:04:18] INFO root fetch - processPackages [yandexcloud]: Downloading https://files.pythonhosted.org/packages/2f/1f/b188f3c823e00c4f3114cbe85a4db73a89c7317f9bbc6634a6021521a9ab/yandexcloud-0.99.0.tar.gz
+[2023-06-10 06:04:18] INFO root fetch - processPackages [odoo11-addon-maintenance-team-hierarchy]: executing diffoscope
+[2023-06-10 06:04:18] INFO root fetch - processPackages [odoo11-addon-maintenance-team-hierarchy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo11_addon_maintenance_team_hierarchy-11.0.1.0.0.99.dev7-py2.py3-none-any.whl.zip tmp/odoo11_addon_maintenance_team_hierarchy-11.0.1.0.0.99.dev8-py2.py3-none-any.whl.zip --markdown 20230610/o/odoo11-addon-maintenance-team-hierarchy/11.0.1.0.0.99.dev7-11.0.1.0.0.99.dev8/diff.md --exclude *.pyd
+[2023-06-10 06:04:18] INFO root fetch - processPackages [odoo14-addon-maintenance-team-hierarchy]: executing diffoscope
+[2023-06-10 06:04:18] INFO root fetch - processPackages [odoo14-addon-maintenance-team-hierarchy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_maintenance_team_hierarchy-14.0.1.0.1.dev3-py3-none-any.whl.zip tmp/odoo14_addon_maintenance_team_hierarchy-14.0.1.0.1.dev4-py3-none-any.whl.zip --markdown 20230610/o/odoo14-addon-maintenance-team-hierarchy/14.0.1.0.1.dev3-14.0.1.0.1.dev4/diff.md --exclude *.pyd
+[2023-06-10 06:04:19] INFO root fetch - processPackages [yandexcloud]: executing diffoscope
+[2023-06-10 06:04:19] INFO root fetch - processPackages [yandexcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yandexcloud-0.98.0.tar.gz tmp/yandexcloud-0.99.0.tar.gz --markdown 20230610/y/yandexcloud/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-06-10 06:04:19] INFO root fetch - processPackages [odoo11-addon-maintenance-team-hierarchy]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_maintenance_team_hierarchy-11.0.1.0.0.99.dev7-py2.py3-none-any.whl.zip]
+[2023-06-10 06:04:19] INFO root fetch - processPackages [odoo11-addon-maintenance-team-hierarchy]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_maintenance_team_hierarchy-11.0.1.0.0.99.dev8-py2.py3-none-any.whl.zip]
+[2023-06-10 06:04:19] INFO root fetch - main [MainThread]: End processing [odoo11-addon-maintenance-team-hierarchy]: success
+[2023-06-10 06:04:19] INFO root fetch - processPackages [odoo14-addon-maintenance-team-hierarchy]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_maintenance_team_hierarchy-14.0.1.0.1.dev3-py3-none-any.whl.zip]
+[2023-06-10 06:04:19] INFO root fetch - processPackages [odoo14-addon-maintenance-team-hierarchy]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_maintenance_team_hierarchy-14.0.1.0.1.dev4-py3-none-any.whl.zip]
+[2023-06-10 06:04:19] INFO root fetch - main [MainThread]: End processing [odoo14-addon-maintenance-team-hierarchy]: success
+[2023-06-10 06:04:26] INFO root fetch - processPackages [yandexcloud]: Remove: archive file [/home/abi/fetcher/tmp/yandexcloud-0.98.0.tar.gz]
+[2023-06-10 06:04:26] INFO root fetch - processPackages [yandexcloud]: Remove: archive file [/home/abi/fetcher/tmp/yandexcloud-0.99.0.tar.gz]
+[2023-06-10 06:04:26] INFO root fetch - main [MainThread]: End processing [yandexcloud]: success
+[2023-06-10 06:04:26] INFO root fetch - main [MainThread]: Store serial: [18448540]
