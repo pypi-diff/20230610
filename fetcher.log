@@ -8371,3 +8371,24 @@ EOFError: EOF read where object expected
 [2023-06-10 07:53:14] INFO root fetch - processPackages [cs.debug]: Remove: archive file [/home/abi/fetcher/tmp/cs.debug-20230610.tar.gz]
 [2023-06-10 07:53:14] INFO root fetch - main [MainThread]: End processing [cs.debug]: success
 [2023-06-10 07:53:14] INFO root fetch - main [MainThread]: Store serial: [18448882]
+[2023-06-10 07:58:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18448882]
+[2023-06-10 07:58:23] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-06-10 07:58:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: clickhouse-connect
+[2023-06-10 07:58:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gqylpy-datastruct
+[2023-06-10 07:58:23] INFO root fetch - processPackages [clickhouse-connect]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-06-10 07:58:23] INFO root fetch - processPackages [gqylpy-datastruct]: New version: [3.0] Old Version: [2.2.5]
+[2023-06-10 07:58:24] INFO root fetch - processPackages [clickhouse-connect]: Downloading https://files.pythonhosted.org/packages/38/ec/5f001fba130dfc2009fde9015b1a7451ebfcbeaf4f3465864ba55737a2f9/clickhouse-connect-0.6.1.tar.gz
+[2023-06-10 07:58:24] INFO root fetch - processPackages [gqylpy-datastruct]: Downloading https://files.pythonhosted.org/packages/68/20/93f311ddfa0d520078ef63c4cffc0b3aaadffe9ce7c85a174fc33a9fc162/gqylpy_datastruct-2.2.5-py3-none-any.whl
+[2023-06-10 07:58:24] INFO root fetch - processPackages [clickhouse-connect]: Downloading https://files.pythonhosted.org/packages/a2/69/6d0886f5c37f77fd975b8ec7e00f47cde060372dad1bc3e1a1f8c6208a32/clickhouse-connect-0.6.2.tar.gz
+[2023-06-10 07:58:24] INFO root fetch - processPackages [gqylpy-datastruct]: Downloading https://files.pythonhosted.org/packages/5f/aa/076a97487ae8c0bb55785fce2352363afcee52fb15068ce9b8abe6eebcc5/gqylpy_datastruct-3.0-py3-none-any.whl
+[2023-06-10 07:58:24] INFO root fetch - processPackages [clickhouse-connect]: executing diffoscope
+[2023-06-10 07:58:24] INFO root fetch - processPackages [clickhouse-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clickhouse-connect-0.6.1.tar.gz tmp/clickhouse-connect-0.6.2.tar.gz --markdown 20230610/c/clickhouse-connect/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-06-10 07:58:24] INFO root fetch - processPackages [gqylpy-datastruct]: executing diffoscope
+[2023-06-10 07:58:24] INFO root fetch - processPackages [gqylpy-datastruct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gqylpy_datastruct-2.2.5-py3-none-any.whl.zip tmp/gqylpy_datastruct-3.0-py3-none-any.whl.zip --markdown 20230610/g/gqylpy-datastruct/2.2.5-3.0/diff.md --exclude *.pyd
+[2023-06-10 07:58:25] INFO root fetch - processPackages [gqylpy-datastruct]: Remove: archive file [/home/abi/fetcher/tmp/gqylpy_datastruct-2.2.5-py3-none-any.whl.zip]
+[2023-06-10 07:58:25] INFO root fetch - processPackages [gqylpy-datastruct]: Remove: archive file [/home/abi/fetcher/tmp/gqylpy_datastruct-3.0-py3-none-any.whl.zip]
+[2023-06-10 07:58:25] INFO root fetch - main [MainThread]: End processing [gqylpy-datastruct]: success
+[2023-06-10 07:58:25] INFO root fetch - processPackages [clickhouse-connect]: Remove: archive file [/home/abi/fetcher/tmp/clickhouse-connect-0.6.1.tar.gz]
+[2023-06-10 07:58:25] INFO root fetch - processPackages [clickhouse-connect]: Remove: archive file [/home/abi/fetcher/tmp/clickhouse-connect-0.6.2.tar.gz]
+[2023-06-10 07:58:25] INFO root fetch - main [MainThread]: End processing [clickhouse-connect]: success
+[2023-06-10 07:58:25] INFO root fetch - main [MainThread]: Store serial: [18448953]
