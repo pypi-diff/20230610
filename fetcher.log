@@ -17926,3 +17926,243 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-10 22:44:50] INFO root fetch - processPackages [flasgger]: Remove: archive file [/home/abi/fetcher/tmp/flasgger-0.9.7b2.tar.gz]
 [2023-06-10 22:44:50] INFO root fetch - main [MainThread]: End processing [flasgger]: success
 [2023-06-10 22:44:50] INFO root fetch - main [MainThread]: Store serial: [18453735]
+[2023-06-10 22:49:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18453735]
+[2023-06-10 22:50:03] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-06-10 22:50:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datoso-seed-fbneo
+[2023-06-10 22:50:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: remla23-team10-preprocessing
+[2023-06-10 22:50:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: maadstml
+[2023-06-10 22:50:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: datoso-seed-md-enhanced
+[2023-06-10 22:50:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: packagelister
+[2023-06-10 22:50:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: specker
+[2023-06-10 22:50:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pathier
+[2023-06-10 22:50:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: maadstml
+[2023-06-10 22:50:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: datoso-seed-nointro
+[2023-06-10 22:50:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: counterplots
+[2023-06-10 22:50:03] INFO root fetch - processPackages [packagelister]: New version: [1.6.0] Old Version: [1.5.1]
+[2023-06-10 22:50:03] INFO root fetch - processPackages [remla23-team10-preprocessing]: New version: [1.1.1] Old Version: [1.0.0]
+[2023-06-10 22:50:03] INFO root fetch - processPackages [counterplots]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-10 22:50:03] INFO root fetch - processPackages [datoso-seed-fbneo]: New version: [0.3.0] Old Version: [0.2.3]
+[2023-06-10 22:50:03] INFO root fetch - processPackages [specker]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-10 22:50:03] INFO root fetch - processPackages [datoso-seed-nointro]: New version: [0.3.0] Old Version: [0.2.5]
+[2023-06-10 22:50:03] INFO root fetch - processPackages [datoso-seed-md-enhanced]: New version: [0.3.0] Old Version: [0.2.3]
+[2023-06-10 22:50:03] INFO root fetch - processPackages [pathier]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-10 22:50:03] INFO root fetch - processPackages [maadstml]: New version: [3.28] Old Version: [3.27]
+[2023-06-10 22:50:03] INFO root fetch - processPackages [maadstml]: New version: [3.28] Old Version: [3.27]
+[2023-06-10 22:50:03] INFO root fetch - processPackages [datoso-seed-fbneo]: Downloading https://files.pythonhosted.org/packages/9f/ab/e27affdbf2f796c5973f3d965bcce416dbaef9b2a11439dc5772de26cf4b/datoso_seed_fbneo-0.2.3.tar.gz
+[2023-06-10 22:50:03] INFO root fetch - processPackages [packagelister]: Downloading https://files.pythonhosted.org/packages/fb/a6/651b2737b6e5efceb205aefdca6147ca36bf948b4a785660a6636b4927cd/packagelister-1.5.1.tar.gz
+[2023-06-10 22:50:03] INFO root fetch - processPackages [counterplots]: Downloading https://files.pythonhosted.org/packages/0b/7a/87a5bcbc34893df0c670b8e1d74103351c521ec6ba75915e540f9c502bdb/counterplots-0.0.6.tar.gz
+[2023-06-10 22:50:03] INFO root fetch - processPackages [datoso-seed-nointro]: Downloading https://files.pythonhosted.org/packages/5c/db/4b6b44ff15c1900e3ba69b7c4ffb65743663cbcb15d2e01c190c71b1be04/datoso_seed_nointro-0.2.5.tar.gz
+[2023-06-10 22:50:03] INFO root fetch - processPackages [specker]: Downloading https://files.pythonhosted.org/packages/2d/66/790aea8140f075864341eebf1400be952f2890fd820b7824d9350c63c20b/specker-1.1.1.tar.gz
+[2023-06-10 22:50:03] INFO root fetch - processPackages [pathier]: Downloading https://files.pythonhosted.org/packages/0e/f4/a214b6b30b783df6db4b6936c324190dba49463f6857268fca0585a654dc/pathier-0.8.0.tar.gz
+[2023-06-10 22:50:03] INFO root fetch - processPackages [remla23-team10-preprocessing]: Downloading https://files.pythonhosted.org/packages/cc/97/dbd2cd064f53fc445a0b0c82acc93102b34e985acd4cdfe8ec32ddaeb3cb/remla23-team10-preprocessing-1.0.0.tar.gz
+[2023-06-10 22:50:03] INFO root fetch - processPackages [datoso-seed-md-enhanced]: Downloading https://files.pythonhosted.org/packages/9c/40/eb001d166e1108ad8df9f6b60dd32b8e6cc9153a96a5ed6b640892355706/datoso_seed_md_enhanced-0.2.3.tar.gz
+[2023-06-10 22:50:03] INFO root fetch - processPackages [maadstml]: Downloading https://files.pythonhosted.org/packages/11/72/b8bec7e5e740b5de353ced17f1bb1702db6fc32200e5a32e41343c450811/maadstml-3.27.tar.gz
+[2023-06-10 22:50:03] INFO root fetch - processPackages [maadstml]: Downloading https://files.pythonhosted.org/packages/11/72/b8bec7e5e740b5de353ced17f1bb1702db6fc32200e5a32e41343c450811/maadstml-3.27.tar.gz
+[2023-06-10 22:50:03] INFO root fetch - processPackages [datoso-seed-fbneo]: Downloading https://files.pythonhosted.org/packages/b0/32/8c5d25d96c61df8bfe37e30e32c742aba0c785d3c21367e85fe77a6096f9/datoso_seed_fbneo-0.3.0.tar.gz
+[2023-06-10 22:50:03] INFO root fetch - processPackages [packagelister]: Downloading https://files.pythonhosted.org/packages/43/d1/076137c0ff39956dba1a43713ad94a2787b085925d1be822854d54e2d001/packagelister-1.6.0.tar.gz
+[2023-06-10 22:50:03] INFO root fetch - processPackages [datoso-seed-fbneo]: executing diffoscope
+[2023-06-10 22:50:03] INFO root fetch - processPackages [datoso-seed-fbneo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datoso_seed_fbneo-0.2.3.tar.gz tmp/datoso_seed_fbneo-0.3.0.tar.gz --markdown 20230610/d/datoso-seed-fbneo/0.2.3-0.3.0/diff.md --exclude *.pyd
+[2023-06-10 22:50:03] INFO root fetch - processPackages [datoso-seed-nointro]: Downloading https://files.pythonhosted.org/packages/2d/c7/8e6362a3ef9990d7c10f8b8a06ae4f7d54adfe570f5387575e9261c3a34e/datoso_seed_nointro-0.3.0.tar.gz
+[2023-06-10 22:50:03] INFO root fetch - processPackages [counterplots]: Downloading https://files.pythonhosted.org/packages/d7/10/4350dcb4bbe49c50901e4427eb0ca98f1e322539d5d91af44cffc108fc04/counterplots-0.0.7.tar.gz
+[2023-06-10 22:50:03] INFO root fetch - processPackages [specker]: Downloading https://files.pythonhosted.org/packages/22/82/06d64f92be5df6be772d4e894631c983fba50f9c408d8b3198c402c7ab5f/specker-1.1.2.tar.gz
+[2023-06-10 22:50:03] INFO root fetch - processPackages [datoso-seed-md-enhanced]: Downloading https://files.pythonhosted.org/packages/cf/8d/4332faaf6b1ad95e7e61077e5c350210c876997f15e5739176d4ae1e146b/datoso_seed_md_enhanced-0.3.0.tar.gz
+[2023-06-10 22:50:03] INFO root fetch - processPackages [remla23-team10-preprocessing]: Downloading https://files.pythonhosted.org/packages/6c/52/a638612fdfd72ad17c53c4dd1057ac1dac9ccd0ac18f7ec2057f0922d8eb/remla23-team10-preprocessing-1.1.1.tar.gz
+[2023-06-10 22:50:03] INFO root fetch - processPackages [pathier]: Downloading https://files.pythonhosted.org/packages/8f/d2/d37dc8f5fd6560d6ce827efbca68e3e5a1188f74d5d335da4c5504fd1556/pathier-0.9.0.tar.gz
+[2023-06-10 22:50:03] INFO root fetch - processPackages [packagelister]: executing diffoscope
+[2023-06-10 22:50:03] INFO root fetch - processPackages [packagelister]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/packagelister-1.5.1.tar.gz tmp/packagelister-1.6.0.tar.gz --markdown 20230610/p/packagelister/1.5.1-1.6.0/diff.md --exclude *.pyd
+[2023-06-10 22:50:03] INFO root fetch - processPackages [maadstml]: Downloading https://files.pythonhosted.org/packages/bf/32/593475d9b1be8e017a4d9044dde7b892bd8df8144246cf3971a9986a4405/maadstml-3.28.tar.gz
+[2023-06-10 22:50:03] INFO root fetch - processPackages [maadstml]: Downloading https://files.pythonhosted.org/packages/bf/32/593475d9b1be8e017a4d9044dde7b892bd8df8144246cf3971a9986a4405/maadstml-3.28.tar.gz
+[2023-06-10 22:50:03] INFO root fetch - processPackages [datoso-seed-nointro]: executing diffoscope
+[2023-06-10 22:50:03] INFO root fetch - processPackages [datoso-seed-nointro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datoso_seed_nointro-0.2.5.tar.gz tmp/datoso_seed_nointro-0.3.0.tar.gz --markdown 20230610/d/datoso-seed-nointro/0.2.5-0.3.0/diff.md --exclude *.pyd
+[2023-06-10 22:50:03] INFO root fetch - processPackages [counterplots]: executing diffoscope
+[2023-06-10 22:50:03] INFO root fetch - processPackages [counterplots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/counterplots-0.0.6.tar.gz tmp/counterplots-0.0.7.tar.gz --markdown 20230610/c/counterplots/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-10 22:50:03] INFO root fetch - processPackages [datoso-seed-md-enhanced]: executing diffoscope
+[2023-06-10 22:50:03] INFO root fetch - processPackages [datoso-seed-md-enhanced]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datoso_seed_md_enhanced-0.2.3.tar.gz tmp/datoso_seed_md_enhanced-0.3.0.tar.gz --markdown 20230610/d/datoso-seed-md-enhanced/0.2.3-0.3.0/diff.md --exclude *.pyd
+[2023-06-10 22:50:03] INFO root fetch - processPackages [specker]: executing diffoscope
+[2023-06-10 22:50:03] INFO root fetch - processPackages [specker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/specker-1.1.1.tar.gz tmp/specker-1.1.2.tar.gz --markdown 20230610/s/specker/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-06-10 22:50:03] INFO root fetch - processPackages [remla23-team10-preprocessing]: executing diffoscope
+[2023-06-10 22:50:03] INFO root fetch - processPackages [remla23-team10-preprocessing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remla23-team10-preprocessing-1.0.0.tar.gz tmp/remla23-team10-preprocessing-1.1.1.tar.gz --markdown 20230610/r/remla23-team10-preprocessing/1.0.0-1.1.1/diff.md --exclude *.pyd
+[2023-06-10 22:50:03] INFO root fetch - processPackages [maadstml]: executing diffoscope
+[2023-06-10 22:50:03] INFO root fetch - processPackages [maadstml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maadstml-3.27.tar.gz tmp/maadstml-3.28.tar.gz --markdown 20230610/m/maadstml/3.27-3.28/diff.md --exclude *.pyd
+[2023-06-10 22:50:03] INFO root fetch - processPackages [maadstml]: executing diffoscope
+[2023-06-10 22:50:03] INFO root fetch - processPackages [maadstml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maadstml-3.27.tar.gz tmp/maadstml-3.28.tar.gz --markdown 20230610/m/maadstml/3.27-3.28/diff.md --exclude *.pyd
+[2023-06-10 22:50:04] INFO root fetch - processPackages [pathier]: executing diffoscope
+[2023-06-10 22:50:04] INFO root fetch - processPackages [pathier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pathier-0.8.0.tar.gz tmp/pathier-0.9.0.tar.gz --markdown 20230610/p/pathier/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-10 22:50:05] INFO root fetch - processPackages [datoso-seed-fbneo]: Remove: archive file [/home/abi/fetcher/tmp/datoso_seed_fbneo-0.2.3.tar.gz]
+[2023-06-10 22:50:05] INFO root fetch - processPackages [datoso-seed-fbneo]: Remove: archive file [/home/abi/fetcher/tmp/datoso_seed_fbneo-0.3.0.tar.gz]
+[2023-06-10 22:50:05] INFO root fetch - processPackages [datoso-seed-fbneo]: Start processing: gs-coordinator
+[2023-06-10 22:50:05] INFO root fetch - main [MainThread]: End processing [datoso-seed-fbneo]: success
+[2023-06-10 22:50:05] INFO root fetch - processPackages [gs-coordinator]: New version: [0.23.0a20230610] Old Version: [0.23.0a20230609]
+[2023-06-10 22:50:05] INFO root fetch - processPackages [gs-coordinator]: Downloading https://files.pythonhosted.org/packages/cb/03/d0595001a09c32c8779e8d2adb92b34ad339917124867bad03b392745a5b/gs_coordinator-0.23.0a20230609-py2.py3-none-any.whl
+[2023-06-10 22:50:05] INFO root fetch - processPackages [datoso-seed-md-enhanced]: Remove: archive file [/home/abi/fetcher/tmp/datoso_seed_md_enhanced-0.2.3.tar.gz]
+[2023-06-10 22:50:05] INFO root fetch - processPackages [datoso-seed-md-enhanced]: Remove: archive file [/home/abi/fetcher/tmp/datoso_seed_md_enhanced-0.3.0.tar.gz]
+[2023-06-10 22:50:05] INFO root fetch - processPackages [datoso-seed-md-enhanced]: Start processing: gs-engine
+[2023-06-10 22:50:05] INFO root fetch - main [MainThread]: End processing [datoso-seed-md-enhanced]: success
+[2023-06-10 22:50:05] INFO root fetch - processPackages [gs-engine]: New version: [0.23.0a20230610] Old Version: [0.23.0a20230609]
+[2023-06-10 22:50:05] INFO root fetch - processPackages [remla23-team10-preprocessing]: Remove: archive file [/home/abi/fetcher/tmp/remla23-team10-preprocessing-1.0.0.tar.gz]
+[2023-06-10 22:50:05] INFO root fetch - processPackages [remla23-team10-preprocessing]: Remove: archive file [/home/abi/fetcher/tmp/remla23-team10-preprocessing-1.1.1.tar.gz]
+[2023-06-10 22:50:05] INFO root fetch - processPackages [remla23-team10-preprocessing]: Start processing: gs-include
+[2023-06-10 22:50:05] INFO root fetch - main [MainThread]: End processing [remla23-team10-preprocessing]: success
+[2023-06-10 22:50:05] INFO root fetch - processPackages [gs-include]: New version: [0.23.0a20230610] Old Version: [0.23.0a20230609]
+[2023-06-10 22:50:05] INFO root fetch - processPackages [datoso-seed-nointro]: Remove: archive file [/home/abi/fetcher/tmp/datoso_seed_nointro-0.2.5.tar.gz]
+[2023-06-10 22:50:05] INFO root fetch - processPackages [datoso-seed-nointro]: Remove: archive file [/home/abi/fetcher/tmp/datoso_seed_nointro-0.3.0.tar.gz]
+[2023-06-10 22:50:05] INFO root fetch - processPackages [datoso-seed-nointro]: Start processing: pyupgrade
+[2023-06-10 22:50:05] INFO root fetch - main [MainThread]: End processing [datoso-seed-nointro]: success
+[2023-06-10 22:50:05] INFO root fetch - processPackages [gs-coordinator]: Downloading https://files.pythonhosted.org/packages/c6/07/80044e5a981f7d25a493e377dee2b644795b572d35c9ec840136518266ba/gs_coordinator-0.23.0a20230610-py2.py3-none-any.whl
+[2023-06-10 22:50:05] INFO root fetch - processPackages [pyupgrade]: New version: [3.4.1] Old Version: [3.4.0]
+[2023-06-10 22:50:05] INFO root fetch - processPackages [gs-include]: Downloading https://files.pythonhosted.org/packages/1c/a4/f159666399deb9a0298487d36039b7f266175b30e30108ca4225c69daf8a/gs_include-0.23.0a20230609-py2.py3-none-any.whl
+[2023-06-10 22:50:05] INFO root fetch - processPackages [gs-engine]: Downloading https://files.pythonhosted.org/packages/82/a6/5c9df0ed585d5ca94a0d63d06a24fbecda5819895dd070a7586bfa2b1232/gs_engine-0.23.0a20230609-py2.py3-none-any.whl
+[2023-06-10 22:50:05] WARNING root fetch - processPackages [gs-include]: Skipping package: exceeds size limit 27683004>=10485760
+[2023-06-10 22:50:05] INFO root fetch - processPackages [gs-include]: Start processing: remla23-team10-preprocessing
+[2023-06-10 22:50:05] INFO root fetch - main [MainThread]: End processing [gs-include] error
+[2023-06-10 22:50:05] INFO root fetch - processPackages [pyupgrade]: Downloading https://files.pythonhosted.org/packages/a7/c8/4285676e581749cf604ed44d68f01934f61056f59b44cd71653b49da4efe/pyupgrade-3.4.0.tar.gz
+[2023-06-10 22:50:05] INFO root fetch - processPackages [remla23-team10-preprocessing]: New version: [1.1.1] Old Version: [1.0.0]
+[2023-06-10 22:50:05] INFO root fetch - processPackages [gs-coordinator]: executing diffoscope
+[2023-06-10 22:50:05] INFO root fetch - processPackages [gs-coordinator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs_coordinator-0.23.0a20230609-py2.py3-none-any.whl.zip tmp/gs_coordinator-0.23.0a20230610-py2.py3-none-any.whl.zip --markdown 20230610/g/gs-coordinator/0.23.0a20230609-0.23.0a20230610/diff.md --exclude *.pyd
+[2023-06-10 22:50:05] INFO root fetch - processPackages [counterplots]: Remove: archive file [/home/abi/fetcher/tmp/counterplots-0.0.6.tar.gz]
+[2023-06-10 22:50:05] INFO root fetch - processPackages [counterplots]: Remove: archive file [/home/abi/fetcher/tmp/counterplots-0.0.7.tar.gz]
+[2023-06-10 22:50:05] INFO root fetch - processPackages [counterplots]: Start processing: datoso-seed-pleasuredome
+[2023-06-10 22:50:05] INFO root fetch - main [MainThread]: End processing [counterplots]: success
+[2023-06-10 22:50:05] INFO root fetch - processPackages [maadstml]: Remove: archive file [/home/abi/fetcher/tmp/maadstml-3.27.tar.gz]
+[2023-06-10 22:50:05] INFO root fetch - processPackages [maadstml]: Remove: archive file [/home/abi/fetcher/tmp/maadstml-3.28.tar.gz]
+[2023-06-10 22:50:05] INFO root fetch - processPackages [maadstml]: Start processing: pyepkg
+[2023-06-10 22:50:05] INFO root fetch - main [MainThread]: End processing [maadstml]: success
+[2023-06-10 22:50:05] INFO root fetch - processPackages [datoso-seed-pleasuredome]: New version: [0.3.0] Old Version: [0.2.3]
+[2023-06-10 22:50:05] INFO root fetch - processPackages [remla23-team10-preprocessing]: Downloading https://files.pythonhosted.org/packages/cc/97/dbd2cd064f53fc445a0b0c82acc93102b34e985acd4cdfe8ec32ddaeb3cb/remla23-team10-preprocessing-1.0.0.tar.gz
+[2023-06-10 22:50:05] INFO root fetch - processPackages [packagelister]: Remove: archive file [/home/abi/fetcher/tmp/packagelister-1.5.1.tar.gz]
+[2023-06-10 22:50:05] INFO root fetch - processPackages [packagelister]: Remove: archive file [/home/abi/fetcher/tmp/packagelister-1.6.0.tar.gz]
+[2023-06-10 22:50:05] INFO root fetch - processPackages [packagelister]: Start processing: printbuddies
+[2023-06-10 22:50:05] INFO root fetch - main [MainThread]: End processing [packagelister]: success
+[2023-06-10 22:50:05] WARNING root fetch - processPackages [pyepkg]: Skipping, unable to determine old version
+[2023-06-10 22:50:05] INFO root fetch - main [MainThread]: End processing [pyepkg] error
+[2023-06-10 22:50:05] INFO root fetch - processPackages [datoso-seed-pleasuredome]: Downloading https://files.pythonhosted.org/packages/83/bd/c13c7a6345d09434ed07c4d962fb0f21623aab276c04345119e01b3aca98/datoso_seed_pleasuredome-0.2.3.tar.gz
+[2023-06-10 22:50:05] INFO root fetch - processPackages [gs-engine]: Downloading https://files.pythonhosted.org/packages/eb/41/6bd68c571ed44c1ac9c0f0a9191a3b7f85c21a3c14013efe0551e8830e1c/gs_engine-0.23.0a20230610-py2.py3-none-any.whl
+[2023-06-10 22:50:05] INFO root fetch - processPackages [pyupgrade]: Downloading https://files.pythonhosted.org/packages/64/65/6758d33f026b06bd3c6b66da87a6bbca17885d5fc205b188faea040e3870/pyupgrade-3.4.1.tar.gz
+[2023-06-10 22:50:05] INFO root fetch - processPackages [printbuddies]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-06-10 22:50:05] INFO root fetch - processPackages [remla23-team10-preprocessing]: Downloading https://files.pythonhosted.org/packages/6c/52/a638612fdfd72ad17c53c4dd1057ac1dac9ccd0ac18f7ec2057f0922d8eb/remla23-team10-preprocessing-1.1.1.tar.gz
+[2023-06-10 22:50:06] INFO root fetch - processPackages [remla23-team10-preprocessing]: executing diffoscope
+[2023-06-10 22:50:06] INFO root fetch - processPackages [remla23-team10-preprocessing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remla23-team10-preprocessing-1.0.0.tar.gz tmp/remla23-team10-preprocessing-1.1.1.tar.gz --markdown 20230610/r/remla23-team10-preprocessing/1.0.0-1.1.1/diff.md --exclude *.pyd
+[2023-06-10 22:50:06] INFO root fetch - processPackages [pyupgrade]: executing diffoscope
+[2023-06-10 22:50:06] INFO root fetch - processPackages [pyupgrade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyupgrade-3.4.0.tar.gz tmp/pyupgrade-3.4.1.tar.gz --markdown 20230610/p/pyupgrade/3.4.0-3.4.1/diff.md --exclude *.pyd
+[2023-06-10 22:50:06] INFO root fetch - processPackages [gs-engine]: executing diffoscope
+[2023-06-10 22:50:06] INFO root fetch - processPackages [gs-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs_engine-0.23.0a20230609-py2.py3-none-any.whl.zip tmp/gs_engine-0.23.0a20230610-py2.py3-none-any.whl.zip --markdown 20230610/g/gs-engine/0.23.0a20230609-0.23.0a20230610/diff.md --exclude *.pyd
+[2023-06-10 22:50:06] INFO root fetch - processPackages [datoso-seed-pleasuredome]: Downloading https://files.pythonhosted.org/packages/bb/10/279255c789970d7bf60b10e99f0066dd14ae7dae3c495ed2feae592dac5f/datoso_seed_pleasuredome-0.3.0.tar.gz
+[2023-06-10 22:50:06] INFO root fetch - processPackages [printbuddies]: Downloading https://files.pythonhosted.org/packages/48/67/20912fb88e4a2a460669b01ba086f88363fcffd225244e40a6212b4f3cb0/printbuddies-1.3.0.tar.gz
+[2023-06-10 22:50:06] INFO root fetch - processPackages [datoso-seed-pleasuredome]: executing diffoscope
+[2023-06-10 22:50:06] INFO root fetch - processPackages [datoso-seed-pleasuredome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datoso_seed_pleasuredome-0.2.3.tar.gz tmp/datoso_seed_pleasuredome-0.3.0.tar.gz --markdown 20230610/d/datoso-seed-pleasuredome/0.2.3-0.3.0/diff.md --exclude *.pyd
+[2023-06-10 22:50:06] INFO root fetch - processPackages [printbuddies]: Downloading https://files.pythonhosted.org/packages/b1/df/0b273a7540bb5e390a33a744cc4079befd4637a756a2e51fa5dc8ded2437/printbuddies-1.3.1.tar.gz
+[2023-06-10 22:50:06] INFO root fetch - processPackages [printbuddies]: executing diffoscope
+[2023-06-10 22:50:06] INFO root fetch - processPackages [printbuddies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/printbuddies-1.3.0.tar.gz tmp/printbuddies-1.3.1.tar.gz --markdown 20230610/p/printbuddies/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-06-10 22:50:06] INFO root fetch - processPackages [specker]: Remove: archive file [/home/abi/fetcher/tmp/specker-1.1.1.tar.gz]
+[2023-06-10 22:50:06] INFO root fetch - processPackages [specker]: Remove: archive file [/home/abi/fetcher/tmp/specker-1.1.2.tar.gz]
+[2023-06-10 22:50:06] INFO root fetch - main [MainThread]: End processing [specker]: success
+[2023-06-10 22:50:06] ERROR root fetch - processPackages [maadstml]: Diffoscope failed: gzip: tmp/maadstml-3.28.tar.gz: No such file or directory
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 131, in comparisons
+    other_members = OrderedDict(other.get_adjusted_members_sizes())
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 126, in get_adjusted_members_sizes
+    size = path_apparent_size(member.path)
+                              ^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/archive.py", line 114, in path
+    self._path = self.container.extract(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/tools.py", line 141, in tool_check
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/gzip.py", line 51, in extract
+    subprocess.check_call(
+  File "/usr/lib/python3.11/subprocess.py", line 413, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['gzip', '-d', '-c', 'tmp/maadstml-3.28.tar.gz']' returned non-zero exit status 1.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 536, in compare
+    difference = self.compare_bytes(other, source=source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 395, in compare_bytes
+    return compare_binary_files(self, other, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 176, in compare_binary_files
+    return Difference.from_operation(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+[2023-06-10 22:50:06] INFO root fetch - main [MainThread]: End processing [maadstml] error
+[2023-06-10 22:50:07] INFO root fetch - processPackages [gs-coordinator]: Remove: archive file [/home/abi/fetcher/tmp/gs_coordinator-0.23.0a20230609-py2.py3-none-any.whl.zip]
+[2023-06-10 22:50:07] INFO root fetch - processPackages [gs-coordinator]: Remove: archive file [/home/abi/fetcher/tmp/gs_coordinator-0.23.0a20230610-py2.py3-none-any.whl.zip]
+[2023-06-10 22:50:07] INFO root fetch - main [MainThread]: End processing [gs-coordinator]: success
+[2023-06-10 22:50:07] INFO root fetch - processPackages [remla23-team10-preprocessing]: Remove: archive file [/home/abi/fetcher/tmp/remla23-team10-preprocessing-1.0.0.tar.gz]
+[2023-06-10 22:50:07] INFO root fetch - processPackages [remla23-team10-preprocessing]: Remove: archive file [/home/abi/fetcher/tmp/remla23-team10-preprocessing-1.1.1.tar.gz]
+[2023-06-10 22:50:07] INFO root fetch - main [MainThread]: End processing [remla23-team10-preprocessing]: success
+[2023-06-10 22:50:07] INFO root fetch - processPackages [gs-engine]: Remove: archive file [/home/abi/fetcher/tmp/gs_engine-0.23.0a20230609-py2.py3-none-any.whl.zip]
+[2023-06-10 22:50:07] INFO root fetch - processPackages [gs-engine]: Remove: archive file [/home/abi/fetcher/tmp/gs_engine-0.23.0a20230610-py2.py3-none-any.whl.zip]
+[2023-06-10 22:50:07] INFO root fetch - main [MainThread]: End processing [gs-engine]: success
+[2023-06-10 22:50:07] INFO root fetch - processPackages [datoso-seed-pleasuredome]: Remove: archive file [/home/abi/fetcher/tmp/datoso_seed_pleasuredome-0.2.3.tar.gz]
+[2023-06-10 22:50:07] INFO root fetch - processPackages [datoso-seed-pleasuredome]: Remove: archive file [/home/abi/fetcher/tmp/datoso_seed_pleasuredome-0.3.0.tar.gz]
+[2023-06-10 22:50:07] INFO root fetch - main [MainThread]: End processing [datoso-seed-pleasuredome]: success
+[2023-06-10 22:50:07] INFO root fetch - processPackages [pathier]: Remove: archive file [/home/abi/fetcher/tmp/pathier-0.8.0.tar.gz]
+[2023-06-10 22:50:07] INFO root fetch - processPackages [pathier]: Remove: archive file [/home/abi/fetcher/tmp/pathier-0.9.0.tar.gz]
+[2023-06-10 22:50:07] INFO root fetch - main [MainThread]: End processing [pathier]: success
+[2023-06-10 22:50:08] INFO root fetch - processPackages [pyupgrade]: Remove: archive file [/home/abi/fetcher/tmp/pyupgrade-3.4.0.tar.gz]
+[2023-06-10 22:50:08] INFO root fetch - processPackages [pyupgrade]: Remove: archive file [/home/abi/fetcher/tmp/pyupgrade-3.4.1.tar.gz]
+[2023-06-10 22:50:08] INFO root fetch - main [MainThread]: End processing [pyupgrade]: success
+[2023-06-10 22:50:08] INFO root fetch - processPackages [printbuddies]: Remove: archive file [/home/abi/fetcher/tmp/printbuddies-1.3.0.tar.gz]
+[2023-06-10 22:50:08] INFO root fetch - processPackages [printbuddies]: Remove: archive file [/home/abi/fetcher/tmp/printbuddies-1.3.1.tar.gz]
+[2023-06-10 22:50:08] INFO root fetch - main [MainThread]: End processing [printbuddies]: success
+[2023-06-10 22:50:08] INFO root fetch - main [MainThread]: Store serial: [18453800]
