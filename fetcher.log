@@ -10986,3 +10986,69 @@ EOFError: EOF read where object expected
 [2023-06-10 13:30:33] INFO root fetch - processPackages [fabric-orchestrator-client]: Remove: archive file [/home/abi/fetcher/tmp/fabric-orchestrator-client-1.5.0rc2.tar.gz]
 [2023-06-10 13:30:33] INFO root fetch - main [MainThread]: End processing [fabric-orchestrator-client]: success
 [2023-06-10 13:30:33] INFO root fetch - main [MainThread]: Store serial: [18450235]
+[2023-06-10 13:35:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18450235]
+[2023-06-10 13:35:42] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-10 13:35:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scipion-em-aretomo
+[2023-06-10 13:35:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hypha
+[2023-06-10 13:35:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lnschema_core
+[2023-06-10 13:35:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mfhpo-benchmark-api
+[2023-06-10 13:35:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: photobooth-app
+[2023-06-10 13:35:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: DefyDatabase
+[2023-06-10 13:35:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: omnata-plugin-devkit
+[2023-06-10 13:35:42] INFO root fetch - processPackages [scipion-em-aretomo]: New version: [3.7] Old Version: [3.6.5]
+[2023-06-10 13:35:42] INFO root fetch - processPackages [lnschema_core]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-06-10 13:35:42] INFO root fetch - processPackages [photobooth-app]: New version: [0.1.0b5] Old Version: [0.1.0b4]
+[2023-06-10 13:35:42] INFO root fetch - processPackages [DefyDatabase]: New version: [10.0.0a3] Old Version: [10.0.0a2]
+[2023-06-10 13:35:42] INFO root fetch - processPackages [mfhpo-benchmark-api]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-10 13:35:42] INFO root fetch - processPackages [hypha]: New version: [0.15.8] Old Version: [0.15.7]
+[2023-06-10 13:35:42] INFO root fetch - processPackages [omnata-plugin-devkit]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-10 13:35:42] INFO root fetch - processPackages [lnschema_core]: Downloading https://files.pythonhosted.org/packages/7a/53/1459e32f6943488250f623718aeb560351a142d81c57a5fc8ef6b0dd1680/lnschema_core-0.8.1.tar.gz
+[2023-06-10 13:35:42] INFO root fetch - processPackages [DefyDatabase]: Downloading https://files.pythonhosted.org/packages/0b/d9/cd2b191766b987f8aaf45ab76d5c9808a0bb471a93143d289adee2dd215e/DefyDatabase-10.0.0a2.tar.gz
+[2023-06-10 13:35:42] INFO root fetch - processPackages [mfhpo-benchmark-api]: Downloading https://files.pythonhosted.org/packages/3d/f5/388c4db3a3e342ec2a8c945e68a4148dd08a70c09c8cac69df6d4f324afa/mfhpo_benchmark_api-1.0.1-py3-none-any.whl
+[2023-06-10 13:35:42] INFO root fetch - processPackages [hypha]: Downloading https://files.pythonhosted.org/packages/3b/1c/2587650834b82f5294e81891a15c92e1504fc26a7cb3ea08be1d64f1236a/hypha-0.15.7.tar.gz
+[2023-06-10 13:35:42] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/a6/03/037aa46c1c15ce197872a42c2494fcfb0dd6fd4c14cebaeaf6f9495b5cbf/omnata_plugin_devkit-0.1.8.tar.gz
+[2023-06-10 13:35:43] INFO root fetch - processPackages [lnschema_core]: Downloading https://files.pythonhosted.org/packages/39/cd/cc4d91db21934f66692bedcbdb15fc2c82698c7cc9d0288133e8fa2f5cee/lnschema_core-0.9.0.tar.gz
+[2023-06-10 13:35:43] INFO root fetch - processPackages [hypha]: Downloading https://files.pythonhosted.org/packages/5f/f5/974dbcd4812824cf3f90d85490f8c6b7df7931f35b4ea2b5bdb8cd72cdbf/hypha-0.15.8.tar.gz
+[2023-06-10 13:35:43] INFO root fetch - processPackages [photobooth-app]: Downloading https://files.pythonhosted.org/packages/fe/9b/3bedad0a73a63d56e952cd01da1260b711e14fa368613e5278b9db44a94c/photobooth_app-0.1.0b4.tar.gz
+[2023-06-10 13:35:43] INFO root fetch - processPackages [scipion-em-aretomo]: Downloading https://files.pythonhosted.org/packages/d1/cf/002ae0e3f198c58abdef0e9867439ec338b06a3258e5a2e17c8c46daa26d/scipion-em-aretomo-3.6.5.tar.gz
+[2023-06-10 13:35:43] INFO root fetch - processPackages [lnschema_core]: executing diffoscope
+[2023-06-10 13:35:43] INFO root fetch - processPackages [lnschema_core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnschema_core-0.8.1.tar.gz tmp/lnschema_core-0.9.0.tar.gz --markdown 20230610/l/lnschema_core/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-06-10 13:35:43] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/94/e1/5b8aa743f4bbe600dde3989489613981c39b2dfcd44174b9931cf0c42452/omnata_plugin_devkit-0.1.9.tar.gz
+[2023-06-10 13:35:43] INFO root fetch - processPackages [hypha]: executing diffoscope
+[2023-06-10 13:35:43] INFO root fetch - processPackages [hypha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypha-0.15.7.tar.gz tmp/hypha-0.15.8.tar.gz --markdown 20230610/h/hypha/0.15.7-0.15.8/diff.md --exclude *.pyd
+[2023-06-10 13:35:43] INFO root fetch - processPackages [mfhpo-benchmark-api]: Downloading https://files.pythonhosted.org/packages/ad/54/49312f51edac441f45422375cdeafa31905afa4586947452039a14acbfda/mfhpo_benchmark_api-1.0.2-py3-none-any.whl
+[2023-06-10 13:35:43] INFO root fetch - processPackages [omnata-plugin-devkit]: executing diffoscope
+[2023-06-10 13:35:43] INFO root fetch - processPackages [DefyDatabase]: Downloading https://files.pythonhosted.org/packages/b9/77/0da0d35514c25d5c0f835b43253f8213cc5628c85564a2608540e4c40568/DefyDatabase-10.0.0a3.tar.gz
+[2023-06-10 13:35:43] INFO root fetch - processPackages [omnata-plugin-devkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_devkit-0.1.8.tar.gz tmp/omnata_plugin_devkit-0.1.9.tar.gz --markdown 20230610/o/omnata-plugin-devkit/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-10 13:35:43] INFO root fetch - processPackages [mfhpo-benchmark-api]: executing diffoscope
+[2023-06-10 13:35:43] INFO root fetch - processPackages [mfhpo-benchmark-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mfhpo_benchmark_api-1.0.1-py3-none-any.whl.zip tmp/mfhpo_benchmark_api-1.0.2-py3-none-any.whl.zip --markdown 20230610/m/mfhpo-benchmark-api/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-10 13:35:43] INFO root fetch - processPackages [DefyDatabase]: executing diffoscope
+[2023-06-10 13:35:43] INFO root fetch - processPackages [DefyDatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DefyDatabase-10.0.0a2.tar.gz tmp/DefyDatabase-10.0.0a3.tar.gz --markdown 20230610/D/DefyDatabase/10.0.0a2-10.0.0a3/diff.md --exclude *.pyd
+[2023-06-10 13:35:43] INFO root fetch - processPackages [scipion-em-aretomo]: Downloading https://files.pythonhosted.org/packages/5a/50/4030641990bc1128dbba34599b414e97828da3efacdb37b4dcb9247edb37/scipion-em-aretomo-3.7.tar.gz
+[2023-06-10 13:35:43] INFO root fetch - processPackages [scipion-em-aretomo]: executing diffoscope
+[2023-06-10 13:35:43] INFO root fetch - processPackages [scipion-em-aretomo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scipion-em-aretomo-3.6.5.tar.gz tmp/scipion-em-aretomo-3.7.tar.gz --markdown 20230610/s/scipion-em-aretomo/3.6.5-3.7/diff.md --exclude *.pyd
+[2023-06-10 13:35:44] INFO root fetch - processPackages [lnschema_core]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_core-0.8.1.tar.gz]
+[2023-06-10 13:35:44] INFO root fetch - processPackages [lnschema_core]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_core-0.9.0.tar.gz]
+[2023-06-10 13:35:44] INFO root fetch - main [MainThread]: End processing [lnschema_core]: success
+[2023-06-10 13:35:44] INFO root fetch - processPackages [mfhpo-benchmark-api]: Remove: archive file [/home/abi/fetcher/tmp/mfhpo_benchmark_api-1.0.1-py3-none-any.whl.zip]
+[2023-06-10 13:35:44] INFO root fetch - processPackages [mfhpo-benchmark-api]: Remove: archive file [/home/abi/fetcher/tmp/mfhpo_benchmark_api-1.0.2-py3-none-any.whl.zip]
+[2023-06-10 13:35:44] INFO root fetch - main [MainThread]: End processing [mfhpo-benchmark-api]: success
+[2023-06-10 13:35:44] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.1.8.tar.gz]
+[2023-06-10 13:35:44] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.1.9.tar.gz]
+[2023-06-10 13:35:44] INFO root fetch - main [MainThread]: End processing [omnata-plugin-devkit]: success
+[2023-06-10 13:35:44] INFO root fetch - processPackages [photobooth-app]: Downloading https://files.pythonhosted.org/packages/25/31/6d7e09880311d5d1078e186f4e0ee3cb154224cb99c0f4eddc799cf28358/photobooth_app-0.1.0b5.tar.gz
+[2023-06-10 13:35:44] INFO root fetch - processPackages [scipion-em-aretomo]: Remove: archive file [/home/abi/fetcher/tmp/scipion-em-aretomo-3.6.5.tar.gz]
+[2023-06-10 13:35:44] INFO root fetch - processPackages [scipion-em-aretomo]: Remove: archive file [/home/abi/fetcher/tmp/scipion-em-aretomo-3.7.tar.gz]
+[2023-06-10 13:35:44] INFO root fetch - main [MainThread]: End processing [scipion-em-aretomo]: success
+[2023-06-10 13:35:44] INFO root fetch - processPackages [DefyDatabase]: Remove: archive file [/home/abi/fetcher/tmp/DefyDatabase-10.0.0a2.tar.gz]
+[2023-06-10 13:35:44] INFO root fetch - processPackages [DefyDatabase]: Remove: archive file [/home/abi/fetcher/tmp/DefyDatabase-10.0.0a3.tar.gz]
+[2023-06-10 13:35:44] INFO root fetch - main [MainThread]: End processing [DefyDatabase]: success
+[2023-06-10 13:35:46] INFO root fetch - processPackages [photobooth-app]: executing diffoscope
+[2023-06-10 13:35:46] INFO root fetch - processPackages [photobooth-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/photobooth_app-0.1.0b4.tar.gz tmp/photobooth_app-0.1.0b5.tar.gz --markdown 20230610/p/photobooth-app/0.1.0b4-0.1.0b5/diff.md --exclude *.pyd
+[2023-06-10 13:35:46] INFO root fetch - processPackages [hypha]: Remove: archive file [/home/abi/fetcher/tmp/hypha-0.15.7.tar.gz]
+[2023-06-10 13:35:46] INFO root fetch - processPackages [hypha]: Remove: archive file [/home/abi/fetcher/tmp/hypha-0.15.8.tar.gz]
+[2023-06-10 13:35:46] INFO root fetch - main [MainThread]: End processing [hypha]: success
+[2023-06-10 13:35:48] INFO root fetch - processPackages [photobooth-app]: Remove: archive file [/home/abi/fetcher/tmp/photobooth_app-0.1.0b4.tar.gz]
+[2023-06-10 13:35:48] INFO root fetch - processPackages [photobooth-app]: Remove: archive file [/home/abi/fetcher/tmp/photobooth_app-0.1.0b5.tar.gz]
+[2023-06-10 13:35:48] INFO root fetch - main [MainThread]: End processing [photobooth-app]: success
+[2023-06-10 13:35:48] INFO root fetch - main [MainThread]: Store serial: [18450256]
