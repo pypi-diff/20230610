@@ -6941,3 +6941,42 @@ EOFError: EOF read where object expected
 [2023-06-10 05:05:23] INFO root fetch - processPackages [odoo9-addon-contract]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_contract-9.0.1.3.0.99.dev9-py2-none-any.whl.zip]
 [2023-06-10 05:05:23] INFO root fetch - main [MainThread]: End processing [odoo9-addon-contract]: success
 [2023-06-10 05:05:23] INFO root fetch - main [MainThread]: Store serial: [18448317]
+[2023-06-10 05:10:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18448317]
+[2023-06-10 05:10:32] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-10 05:10:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-currency-old-rate-notify
+[2023-06-10 05:10:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dcrx-api
+[2023-06-10 05:10:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addons-oca-currency
+[2023-06-10 05:10:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: uc-sgsim
+[2023-06-10 05:10:32] INFO root fetch - processPackages [dcrx-api]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-10 05:10:32] INFO root fetch - processPackages [odoo-addons-oca-currency]: New version: [16.0.20230609.0] Old Version: [16.0.20221213.0]
+[2023-06-10 05:10:32] INFO root fetch - processPackages [uc-sgsim]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-06-10 05:10:32] INFO root fetch - processPackages [odoo-addon-currency-old-rate-notify]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.3]
+[2023-06-10 05:10:32] INFO root fetch - processPackages [dcrx-api]: Downloading https://files.pythonhosted.org/packages/cb/06/069b4f79a02a32c44752b948bb8520fd2fde8415708bfe7e13e7c19707ef/dcrx-api-0.1.8.tar.gz
+[2023-06-10 05:10:33] INFO root fetch - processPackages [uc-sgsim]: Downloading https://files.pythonhosted.org/packages/6f/28/bb6e014a0e0a5740421c4c8fe6360c054ca837ec3dc9f1474e5b34836a90/uc_sgsim-1.2.2.tar.gz
+[2023-06-10 05:10:33] INFO root fetch - processPackages [dcrx-api]: Downloading https://files.pythonhosted.org/packages/ec/35/452b46bfdda475bf32f8e68044754d83404cb99439279f5d5148c341a986/dcrx-api-0.1.9.tar.gz
+[2023-06-10 05:10:33] INFO root fetch - processPackages [odoo-addons-oca-currency]: Downloading https://files.pythonhosted.org/packages/c0/21/d00d5d508ba57d2200491349bc0a9056fedeb283cc0697f1673157224d08/odoo_addons_oca_currency-16.0.20221213.0-py3-none-any.whl
+[2023-06-10 05:10:33] INFO root fetch - processPackages [dcrx-api]: executing diffoscope
+[2023-06-10 05:10:33] INFO root fetch - processPackages [dcrx-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcrx-api-0.1.8.tar.gz tmp/dcrx-api-0.1.9.tar.gz --markdown 20230610/d/dcrx-api/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-10 05:10:33] INFO root fetch - processPackages [odoo-addon-currency-old-rate-notify]: Downloading https://files.pythonhosted.org/packages/41/25/d2ac5c11ea822f88ef9306490cb8ea87715bb1c1686a09fb47091ca2a822/odoo_addon_currency_old_rate_notify-16.0.1.0.0.3-py3-none-any.whl
+[2023-06-10 05:10:33] INFO root fetch - processPackages [uc-sgsim]: Downloading https://files.pythonhosted.org/packages/18/08/f61ef0d5ef7050a0a34fcf095fb8843afa8108b1616bd9e891b0a3788ff4/uc_sgsim-1.2.3.tar.gz
+[2023-06-10 05:10:33] INFO root fetch - processPackages [uc-sgsim]: executing diffoscope
+[2023-06-10 05:10:33] INFO root fetch - processPackages [uc-sgsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uc_sgsim-1.2.2.tar.gz tmp/uc_sgsim-1.2.3.tar.gz --markdown 20230610/u/uc-sgsim/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-06-10 05:10:33] INFO root fetch - processPackages [odoo-addon-currency-old-rate-notify]: Downloading https://files.pythonhosted.org/packages/5e/c7/5f653703ef2cbc150c5e057bba89cb70369b5ea8ac0adbf2b3ab928800dd/odoo_addon_currency_old_rate_notify-16.0.1.0.0.4-py3-none-any.whl
+[2023-06-10 05:10:33] INFO root fetch - processPackages [odoo-addon-currency-old-rate-notify]: executing diffoscope
+[2023-06-10 05:10:33] INFO root fetch - processPackages [odoo-addon-currency-old-rate-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_currency_old_rate_notify-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_currency_old_rate_notify-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20230610/o/odoo-addon-currency-old-rate-notify/16.0.1.0.0.3-16.0.1.0.0.4/diff.md --exclude *.pyd
+[2023-06-10 05:10:34] INFO root fetch - processPackages [odoo-addons-oca-currency]: Downloading https://files.pythonhosted.org/packages/29/2e/96c9df318b065ca62406fd25f395073f6916ca6a8455fb0ad8e2e93a6fd8/odoo_addons_oca_currency-16.0.20230609.0-py3-none-any.whl
+[2023-06-10 05:10:34] INFO root fetch - processPackages [odoo-addons-oca-currency]: executing diffoscope
+[2023-06-10 05:10:34] INFO root fetch - processPackages [odoo-addons-oca-currency]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_currency-16.0.20221213.0-py3-none-any.whl.zip tmp/odoo_addons_oca_currency-16.0.20230609.0-py3-none-any.whl.zip --markdown 20230610/o/odoo-addons-oca-currency/16.0.20221213.0-16.0.20230609.0/diff.md --exclude *.pyd
+[2023-06-10 05:10:34] INFO root fetch - processPackages [dcrx-api]: Remove: archive file [/home/abi/fetcher/tmp/dcrx-api-0.1.8.tar.gz]
+[2023-06-10 05:10:34] INFO root fetch - processPackages [dcrx-api]: Remove: archive file [/home/abi/fetcher/tmp/dcrx-api-0.1.9.tar.gz]
+[2023-06-10 05:10:34] INFO root fetch - main [MainThread]: End processing [dcrx-api]: success
+[2023-06-10 05:10:34] INFO root fetch - processPackages [odoo-addon-currency-old-rate-notify]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_currency_old_rate_notify-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-06-10 05:10:34] INFO root fetch - processPackages [odoo-addon-currency-old-rate-notify]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_currency_old_rate_notify-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-06-10 05:10:34] INFO root fetch - main [MainThread]: End processing [odoo-addon-currency-old-rate-notify]: success
+[2023-06-10 05:10:34] INFO root fetch - processPackages [uc-sgsim]: Remove: archive file [/home/abi/fetcher/tmp/uc_sgsim-1.2.2.tar.gz]
+[2023-06-10 05:10:34] INFO root fetch - processPackages [uc-sgsim]: Remove: archive file [/home/abi/fetcher/tmp/uc_sgsim-1.2.3.tar.gz]
+[2023-06-10 05:10:34] INFO root fetch - main [MainThread]: End processing [uc-sgsim]: success
+[2023-06-10 05:10:34] INFO root fetch - processPackages [odoo-addons-oca-currency]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_currency-16.0.20221213.0-py3-none-any.whl.zip]
+[2023-06-10 05:10:34] INFO root fetch - processPackages [odoo-addons-oca-currency]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_currency-16.0.20230609.0-py3-none-any.whl.zip]
+[2023-06-10 05:10:34] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-currency]: success
+[2023-06-10 05:10:34] INFO root fetch - main [MainThread]: Store serial: [18448328]
