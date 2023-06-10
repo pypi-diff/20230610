@@ -12145,3 +12145,89 @@ EOFError: EOF read where object expected
 [2023-06-10 14:59:13] INFO root fetch - processPackages [atproto]: Remove: archive file [/home/abi/fetcher/tmp/atproto-0.0.9.tar.gz]
 [2023-06-10 14:59:13] INFO root fetch - main [MainThread]: End processing [atproto]: success
 [2023-06-10 14:59:13] INFO root fetch - main [MainThread]: Store serial: [18450758]
+[2023-06-10 15:04:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18450758]
+[2023-06-10 15:04:22] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-10 15:04:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: librelingo-json-export
+[2023-06-10 15:04:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SEKKAYBOT
+[2023-06-10 15:04:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: FLOBOT
+[2023-06-10 15:04:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: libTSCANAPI
+[2023-06-10 15:04:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: matrix-cloud
+[2023-06-10 15:04:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: WignerSymbol
+[2023-06-10 15:04:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nava
+[2023-06-10 15:04:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fbgemm-gpu-nightly-cpu
+[2023-06-10 15:04:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jwtlib
+[2023-06-10 15:04:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lollms
+[2023-06-10 15:04:22] INFO root fetch - processPackages [SEKKAYBOT]: New version: [0.22.267] Old Version: [0.22.266]
+[2023-06-10 15:04:22] INFO root fetch - processPackages [matrix-cloud]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-10 15:04:22] INFO root fetch - processPackages [FLOBOT]: New version: [0.1.117] Old Version: [0.1.116]
+[2023-06-10 15:04:22] WARNING root fetch - processPackages [nava]: Skipping, unable to determine old version
+[2023-06-10 15:04:22] INFO root fetch - processPackages [jwtlib]: New version: [0.3.0] Old Version: [0.2.2]
+[2023-06-10 15:04:22] INFO root fetch - processPackages [librelingo-json-export]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-06-10 15:04:22] WARNING root fetch - processPackages [libTSCANAPI]: Skipping, unable to determine old version
+[2023-06-10 15:04:22] INFO root fetch - processPackages [nava]: Start processing: sphinx-link-fixer
+[2023-06-10 15:04:22] INFO root fetch - processPackages [WignerSymbol]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-10 15:04:22] INFO root fetch - main [MainThread]: End processing [nava] error
+[2023-06-10 15:04:22] INFO root fetch - processPackages [lollms]: New version: [1.1.9] Old Version: [1.1.7]
+[2023-06-10 15:04:22] INFO root fetch - main [MainThread]: End processing [libTSCANAPI] error
+[2023-06-10 15:04:22] INFO root fetch - processPackages [sphinx-link-fixer]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-06-10 15:04:22] INFO root fetch - processPackages [WignerSymbol]: Downloading https://files.pythonhosted.org/packages/e9/11/64df0e6bf5cb0cd821aec02ec171328766fb2b72f5afad7e3d8819be507c/WignerSymbol-0.0.2-cp310-cp310-win_amd64.whl
+[2023-06-10 15:04:22] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/3d/63/5860743c06fbd44180fc9469d6a01bbc0644f8be5bc965843b7c2864a173/lollms-1.1.7.tar.gz
+[2023-06-10 15:04:22] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-10 15:04:22] WARNING root fetch - processPackages [lollms]: Skipping package: exceeds size limit 17349845>=10485760
+[2023-06-10 15:04:22] INFO root fetch - main [MainThread]: End processing [lollms] error
+[2023-06-10 15:04:22] INFO root fetch - processPackages [sphinx-link-fixer]: Downloading https://files.pythonhosted.org/packages/ab/ae/59b1baa2734257521f4d959f1645f8253590dc551188dd8f67b52314a763/sphinx_link_fixer-1.1.0.tar.gz
+[2023-06-10 15:04:22] INFO root fetch - processPackages [FLOBOT]: Downloading https://files.pythonhosted.org/packages/d6/d4/1c966c410209ee125322fbafbd6cbf1751526d3e9fa5cea908d9302e7891/FLOBOT-0.1.116.tar.gz
+[2023-06-10 15:04:22] INFO root fetch - processPackages [SEKKAYBOT]: Downloading https://files.pythonhosted.org/packages/11/81/d9ce32cee2a44011d8cb3763423426fc6d2fe841472e4ec5d5c8a0fc4934/SEKKAYBOT-0.22.266.tar.gz
+[2023-06-10 15:04:22] INFO root fetch - processPackages [librelingo-json-export]: Downloading https://files.pythonhosted.org/packages/3a/87/a37c38664cdc0844ba631e6f4eb66e6d681a278a6c4b152042e316637bcb/librelingo_json_export-0.9.2.tar.gz
+[2023-06-10 15:04:22] INFO root fetch - processPackages [matrix-cloud]: Downloading https://files.pythonhosted.org/packages/5b/6b/b8478056f223e87a754ceea1c8645685ff5eb1b91c1acb72118464b4cb6c/matrix_cloud-0.0.1.tar.gz
+[2023-06-10 15:04:22] INFO root fetch - processPackages [sphinx-link-fixer]: Downloading https://files.pythonhosted.org/packages/cb/52/6364f13ba2d7b59f5a3ebc9200f1d9d46807a8b067f9bc250b0fc5c81d5f/sphinx_link_fixer-1.1.1.tar.gz
+[2023-06-10 15:04:22] INFO root fetch - processPackages [jwtlib]: Downloading https://files.pythonhosted.org/packages/89/95/4a6a20f6e8be21a84a89f46b6b58520af2c4acce2fd22a0b72bf33a20a25/jwtlib-0.2.2.tar.gz
+[2023-06-10 15:04:22] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/2b/d5/5672089cb0fb441d25de7fae82156f1d95d0690e4e0c9966090f2a6185c5/fbgemm_gpu_nightly_cpu-2023.6.8-cp39-cp39-manylinux1_x86_64.whl
+[2023-06-10 15:04:22] INFO root fetch - processPackages [sphinx-link-fixer]: executing diffoscope
+[2023-06-10 15:04:22] INFO root fetch - processPackages [sphinx-link-fixer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx_link_fixer-1.1.0.tar.gz tmp/sphinx_link_fixer-1.1.1.tar.gz --markdown 20230610/s/sphinx-link-fixer/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-06-10 15:04:22] INFO root fetch - processPackages [SEKKAYBOT]: Downloading https://files.pythonhosted.org/packages/cf/67/b206b212bd72e50c9d99463eeb6f94b17f2063b8b02ec71765d9c5fa10ff/SEKKAYBOT-0.22.267.tar.gz
+[2023-06-10 15:04:23] INFO root fetch - processPackages [FLOBOT]: Downloading https://files.pythonhosted.org/packages/2b/de/7e759d97856c7ba727a930e6fc8889a20e20ef162d47870364bcd7d26c03/FLOBOT-0.1.117.tar.gz
+[2023-06-10 15:04:23] INFO root fetch - processPackages [WignerSymbol]: Downloading https://files.pythonhosted.org/packages/30/79/e8b7dbef64120e568f6a67d192763858045325a61e538fdbda486ec5ecc6/WignerSymbol-0.0.3.tar.gz
+[2023-06-10 15:04:23] INFO root fetch - processPackages [SEKKAYBOT]: executing diffoscope
+[2023-06-10 15:04:23] INFO root fetch - processPackages [SEKKAYBOT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SEKKAYBOT-0.22.266.tar.gz tmp/SEKKAYBOT-0.22.267.tar.gz --markdown 20230610/S/SEKKAYBOT/0.22.266-0.22.267/diff.md --exclude *.pyd
+[2023-06-10 15:04:23] INFO root fetch - processPackages [FLOBOT]: executing diffoscope
+[2023-06-10 15:04:23] INFO root fetch - processPackages [FLOBOT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FLOBOT-0.1.116.tar.gz tmp/FLOBOT-0.1.117.tar.gz --markdown 20230610/F/FLOBOT/0.1.116-0.1.117/diff.md --exclude *.pyd
+[2023-06-10 15:04:23] INFO root fetch - processPackages [WignerSymbol]: executing diffoscope
+[2023-06-10 15:04:23] INFO root fetch - processPackages [WignerSymbol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WignerSymbol-0.0.2-cp310-cp310-win_amd64.whl.zip tmp/WignerSymbol-0.0.3.tar.gz --markdown 20230610/W/WignerSymbol/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-10 15:04:23] INFO root fetch - processPackages [librelingo-json-export]: Downloading https://files.pythonhosted.org/packages/a1/46/d393661dae3deb36766ac84e894ebd5fda72ca3c9f11599226508cd3b694/librelingo_json_export-0.9.3.tar.gz
+[2023-06-10 15:04:23] INFO root fetch - processPackages [matrix-cloud]: Downloading https://files.pythonhosted.org/packages/e8/3d/76219e389d78f94569cd81f551e221bb64547ef45b18d5f5eab57c653c14/matrix_cloud-0.0.2.tar.gz
+[2023-06-10 15:04:23] INFO root fetch - processPackages [jwtlib]: Downloading https://files.pythonhosted.org/packages/d3/01/b59891010d94d946e12d2a89a4b8c0b2be4f459b21496cc989848007b6d7/jwtlib-0.3.0.tar.gz
+[2023-06-10 15:04:23] INFO root fetch - processPackages [matrix-cloud]: executing diffoscope
+[2023-06-10 15:04:23] INFO root fetch - processPackages [matrix-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matrix_cloud-0.0.1.tar.gz tmp/matrix_cloud-0.0.2.tar.gz --markdown 20230610/m/matrix-cloud/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-10 15:04:23] INFO root fetch - processPackages [jwtlib]: executing diffoscope
+[2023-06-10 15:04:23] INFO root fetch - processPackages [jwtlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jwtlib-0.2.2.tar.gz tmp/jwtlib-0.3.0.tar.gz --markdown 20230610/j/jwtlib/0.2.2-0.3.0/diff.md --exclude *.pyd
+[2023-06-10 15:04:23] INFO root fetch - processPackages [librelingo-json-export]: executing diffoscope
+[2023-06-10 15:04:23] INFO root fetch - processPackages [librelingo-json-export]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/librelingo_json_export-0.9.2.tar.gz tmp/librelingo_json_export-0.9.3.tar.gz --markdown 20230610/l/librelingo-json-export/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-06-10 15:04:23] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/9c/1e/dba96388194f18061dcca86ef0f59a081be95bfec2b1140e3e6ab1e8ce47/fbgemm_gpu_nightly_cpu-2023.6.9-cp39-cp39-manylinux1_x86_64.whl
+[2023-06-10 15:04:23] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: executing diffoscope
+[2023-06-10 15:04:23] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbgemm_gpu_nightly_cpu-2023.6.8-cp39-cp39-manylinux1_x86_64.whl.zip tmp/fbgemm_gpu_nightly_cpu-2023.6.9-cp39-cp39-manylinux1_x86_64.whl.zip --markdown 20230610/f/fbgemm-gpu-nightly-cpu/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-10 15:04:24] INFO root fetch - processPackages [sphinx-link-fixer]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_link_fixer-1.1.0.tar.gz]
+[2023-06-10 15:04:24] INFO root fetch - processPackages [sphinx-link-fixer]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_link_fixer-1.1.1.tar.gz]
+[2023-06-10 15:04:24] INFO root fetch - main [MainThread]: End processing [sphinx-link-fixer]: success
+[2023-06-10 15:04:24] INFO root fetch - processPackages [WignerSymbol]: Remove: archive file [/home/abi/fetcher/tmp/WignerSymbol-0.0.2-cp310-cp310-win_amd64.whl.zip]
+[2023-06-10 15:04:24] INFO root fetch - processPackages [WignerSymbol]: Remove: archive file [/home/abi/fetcher/tmp/WignerSymbol-0.0.3.tar.gz]
+[2023-06-10 15:04:24] INFO root fetch - main [MainThread]: End processing [WignerSymbol]: success
+[2023-06-10 15:04:24] INFO root fetch - processPackages [FLOBOT]: Remove: archive file [/home/abi/fetcher/tmp/FLOBOT-0.1.116.tar.gz]
+[2023-06-10 15:04:24] INFO root fetch - processPackages [FLOBOT]: Remove: archive file [/home/abi/fetcher/tmp/FLOBOT-0.1.117.tar.gz]
+[2023-06-10 15:04:24] INFO root fetch - main [MainThread]: End processing [FLOBOT]: success
+[2023-06-10 15:04:24] INFO root fetch - processPackages [SEKKAYBOT]: Remove: archive file [/home/abi/fetcher/tmp/SEKKAYBOT-0.22.266.tar.gz]
+[2023-06-10 15:04:24] INFO root fetch - processPackages [SEKKAYBOT]: Remove: archive file [/home/abi/fetcher/tmp/SEKKAYBOT-0.22.267.tar.gz]
+[2023-06-10 15:04:24] INFO root fetch - main [MainThread]: End processing [SEKKAYBOT]: success
+[2023-06-10 15:04:24] INFO root fetch - processPackages [matrix-cloud]: Remove: archive file [/home/abi/fetcher/tmp/matrix_cloud-0.0.1.tar.gz]
+[2023-06-10 15:04:24] INFO root fetch - processPackages [matrix-cloud]: Remove: archive file [/home/abi/fetcher/tmp/matrix_cloud-0.0.2.tar.gz]
+[2023-06-10 15:04:24] INFO root fetch - main [MainThread]: End processing [matrix-cloud]: success
+[2023-06-10 15:04:24] INFO root fetch - processPackages [jwtlib]: Remove: archive file [/home/abi/fetcher/tmp/jwtlib-0.2.2.tar.gz]
+[2023-06-10 15:04:24] INFO root fetch - processPackages [jwtlib]: Remove: archive file [/home/abi/fetcher/tmp/jwtlib-0.3.0.tar.gz]
+[2023-06-10 15:04:24] INFO root fetch - main [MainThread]: End processing [jwtlib]: success
+[2023-06-10 15:04:24] INFO root fetch - processPackages [librelingo-json-export]: Remove: archive file [/home/abi/fetcher/tmp/librelingo_json_export-0.9.2.tar.gz]
+[2023-06-10 15:04:24] INFO root fetch - processPackages [librelingo-json-export]: Remove: archive file [/home/abi/fetcher/tmp/librelingo_json_export-0.9.3.tar.gz]
+[2023-06-10 15:04:24] INFO root fetch - main [MainThread]: End processing [librelingo-json-export]: success
+[2023-06-10 15:04:25] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2023.6.8-cp39-cp39-manylinux1_x86_64.whl.zip]
+[2023-06-10 15:04:25] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2023.6.9-cp39-cp39-manylinux1_x86_64.whl.zip]
+[2023-06-10 15:04:25] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
+[2023-06-10 15:04:25] INFO root fetch - main [MainThread]: Store serial: [18450795]
