@@ -11674,3 +11674,98 @@ EOFError: EOF read where object expected
 [2023-06-10 14:30:02] INFO root fetch - processPackages [aioqui]: Remove: archive file [/home/abi/fetcher/tmp/aioqui-2.0.8.tar.gz]
 [2023-06-10 14:30:02] INFO root fetch - main [MainThread]: End processing [aioqui]: success
 [2023-06-10 14:30:02] INFO root fetch - main [MainThread]: Store serial: [18450533]
+[2023-06-10 14:35:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18450533]
+[2023-06-10 14:35:11] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-10 14:35:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mapbot-frontend
+[2023-06-10 14:35:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: daffi
+[2023-06-10 14:35:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: projen
+[2023-06-10 14:35:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sql-field-report
+[2023-06-10 14:35:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: daffi-terminals
+[2023-06-10 14:35:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: momlevel
+[2023-06-10 14:35:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: OpenGeode-IO
+[2023-06-10 14:35:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: flexigurator
+[2023-06-10 14:35:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Geode-Conversion
+[2023-06-10 14:35:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gitfarts
+[2023-06-10 14:35:11] INFO root fetch - processPackages [sql-field-report]: New version: [0.2.0] Old Version: [0.1.7]
+[2023-06-10 14:35:11] INFO root fetch - processPackages [projen]: New version: [0.71.9] Old Version: [0.71.88]
+[2023-06-10 14:35:11] INFO root fetch - processPackages [flexigurator]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-10 14:35:11] INFO root fetch - processPackages [flexigurator]: Downloading https://files.pythonhosted.org/packages/cd/c5/d062a62ce48cdcc736aceae46d4aeb3902f422d6acab3ccd5b38d0f5cf54/flexigurator-0.3.1.tar.gz
+[2023-06-10 14:35:11] INFO root fetch - processPackages [sql-field-report]: Downloading https://files.pythonhosted.org/packages/65/59/8e21ffee9002aa5f8532839970cc04c684c14ea0bc4f23c84cfd36b6b14a/sql_field_report-0.1.7.tar.gz
+[2023-06-10 14:35:11] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/31/71/641fa72869e01a239d1375e08b65ad4efbb96ba1c891f41e18f48b6cae98/projen-0.71.88.tar.gz
+[2023-06-10 14:35:11] INFO root fetch - processPackages [daffi]: New version: [2.2.1] Old Version: [2.2.0]
+[2023-06-10 14:35:11] INFO root fetch - processPackages [mapbot-frontend]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-10 14:35:11] WARNING root fetch - processPackages [gitfarts]: Skipping, unable to determine old version
+[2023-06-10 14:35:11] INFO root fetch - processPackages [gitfarts]: Start processing: Geode-Background
+[2023-06-10 14:35:11] INFO root fetch - main [MainThread]: End processing [gitfarts] error
+[2023-06-10 14:35:11] WARNING root fetch - processPackages [daffi-terminals]: Skipping, unable to determine old version
+[2023-06-10 14:35:11] INFO root fetch - processPackages [momlevel]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-10 14:35:11] INFO root fetch - processPackages [daffi-terminals]: Start processing: aeon
+[2023-06-10 14:35:11] INFO root fetch - main [MainThread]: End processing [daffi-terminals] error
+[2023-06-10 14:35:11] INFO root fetch - processPackages [Geode-Conversion]: New version: [5.0.7rc1] Old Version: [5.0.7]
+[2023-06-10 14:35:11] INFO root fetch - processPackages [Geode-Background]: New version: [7.2.1rc1] Old Version: [7.2.0rc2]
+[2023-06-10 14:35:11] INFO root fetch - processPackages [Geode-Background]: Downloading https://files.pythonhosted.org/packages/ea/5a/a9bdb4c1ff688254157ce5734730bb67cf6bb8be1883b9986aa774801fa3/Geode_Background-7.2.0rc2-cp39-cp39-win_amd64.whl
+[2023-06-10 14:35:11] INFO root fetch - processPackages [flexigurator]: Downloading https://files.pythonhosted.org/packages/58/a5/a27e8fa239b86f9f0dc687e42fc99ad12e0d5877ed34991763b5092065d2/flexigurator-0.3.2.tar.gz
+[2023-06-10 14:35:11] INFO root fetch - processPackages [aeon]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-10 14:35:11] INFO root fetch - processPackages [sql-field-report]: Downloading https://files.pythonhosted.org/packages/1a/22/5978722366c7d054fc8d00c44a757786c1dd484510c74e4c87dd5914aefe/sql_field_report-0.2.0.tar.gz
+[2023-06-10 14:35:11] INFO root fetch - processPackages [mapbot-frontend]: Downloading https://files.pythonhosted.org/packages/80/5a/6ad4cba25ae053e7ae019f89f155829431d75aaaaeb7659765c92f036256/mapbot_frontend-0.1.7.tar.gz
+[2023-06-10 14:35:12] INFO root fetch - processPackages [OpenGeode-IO]: New version: [6.0.7rc1] Old Version: [6.0.7]
+[2023-06-10 14:35:12] INFO root fetch - processPackages [daffi]: Downloading https://files.pythonhosted.org/packages/e3/1e/50a492994ba584e95219b6dc14b19b5871be6f908264319c3ae9709274b5/daffi-2.2.0.tar.gz
+[2023-06-10 14:35:12] INFO root fetch - processPackages [Geode-Conversion]: Downloading https://files.pythonhosted.org/packages/65/4b/0315baefb47609bc3c6b7d412f4b385c9724f013db93e5654b9f2ae31101/Geode_Conversion-5.0.7-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-10 14:35:12] INFO root fetch - processPackages [momlevel]: Downloading https://files.pythonhosted.org/packages/36/2a/a5b90433c6592b12058ce60bd907b46054e7f11e4a2c379c83fa96cbb6cc/momlevel-0.0.8.tar.gz
+[2023-06-10 14:35:12] INFO root fetch - processPackages [flexigurator]: executing diffoscope
+[2023-06-10 14:35:12] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/ce/49/8d0875fd46d32b42ce93e5014d26cffc8a31bf69b96a163c695d1d9c84d7/projen-0.71.9.tar.gz
+[2023-06-10 14:35:12] INFO root fetch - processPackages [flexigurator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flexigurator-0.3.1.tar.gz tmp/flexigurator-0.3.2.tar.gz --markdown 20230610/f/flexigurator/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-10 14:35:12] INFO root fetch - processPackages [sql-field-report]: executing diffoscope
+[2023-06-10 14:35:12] INFO root fetch - processPackages [sql-field-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sql_field_report-0.1.7.tar.gz tmp/sql_field_report-0.2.0.tar.gz --markdown 20230610/s/sql-field-report/0.1.7-0.2.0/diff.md --exclude *.pyd
+[2023-06-10 14:35:12] INFO root fetch - processPackages [Geode-Background]: Downloading https://files.pythonhosted.org/packages/43/19/d30cd0d72f6f304f995ed88bc0b56292419753291f69040524ccb3824ab9/Geode_Background-7.2.1rc1-cp39-cp39-win_amd64.whl
+[2023-06-10 14:35:12] INFO root fetch - processPackages [aeon]: Downloading https://files.pythonhosted.org/packages/95/e7/616d3f478c7205e41c1144071a7c480e12484cf4d9368282c9086573f08a/aeon-0.2.0.tar.gz
+[2023-06-10 14:35:12] WARNING root fetch - processPackages [aeon]: Skipping package: exceeds size limit 27902152>=10485760
+[2023-06-10 14:35:12] INFO root fetch - main [MainThread]: End processing [aeon] error
+[2023-06-10 14:35:12] INFO root fetch - processPackages [OpenGeode-IO]: Downloading https://files.pythonhosted.org/packages/a6/7d/f4f30f8069b47d8c4b26f65f44234b8556e35c38274aa54181da8a3ad14f/OpenGeode_IO-6.0.7-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-10 14:35:12] INFO root fetch - processPackages [mapbot-frontend]: Downloading https://files.pythonhosted.org/packages/c3/15/a76b10735e815f29e69252cfdf5844d8267526ca51d4be0ae611898cf761/mapbot_frontend-0.1.8.tar.gz
+[2023-06-10 14:35:12] INFO root fetch - processPackages [projen]: executing diffoscope
+[2023-06-10 14:35:12] INFO root fetch - processPackages [projen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projen-0.71.88.tar.gz tmp/projen-0.71.9.tar.gz --markdown 20230610/p/projen/0.71.88-0.71.9/diff.md --exclude *.pyd
+[2023-06-10 14:35:12] INFO root fetch - processPackages [daffi]: Downloading https://files.pythonhosted.org/packages/dd/82/3db855fb0e78d66a9166b01877dd0c16f4bf13d93758590a36f7b369f371/daffi-2.2.1.tar.gz
+[2023-06-10 14:35:12] INFO root fetch - processPackages [daffi]: executing diffoscope
+[2023-06-10 14:35:12] INFO root fetch - processPackages [daffi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/daffi-2.2.0.tar.gz tmp/daffi-2.2.1.tar.gz --markdown 20230610/d/daffi/2.2.0-2.2.1/diff.md --exclude *.pyd
+[2023-06-10 14:35:12] INFO root fetch - processPackages [Geode-Background]: executing diffoscope
+[2023-06-10 14:35:12] INFO root fetch - processPackages [Geode-Background]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Background-7.2.0rc2-cp39-cp39-win_amd64.whl.zip tmp/Geode_Background-7.2.1rc1-cp39-cp39-win_amd64.whl.zip --markdown 20230610/G/Geode-Background/7.2.0rc2-7.2.1rc1/diff.md --exclude *.pyd
+[2023-06-10 14:35:12] INFO root fetch - processPackages [Geode-Conversion]: Downloading https://files.pythonhosted.org/packages/78/4b/a611151bea2994c82dbed99e17b44909ed484c40f2d297808641f85bdba0/Geode_Conversion-5.0.7rc1-cp39-cp39-win_amd64.whl
+[2023-06-10 14:35:12] INFO root fetch - processPackages [mapbot-frontend]: executing diffoscope
+[2023-06-10 14:35:12] INFO root fetch - processPackages [mapbot-frontend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapbot_frontend-0.1.7.tar.gz tmp/mapbot_frontend-0.1.8.tar.gz --markdown 20230610/m/mapbot-frontend/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-10 14:35:12] INFO root fetch - processPackages [Geode-Conversion]: executing diffoscope
+[2023-06-10 14:35:12] INFO root fetch - processPackages [Geode-Conversion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Conversion-5.0.7-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/Geode_Conversion-5.0.7rc1-cp39-cp39-win_amd64.whl.zip --markdown 20230610/G/Geode-Conversion/5.0.7-5.0.7rc1/diff.md --exclude *.pyd
+[2023-06-10 14:35:12] INFO root fetch - processPackages [OpenGeode-IO]: Downloading https://files.pythonhosted.org/packages/f5/10/ad366858a7bcf0a0d83a5e5d8a63dbd3db262de212f725a67e6e7341fc15/OpenGeode_IO-6.0.7rc1-cp39-cp39-win_amd64.whl
+[2023-06-10 14:35:13] INFO root fetch - processPackages [momlevel]: Downloading https://files.pythonhosted.org/packages/3e/04/0224f3ab54ef0d35894098d36d761144eebd0593b23bab490791b42dae7c/momlevel-0.0.9.tar.gz
+[2023-06-10 14:35:13] INFO root fetch - processPackages [OpenGeode-IO]: executing diffoscope
+[2023-06-10 14:35:13] INFO root fetch - processPackages [OpenGeode-IO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenGeode_IO-6.0.7-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/OpenGeode_IO-6.0.7rc1-cp39-cp39-win_amd64.whl.zip --markdown 20230610/O/OpenGeode-IO/6.0.7-6.0.7rc1/diff.md --exclude *.pyd
+[2023-06-10 14:35:13] INFO root fetch - processPackages [momlevel]: executing diffoscope
+[2023-06-10 14:35:13] INFO root fetch - processPackages [momlevel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/momlevel-0.0.8.tar.gz tmp/momlevel-0.0.9.tar.gz --markdown 20230610/m/momlevel/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-10 14:35:13] INFO root fetch - processPackages [sql-field-report]: Remove: archive file [/home/abi/fetcher/tmp/sql_field_report-0.1.7.tar.gz]
+[2023-06-10 14:35:13] INFO root fetch - processPackages [sql-field-report]: Remove: archive file [/home/abi/fetcher/tmp/sql_field_report-0.2.0.tar.gz]
+[2023-06-10 14:35:13] INFO root fetch - main [MainThread]: End processing [sql-field-report]: success
+[2023-06-10 14:35:13] INFO root fetch - processPackages [flexigurator]: Remove: archive file [/home/abi/fetcher/tmp/flexigurator-0.3.1.tar.gz]
+[2023-06-10 14:35:13] INFO root fetch - processPackages [flexigurator]: Remove: archive file [/home/abi/fetcher/tmp/flexigurator-0.3.2.tar.gz]
+[2023-06-10 14:35:13] INFO root fetch - main [MainThread]: End processing [flexigurator]: success
+[2023-06-10 14:35:14] INFO root fetch - processPackages [Geode-Conversion]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Conversion-5.0.7-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-06-10 14:35:14] INFO root fetch - processPackages [Geode-Conversion]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Conversion-5.0.7rc1-cp39-cp39-win_amd64.whl.zip]
+[2023-06-10 14:35:14] INFO root fetch - main [MainThread]: End processing [Geode-Conversion]: success
+[2023-06-10 14:35:14] INFO root fetch - processPackages [OpenGeode-IO]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeode_IO-6.0.7-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-06-10 14:35:14] INFO root fetch - processPackages [OpenGeode-IO]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeode_IO-6.0.7rc1-cp39-cp39-win_amd64.whl.zip]
+[2023-06-10 14:35:14] INFO root fetch - main [MainThread]: End processing [OpenGeode-IO]: success
+[2023-06-10 14:35:16] INFO root fetch - processPackages [momlevel]: Remove: archive file [/home/abi/fetcher/tmp/momlevel-0.0.8.tar.gz]
+[2023-06-10 14:35:16] INFO root fetch - processPackages [momlevel]: Remove: archive file [/home/abi/fetcher/tmp/momlevel-0.0.9.tar.gz]
+[2023-06-10 14:35:16] INFO root fetch - main [MainThread]: End processing [momlevel]: success
+[2023-06-10 14:35:16] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.88.tar.gz]
+[2023-06-10 14:35:16] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.9.tar.gz]
+[2023-06-10 14:35:16] INFO root fetch - main [MainThread]: End processing [projen]: success
+[2023-06-10 14:35:17] INFO root fetch - processPackages [daffi]: Remove: archive file [/home/abi/fetcher/tmp/daffi-2.2.0.tar.gz]
+[2023-06-10 14:35:17] INFO root fetch - processPackages [daffi]: Remove: archive file [/home/abi/fetcher/tmp/daffi-2.2.1.tar.gz]
+[2023-06-10 14:35:17] INFO root fetch - main [MainThread]: End processing [daffi]: success
+[2023-06-10 14:35:41] INFO root fetch - processPackages [Geode-Background]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Background-7.2.0rc2-cp39-cp39-win_amd64.whl.zip]
+[2023-06-10 14:35:41] INFO root fetch - processPackages [Geode-Background]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Background-7.2.1rc1-cp39-cp39-win_amd64.whl.zip]
+[2023-06-10 14:35:41] INFO root fetch - main [MainThread]: End processing [Geode-Background]: success
+[2023-06-10 14:36:25] INFO root fetch - processPackages [mapbot-frontend]: Remove: archive file [/home/abi/fetcher/tmp/mapbot_frontend-0.1.7.tar.gz]
+[2023-06-10 14:36:25] INFO root fetch - processPackages [mapbot-frontend]: Remove: archive file [/home/abi/fetcher/tmp/mapbot_frontend-0.1.8.tar.gz]
+[2023-06-10 14:36:25] INFO root fetch - main [MainThread]: End processing [mapbot-frontend]: success
+[2023-06-10 14:36:25] INFO root fetch - main [MainThread]: Store serial: [18450588]
