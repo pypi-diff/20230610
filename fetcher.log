@@ -7037,3 +7037,51 @@ EOFError: EOF read where object expected
 [2023-06-10 05:15:46] INFO root fetch - processPackages [perseus-restful-api-framework]: Remove: archive file [/home/abi/fetcher/tmp/perseus_restful_api_framework-1.26.9.tar.gz]
 [2023-06-10 05:15:46] INFO root fetch - main [MainThread]: End processing [perseus-restful-api-framework]: success
 [2023-06-10 05:15:46] INFO root fetch - main [MainThread]: Store serial: [18448342]
+[2023-06-10 05:20:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18448342]
+[2023-06-10 05:20:55] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-10 05:20:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quorum-mininode-py
+[2023-06-10 05:20:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-website-sale-ajaxify-cart
+[2023-06-10 05:20:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: adsbcot
+[2023-06-10 05:20:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: asgihandler
+[2023-06-10 05:20:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: py4DSTEM
+[2023-06-10 05:20:56] INFO root fetch - processPackages [py4DSTEM]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-10 05:20:56] INFO root fetch - processPackages [asgihandler]: New version: [0.4.7] Old Version: [0.4.6]
+[2023-06-10 05:20:56] INFO root fetch - processPackages [quorum-mininode-py]: New version: [1.3.0] Old Version: [1.2.9]
+[2023-06-10 05:20:56] INFO root fetch - processPackages [py4DSTEM]: Downloading https://files.pythonhosted.org/packages/83/f8/9b3c485611a5817c0669ecdedf6f491927b11fe6ad9b6cbeeb570d133436/py4DSTEM-0.9.8.tar.gz
+[2023-06-10 05:20:56] INFO root fetch - processPackages [adsbcot]: New version: [6.0.0] Old Version: [5.1.2]
+[2023-06-10 05:20:56] INFO root fetch - processPackages [odoo14-addon-website-sale-ajaxify-cart]: New version: [14.0.1.0.2.dev1] Old Version: [14.0.1.0.1]
+[2023-06-10 05:20:56] INFO root fetch - processPackages [quorum-mininode-py]: Downloading https://files.pythonhosted.org/packages/f2/45/a552b90eaf2b02fe555c5fbcfaf6fda0675ca60ca27402e671b982aa37d6/quorum_mininode_py-1.2.9.tar.gz
+[2023-06-10 05:20:56] INFO root fetch - processPackages [asgihandler]: Downloading https://files.pythonhosted.org/packages/71/7b/a6f6c054c36d3cf73ed9d4bb7b1621ea09b90a8f8dcd74de657bd225cf64/asgihandler-0.4.6.tar.gz
+[2023-06-10 05:20:56] INFO root fetch - processPackages [odoo14-addon-website-sale-ajaxify-cart]: Downloading https://files.pythonhosted.org/packages/e5/ee/40a5086742b2572efabbfa248b32c6f634bd9aae961c8961dbc4e1eab526/odoo14_addon_website_sale_ajaxify_cart-14.0.1.0.1-py3-none-any.whl
+[2023-06-10 05:20:56] INFO root fetch - processPackages [adsbcot]: Downloading https://files.pythonhosted.org/packages/8c/e4/2ca9f95998111ed0cac3d8faf20cbe721889ef6812f8554ddbf1c981fdb3/adsbcot-5.1.2.tar.gz
+[2023-06-10 05:20:56] INFO root fetch - processPackages [py4DSTEM]: Downloading https://files.pythonhosted.org/packages/9f/d0/c39f59dc08088fa5d7f8fe9154702d90774629c330b2c5f7fae5ea007984/py4DSTEM-0.9.9.tar.gz
+[2023-06-10 05:20:56] INFO root fetch - processPackages [asgihandler]: Downloading https://files.pythonhosted.org/packages/5a/7b/36fe40bc2b9bcba04e89276934c88f35eb19ca0dd9bdf4caf7c8790f1925/asgihandler-0.4.7.tar.gz
+[2023-06-10 05:20:56] INFO root fetch - processPackages [odoo14-addon-website-sale-ajaxify-cart]: Downloading https://files.pythonhosted.org/packages/89/ad/698bea01d96dbd6376a47dcb602fa33f741e04228777ee52528e5b590660/odoo14_addon_website_sale_ajaxify_cart-14.0.1.0.2.dev1-py3-none-any.whl
+[2023-06-10 05:20:56] INFO root fetch - processPackages [adsbcot]: Downloading https://files.pythonhosted.org/packages/55/0f/ee65c7d804045577524ea7b9958a156aeca1b9bb84fb3f11336cbce016b4/adsbcot-6.0.0.tar.gz
+[2023-06-10 05:20:56] INFO root fetch - processPackages [py4DSTEM]: executing diffoscope
+[2023-06-10 05:20:56] INFO root fetch - processPackages [py4DSTEM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py4DSTEM-0.9.8.tar.gz tmp/py4DSTEM-0.9.9.tar.gz --markdown 20230610/p/py4DSTEM/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-10 05:20:56] INFO root fetch - processPackages [quorum-mininode-py]: Downloading https://files.pythonhosted.org/packages/27/e9/1f88f8847ea5a4ef5f9497368e7333ac0192bc57710fd1dd4589dfdefb34/quorum_mininode_py-1.3.0.tar.gz
+[2023-06-10 05:20:56] INFO root fetch - processPackages [asgihandler]: executing diffoscope
+[2023-06-10 05:20:56] INFO root fetch - processPackages [asgihandler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asgihandler-0.4.6.tar.gz tmp/asgihandler-0.4.7.tar.gz --markdown 20230610/a/asgihandler/0.4.6-0.4.7/diff.md --exclude *.pyd
+[2023-06-10 05:20:56] INFO root fetch - processPackages [odoo14-addon-website-sale-ajaxify-cart]: executing diffoscope
+[2023-06-10 05:20:56] INFO root fetch - processPackages [odoo14-addon-website-sale-ajaxify-cart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_website_sale_ajaxify_cart-14.0.1.0.1-py3-none-any.whl.zip tmp/odoo14_addon_website_sale_ajaxify_cart-14.0.1.0.2.dev1-py3-none-any.whl.zip --markdown 20230610/o/odoo14-addon-website-sale-ajaxify-cart/14.0.1.0.1-14.0.1.0.2.dev1/diff.md --exclude *.pyd
+[2023-06-10 05:20:56] INFO root fetch - processPackages [adsbcot]: executing diffoscope
+[2023-06-10 05:20:56] INFO root fetch - processPackages [adsbcot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adsbcot-5.1.2.tar.gz tmp/adsbcot-6.0.0.tar.gz --markdown 20230610/a/adsbcot/5.1.2-6.0.0/diff.md --exclude *.pyd
+[2023-06-10 05:20:56] INFO root fetch - processPackages [quorum-mininode-py]: executing diffoscope
+[2023-06-10 05:20:56] INFO root fetch - processPackages [quorum-mininode-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quorum_mininode_py-1.2.9.tar.gz tmp/quorum_mininode_py-1.3.0.tar.gz --markdown 20230610/q/quorum-mininode-py/1.2.9-1.3.0/diff.md --exclude *.pyd
+[2023-06-10 05:20:57] INFO root fetch - processPackages [asgihandler]: Remove: archive file [/home/abi/fetcher/tmp/asgihandler-0.4.6.tar.gz]
+[2023-06-10 05:20:57] INFO root fetch - processPackages [asgihandler]: Remove: archive file [/home/abi/fetcher/tmp/asgihandler-0.4.7.tar.gz]
+[2023-06-10 05:20:57] INFO root fetch - main [MainThread]: End processing [asgihandler]: success
+[2023-06-10 05:20:57] INFO root fetch - processPackages [odoo14-addon-website-sale-ajaxify-cart]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_website_sale_ajaxify_cart-14.0.1.0.1-py3-none-any.whl.zip]
+[2023-06-10 05:20:57] INFO root fetch - processPackages [odoo14-addon-website-sale-ajaxify-cart]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_website_sale_ajaxify_cart-14.0.1.0.2.dev1-py3-none-any.whl.zip]
+[2023-06-10 05:20:57] INFO root fetch - main [MainThread]: End processing [odoo14-addon-website-sale-ajaxify-cart]: success
+[2023-06-10 05:20:57] INFO root fetch - processPackages [adsbcot]: Remove: archive file [/home/abi/fetcher/tmp/adsbcot-5.1.2.tar.gz]
+[2023-06-10 05:20:57] INFO root fetch - processPackages [adsbcot]: Remove: archive file [/home/abi/fetcher/tmp/adsbcot-6.0.0.tar.gz]
+[2023-06-10 05:20:57] INFO root fetch - main [MainThread]: End processing [adsbcot]: success
+[2023-06-10 05:20:58] INFO root fetch - processPackages [quorum-mininode-py]: Remove: archive file [/home/abi/fetcher/tmp/quorum_mininode_py-1.2.9.tar.gz]
+[2023-06-10 05:20:58] INFO root fetch - processPackages [quorum-mininode-py]: Remove: archive file [/home/abi/fetcher/tmp/quorum_mininode_py-1.3.0.tar.gz]
+[2023-06-10 05:20:58] INFO root fetch - main [MainThread]: End processing [quorum-mininode-py]: success
+[2023-06-10 05:20:58] INFO root fetch - processPackages [py4DSTEM]: Remove: archive file [/home/abi/fetcher/tmp/py4DSTEM-0.9.8.tar.gz]
+[2023-06-10 05:20:58] INFO root fetch - processPackages [py4DSTEM]: Remove: archive file [/home/abi/fetcher/tmp/py4DSTEM-0.9.9.tar.gz]
+[2023-06-10 05:20:58] INFO root fetch - main [MainThread]: End processing [py4DSTEM]: success
+[2023-06-10 05:20:58] INFO root fetch - main [MainThread]: Store serial: [18448359]
