@@ -18677,3 +18677,96 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-10 23:35:09] INFO root fetch - processPackages [flasgger]: Remove: archive file [/home/abi/fetcher/tmp/flasgger-0.9.7b2.tar.gz]
 [2023-06-10 23:35:09] INFO root fetch - main [MainThread]: End processing [flasgger]: success
 [2023-06-10 23:35:09] INFO root fetch - main [MainThread]: Store serial: [18453996]
+[2023-06-10 23:40:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18453996]
+[2023-06-10 23:40:22] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-10 23:40:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flasgger
+[2023-06-10 23:40:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nextguild
+[2023-06-10 23:40:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mfhpo-benchmark-api
+[2023-06-10 23:40:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openepd
+[2023-06-10 23:40:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: datasette-sqlite-ulid
+[2023-06-10 23:40:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sqlite-ulid
+[2023-06-10 23:40:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bitarray
+[2023-06-10 23:40:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: easyapi-django
+[2023-06-10 23:40:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: datasette-sqlite-jsonschema
+[2023-06-10 23:40:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sqlite-jsonschema
+[2023-06-10 23:40:22] INFO root fetch - processPackages [datasette-sqlite-ulid]: New version: [0.2.1a9] Old Version: [0.2.1a8]
+[2023-06-10 23:40:22] INFO root fetch - processPackages [sqlite-ulid]: New version: [0.2.1a9] Old Version: [0.2.1a8]
+[2023-06-10 23:40:22] INFO root fetch - processPackages [flasgger]: New version: [0.9.7b2] Old Version: [0.9.7.2.dev2]
+[2023-06-10 23:40:22] INFO root fetch - processPackages [nextguild]: New version: [1.2.0] Old Version: [1.1.7]
+[2023-06-10 23:40:22] INFO root fetch - processPackages [sqlite-jsonschema]: New version: [0.2.3a6] Old Version: [0.2.3a5]
+[2023-06-10 23:40:22] INFO root fetch - processPackages [openepd]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-06-10 23:40:22] INFO root fetch - processPackages [datasette-sqlite-jsonschema]: New version: [0.2.3a6] Old Version: [0.2.3a5]
+[2023-06-10 23:40:22] INFO root fetch - processPackages [mfhpo-benchmark-api]: New version: [1.2.0] Old Version: [1.1.1]
+[2023-06-10 23:40:23] INFO root fetch - processPackages [bitarray]: New version: [2.7.5] Old Version: [2.7.4]
+[2023-06-10 23:40:23] INFO root fetch - processPackages [datasette-sqlite-ulid]: Downloading https://files.pythonhosted.org/packages/fb/75/84772c7d22f6331c21be9e6e44aa4d0e7bc9a093ec1efae29447e06afe1b/datasette_sqlite_ulid-0.2.1a8-py3-none-any.whl
+[2023-06-10 23:40:23] INFO root fetch - processPackages [sqlite-ulid]: Downloading https://files.pythonhosted.org/packages/39/9c/3b1b12e0230189f953e9f6fa50b27a1f41b55d46b4d30faf5ba7bfdf28a6/sqlite_ulid-0.2.1a8-py3-none-win_amd64.whl
+[2023-06-10 23:40:23] INFO root fetch - processPackages [sqlite-jsonschema]: Downloading https://files.pythonhosted.org/packages/43/a9/e080b5443677448ab9df048434f949a72bc147b097e169e6768c7e96a5f2/sqlite_jsonschema-0.2.3a5-py3-none-win_amd64.whl
+[2023-06-10 23:40:23] INFO root fetch - processPackages [datasette-sqlite-jsonschema]: Downloading https://files.pythonhosted.org/packages/3d/54/150181e245811adce6e305b7147681f0f3c2e50974cb5fcc2e5dc3ff4c3b/datasette_sqlite_jsonschema-0.2.3a5-py3-none-any.whl
+[2023-06-10 23:40:23] INFO root fetch - processPackages [easyapi-django]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-10 23:40:23] INFO root fetch - processPackages [flasgger]: Downloading https://files.pythonhosted.org/packages/76/4e/fd1919f30b345c9a80452972282e29ad534d691d322fbfd35295c259d506/flasgger-0.9.7.2.dev2.tar.gz
+[2023-06-10 23:40:23] INFO root fetch - processPackages [mfhpo-benchmark-api]: Downloading https://files.pythonhosted.org/packages/53/46/4cee50842ada61472cf751832b2283f8c27667588c721b993d956f5596b5/mfhpo_benchmark_api-1.1.1-py3-none-any.whl
+[2023-06-10 23:40:23] INFO root fetch - processPackages [nextguild]: Downloading https://files.pythonhosted.org/packages/78/fa/b1ceb3b32e4ad19730039f9b57fd72a5be185f978f329206eb8c4f546c65/nextguild-1.1.7.tar.gz
+[2023-06-10 23:40:23] INFO root fetch - processPackages [openepd]: Downloading https://files.pythonhosted.org/packages/bd/55/12e33e58caea9f6afbebd5920044ce47a2a1036208d761b9504265ff79b4/openepd-0.8.1.tar.gz
+[2023-06-10 23:40:23] INFO root fetch - processPackages [datasette-sqlite-ulid]: Downloading https://files.pythonhosted.org/packages/ab/3b/187b961948c84ee89a9df49535537d0cef20be60d541c6153ec33f55b5eb/datasette_sqlite_ulid-0.2.1a9-py3-none-any.whl
+[2023-06-10 23:40:23] INFO root fetch - processPackages [sqlite-ulid]: Downloading https://files.pythonhosted.org/packages/79/88/62ad933ff780becc4cc2adda47c01876102f548edb36ed1d727d10bcbb81/sqlite_ulid-0.2.1a9-py3-none-win_amd64.whl
+[2023-06-10 23:40:23] INFO root fetch - processPackages [easyapi-django]: Downloading https://files.pythonhosted.org/packages/95/09/0a6b31ed99ff9e717b38e2df00ebdc3e4db5e87f43f04a96d487c3ebf61e/easyapi_django-0.0.8.tar.gz
+[2023-06-10 23:40:23] INFO root fetch - processPackages [datasette-sqlite-jsonschema]: Downloading https://files.pythonhosted.org/packages/80/52/58ba6af126b8d4511b2e7fe5c9be36390876aa13a09c0ef06e247b501a0d/datasette_sqlite_jsonschema-0.2.3a6-py3-none-any.whl
+[2023-06-10 23:40:23] INFO root fetch - processPackages [bitarray]: Downloading https://files.pythonhosted.org/packages/5d/58/5deb18b7ab2ac9b6d35ee62084d6965943d89b3635b12b7a3de4d2837639/bitarray-2.7.4.tar.gz
+[2023-06-10 23:40:23] INFO root fetch - processPackages [datasette-sqlite-ulid]: executing diffoscope
+[2023-06-10 23:40:23] INFO root fetch - processPackages [datasette-sqlite-ulid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasette_sqlite_ulid-0.2.1a8-py3-none-any.whl.zip tmp/datasette_sqlite_ulid-0.2.1a9-py3-none-any.whl.zip --markdown 20230610/d/datasette-sqlite-ulid/0.2.1a8-0.2.1a9/diff.md --exclude *.pyd
+[2023-06-10 23:40:23] INFO root fetch - processPackages [sqlite-jsonschema]: Downloading https://files.pythonhosted.org/packages/d5/c3/ac8d465c51b153ab9ca41c8eb17cc5f485816a116799d9ad729a974f77d8/sqlite_jsonschema-0.2.3a6-py3-none-win_amd64.whl
+[2023-06-10 23:40:23] INFO root fetch - processPackages [sqlite-ulid]: executing diffoscope
+[2023-06-10 23:40:23] INFO root fetch - processPackages [sqlite-ulid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite_ulid-0.2.1a8-py3-none-win_amd64.whl.zip tmp/sqlite_ulid-0.2.1a9-py3-none-win_amd64.whl.zip --markdown 20230610/s/sqlite-ulid/0.2.1a8-0.2.1a9/diff.md --exclude *.pyd
+[2023-06-10 23:40:23] INFO root fetch - processPackages [mfhpo-benchmark-api]: Downloading https://files.pythonhosted.org/packages/9f/e5/4fd10c4edb5d513b674ec442ac49dd93baa2a14f7531efa3a24b8cd1f024/mfhpo_benchmark_api-1.2.0-py3-none-any.whl
+[2023-06-10 23:40:23] INFO root fetch - processPackages [nextguild]: Downloading https://files.pythonhosted.org/packages/0c/2a/edca7915a1334a97220596d786adb46e7befe6a4fa4d7fcd9a0d99fffc5e/nextguild-1.2.0.tar.gz
+[2023-06-10 23:40:23] INFO root fetch - processPackages [datasette-sqlite-jsonschema]: executing diffoscope
+[2023-06-10 23:40:23] INFO root fetch - processPackages [datasette-sqlite-jsonschema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasette_sqlite_jsonschema-0.2.3a5-py3-none-any.whl.zip tmp/datasette_sqlite_jsonschema-0.2.3a6-py3-none-any.whl.zip --markdown 20230610/d/datasette-sqlite-jsonschema/0.2.3a5-0.2.3a6/diff.md --exclude *.pyd
+[2023-06-10 23:40:23] INFO root fetch - processPackages [openepd]: Downloading https://files.pythonhosted.org/packages/b3/6b/8bab32a2cf0b8a740a76c5043fa333b2690ecf08c1de5115bd0f0c84f9cb/openepd-0.9.0.tar.gz
+[2023-06-10 23:40:23] INFO root fetch - processPackages [sqlite-jsonschema]: executing diffoscope
+[2023-06-10 23:40:23] INFO root fetch - processPackages [sqlite-jsonschema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite_jsonschema-0.2.3a5-py3-none-win_amd64.whl.zip tmp/sqlite_jsonschema-0.2.3a6-py3-none-win_amd64.whl.zip --markdown 20230610/s/sqlite-jsonschema/0.2.3a5-0.2.3a6/diff.md --exclude *.pyd
+[2023-06-10 23:40:23] INFO root fetch - processPackages [mfhpo-benchmark-api]: executing diffoscope
+[2023-06-10 23:40:23] INFO root fetch - processPackages [mfhpo-benchmark-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mfhpo_benchmark_api-1.1.1-py3-none-any.whl.zip tmp/mfhpo_benchmark_api-1.2.0-py3-none-any.whl.zip --markdown 20230610/m/mfhpo-benchmark-api/1.1.1-1.2.0/diff.md --exclude *.pyd
+[2023-06-10 23:40:23] INFO root fetch - processPackages [nextguild]: executing diffoscope
+[2023-06-10 23:40:23] INFO root fetch - processPackages [nextguild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nextguild-1.1.7.tar.gz tmp/nextguild-1.2.0.tar.gz --markdown 20230610/n/nextguild/1.1.7-1.2.0/diff.md --exclude *.pyd
+[2023-06-10 23:40:23] INFO root fetch - processPackages [bitarray]: Downloading https://files.pythonhosted.org/packages/6f/c6/10035510ad638c6932858acede3809fefecdbefc04aeeb92123af997b1ac/bitarray-2.7.5.tar.gz
+[2023-06-10 23:40:23] INFO root fetch - processPackages [openepd]: executing diffoscope
+[2023-06-10 23:40:23] INFO root fetch - processPackages [openepd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openepd-0.8.1.tar.gz tmp/openepd-0.9.0.tar.gz --markdown 20230610/o/openepd/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-06-10 23:40:23] INFO root fetch - processPackages [easyapi-django]: Downloading https://files.pythonhosted.org/packages/95/62/c460ae663ba5b8e9d71d071d3ec9427fbf583cfffe09c89d267e24fe810f/easyapi_django-0.0.9.tar.gz
+[2023-06-10 23:40:23] INFO root fetch - processPackages [flasgger]: Downloading https://files.pythonhosted.org/packages/cf/f4/7b17871ee710c16644b20a379e31998eddbd2a455251d4bd8da05e8e47ae/flasgger-0.9.7b2.tar.gz
+[2023-06-10 23:40:23] INFO root fetch - processPackages [easyapi-django]: executing diffoscope
+[2023-06-10 23:40:23] INFO root fetch - processPackages [easyapi-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easyapi_django-0.0.8.tar.gz tmp/easyapi_django-0.0.9.tar.gz --markdown 20230610/e/easyapi-django/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-10 23:40:23] INFO root fetch - processPackages [bitarray]: executing diffoscope
+[2023-06-10 23:40:23] INFO root fetch - processPackages [bitarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bitarray-2.7.4.tar.gz tmp/bitarray-2.7.5.tar.gz --markdown 20230610/b/bitarray/2.7.4-2.7.5/diff.md --exclude *.pyd
+[2023-06-10 23:40:24] INFO root fetch - processPackages [flasgger]: executing diffoscope
+[2023-06-10 23:40:24] INFO root fetch - processPackages [flasgger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flasgger-0.9.7.2.dev2.tar.gz tmp/flasgger-0.9.7b2.tar.gz --markdown 20230610/f/flasgger/0.9.7.2.dev2-0.9.7b2/diff.md --exclude *.pyd
+[2023-06-10 23:40:24] INFO root fetch - processPackages [datasette-sqlite-ulid]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_ulid-0.2.1a8-py3-none-any.whl.zip]
+[2023-06-10 23:40:24] INFO root fetch - processPackages [datasette-sqlite-ulid]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_ulid-0.2.1a9-py3-none-any.whl.zip]
+[2023-06-10 23:40:24] INFO root fetch - main [MainThread]: End processing [datasette-sqlite-ulid]: success
+[2023-06-10 23:40:24] INFO root fetch - processPackages [datasette-sqlite-jsonschema]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_jsonschema-0.2.3a5-py3-none-any.whl.zip]
+[2023-06-10 23:40:24] INFO root fetch - processPackages [datasette-sqlite-jsonschema]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_jsonschema-0.2.3a6-py3-none-any.whl.zip]
+[2023-06-10 23:40:24] INFO root fetch - main [MainThread]: End processing [datasette-sqlite-jsonschema]: success
+[2023-06-10 23:40:25] INFO root fetch - processPackages [mfhpo-benchmark-api]: Remove: archive file [/home/abi/fetcher/tmp/mfhpo_benchmark_api-1.1.1-py3-none-any.whl.zip]
+[2023-06-10 23:40:25] INFO root fetch - processPackages [mfhpo-benchmark-api]: Remove: archive file [/home/abi/fetcher/tmp/mfhpo_benchmark_api-1.2.0-py3-none-any.whl.zip]
+[2023-06-10 23:40:25] INFO root fetch - main [MainThread]: End processing [mfhpo-benchmark-api]: success
+[2023-06-10 23:40:25] INFO root fetch - processPackages [easyapi-django]: Remove: archive file [/home/abi/fetcher/tmp/easyapi_django-0.0.8.tar.gz]
+[2023-06-10 23:40:25] INFO root fetch - processPackages [easyapi-django]: Remove: archive file [/home/abi/fetcher/tmp/easyapi_django-0.0.9.tar.gz]
+[2023-06-10 23:40:25] INFO root fetch - main [MainThread]: End processing [easyapi-django]: success
+[2023-06-10 23:40:25] INFO root fetch - processPackages [bitarray]: Remove: archive file [/home/abi/fetcher/tmp/bitarray-2.7.4.tar.gz]
+[2023-06-10 23:40:25] INFO root fetch - processPackages [bitarray]: Remove: archive file [/home/abi/fetcher/tmp/bitarray-2.7.5.tar.gz]
+[2023-06-10 23:40:25] INFO root fetch - main [MainThread]: End processing [bitarray]: success
+[2023-06-10 23:40:25] INFO root fetch - processPackages [openepd]: Remove: archive file [/home/abi/fetcher/tmp/openepd-0.8.1.tar.gz]
+[2023-06-10 23:40:25] INFO root fetch - processPackages [openepd]: Remove: archive file [/home/abi/fetcher/tmp/openepd-0.9.0.tar.gz]
+[2023-06-10 23:40:25] INFO root fetch - main [MainThread]: End processing [openepd]: success
+[2023-06-10 23:40:25] INFO root fetch - processPackages [nextguild]: Remove: archive file [/home/abi/fetcher/tmp/nextguild-1.1.7.tar.gz]
+[2023-06-10 23:40:25] INFO root fetch - processPackages [nextguild]: Remove: archive file [/home/abi/fetcher/tmp/nextguild-1.2.0.tar.gz]
+[2023-06-10 23:40:25] INFO root fetch - main [MainThread]: End processing [nextguild]: success
+[2023-06-10 23:40:30] INFO root fetch - processPackages [sqlite-ulid]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_ulid-0.2.1a8-py3-none-win_amd64.whl.zip]
+[2023-06-10 23:40:30] INFO root fetch - processPackages [sqlite-ulid]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_ulid-0.2.1a9-py3-none-win_amd64.whl.zip]
+[2023-06-10 23:40:30] INFO root fetch - main [MainThread]: End processing [sqlite-ulid]: success
+[2023-06-10 23:40:39] INFO root fetch - processPackages [sqlite-jsonschema]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_jsonschema-0.2.3a5-py3-none-win_amd64.whl.zip]
+[2023-06-10 23:40:39] INFO root fetch - processPackages [sqlite-jsonschema]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_jsonschema-0.2.3a6-py3-none-win_amd64.whl.zip]
+[2023-06-10 23:40:39] INFO root fetch - main [MainThread]: End processing [sqlite-jsonschema]: success
+[2023-06-10 23:42:18] INFO root fetch - processPackages [flasgger]: Remove: archive file [/home/abi/fetcher/tmp/flasgger-0.9.7.2.dev2.tar.gz]
+[2023-06-10 23:42:18] INFO root fetch - processPackages [flasgger]: Remove: archive file [/home/abi/fetcher/tmp/flasgger-0.9.7b2.tar.gz]
+[2023-06-10 23:42:18] INFO root fetch - main [MainThread]: End processing [flasgger]: success
+[2023-06-10 23:42:18] INFO root fetch - main [MainThread]: Store serial: [18454128]
