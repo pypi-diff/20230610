@@ -13700,3 +13700,42 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-10 16:34:59] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_game_collection-2.1.9.tar.gz]
 [2023-06-10 16:34:59] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-game-collection]: success
 [2023-06-10 16:34:59] INFO root fetch - main [MainThread]: Store serial: [18451440]
+[2023-06-10 16:40:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18451440]
+[2023-06-10 16:40:08] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-10 16:40:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jack-audio-tools
+[2023-06-10 16:40:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MultiScraper
+[2023-06-10 16:40:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: crowdstrike-falconpy-dev
+[2023-06-10 16:40:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-audiocraft
+[2023-06-10 16:40:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kfsd
+[2023-06-10 16:40:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: term-chatgpt
+[2023-06-10 16:40:08] WARNING root fetch - processPackages [term-chatgpt]: Skipping, unable to determine old version
+[2023-06-10 16:40:08] INFO root fetch - main [MainThread]: End processing [term-chatgpt] error
+[2023-06-10 16:40:08] INFO root fetch - processPackages [crowdstrike-falconpy-dev]: New version: [1.3.0.dev1] Old Version: [1.2.9]
+[2023-06-10 16:40:08] WARNING root fetch - processPackages [MultiScraper]: Skipping, unable to determine old version
+[2023-06-10 16:40:08] INFO root fetch - main [MainThread]: End processing [MultiScraper] error
+[2023-06-10 16:40:08] INFO root fetch - processPackages [jack-audio-tools]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-10 16:40:08] WARNING root fetch - processPackages [nonebot-plugin-audiocraft]: Skipping, unable to determine old version
+[2023-06-10 16:40:08] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-audiocraft] error
+[2023-06-10 16:40:08] INFO root fetch - processPackages [kfsd]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-10 16:40:08] INFO root fetch - processPackages [kfsd]: Downloading https://files.pythonhosted.org/packages/bc/a3/f3db8d87a39f5eb8a59d2664840211b257e17b2838d141754bf65b5b99d4/kfsd-0.0.8.tar.gz
+[2023-06-10 16:40:09] INFO root fetch - processPackages [jack-audio-tools]: Downloading https://files.pythonhosted.org/packages/d7/be/65147bdc9b8865d5c982c0cda57a51544b41f000f44b23d399b3ba72e906/jack-audio-tools-0.4.0.tar.gz
+[2023-06-10 16:40:09] INFO root fetch - processPackages [crowdstrike-falconpy-dev]: Downloading https://files.pythonhosted.org/packages/ea/9b/a1055493433d74a9f9522d10ca670708d046c2a4c82fe2761d4b28e47288/crowdstrike-falconpy-dev-1.2.9.tar.gz
+[2023-06-10 16:40:09] INFO root fetch - processPackages [kfsd]: Downloading https://files.pythonhosted.org/packages/cc/18/f96c1914d54bd725df13ee5bf82870ca513b9a3c82d89aa30a7d271fa26a/kfsd-0.0.9.tar.gz
+[2023-06-10 16:40:09] INFO root fetch - processPackages [kfsd]: executing diffoscope
+[2023-06-10 16:40:09] INFO root fetch - processPackages [kfsd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfsd-0.0.8.tar.gz tmp/kfsd-0.0.9.tar.gz --markdown 20230610/k/kfsd/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-10 16:40:09] INFO root fetch - processPackages [jack-audio-tools]: Downloading https://files.pythonhosted.org/packages/e4/c0/2031e4044615eb70646bf690055ab743088425f71e4df20815cd9ea457ca/jack-audio-tools-0.4.1.tar.gz
+[2023-06-10 16:40:09] INFO root fetch - processPackages [jack-audio-tools]: executing diffoscope
+[2023-06-10 16:40:09] INFO root fetch - processPackages [jack-audio-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jack-audio-tools-0.4.0.tar.gz tmp/jack-audio-tools-0.4.1.tar.gz --markdown 20230610/j/jack-audio-tools/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-10 16:40:09] INFO root fetch - processPackages [crowdstrike-falconpy-dev]: Downloading https://files.pythonhosted.org/packages/ee/c2/56f3227aeb9e54800f4081fb509190ffcb87d175d9c8f1dd878cb61f9026/crowdstrike-falconpy-dev-1.3.0.dev1.tar.gz
+[2023-06-10 16:40:09] INFO root fetch - processPackages [crowdstrike-falconpy-dev]: executing diffoscope
+[2023-06-10 16:40:09] INFO root fetch - processPackages [crowdstrike-falconpy-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crowdstrike-falconpy-dev-1.2.9.tar.gz tmp/crowdstrike-falconpy-dev-1.3.0.dev1.tar.gz --markdown 20230610/c/crowdstrike-falconpy-dev/1.2.9-1.3.0.dev1/diff.md --exclude *.pyd
+[2023-06-10 16:40:10] INFO root fetch - processPackages [jack-audio-tools]: Remove: archive file [/home/abi/fetcher/tmp/jack-audio-tools-0.4.0.tar.gz]
+[2023-06-10 16:40:10] INFO root fetch - processPackages [jack-audio-tools]: Remove: archive file [/home/abi/fetcher/tmp/jack-audio-tools-0.4.1.tar.gz]
+[2023-06-10 16:40:10] INFO root fetch - main [MainThread]: End processing [jack-audio-tools]: success
+[2023-06-10 16:40:10] INFO root fetch - processPackages [kfsd]: Remove: archive file [/home/abi/fetcher/tmp/kfsd-0.0.8.tar.gz]
+[2023-06-10 16:40:10] INFO root fetch - processPackages [kfsd]: Remove: archive file [/home/abi/fetcher/tmp/kfsd-0.0.9.tar.gz]
+[2023-06-10 16:40:10] INFO root fetch - main [MainThread]: End processing [kfsd]: success
+[2023-06-10 16:40:13] INFO root fetch - processPackages [crowdstrike-falconpy-dev]: Remove: archive file [/home/abi/fetcher/tmp/crowdstrike-falconpy-dev-1.2.9.tar.gz]
+[2023-06-10 16:40:13] INFO root fetch - processPackages [crowdstrike-falconpy-dev]: Remove: archive file [/home/abi/fetcher/tmp/crowdstrike-falconpy-dev-1.3.0.dev1.tar.gz]
+[2023-06-10 16:40:13] INFO root fetch - main [MainThread]: End processing [crowdstrike-falconpy-dev]: success
+[2023-06-10 16:40:13] INFO root fetch - main [MainThread]: Store serial: [18451474]
