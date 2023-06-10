@@ -11769,3 +11769,192 @@ EOFError: EOF read where object expected
 [2023-06-10 14:36:25] INFO root fetch - processPackages [mapbot-frontend]: Remove: archive file [/home/abi/fetcher/tmp/mapbot_frontend-0.1.8.tar.gz]
 [2023-06-10 14:36:25] INFO root fetch - main [MainThread]: End processing [mapbot-frontend]: success
 [2023-06-10 14:36:25] INFO root fetch - main [MainThread]: Store serial: [18450588]
+[2023-06-10 14:41:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18450588]
+[2023-06-10 14:41:44] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-06-10 14:41:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-all-in-one-accessibility
+[2023-06-10 14:41:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-pcrjjc
+[2023-06-10 14:41:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gitfarts
+[2023-06-10 14:41:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: typst
+[2023-06-10 14:41:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyaikit
+[2023-06-10 14:41:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-email-certify
+[2023-06-10 14:41:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spaceone-core
+[2023-06-10 14:41:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cbpi4-buzzer
+[2023-06-10 14:41:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: netbox-cisco-maintenance
+[2023-06-10 14:41:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: django-all-in-one-accessibility
+[2023-06-10 14:41:44] INFO root fetch - processPackages [django-all-in-one-accessibility]: New version: [1.4] Old Version: [1.3]
+[2023-06-10 14:41:44] INFO root fetch - processPackages [gitfarts]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-10 14:41:44] INFO root fetch - processPackages [typst]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-06-10 14:41:44] INFO root fetch - processPackages [nonebot-plugin-pcrjjc]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-10 14:41:44] INFO root fetch - processPackages [cbpi4-buzzer]: New version: [0.0.6rc1] Old Version: [0.0.4]
+[2023-06-10 14:41:44] INFO root fetch - processPackages [django-all-in-one-accessibility]: New version: [1.4] Old Version: [1.3]
+[2023-06-10 14:41:44] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-10 14:41:44] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/49/9b/a1c0c74911cdf52ff01e40ea24fa7dd8c615a41dbbdae40f076bf871e18c/netbox-cisco-maintenance-0.0.98.tar.gz
+[2023-06-10 14:41:44] WARNING root fetch - processPackages [pyaikit]: Skipping, unable to determine old version
+[2023-06-10 14:41:44] INFO root fetch - processPackages [pyaikit]: Start processing: iparapheur-provisioning
+[2023-06-10 14:41:44] INFO root fetch - main [MainThread]: End processing [pyaikit] error
+[2023-06-10 14:41:44] WARNING root fetch - processPackages [django-email-certify]: Skipping, unable to determine old version
+[2023-06-10 14:41:44] INFO root fetch - processPackages [django-email-certify]: Start processing: maturin
+[2023-06-10 14:41:44] INFO root fetch - main [MainThread]: End processing [django-email-certify] error
+[2023-06-10 14:41:44] INFO root fetch - processPackages [spaceone-core]: New version: [1.9.7rc1] Old Version: [1.9.7.1]
+[2023-06-10 14:41:44] INFO root fetch - processPackages [gitfarts]: Downloading https://files.pythonhosted.org/packages/bb/cf/26979336c0c309d2ee3c2bd75bd571569baecec418b092400576eee89abd/gitfarts-0.1.0.tar.gz
+[2023-06-10 14:41:44] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/36/61/db227025ce63809f803a3fe44062bf026321f24f9aa12a99bf348ae574ca/netbox-cisco-maintenance-0.0.99.tar.gz
+[2023-06-10 14:41:45] INFO root fetch - processPackages [django-all-in-one-accessibility]: Downloading https://files.pythonhosted.org/packages/43/e4/36864f41b2b619dbc2e16fb35037548b6f27a9f47488d40e565afdb67d73/django-all-in-one-accessibility-1.3.tar.gz
+[2023-06-10 14:41:45] INFO root fetch - processPackages [django-all-in-one-accessibility]: Downloading https://files.pythonhosted.org/packages/43/e4/36864f41b2b619dbc2e16fb35037548b6f27a9f47488d40e565afdb67d73/django-all-in-one-accessibility-1.3.tar.gz
+[2023-06-10 14:41:45] INFO root fetch - processPackages [cbpi4-buzzer]: Downloading https://files.pythonhosted.org/packages/7f/0e/e2514f29ac14f2161eb85da850e4ef2f27fbb9a54ce6af4660f996752e2d/cbpi4-buzzer-0.0.4.tar.gz
+[2023-06-10 14:41:45] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-06-10 14:41:45] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.98.tar.gz tmp/netbox-cisco-maintenance-0.0.99.tar.gz --markdown 20230610/n/netbox-cisco-maintenance/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-10 14:41:45] INFO root fetch - processPackages [typst]: Downloading https://files.pythonhosted.org/packages/32/e4/adbaab4be09706ef3b01015178c3e55cd922bca82f52034e67c2870af2b1/typst-0.4.0.tar.gz
+[2023-06-10 14:41:45] INFO root fetch - processPackages [iparapheur-provisioning]: New version: [1.6.6] Old Version: [1.6.5]
+[2023-06-10 14:41:45] INFO root fetch - processPackages [nonebot-plugin-pcrjjc]: Downloading https://files.pythonhosted.org/packages/27/fa/ae59bb79fd0a9cbbb8679e4349d81f8070649ac42a53c3e45a999acc9086/nonebot-plugin-pcrjjc-0.1.1.tar.gz
+[2023-06-10 14:41:45] INFO root fetch - processPackages [maturin]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-06-10 14:41:45] INFO root fetch - processPackages [spaceone-core]: Downloading https://files.pythonhosted.org/packages/1f/6d/5cbc0264b2c1dd5f3ae609e7b61b5c5c8d54710e85e098c13db4552af976/spaceone_core-1.9.7.1-py3-none-any.whl
+[2023-06-10 14:41:45] INFO root fetch - processPackages [django-all-in-one-accessibility]: Downloading https://files.pythonhosted.org/packages/2c/22/33a537ffed5f0bff790c89b98006a1acb92b5390267f768c6fb56c94aae8/django-all-in-one-accessibility-1.4.tar.gz
+[2023-06-10 14:41:45] INFO root fetch - processPackages [django-all-in-one-accessibility]: Downloading https://files.pythonhosted.org/packages/2c/22/33a537ffed5f0bff790c89b98006a1acb92b5390267f768c6fb56c94aae8/django-all-in-one-accessibility-1.4.tar.gz
+[2023-06-10 14:41:45] INFO root fetch - processPackages [iparapheur-provisioning]: Downloading https://files.pythonhosted.org/packages/47/7c/a04835748e2dc3616bed18f0c0c0045b2842447caddd8ccb6f1afe56be67/iparapheur-provisioning-1.6.5.tar.gz
+[2023-06-10 14:41:45] INFO root fetch - processPackages [django-all-in-one-accessibility]: executing diffoscope
+[2023-06-10 14:41:45] INFO root fetch - processPackages [django-all-in-one-accessibility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-all-in-one-accessibility-1.3.tar.gz tmp/django-all-in-one-accessibility-1.4.tar.gz --markdown 20230610/d/django-all-in-one-accessibility/1.3-1.4/diff.md --exclude *.pyd
+[2023-06-10 14:41:45] INFO root fetch - processPackages [django-all-in-one-accessibility]: executing diffoscope
+[2023-06-10 14:41:45] INFO root fetch - processPackages [django-all-in-one-accessibility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-all-in-one-accessibility-1.3.tar.gz tmp/django-all-in-one-accessibility-1.4.tar.gz --markdown 20230610/d/django-all-in-one-accessibility/1.3-1.4/diff.md --exclude *.pyd
+[2023-06-10 14:41:45] INFO root fetch - processPackages [cbpi4-buzzer]: Downloading https://files.pythonhosted.org/packages/6f/67/d8b394d5e25552e152f5e22ef4eae1e1f0677dce36cc1f2f86c2fcaca78a/cbpi4-buzzer-0.0.6rc1.tar.gz
+[2023-06-10 14:41:45] INFO root fetch - processPackages [gitfarts]: Downloading https://files.pythonhosted.org/packages/6b/fd/90cb90f1e6b1273de52a2723e362bb0c240d4e9df56f69b3880e87629e31/gitfarts-0.1.1.tar.gz
+[2023-06-10 14:41:45] INFO root fetch - processPackages [maturin]: Downloading https://files.pythonhosted.org/packages/81/c2/89a3073efc50c2cb950877f44d7564d31a22d812db791bb6f8d3f0c891b7/maturin-1.0.1.tar.gz
+[2023-06-10 14:41:45] INFO root fetch - processPackages [cbpi4-buzzer]: executing diffoscope
+[2023-06-10 14:41:45] INFO root fetch - processPackages [cbpi4-buzzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cbpi4-buzzer-0.0.4.tar.gz tmp/cbpi4-buzzer-0.0.6rc1.tar.gz --markdown 20230610/c/cbpi4-buzzer/0.0.4-0.0.6rc1/diff.md --exclude *.pyd
+[2023-06-10 14:41:45] INFO root fetch - processPackages [gitfarts]: executing diffoscope
+[2023-06-10 14:41:45] INFO root fetch - processPackages [gitfarts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitfarts-0.1.0.tar.gz tmp/gitfarts-0.1.1.tar.gz --markdown 20230610/g/gitfarts/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-10 14:41:45] INFO root fetch - processPackages [spaceone-core]: Downloading https://files.pythonhosted.org/packages/2f/7f/98bd3e0e1e14ec1a59e8d305c033978db48833658a8f1754c0458e77a3c4/spaceone_core-1.9.7rc1-py3-none-any.whl
+[2023-06-10 14:41:45] INFO root fetch - processPackages [iparapheur-provisioning]: Downloading https://files.pythonhosted.org/packages/84/0d/a14d9c368cb1a1be0d3854817d4684152e3148c50f817148b34072bf2523/iparapheur-provisioning-1.6.6.tar.gz
+[2023-06-10 14:41:45] INFO root fetch - processPackages [spaceone-core]: executing diffoscope
+[2023-06-10 14:41:45] INFO root fetch - processPackages [spaceone-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_core-1.9.7.1-py3-none-any.whl.zip tmp/spaceone_core-1.9.7rc1-py3-none-any.whl.zip --markdown 20230610/s/spaceone-core/1.9.7.1-1.9.7rc1/diff.md --exclude *.pyd
+[2023-06-10 14:41:45] INFO root fetch - processPackages [maturin]: Downloading https://files.pythonhosted.org/packages/7b/78/2814bc0e46a96861aab337fd0404e7937acdb4ce187da239224ab4560d35/maturin-1.1.0.tar.gz
+[2023-06-10 14:41:45] INFO root fetch - processPackages [iparapheur-provisioning]: executing diffoscope
+[2023-06-10 14:41:45] INFO root fetch - processPackages [iparapheur-provisioning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iparapheur-provisioning-1.6.5.tar.gz tmp/iparapheur-provisioning-1.6.6.tar.gz --markdown 20230610/i/iparapheur-provisioning/1.6.5-1.6.6/diff.md --exclude *.pyd
+[2023-06-10 14:41:45] INFO root fetch - processPackages [maturin]: executing diffoscope
+[2023-06-10 14:41:45] INFO root fetch - processPackages [maturin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maturin-1.0.1.tar.gz tmp/maturin-1.1.0.tar.gz --markdown 20230610/m/maturin/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-06-10 14:41:46] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.98.tar.gz]
+[2023-06-10 14:41:46] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.99.tar.gz]
+[2023-06-10 14:41:46] INFO root fetch - processPackages [netbox-cisco-maintenance]: Start processing: gitfarts
+[2023-06-10 14:41:46] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-06-10 14:41:46] INFO root fetch - processPackages [gitfarts]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-10 14:41:46] INFO root fetch - processPackages [cbpi4-buzzer]: Remove: archive file [/home/abi/fetcher/tmp/cbpi4-buzzer-0.0.4.tar.gz]
+[2023-06-10 14:41:46] INFO root fetch - processPackages [cbpi4-buzzer]: Remove: archive file [/home/abi/fetcher/tmp/cbpi4-buzzer-0.0.6rc1.tar.gz]
+[2023-06-10 14:41:46] INFO root fetch - processPackages [cbpi4-buzzer]: Start processing: site-conn-check
+[2023-06-10 14:41:46] INFO root fetch - main [MainThread]: End processing [cbpi4-buzzer]: success
+[2023-06-10 14:41:46] INFO root fetch - processPackages [gitfarts]: Remove: archive file [/home/abi/fetcher/tmp/gitfarts-0.1.0.tar.gz]
+[2023-06-10 14:41:46] INFO root fetch - processPackages [gitfarts]: Remove: archive file [/home/abi/fetcher/tmp/gitfarts-0.1.1.tar.gz]
+[2023-06-10 14:41:46] INFO root fetch - processPackages [gitfarts]: Start processing: mltb2
+[2023-06-10 14:41:46] INFO root fetch - main [MainThread]: End processing [gitfarts]: success
+[2023-06-10 14:41:46] INFO root fetch - processPackages [gitfarts]: Downloading https://files.pythonhosted.org/packages/6b/fd/90cb90f1e6b1273de52a2723e362bb0c240d4e9df56f69b3880e87629e31/gitfarts-0.1.1.tar.gz
+[2023-06-10 14:41:46] INFO root fetch - processPackages [django-all-in-one-accessibility]: Remove: archive file [/home/abi/fetcher/tmp/django-all-in-one-accessibility-1.3.tar.gz]
+[2023-06-10 14:41:46] INFO root fetch - processPackages [django-all-in-one-accessibility]: Remove: archive file [/home/abi/fetcher/tmp/django-all-in-one-accessibility-1.4.tar.gz]
+[2023-06-10 14:41:46] INFO root fetch - processPackages [django-all-in-one-accessibility]: Start processing: tensorcircuit-nightly
+[2023-06-10 14:41:46] INFO root fetch - main [MainThread]: End processing [django-all-in-one-accessibility]: success
+[2023-06-10 14:41:46] INFO root fetch - processPackages [site-conn-check]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-10 14:41:46] INFO root fetch - processPackages [typst]: Downloading https://files.pythonhosted.org/packages/38/3f/43641c006e290c4e2a32ef19191ca1784e5aee1aae95f1c3da96e2626f16/typst-0.5.0.tar.gz
+[2023-06-10 14:41:46] INFO root fetch - processPackages [tensorcircuit-nightly]: New version: [0.9.1.dev20230608] Old Version: [0.9.1.dev20230607]
+[2023-06-10 14:41:46] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/79/2a/50740b6f8b7e1d0c4223c72c789f41baca7a4e77f32e8f52bd91e7ebff20/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz
+[2023-06-10 14:41:46] INFO root fetch - processPackages [mltb2]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-10 14:41:46] INFO root fetch - processPackages [django-all-in-one-accessibility]: Start processing: django-all-in-one-accessibility
+[2023-06-10 14:41:46] INFO root fetch - main [MainThread]: End processing [django-all-in-one-accessibility]: success
+[2023-06-10 14:41:46] INFO root fetch - processPackages [django-all-in-one-accessibility]: New version: [1.6] Old Version: [1.5]
+[2023-06-10 14:41:46] INFO root fetch - processPackages [gitfarts]: Downloading https://files.pythonhosted.org/packages/41/f5/147317f3b1acf0d4e7ea445f1154a337868ffd40516e9a24078fe746f3d5/gitfarts-0.1.2.tar.gz
+[2023-06-10 14:41:46] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/2f/cc/671276320457670987d1eb503de15ee19924e63c7ec9c99b14c240d5aa18/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz
+[2023-06-10 14:41:46] INFO root fetch - processPackages [site-conn-check]: Downloading https://files.pythonhosted.org/packages/b1/ec/c2bdc8666d135fb52c1f5886c2c4fe970b91d8601b720fcfa232beb9229a/site_conn_check-1.0.2.tar.gz
+[2023-06-10 14:41:46] INFO root fetch - processPackages [tensorcircuit-nightly]: executing diffoscope
+[2023-06-10 14:41:46] INFO root fetch - processPackages [tensorcircuit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz --markdown 20230610/t/tensorcircuit-nightly/0.9.1.dev20230607-0.9.1.dev20230608/diff.md --exclude *.pyd
+[2023-06-10 14:41:46] INFO root fetch - processPackages [mltb2]: Downloading https://files.pythonhosted.org/packages/ba/70/74fc00ef920cd432ea3aecbb98bb7344e0629503038df00e5278d3e9b470/mltb2-0.0.3.tar.gz
+[2023-06-10 14:41:47] INFO root fetch - processPackages [gitfarts]: executing diffoscope
+[2023-06-10 14:41:47] INFO root fetch - processPackages [gitfarts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitfarts-0.1.1.tar.gz tmp/gitfarts-0.1.2.tar.gz --markdown 20230610/g/gitfarts/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-10 14:41:47] INFO root fetch - processPackages [django-all-in-one-accessibility]: Downloading https://files.pythonhosted.org/packages/53/ba/4002d57e6bb56b6a6992f5dc97308f2d78b6fad635cc2e7c9cc5397e9eec/django-all-in-one-accessibility-1.5.tar.gz
+[2023-06-10 14:41:47] INFO root fetch - processPackages [nonebot-plugin-pcrjjc]: Downloading https://files.pythonhosted.org/packages/04/55/0f92e8c0c2c7c108690d55ad21e29dadfad18bee4298870909f924651061/nonebot-plugin-pcrjjc-0.1.2.tar.gz
+[2023-06-10 14:41:47] INFO root fetch - processPackages [nonebot-plugin-pcrjjc]: executing diffoscope
+[2023-06-10 14:41:47] INFO root fetch - processPackages [nonebot-plugin-pcrjjc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-pcrjjc-0.1.1.tar.gz tmp/nonebot-plugin-pcrjjc-0.1.2.tar.gz --markdown 20230610/n/nonebot-plugin-pcrjjc/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-10 14:41:47] INFO root fetch - processPackages [mltb2]: Downloading https://files.pythonhosted.org/packages/61/2b/4170132e63473448dd2edc90168522f4b41232dc8ab59e7be27e1b34a6d8/mltb2-0.0.4.tar.gz
+[2023-06-10 14:41:47] INFO root fetch - processPackages [site-conn-check]: Downloading https://files.pythonhosted.org/packages/87/44/849a6e1980eea777b265afbc759112454bc0860375ae4516821cd778074b/site_conn_check-1.0.3.tar.gz
+[2023-06-10 14:41:47] INFO root fetch - processPackages [site-conn-check]: executing diffoscope
+[2023-06-10 14:41:47] INFO root fetch - processPackages [site-conn-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/site_conn_check-1.0.2.tar.gz tmp/site_conn_check-1.0.3.tar.gz --markdown 20230610/s/site-conn-check/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-10 14:41:47] INFO root fetch - processPackages [spaceone-core]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_core-1.9.7.1-py3-none-any.whl.zip]
+[2023-06-10 14:41:47] INFO root fetch - processPackages [spaceone-core]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_core-1.9.7rc1-py3-none-any.whl.zip]
+[2023-06-10 14:41:47] INFO root fetch - processPackages [spaceone-core]: Start processing: yulain-test-project
+[2023-06-10 14:41:47] INFO root fetch - main [MainThread]: End processing [spaceone-core]: success
+[2023-06-10 14:41:47] INFO root fetch - processPackages [django-all-in-one-accessibility]: Downloading https://files.pythonhosted.org/packages/b9/42/e720bdf5a99fd7ff1da9e932677d9a03efb1c3caaa84c04777f85960e643/django-all-in-one-accessibility-1.6.tar.gz
+[2023-06-10 14:41:47] INFO root fetch - processPackages [mltb2]: executing diffoscope
+[2023-06-10 14:41:47] INFO root fetch - processPackages [mltb2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mltb2-0.0.3.tar.gz tmp/mltb2-0.0.4.tar.gz --markdown 20230610/m/mltb2/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-10 14:41:47] WARNING root fetch - processPackages [yulain-test-project]: Skipping, unable to determine old version
+[2023-06-10 14:41:47] INFO root fetch - processPackages [yulain-test-project]: Start processing: simple-matrix-api
+[2023-06-10 14:41:47] INFO root fetch - main [MainThread]: End processing [yulain-test-project] error
+[2023-06-10 14:41:47] INFO root fetch - processPackages [django-all-in-one-accessibility]: executing diffoscope
+[2023-06-10 14:41:47] INFO root fetch - processPackages [django-all-in-one-accessibility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-all-in-one-accessibility-1.5.tar.gz tmp/django-all-in-one-accessibility-1.6.tar.gz --markdown 20230610/d/django-all-in-one-accessibility/1.5-1.6/diff.md --exclude *.pyd
+[2023-06-10 14:41:47] INFO root fetch - processPackages [simple-matrix-api]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-10 14:41:47] INFO root fetch - processPackages [typst]: executing diffoscope
+[2023-06-10 14:41:47] INFO root fetch - processPackages [typst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typst-0.4.0.tar.gz tmp/typst-0.5.0.tar.gz --markdown 20230610/t/typst/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-10 14:41:47] INFO root fetch - processPackages [simple-matrix-api]: Downloading https://files.pythonhosted.org/packages/f4/88/e57aec7afc0e424bb2d6ea080953cb1e498584ea7dd5b9f9f1620e9959b6/simple_matrix_api-0.0.3.tar.gz
+[2023-06-10 14:41:47] INFO root fetch - processPackages [maturin]: Remove: archive file [/home/abi/fetcher/tmp/maturin-1.0.1.tar.gz]
+[2023-06-10 14:41:47] INFO root fetch - processPackages [maturin]: Remove: archive file [/home/abi/fetcher/tmp/maturin-1.1.0.tar.gz]
+[2023-06-10 14:41:47] INFO root fetch - processPackages [maturin]: Start processing: WignerSymbol
+[2023-06-10 14:41:47] INFO root fetch - main [MainThread]: End processing [maturin]: success
+[2023-06-10 14:41:47] WARNING root fetch - processPackages [WignerSymbol]: Skipping, unable to determine old version
+[2023-06-10 14:41:47] INFO root fetch - processPackages [WignerSymbol]: Start processing: bigdl-orca-spark3
+[2023-06-10 14:41:47] INFO root fetch - main [MainThread]: End processing [WignerSymbol] error
+[2023-06-10 14:41:48] INFO root fetch - processPackages [simple-matrix-api]: Downloading https://files.pythonhosted.org/packages/9b/ca/b9ea9f0b81e28fc1f7f00fbc8e25b732c16a6c270f15e4e2c8f82f575e9d/simple_matrix_api-0.0.4.tar.gz
+[2023-06-10 14:41:48] INFO root fetch - processPackages [bigdl-orca-spark3]: New version: [2.4.0b20230610] Old Version: [2.4.0b20230609]
+[2023-06-10 14:41:48] INFO root fetch - processPackages [gitfarts]: Remove: archive file [/home/abi/fetcher/tmp/gitfarts-0.1.1.tar.gz]
+[2023-06-10 14:41:48] INFO root fetch - processPackages [gitfarts]: Remove: archive file [/home/abi/fetcher/tmp/gitfarts-0.1.2.tar.gz]
+[2023-06-10 14:41:48] INFO root fetch - processPackages [gitfarts]: Start processing: bigdl-friesian-spark3
+[2023-06-10 14:41:48] INFO root fetch - main [MainThread]: End processing [gitfarts]: success
+[2023-06-10 14:41:48] INFO root fetch - processPackages [simple-matrix-api]: executing diffoscope
+[2023-06-10 14:41:48] INFO root fetch - processPackages [simple-matrix-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_matrix_api-0.0.3.tar.gz tmp/simple_matrix_api-0.0.4.tar.gz --markdown 20230610/s/simple-matrix-api/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-10 14:41:48] INFO root fetch - processPackages [bigdl-orca-spark3]: Downloading https://files.pythonhosted.org/packages/95/82/e9463a915b76fb7c45d681cdbe0d4b460907d6160d7f9a05acf60e1705a7/bigdl_orca_spark3-2.4.0b20230609-py3-none-manylinux1_x86_64.whl
+[2023-06-10 14:41:48] INFO root fetch - processPackages [bigdl-friesian-spark3]: New version: [2.4.0b20230610] Old Version: [2.4.0b20230609]
+[2023-06-10 14:41:48] WARNING root fetch - processPackages [bigdl-orca-spark3]: Skipping package: exceeds size limit 20207672>=10485760
+[2023-06-10 14:41:48] INFO root fetch - processPackages [bigdl-orca-spark3]: Start processing: bigdl-chronos-spark3
+[2023-06-10 14:41:48] INFO root fetch - main [MainThread]: End processing [bigdl-orca-spark3] error
+[2023-06-10 14:41:48] INFO root fetch - processPackages [bigdl-friesian-spark3]: Downloading https://files.pythonhosted.org/packages/35/2d/a089f6a99e5b876db7adc67873b9895b7a387e63e3071a7c896c7d6d5653/bigdl_friesian_spark3-2.4.0b20230609-py3-none-manylinux1_x86_64.whl
+[2023-06-10 14:41:48] INFO root fetch - processPackages [bigdl-chronos-spark3]: New version: [2.4.0b20230610] Old Version: [2.4.0b20230609]
+[2023-06-10 14:41:48] INFO root fetch - processPackages [mltb2]: Remove: archive file [/home/abi/fetcher/tmp/mltb2-0.0.3.tar.gz]
+[2023-06-10 14:41:48] INFO root fetch - processPackages [mltb2]: Remove: archive file [/home/abi/fetcher/tmp/mltb2-0.0.4.tar.gz]
+[2023-06-10 14:41:48] INFO root fetch - processPackages [mltb2]: Start processing: bigdl-spark3
+[2023-06-10 14:41:48] INFO root fetch - main [MainThread]: End processing [mltb2]: success
+[2023-06-10 14:41:48] INFO root fetch - processPackages [site-conn-check]: Remove: archive file [/home/abi/fetcher/tmp/site_conn_check-1.0.2.tar.gz]
+[2023-06-10 14:41:48] INFO root fetch - processPackages [site-conn-check]: Remove: archive file [/home/abi/fetcher/tmp/site_conn_check-1.0.3.tar.gz]
+[2023-06-10 14:41:48] INFO root fetch - main [MainThread]: End processing [site-conn-check]: success
+[2023-06-10 14:41:48] INFO root fetch - processPackages [bigdl-friesian-spark3]: Downloading https://files.pythonhosted.org/packages/db/bf/6b990bc0da67e14b1e3037311b36752d0dc918dd5e9287dc979acfaf8ea3/bigdl_friesian_spark3-2.4.0b20230610-py3-none-manylinux1_x86_64.whl
+[2023-06-10 14:41:48] INFO root fetch - processPackages [bigdl-spark3]: New version: [2.4.0b20230610] Old Version: [2.4.0b20230609]
+[2023-06-10 14:41:48] INFO root fetch - processPackages [django-all-in-one-accessibility]: Remove: archive file [/home/abi/fetcher/tmp/django-all-in-one-accessibility-1.5.tar.gz]
+[2023-06-10 14:41:48] INFO root fetch - processPackages [django-all-in-one-accessibility]: Remove: archive file [/home/abi/fetcher/tmp/django-all-in-one-accessibility-1.6.tar.gz]
+[2023-06-10 14:41:48] INFO root fetch - main [MainThread]: End processing [django-all-in-one-accessibility]: success
+[2023-06-10 14:41:48] INFO root fetch - processPackages [bigdl-chronos-spark3]: Downloading https://files.pythonhosted.org/packages/75/2c/0e54544da7cdf2e147a6c8a2eb5e1614cccfee964961cb169a292743d099/bigdl_chronos_spark3-2.4.0b20230609-py3-none-manylinux1_x86_64.whl
+[2023-06-10 14:41:48] INFO root fetch - processPackages [bigdl-friesian-spark3]: executing diffoscope
+[2023-06-10 14:41:48] INFO root fetch - processPackages [bigdl-friesian-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian_spark3-2.4.0b20230609-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian_spark3-2.4.0b20230610-py3-none-manylinux1_x86_64.whl.zip --markdown 20230610/b/bigdl-friesian-spark3/2.4.0b20230609-2.4.0b20230610/diff.md --exclude *.pyd
+[2023-06-10 14:41:48] INFO root fetch - processPackages [nonebot-plugin-pcrjjc]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-pcrjjc-0.1.1.tar.gz]
+[2023-06-10 14:41:48] INFO root fetch - processPackages [nonebot-plugin-pcrjjc]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-pcrjjc-0.1.2.tar.gz]
+[2023-06-10 14:41:48] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-pcrjjc]: success
+[2023-06-10 14:41:48] INFO root fetch - processPackages [bigdl-spark3]: Downloading https://files.pythonhosted.org/packages/9b/03/b3b5b8cff6f25e7ae67929799a596e883eefff0aa32e00ba93c0f412d978/bigdl_spark3-2.4.0b20230609-py3-none-manylinux1_x86_64.whl
+[2023-06-10 14:41:49] INFO root fetch - processPackages [bigdl-chronos-spark3]: Downloading https://files.pythonhosted.org/packages/17/c7/1527d8ed5bc45d7064829062c0ec24333f27acfc02a92318917443b92d42/bigdl_chronos_spark3-2.4.0b20230610-py3-none-manylinux1_x86_64.whl
+[2023-06-10 14:41:49] INFO root fetch - processPackages [bigdl-spark3]: Downloading https://files.pythonhosted.org/packages/0f/2b/26128f936fd0dee9a4bb39d5b574d0e7e6000f87541c75eea2a20967c2ee/bigdl_spark3-2.4.0b20230610-py3-none-manylinux1_x86_64.whl
+[2023-06-10 14:41:49] INFO root fetch - processPackages [bigdl-chronos-spark3]: executing diffoscope
+[2023-06-10 14:41:49] INFO root fetch - processPackages [bigdl-chronos-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos_spark3-2.4.0b20230609-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_chronos_spark3-2.4.0b20230610-py3-none-manylinux1_x86_64.whl.zip --markdown 20230610/b/bigdl-chronos-spark3/2.4.0b20230609-2.4.0b20230610/diff.md --exclude *.pyd
+[2023-06-10 14:41:49] INFO root fetch - processPackages [simple-matrix-api]: Remove: archive file [/home/abi/fetcher/tmp/simple_matrix_api-0.0.3.tar.gz]
+[2023-06-10 14:41:49] INFO root fetch - processPackages [simple-matrix-api]: Remove: archive file [/home/abi/fetcher/tmp/simple_matrix_api-0.0.4.tar.gz]
+[2023-06-10 14:41:49] INFO root fetch - main [MainThread]: End processing [simple-matrix-api]: success
+[2023-06-10 14:41:49] INFO root fetch - processPackages [bigdl-spark3]: executing diffoscope
+[2023-06-10 14:41:49] INFO root fetch - processPackages [bigdl-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_spark3-2.4.0b20230609-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_spark3-2.4.0b20230610-py3-none-manylinux1_x86_64.whl.zip --markdown 20230610/b/bigdl-spark3/2.4.0b20230609-2.4.0b20230610/diff.md --exclude *.pyd
+[2023-06-10 14:41:50] INFO root fetch - processPackages [bigdl-friesian-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian_spark3-2.4.0b20230609-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-10 14:41:50] INFO root fetch - processPackages [bigdl-friesian-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian_spark3-2.4.0b20230610-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-10 14:41:50] INFO root fetch - main [MainThread]: End processing [bigdl-friesian-spark3]: success
+[2023-06-10 14:41:51] INFO root fetch - processPackages [bigdl-chronos-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark3-2.4.0b20230609-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-10 14:41:51] INFO root fetch - processPackages [bigdl-chronos-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark3-2.4.0b20230610-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-10 14:41:51] INFO root fetch - main [MainThread]: End processing [bigdl-chronos-spark3]: success
+[2023-06-10 14:41:51] INFO root fetch - processPackages [iparapheur-provisioning]: Remove: archive file [/home/abi/fetcher/tmp/iparapheur-provisioning-1.6.5.tar.gz]
+[2023-06-10 14:41:51] INFO root fetch - processPackages [iparapheur-provisioning]: Remove: archive file [/home/abi/fetcher/tmp/iparapheur-provisioning-1.6.6.tar.gz]
+[2023-06-10 14:41:51] INFO root fetch - main [MainThread]: End processing [iparapheur-provisioning]: success
+[2023-06-10 14:41:52] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz]
+[2023-06-10 14:41:52] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz]
+[2023-06-10 14:41:52] INFO root fetch - main [MainThread]: End processing [tensorcircuit-nightly]: success
+[2023-06-10 14:41:52] INFO root fetch - processPackages [typst]: Remove: archive file [/home/abi/fetcher/tmp/typst-0.4.0.tar.gz]
+[2023-06-10 14:41:52] INFO root fetch - processPackages [typst]: Remove: archive file [/home/abi/fetcher/tmp/typst-0.5.0.tar.gz]
+[2023-06-10 14:41:52] INFO root fetch - main [MainThread]: End processing [typst]: success
+[2023-06-10 14:42:42] INFO root fetch - processPackages [bigdl-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_spark3-2.4.0b20230609-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-10 14:42:42] INFO root fetch - processPackages [bigdl-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_spark3-2.4.0b20230610-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-10 14:42:42] INFO root fetch - main [MainThread]: End processing [bigdl-spark3]: success
+[2023-06-10 14:42:42] INFO root fetch - main [MainThread]: Store serial: [18450693]
