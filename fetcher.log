@@ -8933,3 +8933,24 @@ EOFError: EOF read where object expected
 [2023-06-10 09:22:36] INFO root fetch - processPackages [Shark-sac-Korean-editor]: Remove: archive file [/home/abi/fetcher/tmp/Shark sac Korean editor-1.1.2.tar.gz]
 [2023-06-10 09:22:36] INFO root fetch - main [MainThread]: End processing [Shark-sac-Korean-editor]: success
 [2023-06-10 09:22:36] INFO root fetch - main [MainThread]: Store serial: [18449325]
+[2023-06-10 09:27:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18449325]
+[2023-06-10 09:27:46] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-06-10 09:27:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: irails
+[2023-06-10 09:27:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Shark-sac-Korean-editor
+[2023-06-10 09:27:47] INFO root fetch - processPackages [irails]: New version: [1.3.40] Old Version: [1.3.39]
+[2023-06-10 09:27:47] INFO root fetch - processPackages [Shark-sac-Korean-editor]: New version: [1.2.0] Old Version: [1.1.1]
+[2023-06-10 09:27:47] INFO root fetch - processPackages [Shark-sac-Korean-editor]: Downloading https://files.pythonhosted.org/packages/cd/06/bb6a2b0e8993b8c1025d51d8236c92700eb5b2a2629c05f8267ede46dd0f/Shark%20sac%20Korean%20editor-1.1.1.tar.gz
+[2023-06-10 09:27:47] INFO root fetch - processPackages [irails]: Downloading https://files.pythonhosted.org/packages/94/da/67df6e3c83eaead09dc5a3243e7cc87ffe4c661f0308fffd3f37e386d687/irails-1.3.39.tar.gz
+[2023-06-10 09:27:47] INFO root fetch - processPackages [Shark-sac-Korean-editor]: Downloading https://files.pythonhosted.org/packages/64/f3/e73605bef953a0ef4e90e5442ac5cbc09071d87d75a14aec67679c9e4ae7/Shark%20sac%20Korean%20editor-1.2.0.tar.gz
+[2023-06-10 09:27:47] INFO root fetch - processPackages [Shark-sac-Korean-editor]: executing diffoscope
+[2023-06-10 09:27:47] INFO root fetch - processPackages [Shark-sac-Korean-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Shark sac Korean editor-1.1.1.tar.gz tmp/Shark sac Korean editor-1.2.0.tar.gz --markdown 20230610/S/Shark-sac-Korean-editor/1.1.1-1.2.0/diff.md --exclude *.pyd
+[2023-06-10 09:27:47] INFO root fetch - processPackages [irails]: Downloading https://files.pythonhosted.org/packages/73/ad/e9e540c97fa19e2128139dedf3d405c19f0fc5649aef38a6575f8e6de3bb/irails-1.3.40.tar.gz
+[2023-06-10 09:27:47] INFO root fetch - processPackages [irails]: executing diffoscope
+[2023-06-10 09:27:47] INFO root fetch - processPackages [irails]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irails-1.3.39.tar.gz tmp/irails-1.3.40.tar.gz --markdown 20230610/i/irails/1.3.39-1.3.40/diff.md --exclude *.pyd
+[2023-06-10 09:27:49] INFO root fetch - processPackages [irails]: Remove: archive file [/home/abi/fetcher/tmp/irails-1.3.39.tar.gz]
+[2023-06-10 09:27:49] INFO root fetch - processPackages [irails]: Remove: archive file [/home/abi/fetcher/tmp/irails-1.3.40.tar.gz]
+[2023-06-10 09:27:49] INFO root fetch - main [MainThread]: End processing [irails]: success
+[2023-06-10 09:27:49] INFO root fetch - processPackages [Shark-sac-Korean-editor]: Remove: archive file [/home/abi/fetcher/tmp/Shark sac Korean editor-1.1.1.tar.gz]
+[2023-06-10 09:27:49] INFO root fetch - processPackages [Shark-sac-Korean-editor]: Remove: archive file [/home/abi/fetcher/tmp/Shark sac Korean editor-1.2.0.tar.gz]
+[2023-06-10 09:27:49] INFO root fetch - main [MainThread]: End processing [Shark-sac-Korean-editor]: success
+[2023-06-10 09:27:49] INFO root fetch - main [MainThread]: Store serial: [18449335]
