@@ -6491,3 +6491,75 @@ EOFError: EOF read where object expected
 [2023-06-10 04:27:40] INFO root fetch - main [MainThread]: End processing [dcrx-api]: success
 [2023-06-10 04:27:40] INFO root fetch - main [MainThread]: End processing [MALDIpy]: success
 [2023-06-10 04:27:40] INFO root fetch - main [MainThread]: Store serial: [18448139]
+[2023-06-10 04:32:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18448139]
+[2023-06-10 04:32:49] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-10 04:32:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: DtoLib
+[2023-06-10 04:32:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ovos-tts-plugin-mimic3
+[2023-06-10 04:32:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sidetrek
+[2023-06-10 04:32:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-graphbox
+[2023-06-10 04:32:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Ret2GPT
+[2023-06-10 04:32:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: korean-regex
+[2023-06-10 04:32:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gen3
+[2023-06-10 04:32:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: functime
+[2023-06-10 04:32:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: expt
+[2023-06-10 04:32:49] WARNING root fetch - processPackages [DtoLib]: Skipping, unable to determine old version
+[2023-06-10 04:32:49] INFO root fetch - main [MainThread]: End processing [DtoLib] error
+[2023-06-10 04:32:49] INFO root fetch - processPackages [Ret2GPT]: New version: [1.0.1.1] Old Version: [1.0.1]
+[2023-06-10 04:32:49] WARNING root fetch - processPackages [korean-regex]: Skipping, unable to determine old version
+[2023-06-10 04:32:49] INFO root fetch - main [MainThread]: End processing [korean-regex] error
+[2023-06-10 04:32:49] INFO root fetch - processPackages [django-graphbox]: New version: [1.2.5] Old Version: [1.2.4]
+[2023-06-10 04:32:49] INFO root fetch - processPackages [ovos-tts-plugin-mimic3]: New version: [0.0.1a2] Old Version: [0.0.1a1]
+[2023-06-10 04:32:49] INFO root fetch - processPackages [functime]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-10 04:32:49] INFO root fetch - processPackages [sidetrek]: New version: [0.0.98] Old Version: [0.0.97]
+[2023-06-10 04:32:49] INFO root fetch - processPackages [gen3]: New version: [4.9.4] Old Version: [4.9.3]
+[2023-06-10 04:32:49] INFO root fetch - processPackages [sidetrek]: Downloading https://files.pythonhosted.org/packages/0c/f7/5e9032200f2c23fc8fd488a73c91b03eff031cb9ccc88211176fb5ff8fa2/sidetrek-0.0.97.tar.gz
+[2023-06-10 04:32:49] INFO root fetch - processPackages [expt]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-06-10 04:32:50] INFO root fetch - processPackages [Ret2GPT]: Downloading https://files.pythonhosted.org/packages/c4/b6/814a5d5892745f9cb59c8ba86aef6307f87b981c88314b66dfd10c37cae3/Ret2GPT-1.0.1.tar.gz
+[2023-06-10 04:32:50] INFO root fetch - processPackages [django-graphbox]: Downloading https://files.pythonhosted.org/packages/0d/db/83d746b30809e95b7678216b817aaa9532e57b32170e531716b9639f5ad4/django_graphbox-1.2.4.tar.gz
+[2023-06-10 04:32:50] INFO root fetch - processPackages [functime]: Downloading https://files.pythonhosted.org/packages/ae/ac/f6c552c0c6831aa961fd729becc0219a07ac03f37ed905d131088a9879a5/functime-0.1.5-py3-none-any.whl
+[2023-06-10 04:32:50] INFO root fetch - processPackages [ovos-tts-plugin-mimic3]: Downloading https://files.pythonhosted.org/packages/92/74/2df520f7c4c0ed09cea834475dfe24f1b2e1318e9914286bf116531b1452/ovos_tts_plugin_mimic3-0.0.1a1-py3-none-any.whl
+[2023-06-10 04:32:50] INFO root fetch - processPackages [gen3]: Downloading https://files.pythonhosted.org/packages/2f/13/2c68c5cba631a653c831620ca28079be81a706665bc323e11f4c09868cd4/gen3-4.9.3.tar.gz
+[2023-06-10 04:32:50] INFO root fetch - processPackages [sidetrek]: Downloading https://files.pythonhosted.org/packages/97/bd/51a9b1e714cab99e04b757d582da68fb1c87848f240475f7731512b91f39/sidetrek-0.0.98.tar.gz
+[2023-06-10 04:32:50] INFO root fetch - processPackages [expt]: Downloading https://files.pythonhosted.org/packages/a2/84/8c1db2f3976e49090947ea2ef82ccc93d730bd5aae51422660f4d9ea3832/expt-0.4.1.tar.gz
+[2023-06-10 04:32:50] INFO root fetch - processPackages [sidetrek]: executing diffoscope
+[2023-06-10 04:32:50] INFO root fetch - processPackages [sidetrek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sidetrek-0.0.97.tar.gz tmp/sidetrek-0.0.98.tar.gz --markdown 20230610/s/sidetrek/0.0.97-0.0.98/diff.md --exclude *.pyd
+[2023-06-10 04:32:50] INFO root fetch - processPackages [functime]: Downloading https://files.pythonhosted.org/packages/2a/e0/60c5db386e0e2784b0e6abe92dc07e613a546a98a5415d9b8f594e780b4b/functime-0.1.6-py3-none-any.whl
+[2023-06-10 04:32:50] INFO root fetch - processPackages [ovos-tts-plugin-mimic3]: Downloading https://files.pythonhosted.org/packages/78/9e/8523e89fedd09c62bc46c69ffdda7e5530d225d3db297a5ad5365088c8bd/ovos_tts_plugin_mimic3-0.0.1a2-py3-none-any.whl
+[2023-06-10 04:32:50] INFO root fetch - processPackages [Ret2GPT]: Downloading https://files.pythonhosted.org/packages/fb/ec/8a279aec5c5cfe9430f8a9135d54956c49df692c4568b202a7ca9a992fcb/Ret2GPT-1.0.1.1.tar.gz
+[2023-06-10 04:32:50] INFO root fetch - processPackages [functime]: executing diffoscope
+[2023-06-10 04:32:50] INFO root fetch - processPackages [functime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/functime-0.1.5-py3-none-any.whl.zip tmp/functime-0.1.6-py3-none-any.whl.zip --markdown 20230610/f/functime/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-10 04:32:50] INFO root fetch - processPackages [django-graphbox]: Downloading https://files.pythonhosted.org/packages/e8/55/5b35a598c945b1ea6097835eb522642ba9ddca79fe359fe460e1369ab43f/django_graphbox-1.2.5.tar.gz
+[2023-06-10 04:32:50] INFO root fetch - processPackages [gen3]: Downloading https://files.pythonhosted.org/packages/df/b7/bda351b532852ae4a628e3fdb2260111169aba0bf5fb68e069dd6d5c3958/gen3-4.9.4.tar.gz
+[2023-06-10 04:32:50] INFO root fetch - processPackages [ovos-tts-plugin-mimic3]: executing diffoscope
+[2023-06-10 04:32:50] INFO root fetch - processPackages [ovos-tts-plugin-mimic3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_tts_plugin_mimic3-0.0.1a1-py3-none-any.whl.zip tmp/ovos_tts_plugin_mimic3-0.0.1a2-py3-none-any.whl.zip --markdown 20230610/o/ovos-tts-plugin-mimic3/0.0.1a1-0.0.1a2/diff.md --exclude *.pyd
+[2023-06-10 04:32:50] INFO root fetch - processPackages [Ret2GPT]: executing diffoscope
+[2023-06-10 04:32:50] INFO root fetch - processPackages [Ret2GPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Ret2GPT-1.0.1.tar.gz tmp/Ret2GPT-1.0.1.1.tar.gz --markdown 20230610/R/Ret2GPT/1.0.1-1.0.1.1/diff.md --exclude *.pyd
+[2023-06-10 04:32:50] INFO root fetch - processPackages [django-graphbox]: executing diffoscope
+[2023-06-10 04:32:50] INFO root fetch - processPackages [django-graphbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_graphbox-1.2.4.tar.gz tmp/django_graphbox-1.2.5.tar.gz --markdown 20230610/d/django-graphbox/1.2.4-1.2.5/diff.md --exclude *.pyd
+[2023-06-10 04:32:50] INFO root fetch - processPackages [gen3]: executing diffoscope
+[2023-06-10 04:32:50] INFO root fetch - processPackages [gen3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gen3-4.9.3.tar.gz tmp/gen3-4.9.4.tar.gz --markdown 20230610/g/gen3/4.9.3-4.9.4/diff.md --exclude *.pyd
+[2023-06-10 04:32:50] INFO root fetch - processPackages [expt]: Downloading https://files.pythonhosted.org/packages/02/12/17873498f8da2a61cc17a62e6323c64d783f3bfa331798631661518906b7/expt-0.4.2.tar.gz
+[2023-06-10 04:32:51] INFO root fetch - processPackages [expt]: executing diffoscope
+[2023-06-10 04:32:51] INFO root fetch - processPackages [expt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/expt-0.4.1.tar.gz tmp/expt-0.4.2.tar.gz --markdown 20230610/e/expt/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-06-10 04:32:51] INFO root fetch - processPackages [sidetrek]: Remove: archive file [/home/abi/fetcher/tmp/sidetrek-0.0.97.tar.gz]
+[2023-06-10 04:32:51] INFO root fetch - processPackages [sidetrek]: Remove: archive file [/home/abi/fetcher/tmp/sidetrek-0.0.98.tar.gz]
+[2023-06-10 04:32:51] INFO root fetch - main [MainThread]: End processing [sidetrek]: success
+[2023-06-10 04:32:51] INFO root fetch - processPackages [Ret2GPT]: Remove: archive file [/home/abi/fetcher/tmp/Ret2GPT-1.0.1.tar.gz]
+[2023-06-10 04:32:51] INFO root fetch - processPackages [Ret2GPT]: Remove: archive file [/home/abi/fetcher/tmp/Ret2GPT-1.0.1.1.tar.gz]
+[2023-06-10 04:32:51] INFO root fetch - main [MainThread]: End processing [Ret2GPT]: success
+[2023-06-10 04:32:51] INFO root fetch - processPackages [ovos-tts-plugin-mimic3]: Remove: archive file [/home/abi/fetcher/tmp/ovos_tts_plugin_mimic3-0.0.1a1-py3-none-any.whl.zip]
+[2023-06-10 04:32:51] INFO root fetch - processPackages [ovos-tts-plugin-mimic3]: Remove: archive file [/home/abi/fetcher/tmp/ovos_tts_plugin_mimic3-0.0.1a2-py3-none-any.whl.zip]
+[2023-06-10 04:32:51] INFO root fetch - main [MainThread]: End processing [ovos-tts-plugin-mimic3]: success
+[2023-06-10 04:32:51] INFO root fetch - processPackages [functime]: Remove: archive file [/home/abi/fetcher/tmp/functime-0.1.5-py3-none-any.whl.zip]
+[2023-06-10 04:32:51] INFO root fetch - processPackages [functime]: Remove: archive file [/home/abi/fetcher/tmp/functime-0.1.6-py3-none-any.whl.zip]
+[2023-06-10 04:32:51] INFO root fetch - main [MainThread]: End processing [functime]: success
+[2023-06-10 04:32:51] INFO root fetch - processPackages [django-graphbox]: Remove: archive file [/home/abi/fetcher/tmp/django_graphbox-1.2.4.tar.gz]
+[2023-06-10 04:32:51] INFO root fetch - processPackages [django-graphbox]: Remove: archive file [/home/abi/fetcher/tmp/django_graphbox-1.2.5.tar.gz]
+[2023-06-10 04:32:51] INFO root fetch - main [MainThread]: End processing [django-graphbox]: success
+[2023-06-10 04:32:53] INFO root fetch - processPackages [expt]: Remove: archive file [/home/abi/fetcher/tmp/expt-0.4.1.tar.gz]
+[2023-06-10 04:32:53] INFO root fetch - processPackages [expt]: Remove: archive file [/home/abi/fetcher/tmp/expt-0.4.2.tar.gz]
+[2023-06-10 04:32:53] INFO root fetch - main [MainThread]: End processing [expt]: success
+[2023-06-10 04:33:43] INFO root fetch - processPackages [gen3]: Remove: archive file [/home/abi/fetcher/tmp/gen3-4.9.3.tar.gz]
+[2023-06-10 04:33:43] INFO root fetch - processPackages [gen3]: Remove: archive file [/home/abi/fetcher/tmp/gen3-4.9.4.tar.gz]
+[2023-06-10 04:33:43] INFO root fetch - main [MainThread]: End processing [gen3]: success
+[2023-06-10 04:33:43] INFO root fetch - main [MainThread]: Store serial: [18448166]
