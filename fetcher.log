@@ -2335,3 +2335,54 @@ EOFError: EOF read where object expected
 [2023-06-10 02:53:54] INFO root fetch - processPackages [intel-xai]: Remove: archive file [/home/abi/fetcher/tmp/intel_xai-0.3.1.dev20230608-py3-none-any.whl.zip]
 [2023-06-10 02:53:54] INFO root fetch - main [MainThread]: End processing [intel-xai]: success
 [2023-06-10 02:53:54] INFO root fetch - main [MainThread]: Store serial: [18446681]
+[2023-06-10 02:58:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18446681]
+[2023-06-10 02:59:02] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-10 02:59:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: perseus-restful-api-framework
+[2023-06-10 02:59:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: winloop
+[2023-06-10 02:59:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyncm
+[2023-06-10 02:59:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bioversions
+[2023-06-10 02:59:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dcrx-api
+[2023-06-10 02:59:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: microtinygrad
+[2023-06-10 02:59:02] INFO root fetch - processPackages [bioversions]: New version: [0.5.99] Old Version: [0.5.98]
+[2023-06-10 02:59:02] INFO root fetch - processPackages [pyncm]: New version: [1.6.9.0] Old Version: [1.6.8.9.1]
+[2023-06-10 02:59:02] INFO root fetch - processPackages [perseus-restful-api-framework]: New version: [1.26.9] Old Version: [1.26.8]
+[2023-06-10 02:59:02] INFO root fetch - processPackages [winloop]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-10 02:59:02] INFO root fetch - processPackages [dcrx-api]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-10 02:59:02] INFO root fetch - processPackages [perseus-restful-api-framework]: Downloading https://files.pythonhosted.org/packages/80/72/6a2628fda2ee20de41514a51916001d12eb60a0d744948a158e0b495038d/perseus_restful_api_framework-1.26.8.tar.gz
+[2023-06-10 02:59:02] WARNING root fetch - processPackages [microtinygrad]: Skipping, unable to determine old version
+[2023-06-10 02:59:02] INFO root fetch - main [MainThread]: End processing [microtinygrad] error
+[2023-06-10 02:59:02] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/e6/34/7c40209c13edc9fe7c611a00fd4b0d6e59d501613427ed6713ad6398b655/bioversions-0.5.98.tar.gz
+[2023-06-10 02:59:02] INFO root fetch - processPackages [dcrx-api]: Downloading https://files.pythonhosted.org/packages/74/4c/8075f2bdb5b7d1f66cb847c90a0d876a5e1d06ba9a6b23b54b08ab7ca684/dcrx-api-0.1.2.tar.gz
+[2023-06-10 02:59:03] INFO root fetch - processPackages [pyncm]: Downloading https://files.pythonhosted.org/packages/d1/ef/ef3d6a1d9f4397e668340ae88f2f012c9097749e65c15d1411b0c9eaa611/pyncm-1.6.8.9.1.tar.gz
+[2023-06-10 02:59:03] INFO root fetch - processPackages [dcrx-api]: Downloading https://files.pythonhosted.org/packages/2b/38/a9669f6e8d67422d427c0854ad354d26d6c46a64b78cde1a34557444cc6e/dcrx-api-0.1.3.tar.gz
+[2023-06-10 02:59:03] INFO root fetch - processPackages [winloop]: Downloading https://files.pythonhosted.org/packages/f5/b8/808a1dd5600845559757abd984e3ae208df901924e8a943333587f8c2ad5/winloop-0.0.3.tar.gz
+[2023-06-10 02:59:03] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/0d/f5/5956eccd9643084cc5f7aba6325ec9de1ed3a2bb3568a8ee7ab88d0eac77/bioversions-0.5.99.tar.gz
+[2023-06-10 02:59:03] INFO root fetch - processPackages [bioversions]: executing diffoscope
+[2023-06-10 02:59:03] INFO root fetch - processPackages [bioversions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioversions-0.5.98.tar.gz tmp/bioversions-0.5.99.tar.gz --markdown 20230610/b/bioversions/0.5.98-0.5.99/diff.md --exclude *.pyd
+[2023-06-10 02:59:03] INFO root fetch - processPackages [dcrx-api]: executing diffoscope
+[2023-06-10 02:59:03] INFO root fetch - processPackages [dcrx-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcrx-api-0.1.2.tar.gz tmp/dcrx-api-0.1.3.tar.gz --markdown 20230610/d/dcrx-api/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-10 02:59:03] INFO root fetch - processPackages [pyncm]: Downloading https://files.pythonhosted.org/packages/96/aa/c2e7ad270e70fbbad1608f2e9d8ae1e501d8bd9b89c456d1cc575945e873/pyncm-1.6.9.0.tar.gz
+[2023-06-10 02:59:03] INFO root fetch - processPackages [pyncm]: executing diffoscope
+[2023-06-10 02:59:03] INFO root fetch - processPackages [pyncm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyncm-1.6.8.9.1.tar.gz tmp/pyncm-1.6.9.0.tar.gz --markdown 20230610/p/pyncm/1.6.8.9.1-1.6.9.0/diff.md --exclude *.pyd
+[2023-06-10 02:59:03] INFO root fetch - processPackages [winloop]: Downloading https://files.pythonhosted.org/packages/27/9e/ca0938e1e2b72976be39d264b42ca1404a64a30274ee43ca378dc3f632d0/winloop-0.0.4.tar.gz
+[2023-06-10 02:59:03] INFO root fetch - processPackages [winloop]: executing diffoscope
+[2023-06-10 02:59:03] INFO root fetch - processPackages [winloop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/winloop-0.0.3.tar.gz tmp/winloop-0.0.4.tar.gz --markdown 20230610/w/winloop/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-10 02:59:04] INFO root fetch - processPackages [dcrx-api]: Remove: archive file [/home/abi/fetcher/tmp/dcrx-api-0.1.2.tar.gz]
+[2023-06-10 02:59:04] INFO root fetch - processPackages [dcrx-api]: Remove: archive file [/home/abi/fetcher/tmp/dcrx-api-0.1.3.tar.gz]
+[2023-06-10 02:59:04] INFO root fetch - main [MainThread]: End processing [dcrx-api]: success
+[2023-06-10 02:59:04] INFO root fetch - processPackages [pyncm]: Remove: archive file [/home/abi/fetcher/tmp/pyncm-1.6.8.9.1.tar.gz]
+[2023-06-10 02:59:04] INFO root fetch - processPackages [pyncm]: Remove: archive file [/home/abi/fetcher/tmp/pyncm-1.6.9.0.tar.gz]
+[2023-06-10 02:59:04] INFO root fetch - main [MainThread]: End processing [pyncm]: success
+[2023-06-10 02:59:04] INFO root fetch - processPackages [perseus-restful-api-framework]: Downloading https://files.pythonhosted.org/packages/cf/74/730b74192f6c1e7410d7a9ba9957dad8eebbc5f556057ff6a238cac07e2a/perseus_restful_api_framework-1.26.9.tar.gz
+[2023-06-10 02:59:05] INFO root fetch - processPackages [winloop]: Remove: archive file [/home/abi/fetcher/tmp/winloop-0.0.3.tar.gz]
+[2023-06-10 02:59:05] INFO root fetch - processPackages [winloop]: Remove: archive file [/home/abi/fetcher/tmp/winloop-0.0.4.tar.gz]
+[2023-06-10 02:59:05] INFO root fetch - main [MainThread]: End processing [winloop]: success
+[2023-06-10 02:59:06] INFO root fetch - processPackages [perseus-restful-api-framework]: executing diffoscope
+[2023-06-10 02:59:06] INFO root fetch - processPackages [perseus-restful-api-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perseus_restful_api_framework-1.26.8.tar.gz tmp/perseus_restful_api_framework-1.26.9.tar.gz --markdown 20230610/p/perseus-restful-api-framework/1.26.8-1.26.9/diff.md --exclude *.pyd
+[2023-06-10 02:59:08] INFO root fetch - processPackages [perseus-restful-api-framework]: Remove: archive file [/home/abi/fetcher/tmp/perseus_restful_api_framework-1.26.8.tar.gz]
+[2023-06-10 02:59:08] INFO root fetch - processPackages [perseus-restful-api-framework]: Remove: archive file [/home/abi/fetcher/tmp/perseus_restful_api_framework-1.26.9.tar.gz]
+[2023-06-10 02:59:08] INFO root fetch - main [MainThread]: End processing [perseus-restful-api-framework]: success
+[2023-06-10 02:59:23] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.98.tar.gz]
+[2023-06-10 02:59:23] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
+[2023-06-10 02:59:23] INFO root fetch - main [MainThread]: End processing [bioversions]: success
+[2023-06-10 02:59:23] INFO root fetch - main [MainThread]: Store serial: [18446702]
