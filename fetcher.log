@@ -6277,3 +6277,63 @@ EOFError: EOF read where object expected
 [2023-06-10 04:01:30] INFO root fetch - processPackages [pynecone]: Remove: archive file [/home/abi/fetcher/tmp/pynecone-0.1.33a4.tar.gz]
 [2023-06-10 04:01:30] INFO root fetch - main [MainThread]: End processing [pynecone]: success
 [2023-06-10 04:01:30] INFO root fetch - main [MainThread]: Store serial: [18448043]
+[2023-06-10 04:06:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18448043]
+[2023-06-10 04:06:39] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-10 04:06:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: psychicapi
+[2023-06-10 04:06:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: neon-phal-plugin-core-updater
+[2023-06-10 04:06:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jag-panzer
+[2023-06-10 04:06:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Ret2GPT
+[2023-06-10 04:06:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nonebot-plugin-wol
+[2023-06-10 04:06:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: duckdb
+[2023-06-10 04:06:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ovos-PHAL-plugin-homeassistant
+[2023-06-10 04:06:39] INFO root fetch - processPackages [psychicapi]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-06-10 04:06:39] INFO root fetch - processPackages [jag-panzer]: New version: [0.1.21] Old Version: [0.1.2]
+[2023-06-10 04:06:39] INFO root fetch - processPackages [neon-phal-plugin-core-updater]: New version: [1.1.2a2] Old Version: [1.1.2a1]
+[2023-06-10 04:06:39] WARNING root fetch - processPackages [Ret2GPT]: Skipping, unable to determine old version
+[2023-06-10 04:06:39] INFO root fetch - main [MainThread]: End processing [Ret2GPT] error
+[2023-06-10 04:06:39] INFO root fetch - processPackages [ovos-PHAL-plugin-homeassistant]: New version: [0.0.3a1] Old Version: [0.0.2a6]
+[2023-06-10 04:06:39] INFO root fetch - processPackages [nonebot-plugin-wol]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-10 04:06:39] INFO root fetch - processPackages [jag-panzer]: Downloading https://files.pythonhosted.org/packages/25/83/40837e3774e932b23eac34087678bcac06d66b2231dfa0a07fbcc216a2d3/jag-panzer-0.1.2.tar.gz
+[2023-06-10 04:06:39] INFO root fetch - processPackages [duckdb]: New version: [0.8.1.dev416] Old Version: [0.8.1.dev407]
+[2023-06-10 04:06:39] INFO root fetch - processPackages [psychicapi]: Downloading https://files.pythonhosted.org/packages/b6/a8/b28f35c432fff0dc975b6a5cb1e1f6fe05a6270a6c980802b2eceb1f3461/psychicapi-0.7.1.tar.gz
+[2023-06-10 04:06:39] INFO root fetch - processPackages [neon-phal-plugin-core-updater]: Downloading https://files.pythonhosted.org/packages/a0/05/fc9564edbc5d5aac67a0fe7778dedc461850263e6d768c4ca84d778ea75e/neon_phal_plugin_core_updater-1.1.2a1-py3-none-any.whl
+[2023-06-10 04:06:39] INFO root fetch - processPackages [nonebot-plugin-wol]: Downloading https://files.pythonhosted.org/packages/6a/89/df4cb97663d00909198c78f0b9d2521e7c182be72f219036d8bc744e0187/nonebot_plugin_wol-1.0.3.tar.gz
+[2023-06-10 04:06:40] INFO root fetch - processPackages [jag-panzer]: Downloading https://files.pythonhosted.org/packages/45/b6/ce93d22def2e85772ea2ab1ef273ee4eae85cbb966477705f776a178a020/jag-panzer-0.1.21.tar.gz
+[2023-06-10 04:06:40] INFO root fetch - processPackages [duckdb]: Downloading https://files.pythonhosted.org/packages/90/5b/d5405870a57230c31ac70af652ba69476f7c6967a6096b110b9546fc4bc1/duckdb-0.8.1.dev407.tar.gz
+[2023-06-10 04:06:40] INFO root fetch - processPackages [ovos-PHAL-plugin-homeassistant]: Downloading https://files.pythonhosted.org/packages/a3/af/25957c38e9729da18455e78d81cd6aa360099808fa1ed85432081a393c2f/ovos-PHAL-plugin-homeassistant-0.0.2a6.tar.gz
+[2023-06-10 04:06:40] INFO root fetch - processPackages [nonebot-plugin-wol]: Downloading https://files.pythonhosted.org/packages/fd/d3/393fc2bc4b477d4317e43dbb6dfc3f3a73be34f0469180ec6d76cd558555/nonebot_plugin_wol-1.0.4.tar.gz
+[2023-06-10 04:06:40] INFO root fetch - processPackages [neon-phal-plugin-core-updater]: Downloading https://files.pythonhosted.org/packages/7d/1c/40365352dbd7c2bd9a32bbecf9e5b28d377cbe7e4a875655c478ae1f0e0f/neon_phal_plugin_core_updater-1.1.2a2-py3-none-any.whl
+[2023-06-10 04:06:40] INFO root fetch - processPackages [psychicapi]: Downloading https://files.pythonhosted.org/packages/fc/9f/de9d7669f08f4eb7ca19bce0d0360a08d50b5799c0e7144ea25a82ca3611/psychicapi-0.7.2.tar.gz
+[2023-06-10 04:06:40] INFO root fetch - processPackages [jag-panzer]: executing diffoscope
+[2023-06-10 04:06:40] INFO root fetch - processPackages [jag-panzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jag-panzer-0.1.2.tar.gz tmp/jag-panzer-0.1.21.tar.gz --markdown 20230610/j/jag-panzer/0.1.2-0.1.21/diff.md --exclude *.pyd
+[2023-06-10 04:06:40] INFO root fetch - processPackages [psychicapi]: executing diffoscope
+[2023-06-10 04:06:40] INFO root fetch - processPackages [psychicapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psychicapi-0.7.1.tar.gz tmp/psychicapi-0.7.2.tar.gz --markdown 20230610/p/psychicapi/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-06-10 04:06:40] INFO root fetch - processPackages [nonebot-plugin-wol]: executing diffoscope
+[2023-06-10 04:06:40] INFO root fetch - processPackages [nonebot-plugin-wol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_wol-1.0.3.tar.gz tmp/nonebot_plugin_wol-1.0.4.tar.gz --markdown 20230610/n/nonebot-plugin-wol/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-10 04:06:40] INFO root fetch - processPackages [neon-phal-plugin-core-updater]: executing diffoscope
+[2023-06-10 04:06:40] INFO root fetch - processPackages [neon-phal-plugin-core-updater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_phal_plugin_core_updater-1.1.2a1-py3-none-any.whl.zip tmp/neon_phal_plugin_core_updater-1.1.2a2-py3-none-any.whl.zip --markdown 20230610/n/neon-phal-plugin-core-updater/1.1.2a1-1.1.2a2/diff.md --exclude *.pyd
+[2023-06-10 04:06:40] INFO root fetch - processPackages [ovos-PHAL-plugin-homeassistant]: Downloading https://files.pythonhosted.org/packages/4a/b8/5500dd65de096e897d40da976b967d91610d971f5c4cb750ed47a8d35ac2/ovos-PHAL-plugin-homeassistant-0.0.3a1.tar.gz
+[2023-06-10 04:06:40] INFO root fetch - processPackages [ovos-PHAL-plugin-homeassistant]: executing diffoscope
+[2023-06-10 04:06:40] INFO root fetch - processPackages [ovos-PHAL-plugin-homeassistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos-PHAL-plugin-homeassistant-0.0.2a6.tar.gz tmp/ovos-PHAL-plugin-homeassistant-0.0.3a1.tar.gz --markdown 20230610/o/ovos-PHAL-plugin-homeassistant/0.0.2a6-0.0.3a1/diff.md --exclude *.pyd
+[2023-06-10 04:06:41] INFO root fetch - processPackages [psychicapi]: Remove: archive file [/home/abi/fetcher/tmp/psychicapi-0.7.1.tar.gz]
+[2023-06-10 04:06:41] INFO root fetch - processPackages [psychicapi]: Remove: archive file [/home/abi/fetcher/tmp/psychicapi-0.7.2.tar.gz]
+[2023-06-10 04:06:41] INFO root fetch - main [MainThread]: End processing [psychicapi]: success
+[2023-06-10 04:06:41] INFO root fetch - processPackages [neon-phal-plugin-core-updater]: Remove: archive file [/home/abi/fetcher/tmp/neon_phal_plugin_core_updater-1.1.2a1-py3-none-any.whl.zip]
+[2023-06-10 04:06:41] INFO root fetch - processPackages [neon-phal-plugin-core-updater]: Remove: archive file [/home/abi/fetcher/tmp/neon_phal_plugin_core_updater-1.1.2a2-py3-none-any.whl.zip]
+[2023-06-10 04:06:41] INFO root fetch - main [MainThread]: End processing [neon-phal-plugin-core-updater]: success
+[2023-06-10 04:06:41] INFO root fetch - processPackages [nonebot-plugin-wol]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_wol-1.0.3.tar.gz]
+[2023-06-10 04:06:41] INFO root fetch - processPackages [nonebot-plugin-wol]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_wol-1.0.4.tar.gz]
+[2023-06-10 04:06:41] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-wol]: success
+[2023-06-10 04:06:41] INFO root fetch - processPackages [ovos-PHAL-plugin-homeassistant]: Remove: archive file [/home/abi/fetcher/tmp/ovos-PHAL-plugin-homeassistant-0.0.2a6.tar.gz]
+[2023-06-10 04:06:41] INFO root fetch - processPackages [ovos-PHAL-plugin-homeassistant]: Remove: archive file [/home/abi/fetcher/tmp/ovos-PHAL-plugin-homeassistant-0.0.3a1.tar.gz]
+[2023-06-10 04:06:41] INFO root fetch - main [MainThread]: End processing [ovos-PHAL-plugin-homeassistant]: success
+[2023-06-10 04:06:42] INFO root fetch - processPackages [duckdb]: Downloading https://files.pythonhosted.org/packages/ae/77/6c99900e2604586fdebf06885f72132a0d265f2a04475c7991f08fdaa327/duckdb-0.8.1.dev416-cp310-cp310-win_amd64.whl
+[2023-06-10 04:06:42] INFO root fetch - processPackages [jag-panzer]: Remove: archive file [/home/abi/fetcher/tmp/jag-panzer-0.1.2.tar.gz]
+[2023-06-10 04:06:42] INFO root fetch - processPackages [jag-panzer]: Remove: archive file [/home/abi/fetcher/tmp/jag-panzer-0.1.21.tar.gz]
+[2023-06-10 04:06:42] INFO root fetch - main [MainThread]: End processing [jag-panzer]: success
+[2023-06-10 04:06:44] INFO root fetch - processPackages [duckdb]: executing diffoscope
+[2023-06-10 04:06:44] INFO root fetch - processPackages [duckdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duckdb-0.8.1.dev407.tar.gz tmp/duckdb-0.8.1.dev416-cp310-cp310-win_amd64.whl.zip --markdown 20230610/d/duckdb/0.8.1.dev407-0.8.1.dev416/diff.md --exclude *.pyd
+[2023-06-10 04:06:47] INFO root fetch - processPackages [duckdb]: Remove: archive file [/home/abi/fetcher/tmp/duckdb-0.8.1.dev407.tar.gz]
+[2023-06-10 04:06:47] INFO root fetch - processPackages [duckdb]: Remove: archive file [/home/abi/fetcher/tmp/duckdb-0.8.1.dev416-cp310-cp310-win_amd64.whl.zip]
+[2023-06-10 04:06:47] INFO root fetch - main [MainThread]: End processing [duckdb]: success
+[2023-06-10 04:06:47] INFO root fetch - main [MainThread]: Store serial: [18448069]
