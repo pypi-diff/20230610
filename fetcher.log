@@ -17039,3 +17039,72 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-10 21:38:07] INFO root fetch - processPackages [pyqint]: Remove: archive file [/home/abi/fetcher/tmp/pyqint-0.9.7.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-06-10 21:38:07] INFO root fetch - main [MainThread]: End processing [pyqint]: success
 [2023-06-10 21:38:07] INFO root fetch - main [MainThread]: Store serial: [18453301]
+[2023-06-10 21:43:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18453301]
+[2023-06-10 21:43:16] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-10 21:43:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pynball
+[2023-06-10 21:43:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: schemamodels
+[2023-06-10 21:43:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pybiolib
+[2023-06-10 21:43:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dcrx-api
+[2023-06-10 21:43:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-currency-old-rate-notify
+[2023-06-10 21:43:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gamedetector
+[2023-06-10 21:43:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: warframe.py
+[2023-06-10 21:43:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: py-agua-iot
+[2023-06-10 21:43:16] INFO root fetch - processPackages [dcrx-api]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-06-10 21:43:16] INFO root fetch - processPackages [pynball]: New version: [1.5.7] Old Version: [1.5.6]
+[2023-06-10 21:43:16] INFO root fetch - processPackages [schemamodels]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-06-10 21:43:16] INFO root fetch - processPackages [warframe.py]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-10 21:43:16] INFO root fetch - processPackages [pybiolib]: New version: [1.1.974] Old Version: [1.1.971]
+[2023-06-10 21:43:16] WARNING root fetch - processPackages [odoo14-addon-currency-old-rate-notify]: Skipping, unable to determine old version
+[2023-06-10 21:43:16] INFO root fetch - main [MainThread]: End processing [odoo14-addon-currency-old-rate-notify] error
+[2023-06-10 21:43:16] INFO root fetch - processPackages [gamedetector]: New version: [0.1.3] Old Version: [0.1.1]
+[2023-06-10 21:43:16] INFO root fetch - processPackages [py-agua-iot]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-10 21:43:16] INFO root fetch - processPackages [warframe.py]: Downloading https://files.pythonhosted.org/packages/89/73/8726df4516040b7b87be4b6587f646d82336ca0762aa49c24d6a52badbcd/warframe.py-0.3.1.tar.gz
+[2023-06-10 21:43:16] INFO root fetch - processPackages [py-agua-iot]: Downloading https://files.pythonhosted.org/packages/cc/7b/b2101df79cd2d81c8a29b6bd519a196948d073a706a9e0424fa151383d2c/py-agua-iot-0.0.7.tar.gz
+[2023-06-10 21:43:16] INFO root fetch - processPackages [gamedetector]: Downloading https://files.pythonhosted.org/packages/7e/a2/884f8b0da2b462ec9042b36ea996c78d795922f9fc88c92d0ebcc737e027/gamedetector-0.1.1.tar.gz
+[2023-06-10 21:43:16] INFO root fetch - processPackages [dcrx-api]: Downloading https://files.pythonhosted.org/packages/9a/77/c2c9c5fd53abf3bf1808b7c8e92129482a02a51b92b32916d4ffcff5aa00/dcrx-api-0.2.4.tar.gz
+[2023-06-10 21:43:16] INFO root fetch - processPackages [pynball]: Downloading https://files.pythonhosted.org/packages/9f/81/b38edb7cd3aa5e295769b2c7c70f3178e2c8ba50cb349bcc060dff788367/pynball-1.5.6.tar.gz
+[2023-06-10 21:43:16] INFO root fetch - processPackages [schemamodels]: Downloading https://files.pythonhosted.org/packages/da/78/988be6d474712ce81f2289d027e126cd4a6760de90e98df4e6bd59055cb9/schemamodels-0.7.0.tar.gz
+[2023-06-10 21:43:16] INFO root fetch - processPackages [pybiolib]: Downloading https://files.pythonhosted.org/packages/16/81/b84faee034cf9ec8f863611749b5efbe046622f02fcd690d01f2f5bb132d/pybiolib-1.1.971.tar.gz
+[2023-06-10 21:43:16] INFO root fetch - processPackages [py-agua-iot]: Downloading https://files.pythonhosted.org/packages/ee/53/3d8d5459d9b2422c509d1325061f9ffac3cc8bc21af0d44073fb8911b15c/py-agua-iot-0.0.8.tar.gz
+[2023-06-10 21:43:16] INFO root fetch - processPackages [warframe.py]: Downloading https://files.pythonhosted.org/packages/71/61/52c1c933c99c8222420e55cce530b94d064960dfd6ba3de485a8ff9c4d32/warframe.py-0.3.2.tar.gz
+[2023-06-10 21:43:16] INFO root fetch - processPackages [py-agua-iot]: executing diffoscope
+[2023-06-10 21:43:16] INFO root fetch - processPackages [py-agua-iot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-agua-iot-0.0.7.tar.gz tmp/py-agua-iot-0.0.8.tar.gz --markdown 20230610/p/py-agua-iot/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-10 21:43:16] INFO root fetch - processPackages [gamedetector]: Downloading https://files.pythonhosted.org/packages/78/70/a38d8ec1ac1528a15fb559f205b2d6eed005f8c47b4fffa590f9c92ce94b/gamedetector-0.1.3.tar.gz
+[2023-06-10 21:43:16] INFO root fetch - processPackages [schemamodels]: Downloading https://files.pythonhosted.org/packages/52/6b/b634f4c2f9003f3142fc980eb88e111ca9926eed852f4ba14d4cfaa36b56/schemamodels-0.8.0.tar.gz
+[2023-06-10 21:43:16] INFO root fetch - processPackages [dcrx-api]: Downloading https://files.pythonhosted.org/packages/c0/ab/bc93892f5e5567dac0e06135ca716f8522467fddab376858a3f2816ee389/dcrx-api-0.2.5.tar.gz
+[2023-06-10 21:43:16] INFO root fetch - processPackages [pybiolib]: Downloading https://files.pythonhosted.org/packages/5c/a2/fd2122b178b5011bf221065cb30ae98e06ac0d95230abb6dd56670f15dc7/pybiolib-1.1.974.tar.gz
+[2023-06-10 21:43:17] INFO root fetch - processPackages [pynball]: Downloading https://files.pythonhosted.org/packages/0c/8b/a5b8b58a6e0d9112a2c35a1144ca305a06a87bf5cec4de9bbbfe67425450/pynball-1.5.7.tar.gz
+[2023-06-10 21:43:17] INFO root fetch - processPackages [dcrx-api]: executing diffoscope
+[2023-06-10 21:43:17] INFO root fetch - processPackages [dcrx-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcrx-api-0.2.4.tar.gz tmp/dcrx-api-0.2.5.tar.gz --markdown 20230610/d/dcrx-api/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-06-10 21:43:17] INFO root fetch - processPackages [schemamodels]: executing diffoscope
+[2023-06-10 21:43:17] INFO root fetch - processPackages [schemamodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schemamodels-0.7.0.tar.gz tmp/schemamodels-0.8.0.tar.gz --markdown 20230610/s/schemamodels/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-06-10 21:43:17] INFO root fetch - processPackages [warframe.py]: executing diffoscope
+[2023-06-10 21:43:17] INFO root fetch - processPackages [warframe.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/warframe.py-0.3.1.tar.gz tmp/warframe.py-0.3.2.tar.gz --markdown 20230610/w/warframe.py/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-10 21:43:17] INFO root fetch - processPackages [gamedetector]: executing diffoscope
+[2023-06-10 21:43:17] INFO root fetch - processPackages [gamedetector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gamedetector-0.1.1.tar.gz tmp/gamedetector-0.1.3.tar.gz --markdown 20230610/g/gamedetector/0.1.1-0.1.3/diff.md --exclude *.pyd
+[2023-06-10 21:43:17] INFO root fetch - processPackages [pybiolib]: executing diffoscope
+[2023-06-10 21:43:17] INFO root fetch - processPackages [pybiolib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybiolib-1.1.971.tar.gz tmp/pybiolib-1.1.974.tar.gz --markdown 20230610/p/pybiolib/1.1.971-1.1.974/diff.md --exclude *.pyd
+[2023-06-10 21:43:17] INFO root fetch - processPackages [pynball]: executing diffoscope
+[2023-06-10 21:43:17] INFO root fetch - processPackages [pynball]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynball-1.5.6.tar.gz tmp/pynball-1.5.7.tar.gz --markdown 20230610/p/pynball/1.5.6-1.5.7/diff.md --exclude *.pyd
+[2023-06-10 21:43:18] INFO root fetch - processPackages [py-agua-iot]: Remove: archive file [/home/abi/fetcher/tmp/py-agua-iot-0.0.7.tar.gz]
+[2023-06-10 21:43:18] INFO root fetch - processPackages [py-agua-iot]: Remove: archive file [/home/abi/fetcher/tmp/py-agua-iot-0.0.8.tar.gz]
+[2023-06-10 21:43:18] INFO root fetch - main [MainThread]: End processing [py-agua-iot]: success
+[2023-06-10 21:43:18] INFO root fetch - processPackages [gamedetector]: Remove: archive file [/home/abi/fetcher/tmp/gamedetector-0.1.1.tar.gz]
+[2023-06-10 21:43:18] INFO root fetch - processPackages [gamedetector]: Remove: archive file [/home/abi/fetcher/tmp/gamedetector-0.1.3.tar.gz]
+[2023-06-10 21:43:18] INFO root fetch - main [MainThread]: End processing [gamedetector]: success
+[2023-06-10 21:43:18] INFO root fetch - processPackages [warframe.py]: Remove: archive file [/home/abi/fetcher/tmp/warframe.py-0.3.1.tar.gz]
+[2023-06-10 21:43:18] INFO root fetch - processPackages [warframe.py]: Remove: archive file [/home/abi/fetcher/tmp/warframe.py-0.3.2.tar.gz]
+[2023-06-10 21:43:18] INFO root fetch - main [MainThread]: End processing [warframe.py]: success
+[2023-06-10 21:43:18] INFO root fetch - processPackages [pynball]: Remove: archive file [/home/abi/fetcher/tmp/pynball-1.5.6.tar.gz]
+[2023-06-10 21:43:18] INFO root fetch - processPackages [pynball]: Remove: archive file [/home/abi/fetcher/tmp/pynball-1.5.7.tar.gz]
+[2023-06-10 21:43:18] INFO root fetch - main [MainThread]: End processing [pynball]: success
+[2023-06-10 21:43:18] INFO root fetch - processPackages [schemamodels]: Remove: archive file [/home/abi/fetcher/tmp/schemamodels-0.7.0.tar.gz]
+[2023-06-10 21:43:18] INFO root fetch - processPackages [schemamodels]: Remove: archive file [/home/abi/fetcher/tmp/schemamodels-0.8.0.tar.gz]
+[2023-06-10 21:43:18] INFO root fetch - main [MainThread]: End processing [schemamodels]: success
+[2023-06-10 21:43:18] INFO root fetch - processPackages [pybiolib]: Remove: archive file [/home/abi/fetcher/tmp/pybiolib-1.1.971.tar.gz]
+[2023-06-10 21:43:18] INFO root fetch - processPackages [pybiolib]: Remove: archive file [/home/abi/fetcher/tmp/pybiolib-1.1.974.tar.gz]
+[2023-06-10 21:43:18] INFO root fetch - main [MainThread]: End processing [pybiolib]: success
+[2023-06-10 21:43:19] INFO root fetch - processPackages [dcrx-api]: Remove: archive file [/home/abi/fetcher/tmp/dcrx-api-0.2.4.tar.gz]
+[2023-06-10 21:43:19] INFO root fetch - processPackages [dcrx-api]: Remove: archive file [/home/abi/fetcher/tmp/dcrx-api-0.2.5.tar.gz]
+[2023-06-10 21:43:19] INFO root fetch - main [MainThread]: End processing [dcrx-api]: success
+[2023-06-10 21:43:19] INFO root fetch - main [MainThread]: Store serial: [18453327]
