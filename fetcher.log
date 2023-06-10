@@ -12329,3 +12329,113 @@ EOFError: EOF read where object expected
 [2023-06-10 15:09:43] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306101304-py3-none-any.whl.zip]
 [2023-06-10 15:09:43] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-06-10 15:09:43] INFO root fetch - main [MainThread]: Store serial: [18450835]
+[2023-06-10 15:14:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18450835]
+[2023-06-10 15:14:52] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-10 15:14:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nbdev-pandas
+[2023-06-10 15:14:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kscope
+[2023-06-10 15:14:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: multiocr
+[2023-06-10 15:14:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nbdev-pytorch
+[2023-06-10 15:14:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: WignerSymbol
+[2023-06-10 15:14:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: incipyt
+[2023-06-10 15:14:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lollms
+[2023-06-10 15:14:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: asciinema-scene
+[2023-06-10 15:14:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: heaven
+[2023-06-10 15:14:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nonebot-plugin-picmcstat
+[2023-06-10 15:14:52] INFO root fetch - processPackages [kscope]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-06-10 15:14:52] INFO root fetch - processPackages [WignerSymbol]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-10 15:14:52] INFO root fetch - processPackages [asciinema-scene]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-06-10 15:14:52] INFO root fetch - processPackages [incipyt]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-06-10 15:14:52] INFO root fetch - processPackages [nonebot-plugin-picmcstat]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-06-10 15:14:52] INFO root fetch - processPackages [heaven]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-10 15:14:52] WARNING root fetch - processPackages [multiocr]: Skipping, unable to determine old version
+[2023-06-10 15:14:52] INFO root fetch - processPackages [multiocr]: Start processing: nonebot-plugin-rename
+[2023-06-10 15:14:52] INFO root fetch - main [MainThread]: End processing [multiocr] error
+[2023-06-10 15:14:52] INFO root fetch - processPackages [lollms]: New version: [1.1.9] Old Version: [1.1.7]
+[2023-06-10 15:14:52] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-10 15:14:52] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-10 15:14:52] INFO root fetch - processPackages [nonebot-plugin-rename]: New version: [1.5.0] Old Version: [1.3.9]
+[2023-06-10 15:14:52] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/f8/45/4613a0137d296a1960d76ded45b0af15a8fd578bf48df103c50675b49136/nbdev-pytorch-0.0.98.tar.gz
+[2023-06-10 15:14:52] INFO root fetch - processPackages [nonebot-plugin-rename]: Downloading https://files.pythonhosted.org/packages/6b/7f/08ee29145821a9e9b93a24de9552d02e1dbf231d7227eaf466e27c98bb94/nonebot_plugin_rename-1.3.9.tar.gz
+[2023-06-10 15:14:52] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/e4/e4/cd3df65f7d13a8e8dfa1592e08d78574793d38384b1c92993ce920dcd0df/nbdev-pandas-0.0.98.tar.gz
+[2023-06-10 15:14:52] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/3d/63/5860743c06fbd44180fc9469d6a01bbc0644f8be5bc965843b7c2864a173/lollms-1.1.7.tar.gz
+[2023-06-10 15:14:52] INFO root fetch - processPackages [WignerSymbol]: Downloading https://files.pythonhosted.org/packages/30/79/e8b7dbef64120e568f6a67d192763858045325a61e538fdbda486ec5ecc6/WignerSymbol-0.0.3.tar.gz
+[2023-06-10 15:14:52] WARNING root fetch - processPackages [lollms]: Skipping package: exceeds size limit 17349845>=10485760
+[2023-06-10 15:14:52] INFO root fetch - processPackages [lollms]: Start processing: nbdev-scipy
+[2023-06-10 15:14:52] INFO root fetch - main [MainThread]: End processing [lollms] error
+[2023-06-10 15:14:52] INFO root fetch - processPackages [incipyt]: Downloading https://files.pythonhosted.org/packages/c4/25/d96600e541fc8d8611a303daecf8484eb5faf8030891d391ba7bc378f6df/incipyt-0.3.0.tar.gz
+[2023-06-10 15:14:52] INFO root fetch - processPackages [kscope]: Downloading https://files.pythonhosted.org/packages/ef/6e/eb8bccfaecb925d596e92ee3f4aab5da47e90e3dad3abb5bca9c3ecbdbf0/kscope-0.5.0.tar.gz
+[2023-06-10 15:14:52] INFO root fetch - processPackages [nonebot-plugin-picmcstat]: Downloading https://files.pythonhosted.org/packages/b1/49/496fe76b42b7343892ffaa73e6f314ac3033c2e33143fb0ef887801a029d/nonebot_plugin_picmcstat-0.3.2.tar.gz
+[2023-06-10 15:14:52] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-10 15:14:52] INFO root fetch - processPackages [asciinema-scene]: Downloading https://files.pythonhosted.org/packages/c9/67/eed43a65c704e555a8403cb25346935bb4ef5b2ddabdd570ffd6dd6539e6/asciinema_scene-0.7.0.tar.gz
+[2023-06-10 15:14:52] INFO root fetch - processPackages [heaven]: Downloading https://files.pythonhosted.org/packages/31/01/dcaa0958a4fbd7d5a5a73e6247220f2186c30d13040d32ea9a5874d6d604/heaven-0.0.2.tar.gz
+[2023-06-10 15:14:52] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/cf/b5/493c8e89c5cb4fcc7db248f99868f931ca6389f6e411e63c97bb22c6f1b0/nbdev-pandas-0.0.99.tar.gz
+[2023-06-10 15:14:52] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/b0/37/5921f26bef4d07ebb5599f7ccb4d57ab1a847950edaa615ebcf9ef228690/nbdev-pytorch-0.0.99.tar.gz
+[2023-06-10 15:14:52] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/94/a7/9596b1506d5fc0b0ceb265f8bbd5e0919fc146eb6df0916b4e546e9f074f/nbdev-scipy-0.0.98.tar.gz
+[2023-06-10 15:14:52] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-06-10 15:14:52] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230610/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-10 15:14:52] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-06-10 15:14:52] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230610/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-10 15:14:52] INFO root fetch - processPackages [nonebot-plugin-rename]: Downloading https://files.pythonhosted.org/packages/b6/a3/184d4f5285bf329deb2dd343bc35ca124216b1874e94f47857c9a6d9d317/nonebot_plugin_rename-1.5.0.tar.gz
+[2023-06-10 15:14:52] INFO root fetch - processPackages [WignerSymbol]: Downloading https://files.pythonhosted.org/packages/2b/46/98f43afd284f9594ec59ca95d2c5f9f0ab3c336646d55d4448cdf1ef7edd/WignerSymbol-0.0.4.tar.gz
+[2023-06-10 15:14:52] INFO root fetch - processPackages [kscope]: Downloading https://files.pythonhosted.org/packages/14/91/f7a919b8ed4671a4b19c3e8cbc781fe8f59a2c048e9ab2305f5393c20585/kscope-0.6.0.tar.gz
+[2023-06-10 15:14:52] INFO root fetch - processPackages [incipyt]: Downloading https://files.pythonhosted.org/packages/f9/8f/0b5aa6a3ceb03e00e075233e4e94060b3b72c7d8e7a239e8a2261ef89e69/incipyt-0.4.0.tar.gz
+[2023-06-10 15:14:52] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/d4/25/482f9160692bdd2d374401b19f8b4700ae91c179761991cee076e37aae0d/nbdev-scipy-0.0.99.tar.gz
+[2023-06-10 15:14:52] INFO root fetch - processPackages [heaven]: Downloading https://files.pythonhosted.org/packages/e6/2c/7b88f372448b0f4669b2d7715fcf82b26147ba249a365fc3d53bd104fdb1/heaven-0.0.3.tar.gz
+[2023-06-10 15:14:52] INFO root fetch - processPackages [WignerSymbol]: executing diffoscope
+[2023-06-10 15:14:52] INFO root fetch - processPackages [nonebot-plugin-picmcstat]: Downloading https://files.pythonhosted.org/packages/d5/a5/c3cad0768081fda3d6b695ef45a4cfe8dff09a290daa5ac5998e0bc30758/nonebot_plugin_picmcstat-0.3.3.tar.gz
+[2023-06-10 15:14:52] INFO root fetch - processPackages [WignerSymbol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WignerSymbol-0.0.3.tar.gz tmp/WignerSymbol-0.0.4.tar.gz --markdown 20230610/W/WignerSymbol/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-10 15:14:52] INFO root fetch - processPackages [asciinema-scene]: Downloading https://files.pythonhosted.org/packages/33/4a/ff5da4c929dd404894f3addd4e5cf5c5c63e3440eb3a006134221e3aa68c/asciinema_scene-0.7.1.tar.gz
+[2023-06-10 15:14:52] INFO root fetch - processPackages [kscope]: executing diffoscope
+[2023-06-10 15:14:52] INFO root fetch - processPackages [kscope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kscope-0.5.0.tar.gz tmp/kscope-0.6.0.tar.gz --markdown 20230610/k/kscope/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-06-10 15:14:52] INFO root fetch - processPackages [nonebot-plugin-rename]: executing diffoscope
+[2023-06-10 15:14:52] INFO root fetch - processPackages [nonebot-plugin-rename]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_rename-1.3.9.tar.gz tmp/nonebot_plugin_rename-1.5.0.tar.gz --markdown 20230610/n/nonebot-plugin-rename/1.3.9-1.5.0/diff.md --exclude *.pyd
+[2023-06-10 15:14:52] INFO root fetch - processPackages [incipyt]: executing diffoscope
+[2023-06-10 15:14:52] INFO root fetch - processPackages [incipyt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/incipyt-0.3.0.tar.gz tmp/incipyt-0.4.0.tar.gz --markdown 20230610/i/incipyt/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-06-10 15:14:52] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-06-10 15:14:52] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230610/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-10 15:14:52] INFO root fetch - processPackages [heaven]: executing diffoscope
+[2023-06-10 15:14:52] INFO root fetch - processPackages [heaven]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaven-0.0.2.tar.gz tmp/heaven-0.0.3.tar.gz --markdown 20230610/h/heaven/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-10 15:14:52] INFO root fetch - processPackages [asciinema-scene]: executing diffoscope
+[2023-06-10 15:14:52] INFO root fetch - processPackages [asciinema-scene]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asciinema_scene-0.7.0.tar.gz tmp/asciinema_scene-0.7.1.tar.gz --markdown 20230610/a/asciinema-scene/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-06-10 15:14:52] INFO root fetch - processPackages [nonebot-plugin-picmcstat]: executing diffoscope
+[2023-06-10 15:14:52] INFO root fetch - processPackages [nonebot-plugin-picmcstat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_picmcstat-0.3.2.tar.gz tmp/nonebot_plugin_picmcstat-0.3.3.tar.gz --markdown 20230610/n/nonebot-plugin-picmcstat/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-06-10 15:14:54] INFO root fetch - processPackages [heaven]: Remove: archive file [/home/abi/fetcher/tmp/heaven-0.0.2.tar.gz]
+[2023-06-10 15:14:54] INFO root fetch - processPackages [heaven]: Remove: archive file [/home/abi/fetcher/tmp/heaven-0.0.3.tar.gz]
+[2023-06-10 15:14:54] INFO root fetch - processPackages [heaven]: Start processing: jwtlib
+[2023-06-10 15:14:54] INFO root fetch - main [MainThread]: End processing [heaven]: success
+[2023-06-10 15:14:54] INFO root fetch - processPackages [jwtlib]: New version: [0.3.0] Old Version: [0.2.2]
+[2023-06-10 15:14:54] INFO root fetch - processPackages [jwtlib]: Downloading https://files.pythonhosted.org/packages/89/95/4a6a20f6e8be21a84a89f46b6b58520af2c4acce2fd22a0b72bf33a20a25/jwtlib-0.2.2.tar.gz
+[2023-06-10 15:14:54] INFO root fetch - processPackages [kscope]: Remove: archive file [/home/abi/fetcher/tmp/kscope-0.5.0.tar.gz]
+[2023-06-10 15:14:54] INFO root fetch - processPackages [kscope]: Remove: archive file [/home/abi/fetcher/tmp/kscope-0.6.0.tar.gz]
+[2023-06-10 15:14:54] INFO root fetch - main [MainThread]: End processing [kscope]: success
+[2023-06-10 15:14:54] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.98.tar.gz]
+[2023-06-10 15:14:54] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.99.tar.gz]
+[2023-06-10 15:14:54] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-06-10 15:14:54] INFO root fetch - processPackages [nonebot-plugin-rename]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_rename-1.3.9.tar.gz]
+[2023-06-10 15:14:54] INFO root fetch - processPackages [nonebot-plugin-rename]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_rename-1.5.0.tar.gz]
+[2023-06-10 15:14:54] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-rename]: success
+[2023-06-10 15:14:54] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.98.tar.gz]
+[2023-06-10 15:14:54] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.99.tar.gz]
+[2023-06-10 15:14:54] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-06-10 15:14:54] INFO root fetch - processPackages [jwtlib]: Downloading https://files.pythonhosted.org/packages/d3/01/b59891010d94d946e12d2a89a4b8c0b2be4f459b21496cc989848007b6d7/jwtlib-0.3.0.tar.gz
+[2023-06-10 15:14:54] INFO root fetch - processPackages [asciinema-scene]: Remove: archive file [/home/abi/fetcher/tmp/asciinema_scene-0.7.0.tar.gz]
+[2023-06-10 15:14:54] INFO root fetch - processPackages [asciinema-scene]: Remove: archive file [/home/abi/fetcher/tmp/asciinema_scene-0.7.1.tar.gz]
+[2023-06-10 15:14:54] INFO root fetch - main [MainThread]: End processing [asciinema-scene]: success
+[2023-06-10 15:14:54] INFO root fetch - processPackages [WignerSymbol]: Remove: archive file [/home/abi/fetcher/tmp/WignerSymbol-0.0.3.tar.gz]
+[2023-06-10 15:14:54] INFO root fetch - processPackages [WignerSymbol]: Remove: archive file [/home/abi/fetcher/tmp/WignerSymbol-0.0.4.tar.gz]
+[2023-06-10 15:14:54] INFO root fetch - main [MainThread]: End processing [WignerSymbol]: success
+[2023-06-10 15:14:54] INFO root fetch - processPackages [jwtlib]: executing diffoscope
+[2023-06-10 15:14:54] INFO root fetch - processPackages [jwtlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jwtlib-0.2.2.tar.gz tmp/jwtlib-0.3.0.tar.gz --markdown 20230610/j/jwtlib/0.2.2-0.3.0/diff.md --exclude *.pyd
+[2023-06-10 15:14:54] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.98.tar.gz]
+[2023-06-10 15:14:54] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.99.tar.gz]
+[2023-06-10 15:14:54] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-06-10 15:14:54] INFO root fetch - processPackages [nonebot-plugin-picmcstat]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_picmcstat-0.3.2.tar.gz]
+[2023-06-10 15:14:54] INFO root fetch - processPackages [nonebot-plugin-picmcstat]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_picmcstat-0.3.3.tar.gz]
+[2023-06-10 15:14:54] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-picmcstat]: success
+[2023-06-10 15:14:55] INFO root fetch - processPackages [incipyt]: Remove: archive file [/home/abi/fetcher/tmp/incipyt-0.3.0.tar.gz]
+[2023-06-10 15:14:55] INFO root fetch - processPackages [incipyt]: Remove: archive file [/home/abi/fetcher/tmp/incipyt-0.4.0.tar.gz]
+[2023-06-10 15:14:55] INFO root fetch - main [MainThread]: End processing [incipyt]: success
+[2023-06-10 15:14:55] INFO root fetch - processPackages [jwtlib]: Remove: archive file [/home/abi/fetcher/tmp/jwtlib-0.2.2.tar.gz]
+[2023-06-10 15:14:55] INFO root fetch - processPackages [jwtlib]: Remove: archive file [/home/abi/fetcher/tmp/jwtlib-0.3.0.tar.gz]
+[2023-06-10 15:14:55] INFO root fetch - main [MainThread]: End processing [jwtlib]: success
+[2023-06-10 15:14:55] INFO root fetch - main [MainThread]: Store serial: [18450882]
