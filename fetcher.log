@@ -7124,3 +7124,108 @@ EOFError: EOF read where object expected
 [2023-06-10 05:26:10] INFO root fetch - processPackages [danmakuC]: Remove: archive file [/home/abi/fetcher/tmp/danmakuC-0.3.6-cp38-cp38-win32.whl.zip]
 [2023-06-10 05:26:10] INFO root fetch - main [MainThread]: End processing [danmakuC]: success
 [2023-06-10 05:26:10] INFO root fetch - main [MainThread]: Store serial: [18448390]
+[2023-06-10 05:31:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18448390]
+[2023-06-10 05:31:18] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-10 05:31:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo12-addon-hr-employee-health
+[2023-06-10 05:31:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo11-addon-hr-attendance-reason
+[2023-06-10 05:31:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo12-addon-hr-expense-portal
+[2023-06-10 05:31:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo12-addon-hr-contract-rate
+[2023-06-10 05:31:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: langdash
+[2023-06-10 05:31:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo12-addon-hr-attendance-reason
+[2023-06-10 05:31:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo12-addon-hr-employee-relative
+[2023-06-10 05:31:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Trissotech
+[2023-06-10 05:31:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo14-addon-hr-attendance-reason
+[2023-06-10 05:31:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: coola
+[2023-06-10 05:31:19] INFO root fetch - processPackages [odoo12-addon-hr-employee-health]: New version: [12.0.1.0.0.99.dev7] Old Version: [12.0.1.0.0.99.dev6]
+[2023-06-10 05:31:19] INFO root fetch - processPackages [odoo12-addon-hr-contract-rate]: New version: [12.0.1.0.0.99.dev7] Old Version: [12.0.1.0.0.99.dev6]
+[2023-06-10 05:31:19] INFO root fetch - processPackages [odoo12-addon-hr-expense-portal]: New version: [12.0.1.0.1.99.dev4] Old Version: [12.0.1.0.1.99.dev3]
+[2023-06-10 05:31:19] INFO root fetch - processPackages [Trissotech]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-10 05:31:19] INFO root fetch - processPackages [odoo11-addon-hr-attendance-reason]: New version: [11.0.1.0.0.99.dev9] Old Version: [11.0.1.0.0.99.dev8]
+[2023-06-10 05:31:19] INFO root fetch - processPackages [odoo14-addon-hr-attendance-reason]: New version: [14.0.1.1.4.dev1] Old Version: [14.0.1.1.3.dev2]
+[2023-06-10 05:31:19] INFO root fetch - processPackages [coola]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-10 05:31:19] INFO root fetch - processPackages [langdash]: New version: [1.2.0a1] Old Version: [1.1.1a1]
+[2023-06-10 05:31:19] INFO root fetch - processPackages [odoo12-addon-hr-attendance-reason]: New version: [12.0.1.0.0.99.dev9] Old Version: [12.0.1.0.0.99.dev8]
+[2023-06-10 05:31:19] INFO root fetch - processPackages [odoo12-addon-hr-employee-relative]: New version: [12.0.1.1.0.99.dev9] Old Version: [12.0.1.1.0.99.dev8]
+[2023-06-10 05:31:19] INFO root fetch - processPackages [coola]: Downloading https://files.pythonhosted.org/packages/ca/0c/e47f7fdc6f34e79ff4ab3b21c0ef7b7f32f62be0255411f914475666fb8c/coola-0.0.8.tar.gz
+[2023-06-10 05:31:19] INFO root fetch - processPackages [Trissotech]: Downloading https://files.pythonhosted.org/packages/63/1b/68189648f7c5d08cacd71ae65b460724b124e5f93fcc0487e03f10b1da1c/trissotech-0.0.5.tar.gz
+[2023-06-10 05:31:19] INFO root fetch - processPackages [odoo12-addon-hr-contract-rate]: Downloading https://files.pythonhosted.org/packages/3c/43/1c67b42049d9d55e5699b092d3d251b7c2a7c5ea44412066d5932934f6ec/odoo12_addon_hr_contract_rate-12.0.1.0.0.99.dev6-py3-none-any.whl
+[2023-06-10 05:31:19] INFO root fetch - processPackages [odoo14-addon-hr-attendance-reason]: Downloading https://files.pythonhosted.org/packages/78/73/070f1b54800314741d57f2747f0ce926bbd6e31b091158008729b53989a6/odoo14_addon_hr_attendance_reason-14.0.1.1.3.dev2-py3-none-any.whl
+[2023-06-10 05:31:19] INFO root fetch - processPackages [odoo12-addon-hr-expense-portal]: Downloading https://files.pythonhosted.org/packages/e2/3d/c14cbb32d6e2630639a0cc14f28d76ecc9b28e1b3d119a4663b063f98127/odoo12_addon_hr_expense_portal-12.0.1.0.1.99.dev3-py3-none-any.whl
+[2023-06-10 05:31:19] INFO root fetch - processPackages [odoo12-addon-hr-employee-health]: Downloading https://files.pythonhosted.org/packages/80/48/b2798ad7ac58c0f078a08ec0074e2b90fbec793acd98b16cb88e1bafaaa0/odoo12_addon_hr_employee_health-12.0.1.0.0.99.dev6-py3-none-any.whl
+[2023-06-10 05:31:19] INFO root fetch - processPackages [odoo11-addon-hr-attendance-reason]: Downloading https://files.pythonhosted.org/packages/ea/13/f4de697ba7d253892c2a42260eb5ac5c42f1e48e76d1968f0878f0f19e9e/odoo11_addon_hr_attendance_reason-11.0.1.0.0.99.dev8-py2.py3-none-any.whl
+[2023-06-10 05:31:19] INFO root fetch - processPackages [odoo12-addon-hr-attendance-reason]: Downloading https://files.pythonhosted.org/packages/69/22/1de8f8ed2709aade2df025fbc07c17f2416b6370bddfa1e070d33ccf41a7/odoo12_addon_hr_attendance_reason-12.0.1.0.0.99.dev8-py3-none-any.whl
+[2023-06-10 05:31:19] INFO root fetch - processPackages [odoo12-addon-hr-employee-relative]: Downloading https://files.pythonhosted.org/packages/9b/6f/ec459369feacc7205052a34b8ef8c600d5cfc3253aaa4967d2fd83d5ea53/odoo12_addon_hr_employee_relative-12.0.1.1.0.99.dev8-py3-none-any.whl
+[2023-06-10 05:31:19] INFO root fetch - processPackages [langdash]: Downloading https://files.pythonhosted.org/packages/5a/c2/8d0a64b2462541177429aa6f3fe37f499e4fd4a0a711032ce76d54c295d9/langdash-1.1.1a1.tar.gz
+[2023-06-10 05:31:19] INFO root fetch - processPackages [coola]: Downloading https://files.pythonhosted.org/packages/67/49/16dce5b5e529dd9625489d79e8f5d3f192bb6a514bfb92247ce5198fda1a/coola-0.0.9.tar.gz
+[2023-06-10 05:31:19] INFO root fetch - processPackages [coola]: executing diffoscope
+[2023-06-10 05:31:19] INFO root fetch - processPackages [coola]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coola-0.0.8.tar.gz tmp/coola-0.0.9.tar.gz --markdown 20230610/c/coola/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-10 05:31:19] INFO root fetch - processPackages [Trissotech]: Downloading https://files.pythonhosted.org/packages/87/e7/e0f601df4870269656e74341f8264cfb59519f0697e41e145f54e76fe85b/trissotech-0.0.6.tar.gz
+[2023-06-10 05:31:19] INFO root fetch - processPackages [odoo12-addon-hr-contract-rate]: Downloading https://files.pythonhosted.org/packages/b6/7e/952b81eb1b46ed5b42f546314e51bc6a4cc1d924c654470ab3103907186c/odoo12_addon_hr_contract_rate-12.0.1.0.0.99.dev7-py3-none-any.whl
+[2023-06-10 05:31:19] INFO root fetch - processPackages [Trissotech]: executing diffoscope
+[2023-06-10 05:31:19] INFO root fetch - processPackages [Trissotech]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trissotech-0.0.5.tar.gz tmp/trissotech-0.0.6.tar.gz --markdown 20230610/T/Trissotech/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-10 05:31:19] INFO root fetch - processPackages [odoo11-addon-hr-attendance-reason]: Downloading https://files.pythonhosted.org/packages/4c/ea/b9b6c018a63c71185aae06a720d667feca0627a9054e2c88e95546f07632/odoo11_addon_hr_attendance_reason-11.0.1.0.0.99.dev9-py2.py3-none-any.whl
+[2023-06-10 05:31:19] INFO root fetch - processPackages [langdash]: Downloading https://files.pythonhosted.org/packages/71/eb/b2c3d7b768ecbae1c822856fb3895815b814a6df46ba9aace150f8e0d244/langdash-1.2.0a1.tar.gz
+[2023-06-10 05:31:19] INFO root fetch - processPackages [odoo11-addon-hr-attendance-reason]: executing diffoscope
+[2023-06-10 05:31:19] INFO root fetch - processPackages [odoo11-addon-hr-attendance-reason]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo11_addon_hr_attendance_reason-11.0.1.0.0.99.dev8-py2.py3-none-any.whl.zip tmp/odoo11_addon_hr_attendance_reason-11.0.1.0.0.99.dev9-py2.py3-none-any.whl.zip --markdown 20230610/o/odoo11-addon-hr-attendance-reason/11.0.1.0.0.99.dev8-11.0.1.0.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-10 05:31:19] INFO root fetch - processPackages [odoo12-addon-hr-expense-portal]: Downloading https://files.pythonhosted.org/packages/42/81/df8f75d783254a66bddbe27701678f026023f204ed12d2e299e5fc92f1f6/odoo12_addon_hr_expense_portal-12.0.1.0.1.99.dev4-py3-none-any.whl
+[2023-06-10 05:31:19] INFO root fetch - processPackages [odoo12-addon-hr-contract-rate]: executing diffoscope
+[2023-06-10 05:31:19] INFO root fetch - processPackages [odoo12-addon-hr-contract-rate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_hr_contract_rate-12.0.1.0.0.99.dev6-py3-none-any.whl.zip tmp/odoo12_addon_hr_contract_rate-12.0.1.0.0.99.dev7-py3-none-any.whl.zip --markdown 20230610/o/odoo12-addon-hr-contract-rate/12.0.1.0.0.99.dev6-12.0.1.0.0.99.dev7/diff.md --exclude *.pyd
+[2023-06-10 05:31:19] INFO root fetch - processPackages [odoo14-addon-hr-attendance-reason]: Downloading https://files.pythonhosted.org/packages/75/ec/4065049c126bd2591e9e399726200c70b939986ec6ac8b41b9ce25d9bca9/odoo14_addon_hr_attendance_reason-14.0.1.1.4.dev1-py3-none-any.whl
+[2023-06-10 05:31:19] INFO root fetch - processPackages [odoo12-addon-hr-employee-relative]: Downloading https://files.pythonhosted.org/packages/0b/13/352b82f4495f0411bea9b6214d77d5bc8b9eb2d2897d9d8bde2e5f38ae76/odoo12_addon_hr_employee_relative-12.0.1.1.0.99.dev9-py3-none-any.whl
+[2023-06-10 05:31:19] INFO root fetch - processPackages [odoo12-addon-hr-employee-health]: Downloading https://files.pythonhosted.org/packages/25/7e/36d58c61ef9536e4b11878cbf5d694a9d06f440414fa742f6662b004f580/odoo12_addon_hr_employee_health-12.0.1.0.0.99.dev7-py3-none-any.whl
+[2023-06-10 05:31:19] INFO root fetch - processPackages [odoo12-addon-hr-attendance-reason]: Downloading https://files.pythonhosted.org/packages/5c/2c/e27c6c13d58b49c294fb1ffa18dcc41c9935ebf9555f78888e88a55cefa8/odoo12_addon_hr_attendance_reason-12.0.1.0.0.99.dev9-py3-none-any.whl
+[2023-06-10 05:31:19] INFO root fetch - processPackages [langdash]: executing diffoscope
+[2023-06-10 05:31:19] INFO root fetch - processPackages [odoo12-addon-hr-expense-portal]: executing diffoscope
+[2023-06-10 05:31:19] INFO root fetch - processPackages [odoo12-addon-hr-expense-portal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_hr_expense_portal-12.0.1.0.1.99.dev3-py3-none-any.whl.zip tmp/odoo12_addon_hr_expense_portal-12.0.1.0.1.99.dev4-py3-none-any.whl.zip --markdown 20230610/o/odoo12-addon-hr-expense-portal/12.0.1.0.1.99.dev3-12.0.1.0.1.99.dev4/diff.md --exclude *.pyd
+[2023-06-10 05:31:19] INFO root fetch - processPackages [langdash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langdash-1.1.1a1.tar.gz tmp/langdash-1.2.0a1.tar.gz --markdown 20230610/l/langdash/1.1.1a1-1.2.0a1/diff.md --exclude *.pyd
+[2023-06-10 05:31:19] INFO root fetch - processPackages [odoo14-addon-hr-attendance-reason]: executing diffoscope
+[2023-06-10 05:31:19] INFO root fetch - processPackages [odoo14-addon-hr-attendance-reason]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_hr_attendance_reason-14.0.1.1.3.dev2-py3-none-any.whl.zip tmp/odoo14_addon_hr_attendance_reason-14.0.1.1.4.dev1-py3-none-any.whl.zip --markdown 20230610/o/odoo14-addon-hr-attendance-reason/14.0.1.1.3.dev2-14.0.1.1.4.dev1/diff.md --exclude *.pyd
+[2023-06-10 05:31:19] INFO root fetch - processPackages [odoo12-addon-hr-employee-relative]: executing diffoscope
+[2023-06-10 05:31:19] INFO root fetch - processPackages [odoo12-addon-hr-employee-relative]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_hr_employee_relative-12.0.1.1.0.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_hr_employee_relative-12.0.1.1.0.99.dev9-py3-none-any.whl.zip --markdown 20230610/o/odoo12-addon-hr-employee-relative/12.0.1.1.0.99.dev8-12.0.1.1.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-10 05:31:19] INFO root fetch - processPackages [odoo12-addon-hr-employee-health]: executing diffoscope
+[2023-06-10 05:31:19] INFO root fetch - processPackages [odoo12-addon-hr-employee-health]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_hr_employee_health-12.0.1.0.0.99.dev6-py3-none-any.whl.zip tmp/odoo12_addon_hr_employee_health-12.0.1.0.0.99.dev7-py3-none-any.whl.zip --markdown 20230610/o/odoo12-addon-hr-employee-health/12.0.1.0.0.99.dev6-12.0.1.0.0.99.dev7/diff.md --exclude *.pyd
+[2023-06-10 05:31:20] INFO root fetch - processPackages [odoo12-addon-hr-attendance-reason]: executing diffoscope
+[2023-06-10 05:31:20] INFO root fetch - processPackages [odoo12-addon-hr-attendance-reason]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_hr_attendance_reason-12.0.1.0.0.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_hr_attendance_reason-12.0.1.0.0.99.dev9-py3-none-any.whl.zip --markdown 20230610/o/odoo12-addon-hr-attendance-reason/12.0.1.0.0.99.dev8-12.0.1.0.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-10 05:31:20] INFO root fetch - processPackages [Trissotech]: Remove: archive file [/home/abi/fetcher/tmp/trissotech-0.0.5.tar.gz]
+[2023-06-10 05:31:20] INFO root fetch - processPackages [Trissotech]: Remove: archive file [/home/abi/fetcher/tmp/trissotech-0.0.6.tar.gz]
+[2023-06-10 05:31:20] INFO root fetch - processPackages [Trissotech]: Start processing: alicechess
+[2023-06-10 05:31:20] INFO root fetch - main [MainThread]: End processing [Trissotech]: success
+[2023-06-10 05:31:20] INFO root fetch - processPackages [alicechess]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-06-10 05:31:21] INFO root fetch - processPackages [alicechess]: Downloading https://files.pythonhosted.org/packages/f4/8c/b2dff250639b47176fc11eec68b58908d49c19f1e4e3e6822376a6e322b8/alicechess-2.1.0.tar.gz
+[2023-06-10 05:31:21] INFO root fetch - processPackages [coola]: Remove: archive file [/home/abi/fetcher/tmp/coola-0.0.8.tar.gz]
+[2023-06-10 05:31:21] INFO root fetch - processPackages [coola]: Remove: archive file [/home/abi/fetcher/tmp/coola-0.0.9.tar.gz]
+[2023-06-10 05:31:21] INFO root fetch - processPackages [coola]: Start processing: tcheck
+[2023-06-10 05:31:21] INFO root fetch - main [MainThread]: End processing [coola]: success
+[2023-06-10 05:31:21] INFO root fetch - processPackages [odoo12-addon-hr-contract-rate]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_hr_contract_rate-12.0.1.0.0.99.dev6-py3-none-any.whl.zip]
+[2023-06-10 05:31:21] INFO root fetch - processPackages [odoo12-addon-hr-contract-rate]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_hr_contract_rate-12.0.1.0.0.99.dev7-py3-none-any.whl.zip]
+[2023-06-10 05:31:21] INFO root fetch - main [MainThread]: End processing [odoo12-addon-hr-contract-rate]: success
+[2023-06-10 05:31:21] INFO root fetch - processPackages [odoo11-addon-hr-attendance-reason]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_hr_attendance_reason-11.0.1.0.0.99.dev8-py2.py3-none-any.whl.zip]
+[2023-06-10 05:31:21] INFO root fetch - processPackages [odoo11-addon-hr-attendance-reason]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_hr_attendance_reason-11.0.1.0.0.99.dev9-py2.py3-none-any.whl.zip]
+[2023-06-10 05:31:21] INFO root fetch - main [MainThread]: End processing [odoo11-addon-hr-attendance-reason]: success
+[2023-06-10 05:31:21] WARNING root fetch - processPackages [tcheck]: Skipping, unable to determine old version
+[2023-06-10 05:31:21] INFO root fetch - main [MainThread]: End processing [tcheck] error
+[2023-06-10 05:31:21] INFO root fetch - processPackages [alicechess]: Downloading https://files.pythonhosted.org/packages/3e/33/bd1aeaec5babe4513294e4ffbda886150108401f85198f352f8c7b2bb6a0/alicechess-2.2.0.tar.gz
+[2023-06-10 05:31:21] INFO root fetch - processPackages [odoo12-addon-hr-expense-portal]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_hr_expense_portal-12.0.1.0.1.99.dev3-py3-none-any.whl.zip]
+[2023-06-10 05:31:21] INFO root fetch - processPackages [odoo12-addon-hr-expense-portal]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_hr_expense_portal-12.0.1.0.1.99.dev4-py3-none-any.whl.zip]
+[2023-06-10 05:31:21] INFO root fetch - main [MainThread]: End processing [odoo12-addon-hr-expense-portal]: success
+[2023-06-10 05:31:21] INFO root fetch - processPackages [alicechess]: executing diffoscope
+[2023-06-10 05:31:21] INFO root fetch - processPackages [alicechess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alicechess-2.1.0.tar.gz tmp/alicechess-2.2.0.tar.gz --markdown 20230610/a/alicechess/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-06-10 05:31:21] INFO root fetch - processPackages [odoo12-addon-hr-attendance-reason]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_hr_attendance_reason-12.0.1.0.0.99.dev8-py3-none-any.whl.zip]
+[2023-06-10 05:31:21] INFO root fetch - processPackages [odoo12-addon-hr-attendance-reason]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_hr_attendance_reason-12.0.1.0.0.99.dev9-py3-none-any.whl.zip]
+[2023-06-10 05:31:21] INFO root fetch - main [MainThread]: End processing [odoo12-addon-hr-attendance-reason]: success
+[2023-06-10 05:31:21] INFO root fetch - processPackages [odoo12-addon-hr-employee-relative]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_hr_employee_relative-12.0.1.1.0.99.dev8-py3-none-any.whl.zip]
+[2023-06-10 05:31:21] INFO root fetch - processPackages [odoo12-addon-hr-employee-relative]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_hr_employee_relative-12.0.1.1.0.99.dev9-py3-none-any.whl.zip]
+[2023-06-10 05:31:21] INFO root fetch - main [MainThread]: End processing [odoo12-addon-hr-employee-relative]: success
+[2023-06-10 05:31:21] INFO root fetch - processPackages [odoo12-addon-hr-employee-health]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_hr_employee_health-12.0.1.0.0.99.dev6-py3-none-any.whl.zip]
+[2023-06-10 05:31:21] INFO root fetch - processPackages [odoo12-addon-hr-employee-health]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_hr_employee_health-12.0.1.0.0.99.dev7-py3-none-any.whl.zip]
+[2023-06-10 05:31:21] INFO root fetch - main [MainThread]: End processing [odoo12-addon-hr-employee-health]: success
+[2023-06-10 05:31:21] INFO root fetch - processPackages [odoo14-addon-hr-attendance-reason]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_hr_attendance_reason-14.0.1.1.3.dev2-py3-none-any.whl.zip]
+[2023-06-10 05:31:21] INFO root fetch - processPackages [odoo14-addon-hr-attendance-reason]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_hr_attendance_reason-14.0.1.1.4.dev1-py3-none-any.whl.zip]
+[2023-06-10 05:31:21] INFO root fetch - main [MainThread]: End processing [odoo14-addon-hr-attendance-reason]: success
+[2023-06-10 05:31:21] INFO root fetch - processPackages [langdash]: Remove: archive file [/home/abi/fetcher/tmp/langdash-1.1.1a1.tar.gz]
+[2023-06-10 05:31:21] INFO root fetch - processPackages [langdash]: Remove: archive file [/home/abi/fetcher/tmp/langdash-1.2.0a1.tar.gz]
+[2023-06-10 05:31:21] INFO root fetch - main [MainThread]: End processing [langdash]: success
+[2023-06-10 05:31:22] INFO root fetch - processPackages [alicechess]: Remove: archive file [/home/abi/fetcher/tmp/alicechess-2.1.0.tar.gz]
+[2023-06-10 05:31:22] INFO root fetch - processPackages [alicechess]: Remove: archive file [/home/abi/fetcher/tmp/alicechess-2.2.0.tar.gz]
+[2023-06-10 05:31:22] INFO root fetch - main [MainThread]: End processing [alicechess]: success
+[2023-06-10 05:31:22] INFO root fetch - main [MainThread]: Store serial: [18448436]
