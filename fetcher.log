@@ -14311,3 +14311,56 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-10 17:28:20] WARNING root fetch - processPackages [pygame]: Skipping package: exceeds size limit 12875826>=10485760
 [2023-06-10 17:28:20] INFO root fetch - main [MainThread]: End processing [pygame] error
 [2023-06-10 17:28:20] INFO root fetch - main [MainThread]: Store serial: [18451836]
+[2023-06-10 17:33:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18451836]
+[2023-06-10 17:33:29] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-10 17:33:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tool_server_generator
+[2023-06-10 17:33:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: web3client
+[2023-06-10 17:33:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gpru
+[2023-06-10 17:33:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: smarterbombing
+[2023-06-10 17:33:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mapbot-frontend
+[2023-06-10 17:33:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PoolFlow
+[2023-06-10 17:33:29] INFO root fetch - processPackages [tool_server_generator]: New version: [0.4.1] Old Version: [0.4]
+[2023-06-10 17:33:29] INFO root fetch - processPackages [PoolFlow]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-10 17:33:29] INFO root fetch - processPackages [smarterbombing]: New version: [0.2.0] Old Version: [0.1.5]
+[2023-06-10 17:33:29] INFO root fetch - processPackages [tool_server_generator]: Downloading https://files.pythonhosted.org/packages/e3/cb/2c1c73942f41767f7169cd03c755bbd88cf1b5990fa142eeb7ba94760b39/tool_server_generator-0.4.tar.gz
+[2023-06-10 17:33:29] INFO root fetch - processPackages [gpru]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-10 17:33:29] INFO root fetch - processPackages [smarterbombing]: Downloading https://files.pythonhosted.org/packages/46/c5/e3d22e19224f9a9bed7e279dbda5480f6efb1c87e51a3449462e20ddf1ef/smarterbombing-0.1.5.tar.gz
+[2023-06-10 17:33:29] INFO root fetch - processPackages [mapbot-frontend]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-10 17:33:29] INFO root fetch - processPackages [PoolFlow]: Downloading https://files.pythonhosted.org/packages/5c/17/ddeee5b089afcc654f5adf52dad475737aa9eb223a6f9f43c8a54fb36546/PoolFlow-0.0.4.tar.gz
+[2023-06-10 17:33:29] INFO root fetch - processPackages [web3client]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-10 17:33:29] INFO root fetch - processPackages [smarterbombing]: Downloading https://files.pythonhosted.org/packages/97/8c/e16ba371606d406efb16a8c2c7eae733d84c85f071c2bbf677585fb314be/smarterbombing-0.2.0.tar.gz
+[2023-06-10 17:33:29] INFO root fetch - processPackages [web3client]: Downloading https://files.pythonhosted.org/packages/dd/19/168188e8b67ed7ad4a69a9042bc68bf4bddaad170f9d145077749082ed85/web3client-1.1.8.tar.gz
+[2023-06-10 17:33:29] INFO root fetch - processPackages [gpru]: Downloading https://files.pythonhosted.org/packages/7c/3b/4f5b3bf0585fd9e1b3a0ebe542d439143959164fa11032d8c8ef4f57084c/gpru-0.0.2.tar.gz
+[2023-06-10 17:33:29] INFO root fetch - processPackages [mapbot-frontend]: Downloading https://files.pythonhosted.org/packages/c3/15/a76b10735e815f29e69252cfdf5844d8267526ca51d4be0ae611898cf761/mapbot_frontend-0.1.8.tar.gz
+[2023-06-10 17:33:29] INFO root fetch - processPackages [PoolFlow]: Downloading https://files.pythonhosted.org/packages/b8/f2/4b35e0d9dc0d3c9ccd6f008dbf004dbb256d6d588d8cd125770df39b7feb/PoolFlow-0.0.5.tar.gz
+[2023-06-10 17:33:29] ERROR root fetch - processPackages [tool_server_generator]: Unable to fetch info: No such project/version 'tool_server_generator' 0.4.1
+[2023-06-10 17:33:29] INFO root fetch - main [MainThread]: End processing [tool_server_generator] error
+[2023-06-10 17:33:29] INFO root fetch - processPackages [smarterbombing]: executing diffoscope
+[2023-06-10 17:33:29] INFO root fetch - processPackages [smarterbombing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smarterbombing-0.1.5.tar.gz tmp/smarterbombing-0.2.0.tar.gz --markdown 20230610/s/smarterbombing/0.1.5-0.2.0/diff.md --exclude *.pyd
+[2023-06-10 17:33:30] INFO root fetch - processPackages [PoolFlow]: executing diffoscope
+[2023-06-10 17:33:30] INFO root fetch - processPackages [PoolFlow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PoolFlow-0.0.4.tar.gz tmp/PoolFlow-0.0.5.tar.gz --markdown 20230610/P/PoolFlow/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-10 17:33:30] INFO root fetch - processPackages [gpru]: Downloading https://files.pythonhosted.org/packages/46/ca/616d5726c0b6eb39e51fc7cb587ee66c0e885b3fd61815404cab89a1a7aa/gpru-0.0.3.tar.gz
+[2023-06-10 17:33:30] INFO root fetch - processPackages [web3client]: Downloading https://files.pythonhosted.org/packages/7f/7f/4e0ff47d8a5473c01285a5aa69dd923bfe444e5dd6758f8fb0ac33b3d7e8/web3client-1.1.9.tar.gz
+[2023-06-10 17:33:30] INFO root fetch - processPackages [mapbot-frontend]: Downloading https://files.pythonhosted.org/packages/2c/2b/65497a0d97cff1920b70e98b8c0780cb445ac34e1ebb2d6cf5ddf99b0ffc/mapbot_frontend-0.1.9.tar.gz
+[2023-06-10 17:33:30] INFO root fetch - processPackages [gpru]: executing diffoscope
+[2023-06-10 17:33:30] INFO root fetch - processPackages [gpru]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpru-0.0.2.tar.gz tmp/gpru-0.0.3.tar.gz --markdown 20230610/g/gpru/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-10 17:33:30] INFO root fetch - processPackages [web3client]: executing diffoscope
+[2023-06-10 17:33:30] INFO root fetch - processPackages [web3client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/web3client-1.1.8.tar.gz tmp/web3client-1.1.9.tar.gz --markdown 20230610/w/web3client/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-10 17:33:30] INFO root fetch - processPackages [mapbot-frontend]: executing diffoscope
+[2023-06-10 17:33:30] INFO root fetch - processPackages [mapbot-frontend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapbot_frontend-0.1.8.tar.gz tmp/mapbot_frontend-0.1.9.tar.gz --markdown 20230610/m/mapbot-frontend/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-10 17:33:31] INFO root fetch - processPackages [smarterbombing]: Remove: archive file [/home/abi/fetcher/tmp/smarterbombing-0.1.5.tar.gz]
+[2023-06-10 17:33:31] INFO root fetch - processPackages [smarterbombing]: Remove: archive file [/home/abi/fetcher/tmp/smarterbombing-0.2.0.tar.gz]
+[2023-06-10 17:33:31] INFO root fetch - main [MainThread]: End processing [smarterbombing]: success
+[2023-06-10 17:33:31] INFO root fetch - processPackages [PoolFlow]: Remove: archive file [/home/abi/fetcher/tmp/PoolFlow-0.0.4.tar.gz]
+[2023-06-10 17:33:31] INFO root fetch - processPackages [PoolFlow]: Remove: archive file [/home/abi/fetcher/tmp/PoolFlow-0.0.5.tar.gz]
+[2023-06-10 17:33:31] INFO root fetch - main [MainThread]: End processing [PoolFlow]: success
+[2023-06-10 17:33:31] INFO root fetch - processPackages [gpru]: Remove: archive file [/home/abi/fetcher/tmp/gpru-0.0.2.tar.gz]
+[2023-06-10 17:33:31] INFO root fetch - processPackages [gpru]: Remove: archive file [/home/abi/fetcher/tmp/gpru-0.0.3.tar.gz]
+[2023-06-10 17:33:31] INFO root fetch - main [MainThread]: End processing [gpru]: success
+[2023-06-10 17:33:31] INFO root fetch - processPackages [web3client]: Remove: archive file [/home/abi/fetcher/tmp/web3client-1.1.8.tar.gz]
+[2023-06-10 17:33:31] INFO root fetch - processPackages [web3client]: Remove: archive file [/home/abi/fetcher/tmp/web3client-1.1.9.tar.gz]
+[2023-06-10 17:33:31] INFO root fetch - main [MainThread]: End processing [web3client]: success
+[2023-06-10 17:33:32] INFO root fetch - processPackages [mapbot-frontend]: Remove: archive file [/home/abi/fetcher/tmp/mapbot_frontend-0.1.8.tar.gz]
+[2023-06-10 17:33:32] INFO root fetch - processPackages [mapbot-frontend]: Remove: archive file [/home/abi/fetcher/tmp/mapbot_frontend-0.1.9.tar.gz]
+[2023-06-10 17:33:32] INFO root fetch - main [MainThread]: End processing [mapbot-frontend]: success
+[2023-06-10 17:33:32] INFO root fetch - main [MainThread]: Store serial: [18451863]
