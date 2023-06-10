@@ -16883,3 +16883,36 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-10 21:22:06] INFO root fetch - processPackages [sublime_music]: Remove: archive file [/home/abi/fetcher/tmp/sublime-music-0.9.2.tar.gz]
 [2023-06-10 21:22:06] INFO root fetch - main [MainThread]: End processing [sublime_music]: success
 [2023-06-10 21:22:06] INFO root fetch - main [MainThread]: Store serial: [18453232]
+[2023-06-10 21:27:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18453232]
+[2023-06-10 21:27:15] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-10 21:27:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xia-git-gitlab
+[2023-06-10 21:27:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: imdb-extract
+[2023-06-10 21:27:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gamedetector
+[2023-06-10 21:27:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rechtspraak-extractor
+[2023-06-10 21:27:15] WARNING root fetch - processPackages [imdb-extract]: Skipping, unable to determine old version
+[2023-06-10 21:27:15] INFO root fetch - processPackages [xia-git-gitlab]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-10 21:27:15] INFO root fetch - main [MainThread]: End processing [imdb-extract] error
+[2023-06-10 21:27:15] INFO root fetch - processPackages [rechtspraak-extractor]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-10 21:27:15] INFO root fetch - processPackages [xia-git-gitlab]: Downloading https://files.pythonhosted.org/packages/7b/45/ec429242de57cb4eef803e5cb6eb8d55d10ea9c1f286808856d99ab41e96/xia_git_gitlab-0.0.7-cp39-none-win_amd64.whl
+[2023-06-10 21:27:15] INFO root fetch - processPackages [rechtspraak-extractor]: Downloading https://files.pythonhosted.org/packages/f2/7d/639d882983648342f99875b95e988060f826052398e74277537d166f07b2/rechtspraak_extractor-1.1.8.tar.gz
+[2023-06-10 21:27:15] INFO root fetch - processPackages [gamedetector]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-10 21:27:16] INFO root fetch - processPackages [xia-git-gitlab]: Downloading https://files.pythonhosted.org/packages/5c/10/deef37f6a6c117971c2557277b16ad3a4980b5514b1e06287b57a383d31e/xia_git_gitlab-0.0.8-cp39-none-win_amd64.whl
+[2023-06-10 21:27:16] INFO root fetch - processPackages [gamedetector]: Downloading https://files.pythonhosted.org/packages/4e/09/acf952d33d6822237c83167ce0d92e4513a971882d0b435c87103ca466b2/gamedetector-0.1.0.tar.gz
+[2023-06-10 21:27:16] INFO root fetch - processPackages [rechtspraak-extractor]: Downloading https://files.pythonhosted.org/packages/a2/7d/873b87acf1d3a1f1ac72438bc3b6cb1cc02189d47185383e7e938ce13486/rechtspraak_extractor-1.1.9.tar.gz
+[2023-06-10 21:27:16] INFO root fetch - processPackages [xia-git-gitlab]: executing diffoscope
+[2023-06-10 21:27:16] INFO root fetch - processPackages [xia-git-gitlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_git_gitlab-0.0.7-cp39-none-win_amd64.whl.zip tmp/xia_git_gitlab-0.0.8-cp39-none-win_amd64.whl.zip --markdown 20230610/x/xia-git-gitlab/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-10 21:27:16] INFO root fetch - processPackages [rechtspraak-extractor]: executing diffoscope
+[2023-06-10 21:27:16] INFO root fetch - processPackages [rechtspraak-extractor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rechtspraak_extractor-1.1.8.tar.gz tmp/rechtspraak_extractor-1.1.9.tar.gz --markdown 20230610/r/rechtspraak-extractor/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-10 21:27:16] INFO root fetch - processPackages [gamedetector]: Downloading https://files.pythonhosted.org/packages/7e/a2/884f8b0da2b462ec9042b36ea996c78d795922f9fc88c92d0ebcc737e027/gamedetector-0.1.1.tar.gz
+[2023-06-10 21:27:16] INFO root fetch - processPackages [gamedetector]: executing diffoscope
+[2023-06-10 21:27:16] INFO root fetch - processPackages [gamedetector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gamedetector-0.1.0.tar.gz tmp/gamedetector-0.1.1.tar.gz --markdown 20230610/g/gamedetector/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-10 21:27:17] INFO root fetch - processPackages [xia-git-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/xia_git_gitlab-0.0.7-cp39-none-win_amd64.whl.zip]
+[2023-06-10 21:27:17] INFO root fetch - processPackages [xia-git-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/xia_git_gitlab-0.0.8-cp39-none-win_amd64.whl.zip]
+[2023-06-10 21:27:17] INFO root fetch - main [MainThread]: End processing [xia-git-gitlab]: success
+[2023-06-10 21:27:17] INFO root fetch - processPackages [rechtspraak-extractor]: Remove: archive file [/home/abi/fetcher/tmp/rechtspraak_extractor-1.1.8.tar.gz]
+[2023-06-10 21:27:17] INFO root fetch - processPackages [rechtspraak-extractor]: Remove: archive file [/home/abi/fetcher/tmp/rechtspraak_extractor-1.1.9.tar.gz]
+[2023-06-10 21:27:17] INFO root fetch - main [MainThread]: End processing [rechtspraak-extractor]: success
+[2023-06-10 21:27:17] INFO root fetch - processPackages [gamedetector]: Remove: archive file [/home/abi/fetcher/tmp/gamedetector-0.1.0.tar.gz]
+[2023-06-10 21:27:17] INFO root fetch - processPackages [gamedetector]: Remove: archive file [/home/abi/fetcher/tmp/gamedetector-0.1.1.tar.gz]
+[2023-06-10 21:27:17] INFO root fetch - main [MainThread]: End processing [gamedetector]: success
+[2023-06-10 21:27:17] INFO root fetch - main [MainThread]: Store serial: [18453255]
