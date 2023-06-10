@@ -8633,3 +8633,39 @@ EOFError: EOF read where object expected
 [2023-06-10 08:45:01] INFO root fetch - processPackages [dodo-is-api]: Remove: archive file [/home/abi/fetcher/tmp/dodo_is_api-0.6.1.tar.gz]
 [2023-06-10 08:45:01] INFO root fetch - main [MainThread]: End processing [dodo-is-api]: success
 [2023-06-10 08:45:01] INFO root fetch - main [MainThread]: Store serial: [18449175]
+[2023-06-10 08:50:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18449175]
+[2023-06-10 08:50:10] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-10 08:50:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dodo-is-api
+[2023-06-10 08:50:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mybar
+[2023-06-10 08:50:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: langchain-decorators
+[2023-06-10 08:50:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lzy-E610
+[2023-06-10 08:50:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: py-miraie-ac
+[2023-06-10 08:50:10] INFO root fetch - processPackages [py-miraie-ac]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-10 08:50:10] WARNING root fetch - processPackages [langchain-decorators]: Skipping, unable to determine old version
+[2023-06-10 08:50:10] INFO root fetch - processPackages [mybar]: New version: [0.7.1] Old Version: [0.7]
+[2023-06-10 08:50:10] INFO root fetch - main [MainThread]: End processing [langchain-decorators] error
+[2023-06-10 08:50:10] WARNING root fetch - processPackages [lzy-E610]: Skipping, unable to determine old version
+[2023-06-10 08:50:10] INFO root fetch - main [MainThread]: End processing [lzy-E610] error
+[2023-06-10 08:50:10] INFO root fetch - processPackages [dodo-is-api]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-06-10 08:50:10] INFO root fetch - processPackages [py-miraie-ac]: Downloading https://files.pythonhosted.org/packages/22/69/efa32fec0b2a56bc5dc0440521d96df22ad16d7139c7b3ce26a0d34e71f4/py-miraie-ac-0.0.8.tar.gz
+[2023-06-10 08:50:10] INFO root fetch - processPackages [mybar]: Downloading https://files.pythonhosted.org/packages/85/35/fb8a2a3d0ba32d8db3610ae7bd7edf845cd8d40831b26f5a2d50385f7a8d/mybar-0.7.tar.gz
+[2023-06-10 08:50:10] INFO root fetch - processPackages [dodo-is-api]: Downloading https://files.pythonhosted.org/packages/af/49/adcbb68a5915188e19dad935dcb69309b855f573e50eb02c81224560b2e5/dodo_is_api-0.6.0.tar.gz
+[2023-06-10 08:50:10] INFO root fetch - processPackages [py-miraie-ac]: Downloading https://files.pythonhosted.org/packages/ca/5d/ee98c476cfa533b8c4313b6de7351cfe316c0b3b8078d8eb1670c2f334b2/py-miraie-ac-0.0.9.tar.gz
+[2023-06-10 08:50:10] INFO root fetch - processPackages [py-miraie-ac]: executing diffoscope
+[2023-06-10 08:50:10] INFO root fetch - processPackages [py-miraie-ac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-miraie-ac-0.0.8.tar.gz tmp/py-miraie-ac-0.0.9.tar.gz --markdown 20230610/p/py-miraie-ac/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-10 08:50:10] INFO root fetch - processPackages [dodo-is-api]: Downloading https://files.pythonhosted.org/packages/3e/06/edc780c1368ab0f119d046c0fd0c96e325787affcaf24cd94cf3feb602c1/dodo_is_api-0.6.1.tar.gz
+[2023-06-10 08:50:10] INFO root fetch - processPackages [mybar]: Downloading https://files.pythonhosted.org/packages/4b/25/5f7cacb6226242fbda12160d60e2a7659c07c88b50a6360a910b90cb9af6/mybar-0.7.1.tar.gz
+[2023-06-10 08:50:10] INFO root fetch - processPackages [dodo-is-api]: executing diffoscope
+[2023-06-10 08:50:10] INFO root fetch - processPackages [dodo-is-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dodo_is_api-0.6.0.tar.gz tmp/dodo_is_api-0.6.1.tar.gz --markdown 20230610/d/dodo-is-api/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-06-10 08:50:10] INFO root fetch - processPackages [mybar]: executing diffoscope
+[2023-06-10 08:50:10] INFO root fetch - processPackages [mybar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mybar-0.7.tar.gz tmp/mybar-0.7.1.tar.gz --markdown 20230610/m/mybar/0.7-0.7.1/diff.md --exclude *.pyd
+[2023-06-10 08:50:11] INFO root fetch - processPackages [py-miraie-ac]: Remove: archive file [/home/abi/fetcher/tmp/py-miraie-ac-0.0.8.tar.gz]
+[2023-06-10 08:50:11] INFO root fetch - processPackages [py-miraie-ac]: Remove: archive file [/home/abi/fetcher/tmp/py-miraie-ac-0.0.9.tar.gz]
+[2023-06-10 08:50:11] INFO root fetch - main [MainThread]: End processing [py-miraie-ac]: success
+[2023-06-10 08:50:11] INFO root fetch - processPackages [dodo-is-api]: Remove: archive file [/home/abi/fetcher/tmp/dodo_is_api-0.6.0.tar.gz]
+[2023-06-10 08:50:11] INFO root fetch - processPackages [dodo-is-api]: Remove: archive file [/home/abi/fetcher/tmp/dodo_is_api-0.6.1.tar.gz]
+[2023-06-10 08:50:11] INFO root fetch - main [MainThread]: End processing [dodo-is-api]: success
+[2023-06-10 08:50:11] INFO root fetch - processPackages [mybar]: Remove: archive file [/home/abi/fetcher/tmp/mybar-0.7.tar.gz]
+[2023-06-10 08:50:11] INFO root fetch - processPackages [mybar]: Remove: archive file [/home/abi/fetcher/tmp/mybar-0.7.1.tar.gz]
+[2023-06-10 08:50:11] INFO root fetch - main [MainThread]: End processing [mybar]: success
+[2023-06-10 08:50:11] INFO root fetch - main [MainThread]: Store serial: [18449195]
