@@ -12573,3 +12573,73 @@ EOFError: EOF read where object expected
 [2023-06-10 15:30:30] INFO root fetch - processPackages [mapbot-frontend]: Remove: archive file [/home/abi/fetcher/tmp/mapbot_frontend-0.1.9.tar.gz]
 [2023-06-10 15:30:30] INFO root fetch - main [MainThread]: End processing [mapbot-frontend]: success
 [2023-06-10 15:30:30] INFO root fetch - main [MainThread]: Store serial: [18450947]
+[2023-06-10 15:35:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18450947]
+[2023-06-10 15:35:38] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-10 15:35:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-pcrjjc
+[2023-06-10 15:35:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-crazy-thursday
+[2023-06-10 15:35:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: grblhud
+[2023-06-10 15:35:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: CommandAlarm
+[2023-06-10 15:35:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: WignerSymbol
+[2023-06-10 15:35:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lollms
+[2023-06-10 15:35:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lidarwind
+[2023-06-10 15:35:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tf-nightly-intel
+[2023-06-10 15:35:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: comai
+[2023-06-10 15:35:39] INFO root fetch - processPackages [WignerSymbol]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-10 15:35:39] INFO root fetch - processPackages [nonebot-plugin-crazy-thursday]: New version: [0.2.7] Old Version: [0.2.6rc1]
+[2023-06-10 15:35:39] INFO root fetch - processPackages [nonebot-plugin-pcrjjc]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-10 15:35:39] INFO root fetch - processPackages [lollms]: New version: [1.1.9] Old Version: [1.1.7]
+[2023-06-10 15:35:39] INFO root fetch - processPackages [CommandAlarm]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-10 15:35:39] WARNING root fetch - processPackages [grblhud]: Skipping, unable to determine old version
+[2023-06-10 15:35:39] INFO root fetch - main [MainThread]: End processing [grblhud] error
+[2023-06-10 15:35:39] INFO root fetch - processPackages [tf-nightly-intel]: New version: [2.14.0.dev20230609] Old Version: [2.14.0.dev20230608]
+[2023-06-10 15:35:39] INFO root fetch - processPackages [lidarwind]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-10 15:35:39] INFO root fetch - processPackages [WignerSymbol]: Downloading https://files.pythonhosted.org/packages/2b/46/98f43afd284f9594ec59ca95d2c5f9f0ab3c336646d55d4448cdf1ef7edd/WignerSymbol-0.0.4.tar.gz
+[2023-06-10 15:35:39] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/3d/63/5860743c06fbd44180fc9469d6a01bbc0644f8be5bc965843b7c2864a173/lollms-1.1.7.tar.gz
+[2023-06-10 15:35:39] WARNING root fetch - processPackages [lollms]: Skipping package: exceeds size limit 17349845>=10485760
+[2023-06-10 15:35:39] INFO root fetch - main [MainThread]: End processing [lollms] error
+[2023-06-10 15:35:39] INFO root fetch - processPackages [comai]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-10 15:35:39] INFO root fetch - processPackages [CommandAlarm]: Downloading https://files.pythonhosted.org/packages/cc/33/331cce49f0ee512a30d20df45001ce0f8382735d8a4ae1e3e3bd24ea9352/CommandAlarm-0.2.2.tar.gz
+[2023-06-10 15:35:39] INFO root fetch - processPackages [nonebot-plugin-crazy-thursday]: Downloading https://files.pythonhosted.org/packages/f2/9a/91ea36a561998124f746b15a472c07e46b5e454682734ab5939bc0851cb0/nonebot_plugin_crazy_thursday-0.2.6rc1.tar.gz
+[2023-06-10 15:35:39] INFO root fetch - processPackages [nonebot-plugin-pcrjjc]: Downloading https://files.pythonhosted.org/packages/04/55/0f92e8c0c2c7c108690d55ad21e29dadfad18bee4298870909f924651061/nonebot-plugin-pcrjjc-0.1.2.tar.gz
+[2023-06-10 15:35:39] INFO root fetch - processPackages [lidarwind]: Downloading https://files.pythonhosted.org/packages/9e/87/a9413729b7be30ff50b7e4f5909b16e030eb07057e1a41b146874020cb7e/lidarwind-0.2.2.tar.gz
+[2023-06-10 15:35:39] INFO root fetch - processPackages [tf-nightly-intel]: Downloading https://files.pythonhosted.org/packages/04/7d/b2c88b8545a44f36b2c5e379b65bed31a485ce10a080c3a635c91d45d300/tf_nightly_intel-2.14.0.dev20230608-cp39-cp39-win_amd64.whl
+[2023-06-10 15:35:39] INFO root fetch - processPackages [comai]: Downloading https://files.pythonhosted.org/packages/8b/fb/205ecbd767ca17eb0c26dd1ae565ccad17c106a3f9c94ef86d0c8cd4e738/comai-0.0.8.tar.gz
+[2023-06-10 15:35:39] WARNING root fetch - processPackages [tf-nightly-intel]: Skipping package: exceeds size limit 183015669>=10485760
+[2023-06-10 15:35:39] INFO root fetch - main [MainThread]: End processing [tf-nightly-intel] error
+[2023-06-10 15:35:39] INFO root fetch - processPackages [WignerSymbol]: Downloading https://files.pythonhosted.org/packages/8f/25/10e46fbfef44f4d8560522556ed95bb8703033368d732697c2b8e9374482/WignerSymbol-0.0.5.tar.gz
+[2023-06-10 15:35:39] INFO root fetch - processPackages [CommandAlarm]: Downloading https://files.pythonhosted.org/packages/a6/04/c6513349a2978f785c5bf6b9572e64d3c693ef02108f97ef636091c10f3a/CommandAlarm-0.2.3.tar.gz
+[2023-06-10 15:35:39] INFO root fetch - processPackages [WignerSymbol]: executing diffoscope
+[2023-06-10 15:35:39] INFO root fetch - processPackages [WignerSymbol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WignerSymbol-0.0.4.tar.gz tmp/WignerSymbol-0.0.5.tar.gz --markdown 20230610/W/WignerSymbol/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-10 15:35:39] INFO root fetch - processPackages [CommandAlarm]: executing diffoscope
+[2023-06-10 15:35:39] INFO root fetch - processPackages [CommandAlarm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CommandAlarm-0.2.2.tar.gz tmp/CommandAlarm-0.2.3.tar.gz --markdown 20230610/C/CommandAlarm/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-10 15:35:39] INFO root fetch - processPackages [nonebot-plugin-pcrjjc]: Downloading https://files.pythonhosted.org/packages/a3/56/d19322818be03a355a72de3c15b5090b5a0031bd8bb971308c0e111b364d/nonebot-plugin-pcrjjc-0.1.3.tar.gz
+[2023-06-10 15:35:39] INFO root fetch - processPackages [nonebot-plugin-pcrjjc]: executing diffoscope
+[2023-06-10 15:35:39] INFO root fetch - processPackages [nonebot-plugin-pcrjjc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-pcrjjc-0.1.2.tar.gz tmp/nonebot-plugin-pcrjjc-0.1.3.tar.gz --markdown 20230610/n/nonebot-plugin-pcrjjc/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-10 15:35:39] INFO root fetch - processPackages [comai]: Downloading https://files.pythonhosted.org/packages/2f/d7/e4c49640cae492a4d4972dbb00245505154a77a7828d6f19ff5e8c4e9616/comai-0.0.9.tar.gz
+[2023-06-10 15:35:39] INFO root fetch - processPackages [comai]: executing diffoscope
+[2023-06-10 15:35:39] INFO root fetch - processPackages [comai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comai-0.0.8.tar.gz tmp/comai-0.0.9.tar.gz --markdown 20230610/c/comai/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-10 15:35:40] INFO root fetch - processPackages [nonebot-plugin-crazy-thursday]: Downloading https://files.pythonhosted.org/packages/9e/9b/7dcb57b9658f1e68caae9a417cc93e1cafeda19a47af529bf8e0223b6681/nonebot_plugin_crazy_thursday-0.2.7-py3-none-any.whl
+[2023-06-10 15:35:40] INFO root fetch - processPackages [lidarwind]: Downloading https://files.pythonhosted.org/packages/85/0e/3f7af108ff172b58b1c8c74f7e7527c8687e3ff2f519e6d4616fd815c0e8/lidarwind-0.2.3.tar.gz
+[2023-06-10 15:35:40] INFO root fetch - processPackages [nonebot-plugin-crazy-thursday]: executing diffoscope
+[2023-06-10 15:35:40] INFO root fetch - processPackages [nonebot-plugin-crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_crazy_thursday-0.2.6rc1.tar.gz tmp/nonebot_plugin_crazy_thursday-0.2.7-py3-none-any.whl.zip --markdown 20230610/n/nonebot-plugin-crazy-thursday/0.2.6rc1-0.2.7/diff.md --exclude *.pyd
+[2023-06-10 15:35:40] INFO root fetch - processPackages [lidarwind]: executing diffoscope
+[2023-06-10 15:35:40] INFO root fetch - processPackages [lidarwind]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lidarwind-0.2.2.tar.gz tmp/lidarwind-0.2.3.tar.gz --markdown 20230610/l/lidarwind/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-10 15:35:40] INFO root fetch - processPackages [WignerSymbol]: Remove: archive file [/home/abi/fetcher/tmp/WignerSymbol-0.0.4.tar.gz]
+[2023-06-10 15:35:40] INFO root fetch - processPackages [WignerSymbol]: Remove: archive file [/home/abi/fetcher/tmp/WignerSymbol-0.0.5.tar.gz]
+[2023-06-10 15:35:40] INFO root fetch - main [MainThread]: End processing [WignerSymbol]: success
+[2023-06-10 15:35:40] INFO root fetch - processPackages [CommandAlarm]: Remove: archive file [/home/abi/fetcher/tmp/CommandAlarm-0.2.2.tar.gz]
+[2023-06-10 15:35:40] INFO root fetch - processPackages [CommandAlarm]: Remove: archive file [/home/abi/fetcher/tmp/CommandAlarm-0.2.3.tar.gz]
+[2023-06-10 15:35:40] INFO root fetch - main [MainThread]: End processing [CommandAlarm]: success
+[2023-06-10 15:35:41] INFO root fetch - processPackages [comai]: Remove: archive file [/home/abi/fetcher/tmp/comai-0.0.8.tar.gz]
+[2023-06-10 15:35:41] INFO root fetch - processPackages [comai]: Remove: archive file [/home/abi/fetcher/tmp/comai-0.0.9.tar.gz]
+[2023-06-10 15:35:41] INFO root fetch - main [MainThread]: End processing [comai]: success
+[2023-06-10 15:35:42] INFO root fetch - processPackages [lidarwind]: Remove: archive file [/home/abi/fetcher/tmp/lidarwind-0.2.2.tar.gz]
+[2023-06-10 15:35:42] INFO root fetch - processPackages [lidarwind]: Remove: archive file [/home/abi/fetcher/tmp/lidarwind-0.2.3.tar.gz]
+[2023-06-10 15:35:42] INFO root fetch - main [MainThread]: End processing [lidarwind]: success
+[2023-06-10 15:35:43] INFO root fetch - processPackages [nonebot-plugin-pcrjjc]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-pcrjjc-0.1.2.tar.gz]
+[2023-06-10 15:35:43] INFO root fetch - processPackages [nonebot-plugin-pcrjjc]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-pcrjjc-0.1.3.tar.gz]
+[2023-06-10 15:35:43] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-pcrjjc]: success
+[2023-06-10 15:36:34] INFO root fetch - processPackages [nonebot-plugin-crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_crazy_thursday-0.2.6rc1.tar.gz]
+[2023-06-10 15:36:34] INFO root fetch - processPackages [nonebot-plugin-crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_crazy_thursday-0.2.7-py3-none-any.whl.zip]
+[2023-06-10 15:36:34] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-crazy-thursday]: success
+[2023-06-10 15:36:34] INFO root fetch - main [MainThread]: Store serial: [18450974]
