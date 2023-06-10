@@ -13821,3 +13821,27 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-10 16:45:30] INFO root fetch - processPackages [pylyzer]: Remove: archive file [/home/abi/fetcher/tmp/pylyzer-0.1.0b0.tar.gz]
 [2023-06-10 16:45:30] INFO root fetch - main [MainThread]: End processing [pylyzer]: success
 [2023-06-10 16:45:30] INFO root fetch - main [MainThread]: Store serial: [18451506]
+[2023-06-10 16:50:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18451506]
+[2023-06-10 16:50:50] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-10 16:50:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PySocketLib
+[2023-06-10 16:50:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mapbot-frontend
+[2023-06-10 16:50:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: piel
+[2023-06-10 16:50:50] INFO root fetch - processPackages [mapbot-frontend]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-10 16:50:50] INFO root fetch - processPackages [PySocketLib]: New version: [0.2.1] Old Version: [0.2]
+[2023-06-10 16:50:51] WARNING root fetch - processPackages [piel]: Skipping, unable to determine old version
+[2023-06-10 16:50:51] INFO root fetch - main [MainThread]: End processing [piel] error
+[2023-06-10 16:50:51] INFO root fetch - processPackages [PySocketLib]: Downloading https://files.pythonhosted.org/packages/93/5a/ec6df82f6815d56cf67addd0da8d7a78213677ceb323f60da2f14b2e1dcf/PySocketLib-0.2.tar.gz
+[2023-06-10 16:50:51] INFO root fetch - processPackages [mapbot-frontend]: Downloading https://files.pythonhosted.org/packages/c3/15/a76b10735e815f29e69252cfdf5844d8267526ca51d4be0ae611898cf761/mapbot_frontend-0.1.8.tar.gz
+[2023-06-10 16:50:51] INFO root fetch - processPackages [mapbot-frontend]: Downloading https://files.pythonhosted.org/packages/2c/2b/65497a0d97cff1920b70e98b8c0780cb445ac34e1ebb2d6cf5ddf99b0ffc/mapbot_frontend-0.1.9.tar.gz
+[2023-06-10 16:50:51] INFO root fetch - processPackages [PySocketLib]: Downloading https://files.pythonhosted.org/packages/33/71/b96bbd89b8a12322525e32380db5e43a87ce8d08a1bc37ad916e45320259/PySocketLib-0.2.1.tar.gz
+[2023-06-10 16:50:51] INFO root fetch - processPackages [mapbot-frontend]: executing diffoscope
+[2023-06-10 16:50:51] INFO root fetch - processPackages [mapbot-frontend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapbot_frontend-0.1.8.tar.gz tmp/mapbot_frontend-0.1.9.tar.gz --markdown 20230610/m/mapbot-frontend/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-10 16:50:51] INFO root fetch - processPackages [PySocketLib]: executing diffoscope
+[2023-06-10 16:50:51] INFO root fetch - processPackages [PySocketLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySocketLib-0.2.tar.gz tmp/PySocketLib-0.2.1.tar.gz --markdown 20230610/P/PySocketLib/0.2-0.2.1/diff.md --exclude *.pyd
+[2023-06-10 16:50:52] INFO root fetch - processPackages [PySocketLib]: Remove: archive file [/home/abi/fetcher/tmp/PySocketLib-0.2.tar.gz]
+[2023-06-10 16:50:52] INFO root fetch - processPackages [PySocketLib]: Remove: archive file [/home/abi/fetcher/tmp/PySocketLib-0.2.1.tar.gz]
+[2023-06-10 16:50:52] INFO root fetch - main [MainThread]: End processing [PySocketLib]: success
+[2023-06-10 16:50:53] INFO root fetch - processPackages [mapbot-frontend]: Remove: archive file [/home/abi/fetcher/tmp/mapbot_frontend-0.1.8.tar.gz]
+[2023-06-10 16:50:53] INFO root fetch - processPackages [mapbot-frontend]: Remove: archive file [/home/abi/fetcher/tmp/mapbot_frontend-0.1.9.tar.gz]
+[2023-06-10 16:50:53] INFO root fetch - main [MainThread]: End processing [mapbot-frontend]: success
+[2023-06-10 16:50:53] INFO root fetch - main [MainThread]: Store serial: [18451520]
