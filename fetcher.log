@@ -6256,3 +6256,24 @@ EOFError: EOF read where object expected
 [2023-06-10 03:56:18] INFO root fetch - processPackages [cirq-rigetti]: Remove: archive file [/home/abi/fetcher/tmp/cirq_rigetti-1.2.0.dev20230610015021-py3-none-any.whl.zip]
 [2023-06-10 03:56:18] INFO root fetch - main [MainThread]: End processing [cirq-rigetti]: success
 [2023-06-10 03:56:18] INFO root fetch - main [MainThread]: Store serial: [18448038]
+[2023-06-10 04:01:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18448038]
+[2023-06-10 04:01:28] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-06-10 04:01:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pynecone
+[2023-06-10 04:01:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: funcStats
+[2023-06-10 04:01:28] INFO root fetch - processPackages [pynecone]: New version: [0.1.33a4] Old Version: [0.1.33a3]
+[2023-06-10 04:01:28] INFO root fetch - processPackages [funcStats]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-10 04:01:28] INFO root fetch - processPackages [funcStats]: Downloading https://files.pythonhosted.org/packages/12/86/2fcd3186b4c1f710b2076f79151c72b615b908d0f9c15b824dada8525256/funcStats-0.0.2.tar.gz
+[2023-06-10 04:01:28] INFO root fetch - processPackages [pynecone]: Downloading https://files.pythonhosted.org/packages/12/16/cc138b9ceaf7a71db83a88648a824ea8438acde5cf5d83f15b92bedfd321/pynecone-0.1.33a3.tar.gz
+[2023-06-10 04:01:28] INFO root fetch - processPackages [funcStats]: Downloading https://files.pythonhosted.org/packages/de/9c/11f29e123994b39dfbf5e076a2e9a436ffffb46761ceebfdaa0ed95c9223/funcStats-0.0.3.tar.gz
+[2023-06-10 04:01:29] INFO root fetch - processPackages [funcStats]: executing diffoscope
+[2023-06-10 04:01:29] INFO root fetch - processPackages [funcStats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funcStats-0.0.2.tar.gz tmp/funcStats-0.0.3.tar.gz --markdown 20230610/f/funcStats/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-10 04:01:29] INFO root fetch - processPackages [pynecone]: Downloading https://files.pythonhosted.org/packages/7a/22/d8d85a36ed16fd9efa024de29ce6d951b74733cfb29dfe758a734c4f4dee/pynecone-0.1.33a4.tar.gz
+[2023-06-10 04:01:29] INFO root fetch - processPackages [pynecone]: executing diffoscope
+[2023-06-10 04:01:29] INFO root fetch - processPackages [pynecone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynecone-0.1.33a3.tar.gz tmp/pynecone-0.1.33a4.tar.gz --markdown 20230610/p/pynecone/0.1.33a3-0.1.33a4/diff.md --exclude *.pyd
+[2023-06-10 04:01:30] INFO root fetch - processPackages [funcStats]: Remove: archive file [/home/abi/fetcher/tmp/funcStats-0.0.2.tar.gz]
+[2023-06-10 04:01:30] INFO root fetch - processPackages [funcStats]: Remove: archive file [/home/abi/fetcher/tmp/funcStats-0.0.3.tar.gz]
+[2023-06-10 04:01:30] INFO root fetch - main [MainThread]: End processing [funcStats]: success
+[2023-06-10 04:01:30] INFO root fetch - processPackages [pynecone]: Remove: archive file [/home/abi/fetcher/tmp/pynecone-0.1.33a3.tar.gz]
+[2023-06-10 04:01:30] INFO root fetch - processPackages [pynecone]: Remove: archive file [/home/abi/fetcher/tmp/pynecone-0.1.33a4.tar.gz]
+[2023-06-10 04:01:30] INFO root fetch - main [MainThread]: End processing [pynecone]: success
+[2023-06-10 04:01:30] INFO root fetch - main [MainThread]: Store serial: [18448043]
