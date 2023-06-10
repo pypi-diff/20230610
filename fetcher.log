@@ -9501,3 +9501,63 @@ EOFError: EOF read where object expected
 [2023-06-10 10:36:30] INFO root fetch - processPackages [Flask-DigestAuth]: Remove: archive file [/home/abi/fetcher/tmp/Flask-DigestAuth-0.6.2.tar.gz]
 [2023-06-10 10:36:30] INFO root fetch - main [MainThread]: End processing [Flask-DigestAuth]: success
 [2023-06-10 10:36:30] INFO root fetch - main [MainThread]: Store serial: [18449580]
+[2023-06-10 10:41:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18449580]
+[2023-06-10 10:41:38] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-10 10:41:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: omnata-plugin-devkit
+[2023-06-10 10:41:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: findmyorder
+[2023-06-10 10:41:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stocktopus
+[2023-06-10 10:41:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pautobot
+[2023-06-10 10:41:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: siat
+[2023-06-10 10:41:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tff-nightly
+[2023-06-10 10:41:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Nuitka
+[2023-06-10 10:41:38] INFO root fetch - processPackages [pautobot]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-10 10:41:38] INFO root fetch - processPackages [siat]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-06-10 10:41:38] WARNING root fetch - processPackages [stocktopus]: Skipping, unable to determine old version
+[2023-06-10 10:41:38] INFO root fetch - main [MainThread]: End processing [stocktopus] error
+[2023-06-10 10:41:38] INFO root fetch - processPackages [omnata-plugin-devkit]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-10 10:41:38] INFO root fetch - processPackages [findmyorder]: New version: [1.4.0] Old Version: [1.3.9]
+[2023-06-10 10:41:38] INFO root fetch - processPackages [Nuitka]: New version: [1.6.2] Old Version: [1.6.1]
+[2023-06-10 10:41:39] INFO root fetch - processPackages [siat]: Downloading https://files.pythonhosted.org/packages/06/f6/be279fc31b208e72e7713e531c2bc96e96806b33b4dd1fbecf044a4b2472/siat-2.0.8-py3-none-any.whl
+[2023-06-10 10:41:39] INFO root fetch - processPackages [Nuitka]: Downloading https://files.pythonhosted.org/packages/d7/79/3f53f035ca1e64f2bba30da177cf99759cc8d6f4da337e1a27efdd2ea0d0/Nuitka-1.6.1.tar.gz
+[2023-06-10 10:41:39] INFO root fetch - processPackages [tff-nightly]: New version: [0.0.1.dev20230610] Old Version: [0.0.1.dev20230609]
+[2023-06-10 10:41:39] INFO root fetch - processPackages [pautobot]: Downloading https://files.pythonhosted.org/packages/9f/52/faeb139fbabfe65ff760254fa31f131fbb53bf96f7676f890b72a8b89175/pautobot-0.0.8.tar.gz
+[2023-06-10 10:41:39] INFO root fetch - processPackages [findmyorder]: Downloading https://files.pythonhosted.org/packages/52/b2/27542c768cd467bba099bd3795a116a0f5925f906d812f5ba7335c21a9d3/findmyorder-1.3.9.tar.gz
+[2023-06-10 10:41:39] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/a6/03/037aa46c1c15ce197872a42c2494fcfb0dd6fd4c14cebaeaf6f9495b5cbf/omnata_plugin_devkit-0.1.8.tar.gz
+[2023-06-10 10:41:39] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/05/f3/ed3998ff4c3f9c41722971b377eda531f22acee82be20bbc9aa4748b3635/tff_nightly-0.0.1.dev20230609-py2.py3-none-any.whl
+[2023-06-10 10:41:39] INFO root fetch - processPackages [siat]: Downloading https://files.pythonhosted.org/packages/8e/68/ec2c91e1d78b09cff73dba05aa33af579bdafc5cc3fa7a6b02540943cb0a/siat-2.0.9-py3-none-any.whl
+[2023-06-10 10:41:39] INFO root fetch - processPackages [Nuitka]: Downloading https://files.pythonhosted.org/packages/ed/b3/c370af063f0816e5db6a8729cc21bcc46c909bb7d907b0098ff40a27a4ea/Nuitka-1.6.2.tar.gz
+[2023-06-10 10:41:39] INFO root fetch - processPackages [findmyorder]: Downloading https://files.pythonhosted.org/packages/68/9b/4a7b9ffbcd1b6dfb5c479b4789cceab686bfac04087eca67d2b2ad69519e/findmyorder-1.4.0.tar.gz
+[2023-06-10 10:41:39] INFO root fetch - processPackages [Nuitka]: executing diffoscope
+[2023-06-10 10:41:39] INFO root fetch - processPackages [Nuitka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Nuitka-1.6.1.tar.gz tmp/Nuitka-1.6.2.tar.gz --markdown 20230610/N/Nuitka/1.6.1-1.6.2/diff.md --exclude *.pyd
+[2023-06-10 10:41:39] INFO root fetch - processPackages [pautobot]: Downloading https://files.pythonhosted.org/packages/f4/f6/5ec6aeb2fd8851a6cc459db4ba7278878ac6e26fb247f3e18b9d99d1c394/pautobot-0.0.9.tar.gz
+[2023-06-10 10:41:39] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/94/e1/5b8aa743f4bbe600dde3989489613981c39b2dfcd44174b9931cf0c42452/omnata_plugin_devkit-0.1.9.tar.gz
+[2023-06-10 10:41:39] INFO root fetch - processPackages [siat]: executing diffoscope
+[2023-06-10 10:41:39] INFO root fetch - processPackages [siat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/siat-2.0.8-py3-none-any.whl.zip tmp/siat-2.0.9-py3-none-any.whl.zip --markdown 20230610/s/siat/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-06-10 10:41:39] INFO root fetch - processPackages [findmyorder]: executing diffoscope
+[2023-06-10 10:41:39] INFO root fetch - processPackages [findmyorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findmyorder-1.3.9.tar.gz tmp/findmyorder-1.4.0.tar.gz --markdown 20230610/f/findmyorder/1.3.9-1.4.0/diff.md --exclude *.pyd
+[2023-06-10 10:41:39] INFO root fetch - processPackages [omnata-plugin-devkit]: executing diffoscope
+[2023-06-10 10:41:39] INFO root fetch - processPackages [omnata-plugin-devkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_devkit-0.1.8.tar.gz tmp/omnata_plugin_devkit-0.1.9.tar.gz --markdown 20230610/o/omnata-plugin-devkit/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-10 10:41:39] INFO root fetch - processPackages [pautobot]: executing diffoscope
+[2023-06-10 10:41:39] INFO root fetch - processPackages [pautobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pautobot-0.0.8.tar.gz tmp/pautobot-0.0.9.tar.gz --markdown 20230610/p/pautobot/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-10 10:41:39] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/45/de/c302af9e87158f959c02f39d3b9b39dc99250faa52f5fbddac1479325163/tff_nightly-0.0.1.dev20230610-py2.py3-none-any.whl
+[2023-06-10 10:41:40] INFO root fetch - processPackages [tff-nightly]: executing diffoscope
+[2023-06-10 10:41:40] INFO root fetch - processPackages [tff-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tff_nightly-0.0.1.dev20230609-py2.py3-none-any.whl.zip tmp/tff_nightly-0.0.1.dev20230610-py2.py3-none-any.whl.zip --markdown 20230610/t/tff-nightly/0.0.1.dev20230609-0.0.1.dev20230610/diff.md --exclude *.pyd
+[2023-06-10 10:41:40] INFO root fetch - processPackages [findmyorder]: Remove: archive file [/home/abi/fetcher/tmp/findmyorder-1.3.9.tar.gz]
+[2023-06-10 10:41:40] INFO root fetch - processPackages [findmyorder]: Remove: archive file [/home/abi/fetcher/tmp/findmyorder-1.4.0.tar.gz]
+[2023-06-10 10:41:40] INFO root fetch - main [MainThread]: End processing [findmyorder]: success
+[2023-06-10 10:41:40] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.1.8.tar.gz]
+[2023-06-10 10:41:40] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.1.9.tar.gz]
+[2023-06-10 10:41:40] INFO root fetch - main [MainThread]: End processing [omnata-plugin-devkit]: success
+[2023-06-10 10:41:41] INFO root fetch - processPackages [pautobot]: Remove: archive file [/home/abi/fetcher/tmp/pautobot-0.0.8.tar.gz]
+[2023-06-10 10:41:41] INFO root fetch - processPackages [pautobot]: Remove: archive file [/home/abi/fetcher/tmp/pautobot-0.0.9.tar.gz]
+[2023-06-10 10:41:41] INFO root fetch - main [MainThread]: End processing [pautobot]: success
+[2023-06-10 10:41:41] INFO root fetch - processPackages [siat]: Remove: archive file [/home/abi/fetcher/tmp/siat-2.0.8-py3-none-any.whl.zip]
+[2023-06-10 10:41:41] INFO root fetch - processPackages [siat]: Remove: archive file [/home/abi/fetcher/tmp/siat-2.0.9-py3-none-any.whl.zip]
+[2023-06-10 10:41:41] INFO root fetch - main [MainThread]: End processing [siat]: success
+[2023-06-10 10:41:43] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230609-py2.py3-none-any.whl.zip]
+[2023-06-10 10:41:43] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230610-py2.py3-none-any.whl.zip]
+[2023-06-10 10:41:43] INFO root fetch - main [MainThread]: End processing [tff-nightly]: success
+[2023-06-10 10:42:07] INFO root fetch - processPackages [Nuitka]: Remove: archive file [/home/abi/fetcher/tmp/Nuitka-1.6.1.tar.gz]
+[2023-06-10 10:42:07] INFO root fetch - processPackages [Nuitka]: Remove: archive file [/home/abi/fetcher/tmp/Nuitka-1.6.2.tar.gz]
+[2023-06-10 10:42:07] INFO root fetch - main [MainThread]: End processing [Nuitka]: success
+[2023-06-10 10:42:07] INFO root fetch - main [MainThread]: Store serial: [18449599]
