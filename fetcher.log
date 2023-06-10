@@ -11368,3 +11368,24 @@ EOFError: EOF read where object expected
 [2023-06-10 14:02:03] INFO root fetch - processPackages [cbpi4]: Remove: archive file [/home/abi/fetcher/tmp/cbpi4-4.1.7rc1.tar.gz]
 [2023-06-10 14:02:03] INFO root fetch - main [MainThread]: End processing [cbpi4]: success
 [2023-06-10 14:02:03] INFO root fetch - main [MainThread]: Store serial: [18450404]
+[2023-06-10 14:07:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18450404]
+[2023-06-10 14:07:12] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-06-10 14:07:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tf-agents-nightly
+[2023-06-10 14:07:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cbpi4gui
+[2023-06-10 14:07:12] INFO root fetch - processPackages [cbpi4gui]: New version: [0.3.6] Old Version: [0.3.2rc6]
+[2023-06-10 14:07:12] INFO root fetch - processPackages [tf-agents-nightly]: New version: [0.9.0.dev20210812] Old Version: [0.9.0.dev20210811]
+[2023-06-10 14:07:12] INFO root fetch - processPackages [tf-agents-nightly]: Downloading https://files.pythonhosted.org/packages/2f/8e/5b1259fdcefcc564c90842a0c1206b58d6abfbb7914bcbd38710ba780d40/tf_agents_nightly-0.9.0.dev20210811-py3-none-any.whl
+[2023-06-10 14:07:12] INFO root fetch - processPackages [cbpi4gui]: Downloading https://files.pythonhosted.org/packages/02/5e/bb23885ec5015da54e6b5b3a771c317965d5790aa332e4bfa23787f9695d/cbpi4gui-0.3.2rc6.tar.gz
+[2023-06-10 14:07:13] INFO root fetch - processPackages [tf-agents-nightly]: Downloading https://files.pythonhosted.org/packages/ae/8c/d1e1b7b8f7b6ceee69bbf569ab3bd6f79ffd9963ff66079303942550d03d/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl
+[2023-06-10 14:07:13] INFO root fetch - processPackages [tf-agents-nightly]: executing diffoscope
+[2023-06-10 14:07:13] INFO root fetch - processPackages [tf-agents-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_agents_nightly-0.9.0.dev20210811-py3-none-any.whl.zip tmp/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl.zip --markdown 20230610/t/tf-agents-nightly/0.9.0.dev20210811-0.9.0.dev20210812/diff.md --exclude *.pyd
+[2023-06-10 14:07:13] INFO root fetch - processPackages [cbpi4gui]: Downloading https://files.pythonhosted.org/packages/d7/6f/af3bc1270e4dde8d09f3e2d0fc7bb26b1b91c8f5ccf40b39e685a10da026/cbpi4gui-0.3.6.tar.gz
+[2023-06-10 14:07:15] INFO root fetch - processPackages [cbpi4gui]: executing diffoscope
+[2023-06-10 14:07:15] INFO root fetch - processPackages [cbpi4gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cbpi4gui-0.3.2rc6.tar.gz tmp/cbpi4gui-0.3.6.tar.gz --markdown 20230610/c/cbpi4gui/0.3.2rc6-0.3.6/diff.md --exclude *.pyd
+[2023-06-10 14:07:22] INFO root fetch - processPackages [tf-agents-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_agents_nightly-0.9.0.dev20210811-py3-none-any.whl.zip]
+[2023-06-10 14:07:22] INFO root fetch - processPackages [tf-agents-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl.zip]
+[2023-06-10 14:07:22] INFO root fetch - main [MainThread]: End processing [tf-agents-nightly]: success
+[2023-06-10 14:08:41] INFO root fetch - processPackages [cbpi4gui]: Remove: archive file [/home/abi/fetcher/tmp/cbpi4gui-0.3.2rc6.tar.gz]
+[2023-06-10 14:08:41] INFO root fetch - processPackages [cbpi4gui]: Remove: archive file [/home/abi/fetcher/tmp/cbpi4gui-0.3.6.tar.gz]
+[2023-06-10 14:08:41] INFO root fetch - main [MainThread]: End processing [cbpi4gui]: success
+[2023-06-10 14:08:41] INFO root fetch - main [MainThread]: Store serial: [18450408]
