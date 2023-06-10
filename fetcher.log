@@ -16973,3 +16973,69 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-10 21:32:32] INFO root fetch - processPackages [pytest]: Remove: archive file [/home/abi/fetcher/tmp/pytest-7.3.1.tar.gz]
 [2023-06-10 21:32:32] INFO root fetch - main [MainThread]: End processing [pytest]: success
 [2023-06-10 21:32:32] INFO root fetch - main [MainThread]: Store serial: [18453277]
+[2023-06-10 21:37:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18453277]
+[2023-06-10 21:37:42] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-10 21:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pocketsearch
+[2023-06-10 21:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ogc-na
+[2023-06-10 21:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-nats-client
+[2023-06-10 21:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dvc-data
+[2023-06-10 21:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yetl-framework
+[2023-06-10 21:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: proposal
+[2023-06-10 21:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyqint
+[2023-06-10 21:37:42] INFO root fetch - processPackages [yetl-framework]: New version: [1.5.0.dev1] Old Version: [1.4.9]
+[2023-06-10 21:37:42] INFO root fetch - processPackages [proposal]: New version: [7.6.0] Old Version: [7.5.1]
+[2023-06-10 21:37:42] INFO root fetch - processPackages [ogc-na]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-10 21:37:42] INFO root fetch - processPackages [pyqint]: New version: [0.9.7.2] Old Version: [0.9.7.1]
+[2023-06-10 21:37:42] INFO root fetch - processPackages [django-nats-client]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-10 21:37:42] INFO root fetch - processPackages [pocketsearch]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-06-10 21:37:42] INFO root fetch - processPackages [dvc-data]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-06-10 21:37:42] INFO root fetch - processPackages [yetl-framework]: Downloading https://files.pythonhosted.org/packages/16/41/f7c9468164ed6cbc7df78da25d7adbb6bd07f3f9bc65e9e360c33a09d3f7/yetl-framework-1.4.9.tar.gz
+[2023-06-10 21:37:42] INFO root fetch - processPackages [ogc-na]: Downloading https://files.pythonhosted.org/packages/6f/1b/a35ac17c9749cc1cf599391bfd4eab6ac44746f5fbff779a67e85b5af2bb/ogc_na-0.2.8.tar.gz
+[2023-06-10 21:37:42] INFO root fetch - processPackages [dvc-data]: Downloading https://files.pythonhosted.org/packages/7a/79/e1459b54f7b2b38bfea47374e770a133db6adcd0a3e0b85b4e04586b76cf/dvc-data-1.2.0.tar.gz
+[2023-06-10 21:37:42] INFO root fetch - processPackages [pocketsearch]: Downloading https://files.pythonhosted.org/packages/ee/48/d0a39634f4f056ebc9271b6cedcf5429722371e90bea9ef8e05e06d54dff/pocketsearch-0.6.0.tar.gz
+[2023-06-10 21:37:42] INFO root fetch - processPackages [django-nats-client]: Downloading https://files.pythonhosted.org/packages/4e/aa/a565b92387cf309b999dfbc5486208ecf5a62d93d68f837d92b067acf988/django_nats_client-0.4.0.tar.gz
+[2023-06-10 21:37:43] INFO root fetch - processPackages [proposal]: Downloading https://files.pythonhosted.org/packages/00/82/bf8772f15eea535e5c18948080114e5caf77ee6060a84615fc98d16effb5/proposal-7.5.1.tar.gz
+[2023-06-10 21:37:43] INFO root fetch - processPackages [pyqint]: Downloading https://files.pythonhosted.org/packages/e1/6f/f0baaa4fc34d51a75654547ad912cdf525f93b34ef1a95f1294cd34dadbc/pyqint-0.9.7.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-10 21:37:43] INFO root fetch - processPackages [ogc-na]: Downloading https://files.pythonhosted.org/packages/08/7b/d1a326265898c9d52f3a526697d9f0f458664b7dd04889cf4b95fcae2b5a/ogc_na-0.2.9.tar.gz
+[2023-06-10 21:37:43] INFO root fetch - processPackages [ogc-na]: executing diffoscope
+[2023-06-10 21:37:43] INFO root fetch - processPackages [ogc-na]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ogc_na-0.2.8.tar.gz tmp/ogc_na-0.2.9.tar.gz --markdown 20230610/o/ogc-na/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-10 21:37:43] INFO root fetch - processPackages [yetl-framework]: Downloading https://files.pythonhosted.org/packages/51/4b/14e7436e219cd95ee7e0ec547bab738e67200177725679df961762849669/yetl-framework-1.5.0.dev1.tar.gz
+[2023-06-10 21:37:43] INFO root fetch - processPackages [dvc-data]: Downloading https://files.pythonhosted.org/packages/aa/52/f0bb1a0af25f19e379693fb01e64fd98e6f5b441669043686c6deb9e9508/dvc-data-1.2.1.tar.gz
+[2023-06-10 21:37:43] INFO root fetch - processPackages [django-nats-client]: Downloading https://files.pythonhosted.org/packages/65/96/911cdf685a52ac863fdeb8bf6c4e6bdf278fc8a4b876898dbff3bc4a4147/django_nats_client-0.4.1.tar.gz
+[2023-06-10 21:37:43] INFO root fetch - processPackages [pocketsearch]: Downloading https://files.pythonhosted.org/packages/50/5c/d8406f983c0bc51a2f3a363a7feea2febe3017754a507cea0c1e552b986c/pocketsearch-0.7.0.tar.gz
+[2023-06-10 21:37:43] INFO root fetch - processPackages [django-nats-client]: executing diffoscope
+[2023-06-10 21:37:43] INFO root fetch - processPackages [django-nats-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_nats_client-0.4.0.tar.gz tmp/django_nats_client-0.4.1.tar.gz --markdown 20230610/d/django-nats-client/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-10 21:37:43] INFO root fetch - processPackages [pocketsearch]: executing diffoscope
+[2023-06-10 21:37:43] INFO root fetch - processPackages [pocketsearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pocketsearch-0.6.0.tar.gz tmp/pocketsearch-0.7.0.tar.gz --markdown 20230610/p/pocketsearch/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-06-10 21:37:43] INFO root fetch - processPackages [yetl-framework]: executing diffoscope
+[2023-06-10 21:37:43] INFO root fetch - processPackages [yetl-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yetl-framework-1.4.9.tar.gz tmp/yetl-framework-1.5.0.dev1.tar.gz --markdown 20230610/y/yetl-framework/1.4.9-1.5.0.dev1/diff.md --exclude *.pyd
+[2023-06-10 21:37:43] INFO root fetch - processPackages [dvc-data]: executing diffoscope
+[2023-06-10 21:37:43] INFO root fetch - processPackages [dvc-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvc-data-1.2.0.tar.gz tmp/dvc-data-1.2.1.tar.gz --markdown 20230610/d/dvc-data/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-06-10 21:37:43] INFO root fetch - processPackages [proposal]: Downloading https://files.pythonhosted.org/packages/c3/b8/928c6643ce3aaacf0313c7c2fc295c5c8e9ac5728d91d5361b9fbdd2e947/proposal-7.6.0.tar.gz
+[2023-06-10 21:37:43] INFO root fetch - processPackages [proposal]: executing diffoscope
+[2023-06-10 21:37:43] INFO root fetch - processPackages [proposal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proposal-7.5.1.tar.gz tmp/proposal-7.6.0.tar.gz --markdown 20230610/p/proposal/7.5.1-7.6.0/diff.md --exclude *.pyd
+[2023-06-10 21:37:43] INFO root fetch - processPackages [pyqint]: Downloading https://files.pythonhosted.org/packages/c6/91/7907d7a29f5c26c031da3175916525427e9150b5a9ab871b7734076bbf41/pyqint-0.9.7.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-10 21:37:43] INFO root fetch - processPackages [pyqint]: executing diffoscope
+[2023-06-10 21:37:43] INFO root fetch - processPackages [pyqint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqint-0.9.7.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/pyqint-0.9.7.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230610/p/pyqint/0.9.7.1-0.9.7.2/diff.md --exclude *.pyd
+[2023-06-10 21:37:44] INFO root fetch - processPackages [django-nats-client]: Remove: archive file [/home/abi/fetcher/tmp/django_nats_client-0.4.0.tar.gz]
+[2023-06-10 21:37:44] INFO root fetch - processPackages [django-nats-client]: Remove: archive file [/home/abi/fetcher/tmp/django_nats_client-0.4.1.tar.gz]
+[2023-06-10 21:37:44] INFO root fetch - main [MainThread]: End processing [django-nats-client]: success
+[2023-06-10 21:37:44] INFO root fetch - processPackages [pocketsearch]: Remove: archive file [/home/abi/fetcher/tmp/pocketsearch-0.6.0.tar.gz]
+[2023-06-10 21:37:44] INFO root fetch - processPackages [pocketsearch]: Remove: archive file [/home/abi/fetcher/tmp/pocketsearch-0.7.0.tar.gz]
+[2023-06-10 21:37:44] INFO root fetch - main [MainThread]: End processing [pocketsearch]: success
+[2023-06-10 21:37:44] INFO root fetch - processPackages [dvc-data]: Remove: archive file [/home/abi/fetcher/tmp/dvc-data-1.2.0.tar.gz]
+[2023-06-10 21:37:44] INFO root fetch - processPackages [dvc-data]: Remove: archive file [/home/abi/fetcher/tmp/dvc-data-1.2.1.tar.gz]
+[2023-06-10 21:37:44] INFO root fetch - main [MainThread]: End processing [dvc-data]: success
+[2023-06-10 21:37:45] INFO root fetch - processPackages [yetl-framework]: Remove: archive file [/home/abi/fetcher/tmp/yetl-framework-1.4.9.tar.gz]
+[2023-06-10 21:37:45] INFO root fetch - processPackages [yetl-framework]: Remove: archive file [/home/abi/fetcher/tmp/yetl-framework-1.5.0.dev1.tar.gz]
+[2023-06-10 21:37:45] INFO root fetch - main [MainThread]: End processing [yetl-framework]: success
+[2023-06-10 21:37:45] INFO root fetch - processPackages [ogc-na]: Remove: archive file [/home/abi/fetcher/tmp/ogc_na-0.2.8.tar.gz]
+[2023-06-10 21:37:45] INFO root fetch - processPackages [ogc-na]: Remove: archive file [/home/abi/fetcher/tmp/ogc_na-0.2.9.tar.gz]
+[2023-06-10 21:37:45] INFO root fetch - main [MainThread]: End processing [ogc-na]: success
+[2023-06-10 21:37:46] INFO root fetch - processPackages [proposal]: Remove: archive file [/home/abi/fetcher/tmp/proposal-7.5.1.tar.gz]
+[2023-06-10 21:37:46] INFO root fetch - processPackages [proposal]: Remove: archive file [/home/abi/fetcher/tmp/proposal-7.6.0.tar.gz]
+[2023-06-10 21:37:46] INFO root fetch - main [MainThread]: End processing [proposal]: success
+[2023-06-10 21:38:07] INFO root fetch - processPackages [pyqint]: Remove: archive file [/home/abi/fetcher/tmp/pyqint-0.9.7.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-10 21:38:07] INFO root fetch - processPackages [pyqint]: Remove: archive file [/home/abi/fetcher/tmp/pyqint-0.9.7.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-10 21:38:07] INFO root fetch - main [MainThread]: End processing [pyqint]: success
+[2023-06-10 21:38:07] INFO root fetch - main [MainThread]: Store serial: [18453301]
