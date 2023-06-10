@@ -7724,3 +7724,27 @@ EOFError: EOF read where object expected
 [2023-06-10 06:41:39] INFO root fetch - processPackages [coconut-develop]: Remove: archive file [/home/abi/fetcher/tmp/coconut-develop-3.0.2.post0.dev5.tar.gz]
 [2023-06-10 06:41:39] INFO root fetch - main [MainThread]: End processing [coconut-develop]: success
 [2023-06-10 06:41:39] INFO root fetch - main [MainThread]: Store serial: [18448638]
+[2023-06-10 06:46:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18448638]
+[2023-06-10 06:46:48] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-10 06:46:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: helloarefin
+[2023-06-10 06:46:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: basaran
+[2023-06-10 06:46:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yetl-framework
+[2023-06-10 06:46:48] INFO root fetch - processPackages [yetl-framework]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-06-10 06:46:48] INFO root fetch - processPackages [basaran]: New version: [0.19.0] Old Version: [0.18.1]
+[2023-06-10 06:46:48] WARNING root fetch - processPackages [helloarefin]: Skipping, unable to determine old version
+[2023-06-10 06:46:48] INFO root fetch - main [MainThread]: End processing [helloarefin] error
+[2023-06-10 06:46:48] INFO root fetch - processPackages [yetl-framework]: Downloading https://files.pythonhosted.org/packages/8b/f6/06420da98dc83038ecb8783d665b4f7cea12abf80b1ebaa76ecdacdc5c6b/yetl-framework-1.4.8.tar.gz
+[2023-06-10 06:46:48] INFO root fetch - processPackages [basaran]: Downloading https://files.pythonhosted.org/packages/85/73/361359977fa6ff0ec453a9eed688dbd48499186e99a095409c06c0ac7ce5/basaran-0.18.1.tar.gz
+[2023-06-10 06:46:48] INFO root fetch - processPackages [basaran]: Downloading https://files.pythonhosted.org/packages/50/79/fbb536a01feac49605ff0c8ff1cbe1b6fa72e7534d4ba6e541091962699a/basaran-0.19.0.tar.gz
+[2023-06-10 06:46:48] INFO root fetch - processPackages [yetl-framework]: Downloading https://files.pythonhosted.org/packages/16/41/f7c9468164ed6cbc7df78da25d7adbb6bd07f3f9bc65e9e360c33a09d3f7/yetl-framework-1.4.9.tar.gz
+[2023-06-10 06:46:49] INFO root fetch - processPackages [yetl-framework]: executing diffoscope
+[2023-06-10 06:46:49] INFO root fetch - processPackages [yetl-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yetl-framework-1.4.8.tar.gz tmp/yetl-framework-1.4.9.tar.gz --markdown 20230610/y/yetl-framework/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-06-10 06:46:49] INFO root fetch - processPackages [basaran]: executing diffoscope
+[2023-06-10 06:46:49] INFO root fetch - processPackages [basaran]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/basaran-0.18.1.tar.gz tmp/basaran-0.19.0.tar.gz --markdown 20230610/b/basaran/0.18.1-0.19.0/diff.md --exclude *.pyd
+[2023-06-10 06:46:50] INFO root fetch - processPackages [yetl-framework]: Remove: archive file [/home/abi/fetcher/tmp/yetl-framework-1.4.8.tar.gz]
+[2023-06-10 06:46:50] INFO root fetch - processPackages [yetl-framework]: Remove: archive file [/home/abi/fetcher/tmp/yetl-framework-1.4.9.tar.gz]
+[2023-06-10 06:46:50] INFO root fetch - main [MainThread]: End processing [yetl-framework]: success
+[2023-06-10 06:46:50] INFO root fetch - processPackages [basaran]: Remove: archive file [/home/abi/fetcher/tmp/basaran-0.18.1.tar.gz]
+[2023-06-10 06:46:50] INFO root fetch - processPackages [basaran]: Remove: archive file [/home/abi/fetcher/tmp/basaran-0.19.0.tar.gz]
+[2023-06-10 06:46:50] INFO root fetch - main [MainThread]: End processing [basaran]: success
+[2023-06-10 06:46:50] INFO root fetch - main [MainThread]: Store serial: [18448647]
