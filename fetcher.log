@@ -9462,3 +9462,21 @@ EOFError: EOF read where object expected
 [2023-06-10 10:26:08] INFO root fetch - processPackages [chainlib]: Remove: archive file [/home/abi/fetcher/tmp/chainlib-0.4.9.tar.gz]
 [2023-06-10 10:26:08] INFO root fetch - main [MainThread]: End processing [chainlib]: success
 [2023-06-10 10:26:08] INFO root fetch - main [MainThread]: Store serial: [18449560]
+[2023-06-10 10:31:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18449560]
+[2023-06-10 10:31:17] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-10 10:31:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: irails
+[2023-06-10 10:31:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pipen-report
+[2023-06-10 10:31:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lasso-regression-model
+[2023-06-10 10:31:17] INFO root fetch - processPackages [pipen-report]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-10 10:31:17] WARNING root fetch - processPackages [irails]: Skipping, unable to determine old version
+[2023-06-10 10:31:17] INFO root fetch - main [MainThread]: End processing [irails] error
+[2023-06-10 10:31:17] ERROR root fetch - processPackages [lasso-regression-model]: Unable to get metadata: No such project 'lasso-regression-model'
+[2023-06-10 10:31:17] INFO root fetch - main [MainThread]: End processing [lasso-regression-model] error
+[2023-06-10 10:31:17] INFO root fetch - processPackages [pipen-report]: Downloading https://files.pythonhosted.org/packages/f9/ce/1478680d76ea4b3e79258f5024b603b8fc36ed02144fbd0682120be69689/pipen_report-0.8.0.tar.gz
+[2023-06-10 10:31:17] INFO root fetch - processPackages [pipen-report]: Downloading https://files.pythonhosted.org/packages/bd/42/f6e3acca8f25830d56abb0eb2e88b3f896a8c3bf694365bb5ca73fd739d1/pipen_report-0.9.0.tar.gz
+[2023-06-10 10:31:18] INFO root fetch - processPackages [pipen-report]: executing diffoscope
+[2023-06-10 10:31:18] INFO root fetch - processPackages [pipen-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipen_report-0.8.0.tar.gz tmp/pipen_report-0.9.0.tar.gz --markdown 20230610/p/pipen-report/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-10 10:31:19] INFO root fetch - processPackages [pipen-report]: Remove: archive file [/home/abi/fetcher/tmp/pipen_report-0.8.0.tar.gz]
+[2023-06-10 10:31:19] INFO root fetch - processPackages [pipen-report]: Remove: archive file [/home/abi/fetcher/tmp/pipen_report-0.9.0.tar.gz]
+[2023-06-10 10:31:19] INFO root fetch - main [MainThread]: End processing [pipen-report]: success
+[2023-06-10 10:31:19] INFO root fetch - main [MainThread]: Store serial: [18449574]
