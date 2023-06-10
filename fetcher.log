@@ -12522,3 +12522,54 @@ EOFError: EOF read where object expected
 [2023-06-10 15:25:19] INFO root fetch - processPackages [llm-generation-server]: Remove: archive file [/home/abi/fetcher/tmp/llm_generation_server-0.0.9.tar.gz]
 [2023-06-10 15:25:19] INFO root fetch - main [MainThread]: End processing [llm-generation-server]: success
 [2023-06-10 15:25:19] INFO root fetch - main [MainThread]: Store serial: [18450928]
+[2023-06-10 15:30:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18450928]
+[2023-06-10 15:30:27] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-10 15:30:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ripandtear
+[2023-06-10 15:30:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: span-marker
+[2023-06-10 15:30:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: typepy
+[2023-06-10 15:30:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lumix-upnp-dump
+[2023-06-10 15:30:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mapbot-frontend
+[2023-06-10 15:30:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: compactify
+[2023-06-10 15:30:27] INFO root fetch - processPackages [ripandtear]: New version: [0.9.9] Old Version: [0.9.7]
+[2023-06-10 15:30:27] INFO root fetch - processPackages [mapbot-frontend]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-10 15:30:27] INFO root fetch - processPackages [span-marker]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-06-10 15:30:27] WARNING root fetch - processPackages [lumix-upnp-dump]: Skipping, unable to determine old version
+[2023-06-10 15:30:27] INFO root fetch - main [MainThread]: End processing [lumix-upnp-dump] error
+[2023-06-10 15:30:27] INFO root fetch - processPackages [compactify]: New version: [2] Old Version: [1]
+[2023-06-10 15:30:27] INFO root fetch - processPackages [typepy]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-06-10 15:30:27] INFO root fetch - processPackages [mapbot-frontend]: Downloading https://files.pythonhosted.org/packages/c3/15/a76b10735e815f29e69252cfdf5844d8267526ca51d4be0ae611898cf761/mapbot_frontend-0.1.8.tar.gz
+[2023-06-10 15:30:28] INFO root fetch - processPackages [ripandtear]: Downloading https://files.pythonhosted.org/packages/2c/f3/43638a223c6f10c616bb47ef002fae28efb23437b272b531a8027e24e54f/ripandtear-0.9.7.tar.gz
+[2023-06-10 15:30:28] INFO root fetch - processPackages [compactify]: Downloading https://files.pythonhosted.org/packages/dc/a2/04b3916ed7a9d291f919b1462855531288a228af79c1a24828db076fa956/compactify-1.tar.gz
+[2023-06-10 15:30:28] INFO root fetch - processPackages [span-marker]: Downloading https://files.pythonhosted.org/packages/c7/69/342562fd7f92ffb301ce973b8c9d130920971593390e183d67e924ac3e92/span_marker-1.0.1.tar.gz
+[2023-06-10 15:30:28] INFO root fetch - processPackages [typepy]: Downloading https://files.pythonhosted.org/packages/07/7b/fb32933f2a17992af75c0f96e5538a25fecebd439a82dcc31926ba55d336/typepy-1.3.0.tar.gz
+[2023-06-10 15:30:28] INFO root fetch - processPackages [mapbot-frontend]: Downloading https://files.pythonhosted.org/packages/2c/2b/65497a0d97cff1920b70e98b8c0780cb445ac34e1ebb2d6cf5ddf99b0ffc/mapbot_frontend-0.1.9.tar.gz
+[2023-06-10 15:30:28] INFO root fetch - processPackages [mapbot-frontend]: executing diffoscope
+[2023-06-10 15:30:28] INFO root fetch - processPackages [mapbot-frontend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapbot_frontend-0.1.8.tar.gz tmp/mapbot_frontend-0.1.9.tar.gz --markdown 20230610/m/mapbot-frontend/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-10 15:30:28] INFO root fetch - processPackages [compactify]: Downloading https://files.pythonhosted.org/packages/b3/41/5f1c2f255678471ca88d249d073f66c3375407b283c41d18511f7791c1a7/compactify-2.tar.gz
+[2023-06-10 15:30:28] INFO root fetch - processPackages [typepy]: Downloading https://files.pythonhosted.org/packages/ff/68/bb1320314d249de81ea5ec77092d9266dbbc05f91422e87266dc52beb484/typepy-1.3.1.tar.gz
+[2023-06-10 15:30:28] INFO root fetch - processPackages [span-marker]: Downloading https://files.pythonhosted.org/packages/43/e2/31c157cb4db431c26c6d72a3e3af98a7f9f4f6773dc099d0d452a99a9725/span_marker-1.1.0.tar.gz
+[2023-06-10 15:30:28] INFO root fetch - processPackages [ripandtear]: Downloading https://files.pythonhosted.org/packages/bb/33/c3d19a2184a3997ddbec798a026fd98fd336119a50b23ebe1c0233e31aea/ripandtear-0.9.9.tar.gz
+[2023-06-10 15:30:28] INFO root fetch - processPackages [compactify]: executing diffoscope
+[2023-06-10 15:30:28] INFO root fetch - processPackages [compactify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/compactify-1.tar.gz tmp/compactify-2.tar.gz --markdown 20230610/c/compactify/1-2/diff.md --exclude *.pyd
+[2023-06-10 15:30:28] INFO root fetch - processPackages [span-marker]: executing diffoscope
+[2023-06-10 15:30:28] INFO root fetch - processPackages [span-marker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/span_marker-1.0.1.tar.gz tmp/span_marker-1.1.0.tar.gz --markdown 20230610/s/span-marker/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-06-10 15:30:28] INFO root fetch - processPackages [typepy]: executing diffoscope
+[2023-06-10 15:30:28] INFO root fetch - processPackages [typepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typepy-1.3.0.tar.gz tmp/typepy-1.3.1.tar.gz --markdown 20230610/t/typepy/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-06-10 15:30:28] INFO root fetch - processPackages [ripandtear]: executing diffoscope
+[2023-06-10 15:30:28] INFO root fetch - processPackages [ripandtear]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ripandtear-0.9.7.tar.gz tmp/ripandtear-0.9.9.tar.gz --markdown 20230610/r/ripandtear/0.9.7-0.9.9/diff.md --exclude *.pyd
+[2023-06-10 15:30:29] INFO root fetch - processPackages [compactify]: Remove: archive file [/home/abi/fetcher/tmp/compactify-1.tar.gz]
+[2023-06-10 15:30:29] INFO root fetch - processPackages [compactify]: Remove: archive file [/home/abi/fetcher/tmp/compactify-2.tar.gz]
+[2023-06-10 15:30:29] INFO root fetch - main [MainThread]: End processing [compactify]: success
+[2023-06-10 15:30:29] INFO root fetch - processPackages [span-marker]: Remove: archive file [/home/abi/fetcher/tmp/span_marker-1.0.1.tar.gz]
+[2023-06-10 15:30:29] INFO root fetch - processPackages [span-marker]: Remove: archive file [/home/abi/fetcher/tmp/span_marker-1.1.0.tar.gz]
+[2023-06-10 15:30:29] INFO root fetch - main [MainThread]: End processing [span-marker]: success
+[2023-06-10 15:30:29] INFO root fetch - processPackages [ripandtear]: Remove: archive file [/home/abi/fetcher/tmp/ripandtear-0.9.7.tar.gz]
+[2023-06-10 15:30:29] INFO root fetch - processPackages [ripandtear]: Remove: archive file [/home/abi/fetcher/tmp/ripandtear-0.9.9.tar.gz]
+[2023-06-10 15:30:29] INFO root fetch - main [MainThread]: End processing [ripandtear]: success
+[2023-06-10 15:30:30] INFO root fetch - processPackages [typepy]: Remove: archive file [/home/abi/fetcher/tmp/typepy-1.3.0.tar.gz]
+[2023-06-10 15:30:30] INFO root fetch - processPackages [typepy]: Remove: archive file [/home/abi/fetcher/tmp/typepy-1.3.1.tar.gz]
+[2023-06-10 15:30:30] INFO root fetch - main [MainThread]: End processing [typepy]: success
+[2023-06-10 15:30:30] INFO root fetch - processPackages [mapbot-frontend]: Remove: archive file [/home/abi/fetcher/tmp/mapbot_frontend-0.1.8.tar.gz]
+[2023-06-10 15:30:30] INFO root fetch - processPackages [mapbot-frontend]: Remove: archive file [/home/abi/fetcher/tmp/mapbot_frontend-0.1.9.tar.gz]
+[2023-06-10 15:30:30] INFO root fetch - main [MainThread]: End processing [mapbot-frontend]: success
+[2023-06-10 15:30:30] INFO root fetch - main [MainThread]: Store serial: [18450947]
