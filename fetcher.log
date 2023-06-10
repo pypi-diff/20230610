@@ -7847,3 +7847,105 @@ EOFError: EOF read where object expected
 [2023-06-10 07:02:24] INFO root fetch - processPackages [neuprint-python]: Remove: archive file [/home/abi/fetcher/tmp/neuprint-python-0.4.9.tar.gz]
 [2023-06-10 07:02:24] INFO root fetch - main [MainThread]: End processing [neuprint-python]: success
 [2023-06-10 07:02:24] INFO root fetch - main [MainThread]: Store serial: [18448676]
+[2023-06-10 07:07:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18448676]
+[2023-06-10 07:07:33] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-10 07:07:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stim
+[2023-06-10 07:07:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: platformdirs
+[2023-06-10 07:07:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo13-addon-base-view-inheritance-extension
+[2023-06-10 07:07:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: filelock
+[2023-06-10 07:07:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: stimcirq
+[2023-06-10 07:07:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sinter
+[2023-06-10 07:07:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: multi-model-server
+[2023-06-10 07:07:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addon-base-time-parameter
+[2023-06-10 07:07:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo14-addon-base-model-restrict-update
+[2023-06-10 07:07:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ugrad
+[2023-06-10 07:07:33] INFO root fetch - processPackages [odoo13-addon-base-view-inheritance-extension]: New version: [13.0.2.0.1.dev1] Old Version: [13.0.2.0.0]
+[2023-06-10 07:07:33] INFO root fetch - processPackages [platformdirs]: New version: [3.5.3] Old Version: [3.5.2]
+[2023-06-10 07:07:33] INFO root fetch - processPackages [filelock]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-06-10 07:07:33] INFO root fetch - processPackages [odoo14-addon-base-time-parameter]: New version: [14.0.3.1.0] Old Version: [14.0.3.0.6.dev2]
+[2023-06-10 07:07:33] INFO root fetch - processPackages [multi-model-server]: New version: [1.1.9b20230601] Old Version: [1.1.9]
+[2023-06-10 07:07:33] INFO root fetch - processPackages [odoo13-addon-base-view-inheritance-extension]: Downloading https://files.pythonhosted.org/packages/25/df/a13a6a9146df20876b9f50a909995d48bcc4646a2680606ba0895dcf4f46/odoo13_addon_base_view_inheritance_extension-13.0.2.0.0-py3-none-any.whl
+[2023-06-10 07:07:33] INFO root fetch - processPackages [odoo14-addon-base-model-restrict-update]: New version: [14.0.1.1.1.dev2] Old Version: [14.0.1.1.1.dev1]
+[2023-06-10 07:07:33] WARNING root fetch - processPackages [ugrad]: Skipping, unable to determine old version
+[2023-06-10 07:07:33] INFO root fetch - processPackages [ugrad]: Start processing: odoo-addon-base-time-window
+[2023-06-10 07:07:33] INFO root fetch - main [MainThread]: End processing [ugrad] error
+[2023-06-10 07:07:33] INFO root fetch - processPackages [sinter]: New version: [1.9.dev1657429876] Old Version: [1.9.dev1656756326]
+[2023-06-10 07:07:33] INFO root fetch - processPackages [stimcirq]: New version: [1.9.dev1657429876] Old Version: [1.9.dev1656756326]
+[2023-06-10 07:07:33] INFO root fetch - processPackages [platformdirs]: Downloading https://files.pythonhosted.org/packages/0e/e4/69bff18235f446e5c7ad4139321a60f3f5b5a5edd5a41d2364b4278a6f38/platformdirs-3.5.2.tar.gz
+[2023-06-10 07:07:33] INFO root fetch - processPackages [odoo14-addon-base-time-parameter]: Downloading https://files.pythonhosted.org/packages/21/10/b91fd9952fe73ec0f1ec29481072b51e5ea263e3c3e80a21446f239259ab/odoo14_addon_base_time_parameter-14.0.3.0.6.dev2-py3-none-any.whl
+[2023-06-10 07:07:33] INFO root fetch - processPackages [filelock]: Downloading https://files.pythonhosted.org/packages/0b/dc/eac02350f06c6ed78a655ceb04047df01b02c6b7ea3fc02d4df24ca87d24/filelock-3.9.0.tar.gz
+[2023-06-10 07:07:33] INFO root fetch - processPackages [stim]: New version: [1.9.dev1657429876] Old Version: [1.9.dev1656756326]
+[2023-06-10 07:07:33] INFO root fetch - processPackages [odoo-addon-base-time-window]: New version: [16.0.1.0.0.6] Old Version: [16.0.1.0.0.5]
+[2023-06-10 07:07:33] INFO root fetch - processPackages [multi-model-server]: executing diffoscope
+[2023-06-10 07:07:33] INFO root fetch - processPackages [multi-model-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multi_model_server-1.1.9-py2.py3-none-any.whl.zip tmp/multi_model_server-1.1.9b20230601-py2.py3-none-any.whl.zip --markdown 20230610/m/multi-model-server/1.1.9-1.1.9b20230601/diff.md --exclude *.pyd
+[2023-06-10 07:07:33] INFO root fetch - processPackages [sinter]: Downloading https://files.pythonhosted.org/packages/df/c6/cb2622852c76647e7b6ad9a7a7e10f4e2cac9ecdfd523ac68df0bfc130af/sinter-1.9.dev1656756326.tar.gz
+[2023-06-10 07:07:33] INFO root fetch - processPackages [stimcirq]: Downloading https://files.pythonhosted.org/packages/ec/fe/38fc995ba6685f64103f3cd62faa49cd869af074b36e401597d9d2b0278d/stimcirq-1.9.dev1656756326.tar.gz
+[2023-06-10 07:07:33] INFO root fetch - processPackages [odoo13-addon-base-view-inheritance-extension]: Downloading https://files.pythonhosted.org/packages/f9/33/9767fb7268e0555be09a9cc63f1aead220c57e1ecfd7005077271998e502/odoo13_addon_base_view_inheritance_extension-13.0.2.0.1.dev1-py3-none-any.whl
+[2023-06-10 07:07:33] INFO root fetch - processPackages [odoo14-addon-base-model-restrict-update]: Downloading https://files.pythonhosted.org/packages/cc/c5/c20488f2b9d7e24025b5a27fac2b6971aab21a50fa6a5adbd619487471b9/odoo14_addon_base_model_restrict_update-14.0.1.1.1.dev1-py3-none-any.whl
+[2023-06-10 07:07:33] INFO root fetch - processPackages [odoo14-addon-base-time-parameter]: Downloading https://files.pythonhosted.org/packages/76/b9/3e213f55d49b251e8006a42594e8b69c4530a40a078f0f51c63839603b49/odoo14_addon_base_time_parameter-14.0.3.1.0-py3-none-any.whl
+[2023-06-10 07:07:33] INFO root fetch - processPackages [filelock]: Downloading https://files.pythonhosted.org/packages/26/25/b1afa817675554ee17f392cae6a5783307448bd8f26d677449b9b8bbab20/filelock-3.9.1.tar.gz
+[2023-06-10 07:07:33] INFO root fetch - processPackages [stim]: Downloading https://files.pythonhosted.org/packages/3c/b5/73354eb92a2d990acfb9c201ee8681aa2f88c6bd8bebf6365b8315ce918f/stim-1.9.dev1656756326.tar.gz
+[2023-06-10 07:07:33] INFO root fetch - processPackages [odoo-addon-base-time-window]: Downloading https://files.pythonhosted.org/packages/6e/14/c6be058bb741e0f48649a51e8f69310ceef99c8e2bc0cf868958df51c91d/odoo_addon_base_time_window-16.0.1.0.0.5-py3-none-any.whl
+[2023-06-10 07:07:33] INFO root fetch - processPackages [odoo14-addon-base-time-parameter]: executing diffoscope
+[2023-06-10 07:07:33] INFO root fetch - processPackages [odoo14-addon-base-time-parameter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_base_time_parameter-14.0.3.0.6.dev2-py3-none-any.whl.zip tmp/odoo14_addon_base_time_parameter-14.0.3.1.0-py3-none-any.whl.zip --markdown 20230610/o/odoo14-addon-base-time-parameter/14.0.3.0.6.dev2-14.0.3.1.0/diff.md --exclude *.pyd
+[2023-06-10 07:07:33] INFO root fetch - processPackages [platformdirs]: Downloading https://files.pythonhosted.org/packages/d2/5d/29eed8861e07378ef46e956650615a9677f8f48df7911674f923236ced2b/platformdirs-3.5.3.tar.gz
+[2023-06-10 07:07:33] INFO root fetch - processPackages [odoo13-addon-base-view-inheritance-extension]: executing diffoscope
+[2023-06-10 07:07:33] INFO root fetch - processPackages [odoo13-addon-base-view-inheritance-extension]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_base_view_inheritance_extension-13.0.2.0.0-py3-none-any.whl.zip tmp/odoo13_addon_base_view_inheritance_extension-13.0.2.0.1.dev1-py3-none-any.whl.zip --markdown 20230610/o/odoo13-addon-base-view-inheritance-extension/13.0.2.0.0-13.0.2.0.1.dev1/diff.md --exclude *.pyd
+[2023-06-10 07:07:33] INFO root fetch - processPackages [platformdirs]: executing diffoscope
+[2023-06-10 07:07:33] INFO root fetch - processPackages [platformdirs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/platformdirs-3.5.2.tar.gz tmp/platformdirs-3.5.3.tar.gz --markdown 20230610/p/platformdirs/3.5.2-3.5.3/diff.md --exclude *.pyd
+[2023-06-10 07:07:33] INFO root fetch - processPackages [filelock]: executing diffoscope
+[2023-06-10 07:07:33] INFO root fetch - processPackages [filelock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/filelock-3.9.0.tar.gz tmp/filelock-3.9.1.tar.gz --markdown 20230610/f/filelock/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-06-10 07:07:34] INFO root fetch - processPackages [odoo-addon-base-time-window]: Downloading https://files.pythonhosted.org/packages/53/75/f782a41e5b2b61bade146a00a644c210c601ca52fa60c17cbb2f3be68218/odoo_addon_base_time_window-16.0.1.0.0.6-py3-none-any.whl
+[2023-06-10 07:07:34] INFO root fetch - processPackages [odoo14-addon-base-model-restrict-update]: Downloading https://files.pythonhosted.org/packages/7a/9f/c8901fb8627487295ecf88dbae8d8d76ea2abd62d57ad018c801635755aa/odoo14_addon_base_model_restrict_update-14.0.1.1.1.dev2-py3-none-any.whl
+[2023-06-10 07:07:34] INFO root fetch - processPackages [sinter]: Downloading https://files.pythonhosted.org/packages/fd/5e/bd22cf7318b95a6cb630aede242c37ca8e376f51d3c73522d4d3fafd60c3/sinter-1.9.dev1657429876.tar.gz
+[2023-06-10 07:07:34] INFO root fetch - processPackages [stimcirq]: Downloading https://files.pythonhosted.org/packages/a2/fe/5fa281db7d139ef59a3c4c47c96940bf9f3fab0d0017ea452412c0cfc8d3/stimcirq-1.9.dev1657429876.tar.gz
+[2023-06-10 07:07:34] INFO root fetch - processPackages [stim]: Downloading https://files.pythonhosted.org/packages/0e/9c/5ba52c312bd56598b3625675b062eed876f9e2248d957e47c58050cad31a/stim-1.9.dev1657429876.tar.gz
+[2023-06-10 07:07:34] INFO root fetch - processPackages [odoo-addon-base-time-window]: executing diffoscope
+[2023-06-10 07:07:34] INFO root fetch - processPackages [odoo-addon-base-time-window]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_time_window-16.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_base_time_window-16.0.1.0.0.6-py3-none-any.whl.zip --markdown 20230610/o/odoo-addon-base-time-window/16.0.1.0.0.5-16.0.1.0.0.6/diff.md --exclude *.pyd
+[2023-06-10 07:07:34] INFO root fetch - processPackages [odoo14-addon-base-model-restrict-update]: executing diffoscope
+[2023-06-10 07:07:34] INFO root fetch - processPackages [odoo14-addon-base-model-restrict-update]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_base_model_restrict_update-14.0.1.1.1.dev1-py3-none-any.whl.zip tmp/odoo14_addon_base_model_restrict_update-14.0.1.1.1.dev2-py3-none-any.whl.zip --markdown 20230610/o/odoo14-addon-base-model-restrict-update/14.0.1.1.1.dev1-14.0.1.1.1.dev2/diff.md --exclude *.pyd
+[2023-06-10 07:07:34] INFO root fetch - processPackages [sinter]: executing diffoscope
+[2023-06-10 07:07:34] INFO root fetch - processPackages [sinter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sinter-1.9.dev1656756326.tar.gz tmp/sinter-1.9.dev1657429876.tar.gz --markdown 20230610/s/sinter/1.9.dev1656756326-1.9.dev1657429876/diff.md --exclude *.pyd
+[2023-06-10 07:07:34] INFO root fetch - processPackages [stimcirq]: executing diffoscope
+[2023-06-10 07:07:34] INFO root fetch - processPackages [stimcirq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stimcirq-1.9.dev1656756326.tar.gz tmp/stimcirq-1.9.dev1657429876.tar.gz --markdown 20230610/s/stimcirq/1.9.dev1656756326-1.9.dev1657429876/diff.md --exclude *.pyd
+[2023-06-10 07:07:34] INFO root fetch - processPackages [stim]: executing diffoscope
+[2023-06-10 07:07:34] INFO root fetch - processPackages [stim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stim-1.9.dev1656756326.tar.gz tmp/stim-1.9.dev1657429876.tar.gz --markdown 20230610/s/stim/1.9.dev1656756326-1.9.dev1657429876/diff.md --exclude *.pyd
+[2023-06-10 07:07:35] INFO root fetch - processPackages [odoo14-addon-base-time-parameter]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_base_time_parameter-14.0.3.0.6.dev2-py3-none-any.whl.zip]
+[2023-06-10 07:07:35] INFO root fetch - processPackages [odoo14-addon-base-time-parameter]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_base_time_parameter-14.0.3.1.0-py3-none-any.whl.zip]
+[2023-06-10 07:07:35] INFO root fetch - processPackages [odoo14-addon-base-time-parameter]: Start processing: odoo-addon-base-view-inheritance-extension
+[2023-06-10 07:07:35] INFO root fetch - main [MainThread]: End processing [odoo14-addon-base-time-parameter]: success
+[2023-06-10 07:07:35] INFO root fetch - processPackages [filelock]: Remove: archive file [/home/abi/fetcher/tmp/filelock-3.9.0.tar.gz]
+[2023-06-10 07:07:35] INFO root fetch - processPackages [filelock]: Remove: archive file [/home/abi/fetcher/tmp/filelock-3.9.1.tar.gz]
+[2023-06-10 07:07:35] INFO root fetch - main [MainThread]: End processing [filelock]: success
+[2023-06-10 07:07:35] INFO root fetch - processPackages [odoo-addon-base-view-inheritance-extension]: New version: [16.0.1.0.0.8] Old Version: [16.0.1.0.0.7]
+[2023-06-10 07:07:35] INFO root fetch - processPackages [odoo13-addon-base-view-inheritance-extension]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_base_view_inheritance_extension-13.0.2.0.0-py3-none-any.whl.zip]
+[2023-06-10 07:07:35] INFO root fetch - processPackages [odoo13-addon-base-view-inheritance-extension]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_base_view_inheritance_extension-13.0.2.0.1.dev1-py3-none-any.whl.zip]
+[2023-06-10 07:07:35] INFO root fetch - main [MainThread]: End processing [odoo13-addon-base-view-inheritance-extension]: success
+[2023-06-10 07:07:35] INFO root fetch - processPackages [odoo14-addon-base-model-restrict-update]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_base_model_restrict_update-14.0.1.1.1.dev1-py3-none-any.whl.zip]
+[2023-06-10 07:07:35] INFO root fetch - processPackages [odoo14-addon-base-model-restrict-update]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_base_model_restrict_update-14.0.1.1.1.dev2-py3-none-any.whl.zip]
+[2023-06-10 07:07:35] INFO root fetch - main [MainThread]: End processing [odoo14-addon-base-model-restrict-update]: success
+[2023-06-10 07:07:35] INFO root fetch - processPackages [odoo-addon-base-view-inheritance-extension]: Downloading https://files.pythonhosted.org/packages/c5/a6/92d295d6cfe069ead40b75b40e2811b78973becd81d35a956590955b9944/odoo_addon_base_view_inheritance_extension-16.0.1.0.0.7-py3-none-any.whl
+[2023-06-10 07:07:35] INFO root fetch - processPackages [platformdirs]: Remove: archive file [/home/abi/fetcher/tmp/platformdirs-3.5.2.tar.gz]
+[2023-06-10 07:07:35] INFO root fetch - processPackages [platformdirs]: Remove: archive file [/home/abi/fetcher/tmp/platformdirs-3.5.3.tar.gz]
+[2023-06-10 07:07:35] INFO root fetch - main [MainThread]: End processing [platformdirs]: success
+[2023-06-10 07:07:35] INFO root fetch - processPackages [odoo-addon-base-time-window]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_time_window-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-06-10 07:07:35] INFO root fetch - processPackages [odoo-addon-base-time-window]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_time_window-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2023-06-10 07:07:35] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-time-window]: success
+[2023-06-10 07:07:36] INFO root fetch - processPackages [stimcirq]: Remove: archive file [/home/abi/fetcher/tmp/stimcirq-1.9.dev1656756326.tar.gz]
+[2023-06-10 07:07:36] INFO root fetch - processPackages [stimcirq]: Remove: archive file [/home/abi/fetcher/tmp/stimcirq-1.9.dev1657429876.tar.gz]
+[2023-06-10 07:07:36] INFO root fetch - main [MainThread]: End processing [stimcirq]: success
+[2023-06-10 07:07:36] INFO root fetch - processPackages [sinter]: Remove: archive file [/home/abi/fetcher/tmp/sinter-1.9.dev1656756326.tar.gz]
+[2023-06-10 07:07:36] INFO root fetch - processPackages [sinter]: Remove: archive file [/home/abi/fetcher/tmp/sinter-1.9.dev1657429876.tar.gz]
+[2023-06-10 07:07:36] INFO root fetch - main [MainThread]: End processing [sinter]: success
+[2023-06-10 07:07:36] INFO root fetch - processPackages [odoo-addon-base-view-inheritance-extension]: Downloading https://files.pythonhosted.org/packages/be/40/b593eccef11563c45e219bc497248f1d09125fe039ba364e7cd733bfd933/odoo_addon_base_view_inheritance_extension-16.0.1.0.0.8-py3-none-any.whl
+[2023-06-10 07:07:36] INFO root fetch - processPackages [odoo-addon-base-view-inheritance-extension]: executing diffoscope
+[2023-06-10 07:07:36] INFO root fetch - processPackages [odoo-addon-base-view-inheritance-extension]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_view_inheritance_extension-16.0.1.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_base_view_inheritance_extension-16.0.1.0.0.8-py3-none-any.whl.zip --markdown 20230610/o/odoo-addon-base-view-inheritance-extension/16.0.1.0.0.7-16.0.1.0.0.8/diff.md --exclude *.pyd
+[2023-06-10 07:07:37] INFO root fetch - processPackages [odoo-addon-base-view-inheritance-extension]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_view_inheritance_extension-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2023-06-10 07:07:37] INFO root fetch - processPackages [odoo-addon-base-view-inheritance-extension]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_view_inheritance_extension-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2023-06-10 07:07:37] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-view-inheritance-extension]: success
+[2023-06-10 07:07:40] INFO root fetch - processPackages [stim]: Remove: archive file [/home/abi/fetcher/tmp/stim-1.9.dev1656756326.tar.gz]
+[2023-06-10 07:07:40] INFO root fetch - processPackages [stim]: Remove: archive file [/home/abi/fetcher/tmp/stim-1.9.dev1657429876.tar.gz]
+[2023-06-10 07:07:40] INFO root fetch - main [MainThread]: End processing [stim]: success
+[2023-06-10 07:10:33] ERROR root fetch - processPackages [multi-model-server]: Timeout during execution of pkgdiff
+[2023-06-10 07:10:33] INFO root fetch - main [MainThread]: End processing [multi-model-server] error
+[2023-06-10 07:10:33] INFO root fetch - main [MainThread]: Store serial: [18448731]
