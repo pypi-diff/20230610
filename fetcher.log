@@ -11052,3 +11052,81 @@ EOFError: EOF read where object expected
 [2023-06-10 13:35:48] INFO root fetch - processPackages [photobooth-app]: Remove: archive file [/home/abi/fetcher/tmp/photobooth_app-0.1.0b5.tar.gz]
 [2023-06-10 13:35:48] INFO root fetch - main [MainThread]: End processing [photobooth-app]: success
 [2023-06-10 13:35:48] INFO root fetch - main [MainThread]: Store serial: [18450256]
+[2023-06-10 13:40:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18450256]
+[2023-06-10 13:40:59] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-10 13:40:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bigdl-nano
+[2023-06-10 13:40:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chat-box-streamlit
+[2023-06-10 13:40:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sql-field-report
+[2023-06-10 13:40:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: crossfiledialog
+[2023-06-10 13:40:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: AmberMDrun
+[2023-06-10 13:40:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kdslibs
+[2023-06-10 13:40:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fabrictestbed-extensions
+[2023-06-10 13:40:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: chachacha
+[2023-06-10 13:40:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lnschema_bionty
+[2023-06-10 13:40:59] INFO root fetch - processPackages [sql-field-report]: New version: [0.2.0] Old Version: [0.1.7]
+[2023-06-10 13:40:59] INFO root fetch - processPackages [AmberMDrun]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-10 13:40:59] WARNING root fetch - processPackages [chat-box-streamlit]: Skipping, unable to determine old version
+[2023-06-10 13:40:59] INFO root fetch - processPackages [chachacha]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-06-10 13:40:59] INFO root fetch - main [MainThread]: End processing [chat-box-streamlit] error
+[2023-06-10 13:40:59] INFO root fetch - processPackages [crossfiledialog]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-10 13:40:59] INFO root fetch - processPackages [kdslibs]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-10 13:40:59] INFO root fetch - processPackages [lnschema_bionty]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-06-10 13:40:59] INFO root fetch - processPackages [fabrictestbed-extensions]: New version: [1.5.0rc3] Old Version: [1.5.0rc2]
+[2023-06-10 13:40:59] INFO root fetch - processPackages [bigdl-nano]: New version: [2.4.0b20230610] Old Version: [2.4.0b20230609]
+[2023-06-10 13:40:59] INFO root fetch - processPackages [sql-field-report]: Downloading https://files.pythonhosted.org/packages/65/59/8e21ffee9002aa5f8532839970cc04c684c14ea0bc4f23c84cfd36b6b14a/sql_field_report-0.1.7.tar.gz
+[2023-06-10 13:40:59] INFO root fetch - processPackages [kdslibs]: Downloading https://files.pythonhosted.org/packages/9c/6a/77876e3d613df2e54d7f8f4fe8d89985c87a944c18e51f0665b69cee9bce/kdslibs-0.0.3.tar.gz
+[2023-06-10 13:40:59] INFO root fetch - processPackages [fabrictestbed-extensions]: Downloading https://files.pythonhosted.org/packages/d0/fc/bfc17e84d553259bfbe47b693327c316d72ef87fe3c64aeada1e5ea9ad5a/fabrictestbed-extensions-1.5.0rc2.tar.gz
+[2023-06-10 13:40:59] INFO root fetch - processPackages [lnschema_bionty]: Downloading https://files.pythonhosted.org/packages/12/bb/32a1cbaa73ee4f038a3540bbbf0b3d7e27f22edcdbd7d7c80667fef68afd/lnschema_bionty-0.8.1.tar.gz
+[2023-06-10 13:40:59] INFO root fetch - processPackages [AmberMDrun]: Downloading https://files.pythonhosted.org/packages/b4/d4/ba615c848cd91799c5be3f76cadb93a66892c729e88166d7d8282d093645/AmberMDrun-0.0.3.tar.gz
+[2023-06-10 13:40:59] INFO root fetch - processPackages [fabrictestbed-extensions]: Downloading https://files.pythonhosted.org/packages/d1/90/bae5b380c6d069ebffc9846c33c9533d37bf92f5ab459a5f5825464ab0fa/fabrictestbed-extensions-1.5.0rc3.tar.gz
+[2023-06-10 13:40:59] INFO root fetch - processPackages [chachacha]: Downloading https://files.pythonhosted.org/packages/cb/98/32658b950b04725b3a7ac96cdfd456450886bffdf59b1fe7e5665c0b89b0/chachacha-0.2.3.tar.gz
+[2023-06-10 13:40:59] INFO root fetch - processPackages [crossfiledialog]: Downloading https://files.pythonhosted.org/packages/a1/56/b7c7707da5241f2dda5eb14172a1e1a4fbe6aec6be4cf15417966347def1/crossfiledialog-0.1.1.tar.gz
+[2023-06-10 13:40:59] INFO root fetch - processPackages [kdslibs]: Downloading https://files.pythonhosted.org/packages/2c/60/6434754a0e2a362fb8958db240b343f51c8727471d6f00c33d3eaa71e5b3/kdslibs-0.0.4.tar.gz
+[2023-06-10 13:40:59] INFO root fetch - processPackages [lnschema_bionty]: Downloading https://files.pythonhosted.org/packages/ed/64/d2babdba858b56f5825e7ac3e2d375cf42dcf278f3c6ad9daf179e40b556/lnschema_bionty-0.9.0.tar.gz
+[2023-06-10 13:40:59] INFO root fetch - processPackages [fabrictestbed-extensions]: executing diffoscope
+[2023-06-10 13:40:59] INFO root fetch - processPackages [fabrictestbed-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fabrictestbed-extensions-1.5.0rc2.tar.gz tmp/fabrictestbed-extensions-1.5.0rc3.tar.gz --markdown 20230610/f/fabrictestbed-extensions/1.5.0rc2-1.5.0rc3/diff.md --exclude *.pyd
+[2023-06-10 13:40:59] INFO root fetch - processPackages [bigdl-nano]: Downloading https://files.pythonhosted.org/packages/5f/40/44c194fdbee4ecef3ca85daf1f5eeeeebda04af35a6d8adcfc2a1623d90a/bigdl_nano-2.4.0b20230609-py3-none-win_amd64.whl
+[2023-06-10 13:40:59] INFO root fetch - processPackages [sql-field-report]: Downloading https://files.pythonhosted.org/packages/1a/22/5978722366c7d054fc8d00c44a757786c1dd484510c74e4c87dd5914aefe/sql_field_report-0.2.0.tar.gz
+[2023-06-10 13:40:59] INFO root fetch - processPackages [lnschema_bionty]: executing diffoscope
+[2023-06-10 13:40:59] INFO root fetch - processPackages [lnschema_bionty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnschema_bionty-0.8.1.tar.gz tmp/lnschema_bionty-0.9.0.tar.gz --markdown 20230610/l/lnschema_bionty/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-06-10 13:40:59] INFO root fetch - processPackages [AmberMDrun]: Downloading https://files.pythonhosted.org/packages/ed/d0/cf9b1bd460d898e4f264c3d2af7ef5838fa6c67044a2a798d4c1bf33bd96/AmberMDrun-0.0.4.zip
+[2023-06-10 13:40:59] INFO root fetch - processPackages [kdslibs]: executing diffoscope
+[2023-06-10 13:40:59] INFO root fetch - processPackages [kdslibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kdslibs-0.0.3.tar.gz tmp/kdslibs-0.0.4.tar.gz --markdown 20230610/k/kdslibs/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-10 13:40:59] INFO root fetch - processPackages [sql-field-report]: executing diffoscope
+[2023-06-10 13:40:59] INFO root fetch - processPackages [sql-field-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sql_field_report-0.1.7.tar.gz tmp/sql_field_report-0.2.0.tar.gz --markdown 20230610/s/sql-field-report/0.1.7-0.2.0/diff.md --exclude *.pyd
+[2023-06-10 13:40:59] INFO root fetch - processPackages [chachacha]: Downloading https://files.pythonhosted.org/packages/da/41/798fb75ff675e1d7fd82db44a6f1b8f2c7ddc89ab717534aa1bdb9a1c45e/chachacha-0.2.4.tar.gz
+[2023-06-10 13:40:59] INFO root fetch - processPackages [crossfiledialog]: Downloading https://files.pythonhosted.org/packages/2b/d3/669104dcf88a6b9acbe2f45a59055c0790719a3d2374ffe140195faa6a53/crossfiledialog-0.1.2.tar.gz
+[2023-06-10 13:40:59] INFO root fetch - processPackages [chachacha]: executing diffoscope
+[2023-06-10 13:40:59] INFO root fetch - processPackages [chachacha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chachacha-0.2.3.tar.gz tmp/chachacha-0.2.4.tar.gz --markdown 20230610/c/chachacha/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-06-10 13:40:59] INFO root fetch - processPackages [bigdl-nano]: Downloading https://files.pythonhosted.org/packages/82/fb/8de0898f01647a3d326e71e7d6cc62bad9b47f2c3eed037283219468ec12/bigdl_nano-2.4.0b20230610-py3-none-win_amd64.whl
+[2023-06-10 13:40:59] INFO root fetch - processPackages [AmberMDrun]: executing diffoscope
+[2023-06-10 13:40:59] INFO root fetch - processPackages [AmberMDrun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AmberMDrun-0.0.3.tar.gz tmp/AmberMDrun-0.0.4.zip --markdown 20230610/A/AmberMDrun/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-10 13:40:59] INFO root fetch - processPackages [crossfiledialog]: executing diffoscope
+[2023-06-10 13:40:59] INFO root fetch - processPackages [crossfiledialog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crossfiledialog-0.1.1.tar.gz tmp/crossfiledialog-0.1.2.tar.gz --markdown 20230610/c/crossfiledialog/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-10 13:41:00] INFO root fetch - processPackages [bigdl-nano]: executing diffoscope
+[2023-06-10 13:41:00] INFO root fetch - processPackages [bigdl-nano]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_nano-2.4.0b20230609-py3-none-win_amd64.whl.zip tmp/bigdl_nano-2.4.0b20230610-py3-none-win_amd64.whl.zip --markdown 20230610/b/bigdl-nano/2.4.0b20230609-2.4.0b20230610/diff.md --exclude *.pyd
+[2023-06-10 13:41:00] INFO root fetch - processPackages [kdslibs]: Remove: archive file [/home/abi/fetcher/tmp/kdslibs-0.0.3.tar.gz]
+[2023-06-10 13:41:00] INFO root fetch - processPackages [kdslibs]: Remove: archive file [/home/abi/fetcher/tmp/kdslibs-0.0.4.tar.gz]
+[2023-06-10 13:41:00] INFO root fetch - main [MainThread]: End processing [kdslibs]: success
+[2023-06-10 13:41:00] INFO root fetch - processPackages [sql-field-report]: Remove: archive file [/home/abi/fetcher/tmp/sql_field_report-0.1.7.tar.gz]
+[2023-06-10 13:41:00] INFO root fetch - processPackages [sql-field-report]: Remove: archive file [/home/abi/fetcher/tmp/sql_field_report-0.2.0.tar.gz]
+[2023-06-10 13:41:00] INFO root fetch - main [MainThread]: End processing [sql-field-report]: success
+[2023-06-10 13:41:01] INFO root fetch - processPackages [lnschema_bionty]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_bionty-0.8.1.tar.gz]
+[2023-06-10 13:41:01] INFO root fetch - processPackages [lnschema_bionty]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_bionty-0.9.0.tar.gz]
+[2023-06-10 13:41:01] INFO root fetch - main [MainThread]: End processing [lnschema_bionty]: success
+[2023-06-10 13:41:01] INFO root fetch - processPackages [fabrictestbed-extensions]: Remove: archive file [/home/abi/fetcher/tmp/fabrictestbed-extensions-1.5.0rc2.tar.gz]
+[2023-06-10 13:41:01] INFO root fetch - processPackages [fabrictestbed-extensions]: Remove: archive file [/home/abi/fetcher/tmp/fabrictestbed-extensions-1.5.0rc3.tar.gz]
+[2023-06-10 13:41:01] INFO root fetch - main [MainThread]: End processing [fabrictestbed-extensions]: success
+[2023-06-10 13:41:01] INFO root fetch - processPackages [chachacha]: Remove: archive file [/home/abi/fetcher/tmp/chachacha-0.2.3.tar.gz]
+[2023-06-10 13:41:01] INFO root fetch - processPackages [chachacha]: Remove: archive file [/home/abi/fetcher/tmp/chachacha-0.2.4.tar.gz]
+[2023-06-10 13:41:01] INFO root fetch - main [MainThread]: End processing [chachacha]: success
+[2023-06-10 13:41:01] INFO root fetch - processPackages [crossfiledialog]: Remove: archive file [/home/abi/fetcher/tmp/crossfiledialog-0.1.1.tar.gz]
+[2023-06-10 13:41:01] INFO root fetch - processPackages [crossfiledialog]: Remove: archive file [/home/abi/fetcher/tmp/crossfiledialog-0.1.2.tar.gz]
+[2023-06-10 13:41:01] INFO root fetch - main [MainThread]: End processing [crossfiledialog]: success
+[2023-06-10 13:41:01] INFO root fetch - processPackages [AmberMDrun]: Remove: archive file [/home/abi/fetcher/tmp/AmberMDrun-0.0.3.tar.gz]
+[2023-06-10 13:41:01] INFO root fetch - processPackages [AmberMDrun]: Remove: archive file [/home/abi/fetcher/tmp/AmberMDrun-0.0.4.zip]
+[2023-06-10 13:41:01] INFO root fetch - main [MainThread]: End processing [AmberMDrun]: success
+[2023-06-10 13:41:03] INFO root fetch - processPackages [bigdl-nano]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_nano-2.4.0b20230609-py3-none-win_amd64.whl.zip]
+[2023-06-10 13:41:03] INFO root fetch - processPackages [bigdl-nano]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_nano-2.4.0b20230610-py3-none-win_amd64.whl.zip]
+[2023-06-10 13:41:03] INFO root fetch - main [MainThread]: End processing [bigdl-nano]: success
+[2023-06-10 13:41:03] INFO root fetch - main [MainThread]: Store serial: [18450283]
