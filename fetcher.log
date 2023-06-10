@@ -18316,3 +18316,96 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-10 22:55:30] INFO root fetch - processPackages [sqlite-regex]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_regex-0.2.3a8-py3-none-win_amd64.whl.zip]
 [2023-06-10 22:55:30] INFO root fetch - main [MainThread]: End processing [sqlite-regex]: success
 [2023-06-10 22:55:30] INFO root fetch - main [MainThread]: Store serial: [18453858]
+[2023-06-10 23:00:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18453858]
+[2023-06-10 23:00:51] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-10 23:00:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datasette-sqlite-jsonschema
+[2023-06-10 23:00:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sqlite-jsonschema
+[2023-06-10 23:00:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: leuci-xyz
+[2023-06-10 23:00:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: remla23-team10-preprocessing
+[2023-06-10 23:00:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rechtspraak-extractor
+[2023-06-10 23:00:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: digitalarztools
+[2023-06-10 23:00:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: repid
+[2023-06-10 23:00:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: datasette-sqlite-fastrand
+[2023-06-10 23:00:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sqlite-fastrand
+[2023-06-10 23:00:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyhdtoolkit
+[2023-06-10 23:00:51] INFO root fetch - processPackages [rechtspraak-extractor]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-10 23:00:51] INFO root fetch - processPackages [datasette-sqlite-jsonschema]: New version: [0.2.3a5] Old Version: [0.2.3a4]
+[2023-06-10 23:00:51] INFO root fetch - processPackages [digitalarztools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-10 23:00:51] INFO root fetch - processPackages [datasette-sqlite-fastrand]: New version: [0.2.1a8] Old Version: [0.2.1a7]
+[2023-06-10 23:00:51] INFO root fetch - processPackages [repid]: New version: [1.2.0] Old Version: [1.1.1]
+[2023-06-10 23:00:51] INFO root fetch - processPackages [sqlite-fastrand]: New version: [0.2.1a8] Old Version: [0.2.1a7]
+[2023-06-10 23:00:51] INFO root fetch - processPackages [pyhdtoolkit]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-06-10 23:00:51] INFO root fetch - processPackages [remla23-team10-preprocessing]: New version: [2.0.0] Old Version: [1.2.0]
+[2023-06-10 23:00:51] INFO root fetch - processPackages [sqlite-jsonschema]: New version: [0.2.3a5] Old Version: [0.2.3a4]
+[2023-06-10 23:00:51] INFO root fetch - processPackages [leuci-xyz]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-10 23:00:51] INFO root fetch - processPackages [rechtspraak-extractor]: Downloading https://files.pythonhosted.org/packages/f2/7d/639d882983648342f99875b95e988060f826052398e74277537d166f07b2/rechtspraak_extractor-1.1.8.tar.gz
+[2023-06-10 23:00:51] INFO root fetch - processPackages [remla23-team10-preprocessing]: Downloading https://files.pythonhosted.org/packages/52/5f/0826a02f8c3963b16d40c35fd9f3d565d7060ab01f37b74275520ee687ee/remla23-team10-preprocessing-1.2.0.tar.gz
+[2023-06-10 23:00:51] INFO root fetch - processPackages [repid]: Downloading https://files.pythonhosted.org/packages/0c/79/24c8c6ae7ca0f0c56e4cca18a35d0077da210b062b156011ea266267f133/repid-1.1.1.tar.gz
+[2023-06-10 23:00:51] INFO root fetch - processPackages [digitalarztools]: Downloading https://files.pythonhosted.org/packages/b5/68/99097e7e8ab286315bea6cc0c6648f909b981f4e2065be485528760f507d/digitalarztools-0.0.8.tar.gz
+[2023-06-10 23:00:51] INFO root fetch - processPackages [sqlite-fastrand]: Downloading https://files.pythonhosted.org/packages/d6/8a/ae49cf59e3783dda5f287c543ed733750e2f1bf71614d06bbc1c47bf8568/sqlite_fastrand-0.2.1a7-py3-none-win_amd64.whl
+[2023-06-10 23:00:51] INFO root fetch - processPackages [datasette-sqlite-jsonschema]: Downloading https://files.pythonhosted.org/packages/a3/b6/a1d34e60444edeed7bd61adb7dd032b01cf77eec22e16bffe46dec376427/datasette_sqlite_jsonschema-0.2.3a4-py3-none-any.whl
+[2023-06-10 23:00:51] INFO root fetch - processPackages [datasette-sqlite-fastrand]: Downloading https://files.pythonhosted.org/packages/c8/fa/629e30d1e5e27e3c348e07d0f11d3e53021b6aab855212ea1dea6e14bceb/datasette_sqlite_fastrand-0.2.1a7-py3-none-any.whl
+[2023-06-10 23:00:51] INFO root fetch - processPackages [sqlite-jsonschema]: Downloading https://files.pythonhosted.org/packages/1a/cd/f736247f53db84116898d75b7c97fa22028a8548f4eaa81ab8c1ec146839/sqlite_jsonschema-0.2.3a4-py3-none-win_amd64.whl
+[2023-06-10 23:00:51] INFO root fetch - processPackages [leuci-xyz]: Downloading https://files.pythonhosted.org/packages/eb/10/d9eee7a355b8ae704f58b8ac47ea3834448ba0ed26fef0f4a323f85a71ff/leuci-xyz-0.0.8.tar.gz
+[2023-06-10 23:00:51] INFO root fetch - processPackages [pyhdtoolkit]: Downloading https://files.pythonhosted.org/packages/49/0b/6723a0a6692878f0e421b54fa8c3a9b9fda66c450aadeb44024423ad572e/pyhdtoolkit-1.3.0.tar.gz
+[2023-06-10 23:00:51] INFO root fetch - processPackages [rechtspraak-extractor]: Downloading https://files.pythonhosted.org/packages/a2/7d/873b87acf1d3a1f1ac72438bc3b6cb1cc02189d47185383e7e938ce13486/rechtspraak_extractor-1.1.9.tar.gz
+[2023-06-10 23:00:51] INFO root fetch - processPackages [remla23-team10-preprocessing]: Downloading https://files.pythonhosted.org/packages/05/ad/02834bef43ba3d8eab73a2760dc2e7243d477b86f66e546ec73129d3a6fb/remla23-team10-preprocessing-2.0.0.tar.gz
+[2023-06-10 23:00:51] INFO root fetch - processPackages [rechtspraak-extractor]: executing diffoscope
+[2023-06-10 23:00:52] INFO root fetch - processPackages [rechtspraak-extractor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rechtspraak_extractor-1.1.8.tar.gz tmp/rechtspraak_extractor-1.1.9.tar.gz --markdown 20230610/r/rechtspraak-extractor/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-10 23:00:52] INFO root fetch - processPackages [repid]: Downloading https://files.pythonhosted.org/packages/db/cd/21474cb1a97d34c973c41d362660add22e7a8b381bf832cc8c4abc97dab0/repid-1.2.0.tar.gz
+[2023-06-10 23:00:52] INFO root fetch - processPackages [datasette-sqlite-fastrand]: Downloading https://files.pythonhosted.org/packages/02/8b/c548eca77b1609b0705a2a62ac74dc85a30edd9aefe663f46e207a2ba40a/datasette_sqlite_fastrand-0.2.1a8-py3-none-any.whl
+[2023-06-10 23:00:52] INFO root fetch - processPackages [datasette-sqlite-jsonschema]: Downloading https://files.pythonhosted.org/packages/3d/54/150181e245811adce6e305b7147681f0f3c2e50974cb5fcc2e5dc3ff4c3b/datasette_sqlite_jsonschema-0.2.3a5-py3-none-any.whl
+[2023-06-10 23:00:52] INFO root fetch - processPackages [remla23-team10-preprocessing]: executing diffoscope
+[2023-06-10 23:00:52] INFO root fetch - processPackages [remla23-team10-preprocessing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remla23-team10-preprocessing-1.2.0.tar.gz tmp/remla23-team10-preprocessing-2.0.0.tar.gz --markdown 20230610/r/remla23-team10-preprocessing/1.2.0-2.0.0/diff.md --exclude *.pyd
+[2023-06-10 23:00:52] INFO root fetch - processPackages [sqlite-fastrand]: Downloading https://files.pythonhosted.org/packages/36/9b/b399eb72bb3bfef3cec61a12ecd8039bbd15e7118122b99815bf69fe2a01/sqlite_fastrand-0.2.1a8-py3-none-win_amd64.whl
+[2023-06-10 23:00:52] INFO root fetch - processPackages [repid]: executing diffoscope
+[2023-06-10 23:00:52] INFO root fetch - processPackages [repid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/repid-1.1.1.tar.gz tmp/repid-1.2.0.tar.gz --markdown 20230610/r/repid/1.1.1-1.2.0/diff.md --exclude *.pyd
+[2023-06-10 23:00:52] INFO root fetch - processPackages [leuci-xyz]: Downloading https://files.pythonhosted.org/packages/49/e6/d2f3f483b024d52c15669628ff1c665f3c1b583ee1b375f3d0f4670aa662/leuci-xyz-0.0.9.tar.gz
+[2023-06-10 23:00:52] INFO root fetch - processPackages [digitalarztools]: Downloading https://files.pythonhosted.org/packages/00/25/c980e24e95c2d2aab7f7e3042a4ea7fabfcb8deb667f49e39a2c04a8a201/digitalarztools-0.0.9.tar.gz
+[2023-06-10 23:00:52] INFO root fetch - processPackages [sqlite-jsonschema]: Downloading https://files.pythonhosted.org/packages/43/a9/e080b5443677448ab9df048434f949a72bc147b097e169e6768c7e96a5f2/sqlite_jsonschema-0.2.3a5-py3-none-win_amd64.whl
+[2023-06-10 23:00:52] INFO root fetch - processPackages [pyhdtoolkit]: Downloading https://files.pythonhosted.org/packages/2b/1f/5f1f819ae8d3df77600bc3e7244c1d87f8c47d7e7839b24dd89d429c2a49/pyhdtoolkit-1.3.1.tar.gz
+[2023-06-10 23:00:52] INFO root fetch - processPackages [datasette-sqlite-jsonschema]: executing diffoscope
+[2023-06-10 23:00:52] INFO root fetch - processPackages [datasette-sqlite-jsonschema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasette_sqlite_jsonschema-0.2.3a4-py3-none-any.whl.zip tmp/datasette_sqlite_jsonschema-0.2.3a5-py3-none-any.whl.zip --markdown 20230610/d/datasette-sqlite-jsonschema/0.2.3a4-0.2.3a5/diff.md --exclude *.pyd
+[2023-06-10 23:00:52] INFO root fetch - processPackages [datasette-sqlite-fastrand]: executing diffoscope
+[2023-06-10 23:00:52] INFO root fetch - processPackages [datasette-sqlite-fastrand]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasette_sqlite_fastrand-0.2.1a7-py3-none-any.whl.zip tmp/datasette_sqlite_fastrand-0.2.1a8-py3-none-any.whl.zip --markdown 20230610/d/datasette-sqlite-fastrand/0.2.1a7-0.2.1a8/diff.md --exclude *.pyd
+[2023-06-10 23:00:52] INFO root fetch - processPackages [leuci-xyz]: executing diffoscope
+[2023-06-10 23:00:52] INFO root fetch - processPackages [leuci-xyz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leuci-xyz-0.0.8.tar.gz tmp/leuci-xyz-0.0.9.tar.gz --markdown 20230610/l/leuci-xyz/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-10 23:00:52] INFO root fetch - processPackages [digitalarztools]: executing diffoscope
+[2023-06-10 23:00:52] INFO root fetch - processPackages [digitalarztools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalarztools-0.0.8.tar.gz tmp/digitalarztools-0.0.9.tar.gz --markdown 20230610/d/digitalarztools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-10 23:00:52] INFO root fetch - processPackages [pyhdtoolkit]: executing diffoscope
+[2023-06-10 23:00:52] INFO root fetch - processPackages [pyhdtoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhdtoolkit-1.3.0.tar.gz tmp/pyhdtoolkit-1.3.1.tar.gz --markdown 20230610/p/pyhdtoolkit/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-06-10 23:00:52] INFO root fetch - processPackages [sqlite-jsonschema]: executing diffoscope
+[2023-06-10 23:00:52] INFO root fetch - processPackages [sqlite-jsonschema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite_jsonschema-0.2.3a4-py3-none-win_amd64.whl.zip tmp/sqlite_jsonschema-0.2.3a5-py3-none-win_amd64.whl.zip --markdown 20230610/s/sqlite-jsonschema/0.2.3a4-0.2.3a5/diff.md --exclude *.pyd
+[2023-06-10 23:00:52] INFO root fetch - processPackages [sqlite-fastrand]: executing diffoscope
+[2023-06-10 23:00:52] INFO root fetch - processPackages [sqlite-fastrand]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite_fastrand-0.2.1a7-py3-none-win_amd64.whl.zip tmp/sqlite_fastrand-0.2.1a8-py3-none-win_amd64.whl.zip --markdown 20230610/s/sqlite-fastrand/0.2.1a7-0.2.1a8/diff.md --exclude *.pyd
+[2023-06-10 23:00:53] INFO root fetch - processPackages [rechtspraak-extractor]: Remove: archive file [/home/abi/fetcher/tmp/rechtspraak_extractor-1.1.8.tar.gz]
+[2023-06-10 23:00:53] INFO root fetch - processPackages [rechtspraak-extractor]: Remove: archive file [/home/abi/fetcher/tmp/rechtspraak_extractor-1.1.9.tar.gz]
+[2023-06-10 23:00:53] INFO root fetch - main [MainThread]: End processing [rechtspraak-extractor]: success
+[2023-06-10 23:00:53] INFO root fetch - processPackages [remla23-team10-preprocessing]: Remove: archive file [/home/abi/fetcher/tmp/remla23-team10-preprocessing-1.2.0.tar.gz]
+[2023-06-10 23:00:53] INFO root fetch - processPackages [remla23-team10-preprocessing]: Remove: archive file [/home/abi/fetcher/tmp/remla23-team10-preprocessing-2.0.0.tar.gz]
+[2023-06-10 23:00:53] INFO root fetch - main [MainThread]: End processing [remla23-team10-preprocessing]: success
+[2023-06-10 23:00:53] INFO root fetch - processPackages [datasette-sqlite-jsonschema]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_jsonschema-0.2.3a4-py3-none-any.whl.zip]
+[2023-06-10 23:00:53] INFO root fetch - processPackages [datasette-sqlite-jsonschema]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_jsonschema-0.2.3a5-py3-none-any.whl.zip]
+[2023-06-10 23:00:53] INFO root fetch - main [MainThread]: End processing [datasette-sqlite-jsonschema]: success
+[2023-06-10 23:00:53] INFO root fetch - processPackages [datasette-sqlite-fastrand]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_fastrand-0.2.1a7-py3-none-any.whl.zip]
+[2023-06-10 23:00:53] INFO root fetch - processPackages [datasette-sqlite-fastrand]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_fastrand-0.2.1a8-py3-none-any.whl.zip]
+[2023-06-10 23:00:53] INFO root fetch - main [MainThread]: End processing [datasette-sqlite-fastrand]: success
+[2023-06-10 23:00:53] INFO root fetch - processPackages [leuci-xyz]: Remove: archive file [/home/abi/fetcher/tmp/leuci-xyz-0.0.8.tar.gz]
+[2023-06-10 23:00:53] INFO root fetch - processPackages [leuci-xyz]: Remove: archive file [/home/abi/fetcher/tmp/leuci-xyz-0.0.9.tar.gz]
+[2023-06-10 23:00:53] INFO root fetch - main [MainThread]: End processing [leuci-xyz]: success
+[2023-06-10 23:00:54] INFO root fetch - processPackages [digitalarztools]: Remove: archive file [/home/abi/fetcher/tmp/digitalarztools-0.0.8.tar.gz]
+[2023-06-10 23:00:54] INFO root fetch - processPackages [digitalarztools]: Remove: archive file [/home/abi/fetcher/tmp/digitalarztools-0.0.9.tar.gz]
+[2023-06-10 23:00:54] INFO root fetch - main [MainThread]: End processing [digitalarztools]: success
+[2023-06-10 23:00:54] INFO root fetch - processPackages [repid]: Remove: archive file [/home/abi/fetcher/tmp/repid-1.1.1.tar.gz]
+[2023-06-10 23:00:54] INFO root fetch - processPackages [repid]: Remove: archive file [/home/abi/fetcher/tmp/repid-1.2.0.tar.gz]
+[2023-06-10 23:00:54] INFO root fetch - main [MainThread]: End processing [repid]: success
+[2023-06-10 23:00:55] INFO root fetch - processPackages [pyhdtoolkit]: Remove: archive file [/home/abi/fetcher/tmp/pyhdtoolkit-1.3.0.tar.gz]
+[2023-06-10 23:00:55] INFO root fetch - processPackages [pyhdtoolkit]: Remove: archive file [/home/abi/fetcher/tmp/pyhdtoolkit-1.3.1.tar.gz]
+[2023-06-10 23:00:55] INFO root fetch - main [MainThread]: End processing [pyhdtoolkit]: success
+[2023-06-10 23:00:57] INFO root fetch - processPackages [sqlite-fastrand]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_fastrand-0.2.1a7-py3-none-win_amd64.whl.zip]
+[2023-06-10 23:00:57] INFO root fetch - processPackages [sqlite-fastrand]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_fastrand-0.2.1a8-py3-none-win_amd64.whl.zip]
+[2023-06-10 23:00:57] INFO root fetch - main [MainThread]: End processing [sqlite-fastrand]: success
+[2023-06-10 23:01:06] INFO root fetch - processPackages [sqlite-jsonschema]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_jsonschema-0.2.3a4-py3-none-win_amd64.whl.zip]
+[2023-06-10 23:01:06] INFO root fetch - processPackages [sqlite-jsonschema]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_jsonschema-0.2.3a5-py3-none-win_amd64.whl.zip]
+[2023-06-10 23:01:06] INFO root fetch - main [MainThread]: End processing [sqlite-jsonschema]: success
+[2023-06-10 23:01:06] INFO root fetch - main [MainThread]: Store serial: [18453890]
