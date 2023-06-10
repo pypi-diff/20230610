@@ -9995,3 +9995,36 @@ EOFError: EOF read where object expected
 [2023-06-10 11:20:09] INFO root fetch - processPackages [ogc-na]: Remove: archive file [/home/abi/fetcher/tmp/ogc_na-0.2.9.tar.gz]
 [2023-06-10 11:20:09] INFO root fetch - main [MainThread]: End processing [ogc-na]: success
 [2023-06-10 11:20:09] INFO root fetch - main [MainThread]: Store serial: [18449760]
+[2023-06-10 11:25:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18449760]
+[2023-06-10 11:25:18] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-10 11:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pipeline-feature
+[2023-06-10 11:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-pcrjjc
+[2023-06-10 11:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: unasyncd
+[2023-06-10 11:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xchembku
+[2023-06-10 11:25:18] INFO root fetch - processPackages [pipeline-feature]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-10 11:25:18] INFO root fetch - processPackages [unasyncd]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-06-10 11:25:18] WARNING root fetch - processPackages [nonebot-plugin-pcrjjc]: Skipping, unable to determine old version
+[2023-06-10 11:25:18] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-pcrjjc] error
+[2023-06-10 11:25:18] INFO root fetch - processPackages [pipeline-feature]: Downloading https://files.pythonhosted.org/packages/f3/4a/2e80d65029b16741c3837546037e85683a420fa8ed5653d5378655998e68/pipeline-feature-0.0.8.tar.gz
+[2023-06-10 11:25:18] INFO root fetch - processPackages [xchembku]: New version: [1.9.1] Old Version: [1.8.0]
+[2023-06-10 11:25:18] INFO root fetch - processPackages [unasyncd]: Downloading https://files.pythonhosted.org/packages/3f/6b/d25cf1566c60607653ca2e267b5cef72e24b6d8b2508a8b492568172312b/unasyncd-0.1.1.tar.gz
+[2023-06-10 11:25:18] INFO root fetch - processPackages [pipeline-feature]: Downloading https://files.pythonhosted.org/packages/2d/7d/8d87cbdf414b1b7a2a9cc9b2bd5f360572b7da334ce7f3ff61009413e3d6/pipeline-feature-0.0.9.tar.gz
+[2023-06-10 11:25:18] INFO root fetch - processPackages [pipeline-feature]: executing diffoscope
+[2023-06-10 11:25:18] INFO root fetch - processPackages [pipeline-feature]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipeline-feature-0.0.8.tar.gz tmp/pipeline-feature-0.0.9.tar.gz --markdown 20230610/p/pipeline-feature/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-10 11:25:18] INFO root fetch - processPackages [xchembku]: Downloading https://files.pythonhosted.org/packages/f8/50/b754ff646f9548f0f3f743c21b49168316f51c6d17c44736b5e8eb81b5a2/xchembku-1.8.0.tar.gz
+[2023-06-10 11:25:18] INFO root fetch - processPackages [unasyncd]: Downloading https://files.pythonhosted.org/packages/a3/4e/609b37d952a6fe72fee600f4a3f4e6cf8d385c18f42baae5e8e48b9ffef3/unasyncd-0.2.0.tar.gz
+[2023-06-10 11:25:18] INFO root fetch - processPackages [unasyncd]: executing diffoscope
+[2023-06-10 11:25:18] INFO root fetch - processPackages [unasyncd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unasyncd-0.1.1.tar.gz tmp/unasyncd-0.2.0.tar.gz --markdown 20230610/u/unasyncd/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-06-10 11:25:18] INFO root fetch - processPackages [xchembku]: Downloading https://files.pythonhosted.org/packages/82/f2/7367190b99cc11c20b2ae5699de7e3ee876299d63501d05b13037f310956/xchembku-1.9.1.tar.gz
+[2023-06-10 11:25:18] INFO root fetch - processPackages [xchembku]: executing diffoscope
+[2023-06-10 11:25:18] INFO root fetch - processPackages [xchembku]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xchembku-1.8.0.tar.gz tmp/xchembku-1.9.1.tar.gz --markdown 20230610/x/xchembku/1.8.0-1.9.1/diff.md --exclude *.pyd
+[2023-06-10 11:25:19] INFO root fetch - processPackages [pipeline-feature]: Remove: archive file [/home/abi/fetcher/tmp/pipeline-feature-0.0.8.tar.gz]
+[2023-06-10 11:25:19] INFO root fetch - processPackages [pipeline-feature]: Remove: archive file [/home/abi/fetcher/tmp/pipeline-feature-0.0.9.tar.gz]
+[2023-06-10 11:25:19] INFO root fetch - main [MainThread]: End processing [pipeline-feature]: success
+[2023-06-10 11:25:19] INFO root fetch - processPackages [unasyncd]: Remove: archive file [/home/abi/fetcher/tmp/unasyncd-0.1.1.tar.gz]
+[2023-06-10 11:25:19] INFO root fetch - processPackages [unasyncd]: Remove: archive file [/home/abi/fetcher/tmp/unasyncd-0.2.0.tar.gz]
+[2023-06-10 11:25:19] INFO root fetch - main [MainThread]: End processing [unasyncd]: success
+[2023-06-10 11:25:20] INFO root fetch - processPackages [xchembku]: Remove: archive file [/home/abi/fetcher/tmp/xchembku-1.8.0.tar.gz]
+[2023-06-10 11:25:20] INFO root fetch - processPackages [xchembku]: Remove: archive file [/home/abi/fetcher/tmp/xchembku-1.9.1.tar.gz]
+[2023-06-10 11:25:20] INFO root fetch - main [MainThread]: End processing [xchembku]: success
+[2023-06-10 11:25:20] INFO root fetch - main [MainThread]: Store serial: [18449779]
