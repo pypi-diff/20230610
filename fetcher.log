@@ -10777,3 +10777,42 @@ EOFError: EOF read where object expected
 [2023-06-10 13:09:37] INFO root fetch - processPackages [morsecode-enhanced]: Remove: archive file [/home/abi/fetcher/tmp/morsecode_enhanced-1.0.2.tar.gz]
 [2023-06-10 13:09:37] INFO root fetch - main [MainThread]: End processing [morsecode-enhanced]: success
 [2023-06-10 13:09:37] INFO root fetch - main [MainThread]: Store serial: [18450158]
+[2023-06-10 13:14:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18450158]
+[2023-06-10 13:14:49] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-10 13:14:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: once-utils
+[2023-06-10 13:14:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kdslibs
+[2023-06-10 13:14:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pipelinewise-target-bigquery
+[2023-06-10 13:14:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: AmberMDrun
+[2023-06-10 13:14:49] INFO root fetch - processPackages [once-utils]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-10 13:14:49] INFO root fetch - processPackages [AmberMDrun]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-10 13:14:49] INFO root fetch - processPackages [kdslibs]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-10 13:14:49] INFO root fetch - processPackages [pipelinewise-target-bigquery]: New version: [1.5.0] Old Version: [1.4.1]
+[2023-06-10 13:14:49] INFO root fetch - processPackages [kdslibs]: Downloading https://files.pythonhosted.org/packages/76/5b/e4f5a20e9cee277978b494a8cb1e7937458e2b7f3181e5ab81bbeb8a9c69/kdslibs-0.0.1.tar.gz
+[2023-06-10 13:14:49] INFO root fetch - processPackages [AmberMDrun]: Downloading https://files.pythonhosted.org/packages/b4/d4/ba615c848cd91799c5be3f76cadb93a66892c729e88166d7d8282d093645/AmberMDrun-0.0.3.tar.gz
+[2023-06-10 13:14:49] INFO root fetch - processPackages [once-utils]: Downloading https://files.pythonhosted.org/packages/c3/7e/d334c60e51e292a72c58b9801758cd842b8ddd6bec0933bc94bfcbc5df6a/once-utils-0.0.5.tar.gz
+[2023-06-10 13:14:50] INFO root fetch - processPackages [pipelinewise-target-bigquery]: Downloading https://files.pythonhosted.org/packages/bb/47/09534c391b8ec7edfe073ead1a35e18efd2a65da41a1c508c6b6b1e06baf/pipelinewise-target-bigquery-1.4.1.tar.gz
+[2023-06-10 13:14:50] INFO root fetch - processPackages [kdslibs]: Downloading https://files.pythonhosted.org/packages/8c/4b/aa1dd0b5dc31fae20e64d1d6b7ad788346de555e99a8a16877ced3e79c87/kdslibs-0.0.2.tar.gz
+[2023-06-10 13:14:50] INFO root fetch - processPackages [AmberMDrun]: Downloading https://files.pythonhosted.org/packages/b6/6f/18ce483c4ba530e965c8fae0305003e1b650ba0005246c8ec07ad89b60d3/AmberMDrun-0.0.4.tar.gz
+[2023-06-10 13:14:50] INFO root fetch - processPackages [pipelinewise-target-bigquery]: Downloading https://files.pythonhosted.org/packages/85/1a/72b334a558d53872511e205efb0a2c2de5fbf2ce9132b333a5f51232a2a3/pipelinewise-target-bigquery-1.5.0.tar.gz
+[2023-06-10 13:14:50] INFO root fetch - processPackages [once-utils]: Downloading https://files.pythonhosted.org/packages/4f/ba/2e178d01855dfa253dbb78e57291830e92f97150e1e3a6822f7ee96f4b90/once-utils-0.0.6.tar.gz
+[2023-06-10 13:14:50] INFO root fetch - processPackages [kdslibs]: executing diffoscope
+[2023-06-10 13:14:50] INFO root fetch - processPackages [kdslibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kdslibs-0.0.1.tar.gz tmp/kdslibs-0.0.2.tar.gz --markdown 20230610/k/kdslibs/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-10 13:14:50] INFO root fetch - processPackages [pipelinewise-target-bigquery]: executing diffoscope
+[2023-06-10 13:14:50] INFO root fetch - processPackages [pipelinewise-target-bigquery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipelinewise-target-bigquery-1.4.1.tar.gz tmp/pipelinewise-target-bigquery-1.5.0.tar.gz --markdown 20230610/p/pipelinewise-target-bigquery/1.4.1-1.5.0/diff.md --exclude *.pyd
+[2023-06-10 13:14:50] INFO root fetch - processPackages [once-utils]: executing diffoscope
+[2023-06-10 13:14:50] INFO root fetch - processPackages [once-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/once-utils-0.0.5.tar.gz tmp/once-utils-0.0.6.tar.gz --markdown 20230610/o/once-utils/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-10 13:14:50] INFO root fetch - processPackages [AmberMDrun]: executing diffoscope
+[2023-06-10 13:14:50] INFO root fetch - processPackages [AmberMDrun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AmberMDrun-0.0.3.tar.gz tmp/AmberMDrun-0.0.4.tar.gz --markdown 20230610/A/AmberMDrun/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-10 13:14:51] INFO root fetch - processPackages [kdslibs]: Remove: archive file [/home/abi/fetcher/tmp/kdslibs-0.0.1.tar.gz]
+[2023-06-10 13:14:51] INFO root fetch - processPackages [kdslibs]: Remove: archive file [/home/abi/fetcher/tmp/kdslibs-0.0.2.tar.gz]
+[2023-06-10 13:14:51] INFO root fetch - main [MainThread]: End processing [kdslibs]: success
+[2023-06-10 13:14:51] INFO root fetch - processPackages [once-utils]: Remove: archive file [/home/abi/fetcher/tmp/once-utils-0.0.5.tar.gz]
+[2023-06-10 13:14:51] INFO root fetch - processPackages [once-utils]: Remove: archive file [/home/abi/fetcher/tmp/once-utils-0.0.6.tar.gz]
+[2023-06-10 13:14:51] INFO root fetch - main [MainThread]: End processing [once-utils]: success
+[2023-06-10 13:14:51] INFO root fetch - processPackages [pipelinewise-target-bigquery]: Remove: archive file [/home/abi/fetcher/tmp/pipelinewise-target-bigquery-1.4.1.tar.gz]
+[2023-06-10 13:14:51] INFO root fetch - processPackages [pipelinewise-target-bigquery]: Remove: archive file [/home/abi/fetcher/tmp/pipelinewise-target-bigquery-1.5.0.tar.gz]
+[2023-06-10 13:14:51] INFO root fetch - main [MainThread]: End processing [pipelinewise-target-bigquery]: success
+[2023-06-10 13:14:54] INFO root fetch - processPackages [AmberMDrun]: Remove: archive file [/home/abi/fetcher/tmp/AmberMDrun-0.0.3.tar.gz]
+[2023-06-10 13:14:54] INFO root fetch - processPackages [AmberMDrun]: Remove: archive file [/home/abi/fetcher/tmp/AmberMDrun-0.0.4.tar.gz]
+[2023-06-10 13:14:54] INFO root fetch - main [MainThread]: End processing [AmberMDrun]: success
+[2023-06-10 13:14:54] INFO root fetch - main [MainThread]: Store serial: [18450168]
