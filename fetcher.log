@@ -6430,3 +6430,24 @@ EOFError: EOF read where object expected
 [2023-06-10 04:17:18] INFO root fetch - processPackages [ovos-PHAL-plugin-wifi-setup]: Remove: archive file [/home/abi/fetcher/tmp/ovos-PHAL-plugin-wifi-setup-1.1.1a1.tar.gz]
 [2023-06-10 04:17:18] INFO root fetch - main [MainThread]: End processing [ovos-PHAL-plugin-wifi-setup]: success
 [2023-06-10 04:17:18] INFO root fetch - main [MainThread]: Store serial: [18448115]
+[2023-06-10 04:22:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18448115]
+[2023-06-10 04:22:27] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-06-10 04:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: MALDIpy
+[2023-06-10 04:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: neon-phal-plugin-switches
+[2023-06-10 04:22:27] INFO root fetch - processPackages [neon-phal-plugin-switches]: New version: [0.0.4a0] Old Version: [0.0.3a0]
+[2023-06-10 04:22:27] INFO root fetch - processPackages [MALDIpy]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-10 04:22:27] INFO root fetch - processPackages [MALDIpy]: Downloading https://files.pythonhosted.org/packages/41/8e/c22a260cfe45c17c561a8cea0eae444bda5e8f7b17509c9de0b188074388/MALDIpy-0.0.3.tar.gz
+[2023-06-10 04:22:27] INFO root fetch - processPackages [neon-phal-plugin-switches]: Downloading https://files.pythonhosted.org/packages/36/cc/d1925bb42ea1d5405967981551ac0c47e76007bffc7575ead35188cdb44f/neon_phal_plugin_switches-0.0.3a0-py3-none-any.whl
+[2023-06-10 04:22:28] INFO root fetch - processPackages [MALDIpy]: Downloading https://files.pythonhosted.org/packages/8f/e7/2a043d1f8a52ada5657fab6a892621c865c3c909c50a240c8c230e4e755b/MALDIpy-0.0.4.tar.gz
+[2023-06-10 04:22:28] INFO root fetch - processPackages [MALDIpy]: executing diffoscope
+[2023-06-10 04:22:28] INFO root fetch - processPackages [MALDIpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MALDIpy-0.0.3.tar.gz tmp/MALDIpy-0.0.4.tar.gz --markdown 20230610/M/MALDIpy/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-10 04:22:28] INFO root fetch - processPackages [neon-phal-plugin-switches]: Downloading https://files.pythonhosted.org/packages/d1/bd/17337cb3f646c308ddb7461049d45889c4e1f787179f6976abc224852620/neon_phal_plugin_switches-0.0.4a0-py3-none-any.whl
+[2023-06-10 04:22:28] INFO root fetch - processPackages [neon-phal-plugin-switches]: executing diffoscope
+[2023-06-10 04:22:28] INFO root fetch - processPackages [neon-phal-plugin-switches]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_phal_plugin_switches-0.0.3a0-py3-none-any.whl.zip tmp/neon_phal_plugin_switches-0.0.4a0-py3-none-any.whl.zip --markdown 20230610/n/neon-phal-plugin-switches/0.0.3a0-0.0.4a0/diff.md --exclude *.pyd
+[2023-06-10 04:22:29] INFO root fetch - processPackages [MALDIpy]: Remove: archive file [/home/abi/fetcher/tmp/MALDIpy-0.0.3.tar.gz]
+[2023-06-10 04:22:29] INFO root fetch - processPackages [MALDIpy]: Remove: archive file [/home/abi/fetcher/tmp/MALDIpy-0.0.4.tar.gz]
+[2023-06-10 04:22:29] INFO root fetch - main [MainThread]: End processing [MALDIpy]: success
+[2023-06-10 04:22:29] INFO root fetch - processPackages [neon-phal-plugin-switches]: Remove: archive file [/home/abi/fetcher/tmp/neon_phal_plugin_switches-0.0.3a0-py3-none-any.whl.zip]
+[2023-06-10 04:22:29] INFO root fetch - processPackages [neon-phal-plugin-switches]: Remove: archive file [/home/abi/fetcher/tmp/neon_phal_plugin_switches-0.0.4a0-py3-none-any.whl.zip]
+[2023-06-10 04:22:29] INFO root fetch - main [MainThread]: End processing [neon-phal-plugin-switches]: success
+[2023-06-10 04:22:29] INFO root fetch - main [MainThread]: Store serial: [18448120]
