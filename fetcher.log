@@ -10164,3 +10164,45 @@ EOFError: EOF read where object expected
 [2023-06-10 11:47:52] INFO root fetch - processPackages [solax]: Remove: archive file [/home/abi/fetcher/tmp/solax-0.3.2.tar.gz]
 [2023-06-10 11:47:52] INFO root fetch - main [MainThread]: End processing [solax]: success
 [2023-06-10 11:47:52] INFO root fetch - main [MainThread]: Store serial: [18449842]
+[2023-06-10 11:52:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18449842]
+[2023-06-10 11:53:01] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-10 11:53:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lyrics-client
+[2023-06-10 11:53:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: foreverbull
+[2023-06-10 11:53:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Oz-Engine
+[2023-06-10 11:53:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wclone
+[2023-06-10 11:53:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: partitura
+[2023-06-10 11:53:01] WARNING root fetch - processPackages [lyrics-client]: Skipping, unable to determine old version
+[2023-06-10 11:53:01] INFO root fetch - main [MainThread]: End processing [lyrics-client] error
+[2023-06-10 11:53:01] INFO root fetch - processPackages [Oz-Engine]: New version: [1.3.0.1] Old Version: [1.3.0]
+[2023-06-10 11:53:01] INFO root fetch - processPackages [wclone]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-10 11:53:01] INFO root fetch - processPackages [partitura]: New version: [1.3.0] Old Version: [1.2.2]
+[2023-06-10 11:53:01] INFO root fetch - processPackages [foreverbull]: New version: [0.0.0.99.20230610094209] Old Version: [0.0.0.92]
+[2023-06-10 11:53:01] INFO root fetch - processPackages [foreverbull]: Downloading https://files.pythonhosted.org/packages/83/5e/402b3d8e197a33b59ae5994459465f8027f487cad42df3747b300fe53dc4/foreverbull-0.0.0.92.tar.gz
+[2023-06-10 11:53:01] INFO root fetch - processPackages [wclone]: Downloading https://files.pythonhosted.org/packages/e6/35/dbac92800c6da48e7dbf9fa80a9adbe1cd19ab84334e62e995c2c13b740a/wclone-1.0.1.tar.gz
+[2023-06-10 11:53:01] INFO root fetch - processPackages [Oz-Engine]: Downloading https://files.pythonhosted.org/packages/60/fa/5401d34315eae304d12f684dc73440624bea58eb61a3f7b557c3bca8b0d2/Oz-Engine-1.3.0.tar.gz
+[2023-06-10 11:53:01] INFO root fetch - processPackages [partitura]: Downloading https://files.pythonhosted.org/packages/37/f6/56b66e48483dda18d4f4f6477a05c520706ed1e834816e1711a83358a333/partitura-1.2.2.tar.gz
+[2023-06-10 11:53:01] INFO root fetch - processPackages [foreverbull]: Downloading https://files.pythonhosted.org/packages/6e/c3/cf13499a255fd30c5d6ccd05686ba0af46cbde2f1cb23b7a4e121a7e23ee/foreverbull-0.0.0.99.20230610094209.tar.gz
+[2023-06-10 11:53:01] INFO root fetch - processPackages [wclone]: Downloading https://files.pythonhosted.org/packages/ab/56/43f8b5b3b4cc68d74d044db64f6c2e2f282ccae243b45d9bbce0f8ce0f8f/wclone-1.0.2.tar.gz
+[2023-06-10 11:53:01] INFO root fetch - processPackages [foreverbull]: executing diffoscope
+[2023-06-10 11:53:01] INFO root fetch - processPackages [foreverbull]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foreverbull-0.0.0.92.tar.gz tmp/foreverbull-0.0.0.99.20230610094209.tar.gz --markdown 20230610/f/foreverbull/0.0.0.92-0.0.0.99.20230610094209/diff.md --exclude *.pyd
+[2023-06-10 11:53:01] INFO root fetch - processPackages [wclone]: executing diffoscope
+[2023-06-10 11:53:01] INFO root fetch - processPackages [wclone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wclone-1.0.1.tar.gz tmp/wclone-1.0.2.tar.gz --markdown 20230610/w/wclone/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-10 11:53:01] INFO root fetch - processPackages [Oz-Engine]: Downloading https://files.pythonhosted.org/packages/7c/21/44d2adc48dec32a507b30cec37960458c005261c2fc2761de49e887aa1de/Oz-Engine-1.3.0.1.tar.gz
+[2023-06-10 11:53:01] INFO root fetch - processPackages [Oz-Engine]: executing diffoscope
+[2023-06-10 11:53:01] INFO root fetch - processPackages [Oz-Engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Oz-Engine-1.3.0.tar.gz tmp/Oz-Engine-1.3.0.1.tar.gz --markdown 20230610/O/Oz-Engine/1.3.0-1.3.0.1/diff.md --exclude *.pyd
+[2023-06-10 11:53:02] INFO root fetch - processPackages [partitura]: Downloading https://files.pythonhosted.org/packages/fe/ff/ccb01190bbcee7c0411f9e048e9b2d7d87bac6b997eb7d9503999ef447d1/partitura-1.3.0.tar.gz
+[2023-06-10 11:53:02] INFO root fetch - processPackages [partitura]: executing diffoscope
+[2023-06-10 11:53:02] INFO root fetch - processPackages [partitura]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/partitura-1.2.2.tar.gz tmp/partitura-1.3.0.tar.gz --markdown 20230610/p/partitura/1.2.2-1.3.0/diff.md --exclude *.pyd
+[2023-06-10 11:53:03] INFO root fetch - processPackages [Oz-Engine]: Remove: archive file [/home/abi/fetcher/tmp/Oz-Engine-1.3.0.tar.gz]
+[2023-06-10 11:53:03] INFO root fetch - processPackages [Oz-Engine]: Remove: archive file [/home/abi/fetcher/tmp/Oz-Engine-1.3.0.1.tar.gz]
+[2023-06-10 11:53:03] INFO root fetch - main [MainThread]: End processing [Oz-Engine]: success
+[2023-06-10 11:53:03] INFO root fetch - processPackages [foreverbull]: Remove: archive file [/home/abi/fetcher/tmp/foreverbull-0.0.0.92.tar.gz]
+[2023-06-10 11:53:03] INFO root fetch - processPackages [foreverbull]: Remove: archive file [/home/abi/fetcher/tmp/foreverbull-0.0.0.99.20230610094209.tar.gz]
+[2023-06-10 11:53:03] INFO root fetch - main [MainThread]: End processing [foreverbull]: success
+[2023-06-10 11:53:03] INFO root fetch - processPackages [wclone]: Remove: archive file [/home/abi/fetcher/tmp/wclone-1.0.1.tar.gz]
+[2023-06-10 11:53:03] INFO root fetch - processPackages [wclone]: Remove: archive file [/home/abi/fetcher/tmp/wclone-1.0.2.tar.gz]
+[2023-06-10 11:53:03] INFO root fetch - main [MainThread]: End processing [wclone]: success
+[2023-06-10 11:53:04] INFO root fetch - processPackages [partitura]: Remove: archive file [/home/abi/fetcher/tmp/partitura-1.2.2.tar.gz]
+[2023-06-10 11:53:04] INFO root fetch - processPackages [partitura]: Remove: archive file [/home/abi/fetcher/tmp/partitura-1.3.0.tar.gz]
+[2023-06-10 11:53:04] INFO root fetch - main [MainThread]: End processing [partitura]: success
+[2023-06-10 11:53:04] INFO root fetch - main [MainThread]: Store serial: [18449861]
