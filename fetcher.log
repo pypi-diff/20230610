@@ -7552,3 +7552,36 @@ EOFError: EOF read where object expected
 [2023-06-10 06:14:48] INFO root fetch - processPackages [odoo-addon-quality-control-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_quality_control_oca-16.0.1.0.0.8-py3-none-any.whl.zip]
 [2023-06-10 06:14:48] INFO root fetch - main [MainThread]: End processing [odoo-addon-quality-control-oca]: success
 [2023-06-10 06:14:48] INFO root fetch - main [MainThread]: Store serial: [18448545]
+[2023-06-10 06:19:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18448545]
+[2023-06-10 06:19:58] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-10 06:19:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ream2
+[2023-06-10 06:19:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vector-vault
+[2023-06-10 06:19:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo12-addon-sale-multi-operating-unit
+[2023-06-10 06:19:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fofa-workflow
+[2023-06-10 06:19:58] INFO root fetch - processPackages [ream2]: New version: [2.6.2] Old Version: [2.6.1]
+[2023-06-10 06:19:58] INFO root fetch - processPackages [odoo12-addon-sale-multi-operating-unit]: New version: [12.0.1.0.0.99.dev34] Old Version: [12.0.1.0.0.99.dev33]
+[2023-06-10 06:19:58] INFO root fetch - processPackages [vector-vault]: New version: [2.0.7] Old Version: [2.0.6]
+[2023-06-10 06:19:58] INFO root fetch - processPackages [vector-vault]: Downloading https://files.pythonhosted.org/packages/26/ab/ebf23ffb08946f3cd0b05f7940c9c780868aa7c71af8c1e8bbd718059301/vector_vault-2.0.6.tar.gz
+[2023-06-10 06:19:58] WARNING root fetch - processPackages [fofa-workflow]: Skipping, unable to determine old version
+[2023-06-10 06:19:58] INFO root fetch - main [MainThread]: End processing [fofa-workflow] error
+[2023-06-10 06:19:59] INFO root fetch - processPackages [odoo12-addon-sale-multi-operating-unit]: Downloading https://files.pythonhosted.org/packages/e9/bc/b16502480d1c2d10fa185547faac4883771b74667da14a37074cededb334/odoo12_addon_sale_multi_operating_unit-12.0.1.0.0.99.dev33-py3-none-any.whl
+[2023-06-10 06:19:59] INFO root fetch - processPackages [ream2]: Downloading https://files.pythonhosted.org/packages/bf/e3/d55d1c953ec77a03be17ccc73d1649c8b5260738c3c06b7462a3e5334164/ream2-2.6.1.tar.gz
+[2023-06-10 06:19:59] INFO root fetch - processPackages [vector-vault]: Downloading https://files.pythonhosted.org/packages/3d/3d/ff3d34f6de093fd7023093c9348d7827643dea3aa3743663a6e5172c98dc/vector_vault-2.0.7.tar.gz
+[2023-06-10 06:19:59] INFO root fetch - processPackages [vector-vault]: executing diffoscope
+[2023-06-10 06:19:59] INFO root fetch - processPackages [vector-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vector_vault-2.0.6.tar.gz tmp/vector_vault-2.0.7.tar.gz --markdown 20230610/v/vector-vault/2.0.6-2.0.7/diff.md --exclude *.pyd
+[2023-06-10 06:19:59] INFO root fetch - processPackages [odoo12-addon-sale-multi-operating-unit]: Downloading https://files.pythonhosted.org/packages/f4/0b/1d351162ada8beeba868f7020d04ee200221ec9caf52dfbd3c1a46f30e1c/odoo12_addon_sale_multi_operating_unit-12.0.1.0.0.99.dev34-py3-none-any.whl
+[2023-06-10 06:19:59] INFO root fetch - processPackages [ream2]: Downloading https://files.pythonhosted.org/packages/04/bb/6af9fd0b25e89234783fce365c28a16926913059ff93ca14d270ca324c23/ream2-2.6.2.tar.gz
+[2023-06-10 06:19:59] INFO root fetch - processPackages [ream2]: executing diffoscope
+[2023-06-10 06:19:59] INFO root fetch - processPackages [ream2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ream2-2.6.1.tar.gz tmp/ream2-2.6.2.tar.gz --markdown 20230610/r/ream2/2.6.1-2.6.2/diff.md --exclude *.pyd
+[2023-06-10 06:19:59] INFO root fetch - processPackages [odoo12-addon-sale-multi-operating-unit]: executing diffoscope
+[2023-06-10 06:19:59] INFO root fetch - processPackages [odoo12-addon-sale-multi-operating-unit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_sale_multi_operating_unit-12.0.1.0.0.99.dev33-py3-none-any.whl.zip tmp/odoo12_addon_sale_multi_operating_unit-12.0.1.0.0.99.dev34-py3-none-any.whl.zip --markdown 20230610/o/odoo12-addon-sale-multi-operating-unit/12.0.1.0.0.99.dev33-12.0.1.0.0.99.dev34/diff.md --exclude *.pyd
+[2023-06-10 06:20:00] INFO root fetch - processPackages [vector-vault]: Remove: archive file [/home/abi/fetcher/tmp/vector_vault-2.0.6.tar.gz]
+[2023-06-10 06:20:00] INFO root fetch - processPackages [vector-vault]: Remove: archive file [/home/abi/fetcher/tmp/vector_vault-2.0.7.tar.gz]
+[2023-06-10 06:20:00] INFO root fetch - main [MainThread]: End processing [vector-vault]: success
+[2023-06-10 06:20:00] INFO root fetch - processPackages [ream2]: Remove: archive file [/home/abi/fetcher/tmp/ream2-2.6.1.tar.gz]
+[2023-06-10 06:20:00] INFO root fetch - processPackages [ream2]: Remove: archive file [/home/abi/fetcher/tmp/ream2-2.6.2.tar.gz]
+[2023-06-10 06:20:00] INFO root fetch - main [MainThread]: End processing [ream2]: success
+[2023-06-10 06:20:53] INFO root fetch - processPackages [odoo12-addon-sale-multi-operating-unit]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_sale_multi_operating_unit-12.0.1.0.0.99.dev33-py3-none-any.whl.zip]
+[2023-06-10 06:20:53] INFO root fetch - processPackages [odoo12-addon-sale-multi-operating-unit]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_sale_multi_operating_unit-12.0.1.0.0.99.dev34-py3-none-any.whl.zip]
+[2023-06-10 06:20:53] INFO root fetch - main [MainThread]: End processing [odoo12-addon-sale-multi-operating-unit]: success
+[2023-06-10 06:20:53] INFO root fetch - main [MainThread]: Store serial: [18448553]
