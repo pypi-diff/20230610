@@ -16144,3 +16144,29 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-10 20:01:19] INFO root fetch - processPackages [st4sd-runtime-core]: Remove: archive file [/home/abi/fetcher/tmp/st4sd-runtime-core-2.0.0a9.dev8.tar.gz]
 [2023-06-10 20:01:19] INFO root fetch - main [MainThread]: End processing [st4sd-runtime-core]: success
 [2023-06-10 20:01:19] INFO root fetch - main [MainThread]: Store serial: [18452803]
+[2023-06-10 20:06:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18452803]
+[2023-06-10 20:06:28] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-10 20:06:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dead
+[2023-06-10 20:06:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sphinx-autoapi
+[2023-06-10 20:06:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: web3cli
+[2023-06-10 20:06:28] INFO root fetch - processPackages [sphinx-autoapi]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-06-10 20:06:28] INFO root fetch - processPackages [dead]: New version: [1.5.2] Old Version: [1.5.1]
+[2023-06-10 20:06:28] INFO root fetch - processPackages [web3cli]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-10 20:06:28] INFO root fetch - processPackages [web3cli]: Downloading https://files.pythonhosted.org/packages/fc/56/85a1c229fa01e4ec598cae1ee3354df363ad39c760753ba8d13b14fbbae8/web3cli-1.1.1.tar.gz
+[2023-06-10 20:06:28] INFO root fetch - processPackages [sphinx-autoapi]: Downloading https://files.pythonhosted.org/packages/59/af/074bc9457b1802bb9f4d5eabe5ed2082a16be3c8bab87c0dece5806228c7/sphinx-autoapi-2.1.0.tar.gz
+[2023-06-10 20:06:28] INFO root fetch - processPackages [dead]: Downloading https://files.pythonhosted.org/packages/a8/8b/54c17c5fe4dcd68780e770befc3254985208840105f34447a59b455d5d52/dead-1.5.1.tar.gz
+[2023-06-10 20:06:28] WARNING root fetch - processPackages [sphinx-autoapi]: Skipping package: exceeds size limit 42158330>=10485760
+[2023-06-10 20:06:28] INFO root fetch - main [MainThread]: End processing [sphinx-autoapi] error
+[2023-06-10 20:06:28] INFO root fetch - processPackages [web3cli]: Downloading https://files.pythonhosted.org/packages/49/cd/dd62f771fdb3beee8d8be16bacb5af43d27779161ec9a4f13fc47cb9c3b4/web3cli-1.1.2.tar.gz
+[2023-06-10 20:06:28] INFO root fetch - processPackages [dead]: Downloading https://files.pythonhosted.org/packages/1a/c3/be1b53fff92d02c8f51dc4c18a49f40f982e5736f3d835ba5e79caccfaad/dead-1.5.2.tar.gz
+[2023-06-10 20:06:29] INFO root fetch - processPackages [web3cli]: executing diffoscope
+[2023-06-10 20:06:29] INFO root fetch - processPackages [web3cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/web3cli-1.1.1.tar.gz tmp/web3cli-1.1.2.tar.gz --markdown 20230610/w/web3cli/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-06-10 20:06:29] INFO root fetch - processPackages [dead]: executing diffoscope
+[2023-06-10 20:06:29] INFO root fetch - processPackages [dead]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dead-1.5.1.tar.gz tmp/dead-1.5.2.tar.gz --markdown 20230610/d/dead/1.5.1-1.5.2/diff.md --exclude *.pyd
+[2023-06-10 20:06:30] INFO root fetch - processPackages [dead]: Remove: archive file [/home/abi/fetcher/tmp/dead-1.5.1.tar.gz]
+[2023-06-10 20:06:30] INFO root fetch - processPackages [dead]: Remove: archive file [/home/abi/fetcher/tmp/dead-1.5.2.tar.gz]
+[2023-06-10 20:06:30] INFO root fetch - main [MainThread]: End processing [dead]: success
+[2023-06-10 20:06:31] INFO root fetch - processPackages [web3cli]: Remove: archive file [/home/abi/fetcher/tmp/web3cli-1.1.1.tar.gz]
+[2023-06-10 20:06:31] INFO root fetch - processPackages [web3cli]: Remove: archive file [/home/abi/fetcher/tmp/web3cli-1.1.2.tar.gz]
+[2023-06-10 20:06:31] INFO root fetch - main [MainThread]: End processing [web3cli]: success
+[2023-06-10 20:06:31] INFO root fetch - main [MainThread]: Store serial: [18452818]
