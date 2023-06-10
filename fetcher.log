@@ -8675,3 +8675,50 @@ EOFError: EOF read where object expected
 [2023-06-10 08:55:20] WARNING root fetch - processPackages [django-dellavrite]: Skipping, unable to determine old version
 [2023-06-10 08:55:20] INFO root fetch - main [MainThread]: End processing [django-dellavrite] error
 [2023-06-10 08:55:20] INFO root fetch - main [MainThread]: Store serial: [18449199]
+[2023-06-10 09:00:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18449199]
+[2023-06-10 09:00:29] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-10 09:00:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datalookup
+[2023-06-10 09:00:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scrapeanything
+[2023-06-10 09:00:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pautobot
+[2023-06-10 09:00:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pysimflow
+[2023-06-10 09:00:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: urllib3-ext-hface
+[2023-06-10 09:00:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Lopster
+[2023-06-10 09:00:29] INFO root fetch - processPackages [pautobot]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-10 09:00:29] INFO root fetch - processPackages [scrapeanything]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-06-10 09:00:29] INFO root fetch - processPackages [pysimflow]: New version: [0.0.54] Old Version: [0.0.53]
+[2023-06-10 09:00:29] WARNING root fetch - processPackages [datalookup]: Skipping, unable to determine old version
+[2023-06-10 09:00:29] INFO root fetch - main [MainThread]: End processing [datalookup] error
+[2023-06-10 09:00:29] INFO root fetch - processPackages [Lopster]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-10 09:00:29] INFO root fetch - processPackages [urllib3-ext-hface]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-10 09:00:30] INFO root fetch - processPackages [pautobot]: Downloading https://files.pythonhosted.org/packages/9f/52/faeb139fbabfe65ff760254fa31f131fbb53bf96f7676f890b72a8b89175/pautobot-0.0.8.tar.gz
+[2023-06-10 09:00:30] INFO root fetch - processPackages [Lopster]: Downloading https://files.pythonhosted.org/packages/c5/db/f48c5bd87cd53cfa74c8311f73d12e9ed9947625ac01540590abb4a461e6/Lopster-0.0.8.tar.gz
+[2023-06-10 09:00:30] INFO root fetch - processPackages [pysimflow]: Downloading https://files.pythonhosted.org/packages/ee/d2/63b317a920f584ecb4a8ddff83acbf6f8202da87929a0ad19cac0be6868c/pysimflow-0.0.53.tar.gz
+[2023-06-10 09:00:30] INFO root fetch - processPackages [scrapeanything]: Downloading https://files.pythonhosted.org/packages/4f/79/76c6a500556ca5614632771b87138c903ffe2040ba0d41724a81bb2f4ace/scrapeanything-0.9.98.tar.gz
+[2023-06-10 09:00:30] WARNING root fetch - processPackages [pysimflow]: Skipping package: exceeds size limit 72646496>=10485760
+[2023-06-10 09:00:30] INFO root fetch - main [MainThread]: End processing [pysimflow] error
+[2023-06-10 09:00:30] INFO root fetch - processPackages [urllib3-ext-hface]: Downloading https://files.pythonhosted.org/packages/85/26/2ab76ae179e780d2c2620051a935106df7d19661323aabcb1f24a79ea34a/urllib3_ext_hface-0.3.0.tar.gz
+[2023-06-10 09:00:30] INFO root fetch - processPackages [Lopster]: Downloading https://files.pythonhosted.org/packages/6a/32/dbe6f5482a98d637864090bfbef74af1b8f030eae670316344442ded7861/Lopster-0.0.9.tar.gz
+[2023-06-10 09:00:30] INFO root fetch - processPackages [pautobot]: Downloading https://files.pythonhosted.org/packages/f4/f6/5ec6aeb2fd8851a6cc459db4ba7278878ac6e26fb247f3e18b9d99d1c394/pautobot-0.0.9.tar.gz
+[2023-06-10 09:00:30] INFO root fetch - processPackages [Lopster]: executing diffoscope
+[2023-06-10 09:00:30] INFO root fetch - processPackages [Lopster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Lopster-0.0.8.tar.gz tmp/Lopster-0.0.9.tar.gz --markdown 20230610/L/Lopster/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-10 09:00:30] INFO root fetch - processPackages [urllib3-ext-hface]: Downloading https://files.pythonhosted.org/packages/47/ff/38cb10fbd53b7cefdadcd3165851a58d3eec3e1b3ac939b6bfdf179875bf/urllib3_ext_hface-0.3.1.tar.gz
+[2023-06-10 09:00:30] INFO root fetch - processPackages [scrapeanything]: Downloading https://files.pythonhosted.org/packages/fa/e4/773f04000d2184a28c8617fbe3df7fe93b181902a2ddb0a0e5f61f67c158/scrapeanything-0.9.99.tar.gz
+[2023-06-10 09:00:30] INFO root fetch - processPackages [scrapeanything]: executing diffoscope
+[2023-06-10 09:00:30] INFO root fetch - processPackages [scrapeanything]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrapeanything-0.9.98.tar.gz tmp/scrapeanything-0.9.99.tar.gz --markdown 20230610/s/scrapeanything/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-06-10 09:00:30] INFO root fetch - processPackages [urllib3-ext-hface]: executing diffoscope
+[2023-06-10 09:00:30] INFO root fetch - processPackages [urllib3-ext-hface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/urllib3_ext_hface-0.3.0.tar.gz tmp/urllib3_ext_hface-0.3.1.tar.gz --markdown 20230610/u/urllib3-ext-hface/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-10 09:00:30] INFO root fetch - processPackages [pautobot]: executing diffoscope
+[2023-06-10 09:00:30] INFO root fetch - processPackages [pautobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pautobot-0.0.8.tar.gz tmp/pautobot-0.0.9.tar.gz --markdown 20230610/p/pautobot/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-10 09:00:31] INFO root fetch - processPackages [Lopster]: Remove: archive file [/home/abi/fetcher/tmp/Lopster-0.0.8.tar.gz]
+[2023-06-10 09:00:31] INFO root fetch - processPackages [Lopster]: Remove: archive file [/home/abi/fetcher/tmp/Lopster-0.0.9.tar.gz]
+[2023-06-10 09:00:31] INFO root fetch - main [MainThread]: End processing [Lopster]: success
+[2023-06-10 09:00:31] INFO root fetch - processPackages [urllib3-ext-hface]: Remove: archive file [/home/abi/fetcher/tmp/urllib3_ext_hface-0.3.0.tar.gz]
+[2023-06-10 09:00:31] INFO root fetch - processPackages [urllib3-ext-hface]: Remove: archive file [/home/abi/fetcher/tmp/urllib3_ext_hface-0.3.1.tar.gz]
+[2023-06-10 09:00:31] INFO root fetch - main [MainThread]: End processing [urllib3-ext-hface]: success
+[2023-06-10 09:00:32] INFO root fetch - processPackages [pautobot]: Remove: archive file [/home/abi/fetcher/tmp/pautobot-0.0.8.tar.gz]
+[2023-06-10 09:00:32] INFO root fetch - processPackages [pautobot]: Remove: archive file [/home/abi/fetcher/tmp/pautobot-0.0.9.tar.gz]
+[2023-06-10 09:00:32] INFO root fetch - main [MainThread]: End processing [pautobot]: success
+[2023-06-10 09:01:25] INFO root fetch - processPackages [scrapeanything]: Remove: archive file [/home/abi/fetcher/tmp/scrapeanything-0.9.98.tar.gz]
+[2023-06-10 09:01:25] INFO root fetch - processPackages [scrapeanything]: Remove: archive file [/home/abi/fetcher/tmp/scrapeanything-0.9.99.tar.gz]
+[2023-06-10 09:01:25] INFO root fetch - main [MainThread]: End processing [scrapeanything]: success
+[2023-06-10 09:01:25] INFO root fetch - main [MainThread]: Store serial: [18449219]
