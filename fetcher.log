@@ -10206,3 +10206,63 @@ EOFError: EOF read where object expected
 [2023-06-10 11:53:04] INFO root fetch - processPackages [partitura]: Remove: archive file [/home/abi/fetcher/tmp/partitura-1.3.0.tar.gz]
 [2023-06-10 11:53:04] INFO root fetch - main [MainThread]: End processing [partitura]: success
 [2023-06-10 11:53:04] INFO root fetch - main [MainThread]: Store serial: [18449861]
+[2023-06-10 11:58:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18449861]
+[2023-06-10 11:58:13] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-10 11:58:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: miniosl
+[2023-06-10 11:58:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-stock-location-orderpoint-source-relocate
+[2023-06-10 11:58:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-stock-location-orderpoint
+[2023-06-10 11:58:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyfilehandling
+[2023-06-10 11:58:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: OpenFisca-France-Local
+[2023-06-10 11:58:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: stanscofi
+[2023-06-10 11:58:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: robotframework-pabot
+[2023-06-10 11:58:13] INFO root fetch - processPackages [odoo14-addon-stock-location-orderpoint-source-relocate]: New version: [14.0.1.0.2] Old Version: [14.0.1.0.1]
+[2023-06-10 11:58:13] INFO root fetch - processPackages [pyfilehandling]: New version: [1.1] Old Version: [1.0]
+[2023-06-10 11:58:13] WARNING root fetch - processPackages [stanscofi]: Skipping, unable to determine old version
+[2023-06-10 11:58:13] INFO root fetch - main [MainThread]: End processing [stanscofi] error
+[2023-06-10 11:58:13] INFO root fetch - processPackages [odoo14-addon-stock-location-orderpoint]: New version: [14.0.1.0.2] Old Version: [14.0.1.0.1]
+[2023-06-10 11:58:13] INFO root fetch - processPackages [miniosl]: New version: [0.0.4] Old Version: [0.0.3a1]
+[2023-06-10 11:58:13] INFO root fetch - processPackages [robotframework-pabot]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-06-10 11:58:13] INFO root fetch - processPackages [OpenFisca-France-Local]: New version: [4.7.0] Old Version: [4.6.2]
+[2023-06-10 11:58:13] INFO root fetch - processPackages [miniosl]: Downloading https://files.pythonhosted.org/packages/62/f8/c82be1606694ea4c8aadaba02b31a24619fe31210f9ccaa3c6e7442f35fc/miniosl-0.0.3a1.tar.gz
+[2023-06-10 11:58:13] INFO root fetch - processPackages [odoo14-addon-stock-location-orderpoint-source-relocate]: Downloading https://files.pythonhosted.org/packages/36/99/ef3414199e63699aaa12c20d2efd51f7dff6de2b190fffd5f1527dd613f0/odoo14_addon_stock_location_orderpoint_source_relocate-14.0.1.0.1-py3-none-any.whl
+[2023-06-10 11:58:13] INFO root fetch - processPackages [OpenFisca-France-Local]: Downloading https://files.pythonhosted.org/packages/d4/1e/e53cb903d3e78e1a3f1a80bd925ffdcf9c580b04d81caab0be318707dbc5/OpenFisca-France-Local-4.6.2.tar.gz
+[2023-06-10 11:58:13] INFO root fetch - processPackages [pyfilehandling]: Downloading https://files.pythonhosted.org/packages/f2/75/2be6cb74f0c095d3e1c6ed500bd74772b6886a6ff88866b00db6ccbb385c/pyfilehandling-1.0.tar.gz
+[2023-06-10 11:58:13] INFO root fetch - processPackages [odoo14-addon-stock-location-orderpoint]: Downloading https://files.pythonhosted.org/packages/24/de/aa555aa0357691b5084e431c716d11d50fcb79992ceaeb06a9ebf4b86788/odoo14_addon_stock_location_orderpoint-14.0.1.0.1-py3-none-any.whl
+[2023-06-10 11:58:13] INFO root fetch - processPackages [robotframework-pabot]: Downloading https://files.pythonhosted.org/packages/bb/87/4349c8fe752c5241ac59f2051181da4c2b47984db4c35fccf6510d168eae/robotframework-pabot-2.8.0.tar.gz
+[2023-06-10 11:58:13] INFO root fetch - processPackages [pyfilehandling]: Downloading https://files.pythonhosted.org/packages/e0/bf/e2857a910b7865af4a09ab1c1d77a38978e8c188786c3f0c410b92396a21/pyfilehandling-1.1.tar.gz
+[2023-06-10 11:58:13] INFO root fetch - processPackages [pyfilehandling]: executing diffoscope
+[2023-06-10 11:58:13] INFO root fetch - processPackages [pyfilehandling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfilehandling-1.0.tar.gz tmp/pyfilehandling-1.1.tar.gz --markdown 20230610/p/pyfilehandling/1.0-1.1/diff.md --exclude *.pyd
+[2023-06-10 11:58:13] INFO root fetch - processPackages [odoo14-addon-stock-location-orderpoint-source-relocate]: Downloading https://files.pythonhosted.org/packages/8f/fc/b0164bd42926b6870b3689ef52236abdb48fc89b805e286a22b037bdd8a3/odoo14_addon_stock_location_orderpoint_source_relocate-14.0.1.0.2-py3-none-any.whl
+[2023-06-10 11:58:14] INFO root fetch - processPackages [miniosl]: Downloading https://files.pythonhosted.org/packages/05/ae/28fa4201869dbd5f9ca481324e3258c253142f9ec96d6a5c1ac79336a8a5/miniosl-0.0.4-cp310-cp310-manylinux_2_28_x86_64.whl
+[2023-06-10 11:58:14] INFO root fetch - processPackages [odoo14-addon-stock-location-orderpoint]: Downloading https://files.pythonhosted.org/packages/df/17/bf3c3deef7fa8d001cc58c363f1961f74e682335839f88f24d6e3b3977a0/odoo14_addon_stock_location_orderpoint-14.0.1.0.2-py3-none-any.whl
+[2023-06-10 11:58:14] INFO root fetch - processPackages [odoo14-addon-stock-location-orderpoint-source-relocate]: executing diffoscope
+[2023-06-10 11:58:14] INFO root fetch - processPackages [odoo14-addon-stock-location-orderpoint-source-relocate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_stock_location_orderpoint_source_relocate-14.0.1.0.1-py3-none-any.whl.zip tmp/odoo14_addon_stock_location_orderpoint_source_relocate-14.0.1.0.2-py3-none-any.whl.zip --markdown 20230610/o/odoo14-addon-stock-location-orderpoint-source-relocate/14.0.1.0.1-14.0.1.0.2/diff.md --exclude *.pyd
+[2023-06-10 11:58:14] INFO root fetch - processPackages [robotframework-pabot]: Downloading https://files.pythonhosted.org/packages/03/7c/cba3d5aa35a990f6c0c26d117d91bfd7cec338501d574d7516aafd1afc2d/robotframework-pabot-2.9.0.tar.gz
+[2023-06-10 11:58:14] INFO root fetch - processPackages [odoo14-addon-stock-location-orderpoint]: executing diffoscope
+[2023-06-10 11:58:14] INFO root fetch - processPackages [odoo14-addon-stock-location-orderpoint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_stock_location_orderpoint-14.0.1.0.1-py3-none-any.whl.zip tmp/odoo14_addon_stock_location_orderpoint-14.0.1.0.2-py3-none-any.whl.zip --markdown 20230610/o/odoo14-addon-stock-location-orderpoint/14.0.1.0.1-14.0.1.0.2/diff.md --exclude *.pyd
+[2023-06-10 11:58:14] INFO root fetch - processPackages [miniosl]: executing diffoscope
+[2023-06-10 11:58:14] INFO root fetch - processPackages [miniosl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miniosl-0.0.3a1.tar.gz tmp/miniosl-0.0.4-cp310-cp310-manylinux_2_28_x86_64.whl.zip --markdown 20230610/m/miniosl/0.0.3a1-0.0.4/diff.md --exclude *.pyd
+[2023-06-10 11:58:14] INFO root fetch - processPackages [robotframework-pabot]: executing diffoscope
+[2023-06-10 11:58:14] INFO root fetch - processPackages [robotframework-pabot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework-pabot-2.8.0.tar.gz tmp/robotframework-pabot-2.9.0.tar.gz --markdown 20230610/r/robotframework-pabot/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-06-10 11:58:15] INFO root fetch - processPackages [pyfilehandling]: Remove: archive file [/home/abi/fetcher/tmp/pyfilehandling-1.0.tar.gz]
+[2023-06-10 11:58:15] INFO root fetch - processPackages [pyfilehandling]: Remove: archive file [/home/abi/fetcher/tmp/pyfilehandling-1.1.tar.gz]
+[2023-06-10 11:58:15] INFO root fetch - main [MainThread]: End processing [pyfilehandling]: success
+[2023-06-10 11:58:15] INFO root fetch - processPackages [OpenFisca-France-Local]: Downloading https://files.pythonhosted.org/packages/82/33/280bc93790790abe4f08d9af7a07a02ba381a5f30ec17db4be483fa0097b/OpenFisca-France-Local-4.7.0.tar.gz
+[2023-06-10 11:58:15] INFO root fetch - processPackages [odoo14-addon-stock-location-orderpoint-source-relocate]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_stock_location_orderpoint_source_relocate-14.0.1.0.1-py3-none-any.whl.zip]
+[2023-06-10 11:58:15] INFO root fetch - processPackages [odoo14-addon-stock-location-orderpoint-source-relocate]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_stock_location_orderpoint_source_relocate-14.0.1.0.2-py3-none-any.whl.zip]
+[2023-06-10 11:58:15] INFO root fetch - main [MainThread]: End processing [odoo14-addon-stock-location-orderpoint-source-relocate]: success
+[2023-06-10 11:58:15] INFO root fetch - processPackages [odoo14-addon-stock-location-orderpoint]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_stock_location_orderpoint-14.0.1.0.1-py3-none-any.whl.zip]
+[2023-06-10 11:58:15] INFO root fetch - processPackages [odoo14-addon-stock-location-orderpoint]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_stock_location_orderpoint-14.0.1.0.2-py3-none-any.whl.zip]
+[2023-06-10 11:58:15] INFO root fetch - main [MainThread]: End processing [odoo14-addon-stock-location-orderpoint]: success
+[2023-06-10 11:58:15] INFO root fetch - processPackages [miniosl]: Remove: archive file [/home/abi/fetcher/tmp/miniosl-0.0.3a1.tar.gz]
+[2023-06-10 11:58:15] INFO root fetch - processPackages [miniosl]: Remove: archive file [/home/abi/fetcher/tmp/miniosl-0.0.4-cp310-cp310-manylinux_2_28_x86_64.whl.zip]
+[2023-06-10 11:58:15] INFO root fetch - main [MainThread]: End processing [miniosl]: success
+[2023-06-10 11:58:15] INFO root fetch - processPackages [robotframework-pabot]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-pabot-2.8.0.tar.gz]
+[2023-06-10 11:58:15] INFO root fetch - processPackages [robotframework-pabot]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-pabot-2.9.0.tar.gz]
+[2023-06-10 11:58:15] INFO root fetch - main [MainThread]: End processing [robotframework-pabot]: success
+[2023-06-10 11:58:16] INFO root fetch - processPackages [OpenFisca-France-Local]: executing diffoscope
+[2023-06-10 11:58:16] INFO root fetch - processPackages [OpenFisca-France-Local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenFisca-France-Local-4.6.2.tar.gz tmp/OpenFisca-France-Local-4.7.0.tar.gz --markdown 20230610/O/OpenFisca-France-Local/4.6.2-4.7.0/diff.md --exclude *.pyd
+[2023-06-10 11:58:22] INFO root fetch - processPackages [OpenFisca-France-Local]: Remove: archive file [/home/abi/fetcher/tmp/OpenFisca-France-Local-4.6.2.tar.gz]
+[2023-06-10 11:58:22] INFO root fetch - processPackages [OpenFisca-France-Local]: Remove: archive file [/home/abi/fetcher/tmp/OpenFisca-France-Local-4.7.0.tar.gz]
+[2023-06-10 11:58:22] INFO root fetch - main [MainThread]: End processing [OpenFisca-France-Local]: success
+[2023-06-10 11:58:22] INFO root fetch - main [MainThread]: Store serial: [18449881]
