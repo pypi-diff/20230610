@@ -18446,3 +18446,54 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-10 23:06:23] INFO root fetch - main [MainThread]: End processing [yarok]: success
 [2023-06-10 23:07:16] INFO root fetch - main [MainThread]: End processing [yarok]: success
 [2023-06-10 23:07:16] INFO root fetch - main [MainThread]: Store serial: [18453906]
+[2023-06-10 23:12:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18453906]
+[2023-06-10 23:12:25] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-10 23:12:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyvantage
+[2023-06-10 23:12:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: micropython-bmi160
+[2023-06-10 23:12:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: optimuslib
+[2023-06-10 23:12:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: proofs
+[2023-06-10 23:12:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tool_server_generator
+[2023-06-10 23:12:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sqlite-xsv
+[2023-06-10 23:12:25] INFO root fetch - processPackages [optimuslib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-10 23:12:25] INFO root fetch - processPackages [sqlite-xsv]: New version: [0.2.1a9] Old Version: [0.2.1a8]
+[2023-06-10 23:12:25] INFO root fetch - processPackages [pyvantage]: New version: [0.0.52] Old Version: [0.0.50]
+[2023-06-10 23:12:25] INFO root fetch - processPackages [proofs]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-10 23:12:25] INFO root fetch - processPackages [tool_server_generator]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-06-10 23:12:25] INFO root fetch - processPackages [optimuslib]: Downloading https://files.pythonhosted.org/packages/57/20/e8e01ccdf9190f201291d67ffef425d64270fcd7068a74d555a998548eef/optimuslib-0.0.8.tar.gz
+[2023-06-10 23:12:25] INFO root fetch - processPackages [sqlite-xsv]: Downloading https://files.pythonhosted.org/packages/80/c1/00186b71f75a0e4e88919ae0639f9a942abdf521ca8d7e40c9115543d682/sqlite_xsv-0.2.1a8-py3-none-win_amd64.whl
+[2023-06-10 23:12:25] WARNING root fetch - processPackages [micropython-bmi160]: Skipping, unable to determine old version
+[2023-06-10 23:12:25] INFO root fetch - main [MainThread]: End processing [micropython-bmi160] error
+[2023-06-10 23:12:25] INFO root fetch - processPackages [pyvantage]: Downloading https://files.pythonhosted.org/packages/08/02/36f0cec6d151683c1f529904d3205bb60e18aae0d9098126bc26d61a2bb4/pyvantage-0.0.50.tar.gz
+[2023-06-10 23:12:25] INFO root fetch - processPackages [proofs]: Downloading https://files.pythonhosted.org/packages/26/75/8e511f9822ad96fc75894a5577d0096a50cae3ea9d678341972dfdaccdd7/proofs-0.0.2.tar.gz
+[2023-06-10 23:12:25] INFO root fetch - processPackages [optimuslib]: Downloading https://files.pythonhosted.org/packages/0d/41/841c782b1a05dfdd5a62448da91fbf89069618daef1f764d05c3bc621557/optimuslib-0.0.9.tar.gz
+[2023-06-10 23:12:25] INFO root fetch - processPackages [tool_server_generator]: Downloading https://files.pythonhosted.org/packages/4c/8f/71fa42dd3173c5c75ee081a9416b089ce39c9561abfc44cbe227691c02e6/tool_server_generator-0.4.2.tar.gz
+[2023-06-10 23:12:25] INFO root fetch - processPackages [optimuslib]: executing diffoscope
+[2023-06-10 23:12:25] INFO root fetch - processPackages [optimuslib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optimuslib-0.0.8.tar.gz tmp/optimuslib-0.0.9.tar.gz --markdown 20230610/o/optimuslib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-10 23:12:25] INFO root fetch - processPackages [sqlite-xsv]: Downloading https://files.pythonhosted.org/packages/71/f5/8a2eaac1185aa4c81d82b9eee3a0932c75bebae1a4ad1ff52e0ab85f3f2f/sqlite_xsv-0.2.1a9-py3-none-win_amd64.whl
+[2023-06-10 23:12:26] INFO root fetch - processPackages [pyvantage]: Downloading https://files.pythonhosted.org/packages/5b/cd/1db3ed9a0f8925474270ed5f62d3d14157df579a28b96b42352901f6c2cf/pyvantage-0.0.52.tar.gz
+[2023-06-10 23:12:26] INFO root fetch - processPackages [sqlite-xsv]: executing diffoscope
+[2023-06-10 23:12:26] INFO root fetch - processPackages [sqlite-xsv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite_xsv-0.2.1a8-py3-none-win_amd64.whl.zip tmp/sqlite_xsv-0.2.1a9-py3-none-win_amd64.whl.zip --markdown 20230610/s/sqlite-xsv/0.2.1a8-0.2.1a9/diff.md --exclude *.pyd
+[2023-06-10 23:12:26] INFO root fetch - processPackages [pyvantage]: executing diffoscope
+[2023-06-10 23:12:26] INFO root fetch - processPackages [pyvantage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvantage-0.0.50.tar.gz tmp/pyvantage-0.0.52.tar.gz --markdown 20230610/p/pyvantage/0.0.50-0.0.52/diff.md --exclude *.pyd
+[2023-06-10 23:12:26] INFO root fetch - processPackages [tool_server_generator]: Downloading https://files.pythonhosted.org/packages/c8/09/866d1ea2950f37bdb8d1252b1e047c6d9fc2c37e2b755e043587ec027ab3/tool_server_generator-0.4.3.tar.gz
+[2023-06-10 23:12:26] INFO root fetch - processPackages [proofs]: Downloading https://files.pythonhosted.org/packages/0a/c8/7a5625546f1c3c23b12ea39fd57b9ecc231509a4f53c8737b2e16dc129da/proofs-0.0.3.tar.gz
+[2023-06-10 23:12:26] INFO root fetch - processPackages [tool_server_generator]: executing diffoscope
+[2023-06-10 23:12:26] INFO root fetch - processPackages [tool_server_generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tool_server_generator-0.4.2.tar.gz tmp/tool_server_generator-0.4.3.tar.gz --markdown 20230610/t/tool_server_generator/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-06-10 23:12:26] INFO root fetch - processPackages [proofs]: executing diffoscope
+[2023-06-10 23:12:26] INFO root fetch - processPackages [proofs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proofs-0.0.2.tar.gz tmp/proofs-0.0.3.tar.gz --markdown 20230610/p/proofs/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-10 23:12:26] INFO root fetch - processPackages [optimuslib]: Remove: archive file [/home/abi/fetcher/tmp/optimuslib-0.0.8.tar.gz]
+[2023-06-10 23:12:26] INFO root fetch - processPackages [optimuslib]: Remove: archive file [/home/abi/fetcher/tmp/optimuslib-0.0.9.tar.gz]
+[2023-06-10 23:12:26] INFO root fetch - main [MainThread]: End processing [optimuslib]: success
+[2023-06-10 23:12:27] INFO root fetch - processPackages [pyvantage]: Remove: archive file [/home/abi/fetcher/tmp/pyvantage-0.0.50.tar.gz]
+[2023-06-10 23:12:27] INFO root fetch - processPackages [pyvantage]: Remove: archive file [/home/abi/fetcher/tmp/pyvantage-0.0.52.tar.gz]
+[2023-06-10 23:12:27] INFO root fetch - main [MainThread]: End processing [pyvantage]: success
+[2023-06-10 23:12:27] INFO root fetch - processPackages [proofs]: Remove: archive file [/home/abi/fetcher/tmp/proofs-0.0.2.tar.gz]
+[2023-06-10 23:12:27] INFO root fetch - processPackages [proofs]: Remove: archive file [/home/abi/fetcher/tmp/proofs-0.0.3.tar.gz]
+[2023-06-10 23:12:27] INFO root fetch - main [MainThread]: End processing [proofs]: success
+[2023-06-10 23:12:27] INFO root fetch - processPackages [tool_server_generator]: Remove: archive file [/home/abi/fetcher/tmp/tool_server_generator-0.4.2.tar.gz]
+[2023-06-10 23:12:27] INFO root fetch - processPackages [tool_server_generator]: Remove: archive file [/home/abi/fetcher/tmp/tool_server_generator-0.4.3.tar.gz]
+[2023-06-10 23:12:27] INFO root fetch - main [MainThread]: End processing [tool_server_generator]: success
+[2023-06-10 23:12:33] INFO root fetch - processPackages [sqlite-xsv]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_xsv-0.2.1a8-py3-none-win_amd64.whl.zip]
+[2023-06-10 23:12:33] INFO root fetch - processPackages [sqlite-xsv]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_xsv-0.2.1a9-py3-none-win_amd64.whl.zip]
+[2023-06-10 23:12:33] INFO root fetch - main [MainThread]: End processing [sqlite-xsv]: success
+[2023-06-10 23:12:33] INFO root fetch - main [MainThread]: Store serial: [18453935]
