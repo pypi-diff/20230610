@@ -8290,3 +8290,36 @@ EOFError: EOF read where object expected
 [2023-06-10 07:42:22] INFO root fetch - processPackages [neuroimager]: Remove: archive file [/home/abi/fetcher/tmp/neuroimager-0.0.5.tar.gz]
 [2023-06-10 07:42:22] INFO root fetch - main [MainThread]: End processing [neuroimager]: success
 [2023-06-10 07:42:22] INFO root fetch - main [MainThread]: Store serial: [18448848]
+[2023-06-10 07:47:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18448848]
+[2023-06-10 07:47:32] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-10 07:47:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-stock-storage-type
+[2023-06-10 07:47:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wholebrain
+[2023-06-10 07:47:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fasttq
+[2023-06-10 07:47:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dss-python
+[2023-06-10 07:47:32] INFO root fetch - processPackages [dss-python]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-06-10 07:47:32] INFO root fetch - processPackages [fasttq]: New version: [1.0.6] Old Version: [1.0.4]
+[2023-06-10 07:47:32] INFO root fetch - processPackages [odoo14-addon-stock-storage-type]: New version: [14.0.1.9.1.dev4] Old Version: [14.0.1.9.1.dev2]
+[2023-06-10 07:47:32] WARNING root fetch - processPackages [wholebrain]: Skipping, unable to determine old version
+[2023-06-10 07:47:32] INFO root fetch - main [MainThread]: End processing [wholebrain] error
+[2023-06-10 07:47:32] INFO root fetch - processPackages [dss-python]: Downloading https://files.pythonhosted.org/packages/ba/cf/a5abece290b5d45a750b25f6d114e5b1462f4576dc2639d8c1f557b61d72/dss_python-0.9.7-cp36-cp36m-win_amd64.whl
+[2023-06-10 07:47:32] INFO root fetch - processPackages [fasttq]: Downloading https://files.pythonhosted.org/packages/f4/31/f3483c688187150e6cbb6b11b9d0907bd92fda4ecfc21d4bf6b834c96751/fasttq-1.0.4.tar.gz
+[2023-06-10 07:47:32] INFO root fetch - processPackages [odoo14-addon-stock-storage-type]: Downloading https://files.pythonhosted.org/packages/75/f6/77cd2df0d276c2c820d436ca2d0511eafe1ab7e58fb2d3a5fb9eb7257421/odoo14_addon_stock_storage_type-14.0.1.9.1.dev2-py3-none-any.whl
+[2023-06-10 07:47:32] INFO root fetch - processPackages [fasttq]: Downloading https://files.pythonhosted.org/packages/1f/af/35665cd94a89e7b929fceaf632626b4d350c6c81b408cad04b88870fdb6f/fasttq-1.0.6.tar.gz
+[2023-06-10 07:47:32] INFO root fetch - processPackages [fasttq]: executing diffoscope
+[2023-06-10 07:47:32] INFO root fetch - processPackages [fasttq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fasttq-1.0.4.tar.gz tmp/fasttq-1.0.6.tar.gz --markdown 20230610/f/fasttq/1.0.4-1.0.6/diff.md --exclude *.pyd
+[2023-06-10 07:47:32] INFO root fetch - processPackages [odoo14-addon-stock-storage-type]: Downloading https://files.pythonhosted.org/packages/42/a7/191be638bcaec1ec9b645010b05f4fc82c468a31cba0953554ff88732aa0/odoo14_addon_stock_storage_type-14.0.1.9.1.dev4-py3-none-any.whl
+[2023-06-10 07:47:32] INFO root fetch - processPackages [odoo14-addon-stock-storage-type]: executing diffoscope
+[2023-06-10 07:47:32] INFO root fetch - processPackages [odoo14-addon-stock-storage-type]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_stock_storage_type-14.0.1.9.1.dev2-py3-none-any.whl.zip tmp/odoo14_addon_stock_storage_type-14.0.1.9.1.dev4-py3-none-any.whl.zip --markdown 20230610/o/odoo14-addon-stock-storage-type/14.0.1.9.1.dev2-14.0.1.9.1.dev4/diff.md --exclude *.pyd
+[2023-06-10 07:47:33] INFO root fetch - processPackages [dss-python]: Downloading https://files.pythonhosted.org/packages/01/44/9b7b908415f0e3ecbc413ebf6895b4465ca04c24d15d974ddac812e6cf2b/dss_python-0.9.8-cp37-cp37m-win_amd64.whl
+[2023-06-10 07:47:33] INFO root fetch - processPackages [fasttq]: Remove: archive file [/home/abi/fetcher/tmp/fasttq-1.0.4.tar.gz]
+[2023-06-10 07:47:33] INFO root fetch - processPackages [fasttq]: Remove: archive file [/home/abi/fetcher/tmp/fasttq-1.0.6.tar.gz]
+[2023-06-10 07:47:33] INFO root fetch - main [MainThread]: End processing [fasttq]: success
+[2023-06-10 07:47:34] INFO root fetch - processPackages [odoo14-addon-stock-storage-type]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_stock_storage_type-14.0.1.9.1.dev2-py3-none-any.whl.zip]
+[2023-06-10 07:47:34] INFO root fetch - processPackages [odoo14-addon-stock-storage-type]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_stock_storage_type-14.0.1.9.1.dev4-py3-none-any.whl.zip]
+[2023-06-10 07:47:34] INFO root fetch - main [MainThread]: End processing [odoo14-addon-stock-storage-type]: success
+[2023-06-10 07:47:34] INFO root fetch - processPackages [dss-python]: executing diffoscope
+[2023-06-10 07:47:34] INFO root fetch - processPackages [dss-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dss_python-0.9.7-cp36-cp36m-win_amd64.whl.zip tmp/dss_python-0.9.8-cp37-cp37m-win_amd64.whl.zip --markdown 20230610/d/dss-python/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-06-10 07:47:56] INFO root fetch - processPackages [dss-python]: Remove: archive file [/home/abi/fetcher/tmp/dss_python-0.9.7-cp36-cp36m-win_amd64.whl.zip]
+[2023-06-10 07:47:56] INFO root fetch - processPackages [dss-python]: Remove: archive file [/home/abi/fetcher/tmp/dss_python-0.9.8-cp37-cp37m-win_amd64.whl.zip]
+[2023-06-10 07:47:56] INFO root fetch - main [MainThread]: End processing [dss-python]: success
+[2023-06-10 07:47:56] INFO root fetch - main [MainThread]: Store serial: [18448861]
