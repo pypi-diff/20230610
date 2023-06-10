@@ -17264,3 +17264,56 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-10 21:56:07] INFO root fetch - processPackages [mapbot-frontend]: Remove: archive file [/home/abi/fetcher/tmp/mapbot_frontend-0.1.9.tar.gz]
 [2023-06-10 21:56:07] INFO root fetch - main [MainThread]: End processing [mapbot-frontend]: success
 [2023-06-10 21:56:07] INFO root fetch - main [MainThread]: Store serial: [18453381]
+[2023-06-10 22:01:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18453381]
+[2023-06-10 22:01:16] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-10 22:01:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: klayout
+[2023-06-10 22:01:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: useful-rdkit-utils
+[2023-06-10 22:01:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: discord-qalib
+[2023-06-10 22:01:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: leuci-map
+[2023-06-10 22:01:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: honeybee-energy
+[2023-06-10 22:01:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: maadstml
+[2023-06-10 22:01:16] INFO root fetch - processPackages [leuci-map]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-10 22:01:16] INFO root fetch - processPackages [klayout]: New version: [0.28.post1] Old Version: [0.28.9]
+[2023-06-10 22:01:16] INFO root fetch - processPackages [useful-rdkit-utils]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-06-10 22:01:16] INFO root fetch - processPackages [discord-qalib]: New version: [2.4.1] Old Version: [2.4.0]
+[2023-06-10 22:01:16] INFO root fetch - processPackages [honeybee-energy]: New version: [1.99.9] Old Version: [1.99.8]
+[2023-06-10 22:01:16] INFO root fetch - processPackages [leuci-map]: Downloading https://files.pythonhosted.org/packages/d7/f9/d814c86bcb6551942e72559977ffd7788e9a2d159c055fc5698defcc15da/leuci-map-0.1.8.tar.gz
+[2023-06-10 22:01:16] INFO root fetch - processPackages [discord-qalib]: Downloading https://files.pythonhosted.org/packages/2b/e2/e25d7f7d87883ae4b4435912bf479d5769dc76a47c76fd8d5c9daaa067a3/discord-qalib-2.4.0.tar.gz
+[2023-06-10 22:01:16] INFO root fetch - processPackages [maadstml]: New version: [3.25] Old Version: [3.24]
+[2023-06-10 22:01:16] INFO root fetch - processPackages [klayout]: Downloading https://files.pythonhosted.org/packages/60/8f/b012ebd662ec0ca395b1548159934fb2323ee77797f4c82d02aaa29085d2/klayout-0.28.9-cp39-cp39-win_amd64.whl
+[2023-06-10 22:01:16] INFO root fetch - processPackages [leuci-map]: Downloading https://files.pythonhosted.org/packages/ef/bd/8215fa42b8399ed3a3bbe6d8cb906b7c7f4767bbb786d85e8172c4dbf877/leuci-map-0.1.9.tar.gz
+[2023-06-10 22:01:16] WARNING root fetch - processPackages [klayout]: Skipping package: exceeds size limit 11775940>=10485760
+[2023-06-10 22:01:16] INFO root fetch - main [MainThread]: End processing [klayout] error
+[2023-06-10 22:01:16] INFO root fetch - processPackages [useful-rdkit-utils]: Downloading https://files.pythonhosted.org/packages/1d/2c/f98fae6d5b5b1d6b0903d5a1e3b6342d36bf771ee25d359de719ec345ba5/useful_rdkit_utils-0.2.5.tar.gz
+[2023-06-10 22:01:16] INFO root fetch - processPackages [honeybee-energy]: Downloading https://files.pythonhosted.org/packages/b1/ab/c8fb70e349d71cce95bac52782f7ea0659a6987ed84dd41c7fe2ef40806c/honeybee-energy-1.99.8.tar.gz
+[2023-06-10 22:01:16] INFO root fetch - processPackages [leuci-map]: executing diffoscope
+[2023-06-10 22:01:16] INFO root fetch - processPackages [leuci-map]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leuci-map-0.1.8.tar.gz tmp/leuci-map-0.1.9.tar.gz --markdown 20230610/l/leuci-map/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-10 22:01:16] INFO root fetch - processPackages [discord-qalib]: Downloading https://files.pythonhosted.org/packages/59/1a/8012ddc70e87c594c73338655214881fb6611ade701c5b40bd794990f139/discord-qalib-2.4.1.tar.gz
+[2023-06-10 22:01:16] INFO root fetch - processPackages [maadstml]: Downloading https://files.pythonhosted.org/packages/2a/4d/1d531af1f75a1945cd458510882555ea4e7899e78bf82a9a2d8f6f76b07e/maadstml-3.24.tar.gz
+[2023-06-10 22:01:16] INFO root fetch - processPackages [discord-qalib]: executing diffoscope
+[2023-06-10 22:01:16] INFO root fetch - processPackages [discord-qalib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discord-qalib-2.4.0.tar.gz tmp/discord-qalib-2.4.1.tar.gz --markdown 20230610/d/discord-qalib/2.4.0-2.4.1/diff.md --exclude *.pyd
+[2023-06-10 22:01:16] INFO root fetch - processPackages [useful-rdkit-utils]: Downloading https://files.pythonhosted.org/packages/99/f2/7aeb9d2caea1115f389e6b76d86ac307ff282e672659c6a7bad645791979/useful_rdkit_utils-0.2.6.tar.gz
+[2023-06-10 22:01:16] INFO root fetch - processPackages [useful-rdkit-utils]: executing diffoscope
+[2023-06-10 22:01:16] INFO root fetch - processPackages [useful-rdkit-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/useful_rdkit_utils-0.2.5.tar.gz tmp/useful_rdkit_utils-0.2.6.tar.gz --markdown 20230610/u/useful-rdkit-utils/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-06-10 22:01:16] INFO root fetch - processPackages [maadstml]: Downloading https://files.pythonhosted.org/packages/5a/e0/4322df49d14f97e3d540db6141f08bd84add139fdabb732e9d4b55549469/maadstml-3.25.tar.gz
+[2023-06-10 22:01:17] INFO root fetch - processPackages [maadstml]: executing diffoscope
+[2023-06-10 22:01:17] INFO root fetch - processPackages [maadstml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maadstml-3.24.tar.gz tmp/maadstml-3.25.tar.gz --markdown 20230610/m/maadstml/3.24-3.25/diff.md --exclude *.pyd
+[2023-06-10 22:01:17] INFO root fetch - processPackages [honeybee-energy]: Downloading https://files.pythonhosted.org/packages/8d/5e/1bc90eeaf45799cc7d5cda125017c1e4e2cf0ef068cd3db60d971b9596ba/honeybee-energy-1.99.9.tar.gz
+[2023-06-10 22:01:17] INFO root fetch - processPackages [honeybee-energy]: executing diffoscope
+[2023-06-10 22:01:17] INFO root fetch - processPackages [honeybee-energy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-energy-1.99.8.tar.gz tmp/honeybee-energy-1.99.9.tar.gz --markdown 20230610/h/honeybee-energy/1.99.8-1.99.9/diff.md --exclude *.pyd
+[2023-06-10 22:01:17] INFO root fetch - processPackages [leuci-map]: Remove: archive file [/home/abi/fetcher/tmp/leuci-map-0.1.8.tar.gz]
+[2023-06-10 22:01:17] INFO root fetch - processPackages [leuci-map]: Remove: archive file [/home/abi/fetcher/tmp/leuci-map-0.1.9.tar.gz]
+[2023-06-10 22:01:17] INFO root fetch - main [MainThread]: End processing [leuci-map]: success
+[2023-06-10 22:01:17] INFO root fetch - processPackages [useful-rdkit-utils]: Remove: archive file [/home/abi/fetcher/tmp/useful_rdkit_utils-0.2.5.tar.gz]
+[2023-06-10 22:01:17] INFO root fetch - processPackages [useful-rdkit-utils]: Remove: archive file [/home/abi/fetcher/tmp/useful_rdkit_utils-0.2.6.tar.gz]
+[2023-06-10 22:01:17] INFO root fetch - main [MainThread]: End processing [useful-rdkit-utils]: success
+[2023-06-10 22:01:18] INFO root fetch - processPackages [maadstml]: Remove: archive file [/home/abi/fetcher/tmp/maadstml-3.24.tar.gz]
+[2023-06-10 22:01:18] INFO root fetch - processPackages [maadstml]: Remove: archive file [/home/abi/fetcher/tmp/maadstml-3.25.tar.gz]
+[2023-06-10 22:01:18] INFO root fetch - main [MainThread]: End processing [maadstml]: success
+[2023-06-10 22:01:18] INFO root fetch - processPackages [discord-qalib]: Remove: archive file [/home/abi/fetcher/tmp/discord-qalib-2.4.0.tar.gz]
+[2023-06-10 22:01:18] INFO root fetch - processPackages [discord-qalib]: Remove: archive file [/home/abi/fetcher/tmp/discord-qalib-2.4.1.tar.gz]
+[2023-06-10 22:01:18] INFO root fetch - main [MainThread]: End processing [discord-qalib]: success
+[2023-06-10 22:01:19] INFO root fetch - processPackages [honeybee-energy]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-energy-1.99.8.tar.gz]
+[2023-06-10 22:01:19] INFO root fetch - processPackages [honeybee-energy]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-energy-1.99.9.tar.gz]
+[2023-06-10 22:01:19] INFO root fetch - main [MainThread]: End processing [honeybee-energy]: success
+[2023-06-10 22:01:19] INFO root fetch - main [MainThread]: Store serial: [18453409]
