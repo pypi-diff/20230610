@@ -10299,3 +10299,54 @@ EOFError: EOF read where object expected
 [2023-06-10 12:03:40] INFO root fetch - processPackages [pymodd]: Remove: archive file [/home/abi/fetcher/tmp/pymodd-1.0.5-cp311-cp311-macosx_11_0_arm64.whl.zip]
 [2023-06-10 12:03:40] INFO root fetch - main [MainThread]: End processing [pymodd]: success
 [2023-06-10 12:03:40] INFO root fetch - main [MainThread]: Store serial: [18449897]
+[2023-06-10 12:08:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18449897]
+[2023-06-10 12:08:49] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-10 12:08:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ascend-deployer
+[2023-06-10 12:08:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pocketsearch
+[2023-06-10 12:08:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: morsecodeplus
+[2023-06-10 12:08:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fastai-datasets
+[2023-06-10 12:08:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: similarity-learning
+[2023-06-10 12:08:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: adv-ml
+[2023-06-10 12:08:49] INFO root fetch - processPackages [adv-ml]: New version: [0.0.4] Old Version: [0.0.2]
+[2023-06-10 12:08:49] INFO root fetch - processPackages [fastai-datasets]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-10 12:08:49] WARNING root fetch - processPackages [morsecodeplus]: Skipping, unable to determine old version
+[2023-06-10 12:08:49] INFO root fetch - processPackages [similarity-learning]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-10 12:08:49] INFO root fetch - main [MainThread]: End processing [morsecodeplus] error
+[2023-06-10 12:08:49] INFO root fetch - processPackages [pocketsearch]: New version: [0.6.0] Old Version: [0.5.7]
+[2023-06-10 12:08:49] INFO root fetch - processPackages [ascend-deployer]: New version: [5.0.0b4] Old Version: [5.0.0b3]
+[2023-06-10 12:08:49] INFO root fetch - processPackages [adv-ml]: Downloading https://files.pythonhosted.org/packages/6c/14/3207da0513e00cf1078c8089d69ec611d0a5a64ee53adff1b5a1b85f2c63/adv-ml-0.0.2.tar.gz
+[2023-06-10 12:08:49] INFO root fetch - processPackages [fastai-datasets]: Downloading https://files.pythonhosted.org/packages/5d/92/466d36f16f82fd9cdd36d522c718d2c96593f8213d3fcba66b01cde59489/fastai-datasets-0.0.7.tar.gz
+[2023-06-10 12:08:49] INFO root fetch - processPackages [pocketsearch]: Downloading https://files.pythonhosted.org/packages/b8/8d/2e0eebbc2f159422a767c0cca44a95ff05c326a38b97a4fe1dcf6efc6b85/pocketsearch-0.5.7.tar.gz
+[2023-06-10 12:08:49] INFO root fetch - processPackages [ascend-deployer]: Downloading https://files.pythonhosted.org/packages/f4/8a/de304eb4449d1a7e2537ffecdc1740dfad013d6256a5a25992287a91d19f/ascend_deployer-5.0.0b3-py3-none-any.whl
+[2023-06-10 12:08:49] INFO root fetch - processPackages [similarity-learning]: Downloading https://files.pythonhosted.org/packages/c6/fc/ee6b8af9bfa927e6e94adcce6dcfba1789268ac7cfdfc6a39240c9035bea/similarity-learning-0.0.3.tar.gz
+[2023-06-10 12:08:49] INFO root fetch - processPackages [pocketsearch]: Downloading https://files.pythonhosted.org/packages/ee/48/d0a39634f4f056ebc9271b6cedcf5429722371e90bea9ef8e05e06d54dff/pocketsearch-0.6.0.tar.gz
+[2023-06-10 12:08:49] INFO root fetch - processPackages [similarity-learning]: Downloading https://files.pythonhosted.org/packages/9e/22/e31b169acd14a3be1552444275cdabc484480af5a2463e070844d52aa92b/similarity-learning-0.0.4.tar.gz
+[2023-06-10 12:08:49] INFO root fetch - processPackages [adv-ml]: Downloading https://files.pythonhosted.org/packages/8d/62/08d24ee327042bf70bef28680a06253757222a0c24032da9ecdf98c171fa/adv-ml-0.0.4.tar.gz
+[2023-06-10 12:08:49] INFO root fetch - processPackages [fastai-datasets]: Downloading https://files.pythonhosted.org/packages/a3/de/dd6bad069b82d20db4fc46f6c809d3e0208f214e4533bff792e4e2caf1c1/fastai-datasets-0.0.8.tar.gz
+[2023-06-10 12:08:49] INFO root fetch - processPackages [pocketsearch]: executing diffoscope
+[2023-06-10 12:08:49] INFO root fetch - processPackages [pocketsearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pocketsearch-0.5.7.tar.gz tmp/pocketsearch-0.6.0.tar.gz --markdown 20230610/p/pocketsearch/0.5.7-0.6.0/diff.md --exclude *.pyd
+[2023-06-10 12:08:49] INFO root fetch - processPackages [adv-ml]: executing diffoscope
+[2023-06-10 12:08:49] INFO root fetch - processPackages [adv-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adv-ml-0.0.2.tar.gz tmp/adv-ml-0.0.4.tar.gz --markdown 20230610/a/adv-ml/0.0.2-0.0.4/diff.md --exclude *.pyd
+[2023-06-10 12:08:49] INFO root fetch - processPackages [similarity-learning]: executing diffoscope
+[2023-06-10 12:08:49] INFO root fetch - processPackages [similarity-learning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/similarity-learning-0.0.3.tar.gz tmp/similarity-learning-0.0.4.tar.gz --markdown 20230610/s/similarity-learning/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-10 12:08:49] INFO root fetch - processPackages [fastai-datasets]: executing diffoscope
+[2023-06-10 12:08:49] INFO root fetch - processPackages [fastai-datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastai-datasets-0.0.7.tar.gz tmp/fastai-datasets-0.0.8.tar.gz --markdown 20230610/f/fastai-datasets/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-10 12:08:49] INFO root fetch - processPackages [ascend-deployer]: Downloading https://files.pythonhosted.org/packages/ea/04/bf67bfb2ff1221b6fc4d38196217dbac641eb2f5036487e56f7802ba8bca/ascend_deployer-5.0.0b4-py3-none-any.whl
+[2023-06-10 12:08:49] INFO root fetch - processPackages [ascend-deployer]: executing diffoscope
+[2023-06-10 12:08:49] INFO root fetch - processPackages [ascend-deployer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ascend_deployer-5.0.0b3-py3-none-any.whl.zip tmp/ascend_deployer-5.0.0b4-py3-none-any.whl.zip --markdown 20230610/a/ascend-deployer/5.0.0b3-5.0.0b4/diff.md --exclude *.pyd
+[2023-06-10 12:08:50] INFO root fetch - processPackages [pocketsearch]: Remove: archive file [/home/abi/fetcher/tmp/pocketsearch-0.5.7.tar.gz]
+[2023-06-10 12:08:50] INFO root fetch - processPackages [pocketsearch]: Remove: archive file [/home/abi/fetcher/tmp/pocketsearch-0.6.0.tar.gz]
+[2023-06-10 12:08:50] INFO root fetch - main [MainThread]: End processing [pocketsearch]: success
+[2023-06-10 12:08:50] INFO root fetch - processPackages [similarity-learning]: Remove: archive file [/home/abi/fetcher/tmp/similarity-learning-0.0.3.tar.gz]
+[2023-06-10 12:08:50] INFO root fetch - processPackages [similarity-learning]: Remove: archive file [/home/abi/fetcher/tmp/similarity-learning-0.0.4.tar.gz]
+[2023-06-10 12:08:50] INFO root fetch - main [MainThread]: End processing [similarity-learning]: success
+[2023-06-10 12:08:50] INFO root fetch - processPackages [adv-ml]: Remove: archive file [/home/abi/fetcher/tmp/adv-ml-0.0.2.tar.gz]
+[2023-06-10 12:08:50] INFO root fetch - processPackages [adv-ml]: Remove: archive file [/home/abi/fetcher/tmp/adv-ml-0.0.4.tar.gz]
+[2023-06-10 12:08:50] INFO root fetch - main [MainThread]: End processing [adv-ml]: success
+[2023-06-10 12:08:51] INFO root fetch - processPackages [fastai-datasets]: Remove: archive file [/home/abi/fetcher/tmp/fastai-datasets-0.0.7.tar.gz]
+[2023-06-10 12:08:51] INFO root fetch - processPackages [fastai-datasets]: Remove: archive file [/home/abi/fetcher/tmp/fastai-datasets-0.0.8.tar.gz]
+[2023-06-10 12:08:51] INFO root fetch - main [MainThread]: End processing [fastai-datasets]: success
+[2023-06-10 12:08:57] INFO root fetch - processPackages [ascend-deployer]: Remove: archive file [/home/abi/fetcher/tmp/ascend_deployer-5.0.0b3-py3-none-any.whl.zip]
+[2023-06-10 12:08:57] INFO root fetch - processPackages [ascend-deployer]: Remove: archive file [/home/abi/fetcher/tmp/ascend_deployer-5.0.0b4-py3-none-any.whl.zip]
+[2023-06-10 12:08:57] INFO root fetch - main [MainThread]: End processing [ascend-deployer]: success
+[2023-06-10 12:08:57] INFO root fetch - main [MainThread]: Store serial: [18449924]
