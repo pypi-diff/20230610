@@ -15625,3 +15625,51 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-10 19:14:19] INFO root fetch - processPackages [dcrx-api]: Remove: archive file [/home/abi/fetcher/tmp/dcrx-api-0.2.0.tar.gz]
 [2023-06-10 19:14:19] INFO root fetch - main [MainThread]: End processing [dcrx-api]: success
 [2023-06-10 19:14:19] INFO root fetch - main [MainThread]: Store serial: [18452565]
+[2023-06-10 19:19:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18452565]
+[2023-06-10 19:19:28] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-10 19:19:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aioqui
+[2023-06-10 19:19:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: docker-run-cli
+[2023-06-10 19:19:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jloader
+[2023-06-10 19:19:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autora-experiment-runner-experimentation-manager-firebase
+[2023-06-10 19:19:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sidetrek
+[2023-06-10 19:19:28] INFO root fetch - processPackages [jloader]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-10 19:19:28] INFO root fetch - processPackages [autora-experiment-runner-experimentation-manager-firebase]: New version: [1.1.0] Old Version: [1.0.2]
+[2023-06-10 19:19:28] INFO root fetch - processPackages [docker-run-cli]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-10 19:19:28] INFO root fetch - processPackages [aioqui]: New version: [2.1.3] Old Version: [2.1.2]
+[2023-06-10 19:19:28] INFO root fetch - processPackages [sidetrek]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-10 19:19:28] INFO root fetch - processPackages [jloader]: Downloading https://files.pythonhosted.org/packages/74/f9/06e863a2d809759d55a74f88e6adac8094f451ace23b4aa7e61f92bf2b3d/jloader-0.0.4.tar.gz
+[2023-06-10 19:19:28] INFO root fetch - processPackages [aioqui]: Downloading https://files.pythonhosted.org/packages/ff/89/f2b20a1685be8482059611ab388d601cab415b8af0b0660388bbeb70064c/aioqui-2.1.2.tar.gz
+[2023-06-10 19:19:28] INFO root fetch - processPackages [sidetrek]: Downloading https://files.pythonhosted.org/packages/97/bd/51a9b1e714cab99e04b757d582da68fb1c87848f240475f7731512b91f39/sidetrek-0.0.98.tar.gz
+[2023-06-10 19:19:29] INFO root fetch - processPackages [docker-run-cli]: Downloading https://files.pythonhosted.org/packages/8f/40/b98cca11bdd2323181829fb0529eac946693a246174a22c4ed7ab1b88981/docker-run-cli-0.9.1.tar.gz
+[2023-06-10 19:19:29] INFO root fetch - processPackages [autora-experiment-runner-experimentation-manager-firebase]: Downloading https://files.pythonhosted.org/packages/63/19/9056c66a9ea130d2dca9b4287d6bf982cf447bb345fdb1cad4e54688ea5a/autora-experiment-runner-experimentation-manager-firebase-1.0.2.tar.gz
+[2023-06-10 19:19:29] INFO root fetch - processPackages [jloader]: Downloading https://files.pythonhosted.org/packages/57/7f/8f3698499df0f1ee8e03e3499968a8ac2b63f36cf25966a01363abc49679/jloader-0.0.5.tar.gz
+[2023-06-10 19:19:29] INFO root fetch - processPackages [aioqui]: Downloading https://files.pythonhosted.org/packages/f1/84/98b1e6b898bfa3d5ae083cd70dccf85c0f3fd9a031f54802ce8236177ff0/aioqui-2.1.3.tar.gz
+[2023-06-10 19:19:29] INFO root fetch - processPackages [jloader]: executing diffoscope
+[2023-06-10 19:19:29] INFO root fetch - processPackages [jloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jloader-0.0.4.tar.gz tmp/jloader-0.0.5.tar.gz --markdown 20230610/j/jloader/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-10 19:19:29] INFO root fetch - processPackages [sidetrek]: Downloading https://files.pythonhosted.org/packages/e1/df/8febed62c28b6002e89b1ecff26974f8d092969b288da25a6eafcc3d73b1/sidetrek-0.0.99.tar.gz
+[2023-06-10 19:19:29] INFO root fetch - processPackages [sidetrek]: executing diffoscope
+[2023-06-10 19:19:29] INFO root fetch - processPackages [sidetrek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sidetrek-0.0.98.tar.gz tmp/sidetrek-0.0.99.tar.gz --markdown 20230610/s/sidetrek/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-10 19:19:29] INFO root fetch - processPackages [aioqui]: executing diffoscope
+[2023-06-10 19:19:29] INFO root fetch - processPackages [aioqui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioqui-2.1.2.tar.gz tmp/aioqui-2.1.3.tar.gz --markdown 20230610/a/aioqui/2.1.2-2.1.3/diff.md --exclude *.pyd
+[2023-06-10 19:19:29] INFO root fetch - processPackages [autora-experiment-runner-experimentation-manager-firebase]: Downloading https://files.pythonhosted.org/packages/42/b4/97f3de55fdbf31c750dd837fd53a14b1f89ab26d114bbd7d72ab40a8dc29/autora-experiment-runner-experimentation-manager-firebase-1.1.0.tar.gz
+[2023-06-10 19:19:29] INFO root fetch - processPackages [docker-run-cli]: Downloading https://files.pythonhosted.org/packages/36/3a/762a5bebde834eeaf10d066c3857493c47f9d4e6553617712bb685ed0005/docker-run-cli-0.9.2.tar.gz
+[2023-06-10 19:19:29] INFO root fetch - processPackages [autora-experiment-runner-experimentation-manager-firebase]: executing diffoscope
+[2023-06-10 19:19:29] INFO root fetch - processPackages [autora-experiment-runner-experimentation-manager-firebase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autora-experiment-runner-experimentation-manager-firebase-1.0.2.tar.gz tmp/autora-experiment-runner-experimentation-manager-firebase-1.1.0.tar.gz --markdown 20230610/a/autora-experiment-runner-experimentation-manager-firebase/1.0.2-1.1.0/diff.md --exclude *.pyd
+[2023-06-10 19:19:29] INFO root fetch - processPackages [docker-run-cli]: executing diffoscope
+[2023-06-10 19:19:29] INFO root fetch - processPackages [docker-run-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docker-run-cli-0.9.1.tar.gz tmp/docker-run-cli-0.9.2.tar.gz --markdown 20230610/d/docker-run-cli/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-10 19:19:30] INFO root fetch - processPackages [jloader]: Remove: archive file [/home/abi/fetcher/tmp/jloader-0.0.4.tar.gz]
+[2023-06-10 19:19:30] INFO root fetch - processPackages [jloader]: Remove: archive file [/home/abi/fetcher/tmp/jloader-0.0.5.tar.gz]
+[2023-06-10 19:19:30] INFO root fetch - main [MainThread]: End processing [jloader]: success
+[2023-06-10 19:19:30] INFO root fetch - processPackages [autora-experiment-runner-experimentation-manager-firebase]: Remove: archive file [/home/abi/fetcher/tmp/autora-experiment-runner-experimentation-manager-firebase-1.0.2.tar.gz]
+[2023-06-10 19:19:30] INFO root fetch - processPackages [autora-experiment-runner-experimentation-manager-firebase]: Remove: archive file [/home/abi/fetcher/tmp/autora-experiment-runner-experimentation-manager-firebase-1.1.0.tar.gz]
+[2023-06-10 19:19:30] INFO root fetch - main [MainThread]: End processing [autora-experiment-runner-experimentation-manager-firebase]: success
+[2023-06-10 19:19:30] INFO root fetch - processPackages [docker-run-cli]: Remove: archive file [/home/abi/fetcher/tmp/docker-run-cli-0.9.1.tar.gz]
+[2023-06-10 19:19:30] INFO root fetch - processPackages [docker-run-cli]: Remove: archive file [/home/abi/fetcher/tmp/docker-run-cli-0.9.2.tar.gz]
+[2023-06-10 19:19:30] INFO root fetch - main [MainThread]: End processing [docker-run-cli]: success
+[2023-06-10 19:19:30] INFO root fetch - processPackages [sidetrek]: Remove: archive file [/home/abi/fetcher/tmp/sidetrek-0.0.98.tar.gz]
+[2023-06-10 19:19:30] INFO root fetch - processPackages [sidetrek]: Remove: archive file [/home/abi/fetcher/tmp/sidetrek-0.0.99.tar.gz]
+[2023-06-10 19:19:30] INFO root fetch - main [MainThread]: End processing [sidetrek]: success
+[2023-06-10 19:19:32] INFO root fetch - processPackages [aioqui]: Remove: archive file [/home/abi/fetcher/tmp/aioqui-2.1.2.tar.gz]
+[2023-06-10 19:19:32] INFO root fetch - processPackages [aioqui]: Remove: archive file [/home/abi/fetcher/tmp/aioqui-2.1.3.tar.gz]
+[2023-06-10 19:19:32] INFO root fetch - main [MainThread]: End processing [aioqui]: success
+[2023-06-10 19:19:32] INFO root fetch - main [MainThread]: Store serial: [18452582]
