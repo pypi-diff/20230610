@@ -9702,3 +9702,72 @@ EOFError: EOF read where object expected
 [2023-06-10 10:58:54] INFO root fetch - processPackages [ngql-gen]: Remove: archive file [/home/abi/fetcher/tmp/ngql_gen-0.0.6.tar.gz]
 [2023-06-10 10:58:54] INFO root fetch - main [MainThread]: End processing [ngql-gen]: success
 [2023-06-10 10:58:54] INFO root fetch - main [MainThread]: Store serial: [18449648]
+[2023-06-10 11:03:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18449648]
+[2023-06-10 11:04:04] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-10 11:04:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gdsfactory
+[2023-06-10 11:04:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aclib.winlib
+[2023-06-10 11:04:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: grapdb
+[2023-06-10 11:04:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pud
+[2023-06-10 11:04:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fastapi-xray
+[2023-06-10 11:04:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: autogluon.common
+[2023-06-10 11:04:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: autogluon.core
+[2023-06-10 11:04:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: autogluon.features
+[2023-06-10 11:04:04] WARNING root fetch - processPackages [aclib.winlib]: Skipping, unable to determine old version
+[2023-06-10 11:04:04] INFO root fetch - main [MainThread]: End processing [aclib.winlib] error
+[2023-06-10 11:04:04] INFO root fetch - processPackages [pud]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-10 11:04:04] INFO root fetch - processPackages [grapdb]: New version: [0.9] Old Version: [0.8]
+[2023-06-10 11:04:04] INFO root fetch - processPackages [autogluon.features]: New version: [0.7.1b20230609] Old Version: [0.7.1b20230608]
+[2023-06-10 11:04:04] INFO root fetch - processPackages [gdsfactory]: New version: [6.99.0] Old Version: [6.98.2]
+[2023-06-10 11:04:04] INFO root fetch - processPackages [autogluon.common]: New version: [0.7.1b20230609] Old Version: [0.7.1b20230608]
+[2023-06-10 11:04:04] INFO root fetch - processPackages [fastapi-xray]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-10 11:04:04] INFO root fetch - processPackages [autogluon.core]: New version: [0.7.1b20230609] Old Version: [0.7.1b20230608]
+[2023-06-10 11:04:04] INFO root fetch - processPackages [autogluon.features]: Downloading https://files.pythonhosted.org/packages/d6/9b/d4e10c3aece33ded1a104c22fe28367eeb1745dbd3475c79ee8237ae80da/autogluon.features-0.7.1b20230608.tar.gz
+[2023-06-10 11:04:04] INFO root fetch - processPackages [pud]: Downloading https://files.pythonhosted.org/packages/2a/c4/a20e453e572a9c63d3a8a0a6a2d9a1929f6421ad2d04cc34708960d1d78a/pud-1.0.2-py3-none-any.whl
+[2023-06-10 11:04:04] INFO root fetch - processPackages [gdsfactory]: Downloading https://files.pythonhosted.org/packages/c8/dd/88303eeb3c46484a4a64c2675611a92ea3816ae1ec8181c6eb5e78e85064/gdsfactory-6.98.2.tar.gz
+[2023-06-10 11:04:04] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/88/3f/9a99ff312c7fe946ae1fc28c53557a4874ea56a8e303ebc8f338e465ae1c/autogluon.common-0.7.1b20230608.tar.gz
+[2023-06-10 11:04:04] INFO root fetch - processPackages [autogluon.core]: Downloading https://files.pythonhosted.org/packages/17/11/7e798f85dd8103440dfc7d4b661e5c7357630991fb737f92351298b36ed3/autogluon.core-0.7.1b20230608.tar.gz
+[2023-06-10 11:04:04] INFO root fetch - processPackages [grapdb]: Downloading https://files.pythonhosted.org/packages/42/c2/82165f14af2ec4db08aae609b361ff7dd429df0953c465a904491f75fd65/grapdb-0.8.tar.gz
+[2023-06-10 11:04:04] INFO root fetch - processPackages [fastapi-xray]: Downloading https://files.pythonhosted.org/packages/91/09/9169674fc67d73011a89ba9b28ae5215c73e4f6e2dbd608488f33620c1e8/fastapi_xray-0.1.0.tar.gz
+[2023-06-10 11:04:04] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/c2/2d/e7c5682e50f43feb9aed5b777fdaf7950c00788a9c51dbc73b6884b0ec8d/autogluon.common-0.7.1b20230609.tar.gz
+[2023-06-10 11:04:04] INFO root fetch - processPackages [autogluon.features]: Downloading https://files.pythonhosted.org/packages/b1/82/2e5fe327b45824d8f8dd3d2bcd2c0e31673f3ec8a44af5b0e9d19fd5098e/autogluon.features-0.7.1b20230609.tar.gz
+[2023-06-10 11:04:04] INFO root fetch - processPackages [gdsfactory]: Downloading https://files.pythonhosted.org/packages/7e/ec/2cd39e2ce278d617eac6988e914b8df36d3496205cac9e991937c8cd1fe3/gdsfactory-6.99.0.tar.gz
+[2023-06-10 11:04:04] INFO root fetch - processPackages [autogluon.common]: executing diffoscope
+[2023-06-10 11:04:04] INFO root fetch - processPackages [autogluon.common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.common-0.7.1b20230608.tar.gz tmp/autogluon.common-0.7.1b20230609.tar.gz --markdown 20230610/a/autogluon.common/0.7.1b20230608-0.7.1b20230609/diff.md --exclude *.pyd
+[2023-06-10 11:04:04] INFO root fetch - processPackages [pud]: Downloading https://files.pythonhosted.org/packages/f0/87/6b1dad157b729ea7468a8adf8003e222566632178cc47b99c1dc6c7d53cc/pud-1.0.3-py3-none-any.whl
+[2023-06-10 11:04:04] INFO root fetch - processPackages [autogluon.core]: Downloading https://files.pythonhosted.org/packages/b1/e9/33b1ad7b6a6cd8e42825ed0446db21bdcd7f8bc2ec2d3dd9de9a5a61a672/autogluon.core-0.7.1b20230609.tar.gz
+[2023-06-10 11:04:04] INFO root fetch - processPackages [autogluon.features]: executing diffoscope
+[2023-06-10 11:04:04] INFO root fetch - processPackages [autogluon.features]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.features-0.7.1b20230608.tar.gz tmp/autogluon.features-0.7.1b20230609.tar.gz --markdown 20230610/a/autogluon.features/0.7.1b20230608-0.7.1b20230609/diff.md --exclude *.pyd
+[2023-06-10 11:04:04] INFO root fetch - processPackages [gdsfactory]: executing diffoscope
+[2023-06-10 11:04:04] INFO root fetch - processPackages [gdsfactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdsfactory-6.98.2.tar.gz tmp/gdsfactory-6.99.0.tar.gz --markdown 20230610/g/gdsfactory/6.98.2-6.99.0/diff.md --exclude *.pyd
+[2023-06-10 11:04:04] INFO root fetch - processPackages [autogluon.core]: executing diffoscope
+[2023-06-10 11:04:04] INFO root fetch - processPackages [autogluon.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.core-0.7.1b20230608.tar.gz tmp/autogluon.core-0.7.1b20230609.tar.gz --markdown 20230610/a/autogluon.core/0.7.1b20230608-0.7.1b20230609/diff.md --exclude *.pyd
+[2023-06-10 11:04:04] INFO root fetch - processPackages [fastapi-xray]: Downloading https://files.pythonhosted.org/packages/e4/9f/bcf565dd2fc485a247aff3abcd426da786bcb5499ccd2dd73cbfe427623e/fastapi_xray-0.1.1.tar.gz
+[2023-06-10 11:04:04] INFO root fetch - processPackages [grapdb]: Downloading https://files.pythonhosted.org/packages/78/c2/31c09a0330b4cf6c4fed41859f57d1e4c1bf533ac5dcdb4ad06097ba491c/grapdb-0.9.tar.gz
+[2023-06-10 11:04:04] INFO root fetch - processPackages [pud]: executing diffoscope
+[2023-06-10 11:04:04] INFO root fetch - processPackages [pud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pud-1.0.2-py3-none-any.whl.zip tmp/pud-1.0.3-py3-none-any.whl.zip --markdown 20230610/p/pud/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-10 11:04:05] INFO root fetch - processPackages [fastapi-xray]: executing diffoscope
+[2023-06-10 11:04:05] INFO root fetch - processPackages [fastapi-xray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_xray-0.1.0.tar.gz tmp/fastapi_xray-0.1.1.tar.gz --markdown 20230610/f/fastapi-xray/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-10 11:04:05] INFO root fetch - processPackages [grapdb]: executing diffoscope
+[2023-06-10 11:04:05] INFO root fetch - processPackages [grapdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grapdb-0.8.tar.gz tmp/grapdb-0.9.tar.gz --markdown 20230610/g/grapdb/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-10 11:04:06] INFO root fetch - processPackages [autogluon.features]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.features-0.7.1b20230608.tar.gz]
+[2023-06-10 11:04:06] INFO root fetch - processPackages [autogluon.features]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.features-0.7.1b20230609.tar.gz]
+[2023-06-10 11:04:06] INFO root fetch - main [MainThread]: End processing [autogluon.features]: success
+[2023-06-10 11:04:06] INFO root fetch - processPackages [autogluon.common]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.common-0.7.1b20230608.tar.gz]
+[2023-06-10 11:04:06] INFO root fetch - processPackages [autogluon.common]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.common-0.7.1b20230609.tar.gz]
+[2023-06-10 11:04:06] INFO root fetch - main [MainThread]: End processing [autogluon.common]: success
+[2023-06-10 11:04:06] INFO root fetch - processPackages [pud]: Remove: archive file [/home/abi/fetcher/tmp/pud-1.0.2-py3-none-any.whl.zip]
+[2023-06-10 11:04:06] INFO root fetch - processPackages [pud]: Remove: archive file [/home/abi/fetcher/tmp/pud-1.0.3-py3-none-any.whl.zip]
+[2023-06-10 11:04:06] INFO root fetch - main [MainThread]: End processing [pud]: success
+[2023-06-10 11:04:06] INFO root fetch - processPackages [grapdb]: Remove: archive file [/home/abi/fetcher/tmp/grapdb-0.8.tar.gz]
+[2023-06-10 11:04:06] INFO root fetch - processPackages [grapdb]: Remove: archive file [/home/abi/fetcher/tmp/grapdb-0.9.tar.gz]
+[2023-06-10 11:04:06] INFO root fetch - main [MainThread]: End processing [grapdb]: success
+[2023-06-10 11:04:06] INFO root fetch - processPackages [fastapi-xray]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_xray-0.1.0.tar.gz]
+[2023-06-10 11:04:06] INFO root fetch - processPackages [fastapi-xray]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_xray-0.1.1.tar.gz]
+[2023-06-10 11:04:06] INFO root fetch - main [MainThread]: End processing [fastapi-xray]: success
+[2023-06-10 11:04:08] INFO root fetch - processPackages [autogluon.core]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.core-0.7.1b20230608.tar.gz]
+[2023-06-10 11:04:08] INFO root fetch - processPackages [autogluon.core]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.core-0.7.1b20230609.tar.gz]
+[2023-06-10 11:04:08] INFO root fetch - main [MainThread]: End processing [autogluon.core]: success
+[2023-06-10 11:04:12] INFO root fetch - processPackages [gdsfactory]: Remove: archive file [/home/abi/fetcher/tmp/gdsfactory-6.98.2.tar.gz]
+[2023-06-10 11:04:12] INFO root fetch - processPackages [gdsfactory]: Remove: archive file [/home/abi/fetcher/tmp/gdsfactory-6.99.0.tar.gz]
+[2023-06-10 11:04:12] INFO root fetch - main [MainThread]: End processing [gdsfactory]: success
+[2023-06-10 11:04:12] INFO root fetch - main [MainThread]: Store serial: [18449673]
