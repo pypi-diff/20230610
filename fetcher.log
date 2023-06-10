@@ -15077,3 +15077,285 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-10 18:48:02] INFO root fetch - processPackages [networklab]: Remove: archive file [/home/abi/fetcher/tmp/networklab-1.5.4.tar.gz]
 [2023-06-10 18:48:02] INFO root fetch - main [MainThread]: End processing [networklab]: success
 [2023-06-10 18:48:02] INFO root fetch - main [MainThread]: Store serial: [18452271]
+[2023-06-10 18:53:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18452271]
+[2023-06-10 18:53:11] INFO root fetch - main [MainThread]: Found 31 changed packages
+[2023-06-10 18:53:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: watchmen-utilities
+[2023-06-10 18:53:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: watchmen-model
+[2023-06-10 18:53:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: watchmen-storage
+[2023-06-10 18:53:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: eAsistentPY
+[2023-06-10 18:53:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: watchmen-storage-mongodb
+[2023-06-10 18:53:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: watchmen-storage-rds
+[2023-06-10 18:53:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: watchmen-storage-mssql
+[2023-06-10 18:53:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: watchmen-storage-mysql
+[2023-06-10 18:53:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: watchmen-storage-oracle
+[2023-06-10 18:53:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: watchmen-storage-postgresql
+[2023-06-10 18:53:11] INFO root fetch - processPackages [watchmen-utilities]: New version: [16.5.9] Old Version: [16.5.8]
+[2023-06-10 18:53:11] INFO root fetch - processPackages [watchmen-storage]: New version: [16.5.9] Old Version: [16.5.8]
+[2023-06-10 18:53:11] INFO root fetch - processPackages [watchmen-model]: New version: [16.5.9] Old Version: [16.5.8]
+[2023-06-10 18:53:11] INFO root fetch - processPackages [watchmen-storage-postgresql]: New version: [16.5.9] Old Version: [16.5.8]
+[2023-06-10 18:53:11] INFO root fetch - processPackages [eAsistentPY]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-06-10 18:53:11] INFO root fetch - processPackages [watchmen-storage-mssql]: New version: [16.5.9] Old Version: [16.5.8]
+[2023-06-10 18:53:11] INFO root fetch - processPackages [watchmen-storage-rds]: New version: [16.5.9] Old Version: [16.5.8]
+[2023-06-10 18:53:11] INFO root fetch - processPackages [watchmen-storage-mysql]: New version: [16.5.9] Old Version: [16.5.8]
+[2023-06-10 18:53:11] INFO root fetch - processPackages [watchmen-storage-oracle]: New version: [16.5.9] Old Version: [16.5.8]
+[2023-06-10 18:53:11] INFO root fetch - processPackages [watchmen-storage-mongodb]: New version: [16.5.9] Old Version: [16.5.8]
+[2023-06-10 18:53:11] INFO root fetch - processPackages [eAsistentPY]: Downloading https://files.pythonhosted.org/packages/1d/40/e3aa54fe870de2ecc92c45ee17beca1df97176e08c1290f218599f27c6aa/eAsistentPY-2.1.0.tar.gz
+[2023-06-10 18:53:11] INFO root fetch - processPackages [watchmen-storage-mssql]: Downloading https://files.pythonhosted.org/packages/7f/05/49db9270654a0456c0355ab556270f13f8b1b24bd730c74d6bd4ee065521/watchmen_storage_mssql-16.5.8.tar.gz
+[2023-06-10 18:53:11] INFO root fetch - processPackages [watchmen-storage-postgresql]: Downloading https://files.pythonhosted.org/packages/07/d4/aa51337f2ad143c559e73bc70e302e7205ed8ab4c25fb5783d5f37369220/watchmen_storage_postgresql-16.5.8.tar.gz
+[2023-06-10 18:53:11] INFO root fetch - processPackages [watchmen-storage-mongodb]: Downloading https://files.pythonhosted.org/packages/4c/ec/e7416b691a075a758eedff9499700033ea53bec65bf10a2f44a28e511b21/watchmen_storage_mongodb-16.5.8.tar.gz
+[2023-06-10 18:53:11] INFO root fetch - processPackages [watchmen-utilities]: Downloading https://files.pythonhosted.org/packages/45/e0/baa2db2193a289baaab014530196f4d380add784af209357a02ab3ca344d/watchmen_utilities-16.5.8.tar.gz
+[2023-06-10 18:53:11] INFO root fetch - processPackages [watchmen-storage]: Downloading https://files.pythonhosted.org/packages/7b/a5/3ba726e19dbe9598d97a9e037657baa700f4dacca8af44a6f1aba54f8063/watchmen_storage-16.5.8.tar.gz
+[2023-06-10 18:53:11] INFO root fetch - processPackages [watchmen-storage-mysql]: Downloading https://files.pythonhosted.org/packages/8c/62/dec2d06d6811ce88c59f9d6fbbf5b1e8902fcff6ecd7b78e0d5aaa745103/watchmen_storage_mysql-16.5.8.tar.gz
+[2023-06-10 18:53:11] INFO root fetch - processPackages [watchmen-model]: Downloading https://files.pythonhosted.org/packages/de/fd/5787c8f0694e31ddc3c646fc6ed6fed31a5eeacf8d1f7fe8324307078928/watchmen_model-16.5.8.tar.gz
+[2023-06-10 18:53:11] INFO root fetch - processPackages [watchmen-storage-rds]: Downloading https://files.pythonhosted.org/packages/19/2c/aca8ed81252f84405f61856903ea6c4c32bd80e3af56a848b4caebe3d5d1/watchmen_storage_rds-16.5.8.tar.gz
+[2023-06-10 18:53:11] INFO root fetch - processPackages [watchmen-storage-oracle]: Downloading https://files.pythonhosted.org/packages/74/68/93e857fa36f7d768b5fda90196a9a8dbf97a443915ca377eae8a511c817c/watchmen_storage_oracle-16.5.8.tar.gz
+[2023-06-10 18:53:11] INFO root fetch - processPackages [watchmen-utilities]: Downloading https://files.pythonhosted.org/packages/a2/53/90850245e7c78251b5520dc4c2a69b64a8ee0eeb8db776baad484a331790/watchmen_utilities-16.5.9.tar.gz
+[2023-06-10 18:53:11] INFO root fetch - processPackages [watchmen-storage-mongodb]: Downloading https://files.pythonhosted.org/packages/b3/f9/026387de8fa4586de7178436252891537e0082edcc27178eacc3720982ff/watchmen_storage_mongodb-16.5.9.tar.gz
+[2023-06-10 18:53:11] INFO root fetch - processPackages [watchmen-storage-postgresql]: Downloading https://files.pythonhosted.org/packages/60/bd/22f47dc86ae1ecee80bd26d9da6736abb3fdf6333a52f73d9afab6952349/watchmen_storage_postgresql-16.5.9.tar.gz
+[2023-06-10 18:53:12] INFO root fetch - processPackages [watchmen-utilities]: executing diffoscope
+[2023-06-10 18:53:12] INFO root fetch - processPackages [watchmen-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watchmen_utilities-16.5.8.tar.gz tmp/watchmen_utilities-16.5.9.tar.gz --markdown 20230610/w/watchmen-utilities/16.5.8-16.5.9/diff.md --exclude *.pyd
+[2023-06-10 18:53:12] INFO root fetch - processPackages [watchmen-model]: Downloading https://files.pythonhosted.org/packages/5a/6d/a946121ba82efefd757f83ea745cc51863b264787218790b4105a912cffe/watchmen_model-16.5.9.tar.gz
+[2023-06-10 18:53:12] INFO root fetch - processPackages [watchmen-storage-mongodb]: executing diffoscope
+[2023-06-10 18:53:12] INFO root fetch - processPackages [watchmen-storage-mongodb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watchmen_storage_mongodb-16.5.8.tar.gz tmp/watchmen_storage_mongodb-16.5.9.tar.gz --markdown 20230610/w/watchmen-storage-mongodb/16.5.8-16.5.9/diff.md --exclude *.pyd
+[2023-06-10 18:53:12] INFO root fetch - processPackages [watchmen-storage-postgresql]: executing diffoscope
+[2023-06-10 18:53:12] INFO root fetch - processPackages [watchmen-storage-postgresql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watchmen_storage_postgresql-16.5.8.tar.gz tmp/watchmen_storage_postgresql-16.5.9.tar.gz --markdown 20230610/w/watchmen-storage-postgresql/16.5.8-16.5.9/diff.md --exclude *.pyd
+[2023-06-10 18:53:12] INFO root fetch - processPackages [watchmen-storage-mysql]: Downloading https://files.pythonhosted.org/packages/5d/66/5deabcfb93965f7c37c1b3a2c6a432074cb54b663129c54ebe82cebbd1e3/watchmen_storage_mysql-16.5.9.tar.gz
+[2023-06-10 18:53:12] INFO root fetch - processPackages [watchmen-storage-oracle]: Downloading https://files.pythonhosted.org/packages/a9/41/65c8ec254dcf6131f5bc8c28dac53bbe164eb02e4f48abbffa9f24165565/watchmen_storage_oracle-16.5.9.tar.gz
+[2023-06-10 18:53:12] INFO root fetch - processPackages [eAsistentPY]: Downloading https://files.pythonhosted.org/packages/93/40/e22356c2af4fb0d61471038387d03285e2aa9f85d503740d3c8b73ad0e28/eAsistentPY-2.1.1.tar.gz
+[2023-06-10 18:53:12] INFO root fetch - processPackages [watchmen-storage-mssql]: Downloading https://files.pythonhosted.org/packages/60/a9/258b88a2280e1a498c7e5e7115bf4a4b9210a3e7ed2672553b49c178327e/watchmen_storage_mssql-16.5.9.tar.gz
+[2023-06-10 18:53:12] INFO root fetch - processPackages [watchmen-storage]: Downloading https://files.pythonhosted.org/packages/a8/9d/fecc2017905c6c1f1980d2b6deb0ccf2676807f68ae09c76c05b420e8599/watchmen_storage-16.5.9.tar.gz
+[2023-06-10 18:53:12] INFO root fetch - processPackages [watchmen-model]: executing diffoscope
+[2023-06-10 18:53:12] INFO root fetch - processPackages [watchmen-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watchmen_model-16.5.8.tar.gz tmp/watchmen_model-16.5.9.tar.gz --markdown 20230610/w/watchmen-model/16.5.8-16.5.9/diff.md --exclude *.pyd
+[2023-06-10 18:53:12] INFO root fetch - processPackages [watchmen-storage-rds]: Downloading https://files.pythonhosted.org/packages/09/75/9848f05f312e2d2d3415496e798e63dc4513ff553801033e7b2faec9d8a8/watchmen_storage_rds-16.5.9.tar.gz
+[2023-06-10 18:53:12] INFO root fetch - processPackages [watchmen-storage-mysql]: executing diffoscope
+[2023-06-10 18:53:12] INFO root fetch - processPackages [watchmen-storage-mysql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watchmen_storage_mysql-16.5.8.tar.gz tmp/watchmen_storage_mysql-16.5.9.tar.gz --markdown 20230610/w/watchmen-storage-mysql/16.5.8-16.5.9/diff.md --exclude *.pyd
+[2023-06-10 18:53:12] INFO root fetch - processPackages [watchmen-storage-oracle]: executing diffoscope
+[2023-06-10 18:53:12] INFO root fetch - processPackages [watchmen-storage-oracle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watchmen_storage_oracle-16.5.8.tar.gz tmp/watchmen_storage_oracle-16.5.9.tar.gz --markdown 20230610/w/watchmen-storage-oracle/16.5.8-16.5.9/diff.md --exclude *.pyd
+[2023-06-10 18:53:12] INFO root fetch - processPackages [watchmen-storage-mssql]: executing diffoscope
+[2023-06-10 18:53:12] INFO root fetch - processPackages [eAsistentPY]: executing diffoscope
+[2023-06-10 18:53:12] INFO root fetch - processPackages [watchmen-storage-mssql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watchmen_storage_mssql-16.5.8.tar.gz tmp/watchmen_storage_mssql-16.5.9.tar.gz --markdown 20230610/w/watchmen-storage-mssql/16.5.8-16.5.9/diff.md --exclude *.pyd
+[2023-06-10 18:53:12] INFO root fetch - processPackages [eAsistentPY]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eAsistentPY-2.1.0.tar.gz tmp/eAsistentPY-2.1.1.tar.gz --markdown 20230610/e/eAsistentPY/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-06-10 18:53:12] INFO root fetch - processPackages [watchmen-storage]: executing diffoscope
+[2023-06-10 18:53:12] INFO root fetch - processPackages [watchmen-storage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watchmen_storage-16.5.8.tar.gz tmp/watchmen_storage-16.5.9.tar.gz --markdown 20230610/w/watchmen-storage/16.5.8-16.5.9/diff.md --exclude *.pyd
+[2023-06-10 18:53:12] INFO root fetch - processPackages [watchmen-storage-rds]: executing diffoscope
+[2023-06-10 18:53:12] INFO root fetch - processPackages [watchmen-storage-rds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watchmen_storage_rds-16.5.8.tar.gz tmp/watchmen_storage_rds-16.5.9.tar.gz --markdown 20230610/w/watchmen-storage-rds/16.5.8-16.5.9/diff.md --exclude *.pyd
+[2023-06-10 18:53:13] INFO root fetch - processPackages [watchmen-utilities]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_utilities-16.5.8.tar.gz]
+[2023-06-10 18:53:13] INFO root fetch - processPackages [watchmen-utilities]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_utilities-16.5.9.tar.gz]
+[2023-06-10 18:53:13] INFO root fetch - processPackages [watchmen-utilities]: Start processing: watchmen-storage-oss
+[2023-06-10 18:53:13] INFO root fetch - main [MainThread]: End processing [watchmen-utilities]: success
+[2023-06-10 18:53:13] INFO root fetch - processPackages [watchmen-storage-oss]: New version: [16.5.9] Old Version: [16.5.8]
+[2023-06-10 18:53:13] INFO root fetch - processPackages [watchmen-storage-postgresql]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_storage_postgresql-16.5.8.tar.gz]
+[2023-06-10 18:53:13] INFO root fetch - processPackages [watchmen-storage-postgresql]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_storage_postgresql-16.5.9.tar.gz]
+[2023-06-10 18:53:13] INFO root fetch - processPackages [watchmen-storage-postgresql]: Start processing: watchmen-storage-s3
+[2023-06-10 18:53:13] INFO root fetch - main [MainThread]: End processing [watchmen-storage-postgresql]: success
+[2023-06-10 18:53:13] INFO root fetch - processPackages [watchmen-storage-s3]: New version: [16.5.9] Old Version: [16.5.8]
+[2023-06-10 18:53:13] INFO root fetch - processPackages [watchmen-storage-oss]: Downloading https://files.pythonhosted.org/packages/86/ed/6a3de4eb541400b7eb629bb71d39a4ea59174aa13eee84d681acc11de21d/watchmen_storage_oss-16.5.8.tar.gz
+[2023-06-10 18:53:13] INFO root fetch - processPackages [watchmen-storage-mysql]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_storage_mysql-16.5.8.tar.gz]
+[2023-06-10 18:53:13] INFO root fetch - processPackages [watchmen-storage-mysql]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_storage_mysql-16.5.9.tar.gz]
+[2023-06-10 18:53:13] INFO root fetch - processPackages [watchmen-storage-mysql]: Start processing: watchmen-auth
+[2023-06-10 18:53:13] INFO root fetch - main [MainThread]: End processing [watchmen-storage-mysql]: success
+[2023-06-10 18:53:13] INFO root fetch - processPackages [watchmen-auth]: New version: [16.5.9] Old Version: [16.5.8]
+[2023-06-10 18:53:13] INFO root fetch - processPackages [watchmen-storage-oracle]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_storage_oracle-16.5.8.tar.gz]
+[2023-06-10 18:53:13] INFO root fetch - processPackages [watchmen-storage-oracle]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_storage_oracle-16.5.9.tar.gz]
+[2023-06-10 18:53:13] INFO root fetch - processPackages [watchmen-storage-oracle]: Start processing: watchmen-rest
+[2023-06-10 18:53:13] INFO root fetch - main [MainThread]: End processing [watchmen-storage-oracle]: success
+[2023-06-10 18:53:13] INFO root fetch - processPackages [eAsistentPY]: Remove: archive file [/home/abi/fetcher/tmp/eAsistentPY-2.1.0.tar.gz]
+[2023-06-10 18:53:13] INFO root fetch - processPackages [eAsistentPY]: Remove: archive file [/home/abi/fetcher/tmp/eAsistentPY-2.1.1.tar.gz]
+[2023-06-10 18:53:13] INFO root fetch - processPackages [eAsistentPY]: Start processing: watchmen-lineage
+[2023-06-10 18:53:13] INFO root fetch - main [MainThread]: End processing [eAsistentPY]: success
+[2023-06-10 18:53:13] INFO root fetch - processPackages [watchmen-storage-s3]: Downloading https://files.pythonhosted.org/packages/6d/6b/f406f8706c695f4f5b9541e078439067a2afbb8f6d70ff97f2c353ea0f30/watchmen_storage_s3-16.5.8.tar.gz
+[2023-06-10 18:53:13] INFO root fetch - processPackages [watchmen-lineage]: New version: [16.5.9] Old Version: [16.5.8]
+[2023-06-10 18:53:13] INFO root fetch - processPackages [watchmen-rest]: New version: [16.5.9] Old Version: [16.5.8]
+[2023-06-10 18:53:13] INFO root fetch - processPackages [watchmen-storage-mongodb]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_storage_mongodb-16.5.8.tar.gz]
+[2023-06-10 18:53:13] INFO root fetch - processPackages [watchmen-storage-mongodb]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_storage_mongodb-16.5.9.tar.gz]
+[2023-06-10 18:53:13] INFO root fetch - processPackages [watchmen-storage-mongodb]: Start processing: watchmen-meta
+[2023-06-10 18:53:13] INFO root fetch - main [MainThread]: End processing [watchmen-storage-mongodb]: success
+[2023-06-10 18:53:13] INFO root fetch - processPackages [watchmen-storage-oss]: Downloading https://files.pythonhosted.org/packages/0f/93/1ba3a331393b5a9ca02b7258e8edf18f882883ef8dde3bf16c92a836b404/watchmen_storage_oss-16.5.9.tar.gz
+[2023-06-10 18:53:13] INFO root fetch - processPackages [watchmen-meta]: New version: [16.5.9] Old Version: [16.5.8]
+[2023-06-10 18:53:13] INFO root fetch - processPackages [watchmen-auth]: Downloading https://files.pythonhosted.org/packages/b4/dd/3cf13fab40b9596cbe2fe606de94d5fdbfcdb9ea90118a4180c55b7387b2/watchmen_auth-16.5.8.tar.gz
+[2023-06-10 18:53:13] INFO root fetch - processPackages [watchmen-storage-oss]: executing diffoscope
+[2023-06-10 18:53:13] INFO root fetch - processPackages [watchmen-storage-oss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watchmen_storage_oss-16.5.8.tar.gz tmp/watchmen_storage_oss-16.5.9.tar.gz --markdown 20230610/w/watchmen-storage-oss/16.5.8-16.5.9/diff.md --exclude *.pyd
+[2023-06-10 18:53:14] INFO root fetch - processPackages [watchmen-storage-s3]: Downloading https://files.pythonhosted.org/packages/4c/80/63bb6f5607ab53063b9158702195884c29ab9f3441ec4dcf487959d31e92/watchmen_storage_s3-16.5.9.tar.gz
+[2023-06-10 18:53:14] INFO root fetch - processPackages [watchmen-lineage]: Downloading https://files.pythonhosted.org/packages/76/63/c3e42f73b9bf9f4f4b87b60c853b294b79ada799ce86f9c04f893129226e/watchmen_lineage-16.5.8.tar.gz
+[2023-06-10 18:53:14] INFO root fetch - processPackages [watchmen-rest]: Downloading https://files.pythonhosted.org/packages/04/b2/6a448728e9d5737d1c52527055244146d7b14e9689e2082db846436b59e1/watchmen_rest-16.5.8.tar.gz
+[2023-06-10 18:53:14] INFO root fetch - processPackages [watchmen-storage-mssql]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_storage_mssql-16.5.8.tar.gz]
+[2023-06-10 18:53:14] INFO root fetch - processPackages [watchmen-storage-s3]: executing diffoscope
+[2023-06-10 18:53:14] INFO root fetch - processPackages [watchmen-storage-s3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watchmen_storage_s3-16.5.8.tar.gz tmp/watchmen_storage_s3-16.5.9.tar.gz --markdown 20230610/w/watchmen-storage-s3/16.5.8-16.5.9/diff.md --exclude *.pyd
+[2023-06-10 18:53:14] INFO root fetch - processPackages [watchmen-storage-mssql]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_storage_mssql-16.5.9.tar.gz]
+[2023-06-10 18:53:14] INFO root fetch - processPackages [watchmen-storage-mssql]: Start processing: watchmen-data-kernel
+[2023-06-10 18:53:14] INFO root fetch - main [MainThread]: End processing [watchmen-storage-mssql]: success
+[2023-06-10 18:53:14] INFO root fetch - processPackages [watchmen-meta]: Downloading https://files.pythonhosted.org/packages/7e/fc/5715b35d254e517edcc9d4a962657d37e107aa2891b789bd0065f2f01759/watchmen_meta-16.5.8.tar.gz
+[2023-06-10 18:53:14] INFO root fetch - processPackages [watchmen-data-kernel]: New version: [16.5.9] Old Version: [16.5.8]
+[2023-06-10 18:53:14] INFO root fetch - processPackages [watchmen-storage]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_storage-16.5.8.tar.gz]
+[2023-06-10 18:53:14] INFO root fetch - processPackages [watchmen-storage]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_storage-16.5.9.tar.gz]
+[2023-06-10 18:53:14] INFO root fetch - processPackages [watchmen-storage]: Start processing: watchmen-data-surface
+[2023-06-10 18:53:14] INFO root fetch - main [MainThread]: End processing [watchmen-storage]: success
+[2023-06-10 18:53:14] INFO root fetch - processPackages [watchmen-data-surface]: New version: [16.5.9] Old Version: [16.5.8]
+[2023-06-10 18:53:14] INFO root fetch - processPackages [watchmen-storage-rds]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_storage_rds-16.5.8.tar.gz]
+[2023-06-10 18:53:14] INFO root fetch - processPackages [watchmen-storage-rds]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_storage_rds-16.5.9.tar.gz]
+[2023-06-10 18:53:14] INFO root fetch - processPackages [watchmen-storage-rds]: Start processing: watchmen-pipeline-kernel
+[2023-06-10 18:53:14] INFO root fetch - main [MainThread]: End processing [watchmen-storage-rds]: success
+[2023-06-10 18:53:14] INFO root fetch - processPackages [watchmen-auth]: Downloading https://files.pythonhosted.org/packages/a9/2b/67086813bc372236bddd980ebe4bf225b7884d9c178b1eaec19c7c273dce/watchmen_auth-16.5.9.tar.gz
+[2023-06-10 18:53:14] INFO root fetch - processPackages [watchmen-pipeline-kernel]: New version: [16.5.9] Old Version: [16.5.8]
+[2023-06-10 18:53:14] INFO root fetch - processPackages [watchmen-lineage]: Downloading https://files.pythonhosted.org/packages/a9/25/f9dc5f1235925d34102321ba3e27108242f628bd792b38a01162042b174d/watchmen_lineage-16.5.9.tar.gz
+[2023-06-10 18:53:14] INFO root fetch - processPackages [watchmen-data-kernel]: Downloading https://files.pythonhosted.org/packages/bc/13/282dbf639203fe997cb50b29d3adec4b64560c171e0130d38ea787d7afee/watchmen_data_kernel-16.5.8.tar.gz
+[2023-06-10 18:53:14] INFO root fetch - processPackages [watchmen-auth]: executing diffoscope
+[2023-06-10 18:53:14] INFO root fetch - processPackages [watchmen-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watchmen_auth-16.5.8.tar.gz tmp/watchmen_auth-16.5.9.tar.gz --markdown 20230610/w/watchmen-auth/16.5.8-16.5.9/diff.md --exclude *.pyd
+[2023-06-10 18:53:14] INFO root fetch - processPackages [watchmen-lineage]: executing diffoscope
+[2023-06-10 18:53:14] INFO root fetch - processPackages [watchmen-lineage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watchmen_lineage-16.5.8.tar.gz tmp/watchmen_lineage-16.5.9.tar.gz --markdown 20230610/w/watchmen-lineage/16.5.8-16.5.9/diff.md --exclude *.pyd
+[2023-06-10 18:53:14] INFO root fetch - processPackages [watchmen-rest]: Downloading https://files.pythonhosted.org/packages/b2/72/14e2751bd19f8f4446e41b039d2c66e441be3e9bc891074fac4188bccf0c/watchmen_rest-16.5.9.tar.gz
+[2023-06-10 18:53:14] INFO root fetch - processPackages [watchmen-model]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_model-16.5.8.tar.gz]
+[2023-06-10 18:53:14] INFO root fetch - processPackages [watchmen-model]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_model-16.5.9.tar.gz]
+[2023-06-10 18:53:14] INFO root fetch - processPackages [watchmen-model]: Start processing: watchmen-collector-kernel
+[2023-06-10 18:53:14] INFO root fetch - main [MainThread]: End processing [watchmen-model]: success
+[2023-06-10 18:53:14] INFO root fetch - processPackages [watchmen-meta]: Downloading https://files.pythonhosted.org/packages/5b/01/a22035db04aa9bb7473f08a9991f2fc20479ad9280485fb2f66f425ed454/watchmen_meta-16.5.9.tar.gz
+[2023-06-10 18:53:14] INFO root fetch - processPackages [watchmen-collector-kernel]: New version: [16.5.9] Old Version: [16.5.8]
+[2023-06-10 18:53:14] INFO root fetch - processPackages [watchmen-rest]: executing diffoscope
+[2023-06-10 18:53:14] INFO root fetch - processPackages [watchmen-rest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watchmen_rest-16.5.8.tar.gz tmp/watchmen_rest-16.5.9.tar.gz --markdown 20230610/w/watchmen-rest/16.5.8-16.5.9/diff.md --exclude *.pyd
+[2023-06-10 18:53:14] INFO root fetch - processPackages [watchmen-meta]: executing diffoscope
+[2023-06-10 18:53:14] INFO root fetch - processPackages [watchmen-meta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watchmen_meta-16.5.8.tar.gz tmp/watchmen_meta-16.5.9.tar.gz --markdown 20230610/w/watchmen-meta/16.5.8-16.5.9/diff.md --exclude *.pyd
+[2023-06-10 18:53:14] INFO root fetch - processPackages [watchmen-pipeline-kernel]: Downloading https://files.pythonhosted.org/packages/3c/92/7249505f14e206bd65f8e24e2d113cd120e2c6b96f18af0aa6d430b6ccb4/watchmen_pipeline_kernel-16.5.8.tar.gz
+[2023-06-10 18:53:14] INFO root fetch - processPackages [watchmen-data-surface]: Downloading https://files.pythonhosted.org/packages/5a/39/b314a11b6f3b83bf813101c24f2ca2cab74fd00ad1f41e0a0b4f2c09cb36/watchmen_data_surface-16.5.8.tar.gz
+[2023-06-10 18:53:14] INFO root fetch - processPackages [watchmen-collector-kernel]: Downloading https://files.pythonhosted.org/packages/ca/5e/7de78082777288e9114ca52c7c2000afc3896ed5bba54f06e1f048830e16/watchmen_collector_kernel-16.5.8.tar.gz
+[2023-06-10 18:53:14] INFO root fetch - processPackages [watchmen-data-kernel]: Downloading https://files.pythonhosted.org/packages/fe/01/75557bcdb146e1ef0df64414fed369378b39001b415ddab80fbce139ade7/watchmen_data_kernel-16.5.9.tar.gz
+[2023-06-10 18:53:14] INFO root fetch - processPackages [watchmen-data-kernel]: executing diffoscope
+[2023-06-10 18:53:14] INFO root fetch - processPackages [watchmen-data-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watchmen_data_kernel-16.5.8.tar.gz tmp/watchmen_data_kernel-16.5.9.tar.gz --markdown 20230610/w/watchmen-data-kernel/16.5.8-16.5.9/diff.md --exclude *.pyd
+[2023-06-10 18:53:14] INFO root fetch - processPackages [watchmen-pipeline-kernel]: Downloading https://files.pythonhosted.org/packages/04/db/ba587f3e44ad95578aee010ce507daf01275ceca50c39553b76b5ef663b8/watchmen_pipeline_kernel-16.5.9.tar.gz
+[2023-06-10 18:53:14] INFO root fetch - processPackages [watchmen-pipeline-kernel]: executing diffoscope
+[2023-06-10 18:53:14] INFO root fetch - processPackages [watchmen-pipeline-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watchmen_pipeline_kernel-16.5.8.tar.gz tmp/watchmen_pipeline_kernel-16.5.9.tar.gz --markdown 20230610/w/watchmen-pipeline-kernel/16.5.8-16.5.9/diff.md --exclude *.pyd
+[2023-06-10 18:53:14] INFO root fetch - processPackages [watchmen-data-surface]: Downloading https://files.pythonhosted.org/packages/1f/6f/94873d3ecc788cf378a91857f06df4aad5d6f4287849ebe5150d37e8abd3/watchmen_data_surface-16.5.9.tar.gz
+[2023-06-10 18:53:14] INFO root fetch - processPackages [watchmen-collector-kernel]: Downloading https://files.pythonhosted.org/packages/52/22/1a4743451cea1dd4b0462eaa6691508bbcdcc0be7d79bdb288062c43ead6/watchmen_collector_kernel-16.5.9.tar.gz
+[2023-06-10 18:53:14] INFO root fetch - processPackages [watchmen-data-surface]: executing diffoscope
+[2023-06-10 18:53:14] INFO root fetch - processPackages [watchmen-data-surface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watchmen_data_surface-16.5.8.tar.gz tmp/watchmen_data_surface-16.5.9.tar.gz --markdown 20230610/w/watchmen-data-surface/16.5.8-16.5.9/diff.md --exclude *.pyd
+[2023-06-10 18:53:14] INFO root fetch - processPackages [watchmen-collector-kernel]: executing diffoscope
+[2023-06-10 18:53:14] INFO root fetch - processPackages [watchmen-collector-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watchmen_collector_kernel-16.5.8.tar.gz tmp/watchmen_collector_kernel-16.5.9.tar.gz --markdown 20230610/w/watchmen-collector-kernel/16.5.8-16.5.9/diff.md --exclude *.pyd
+[2023-06-10 18:53:15] INFO root fetch - processPackages [watchmen-storage-oss]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_storage_oss-16.5.8.tar.gz]
+[2023-06-10 18:53:15] INFO root fetch - processPackages [watchmen-storage-oss]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_storage_oss-16.5.9.tar.gz]
+[2023-06-10 18:53:15] INFO root fetch - processPackages [watchmen-storage-oss]: Start processing: watchmen-collector-surface
+[2023-06-10 18:53:15] INFO root fetch - main [MainThread]: End processing [watchmen-storage-oss]: success
+[2023-06-10 18:53:15] INFO root fetch - processPackages [watchmen-collector-surface]: New version: [16.5.9] Old Version: [16.5.8]
+[2023-06-10 18:53:15] INFO root fetch - processPackages [watchmen-storage-s3]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_storage_s3-16.5.8.tar.gz]
+[2023-06-10 18:53:15] INFO root fetch - processPackages [watchmen-storage-s3]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_storage_s3-16.5.9.tar.gz]
+[2023-06-10 18:53:15] INFO root fetch - processPackages [watchmen-storage-s3]: Start processing: watchmen-pipeline-surface
+[2023-06-10 18:53:15] INFO root fetch - main [MainThread]: End processing [watchmen-storage-s3]: success
+[2023-06-10 18:53:15] INFO root fetch - processPackages [watchmen-pipeline-surface]: New version: [16.5.9] Old Version: [16.5.8]
+[2023-06-10 18:53:15] INFO root fetch - processPackages [watchmen-collector-surface]: Downloading https://files.pythonhosted.org/packages/6d/98/6f314b8e5868017a91bc4583070a0f0d9944505a09ff3f0c26e98e48ba10/watchmen_collector_surface-16.5.8.tar.gz
+[2023-06-10 18:53:15] INFO root fetch - processPackages [watchmen-auth]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_auth-16.5.8.tar.gz]
+[2023-06-10 18:53:15] INFO root fetch - processPackages [watchmen-auth]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_auth-16.5.9.tar.gz]
+[2023-06-10 18:53:15] INFO root fetch - processPackages [watchmen-auth]: Start processing: watchmen-inquiry-trino
+[2023-06-10 18:53:15] INFO root fetch - main [MainThread]: End processing [watchmen-auth]: success
+[2023-06-10 18:53:15] INFO root fetch - processPackages [watchmen-inquiry-trino]: New version: [16.5.9] Old Version: [16.5.8]
+[2023-06-10 18:53:15] INFO root fetch - processPackages [watchmen-pipeline-surface]: Downloading https://files.pythonhosted.org/packages/f6/53/cc54470ac0b5a37c01b0bb3a6051a3b2fc87a6f47487975b2a7e584897f3/watchmen_pipeline_surface-16.5.8.tar.gz
+[2023-06-10 18:53:15] INFO root fetch - processPackages [watchmen-inquiry-trino]: Downloading https://files.pythonhosted.org/packages/b9/1b/a4d30129c9e064f6454b2392726d5cceca7fa3b37cd1e197292764335b4d/watchmen_inquiry_trino-16.5.8.tar.gz
+[2023-06-10 18:53:15] INFO root fetch - processPackages [watchmen-pipeline-surface]: Downloading https://files.pythonhosted.org/packages/28/02/12f9bae1e539410609e1ad97a85385cef5ec5ad77412227299b57e6825f2/watchmen_pipeline_surface-16.5.9.tar.gz
+[2023-06-10 18:53:15] INFO root fetch - processPackages [watchmen-collector-surface]: Downloading https://files.pythonhosted.org/packages/0b/7e/d7e96797a4248db50ef3feb6b290042bf20976bf27d66fad6668fcd7d6d8/watchmen_collector_surface-16.5.9.tar.gz
+[2023-06-10 18:53:15] INFO root fetch - processPackages [watchmen-rest]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_rest-16.5.8.tar.gz]
+[2023-06-10 18:53:15] INFO root fetch - processPackages [watchmen-rest]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_rest-16.5.9.tar.gz]
+[2023-06-10 18:53:15] INFO root fetch - processPackages [watchmen-rest]: Start processing: watchmen-inquiry-kernel
+[2023-06-10 18:53:15] INFO root fetch - main [MainThread]: End processing [watchmen-rest]: success
+[2023-06-10 18:53:15] INFO root fetch - processPackages [watchmen-pipeline-surface]: executing diffoscope
+[2023-06-10 18:53:15] INFO root fetch - processPackages [watchmen-pipeline-surface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watchmen_pipeline_surface-16.5.8.tar.gz tmp/watchmen_pipeline_surface-16.5.9.tar.gz --markdown 20230610/w/watchmen-pipeline-surface/16.5.8-16.5.9/diff.md --exclude *.pyd
+[2023-06-10 18:53:15] INFO root fetch - processPackages [watchmen-inquiry-kernel]: New version: [16.5.9] Old Version: [16.5.8]
+[2023-06-10 18:53:16] INFO root fetch - processPackages [watchmen-collector-surface]: executing diffoscope
+[2023-06-10 18:53:16] INFO root fetch - processPackages [watchmen-collector-surface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watchmen_collector_surface-16.5.8.tar.gz tmp/watchmen_collector_surface-16.5.9.tar.gz --markdown 20230610/w/watchmen-collector-surface/16.5.8-16.5.9/diff.md --exclude *.pyd
+[2023-06-10 18:53:16] INFO root fetch - processPackages [watchmen-meta]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_meta-16.5.8.tar.gz]
+[2023-06-10 18:53:16] INFO root fetch - processPackages [watchmen-meta]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_meta-16.5.9.tar.gz]
+[2023-06-10 18:53:16] INFO root fetch - processPackages [watchmen-meta]: Start processing: watchmen-inquiry-surface
+[2023-06-10 18:53:16] INFO root fetch - main [MainThread]: End processing [watchmen-meta]: success
+[2023-06-10 18:53:16] INFO root fetch - processPackages [watchmen-inquiry-surface]: New version: [16.5.9] Old Version: [16.5.8]
+[2023-06-10 18:53:16] INFO root fetch - processPackages [watchmen-inquiry-trino]: Downloading https://files.pythonhosted.org/packages/4a/d3/e86985aeac954b5cc5bf65672b8ade236acbcffb10a99a3822cdec2f0fb6/watchmen_inquiry_trino-16.5.9.tar.gz
+[2023-06-10 18:53:16] INFO root fetch - processPackages [watchmen-inquiry-trino]: executing diffoscope
+[2023-06-10 18:53:16] INFO root fetch - processPackages [watchmen-inquiry-trino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watchmen_inquiry_trino-16.5.8.tar.gz tmp/watchmen_inquiry_trino-16.5.9.tar.gz --markdown 20230610/w/watchmen-inquiry-trino/16.5.8-16.5.9/diff.md --exclude *.pyd
+[2023-06-10 18:53:16] INFO root fetch - processPackages [watchmen-inquiry-kernel]: Downloading https://files.pythonhosted.org/packages/00/e7/617efbca41e6c4ba9d3280d95fbf9fba4216f2f4304b9b0d4ec564fd2c48/watchmen_inquiry_kernel-16.5.8.tar.gz
+[2023-06-10 18:53:16] INFO root fetch - processPackages [watchmen-lineage]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_lineage-16.5.8.tar.gz]
+[2023-06-10 18:53:16] INFO root fetch - processPackages [watchmen-lineage]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_lineage-16.5.9.tar.gz]
+[2023-06-10 18:53:16] INFO root fetch - processPackages [watchmen-lineage]: Start processing: watchmen-dqc
+[2023-06-10 18:53:16] INFO root fetch - main [MainThread]: End processing [watchmen-lineage]: success
+[2023-06-10 18:53:16] INFO root fetch - processPackages [watchmen-dqc]: New version: [16.5.9] Old Version: [16.5.8]
+[2023-06-10 18:53:16] INFO root fetch - processPackages [watchmen-inquiry-surface]: Downloading https://files.pythonhosted.org/packages/41/0f/931ae434af6a923e84e33d4331d44f3d8a067c0c63c2b21c374c7854ead2/watchmen_inquiry_surface-16.5.8.tar.gz
+[2023-06-10 18:53:16] INFO root fetch - processPackages [watchmen-pipeline-kernel]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_pipeline_kernel-16.5.8.tar.gz]
+[2023-06-10 18:53:16] INFO root fetch - processPackages [watchmen-inquiry-kernel]: Downloading https://files.pythonhosted.org/packages/8c/68/7cd316de52b67b6958c42ea6bb6660bb128030df2d25f156303631236f38/watchmen_inquiry_kernel-16.5.9.tar.gz
+[2023-06-10 18:53:16] INFO root fetch - processPackages [watchmen-pipeline-kernel]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_pipeline_kernel-16.5.9.tar.gz]
+[2023-06-10 18:53:16] INFO root fetch - processPackages [watchmen-pipeline-kernel]: Start processing: watchmen-rest-dqc
+[2023-06-10 18:53:16] INFO root fetch - main [MainThread]: End processing [watchmen-pipeline-kernel]: success
+[2023-06-10 18:53:16] INFO root fetch - processPackages [watchmen-rest-dqc]: New version: [16.5.9] Old Version: [16.5.8]
+[2023-06-10 18:53:16] INFO root fetch - processPackages [watchmen-inquiry-kernel]: executing diffoscope
+[2023-06-10 18:53:16] INFO root fetch - processPackages [watchmen-inquiry-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watchmen_inquiry_kernel-16.5.8.tar.gz tmp/watchmen_inquiry_kernel-16.5.9.tar.gz --markdown 20230610/w/watchmen-inquiry-kernel/16.5.8-16.5.9/diff.md --exclude *.pyd
+[2023-06-10 18:53:16] INFO root fetch - processPackages [watchmen-dqc]: Downloading https://files.pythonhosted.org/packages/ef/36/6a6deae9edf8a4b2fdd838f36277f7541bb1a1c7218eaa396547536006a8/watchmen_dqc-16.5.8.tar.gz
+[2023-06-10 18:53:16] INFO root fetch - processPackages [watchmen-data-kernel]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_data_kernel-16.5.8.tar.gz]
+[2023-06-10 18:53:16] INFO root fetch - processPackages [watchmen-data-kernel]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_data_kernel-16.5.9.tar.gz]
+[2023-06-10 18:53:16] INFO root fetch - processPackages [watchmen-data-kernel]: Start processing: watchmen-indicator-kernel
+[2023-06-10 18:53:16] INFO root fetch - main [MainThread]: End processing [watchmen-data-kernel]: success
+[2023-06-10 18:53:16] INFO root fetch - processPackages [watchmen-data-surface]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_data_surface-16.5.8.tar.gz]
+[2023-06-10 18:53:16] INFO root fetch - processPackages [watchmen-data-surface]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_data_surface-16.5.9.tar.gz]
+[2023-06-10 18:53:16] INFO root fetch - processPackages [watchmen-data-surface]: Start processing: watchmen-indicator-surface
+[2023-06-10 18:53:16] INFO root fetch - main [MainThread]: End processing [watchmen-data-surface]: success
+[2023-06-10 18:53:16] INFO root fetch - processPackages [watchmen-indicator-kernel]: New version: [16.5.9] Old Version: [16.5.8]
+[2023-06-10 18:53:16] INFO root fetch - processPackages [watchmen-indicator-surface]: New version: [16.5.9] Old Version: [16.5.8]
+[2023-06-10 18:53:16] INFO root fetch - processPackages [watchmen-collector-kernel]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_collector_kernel-16.5.8.tar.gz]
+[2023-06-10 18:53:16] INFO root fetch - processPackages [watchmen-collector-kernel]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_collector_kernel-16.5.9.tar.gz]
+[2023-06-10 18:53:16] INFO root fetch - processPackages [watchmen-collector-kernel]: Start processing: watchmen-rest-doll
+[2023-06-10 18:53:16] INFO root fetch - main [MainThread]: End processing [watchmen-collector-kernel]: success
+[2023-06-10 18:53:16] INFO root fetch - processPackages [watchmen-inquiry-surface]: Downloading https://files.pythonhosted.org/packages/60/92/0c42f3e2236b3848b2162acf095974677bb935673b554b6f3345c4c259ed/watchmen_inquiry_surface-16.5.9.tar.gz
+[2023-06-10 18:53:16] INFO root fetch - processPackages [watchmen-rest-dqc]: Downloading https://files.pythonhosted.org/packages/02/01/e512baaf2c34d1cf0466d5a2da05219683eb39cdc54668fe82ff3fbb063d/watchmen_rest_dqc-16.5.8.tar.gz
+[2023-06-10 18:53:16] INFO root fetch - processPackages [watchmen-rest-doll]: New version: [16.5.9] Old Version: [16.5.8]
+[2023-06-10 18:53:16] INFO root fetch - processPackages [watchmen-inquiry-surface]: executing diffoscope
+[2023-06-10 18:53:16] INFO root fetch - processPackages [watchmen-inquiry-surface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watchmen_inquiry_surface-16.5.8.tar.gz tmp/watchmen_inquiry_surface-16.5.9.tar.gz --markdown 20230610/w/watchmen-inquiry-surface/16.5.8-16.5.9/diff.md --exclude *.pyd
+[2023-06-10 18:53:16] INFO root fetch - processPackages [watchmen-dqc]: Downloading https://files.pythonhosted.org/packages/45/9c/3bb2f1658a88301602790cb3975ab25d17b7282ab1cd3cbceb3b3808a60b/watchmen_dqc-16.5.9.tar.gz
+[2023-06-10 18:53:16] INFO root fetch - processPackages [watchmen-indicator-surface]: Downloading https://files.pythonhosted.org/packages/b4/aa/0fbf4127368309b40bc2aa5089dcf3643176344d41650598cd5607a9986e/watchmen_indicator_surface-16.5.8.tar.gz
+[2023-06-10 18:53:16] INFO root fetch - processPackages [watchmen-rest-doll]: Downloading https://files.pythonhosted.org/packages/ee/ad/529ebbd43ca0ccbedbb09d452ae55e4bdefc04863f91ec6ab3a727224eae/watchmen_rest_doll-16.5.8.tar.gz
+[2023-06-10 18:53:16] INFO root fetch - processPackages [watchmen-dqc]: executing diffoscope
+[2023-06-10 18:53:16] INFO root fetch - processPackages [watchmen-dqc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watchmen_dqc-16.5.8.tar.gz tmp/watchmen_dqc-16.5.9.tar.gz --markdown 20230610/w/watchmen-dqc/16.5.8-16.5.9/diff.md --exclude *.pyd
+[2023-06-10 18:53:16] INFO root fetch - processPackages [watchmen-rest-dqc]: Downloading https://files.pythonhosted.org/packages/e8/47/9294b429f311149df3595dacb808a3e91d3a47bcfcfa56c9e4b296bedf9c/watchmen_rest_dqc-16.5.9.tar.gz
+[2023-06-10 18:53:16] INFO root fetch - processPackages [watchmen-indicator-kernel]: Downloading https://files.pythonhosted.org/packages/26/9a/897f733b6816ef77f67ddda2380a4644f63479cf9bd7c61e481ca021d0ab/watchmen_indicator_kernel-16.5.8.tar.gz
+[2023-06-10 18:53:17] INFO root fetch - processPackages [watchmen-indicator-surface]: Downloading https://files.pythonhosted.org/packages/cd/25/83a89f9bd0b86f37aa60ee791629d25d96216ca195e8db03416d8589d50a/watchmen_indicator_surface-16.5.9.tar.gz
+[2023-06-10 18:53:17] INFO root fetch - processPackages [watchmen-rest-doll]: Downloading https://files.pythonhosted.org/packages/7e/18/ee0b6d49131dc37d6221578e37fa1415a47b9db43f1a2e73f13041a4d0f0/watchmen_rest_doll-16.5.9.tar.gz
+[2023-06-10 18:53:17] INFO root fetch - processPackages [watchmen-rest-dqc]: executing diffoscope
+[2023-06-10 18:53:17] INFO root fetch - processPackages [watchmen-rest-dqc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watchmen_rest_dqc-16.5.8.tar.gz tmp/watchmen_rest_dqc-16.5.9.tar.gz --markdown 20230610/w/watchmen-rest-dqc/16.5.8-16.5.9/diff.md --exclude *.pyd
+[2023-06-10 18:53:17] INFO root fetch - processPackages [watchmen-indicator-surface]: executing diffoscope
+[2023-06-10 18:53:17] INFO root fetch - processPackages [watchmen-indicator-surface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watchmen_indicator_surface-16.5.8.tar.gz tmp/watchmen_indicator_surface-16.5.9.tar.gz --markdown 20230610/w/watchmen-indicator-surface/16.5.8-16.5.9/diff.md --exclude *.pyd
+[2023-06-10 18:53:17] INFO root fetch - processPackages [watchmen-indicator-kernel]: Downloading https://files.pythonhosted.org/packages/89/f4/3ce731e64de2dc2940e8d50df4ef5fdad23775b95fc007af46f1237ad33f/watchmen_indicator_kernel-16.5.9.tar.gz
+[2023-06-10 18:53:17] INFO root fetch - processPackages [watchmen-rest-doll]: executing diffoscope
+[2023-06-10 18:53:17] INFO root fetch - processPackages [watchmen-rest-doll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watchmen_rest_doll-16.5.8.tar.gz tmp/watchmen_rest_doll-16.5.9.tar.gz --markdown 20230610/w/watchmen-rest-doll/16.5.8-16.5.9/diff.md --exclude *.pyd
+[2023-06-10 18:53:17] INFO root fetch - processPackages [watchmen-indicator-kernel]: executing diffoscope
+[2023-06-10 18:53:17] INFO root fetch - processPackages [watchmen-indicator-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watchmen_indicator_kernel-16.5.8.tar.gz tmp/watchmen_indicator_kernel-16.5.9.tar.gz --markdown 20230610/w/watchmen-indicator-kernel/16.5.8-16.5.9/diff.md --exclude *.pyd
+[2023-06-10 18:53:17] INFO root fetch - processPackages [watchmen-pipeline-surface]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_pipeline_surface-16.5.8.tar.gz]
+[2023-06-10 18:53:17] INFO root fetch - processPackages [watchmen-pipeline-surface]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_pipeline_surface-16.5.9.tar.gz]
+[2023-06-10 18:53:17] INFO root fetch - processPackages [watchmen-pipeline-surface]: Start processing: watchmen-cli
+[2023-06-10 18:53:17] INFO root fetch - main [MainThread]: End processing [watchmen-pipeline-surface]: success
+[2023-06-10 18:53:17] INFO root fetch - processPackages [watchmen-cli]: New version: [16.5.9] Old Version: [16.5.8]
+[2023-06-10 18:53:17] INFO root fetch - processPackages [watchmen-collector-surface]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_collector_surface-16.5.8.tar.gz]
+[2023-06-10 18:53:17] INFO root fetch - processPackages [watchmen-collector-surface]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_collector_surface-16.5.9.tar.gz]
+[2023-06-10 18:53:17] INFO root fetch - main [MainThread]: End processing [watchmen-collector-surface]: success
+[2023-06-10 18:53:17] INFO root fetch - processPackages [watchmen-cli]: Downloading https://files.pythonhosted.org/packages/22/22/16efc1595b55b0bdc2c77f09aee835c9fc3858979267abb12220f3e4ad06/watchmen_cli-16.5.8.tar.gz
+[2023-06-10 18:53:17] INFO root fetch - processPackages [watchmen-inquiry-trino]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_inquiry_trino-16.5.8.tar.gz]
+[2023-06-10 18:53:17] INFO root fetch - processPackages [watchmen-inquiry-trino]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_inquiry_trino-16.5.9.tar.gz]
+[2023-06-10 18:53:17] INFO root fetch - main [MainThread]: End processing [watchmen-inquiry-trino]: success
+[2023-06-10 18:53:17] INFO root fetch - processPackages [watchmen-cli]: Downloading https://files.pythonhosted.org/packages/7d/61/da8bfe1be628c6b1b9d3b3e54930cf4f5888e178a50adbc460ad0cbe38a1/watchmen_cli-16.5.9.tar.gz
+[2023-06-10 18:53:17] INFO root fetch - processPackages [watchmen-inquiry-surface]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_inquiry_surface-16.5.8.tar.gz]
+[2023-06-10 18:53:17] INFO root fetch - processPackages [watchmen-inquiry-surface]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_inquiry_surface-16.5.9.tar.gz]
+[2023-06-10 18:53:17] INFO root fetch - main [MainThread]: End processing [watchmen-inquiry-surface]: success
+[2023-06-10 18:53:17] INFO root fetch - processPackages [watchmen-cli]: executing diffoscope
+[2023-06-10 18:53:17] INFO root fetch - processPackages [watchmen-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watchmen_cli-16.5.8.tar.gz tmp/watchmen_cli-16.5.9.tar.gz --markdown 20230610/w/watchmen-cli/16.5.8-16.5.9/diff.md --exclude *.pyd
+[2023-06-10 18:53:18] INFO root fetch - processPackages [watchmen-dqc]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_dqc-16.5.8.tar.gz]
+[2023-06-10 18:53:18] INFO root fetch - processPackages [watchmen-dqc]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_dqc-16.5.9.tar.gz]
+[2023-06-10 18:53:18] INFO root fetch - main [MainThread]: End processing [watchmen-dqc]: success
+[2023-06-10 18:53:18] INFO root fetch - processPackages [watchmen-inquiry-kernel]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_inquiry_kernel-16.5.8.tar.gz]
+[2023-06-10 18:53:18] INFO root fetch - processPackages [watchmen-inquiry-kernel]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_inquiry_kernel-16.5.9.tar.gz]
+[2023-06-10 18:53:18] INFO root fetch - main [MainThread]: End processing [watchmen-inquiry-kernel]: success
+[2023-06-10 18:53:18] INFO root fetch - processPackages [watchmen-rest-dqc]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_rest_dqc-16.5.8.tar.gz]
+[2023-06-10 18:53:18] INFO root fetch - processPackages [watchmen-rest-dqc]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_rest_dqc-16.5.9.tar.gz]
+[2023-06-10 18:53:18] INFO root fetch - main [MainThread]: End processing [watchmen-rest-dqc]: success
+[2023-06-10 18:53:18] INFO root fetch - processPackages [watchmen-indicator-kernel]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_indicator_kernel-16.5.8.tar.gz]
+[2023-06-10 18:53:18] INFO root fetch - processPackages [watchmen-indicator-kernel]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_indicator_kernel-16.5.9.tar.gz]
+[2023-06-10 18:53:18] INFO root fetch - main [MainThread]: End processing [watchmen-indicator-kernel]: success
+[2023-06-10 18:53:18] INFO root fetch - processPackages [watchmen-rest-doll]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_rest_doll-16.5.8.tar.gz]
+[2023-06-10 18:53:18] INFO root fetch - processPackages [watchmen-rest-doll]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_rest_doll-16.5.9.tar.gz]
+[2023-06-10 18:53:18] INFO root fetch - main [MainThread]: End processing [watchmen-rest-doll]: success
+[2023-06-10 18:53:18] INFO root fetch - processPackages [watchmen-cli]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_cli-16.5.8.tar.gz]
+[2023-06-10 18:53:18] INFO root fetch - processPackages [watchmen-cli]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_cli-16.5.9.tar.gz]
+[2023-06-10 18:53:18] INFO root fetch - main [MainThread]: End processing [watchmen-cli]: success
+[2023-06-10 18:53:18] INFO root fetch - processPackages [watchmen-indicator-surface]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_indicator_surface-16.5.8.tar.gz]
+[2023-06-10 18:53:18] INFO root fetch - processPackages [watchmen-indicator-surface]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_indicator_surface-16.5.9.tar.gz]
+[2023-06-10 18:53:18] INFO root fetch - main [MainThread]: End processing [watchmen-indicator-surface]: success
+[2023-06-10 18:53:18] INFO root fetch - main [MainThread]: Store serial: [18452364]
