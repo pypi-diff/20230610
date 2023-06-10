@@ -17173,3 +17173,94 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-10 21:50:53] INFO root fetch - processPackages [fastadmin]: Remove: archive file [/home/abi/fetcher/tmp/fastadmin-0.1.7.tar.gz]
 [2023-06-10 21:50:53] INFO root fetch - main [MainThread]: End processing [fastadmin]: success
 [2023-06-10 21:50:53] INFO root fetch - main [MainThread]: Store serial: [18453353]
+[2023-06-10 21:55:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18453353]
+[2023-06-10 21:56:02] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-10 21:56:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: counterplots
+[2023-06-10 21:56:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cabinet
+[2023-06-10 21:56:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mapbot-frontend
+[2023-06-10 21:56:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: graphdisplay
+[2023-06-10 21:56:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cross-process-bridge
+[2023-06-10 21:56:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dcrx-api
+[2023-06-10 21:56:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: geedim
+[2023-06-10 21:56:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ctitools
+[2023-06-10 21:56:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cracker
+[2023-06-10 21:56:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dcrx-api
+[2023-06-10 21:56:02] INFO root fetch - processPackages [counterplots]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-10 21:56:02] INFO root fetch - processPackages [graphdisplay]: New version: [0.4.8] Old Version: [0.4.7]
+[2023-06-10 21:56:02] INFO root fetch - processPackages [cabinet]: New version: [2023.6.8.1] Old Version: [2023.6.10.1]
+[2023-06-10 21:56:02] INFO root fetch - processPackages [cross-process-bridge]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-10 21:56:02] INFO root fetch - processPackages [mapbot-frontend]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-10 21:56:02] INFO root fetch - processPackages [ctitools]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-06-10 21:56:02] INFO root fetch - processPackages [cracker]: New version: [0.8.1] Old Version: [0.7.3]
+[2023-06-10 21:56:02] INFO root fetch - processPackages [dcrx-api]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-06-10 21:56:02] INFO root fetch - processPackages [dcrx-api]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-06-10 21:56:02] INFO root fetch - processPackages [geedim]: New version: [1.7.2] Old Version: [1.7.1]
+[2023-06-10 21:56:02] INFO root fetch - processPackages [mapbot-frontend]: Downloading https://files.pythonhosted.org/packages/c3/15/a76b10735e815f29e69252cfdf5844d8267526ca51d4be0ae611898cf761/mapbot_frontend-0.1.8.tar.gz
+[2023-06-10 21:56:02] INFO root fetch - processPackages [graphdisplay]: Downloading https://files.pythonhosted.org/packages/d9/e3/d75adec271570dea6041b101ccf25f269fcb197b601f59738c4314d1b35d/graphdisplay-0.4.7.tar.gz
+[2023-06-10 21:56:02] INFO root fetch - processPackages [counterplots]: Downloading https://files.pythonhosted.org/packages/60/59/26fa6c5418609d6616e6b52eabe6125053485f0e4c6acdbe309bd103f115/counterplots-0.0.2.tar.gz
+[2023-06-10 21:56:02] INFO root fetch - processPackages [cabinet]: Downloading https://files.pythonhosted.org/packages/b9/ad/cc056e16605f7d3dd6f4be8b752060d6e100c4b3fb69dd5a9a01befe6895/cabinet-2023.6.10.1.tar.gz
+[2023-06-10 21:56:02] INFO root fetch - processPackages [cross-process-bridge]: Downloading https://files.pythonhosted.org/packages/12/61/6ac3d00cc422b9b358e7df61c9a94662dbbc33c62d3afbdc2d4be779c42d/cross_process_bridge-1.0.0.tar.gz
+[2023-06-10 21:56:02] INFO root fetch - processPackages [ctitools]: Downloading https://files.pythonhosted.org/packages/98/ab/9ca4d5fe62a8b4fc90d3fa0bd66c92b764ebacdc7623b49efe9b1a420a31/ctitools-0.4.2.tar.gz
+[2023-06-10 21:56:02] INFO root fetch - processPackages [cracker]: Downloading https://files.pythonhosted.org/packages/d2/16/d8b0d3269d531b325d8511fbcee8852b652c01a3c80337b77d087fa5ee06/cracker-0.7.3.tar.gz
+[2023-06-10 21:56:02] INFO root fetch - processPackages [dcrx-api]: Downloading https://files.pythonhosted.org/packages/a8/fa/98059121ef6b78f02bcf5c7e0d5f8e0817567fb6ff52cc366c58ad62bce0/dcrx-api-0.2.6.tar.gz
+[2023-06-10 21:56:02] INFO root fetch - processPackages [dcrx-api]: Downloading https://files.pythonhosted.org/packages/a8/fa/98059121ef6b78f02bcf5c7e0d5f8e0817567fb6ff52cc366c58ad62bce0/dcrx-api-0.2.6.tar.gz
+[2023-06-10 21:56:02] INFO root fetch - processPackages [mapbot-frontend]: Downloading https://files.pythonhosted.org/packages/2c/2b/65497a0d97cff1920b70e98b8c0780cb445ac34e1ebb2d6cf5ddf99b0ffc/mapbot_frontend-0.1.9.tar.gz
+[2023-06-10 21:56:02] INFO root fetch - processPackages [graphdisplay]: Downloading https://files.pythonhosted.org/packages/4b/e3/330dc20d263ea9318e78a278c53aa832e5cead0e0393d80079370f564536/graphdisplay-0.4.8.tar.gz
+[2023-06-10 21:56:02] INFO root fetch - processPackages [geedim]: Downloading https://files.pythonhosted.org/packages/60/29/1bdd3458916a88aa09d25be8627dc703f07457cb47bfe442f181190333de/geedim-1.7.1.tar.gz
+[2023-06-10 21:56:02] INFO root fetch - processPackages [counterplots]: Downloading https://files.pythonhosted.org/packages/47/56/685883b44ec4d001fe310848908e99161a4e6838945e6a983cf4928f620e/counterplots-0.0.3.tar.gz
+[2023-06-10 21:56:02] INFO root fetch - processPackages [graphdisplay]: executing diffoscope
+[2023-06-10 21:56:02] INFO root fetch - processPackages [graphdisplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphdisplay-0.4.7.tar.gz tmp/graphdisplay-0.4.8.tar.gz --markdown 20230610/g/graphdisplay/0.4.7-0.4.8/diff.md --exclude *.pyd
+[2023-06-10 21:56:02] INFO root fetch - processPackages [cabinet]: Downloading https://files.pythonhosted.org/packages/17/4b/395750b8cbd9234de129c41fee645c0c78255e978b367f976014137c7a4d/cabinet-2023.6.8.1.tar.gz
+[2023-06-10 21:56:02] INFO root fetch - processPackages [cross-process-bridge]: Downloading https://files.pythonhosted.org/packages/c4/ad/afa7a8eea7b236828cc8ee0c6933be499b2669b3fbd8012203891b87a73a/cross_process_bridge-1.0.1.tar.gz
+[2023-06-10 21:56:02] INFO root fetch - processPackages [mapbot-frontend]: executing diffoscope
+[2023-06-10 21:56:02] INFO root fetch - processPackages [mapbot-frontend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapbot_frontend-0.1.8.tar.gz tmp/mapbot_frontend-0.1.9.tar.gz --markdown 20230610/m/mapbot-frontend/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-10 21:56:02] INFO root fetch - processPackages [dcrx-api]: Downloading https://files.pythonhosted.org/packages/04/10/e9521b2406a86a427d85be44fd37e9b2e4ff851f4337a7da53ac59ff892f/dcrx-api-0.2.7.tar.gz
+[2023-06-10 21:56:02] INFO root fetch - processPackages [dcrx-api]: Downloading https://files.pythonhosted.org/packages/04/10/e9521b2406a86a427d85be44fd37e9b2e4ff851f4337a7da53ac59ff892f/dcrx-api-0.2.7.tar.gz
+[2023-06-10 21:56:02] INFO root fetch - processPackages [cracker]: Downloading https://files.pythonhosted.org/packages/a9/47/44ce2409b3c0ff42ee139ddcb3935504a5eb63debc09266477dc1941379e/cracker-0.8.1.tar.gz
+[2023-06-10 21:56:02] INFO root fetch - processPackages [counterplots]: executing diffoscope
+[2023-06-10 21:56:02] INFO root fetch - processPackages [counterplots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/counterplots-0.0.2.tar.gz tmp/counterplots-0.0.3.tar.gz --markdown 20230610/c/counterplots/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-10 21:56:03] INFO root fetch - processPackages [ctitools]: Downloading https://files.pythonhosted.org/packages/0c/7e/9b0b40224107555b09f4e3d171e400f9387e51022772022654d233b3ad99/ctitools-0.4.3.tar.gz
+[2023-06-10 21:56:03] INFO root fetch - processPackages [cabinet]: executing diffoscope
+[2023-06-10 21:56:03] INFO root fetch - processPackages [cabinet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cabinet-2023.6.10.1.tar.gz tmp/cabinet-2023.6.8.1.tar.gz --markdown 20230610/c/cabinet/2023.6.10.1-2023.6.8.1/diff.md --exclude *.pyd
+[2023-06-10 21:56:03] INFO root fetch - processPackages [cross-process-bridge]: executing diffoscope
+[2023-06-10 21:56:03] INFO root fetch - processPackages [cross-process-bridge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cross_process_bridge-1.0.0.tar.gz tmp/cross_process_bridge-1.0.1.tar.gz --markdown 20230610/c/cross-process-bridge/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-10 21:56:03] INFO root fetch - processPackages [geedim]: Downloading https://files.pythonhosted.org/packages/15/aa/4308a57d95748a240dfa4e81e8c268fd87f8e6145cbe09e9f27f6f1a1e3b/geedim-1.7.2.tar.gz
+[2023-06-10 21:56:03] INFO root fetch - processPackages [cracker]: executing diffoscope
+[2023-06-10 21:56:03] INFO root fetch - processPackages [cracker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cracker-0.7.3.tar.gz tmp/cracker-0.8.1.tar.gz --markdown 20230610/c/cracker/0.7.3-0.8.1/diff.md --exclude *.pyd
+[2023-06-10 21:56:03] INFO root fetch - processPackages [ctitools]: executing diffoscope
+[2023-06-10 21:56:03] INFO root fetch - processPackages [ctitools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctitools-0.4.2.tar.gz tmp/ctitools-0.4.3.tar.gz --markdown 20230610/c/ctitools/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-06-10 21:56:03] INFO root fetch - processPackages [dcrx-api]: executing diffoscope
+[2023-06-10 21:56:03] INFO root fetch - processPackages [dcrx-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcrx-api-0.2.6.tar.gz tmp/dcrx-api-0.2.7.tar.gz --markdown 20230610/d/dcrx-api/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-06-10 21:56:03] INFO root fetch - processPackages [dcrx-api]: executing diffoscope
+[2023-06-10 21:56:03] INFO root fetch - processPackages [dcrx-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcrx-api-0.2.6.tar.gz tmp/dcrx-api-0.2.7.tar.gz --markdown 20230610/d/dcrx-api/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-06-10 21:56:03] INFO root fetch - processPackages [geedim]: executing diffoscope
+[2023-06-10 21:56:03] INFO root fetch - processPackages [geedim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geedim-1.7.1.tar.gz tmp/geedim-1.7.2.tar.gz --markdown 20230610/g/geedim/1.7.1-1.7.2/diff.md --exclude *.pyd
+[2023-06-10 21:56:04] INFO root fetch - processPackages [cross-process-bridge]: Remove: archive file [/home/abi/fetcher/tmp/cross_process_bridge-1.0.0.tar.gz]
+[2023-06-10 21:56:04] INFO root fetch - processPackages [cross-process-bridge]: Remove: archive file [/home/abi/fetcher/tmp/cross_process_bridge-1.0.1.tar.gz]
+[2023-06-10 21:56:04] INFO root fetch - main [MainThread]: End processing [cross-process-bridge]: success
+[2023-06-10 21:56:04] INFO root fetch - processPackages [counterplots]: Remove: archive file [/home/abi/fetcher/tmp/counterplots-0.0.2.tar.gz]
+[2023-06-10 21:56:04] INFO root fetch - processPackages [counterplots]: Remove: archive file [/home/abi/fetcher/tmp/counterplots-0.0.3.tar.gz]
+[2023-06-10 21:56:04] INFO root fetch - main [MainThread]: End processing [counterplots]: success
+[2023-06-10 21:56:04] INFO root fetch - processPackages [cabinet]: Remove: archive file [/home/abi/fetcher/tmp/cabinet-2023.6.10.1.tar.gz]
+[2023-06-10 21:56:04] INFO root fetch - processPackages [cabinet]: Remove: archive file [/home/abi/fetcher/tmp/cabinet-2023.6.8.1.tar.gz]
+[2023-06-10 21:56:04] INFO root fetch - main [MainThread]: End processing [cabinet]: success
+[2023-06-10 21:56:04] INFO root fetch - processPackages [ctitools]: Remove: archive file [/home/abi/fetcher/tmp/ctitools-0.4.2.tar.gz]
+[2023-06-10 21:56:04] INFO root fetch - processPackages [ctitools]: Remove: archive file [/home/abi/fetcher/tmp/ctitools-0.4.3.tar.gz]
+[2023-06-10 21:56:04] INFO root fetch - main [MainThread]: End processing [ctitools]: success
+[2023-06-10 21:56:04] INFO root fetch - processPackages [dcrx-api]: Remove: archive file [/home/abi/fetcher/tmp/dcrx-api-0.2.6.tar.gz]
+[2023-06-10 21:56:04] INFO root fetch - processPackages [dcrx-api]: Remove: archive file [/home/abi/fetcher/tmp/dcrx-api-0.2.7.tar.gz]
+[2023-06-10 21:56:04] INFO root fetch - main [MainThread]: End processing [dcrx-api]: success
+[2023-06-10 21:56:05] INFO root fetch - processPackages [cracker]: Remove: archive file [/home/abi/fetcher/tmp/cracker-0.7.3.tar.gz]
+[2023-06-10 21:56:05] INFO root fetch - processPackages [cracker]: Remove: archive file [/home/abi/fetcher/tmp/cracker-0.8.1.tar.gz]
+[2023-06-10 21:56:05] INFO root fetch - main [MainThread]: End processing [cracker]: success
+[2023-06-10 21:56:05] INFO root fetch - processPackages [geedim]: Remove: archive file [/home/abi/fetcher/tmp/geedim-1.7.1.tar.gz]
+[2023-06-10 21:56:05] INFO root fetch - processPackages [geedim]: Remove: archive file [/home/abi/fetcher/tmp/geedim-1.7.2.tar.gz]
+[2023-06-10 21:56:05] INFO root fetch - main [MainThread]: End processing [geedim]: success
+[2023-06-10 21:56:05] INFO root fetch - main [MainThread]: End processing [dcrx-api]: success
+[2023-06-10 21:56:05] INFO root fetch - processPackages [graphdisplay]: Remove: archive file [/home/abi/fetcher/tmp/graphdisplay-0.4.7.tar.gz]
+[2023-06-10 21:56:05] INFO root fetch - processPackages [graphdisplay]: Remove: archive file [/home/abi/fetcher/tmp/graphdisplay-0.4.8.tar.gz]
+[2023-06-10 21:56:05] INFO root fetch - main [MainThread]: End processing [graphdisplay]: success
+[2023-06-10 21:56:07] INFO root fetch - processPackages [mapbot-frontend]: Remove: archive file [/home/abi/fetcher/tmp/mapbot_frontend-0.1.8.tar.gz]
+[2023-06-10 21:56:07] INFO root fetch - processPackages [mapbot-frontend]: Remove: archive file [/home/abi/fetcher/tmp/mapbot_frontend-0.1.9.tar.gz]
+[2023-06-10 21:56:07] INFO root fetch - main [MainThread]: End processing [mapbot-frontend]: success
+[2023-06-10 21:56:07] INFO root fetch - main [MainThread]: Store serial: [18453381]
