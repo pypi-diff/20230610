@@ -13648,3 +13648,55 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-10 16:29:48] INFO root fetch - processPackages [tongsuopy-crayon]: Remove: archive file [/home/abi/fetcher/tmp/tongsuopy_crayon-1.0.2b6-cp36-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_24_x86_64.whl.zip]
 [2023-06-10 16:29:48] INFO root fetch - main [MainThread]: End processing [tongsuopy-crayon]: success
 [2023-06-10 16:29:48] INFO root fetch - main [MainThread]: Store serial: [18451352]
+[2023-06-10 16:34:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18451352]
+[2023-06-10 16:34:56] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-10 16:34:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PoolFlow
+[2023-06-10 16:34:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PoolFlow
+[2023-06-10 16:34:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pabo
+[2023-06-10 16:34:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PoolFlow
+[2023-06-10 16:34:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nonebot-plugin-game-collection
+[2023-06-10 16:34:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: eta-utility
+[2023-06-10 16:34:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: libTSCANAPI
+[2023-06-10 16:34:57] INFO root fetch - processPackages [PoolFlow]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-10 16:34:57] WARNING root fetch - processPackages [libTSCANAPI]: Skipping, unable to determine old version
+[2023-06-10 16:34:57] INFO root fetch - processPackages [PoolFlow]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-10 16:34:57] INFO root fetch - main [MainThread]: End processing [libTSCANAPI] error
+[2023-06-10 16:34:57] INFO root fetch - processPackages [PoolFlow]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-10 16:34:57] INFO root fetch - processPackages [pabo]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-10 16:34:57] INFO root fetch - processPackages [pabo]: Downloading https://files.pythonhosted.org/packages/a0/fc/e64f2a25d27746d6501e3bdaf5af62bc9a662bc58eec9d7f7023ed9d8bd2/pabo-0.1.2.tar.gz
+[2023-06-10 16:34:57] INFO root fetch - processPackages [nonebot-plugin-game-collection]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-06-10 16:34:57] INFO root fetch - processPackages [PoolFlow]: Downloading https://files.pythonhosted.org/packages/5c/17/ddeee5b089afcc654f5adf52dad475737aa9eb223a6f9f43c8a54fb36546/PoolFlow-0.0.4.tar.gz
+[2023-06-10 16:34:57] INFO root fetch - processPackages [eta-utility]: New version: [2.2.3b3] Old Version: [2.2.3b2]
+[2023-06-10 16:34:57] INFO root fetch - processPackages [PoolFlow]: Downloading https://files.pythonhosted.org/packages/5c/17/ddeee5b089afcc654f5adf52dad475737aa9eb223a6f9f43c8a54fb36546/PoolFlow-0.0.4.tar.gz
+[2023-06-10 16:34:57] INFO root fetch - processPackages [PoolFlow]: Downloading https://files.pythonhosted.org/packages/5c/17/ddeee5b089afcc654f5adf52dad475737aa9eb223a6f9f43c8a54fb36546/PoolFlow-0.0.4.tar.gz
+[2023-06-10 16:34:57] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/f4/58/8a15540c38334bcd6c5c1cc93891f5a1bcb6e02b5c4a4fd34725c03f121e/nonebot_plugin_game_collection-2.1.8.tar.gz
+[2023-06-10 16:34:57] INFO root fetch - processPackages [pabo]: Downloading https://files.pythonhosted.org/packages/56/1e/67fc9c9e50f07da98ed510f222b5c511f88d93483152c696f4fe74233f22/pabo-0.1.3.tar.gz
+[2023-06-10 16:34:57] INFO root fetch - processPackages [eta-utility]: Downloading https://files.pythonhosted.org/packages/45/df/69c36470406251de1cb5359cc144e404e6250d5f3ac1725d351b30502c2d/eta_utility-2.2.3b2.tar.gz
+[2023-06-10 16:34:57] INFO root fetch - processPackages [PoolFlow]: Downloading https://files.pythonhosted.org/packages/b8/f2/4b35e0d9dc0d3c9ccd6f008dbf004dbb256d6d588d8cd125770df39b7feb/PoolFlow-0.0.5.tar.gz
+[2023-06-10 16:34:57] INFO root fetch - processPackages [PoolFlow]: Downloading https://files.pythonhosted.org/packages/b8/f2/4b35e0d9dc0d3c9ccd6f008dbf004dbb256d6d588d8cd125770df39b7feb/PoolFlow-0.0.5.tar.gz
+[2023-06-10 16:34:57] INFO root fetch - processPackages [PoolFlow]: Downloading https://files.pythonhosted.org/packages/b8/f2/4b35e0d9dc0d3c9ccd6f008dbf004dbb256d6d588d8cd125770df39b7feb/PoolFlow-0.0.5.tar.gz
+[2023-06-10 16:34:57] INFO root fetch - processPackages [pabo]: executing diffoscope
+[2023-06-10 16:34:57] INFO root fetch - processPackages [pabo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pabo-0.1.2.tar.gz tmp/pabo-0.1.3.tar.gz --markdown 20230610/p/pabo/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-10 16:34:57] WARNING root fetch - processPackages [eta-utility]: Skipping package: exceeds size limit 15656196>=10485760
+[2023-06-10 16:34:57] INFO root fetch - main [MainThread]: End processing [eta-utility] error
+[2023-06-10 16:34:57] INFO root fetch - processPackages [PoolFlow]: executing diffoscope
+[2023-06-10 16:34:57] INFO root fetch - processPackages [PoolFlow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PoolFlow-0.0.4.tar.gz tmp/PoolFlow-0.0.5.tar.gz --markdown 20230610/P/PoolFlow/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-10 16:34:57] INFO root fetch - processPackages [PoolFlow]: executing diffoscope
+[2023-06-10 16:34:57] INFO root fetch - processPackages [PoolFlow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PoolFlow-0.0.4.tar.gz tmp/PoolFlow-0.0.5.tar.gz --markdown 20230610/P/PoolFlow/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-10 16:34:57] INFO root fetch - processPackages [PoolFlow]: executing diffoscope
+[2023-06-10 16:34:57] INFO root fetch - processPackages [PoolFlow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PoolFlow-0.0.4.tar.gz tmp/PoolFlow-0.0.5.tar.gz --markdown 20230610/P/PoolFlow/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-10 16:34:57] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/40/cf/c30d83f076e973f167bcff6080e47c06a5bee3c96e14111e663309004d8e/nonebot_plugin_game_collection-2.1.9.tar.gz
+[2023-06-10 16:34:57] INFO root fetch - processPackages [nonebot-plugin-game-collection]: executing diffoscope
+[2023-06-10 16:34:57] INFO root fetch - processPackages [nonebot-plugin-game-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_game_collection-2.1.8.tar.gz tmp/nonebot_plugin_game_collection-2.1.9.tar.gz --markdown 20230610/n/nonebot-plugin-game-collection/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-06-10 16:34:58] INFO root fetch - processPackages [PoolFlow]: Remove: archive file [/home/abi/fetcher/tmp/PoolFlow-0.0.4.tar.gz]
+[2023-06-10 16:34:58] INFO root fetch - processPackages [PoolFlow]: Remove: archive file [/home/abi/fetcher/tmp/PoolFlow-0.0.5.tar.gz]
+[2023-06-10 16:34:58] INFO root fetch - main [MainThread]: End processing [PoolFlow]: success
+[2023-06-10 16:34:58] INFO root fetch - processPackages [pabo]: Remove: archive file [/home/abi/fetcher/tmp/pabo-0.1.2.tar.gz]
+[2023-06-10 16:34:58] INFO root fetch - processPackages [pabo]: Remove: archive file [/home/abi/fetcher/tmp/pabo-0.1.3.tar.gz]
+[2023-06-10 16:34:58] INFO root fetch - main [MainThread]: End processing [pabo]: success
+[2023-06-10 16:34:58] INFO root fetch - main [MainThread]: End processing [PoolFlow]: success
+[2023-06-10 16:34:58] INFO root fetch - main [MainThread]: End processing [PoolFlow]: success
+[2023-06-10 16:34:59] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_game_collection-2.1.8.tar.gz]
+[2023-06-10 16:34:59] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_game_collection-2.1.9.tar.gz]
+[2023-06-10 16:34:59] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-game-collection]: success
+[2023-06-10 16:34:59] INFO root fetch - main [MainThread]: Store serial: [18451440]
