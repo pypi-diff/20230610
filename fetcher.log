@@ -16714,3 +16714,59 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-10 21:06:25] INFO root fetch - processPackages [vrp-cli]: Remove: archive file [/home/abi/fetcher/tmp/vrp_cli-1.21.1-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-06-10 21:06:25] INFO root fetch - main [MainThread]: End processing [vrp-cli]: success
 [2023-06-10 21:06:25] INFO root fetch - main [MainThread]: Store serial: [18453167]
+[2023-06-10 21:11:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18453167]
+[2023-06-10 21:11:39] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-10 21:11:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dbx
+[2023-06-10 21:11:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: needed-libs
+[2023-06-10 21:11:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: setuptools-golang
+[2023-06-10 21:11:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: matrix-cloud
+[2023-06-10 21:11:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: highcharts-stock
+[2023-06-10 21:11:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jsonschema-spec
+[2023-06-10 21:11:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gamedetector
+[2023-06-10 21:11:39] INFO root fetch - processPackages [matrix-cloud]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-10 21:11:39] INFO root fetch - processPackages [needed-libs]: New version: [0.5] Old Version: [0.4]
+[2023-06-10 21:11:39] INFO root fetch - processPackages [needed-libs]: Downloading https://files.pythonhosted.org/packages/b4/7b/9141c0dae38585dead590e87bec592be68274d64ac653da3c9b1dbecdd2b/needed-libs-0.4.tar.gz
+[2023-06-10 21:11:39] INFO root fetch - processPackages [matrix-cloud]: Downloading https://files.pythonhosted.org/packages/5b/6b/b8478056f223e87a754ceea1c8645685ff5eb1b91c1acb72118464b4cb6c/matrix_cloud-0.0.1.tar.gz
+[2023-06-10 21:11:39] INFO root fetch - processPackages [highcharts-stock]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-06-10 21:11:39] INFO root fetch - processPackages [jsonschema-spec]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-10 21:11:39] WARNING root fetch - processPackages [gamedetector]: Skipping, unable to determine old version
+[2023-06-10 21:11:39] INFO root fetch - processPackages [setuptools-golang]: New version: [2.8.0] Old Version: [2.7.0]
+[2023-06-10 21:11:39] INFO root fetch - main [MainThread]: End processing [gamedetector] error
+[2023-06-10 21:11:39] INFO root fetch - processPackages [dbx]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-06-10 21:11:39] INFO root fetch - processPackages [jsonschema-spec]: Downloading https://files.pythonhosted.org/packages/e9/02/7f9a208cde31dfc728f02b4bb5210944fed6dae68d8b6872eacef10ac363/jsonschema_spec-0.1.4.tar.gz
+[2023-06-10 21:11:39] INFO root fetch - processPackages [highcharts-stock]: Downloading https://files.pythonhosted.org/packages/1e/07/265b66062a0b5b6da388daafeb10ddb5eb842143c0b6806577dabdd7f4e2/highcharts_stock-1.2.0.tar.gz
+[2023-06-10 21:11:39] INFO root fetch - processPackages [dbx]: Downloading https://files.pythonhosted.org/packages/4a/6f/cdb7e5d3f21562fc53f6987fbb39eddbb303bfd6ccc1a29e0c8fefdbaa14/dbx-0.8.8-py3-none-any.whl
+[2023-06-10 21:11:39] INFO root fetch - processPackages [setuptools-golang]: Downloading https://files.pythonhosted.org/packages/ee/46/0f3e0229dbcc950e4f3f163486a567a0d572ae88c771823b5031c88125dc/setuptools_golang-2.7.0.tar.gz
+[2023-06-10 21:11:39] INFO root fetch - processPackages [matrix-cloud]: Downloading https://files.pythonhosted.org/packages/e8/3d/76219e389d78f94569cd81f551e221bb64547ef45b18d5f5eab57c653c14/matrix_cloud-0.0.2.tar.gz
+[2023-06-10 21:11:39] INFO root fetch - processPackages [needed-libs]: Downloading https://files.pythonhosted.org/packages/5b/b7/270c4c365d32716d639748b40ec856eb274ff7a0b220ca0a4790f19e0ab3/needed-libs-0.5.tar.gz
+[2023-06-10 21:11:39] WARNING root fetch - processPackages [highcharts-stock]: Skipping package: exceeds size limit 11091015>=10485760
+[2023-06-10 21:11:39] INFO root fetch - main [MainThread]: End processing [highcharts-stock] error
+[2023-06-10 21:11:39] INFO root fetch - processPackages [matrix-cloud]: executing diffoscope
+[2023-06-10 21:11:39] INFO root fetch - processPackages [matrix-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matrix_cloud-0.0.1.tar.gz tmp/matrix_cloud-0.0.2.tar.gz --markdown 20230610/m/matrix-cloud/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-10 21:11:39] INFO root fetch - processPackages [needed-libs]: executing diffoscope
+[2023-06-10 21:11:39] INFO root fetch - processPackages [needed-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/needed-libs-0.4.tar.gz tmp/needed-libs-0.5.tar.gz --markdown 20230610/n/needed-libs/0.4-0.5/diff.md --exclude *.pyd
+[2023-06-10 21:11:39] INFO root fetch - processPackages [jsonschema-spec]: Downloading https://files.pythonhosted.org/packages/8e/cc/49a706aca5cfe53ada092dbbb08fcc8dcf221dfb388e3d7a67506b528953/jsonschema_spec-0.1.5.tar.gz
+[2023-06-10 21:11:39] INFO root fetch - processPackages [setuptools-golang]: Downloading https://files.pythonhosted.org/packages/5e/06/9b33e9e1138b4a3bcea2b64ddf218a40ddc72dc3c1df69d04e9e69bccf84/setuptools_golang-2.8.0.tar.gz
+[2023-06-10 21:11:39] INFO root fetch - processPackages [dbx]: Downloading https://files.pythonhosted.org/packages/6c/37/07bb3b0701caca23275b5ae6a911c5e142132a954743c1ccb9d5ed287846/dbx-0.8.9-py3-none-any.whl
+[2023-06-10 21:11:39] INFO root fetch - processPackages [jsonschema-spec]: executing diffoscope
+[2023-06-10 21:11:39] INFO root fetch - processPackages [jsonschema-spec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsonschema_spec-0.1.4.tar.gz tmp/jsonschema_spec-0.1.5.tar.gz --markdown 20230610/j/jsonschema-spec/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-10 21:11:39] INFO root fetch - processPackages [setuptools-golang]: executing diffoscope
+[2023-06-10 21:11:39] INFO root fetch - processPackages [setuptools-golang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/setuptools_golang-2.7.0.tar.gz tmp/setuptools_golang-2.8.0.tar.gz --markdown 20230610/s/setuptools-golang/2.7.0-2.8.0/diff.md --exclude *.pyd
+[2023-06-10 21:11:39] INFO root fetch - processPackages [dbx]: executing diffoscope
+[2023-06-10 21:11:39] INFO root fetch - processPackages [dbx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbx-0.8.8-py3-none-any.whl.zip tmp/dbx-0.8.9-py3-none-any.whl.zip --markdown 20230610/d/dbx/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-06-10 21:11:40] INFO root fetch - processPackages [matrix-cloud]: Remove: archive file [/home/abi/fetcher/tmp/matrix_cloud-0.0.1.tar.gz]
+[2023-06-10 21:11:40] INFO root fetch - processPackages [matrix-cloud]: Remove: archive file [/home/abi/fetcher/tmp/matrix_cloud-0.0.2.tar.gz]
+[2023-06-10 21:11:40] INFO root fetch - main [MainThread]: End processing [matrix-cloud]: success
+[2023-06-10 21:11:40] INFO root fetch - processPackages [needed-libs]: Remove: archive file [/home/abi/fetcher/tmp/needed-libs-0.4.tar.gz]
+[2023-06-10 21:11:40] INFO root fetch - processPackages [needed-libs]: Remove: archive file [/home/abi/fetcher/tmp/needed-libs-0.5.tar.gz]
+[2023-06-10 21:11:40] INFO root fetch - main [MainThread]: End processing [needed-libs]: success
+[2023-06-10 21:11:40] INFO root fetch - processPackages [jsonschema-spec]: Remove: archive file [/home/abi/fetcher/tmp/jsonschema_spec-0.1.4.tar.gz]
+[2023-06-10 21:11:40] INFO root fetch - processPackages [jsonschema-spec]: Remove: archive file [/home/abi/fetcher/tmp/jsonschema_spec-0.1.5.tar.gz]
+[2023-06-10 21:11:40] INFO root fetch - main [MainThread]: End processing [jsonschema-spec]: success
+[2023-06-10 21:11:41] INFO root fetch - processPackages [setuptools-golang]: Remove: archive file [/home/abi/fetcher/tmp/setuptools_golang-2.7.0.tar.gz]
+[2023-06-10 21:11:41] INFO root fetch - processPackages [setuptools-golang]: Remove: archive file [/home/abi/fetcher/tmp/setuptools_golang-2.8.0.tar.gz]
+[2023-06-10 21:11:41] INFO root fetch - main [MainThread]: End processing [setuptools-golang]: success
+[2023-06-10 21:11:41] INFO root fetch - processPackages [dbx]: Remove: archive file [/home/abi/fetcher/tmp/dbx-0.8.8-py3-none-any.whl.zip]
+[2023-06-10 21:11:41] INFO root fetch - processPackages [dbx]: Remove: archive file [/home/abi/fetcher/tmp/dbx-0.8.9-py3-none-any.whl.zip]
+[2023-06-10 21:11:41] INFO root fetch - main [MainThread]: End processing [dbx]: success
+[2023-06-10 21:11:41] INFO root fetch - main [MainThread]: Store serial: [18453191]
