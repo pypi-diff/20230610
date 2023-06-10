@@ -10744,3 +10744,36 @@ EOFError: EOF read where object expected
 [2023-06-10 13:04:24] INFO root fetch - processPackages [fastadmin]: Remove: archive file [/home/abi/fetcher/tmp/fastadmin-0.1.7.tar.gz]
 [2023-06-10 13:04:24] INFO root fetch - main [MainThread]: End processing [fastadmin]: success
 [2023-06-10 13:04:24] INFO root fetch - main [MainThread]: Store serial: [18450145]
+[2023-06-10 13:09:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18450145]
+[2023-06-10 13:09:35] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-10 13:09:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kaiju-tools
+[2023-06-10 13:09:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: garmin-ace
+[2023-06-10 13:09:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: morsecode-enhanced
+[2023-06-10 13:09:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: FoundationDesign
+[2023-06-10 13:09:35] INFO root fetch - processPackages [FoundationDesign]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-10 13:09:35] INFO root fetch - processPackages [morsecode-enhanced]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-10 13:09:35] WARNING root fetch - processPackages [kaiju-tools]: Skipping, unable to determine old version
+[2023-06-10 13:09:35] INFO root fetch - processPackages [garmin-ace]: New version: [0.0.1a6] Old Version: [0.0.1a5]
+[2023-06-10 13:09:35] INFO root fetch - main [MainThread]: End processing [kaiju-tools] error
+[2023-06-10 13:09:35] INFO root fetch - processPackages [garmin-ace]: Downloading https://files.pythonhosted.org/packages/26/c9/63516c5b63c5960f221a09ed7743e9084b384f2473e6044f637866ae607f/garmin_ace-0.0.1a5.tar.gz
+[2023-06-10 13:09:35] INFO root fetch - processPackages [FoundationDesign]: Downloading https://files.pythonhosted.org/packages/1b/55/907928be4e976c72b1484c12b154e63546b8aa8d0d86674c847e52de13f4/FoundationDesign-0.0.1.tar.gz
+[2023-06-10 13:09:35] INFO root fetch - processPackages [morsecode-enhanced]: Downloading https://files.pythonhosted.org/packages/69/15/e8608574908b4864d813167fff689e37316fe95de06a1548c019d28d3f9e/morsecode_enhanced-1.0.1.tar.gz
+[2023-06-10 13:09:35] INFO root fetch - processPackages [FoundationDesign]: Downloading https://files.pythonhosted.org/packages/69/5b/60fe2c02208da0ab5b70c2730af90d5356b97f7ca5f8c917928ba7deaca1/FoundationDesign-0.0.2-py2.py3-none-any.whl
+[2023-06-10 13:09:35] INFO root fetch - processPackages [morsecode-enhanced]: Downloading https://files.pythonhosted.org/packages/93/fc/678a7aae6c8baf4ef65b4f543513b96ed19eb61506d7698ee21bd43fa36d/morsecode_enhanced-1.0.2.tar.gz
+[2023-06-10 13:09:35] INFO root fetch - processPackages [garmin-ace]: Downloading https://files.pythonhosted.org/packages/9d/f8/6a3c23836f67c90a07d4cece6879699e0c60a6c658447f77e8c877feef06/garmin_ace-0.0.1a6.tar.gz
+[2023-06-10 13:09:36] INFO root fetch - processPackages [morsecode-enhanced]: executing diffoscope
+[2023-06-10 13:09:36] INFO root fetch - processPackages [morsecode-enhanced]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/morsecode_enhanced-1.0.1.tar.gz tmp/morsecode_enhanced-1.0.2.tar.gz --markdown 20230610/m/morsecode-enhanced/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-10 13:09:36] INFO root fetch - processPackages [FoundationDesign]: executing diffoscope
+[2023-06-10 13:09:36] INFO root fetch - processPackages [FoundationDesign]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FoundationDesign-0.0.1.tar.gz tmp/FoundationDesign-0.0.2-py2.py3-none-any.whl.zip --markdown 20230610/F/FoundationDesign/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-10 13:09:36] INFO root fetch - processPackages [garmin-ace]: executing diffoscope
+[2023-06-10 13:09:36] INFO root fetch - processPackages [garmin-ace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garmin_ace-0.0.1a5.tar.gz tmp/garmin_ace-0.0.1a6.tar.gz --markdown 20230610/g/garmin-ace/0.0.1a5-0.0.1a6/diff.md --exclude *.pyd
+[2023-06-10 13:09:37] INFO root fetch - processPackages [FoundationDesign]: Remove: archive file [/home/abi/fetcher/tmp/FoundationDesign-0.0.1.tar.gz]
+[2023-06-10 13:09:37] INFO root fetch - processPackages [FoundationDesign]: Remove: archive file [/home/abi/fetcher/tmp/FoundationDesign-0.0.2-py2.py3-none-any.whl.zip]
+[2023-06-10 13:09:37] INFO root fetch - main [MainThread]: End processing [FoundationDesign]: success
+[2023-06-10 13:09:37] INFO root fetch - processPackages [garmin-ace]: Remove: archive file [/home/abi/fetcher/tmp/garmin_ace-0.0.1a5.tar.gz]
+[2023-06-10 13:09:37] INFO root fetch - processPackages [garmin-ace]: Remove: archive file [/home/abi/fetcher/tmp/garmin_ace-0.0.1a6.tar.gz]
+[2023-06-10 13:09:37] INFO root fetch - main [MainThread]: End processing [garmin-ace]: success
+[2023-06-10 13:09:37] INFO root fetch - processPackages [morsecode-enhanced]: Remove: archive file [/home/abi/fetcher/tmp/morsecode_enhanced-1.0.1.tar.gz]
+[2023-06-10 13:09:37] INFO root fetch - processPackages [morsecode-enhanced]: Remove: archive file [/home/abi/fetcher/tmp/morsecode_enhanced-1.0.2.tar.gz]
+[2023-06-10 13:09:37] INFO root fetch - main [MainThread]: End processing [morsecode-enhanced]: success
+[2023-06-10 13:09:37] INFO root fetch - main [MainThread]: Store serial: [18450158]
