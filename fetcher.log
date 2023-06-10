@@ -14748,3 +14748,67 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-10 18:15:53] INFO root fetch - processPackages [flexmeasures]: Remove: archive file [/home/abi/fetcher/tmp/flexmeasures-0.9.4.tar.gz]
 [2023-06-10 18:15:53] INFO root fetch - main [MainThread]: End processing [flexmeasures]: success
 [2023-06-10 18:15:53] INFO root fetch - main [MainThread]: Store serial: [18452053]
+[2023-06-10 18:20:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18452053]
+[2023-06-10 18:21:02] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-10 18:21:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PIX-engine
+[2023-06-10 18:21:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: watlow
+[2023-06-10 18:21:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: psychom-scanner
+[2023-06-10 18:21:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ktpanda-modules
+[2023-06-10 18:21:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nutorious
+[2023-06-10 18:21:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: omniplate
+[2023-06-10 18:21:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-sops-secrets
+[2023-06-10 18:21:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dsdiagram
+[2023-06-10 18:21:02] INFO root fetch - processPackages [watlow]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-06-10 18:21:02] INFO root fetch - processPackages [PIX-engine]: New version: [0.2.0rc2] Old Version: [0.2.0rc1]
+[2023-06-10 18:21:02] INFO root fetch - processPackages [ktpanda-modules]: New version: [1.0.9] Old Version: [1.0.7]
+[2023-06-10 18:21:02] INFO root fetch - processPackages [dsdiagram]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-10 18:21:02] INFO root fetch - processPackages [omniplate]: New version: [0.9.91] Old Version: [0.9.9]
+[2023-06-10 18:21:02] INFO root fetch - processPackages [psychom-scanner]: New version: [0.1.1] Old Version: [0.1]
+[2023-06-10 18:21:02] WARNING root fetch - processPackages [nutorious]: Skipping, unable to determine old version
+[2023-06-10 18:21:02] INFO root fetch - main [MainThread]: End processing [nutorious] error
+[2023-06-10 18:21:02] INFO root fetch - processPackages [cdk-sops-secrets]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-06-10 18:21:02] INFO root fetch - processPackages [omniplate]: Downloading https://files.pythonhosted.org/packages/15/c0/f3e821ec7805adc2eeb940ff29eb3de8d233f24be8ea1da46bcfd28cc811/omniplate-0.9.9.tar.gz
+[2023-06-10 18:21:02] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/e2/8d/e29915f1e26b1a9d52bb33bc0abeaa259422cbc8e7fb8d8031fb9d7855e5/cdk-sops-secrets-1.2.98.tar.gz
+[2023-06-10 18:21:02] INFO root fetch - processPackages [psychom-scanner]: Downloading https://files.pythonhosted.org/packages/ef/5a/d124a994b0f7fd12f90453d89d501ea148cd37609a4319301585a41e3fe4/psychom-scanner-0.1.tar.gz
+[2023-06-10 18:21:02] ERROR root fetch - processPackages [dsdiagram]: Unable to fetch info: No such project/version 'dsdiagram' 0.0.2
+[2023-06-10 18:21:02] INFO root fetch - main [MainThread]: End processing [dsdiagram] error
+[2023-06-10 18:21:02] INFO root fetch - processPackages [ktpanda-modules]: Downloading https://files.pythonhosted.org/packages/ea/dc/600485e5afe97e4a76bb5c55a15d72c38047d80ec24ca0004c063e9c7a19/ktpanda_modules-1.0.7-py3-none-any.whl
+[2023-06-10 18:21:02] INFO root fetch - processPackages [watlow]: Downloading https://files.pythonhosted.org/packages/b2/b0/549bb66066ceccf7d2f9dc36662885985e527642276c03f267690e468572/watlow-0.5.2.tar.gz
+[2023-06-10 18:21:02] INFO root fetch - processPackages [PIX-engine]: Downloading https://files.pythonhosted.org/packages/2b/73/03acc0c9f3930d7c7d3e3cf9797c27adbe1c51037ca5b2d906494e5d5f28/pix_engine-0.2.0rc1.tar.gz
+[2023-06-10 18:21:02] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/10/33/e08c5e7bb6d5b198c75b53cba42224da6ac877f65fd4a4343fecdad9a93e/cdk-sops-secrets-1.2.99.tar.gz
+[2023-06-10 18:21:02] INFO root fetch - processPackages [psychom-scanner]: Downloading https://files.pythonhosted.org/packages/cd/7c/a8b4e1b66d44e8ff6aaafa23cd8e202beb433fd6d0bb1cf141f603b0a92b/psychom-scanner-0.1.1.tar.gz
+[2023-06-10 18:21:02] INFO root fetch - processPackages [omniplate]: Downloading https://files.pythonhosted.org/packages/7d/c0/db55e9aabee0ece55d9d0ed5f8e2eace3409c06ea206932e11739cdf2600/omniplate-0.9.91.tar.gz
+[2023-06-10 18:21:02] INFO root fetch - processPackages [psychom-scanner]: executing diffoscope
+[2023-06-10 18:21:02] INFO root fetch - processPackages [psychom-scanner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psychom-scanner-0.1.tar.gz tmp/psychom-scanner-0.1.1.tar.gz --markdown 20230610/p/psychom-scanner/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-06-10 18:21:02] INFO root fetch - processPackages [PIX-engine]: Downloading https://files.pythonhosted.org/packages/a2/0a/65bb0d3b94ce68428eac18f76f86125e088c5c7c1fc77fdd865bfdedc7c5/PIX-engine-0.2.0rc2.tar.gz
+[2023-06-10 18:21:02] INFO root fetch - processPackages [cdk-sops-secrets]: executing diffoscope
+[2023-06-10 18:21:02] INFO root fetch - processPackages [cdk-sops-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sops-secrets-1.2.98.tar.gz tmp/cdk-sops-secrets-1.2.99.tar.gz --markdown 20230610/c/cdk-sops-secrets/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-06-10 18:21:03] INFO root fetch - processPackages [omniplate]: executing diffoscope
+[2023-06-10 18:21:03] INFO root fetch - processPackages [omniplate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omniplate-0.9.9.tar.gz tmp/omniplate-0.9.91.tar.gz --markdown 20230610/o/omniplate/0.9.9-0.9.91/diff.md --exclude *.pyd
+[2023-06-10 18:21:03] INFO root fetch - processPackages [watlow]: Downloading https://files.pythonhosted.org/packages/d9/b2/d108f9cd6e7065a4c0af8daa6d24d44a5b9cb46615c57d025689698b3803/watlow-0.5.3.tar.gz
+[2023-06-10 18:21:03] INFO root fetch - processPackages [ktpanda-modules]: Downloading https://files.pythonhosted.org/packages/1d/9f/49858d5b950ee0787213d27d2f22bb2180a52761cbe51d575e614ff0a995/ktpanda_modules-1.0.9-py3-none-any.whl
+[2023-06-10 18:21:03] INFO root fetch - processPackages [watlow]: executing diffoscope
+[2023-06-10 18:21:03] INFO root fetch - processPackages [watlow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watlow-0.5.2.tar.gz tmp/watlow-0.5.3.tar.gz --markdown 20230610/w/watlow/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-06-10 18:21:03] INFO root fetch - processPackages [PIX-engine]: executing diffoscope
+[2023-06-10 18:21:03] INFO root fetch - processPackages [PIX-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pix_engine-0.2.0rc1.tar.gz tmp/PIX-engine-0.2.0rc2.tar.gz --markdown 20230610/P/PIX-engine/0.2.0rc1-0.2.0rc2/diff.md --exclude *.pyd
+[2023-06-10 18:21:03] INFO root fetch - processPackages [ktpanda-modules]: executing diffoscope
+[2023-06-10 18:21:03] INFO root fetch - processPackages [ktpanda-modules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ktpanda_modules-1.0.7-py3-none-any.whl.zip tmp/ktpanda_modules-1.0.9-py3-none-any.whl.zip --markdown 20230610/k/ktpanda-modules/1.0.7-1.0.9/diff.md --exclude *.pyd
+[2023-06-10 18:21:03] INFO root fetch - processPackages [psychom-scanner]: Remove: archive file [/home/abi/fetcher/tmp/psychom-scanner-0.1.tar.gz]
+[2023-06-10 18:21:03] INFO root fetch - processPackages [psychom-scanner]: Remove: archive file [/home/abi/fetcher/tmp/psychom-scanner-0.1.1.tar.gz]
+[2023-06-10 18:21:03] INFO root fetch - main [MainThread]: End processing [psychom-scanner]: success
+[2023-06-10 18:21:04] INFO root fetch - processPackages [watlow]: Remove: archive file [/home/abi/fetcher/tmp/watlow-0.5.2.tar.gz]
+[2023-06-10 18:21:04] INFO root fetch - processPackages [watlow]: Remove: archive file [/home/abi/fetcher/tmp/watlow-0.5.3.tar.gz]
+[2023-06-10 18:21:04] INFO root fetch - main [MainThread]: End processing [watlow]: success
+[2023-06-10 18:21:04] INFO root fetch - processPackages [PIX-engine]: Remove: archive file [/home/abi/fetcher/tmp/pix_engine-0.2.0rc1.tar.gz]
+[2023-06-10 18:21:04] INFO root fetch - processPackages [PIX-engine]: Remove: archive file [/home/abi/fetcher/tmp/PIX-engine-0.2.0rc2.tar.gz]
+[2023-06-10 18:21:04] INFO root fetch - main [MainThread]: End processing [PIX-engine]: success
+[2023-06-10 18:21:04] INFO root fetch - processPackages [ktpanda-modules]: Remove: archive file [/home/abi/fetcher/tmp/ktpanda_modules-1.0.7-py3-none-any.whl.zip]
+[2023-06-10 18:21:04] INFO root fetch - processPackages [ktpanda-modules]: Remove: archive file [/home/abi/fetcher/tmp/ktpanda_modules-1.0.9-py3-none-any.whl.zip]
+[2023-06-10 18:21:04] INFO root fetch - main [MainThread]: End processing [ktpanda-modules]: success
+[2023-06-10 18:21:04] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.98.tar.gz]
+[2023-06-10 18:21:04] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.99.tar.gz]
+[2023-06-10 18:21:04] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
+[2023-06-10 18:21:04] INFO root fetch - processPackages [omniplate]: Remove: archive file [/home/abi/fetcher/tmp/omniplate-0.9.9.tar.gz]
+[2023-06-10 18:21:04] INFO root fetch - processPackages [omniplate]: Remove: archive file [/home/abi/fetcher/tmp/omniplate-0.9.91.tar.gz]
+[2023-06-10 18:21:04] INFO root fetch - main [MainThread]: End processing [omniplate]: success
+[2023-06-10 18:21:04] INFO root fetch - main [MainThread]: Store serial: [18452083]
