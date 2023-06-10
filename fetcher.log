@@ -13305,3 +13305,96 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-10 16:08:52] INFO root fetch - processPackages [python-office]: Remove: archive file [/home/abi/fetcher/tmp/python-office-0.3.9.tar.gz]
 [2023-06-10 16:08:52] INFO root fetch - main [MainThread]: End processing [python-office]: success
 [2023-06-10 16:08:52] INFO root fetch - main [MainThread]: Store serial: [18451251]
+[2023-06-10 16:13:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18451251]
+[2023-06-10 16:14:01] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-10 16:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: phomber
+[2023-06-10 16:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zut
+[2023-06-10 16:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gracy
+[2023-06-10 16:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nisyscfg
+[2023-06-10 16:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: localstack-core
+[2023-06-10 16:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-forbid
+[2023-06-10 16:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flexout
+[2023-06-10 16:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sportsml
+[2023-06-10 16:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lidarwind
+[2023-06-10 16:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kcli
+[2023-06-10 16:14:01] INFO root fetch - processPackages [sportsml]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-10 16:14:01] INFO root fetch - processPackages [localstack-core]: New version: [2.1.1.dev20230609221722] Old Version: [2.1.1.dev20230608144453]
+[2023-06-10 16:14:01] INFO root fetch - processPackages [lidarwind]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-10 16:14:01] INFO root fetch - processPackages [kcli]: New version: [99.0.202306101304] Old Version: [99.0.202306100751]
+[2023-06-10 16:14:01] INFO root fetch - processPackages [sportsml]: Downloading https://files.pythonhosted.org/packages/e1/df/82c14bd29661a8f198755e937623b36b1aedaefcc8b9454d8d6782b9290d/sportsml-0.1.1.tar.gz
+[2023-06-10 16:14:01] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/9e/35/d3a832829d9b2d872f3c46b4965d25d338cfdfda32d74e1771d13459134d/localstack-core-2.1.1.dev20230608144453.tar.gz
+[2023-06-10 16:14:01] INFO root fetch - processPackages [lidarwind]: Downloading https://files.pythonhosted.org/packages/9e/87/a9413729b7be30ff50b7e4f5909b16e030eb07057e1a41b146874020cb7e/lidarwind-0.2.2.tar.gz
+[2023-06-10 16:14:01] INFO root fetch - processPackages [flexout]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-06-10 16:14:01] INFO root fetch - processPackages [gracy]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-06-10 16:14:01] INFO root fetch - processPackages [nisyscfg]: New version: [0.1.0] Old Version: [0.0.5]
+[2023-06-10 16:14:01] INFO root fetch - processPackages [phomber]: New version: [3.0.5] Old Version: [3.0.4]
+[2023-06-10 16:14:01] INFO root fetch - processPackages [zut]: New version: [0.6.0] Old Version: [0.5.3]
+[2023-06-10 16:14:01] INFO root fetch - processPackages [django-forbid]: New version: [0.1.4] Old Version: [0.1.2]
+[2023-06-10 16:14:01] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/ca/f7/1031ca5f238d7d402ad684569b1c9dee994bdfe3bd8f36444bb448a89bc9/kcli-99.0.202306100751-py3-none-any.whl
+[2023-06-10 16:14:02] INFO root fetch - processPackages [sportsml]: Downloading https://files.pythonhosted.org/packages/4b/52/c5d013d375b15a74728c89ebbcb63a726dc562cf55053ad183052a423c61/sportsml-0.1.2.tar.gz
+[2023-06-10 16:14:02] INFO root fetch - processPackages [lidarwind]: Downloading https://files.pythonhosted.org/packages/85/0e/3f7af108ff172b58b1c8c74f7e7527c8687e3ff2f519e6d4616fd815c0e8/lidarwind-0.2.3.tar.gz
+[2023-06-10 16:14:02] INFO root fetch - processPackages [phomber]: Downloading https://files.pythonhosted.org/packages/7f/68/30a4015d26f9c684e0a5105c140341acab2e0de0cf51d19ef142c3e00236/phomber-3.0.4-py3.9.egg
+[2023-06-10 16:14:02] INFO root fetch - processPackages [zut]: Downloading https://files.pythonhosted.org/packages/91/04/fe9f79214dd0dddca9a335abf4eaa844f29ab8430f8b75d92cc8640cf951/zut-0.5.3-py3-none-any.whl
+[2023-06-10 16:14:02] INFO root fetch - processPackages [sportsml]: executing diffoscope
+[2023-06-10 16:14:02] INFO root fetch - processPackages [sportsml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sportsml-0.1.1.tar.gz tmp/sportsml-0.1.2.tar.gz --markdown 20230610/s/sportsml/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-10 16:14:02] INFO root fetch - processPackages [nisyscfg]: Downloading https://files.pythonhosted.org/packages/98/c6/7c8f1f9f4380b6e320bbca9bf8014f01dcd6662be5e1ac7d278f2ef1118f/nisyscfg-0.0.5-py3-none-any.whl
+[2023-06-10 16:14:02] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/a5/d9/7621397128b8eb1e16794e170ea134962cf06b0c3f5465c49eb2497c64a6/kcli-99.0.202306101304-py3-none-any.whl
+[2023-06-10 16:14:02] INFO root fetch - processPackages [flexout]: Downloading https://files.pythonhosted.org/packages/35/12/83e6c8ede40b6f5a395a02d3792bbc3a1041d32f72c0d2267abac5e1c1e4/flexout-0.2.3-py3-none-any.whl
+[2023-06-10 16:14:02] INFO root fetch - processPackages [gracy]: Downloading https://files.pythonhosted.org/packages/cd/1f/c880607a2c92ea7edf79b474fe69127bf700211792b250de5688cc0f35c4/gracy-1.9.0.tar.gz
+[2023-06-10 16:14:02] INFO root fetch - processPackages [django-forbid]: Downloading https://files.pythonhosted.org/packages/37/a4/f95cabf561e7f9ba479639397dc37d9bc0151655f4bbe6e8159c7f7cb755/django-forbid-0.1.2.tar.gz
+[2023-06-10 16:14:02] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/69/fe/9712731d97e686aff900b1797228046825217e6a0b9c4c318bc9d85a933d/localstack-core-2.1.1.dev20230609221722.tar.gz
+[2023-06-10 16:14:02] INFO root fetch - processPackages [lidarwind]: executing diffoscope
+[2023-06-10 16:14:02] INFO root fetch - processPackages [lidarwind]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lidarwind-0.2.2.tar.gz tmp/lidarwind-0.2.3.tar.gz --markdown 20230610/l/lidarwind/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-10 16:14:02] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-06-10 16:14:02] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202306100751-py3-none-any.whl.zip tmp/kcli-99.0.202306101304-py3-none-any.whl.zip --markdown 20230610/k/kcli/99.0.202306100751-99.0.202306101304/diff.md --exclude *.pyd
+[2023-06-10 16:14:02] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-06-10 16:14:02] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.1.1.dev20230608144453.tar.gz tmp/localstack-core-2.1.1.dev20230609221722.tar.gz --markdown 20230610/l/localstack-core/2.1.1.dev20230608144453-2.1.1.dev20230609221722/diff.md --exclude *.pyd
+[2023-06-10 16:14:02] INFO root fetch - processPackages [phomber]: Downloading https://files.pythonhosted.org/packages/6e/e0/ae2aca42496325ee885c97a0c0b5b858b7ae04e2c7bbe0b99cf0b5e27eda/phomber-3.0.5-py3.9.egg
+[2023-06-10 16:14:02] INFO root fetch - processPackages [nisyscfg]: Downloading https://files.pythonhosted.org/packages/a5/e4/198ec59a23f5180863911f0b01f46eb9997fbbdd902048ae6f081ec72039/nisyscfg-0.1.0-py3-none-any.whl
+[2023-06-10 16:14:02] INFO root fetch - processPackages [zut]: Downloading https://files.pythonhosted.org/packages/3d/c6/4135218de917937920a55c7e7c85b676862c19058b8696ce15084563d10b/zut-0.6.0-py3-none-any.whl
+[2023-06-10 16:14:02] INFO root fetch - processPackages [django-forbid]: Downloading https://files.pythonhosted.org/packages/f0/c4/80abf1b8ca18ff9d56be35da08c1b3e3fe7080a5c3dfaf2470c6e921d676/django-forbid-0.1.4.tar.gz
+[2023-06-10 16:14:02] INFO root fetch - processPackages [flexout]: Downloading https://files.pythonhosted.org/packages/d3/5f/d91e96bfb9b34caef0e0e38bb3ccb356fd0e9fd6272f137c29eb9b1e1554/flexout-0.2.4-py3-none-any.whl
+[2023-06-10 16:14:02] INFO root fetch - processPackages [gracy]: Downloading https://files.pythonhosted.org/packages/1e/6f/ce2bfb2b73be0d267e60d390c02a83bd9ad556c22357258727c677517895/gracy-1.9.1.tar.gz
+[2023-06-10 16:14:02] INFO root fetch - processPackages [nisyscfg]: executing diffoscope
+[2023-06-10 16:14:02] INFO root fetch - processPackages [nisyscfg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nisyscfg-0.0.5-py3-none-any.whl.zip tmp/nisyscfg-0.1.0-py3-none-any.whl.zip --markdown 20230610/n/nisyscfg/0.0.5-0.1.0/diff.md --exclude *.pyd
+[2023-06-10 16:14:02] INFO root fetch - processPackages [flexout]: executing diffoscope
+[2023-06-10 16:14:02] INFO root fetch - processPackages [django-forbid]: executing diffoscope
+[2023-06-10 16:14:02] INFO root fetch - processPackages [flexout]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flexout-0.2.3-py3-none-any.whl.zip tmp/flexout-0.2.4-py3-none-any.whl.zip --markdown 20230610/f/flexout/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-06-10 16:14:02] INFO root fetch - processPackages [django-forbid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-forbid-0.1.2.tar.gz tmp/django-forbid-0.1.4.tar.gz --markdown 20230610/d/django-forbid/0.1.2-0.1.4/diff.md --exclude *.pyd
+[2023-06-10 16:14:02] INFO root fetch - processPackages [zut]: executing diffoscope
+[2023-06-10 16:14:02] INFO root fetch - processPackages [zut]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zut-0.5.3-py3-none-any.whl.zip tmp/zut-0.6.0-py3-none-any.whl.zip --markdown 20230610/z/zut/0.5.3-0.6.0/diff.md --exclude *.pyd
+[2023-06-10 16:14:02] INFO root fetch - processPackages [phomber]: executing diffoscope
+[2023-06-10 16:14:02] INFO root fetch - processPackages [phomber]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phomber-3.0.4-py3.9.egg tmp/phomber-3.0.5-py3.9.egg --markdown 20230610/p/phomber/3.0.4-3.0.5/diff.md --exclude *.pyd
+[2023-06-10 16:14:02] INFO root fetch - processPackages [gracy]: executing diffoscope
+[2023-06-10 16:14:02] INFO root fetch - processPackages [gracy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gracy-1.9.0.tar.gz tmp/gracy-1.9.1.tar.gz --markdown 20230610/g/gracy/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-06-10 16:14:04] INFO root fetch - processPackages [sportsml]: Remove: archive file [/home/abi/fetcher/tmp/sportsml-0.1.1.tar.gz]
+[2023-06-10 16:14:04] INFO root fetch - processPackages [sportsml]: Remove: archive file [/home/abi/fetcher/tmp/sportsml-0.1.2.tar.gz]
+[2023-06-10 16:14:04] INFO root fetch - main [MainThread]: End processing [sportsml]: success
+[2023-06-10 16:14:04] INFO root fetch - processPackages [django-forbid]: Remove: archive file [/home/abi/fetcher/tmp/django-forbid-0.1.2.tar.gz]
+[2023-06-10 16:14:04] INFO root fetch - processPackages [django-forbid]: Remove: archive file [/home/abi/fetcher/tmp/django-forbid-0.1.4.tar.gz]
+[2023-06-10 16:14:04] INFO root fetch - main [MainThread]: End processing [django-forbid]: success
+[2023-06-10 16:14:04] INFO root fetch - processPackages [flexout]: Remove: archive file [/home/abi/fetcher/tmp/flexout-0.2.3-py3-none-any.whl.zip]
+[2023-06-10 16:14:04] INFO root fetch - processPackages [flexout]: Remove: archive file [/home/abi/fetcher/tmp/flexout-0.2.4-py3-none-any.whl.zip]
+[2023-06-10 16:14:04] INFO root fetch - main [MainThread]: End processing [flexout]: success
+[2023-06-10 16:14:04] INFO root fetch - processPackages [phomber]: Remove: archive file [/home/abi/fetcher/tmp/phomber-3.0.4-py3.9.egg]
+[2023-06-10 16:14:04] INFO root fetch - processPackages [phomber]: Remove: archive file [/home/abi/fetcher/tmp/phomber-3.0.5-py3.9.egg]
+[2023-06-10 16:14:04] INFO root fetch - main [MainThread]: End processing [phomber]: success
+[2023-06-10 16:14:04] INFO root fetch - processPackages [nisyscfg]: Remove: archive file [/home/abi/fetcher/tmp/nisyscfg-0.0.5-py3-none-any.whl.zip]
+[2023-06-10 16:14:04] INFO root fetch - processPackages [nisyscfg]: Remove: archive file [/home/abi/fetcher/tmp/nisyscfg-0.1.0-py3-none-any.whl.zip]
+[2023-06-10 16:14:04] INFO root fetch - main [MainThread]: End processing [nisyscfg]: success
+[2023-06-10 16:14:04] INFO root fetch - processPackages [gracy]: Remove: archive file [/home/abi/fetcher/tmp/gracy-1.9.0.tar.gz]
+[2023-06-10 16:14:04] INFO root fetch - processPackages [gracy]: Remove: archive file [/home/abi/fetcher/tmp/gracy-1.9.1.tar.gz]
+[2023-06-10 16:14:04] INFO root fetch - main [MainThread]: End processing [gracy]: success
+[2023-06-10 16:14:04] INFO root fetch - processPackages [zut]: Remove: archive file [/home/abi/fetcher/tmp/zut-0.5.3-py3-none-any.whl.zip]
+[2023-06-10 16:14:04] INFO root fetch - processPackages [zut]: Remove: archive file [/home/abi/fetcher/tmp/zut-0.6.0-py3-none-any.whl.zip]
+[2023-06-10 16:14:04] INFO root fetch - main [MainThread]: End processing [zut]: success
+[2023-06-10 16:14:04] INFO root fetch - processPackages [lidarwind]: Remove: archive file [/home/abi/fetcher/tmp/lidarwind-0.2.2.tar.gz]
+[2023-06-10 16:14:04] INFO root fetch - processPackages [lidarwind]: Remove: archive file [/home/abi/fetcher/tmp/lidarwind-0.2.3.tar.gz]
+[2023-06-10 16:14:04] INFO root fetch - main [MainThread]: End processing [lidarwind]: success
+[2023-06-10 16:14:09] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230608144453.tar.gz]
+[2023-06-10 16:14:09] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230609221722.tar.gz]
+[2023-06-10 16:14:09] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-06-10 16:14:10] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306100751-py3-none-any.whl.zip]
+[2023-06-10 16:14:10] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306101304-py3-none-any.whl.zip]
+[2023-06-10 16:14:10] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-06-10 16:14:10] INFO root fetch - main [MainThread]: Store serial: [18451277]
