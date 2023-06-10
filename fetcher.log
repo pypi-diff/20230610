@@ -15752,3 +15752,86 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-10 19:24:46] INFO root fetch - processPackages [latch]: Remove: archive file [/home/abi/fetcher/tmp/latch-2.9.6.tar.gz]
 [2023-06-10 19:24:46] INFO root fetch - main [MainThread]: End processing [latch]: success
 [2023-06-10 19:24:46] INFO root fetch - main [MainThread]: Store serial: [18452612]
+[2023-06-10 19:29:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18452612]
+[2023-06-10 19:29:56] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-10 19:29:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: reqto
+[2023-06-10 19:29:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: acb
+[2023-06-10 19:29:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xia-git-gitlab
+[2023-06-10 19:29:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ethyca-fides
+[2023-06-10 19:29:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alicechess
+[2023-06-10 19:29:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: signway-sdk
+[2023-06-10 19:29:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: libretrofuzz
+[2023-06-10 19:29:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: crazy-thursday
+[2023-06-10 19:29:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: BayesCCal
+[2023-06-10 19:29:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lollms
+[2023-06-10 19:29:57] INFO root fetch - processPackages [xia-git-gitlab]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-10 19:29:57] INFO root fetch - processPackages [acb]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-10 19:29:57] INFO root fetch - processPackages [reqto]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-10 19:29:57] INFO root fetch - processPackages [signway-sdk]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-10 19:29:57] INFO root fetch - processPackages [libretrofuzz]: New version: [3.0.8] Old Version: [3.0.7]
+[2023-06-10 19:29:57] INFO root fetch - processPackages [ethyca-fides]: New version: [2.9.2] Old Version: [2.9.1]
+[2023-06-10 19:29:57] INFO root fetch - processPackages [alicechess]: New version: [2.3.0] Old Version: [2.2.1]
+[2023-06-10 19:29:57] WARNING root fetch - processPackages [BayesCCal]: Skipping, unable to determine old version
+[2023-06-10 19:29:57] INFO root fetch - main [MainThread]: End processing [BayesCCal] error
+[2023-06-10 19:29:57] INFO root fetch - processPackages [lollms]: New version: [1.1.9] Old Version: [1.1.7]
+[2023-06-10 19:29:57] INFO root fetch - processPackages [crazy-thursday]: New version: [2023.6.9.1] Old Version: [2023.6.9.0]
+[2023-06-10 19:29:57] INFO root fetch - processPackages [signway-sdk]: Downloading https://files.pythonhosted.org/packages/83/2b/0a0274d6b70d4dbbe3fb67d5332f74289aeffd5df6d32a2715906fe12687/signway_sdk-0.1.1.tar.gz
+[2023-06-10 19:29:57] INFO root fetch - processPackages [acb]: Downloading https://files.pythonhosted.org/packages/75/f1/0a0c11d548b4d81a52eba48b01ae51c5c41aed69ede6b5d528678a9122b9/acb-0.1.6.tar.gz
+[2023-06-10 19:29:57] INFO root fetch - processPackages [libretrofuzz]: Downloading https://files.pythonhosted.org/packages/b6/b3/879bee0b4e0616a5a412aceb2dd2d233c8e46ce6c5afe8cc5d769c1c2078/libretrofuzz-3.0.7.tar.gz
+[2023-06-10 19:29:57] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/3d/63/5860743c06fbd44180fc9469d6a01bbc0644f8be5bc965843b7c2864a173/lollms-1.1.7.tar.gz
+[2023-06-10 19:29:57] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/b1/40/5829ec135b8688f4278ad96c53701edc59c7542d244da7fff625e9bf0586/crazy-thursday-2023.6.9.0.tar.gz
+[2023-06-10 19:29:57] WARNING root fetch - processPackages [lollms]: Skipping package: exceeds size limit 17349845>=10485760
+[2023-06-10 19:29:57] INFO root fetch - main [MainThread]: End processing [lollms] error
+[2023-06-10 19:29:57] INFO root fetch - processPackages [xia-git-gitlab]: Downloading https://files.pythonhosted.org/packages/7b/45/ec429242de57cb4eef803e5cb6eb8d55d10ea9c1f286808856d99ab41e96/xia_git_gitlab-0.0.7-cp39-none-win_amd64.whl
+[2023-06-10 19:29:57] INFO root fetch - processPackages [reqto]: Downloading https://files.pythonhosted.org/packages/7f/33/8914148bf26f5690ad80709994f2a57ff61880ac1bfb4b4da3414f296a71/reqto-0.1.6.tar.gz
+[2023-06-10 19:29:57] INFO root fetch - processPackages [ethyca-fides]: Downloading https://files.pythonhosted.org/packages/a5/ce/6ad04dd381854d1db26960c5cc1e174a086becd7eea9daa2b89a8dde7a70/ethyca-fides-2.9.1.tar.gz
+[2023-06-10 19:29:57] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/5e/9d/4da02a3a3f23da194e2e84c3736bb6b6dddf3afa5ff453187cab26459381/crazy-thursday-2023.6.9.1.tar.gz
+[2023-06-10 19:29:57] INFO root fetch - processPackages [alicechess]: Downloading https://files.pythonhosted.org/packages/0f/b7/44d0e77c88b8b0b4dd372d7b40b8708242b46e0d720e37b2b37ed81949d8/alicechess-2.2.1.tar.gz
+[2023-06-10 19:29:57] INFO root fetch - processPackages [libretrofuzz]: Downloading https://files.pythonhosted.org/packages/c9/21/d1246f43f612a0240270e095983583cf3b638bfb52de1d906a39ee317696/libretrofuzz-3.0.8.tar.gz
+[2023-06-10 19:29:57] INFO root fetch - processPackages [acb]: Downloading https://files.pythonhosted.org/packages/75/cb/533db2fee1500ae6a8a069068a60c4de78fbe281fdeaaa72ba8604c93199/acb-0.1.7.tar.gz
+[2023-06-10 19:29:57] INFO root fetch - processPackages [signway-sdk]: Downloading https://files.pythonhosted.org/packages/af/82/3dbff2ab47678318aae2753c6f24ac3221da14285682e7f27a6a524d07ab/signway_sdk-0.1.2.tar.gz
+[2023-06-10 19:29:57] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2023-06-10 19:29:57] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy-thursday-2023.6.9.0.tar.gz tmp/crazy-thursday-2023.6.9.1.tar.gz --markdown 20230610/c/crazy-thursday/2023.6.9.0-2023.6.9.1/diff.md --exclude *.pyd
+[2023-06-10 19:29:57] INFO root fetch - processPackages [libretrofuzz]: executing diffoscope
+[2023-06-10 19:29:57] INFO root fetch - processPackages [libretrofuzz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libretrofuzz-3.0.7.tar.gz tmp/libretrofuzz-3.0.8.tar.gz --markdown 20230610/l/libretrofuzz/3.0.7-3.0.8/diff.md --exclude *.pyd
+[2023-06-10 19:29:57] INFO root fetch - processPackages [reqto]: Downloading https://files.pythonhosted.org/packages/41/a5/0affa8e9f4b2d2afbbd4a9cf5527f42d33023a9ad14e8ca32794f21553c9/reqto-0.1.7.tar.gz
+[2023-06-10 19:29:57] INFO root fetch - processPackages [acb]: executing diffoscope
+[2023-06-10 19:29:57] INFO root fetch - processPackages [acb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acb-0.1.6.tar.gz tmp/acb-0.1.7.tar.gz --markdown 20230610/a/acb/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-10 19:29:57] INFO root fetch - processPackages [signway-sdk]: executing diffoscope
+[2023-06-10 19:29:57] INFO root fetch - processPackages [signway-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/signway_sdk-0.1.1.tar.gz tmp/signway_sdk-0.1.2.tar.gz --markdown 20230610/s/signway-sdk/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-10 19:29:57] INFO root fetch - processPackages [xia-git-gitlab]: Downloading https://files.pythonhosted.org/packages/5c/10/deef37f6a6c117971c2557277b16ad3a4980b5514b1e06287b57a383d31e/xia_git_gitlab-0.0.8-cp39-none-win_amd64.whl
+[2023-06-10 19:29:57] INFO root fetch - processPackages [reqto]: executing diffoscope
+[2023-06-10 19:29:57] INFO root fetch - processPackages [reqto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reqto-0.1.6.tar.gz tmp/reqto-0.1.7.tar.gz --markdown 20230610/r/reqto/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-10 19:29:57] INFO root fetch - processPackages [alicechess]: Downloading https://files.pythonhosted.org/packages/0b/39/f23c4a1147be7dcc544efd10ab2b1f1a9665e3c493f060b2343757a2b2b4/alicechess-2.3.0.tar.gz
+[2023-06-10 19:29:57] INFO root fetch - processPackages [xia-git-gitlab]: executing diffoscope
+[2023-06-10 19:29:57] INFO root fetch - processPackages [xia-git-gitlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_git_gitlab-0.0.7-cp39-none-win_amd64.whl.zip tmp/xia_git_gitlab-0.0.8-cp39-none-win_amd64.whl.zip --markdown 20230610/x/xia-git-gitlab/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-10 19:29:57] INFO root fetch - processPackages [alicechess]: executing diffoscope
+[2023-06-10 19:29:57] INFO root fetch - processPackages [alicechess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alicechess-2.2.1.tar.gz tmp/alicechess-2.3.0.tar.gz --markdown 20230610/a/alicechess/2.2.1-2.3.0/diff.md --exclude *.pyd
+[2023-06-10 19:29:58] INFO root fetch - processPackages [ethyca-fides]: Downloading https://files.pythonhosted.org/packages/a3/0c/e979f7bc3c1a405c539d4df6c4c75896975e70d6b87777b8378ea071da2c/ethyca-fides-2.9.2.tar.gz
+[2023-06-10 19:29:58] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.6.9.0.tar.gz]
+[2023-06-10 19:29:58] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.6.9.1.tar.gz]
+[2023-06-10 19:29:58] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2023-06-10 19:29:58] INFO root fetch - processPackages [signway-sdk]: Remove: archive file [/home/abi/fetcher/tmp/signway_sdk-0.1.1.tar.gz]
+[2023-06-10 19:29:58] INFO root fetch - processPackages [signway-sdk]: Remove: archive file [/home/abi/fetcher/tmp/signway_sdk-0.1.2.tar.gz]
+[2023-06-10 19:29:58] INFO root fetch - main [MainThread]: End processing [signway-sdk]: success
+[2023-06-10 19:29:58] INFO root fetch - processPackages [acb]: Remove: archive file [/home/abi/fetcher/tmp/acb-0.1.6.tar.gz]
+[2023-06-10 19:29:58] INFO root fetch - processPackages [acb]: Remove: archive file [/home/abi/fetcher/tmp/acb-0.1.7.tar.gz]
+[2023-06-10 19:29:58] INFO root fetch - main [MainThread]: End processing [acb]: success
+[2023-06-10 19:29:58] INFO root fetch - processPackages [libretrofuzz]: Remove: archive file [/home/abi/fetcher/tmp/libretrofuzz-3.0.7.tar.gz]
+[2023-06-10 19:29:58] INFO root fetch - processPackages [libretrofuzz]: Remove: archive file [/home/abi/fetcher/tmp/libretrofuzz-3.0.8.tar.gz]
+[2023-06-10 19:29:58] INFO root fetch - main [MainThread]: End processing [libretrofuzz]: success
+[2023-06-10 19:29:58] INFO root fetch - processPackages [reqto]: Remove: archive file [/home/abi/fetcher/tmp/reqto-0.1.6.tar.gz]
+[2023-06-10 19:29:58] INFO root fetch - processPackages [reqto]: Remove: archive file [/home/abi/fetcher/tmp/reqto-0.1.7.tar.gz]
+[2023-06-10 19:29:58] INFO root fetch - main [MainThread]: End processing [reqto]: success
+[2023-06-10 19:29:59] INFO root fetch - processPackages [xia-git-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/xia_git_gitlab-0.0.7-cp39-none-win_amd64.whl.zip]
+[2023-06-10 19:29:59] INFO root fetch - processPackages [xia-git-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/xia_git_gitlab-0.0.8-cp39-none-win_amd64.whl.zip]
+[2023-06-10 19:29:59] INFO root fetch - main [MainThread]: End processing [xia-git-gitlab]: success
+[2023-06-10 19:29:59] INFO root fetch - processPackages [ethyca-fides]: executing diffoscope
+[2023-06-10 19:29:59] INFO root fetch - processPackages [ethyca-fides]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230610:/home/abi/fetcher/20230610:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ethyca-fides-2.9.1.tar.gz tmp/ethyca-fides-2.9.2.tar.gz --markdown 20230610/e/ethyca-fides/2.9.1-2.9.2/diff.md --exclude *.pyd
+[2023-06-10 19:29:59] INFO root fetch - processPackages [alicechess]: Remove: archive file [/home/abi/fetcher/tmp/alicechess-2.2.1.tar.gz]
+[2023-06-10 19:29:59] INFO root fetch - processPackages [alicechess]: Remove: archive file [/home/abi/fetcher/tmp/alicechess-2.3.0.tar.gz]
+[2023-06-10 19:29:59] INFO root fetch - main [MainThread]: End processing [alicechess]: success
+[2023-06-10 19:30:07] INFO root fetch - processPackages [ethyca-fides]: Remove: archive file [/home/abi/fetcher/tmp/ethyca-fides-2.9.1.tar.gz]
+[2023-06-10 19:30:07] INFO root fetch - processPackages [ethyca-fides]: Remove: archive file [/home/abi/fetcher/tmp/ethyca-fides-2.9.2.tar.gz]
+[2023-06-10 19:30:07] INFO root fetch - main [MainThread]: End processing [ethyca-fides]: success
+[2023-06-10 19:30:07] INFO root fetch - main [MainThread]: Store serial: [18452654]
